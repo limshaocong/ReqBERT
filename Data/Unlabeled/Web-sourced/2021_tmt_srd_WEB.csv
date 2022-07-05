@@ -1,0 +1,185 @@
+source,reqs
+2021_tmt_srd_WEB,The site shall have a high fraction of clear nights.
+2021_tmt_srd_WEB,"The site shall have excellent image quality (large r0, easier to achieve AO performance)."
+2021_tmt_srd_WEB,The site shall have a large isoplanatic angle (larger field of view for AO).
+2021_tmt_srd_WEB,The site shall have long coherence time of atmosphere (easier for AO).
+2021_tmt_srd_WEB,"The site shall have smaller outer scale (L0, improved image quality, easier AO)."
+2021_tmt_srd_WEB,The site shall have high fraction of spectroscopic nights.
+2021_tmt_srd_WEB,The site shall have low precipitable water vapor distribution (lower IR absorption).
+2021_tmt_srd_WEB,The site shall have low typical temperatures (lower thermal background).
+2021_tmt_srd_WEB,"The site shall have high altitude (transparency, low water vapor, low temperature, smaller atmosphere dispersion)."
+2021_tmt_srd_WEB,The site shall have low wind speed distribution to limit telescope buffeting.
+2021_tmt_srd_WEB,The site shall have minimal change of temperature during the night (telescope and instrument athermalization).
+2021_tmt_srd_WEB,The site shall have minimal seasonal temperature variations.
+2021_tmt_srd_WEB,The site shall have minimal day-night temperature variations.
+2021_tmt_srd_WEB,The site shall have a latitude (science opportunities) complementary with existing or future observatories.
+2021_tmt_srd_WEB,The site shall have easy physical access for minimizing construction costs. [REQ-0-SRD-0485] The site shall have good human access for minimizing operating costs. [REQ-0-SRD-0490] Unrestricted access to the chosen site shall be available.
+2021_tmt_srd_WEB,The site shall have a high mechanical integrity of soil.
+2021_tmt_srd_WEB,The site shall have a low seismicity.
+2021_tmt_srd_WEB,The enclosure opening shall not vignette light from the science field or from laser guide stars.
+2021_tmt_srd_WEB,The enclosure motion shall follow motion of the telescope precisely enough that the science field and laser guide stars are not vignetted by the dome.
+2021_tmt_srd_WEB,Enclosure motions shall not delay the beginning of scientific observations.
+2021_tmt_srd_WEB,The enclosure shall protect the telescope from wind buffeting.
+2021_tmt_srd_WEB,The telescope shall meet its image quality specification when integrating over the wind speed probability distribution.
+2021_tmt_srd_WEB,The enclosure shall minimize the amplitude and temporal frequency of wind forces.
+2021_tmt_srd_WEB,"Thermally induced seeing degradation caused by temperature differences shall be minimized by a suitable combination of natural ventilation, insulation, surface emissivity, daytime air conditioning, limiting daytime air leakage, and minimizing thermal inertia of the enclosure interior. The goal is to allow the interior to follow the night-time ambient air temperature as closely as practical."
+2021_tmt_srd_WEB,The enclosure shall protect the telescope against adverse weather and daytime air leakage.
+2021_tmt_srd_WEB,"At night, the enclosure shall be operable at all times in good weather."
+2021_tmt_srd_WEB,The enclosure shall minimize the buildup of snow and ice and provide for easy removal of snow and ice to allow for observing after storms.
+2021_tmt_srd_WEB,The enclosure shall minimize daytime heat infiltration.
+2021_tmt_srd_WEB,The observatory shall protect against accumulation of dust on the telescope and subsystems.
+2021_tmt_srd_WEB,The enclosure shall open or close in under 2 minutes to protect against sudden changes in weather.
+2021_tmt_srd_WEB,"The observatory shall provide suitable servicing facilities for the telescope, optics, AO, and instruments."
+2021_tmt_srd_WEB,"The observatory shall enable science over the wavelength range of 0.34 µm - 28 µm, with a goal of 0.31 µm."
+2021_tmt_srd_WEB,"The observatory shall provide seeing-limited observations for 50% of the time, and diffraction-limited observations (using AO) for 50% of the time."
+2021_tmt_srd_WEB,The telescope shall have a segmented primary mirror with entrance pupil equivalent to 30 m diameter.
+2021_tmt_srd_WEB,"The telescope optics shall be aplanatic with 20 arcmin field of view, 15 arcmin unvignetted."
+2021_tmt_srd_WEB,The telescope shall provide multiple Nasmyth foci on two large Nasmyth platforms with size at least 350 m2 each and ability to place multiple instruments per platform.
+2021_tmt_srd_WEB,The telescope image quality shall not degrade the science capability by more than 20% compared to a perfect telescope at the same site.
+2021_tmt_srd_WEB,The telescope wavefront errors shall be smooth and small compared to the site median atmosphere.
+2021_tmt_srd_WEB,Image blur shall degrade with zenith angle at a rate up to (sec(z))3/5.
+2021_tmt_srd_WEB,Wavefront errors shall degrade with zenith angle at a rate up to (sec(z))1/2.
+2021_tmt_srd_WEB,"The observatory shall provide atmospheric dispersion compensation, applied either by the AO system or instrument, as agreed."
+2021_tmt_srd_WEB,Mirror reflectivity shall be as good as any broadband coatings available.
+2021_tmt_srd_WEB,Blockage of the full aperture by structure only shall be ? 2.5%.
+2021_tmt_srd_WEB,"To the extent practical, blockages shall be simple in shape so they can be masked out by cold pupil stops."
+2021_tmt_srd_WEB,"Baffling shall be provided by the instruments and AO systems as required by the science cases, and in addition small baffles shall be provided around the clear aperture of the M2 and M3."
+2021_tmt_srd_WEB,"Thermal background radiation from the telescope and their primary, secondary, and tertiary mirrors shall be ? 7% of a blackbody at the average ambient night-time temperature for fresh coatings."
+2021_tmt_srd_WEB,The observatory shall provide means for re-coating of the telescope optics to maintain throughput and minimize thermal emission.
+2021_tmt_srd_WEB,The secondary support structure optical cross section shall be minimized to reduce thermal background.
+2021_tmt_srd_WEB,The observatory shall move from any point in the sky to any other and be ready to begin observing in less than 3 minutes.
+2021_tmt_srd_WEB,The observatory shall quickly perform accurate acquisition offsets without guider feedback to support the efficient acquisition of science objects.
+2021_tmt_srd_WEB,The observatory shall perform accurate acquisition offsets of up to 1 degree on the sky to support the efficient acquisition of science objects.
+2021_tmt_srd_WEB,The telescope shall point to within 1 arcsec rms with a goal of 0.5 arcsec rms over the whole accessible sky.
+2021_tmt_srd_WEB,The telescope shall perform accurate guider offsets of up to 5 arcminutes on the sky.
+2021_tmt_srd_WEB,The observatory shall guide/track at any rate up to 1.1 times the sidereal rate and with an error contained within the overall image blur specification in [REQ-0-SRD-0070].
+2021_tmt_srd_WEB,"Observatory instruments and adaptive optics systems shall implement hardware, including cameras or wavefront sensors, to provide acquiistion or guiding error feedback and perform guider offsetting."
+2021_tmt_srd_WEB,The observatory shall observe anywhere on the sky from 1° to 65° zenith angle.
+2021_tmt_srd_WEB,The range and mid-point of telescope azimuth motion shall be sufficient to continuously track any sidereal celestial object across the sky between elevation axis horizon limits.
+2021_tmt_srd_WEB,"The observatory shall provide telescope nod capability, spending at least 80% of the cycle at the end points on average."
+2021_tmt_srd_WEB,Telescope position errors at nod end points of less than 10 arsec shall be no more than 0.05 arcsec rms for seeing-limited observations.
+2021_tmt_srd_WEB,Telescope position errors at nod end points shall be no more than ?/10D for diffraction-limited observations.
+2021_tmt_srd_WEB,"The telescope shall provide nod capability with amplitude of at least ±1 arcsec, a half period of at least 10 seconds, and integration time at least 80%."
+2021_tmt_srd_WEB,"The telescope shall provide nod capability with amplitude of at least ±10 arcsec, a half period of at least 20 seconds, and integration time at least 80%."
+2021_tmt_srd_WEB,"The observatory shall provide telescope dither capability, supporting a pattern of non-redundant dithers, extending over a period of 4 hours with a time interval between two consecutive dithers as short as 20 seconds."
+2021_tmt_srd_WEB,"The observatory shall provide space at the Nasmyth foci for instruments/AO Facilities, with individual masses up to 55 metric tons."
+2021_tmt_srd_WEB,"The observatory shall provide power, cooling, compressed air, and signal lines at instrument locations."
+2021_tmt_srd_WEB,The observatory shall provide access to instruments by personnel for servicing and repairs.
+2021_tmt_srd_WEB,Observatory instruments or adaptive optics systems shall de-rotate the field within the error contained in the overall image blur specification in [REQ-0-SRD-0070].
+2021_tmt_srd_WEB,"NFIRAOS throughput to science instruments shall exceed 60% over 0.8 - 1.0 microns, and 80% over the 1.0 - 2.4 micron wavelength range [Goal: 90% from 0.6 to 2.5 microns]."
+2021_tmt_srd_WEB,The NFIRAOS unvignetted field of view shall be at least 2 arcmin diameter.
+2021_tmt_srd_WEB,"Useful NFIRAOS correction shall be achieved over a 2.3 arcmin diameter field of view, with no more than 30% vignetting."
+2021_tmt_srd_WEB,"NFIRAOS LGS MCAO shall deliver a K-band Strehl ratio > 0.7 over at least a 30 arcsec diameter, with a goal of K-band Strehl ratio > 0.86 for the NFIRAOS upgrade."
+2021_tmt_srd_WEB,"Under median conditions, the J band energy in a 160 mas slit shall be at least 30% averaged over the 2.3 arcmin diameter field of view."
+2021_tmt_srd_WEB,"Under median conditions, the K band energy in a 160 mas slit shall be at least 40% averaged over the 2.3 arcmin diameter field of view."
+2021_tmt_srd_WEB,"NFIRAOS sky coverage shall be > 50% at the galactic poles, with < 2.3 mas rms tip-tilt jitter."
+2021_tmt_srd_WEB,NFIRAOS shall not increase the (inter-OH) background by more than 15% over natural sky (see Appendix D) + telescope background (assume 7% emissivity at 273 K).
+2021_tmt_srd_WEB,"Systematic errors in differential AO photometry due to PSF residual spatial variability shall be less than 2% for 10-minute integrations, at 1 µm, over the 30 arcsec FOV."
+2021_tmt_srd_WEB,"Absolute AO photometric accuracy shall be better than 10%, with a goal of 5%, with suitable observations of photometric standards."
+2021_tmt_srd_WEB,"Residual time-dependent one-dimensional distortions over a 30 arcsec AO FOV (after a fit to physically allowed distortion measured with field stars) shall be no larger than 50 µas rms in the H band, for a 100 s integration time, with errors falling as t-1/2."
+2021_tmt_srd_WEB,Systematic one-dimensional position uncertainties over a 30 arcsec AO FOV shall be no larger than 10 µas rms in the H band.
+2021_tmt_srd_WEB,"The observatory shall provide multiple synthetic beacons (Na guide stars) in order to tomographically measure the atmosphere, allow the desired AO correction, and achieve significant sky coverage."
+2021_tmt_srd_WEB,"NFIRAOS NGSAO shall deliver a K-band Strehl ratio > 0.82 over the natural angular limits imposed by the isoplanatic angle, using a single R < 8 magnitude guide star."
+2021_tmt_srd_WEB,"NFIRAOS NGSAO shall deliver a K-band Strehl ratio > 0.74 over the natural angular limits imposed by the isoplanatic angle, using a single R < 12 magnitude guide star."
+2021_tmt_srd_WEB,Dither pattern losses shall be under 1 second for up to 5 arcsec and 5 seconds for up to 30 arcsec.
+2021_tmt_srd_WEB,The observatory shall execute dither patterns with moves from 1 arcsec to 30 arcsec.
+2021_tmt_srd_WEB,"The IRIS wavelength range shall be at least 0.84 µm - 2.4 µm, with a goal of 0.6 µm - 5 µm."
+2021_tmt_srd_WEB,The IRIS IFU shall have a field of view > 3 arcsec along spatial direction.
+2021_tmt_srd_WEB,The IRIS imager shall have a field of view greater than 30 x 30 arcsec.
+2021_tmt_srd_WEB,IRIS shall preserve the wavefront quality delivered by the AO system for all modes in which the diffraction limit is critically sampled.
+2021_tmt_srd_WEB,"IRIS, in the case of coarser IFU plate scales, shall not decrease the ensquared energy per spatial pixel by more than 10% over that provided by the AO system."
+2021_tmt_srd_WEB,The IRIS imager shall provide spatial sampling of 0.004 arcsec per pixel (Nyquist sampled at ~ 1 micron).
+2021_tmt_srd_WEB,"The IRIS IFU shall provide selectable plate scales of 0.004, 0.009, 0.025, 0.050 arcsec/spaxel."
+2021_tmt_srd_WEB,"The IRIS IFU shall provide spectral resolution R > 3500 over entire z, Y, J, H, K bands, one band at a time."
+2021_tmt_srd_WEB,The IRIS imager shall provide a spectral resolution R = 5 - 100.
+2021_tmt_srd_WEB,IRIS shall not increase the (inter-OH) background by more than 15% over natural sky (see Appendix D) + telescope background (assume 7% emissivity at 273 K).
+2021_tmt_srd_WEB,The IRIS imager shall not increase the K-band background by more than 15% over natural sky.
+2021_tmt_srd_WEB,"IRIS shall enable precise differential astrometry measurements, where one- dimensional time-dependent rms astrometric positional uncertainties, after fitting distortion measured with field stars, and over a 30 arcsecond field of view, shall be no larger than 13.3 µ- arcseconds in the H band for a 100s integration time."
+2021_tmt_srd_WEB,IRIS systematic errors contribution shall be no more than 10 µas.
+2021_tmt_srd_WEB,IRIS detector dark current and read noise shall not increase the effective background by more than 5% for an integration time of 900 s.
+2021_tmt_srd_WEB,IRIS sky subtraction accuracy for IFU modes shall be dominated by the photon statistics of the background for integrations > 900 s for the two coarsely sampled IFU modes.
+2021_tmt_srd_WEB,The IRIS IFU throughput shall be > 30% (excluding the AO system and telescope).
+2021_tmt_srd_WEB,"The WFOS wavelength range shall be at least 0.31 µm - 1.0 µm, with a goal of 0.31 µm - 1.3 µm."
+2021_tmt_srd_WEB,The WFOS spectroscopy field of view shall be > 25 arcmin2.
+2021_tmt_srd_WEB,WFOS shall be able to take an image of its spectrometric mode field of view.
+2021_tmt_srd_WEB,The WFOS total slit length shall be < 500 arcsec.
+2021_tmt_srd_WEB,WFOS imaging mode shall yield an image quality including polychromatic correction residuals no worse than 0.45 arcsec FWHM.
+2021_tmt_srd_WEB,WFOS spectroscopy mode shall yield encircled energy > 80% within an angular diameter of 0.25 arcsec on-sky.
+2021_tmt_srd_WEB,WFOS image positions shall be achromatic to better than 0.05 arcsec over the full range of telescope zenith angles.
+2021_tmt_srd_WEB,"WFOS shall have a spectral resolution of R = 1500 - 3500, with a 0.75 arcsec slit."
+2021_tmt_srd_WEB,"WFOS, in spectroscopy mode, shall have an on-axis throughput of ? 25% from 0.31 µm - 1.00 µm, and ? 30% from 0.35 µm - 0.90 µm, not including the telescope."
+2021_tmt_srd_WEB,"WFOS spectra shall be photon noise limited (negligible systematic errors from background subtraction, negligible detector read noise and dark current) for any exposure longer than 300 seconds."
+2021_tmt_srd_WEB,A goal is for WFOS to provide imaging through 0.5% - 1% bandwidth filters.
+2021_tmt_srd_WEB,A goal is for WFOS to provide an IFU option.
+2021_tmt_srd_WEB,"A goal is for WFOS to exploit AO-based image quality improvements (i.e., GLAO)."
+2021_tmt_srd_WEB,The MODHIS science channel shall provide wavelength coverage over the 0.95 µm - 2.4 µm range.
+2021_tmt_srd_WEB,The MODHIS science channel shall provide simultaneous coverage for a given science target across the full yJ and HK astronomical bands.
+2021_tmt_srd_WEB,"MODHIS shall provide an average spectral resolution R ? 100,000 over its entire science passband."
+2021_tmt_srd_WEB,MODHIS shall provide an instrumental radial velocity precision of < 30 cm/s (goal of 10 cm/s).
+2021_tmt_srd_WEB,The MODHIS science channel shall be capable of performing science on a single target with a goal of offering a multiplex of up to 4 separate simultaneous science targets.
+2021_tmt_srd_WEB,MODHIS shall provide an unvignetted field-of-regard > 4 x 4 arcsecs square.
+2021_tmt_srd_WEB,"The MODHIS science channel shall be capable of Nyquist sampling a point source from within the field-of-regard in each of y, J, H, and K bands."
+2021_tmt_srd_WEB,The MODHIS science channel end-to-end throughput shall be > 10%.
+2021_tmt_srd_WEB,MODHIS’s front end instrument shall not degrade the wavefront quality of that delivered by NFIRAOS by more than 40 nm rms.
+2021_tmt_srd_WEB,The MODHIS spectrograph shall provide an ensquared energy ? 80% within a single pixel across 95% of the detector area.
+2021_tmt_srd_WEB,MODHIS shall enable subtraction of the background to better than 1%.
+2021_tmt_srd_WEB,"MODHIS shall provide raw contrast ratio of ? 100 from 0.5 ?/D to 2 ?/D and ? 1,000 from 2 ?/D to the edge of the field of regard."
+2021_tmt_srd_WEB,MODHIS shall provide spectropolarimetry with 0.1% (goal) polarimetric precision in y and J bands.
+2021_tmt_srd_WEB,MOAO throughput shall exceed 85% from 0.6 µm to 2.5 µm.
+2021_tmt_srd_WEB,"The MOAO system shall provide at least 10 corrected regions, each > 5 arcsec diameter, with adjustable positions over a > 20 arcmin2 field of view."
+2021_tmt_srd_WEB,The minimum separation of the MOAO-corrected regions shall be < 20 arcsec.
+2021_tmt_srd_WEB,The MOAO system shall deliver at least 50% of the flux from a point source at 1 µm wavelength into a 0.05 arcsec square.
+2021_tmt_srd_WEB,MOAO sky coverage shall be at least 90% at the galactic poles.
+2021_tmt_srd_WEB,The MOAO system shall not increase the (inter-OH) background by more than 15% over natural sky (see Appendix D) + telescope background (assume 7% emissivity at 273 K).
+2021_tmt_srd_WEB,Lasers shall be deployable in a flexible way over the 5-arcmin-diameter field to maximize the effectiveness of the AO correction depending on the geometry of the field being observed and the distribution of targets within it.
+2021_tmt_srd_WEB,MIRAO throughput shall exceed 85% from 4.5 µm to 28 µm.
+2021_tmt_srd_WEB,The MIRAO field of view shall be > 10 arcsec diameter with a goal of 1 arcmin diameter.
+2021_tmt_srd_WEB,"The MIRAO system shall have a wavefront error < 750 nm rms, goal < 350 nm rms."
+2021_tmt_srd_WEB,"MIRAO sky coverage shall be all sky, limited only by availability of tip-tilt natural guide stars."
+2021_tmt_srd_WEB,The MIRAO system shall not increase the N band background by more than 15% over natural sky (see Appendix D) + telescope background (assume 7% emissivity at 273 K).
+2021_tmt_srd_WEB,"Systematic, uncalibrated errors in MIRAO photometry due to PSF residual spatial variability shall be < 5% in the N band (10 µm) over a 1 arcmin field."
+2021_tmt_srd_WEB,The MIRAO system shall provide sufficient calibration information so as not to degrade differential astrometric precision beyond the limits set by the atmosphere.
+2021_tmt_srd_WEB,The IRMOS wavelength range shall be at least 0.8 µm - 2.5 µm.
+2021_tmt_srd_WEB,IRMOS shall provide IFU heads deployable over > 2 arcmin diameter field of regard (goal 5 arcmin).
+2021_tmt_srd_WEB,IRMOS shall preserve the wavefront quality delivered by the AO system (50% ensquared energy in 0.050 arcsec).
+2021_tmt_srd_WEB,IRMOS shall provide spatial sampling of 0.05 x 0.05 arcsec (other scales TBD). Goal: additional sampling when needed of 0.01 arcsec.
+2021_tmt_srd_WEB,Each IRMOS IFU shall have a field of view at least 3 arcsec diameter.
+2021_tmt_srd_WEB,IRMOS shall provide at least 10 integral field units.
+2021_tmt_srd_WEB,IRMOS IFU heads shall be positionable to within <20 arcsec of each other.
+2021_tmt_srd_WEB,The IRMOS IFU shall provide spectral resolution R = 2000 - 10000.
+2021_tmt_srd_WEB,"The IRMOS IFU shall capture the individual z, Y, J, H, K bands in a single exposure at R = 4,000’."
+2021_tmt_srd_WEB,"IRMOS throughput shall be > 30%, excluding the AO system and telescope."
+2021_tmt_srd_WEB,IRMOS shall not increase the (inter-OH) background by more than 15% over natural sky (see Appendix D) + telescope background (assume 7% emissivity at 273 K).
+2021_tmt_srd_WEB,IRMOS detector dark current and read noise shall not increase the effective background by more than 5% for an integration time of 900 s.
+2021_tmt_srd_WEB,"The MIRES wavelength range shall be at least 8 µm - 18 µm, with a goal of 4.5 µm - 28 µm."
+2021_tmt_srd_WEB,"As a desirable goal, the MIRES science camera shall be provided with the same field of view and sampling as the acquisition camera (10 arcsec diameter and Nyquist Sampling at 5 µm)."
+2021_tmt_srd_WEB,"MIRES shall have a slit length > 3 arcsec, sampled at < 0.04 arcsec/pixel."
+2021_tmt_srd_WEB,"MIRES shall provide spectral resolution R = 5000 - 100,000 with a diffraction- limited slit."
+2021_tmt_srd_WEB,"MIRES single exposures at R = 100,000 mode shall provide continuous coverage over the imaged orders, 8 - 14 µm."
+2021_tmt_srd_WEB,MIRES shall not increase the N band background by more than 15% over natural sky (see Appendix D) + telescope background (assume 7% emissivity at 273 K).
+2021_tmt_srd_WEB,MIRES throughput shall be > 20%.
+2021_tmt_srd_WEB,"MIRES sensitivity shall be limited by photon statistics in the background, and not limited by any systematic errors, up to an 8 hr integration."
+2021_tmt_srd_WEB,"The telescope with feedback from MIRES shall support small motions along a slit that keep the science target within a slit width of 0"".10 to maintain the slit light loss below 30%."
+2021_tmt_srd_WEB,The telescope nod amplitude shall cover the length of the MIRES slit with an accuracy of ?/10D at 8 µm.
+2021_tmt_srd_WEB,"The PFI wavelength range shall be at least 1 µm - 2.5 µm, with a goal of 1 µm - 5 µm."
+2021_tmt_srd_WEB,PFI shall have a field of view of 1 arcsec radius with respect to the exoplanet star.
+2021_tmt_srd_WEB,PFI shall deliver an H-band resolution of 14 milliarcsecs with a Strehl ratio greater than 0.9.
+2021_tmt_srd_WEB,PFI shall be Nyquist sampled at 1 µm (?/2D = 0.0035 arcsec).
+2021_tmt_srd_WEB,The PFI IFU shall have spectral resolution R up to 100.
+2021_tmt_srd_WEB,PFI shall exceed a planet detection contrast ratio of 108 (goal 109) before systematic errors dominate in H band on stars with I < 8 mag and at inner working angles of 50 mas.
+2021_tmt_srd_WEB,PFI shall exceed a planet detection contrast ratio of 106 (goal 5x106) with H < 10 at inner working angles > 30 mas.
+2021_tmt_srd_WEB,"PFI shall detect polarized light at a level of 1% of the residual stellar halo, and measure absolute polarization to an accuracy of 10%."
+2021_tmt_srd_WEB,The NIRES-R wavelength range shall be at least 2.4 µm - 5.0 µm.
+2021_tmt_srd_WEB,"NIRES-R slit length shall be > 2 arcsec, to provide the ability to nod along the slit to improve background subtraction."
+2021_tmt_srd_WEB,"NIRES-R shall deliver diffraction-limited images to the detector, as delivered by the MIRAO system."
+2021_tmt_srd_WEB,NIRES-R shall provide spatial sampling of ?/2D = 0.01 arcsec per pixel (Nyquist sampled at 2.9 µm).
+2021_tmt_srd_WEB,"The NIRES-R spectral resolution shall be R > 100,000."
+2021_tmt_srd_WEB,NIRES-R shall not increase the background by more than 15% over natural sky (see Appendix D) + telescope background (assume 7% emissivity at 273 K).
+2021_tmt_srd_WEB,NIRES-R detector dark current and read noise shall not increase the effective background by more than 5% for an integration time of 900 s.
+2021_tmt_srd_WEB,NIRES-R throughput shall be > 20%.
+2021_tmt_srd_WEB,The HROS wavelength range shall be at least 0.31 µm - 1.0 µm.
+2021_tmt_srd_WEB,"HROS slit length shall be > 5 arcsec, with > 5 arcsec separation between orders."
+2021_tmt_srd_WEB,HROS image quality (including only HROS optics) shall be no worse than 0.2 arcsec FWHM at the detector.
+2021_tmt_srd_WEB,"HROS spatial sampling shall be no coarser than 0.2 arcsec, to adequately sample the best optical images provided by the telescope."
+2021_tmt_srd_WEB,"HROS shall provide spectral resolution R = 50,000 with a 1 arcsec slit."
+2021_tmt_srd_WEB,HROS throughput shall be > 25% from telescope focal plane to detected photons.

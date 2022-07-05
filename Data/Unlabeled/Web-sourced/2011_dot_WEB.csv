@@ -1,0 +1,592 @@
+source,reqs
+2011_dot_WEB,The Core System shall be configured to a geographic boundary of its services for System Users.
+2011_dot_WEB,The Core System subsystems shall send status to the Service Monitor Subsystem.
+2011_dot_WEB,The Core System subsystems shall transition to degraded mode upon a failure.
+2011_dot_WEB,The Core System subsystems shall accept requests from an authorized System Operator to transition the Core System subsystem's mode.
+2011_dot_WEB,The Core System subsystems shall accept requests from an authorized System Operator to transition the Core System subsystem's state.
+2011_dot_WEB,The Core System shall validate its configuration with interfacing Core Systems.
+2011_dot_WEB,The Core System shall accept error messages from System Users.
+2011_dot_WEB,The Core System shall validate trust credentials with System Users.
+2011_dot_WEB,The Core System shall provide a history of System User's accesses to the Core System.
+2011_dot_WEB,The Core System shall provide a list of available services to System Users.
+2011_dot_WEB,The Core System shall identify misbehavior with System Users.
+2011_dot_WEB,The Core System shall provide a backup capability with interfacing Core Systems.
+2011_dot_WEB,The Core System shall provide data forwarding capability to System Users.
+2011_dot_WEB,The Core System shall provide a secure storage capability to protect data.
+2011_dot_WEB,The Core System shall accept System User's requests to receive data.
+2011_dot_WEB,The Core System shall maintain a catalog of data providers.
+2011_dot_WEB,The Core System shall accept requests to publish data from System Users.
+2011_dot_WEB,The Core System shall validate user permissions with System Users.
+2011_dot_WEB,The Core System shall manage information on data publishers.
+2011_dot_WEB,The Core System shall provide an interface to an authorized System Operator to configure the Publisher/Subscriber data configuration.
+2011_dot_WEB,The Core System shall provide an interface to an authorized System Operator to configure the source-to- point data configuration.
+2011_dot_WEB,The Core System subsystems shall send state information to the Service Monitor Subsystem.
+2011_dot_WEB,The Core System subsystems shall accept time of day from the Time Subsystem
+2011_dot_WEB,The Core System shall receive misbehavior reports from System Users.
+2011_dot_WEB,The Core System shall accept requests from an authorized System Operator to configure correlation processing.
+2011_dot_WEB,The Core System shall send reports to an authorized System Operator identifying misbehavior of the Core System.
+2011_dot_WEB,The Core System shall provide message distribution based on geographical location.
+2011_dot_WEB,The Core System shall manage status of the Core System.
+2011_dot_WEB,The Core System shall provide a list of available Core System services to other Core Systems.
+2011_dot_WEB,The Core System shall manage the health of the Core System.
+2011_dot_WEB,The Core System shall manage the Core System software configuration.
+2011_dot_WEB,The Core System shall manage Core System hardware configuration.
+2011_dot_WEB,The Core System shall manage transitions between states of the Core System.
+2011_dot_WEB,The Core System shall receive time from an external source.
+2011_dot_WEB,The Core System shall synchronize time to the Core System subsystems.
+2011_dot_WEB,The Core System shall validate user permissions with Core System Personnel.
+2011_dot_WEB,The Core System shall validate the System User's certificate(s).
+2011_dot_WEB,The Core System shall validate messages from System Users.
+2011_dot_WEB,The Core System shall manage IEEE 1609.2 Certificate Authority functions for System Users.
+2011_dot_WEB,The Core System shall manage X.509 Certificate Authority functions for System Users.
+2011_dot_WEB,The Core System shall provide an interface to an authorized System Operator to manage X.509 Certificate Authority functions.
+2011_dot_WEB,The Core System shall provide an interface to an authorized System Operator to manage IEEE 1609.2 Certificate Authority functions.
+2011_dot_WEB,The Core System shall provide an interface to an authorized System Operator to manage Certificate Authority (CA) locations.
+2011_dot_WEB,The Core System shall manage 1609.2 Certificates to System Users.
+2011_dot_WEB,The Core System shall synchronize status from other Core Systems it interfaces with every 5 minutes (TBD) to check availability.
+2011_dot_WEB,The Core System subsystems shall send a message within 30 seconds[TBD] to all interfacing Core Systems upon any state change.
+2011_dot_WEB,The Core System shall buffer forwarding data with a latency no greater than 500ms[TBD].
+2011_dot_WEB,The Core System shall process up to [TBD] misbehavior reports per minute from System Users.
+2011_dot_WEB,The Core System shall perform the misbehavior report correlation processing [TBD] times per hour.
+2011_dot_WEB,The Core System geocast service shall support up to [TBD] geocast sessions at any given time.
+2011_dot_WEB,The Core System geocast service shall support up to [TBD] megabits per second (Mbps) per geocast stream.
+2011_dot_WEB,The Core System shall notify an authorized System Operator within 30 seconds upon a failure.
+2011_dot_WEB,The time of day shall not drift (lagging or leading in time) from the external time source standard time reference by more than [TBD] 1 second per year.
+2011_dot_WEB,The Core System shall synchronize the time of day with all the Core Subsystems every 10ms (TBD).
+2011_dot_WEB,"Upon request, the Core System shall provide Core System Personnel registration information to other Core System subsystems with [TBD] seconds."
+2011_dot_WEB,"Upon request, the Core System shall provide Core System Personnel user permissions information to other Core System subsystems with [TBD] seconds."
+2011_dot_WEB,"Upon request from an authorized System Operator, the Core System shall provide System User registration information to other Core System subsystems within [TBD] seconds."
+2011_dot_WEB,"Upon request from an authorized System Operator, the Core System shall provide System User permissions information to other Core System subsystems within [TBD] seconds."
+2011_dot_WEB,The Core System shall process up to [TBD] 1609.2 Certificate Requests per second from System Users.
+2011_dot_WEB,The Core System shall process up to [TBD] X.509 Certificate Requests per minute from System Users.
+2011_dot_WEB,The Core System shall generate 1609.2 Certificate Revocation Lists (CRL) periodically at [TBD] rate.
+2011_dot_WEB,The Core System shall generate X.509 Certificate Revocation Lists (CRL) periodically at [TBD] rate.
+2011_dot_WEB,The Core System's subsystems shall periodically send their operational state to the Service Monitor Subsystem every 500ms. Note: this also represents a heartbeat.
+2011_dot_WEB,The Core System shall interface with other Core Systems.
+2011_dot_WEB,The Core System shall interface to System Users for data distribution.
+2011_dot_WEB,The Core System shall interface to System Users for misbehavior management.
+2011_dot_WEB,The Core System shall interface to System Users to provide status information.
+2011_dot_WEB,The Core System shall interface to a real-time external time source to provide time synchronization with the Core System.
+2011_dot_WEB,The Core System shall interface to an authorized System Operator Administrator to support user permission configuration.
+2011_dot_WEB,The Core System shall interface to System Users.
+2011_dot_WEB,The Core System shall interface to System Users for 1609.2 Certificates.
+2011_dot_WEB,The Core System shall interface to System Users for X.509 Certificates.
+2011_dot_WEB,The Core System shall provide internal interfaces to decoupled Core System services for a distributed system.
+2011_dot_WEB,The Core System shall support an Internet interface to connect to System Users.
+2011_dot_WEB,The Core System shall maintain a knowledge base of interfacing Core Systems.
+2011_dot_WEB,The Core System shall maintain a registry of publisher information.
+2011_dot_WEB,The Core System shall maintain a registry of data requester information.
+2011_dot_WEB,The Core System shall maintain a registry of misbehavior information.
+2011_dot_WEB,The Core System shall store Core System subsystems status.
+2011_dot_WEB,The Core System shall store Core System subsystems states.
+2011_dot_WEB,The Core System shall store interfacing Core System(s) status.
+2011_dot_WEB,The Core System shall store System User's permission information.
+2011_dot_WEB,The Core System shall store System User's Certificate information.
+2011_dot_WEB,The Core System shall store Certificate Revocation Lists (CRL).
+2011_dot_WEB,The Core System shall be enclosed in a secure facility for authorized personnel only.
+2011_dot_WEB,The Core System shall validate user’s authorization upon entering the facility.
+2011_dot_WEB,The Core System's facility shall be protected by physical access controls.
+2011_dot_WEB,The Core System's facility shall log physical access attempts.
+2011_dot_WEB,The Core System shall operate in an environmentally safe facility.
+2011_dot_WEB,"The Core System's facility shall operate when exposed to a relative humidity up to 95%, including condensation."
+2011_dot_WEB,The Core System's facility shall operate in ambient temperatures from 0*C (32*F) to 40*C (104*F).
+2011_dot_WEB,The facility housing the Core System's equipment shall have an air-conditioning system capable of providing a relative humidity of 45-50%.
+2011_dot_WEB,The facility housing the Core System's equipment shall not vary the relative humidity more than 10% per hour of operation.
+2011_dot_WEB,The facility housing the Core System's equipment shall have heat and smoke detectors that meet or exceed all local fire code regulations.
+2011_dot_WEB,The Core System shall operate in case of power failure.
+2011_dot_WEB,The Core System shall provide sufficient backup power capacity capable of supporting the Core System up to 4 hours [TBD].
+2011_dot_WEB,The facility housing the Core System's equipment shall allow for the network equipment racks to be electrically grounded.
+2011_dot_WEB,The Core System shall be available in normal operational state 99.5% of the time (an average of less than one hour per week or 1.83 days per year).
+2011_dot_WEB,The Core System's Mean Time To Repair (MTTR) shall not exceed 3.0 hours [TBD].
+2011_dot_WEB,The Core System Mean Time Between Failures (MTBF) shall be greater than 1500 hours (62.5 days) [TBD].
+2011_dot_WEB,The Core System shall transition to Training State when commanded by an authorized System Operator.
+2011_dot_WEB,"During Training State, each Core System subsystems shall be allowed to display real-time log messages."
+2011_dot_WEB,"During Training State, each Core System subsystems shall be allowed to provide debug messages."
+2011_dot_WEB,"During Training State, the Core2Core Subsystem shall be disabled."
+2011_dot_WEB,The Core System shall conform to the privacy principles as defined in the VII Privacy Policies Framework regarding the use of personal information.
+2011_dot_WEB,"The IEEE 1609.x family of standards (including 1609.1, 1609.2, 1609.3 and 1609.4) shall serve as the interface standards for 5.9GHz DSRC."
+2011_dot_WEB,The X.509 certificates shall provide the basis for Core and System User non-DSRC certificates.
+2011_dot_WEB,The SAE 2735 standard shall serve as the basis for messages exchanges from Mobile Users.
+2011_dot_WEB,The public sector transportation agencies shall use existing personnel to operate the Core System. Note: It was a consistent theme from public sector personnel that most existing public sector transportation agencies cannot afford additional personnel for the Core System.
+2011_dot_WEB,"When a Core System service requires geo-referencing, the same geo-referencing capabilities shall be available to all System Users. Note: otherwise it will be difficult or impossible to coordinate location references, jeopardizing safety and mobility applications that depend on accurate positioning data."
+2011_dot_WEB,"Service performance characteristics of the Core System shall be constrained by the communications technology with which users connect to Core System. Note: minimum performance standards can be set for usage by the Core System services, but is constrained by what is technically available at the time. Unless DSRC field infrastructure is deployed at a pace sufficient to keep up with Core System and Mobile User deployments, usage of existing communications infrastructure, particularly 3G and 4G cellular, may be required to deliver services."
+2011_dot_WEB,External interfaces on Core System shall be defined as open standards.
+2011_dot_WEB,IPv6 shall provide the basis for communications between System Users not communicating with DSRC. Note: IPv4 is being phased out and will not be supported.
+2011_dot_WEB,The Core2Core Subsystem shall identify the geographic information describing the boundaries that it will service.
+2011_dot_WEB,The Core2Core Subsystem shall identify the services that it will offer.
+2011_dot_WEB,The Core2Core Subsystem shall provide information describing the communications that the Core System provides.
+2011_dot_WEB,The Core2Core Subsystem shall accept a request from System Users for the geographic coverage area over which the Core System is servicing.
+2011_dot_WEB,The Core2Core Subsystem shall send a response to a System User's request for the geographic coverage area over which the Core System is servicing.
+2011_dot_WEB,The Core2Core Subsystems shall send status to the Service Monitor Subsystem.
+2011_dot_WEB,The Core2Core Subsystem shall accept the time of day from the Time Subsystem.
+2011_dot_WEB,The Core2Core Subsystem shall transition to degraded mode of operations when a hardware failure within the Core2Core Subsystem is detected.
+2011_dot_WEB,The Core2Core Subsystem shall transition to degraded mode of operations when a software failure within the Core2Core Subsystem is detected.
+2011_dot_WEB,The Core2Core Subsystem shall transition to the requested mode of operation when commanded by an authorized System Operator.
+2011_dot_WEB,The Core2Core Subsystem shall transition to the requested state when commanded by an authorized System Operator.
+2011_dot_WEB,The Core2Core Subsystem shall compare Software versions from its local Service Monitor to its interfacing Core Systems for compatibility.
+2011_dot_WEB,The Core2Core Subsystem shall compare Hardware versions from its local Service Monitor to its interfacing Core Systems for compatibility.
+2011_dot_WEB,The Core2Core Subsystem shall notify the Service Monitor when other Core Systems are not compatible.
+2011_dot_WEB,"The Core System shall accept an error message from a Mobile User when the Core System falsely advertises that a service as available, but is actually unavailable to the Mobile User."
+2011_dot_WEB,The Core2Core Subsystem shall verify all trust credentials before exchanging information with interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall send trust credentials to interfacing Core Systems before exchanging information.
+2011_dot_WEB,The Core2Core Subsystem shall maintain a history of accesses to interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall maintain a history of failed access attempts to other Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall send interfacing Core Systems the software versions of the Core System currently running in operation.
+2011_dot_WEB,The Core2Core Subsystem shall send the implemented versions of standards to the interfacing Core Systems.
+2011_dot_WEB,"The Core2Core Subsystem shall provide the list of available services to interfacing Core Systems, so that the interfacing Core System can advertise what services the other Core System has to offer."
+2011_dot_WEB,The Core2Core Subsystem shall send the status of services offered to interfacing Core Systems to System Users.
+2011_dot_WEB,The Core2Core Subsystem shall receive misbehavior information from other Core Systems. 
+2011_dot_WEB,The Core2Core Subsystem shall store information regarding misbehavior reports from other Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall send misbehavior information to interfacing Core System.
+2011_dot_WEB,The Core2Core Subsystem shall maintain information about interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall maintain information regarding services offered by interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall maintain information regarding the status of services offered by interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall maintain information regarding the performance of services offered by interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall protect its integrity from integrity issues with interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall provide backup services to an interfacing degraded Core System.
+2011_dot_WEB,The Core2Core Subsystem shall accept data stores from preselected interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall send data stores for facility backup to preselected interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall accept requests to operate as facility backup to preselected interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall send requests to operate as facility backup to preselected interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall provide facility backup of a variable subset of Core System services in the case of partially unavailability to an interfacing Core System.
+2011_dot_WEB,The Core2Core Subsystem shall provide backup services to an interfacing failed Core System.
+2011_dot_WEB,The Core2Core Subsystem shall accept requests to send certificates with interfacing Core Systems.
+2011_dot_WEB,"The Core2Core Subsystem shall send certificates upon request, with interfacing Core Systems."
+2011_dot_WEB,The Core2Core Subsystem shall provide data forwarding services to preselected interfacing Core Systems at the System Operator's option.
+2011_dot_WEB,The Core2Core Subsystem shall store information required to identify the proper interfacing Core System to which data can be forwarded.
+2011_dot_WEB,The Core2Core Subsystem shall forward preselected data types to interfacing Core Systems for data provision.
+2011_dot_WEB,The Core2Core Subsystem shall forward preselected data types to interfacing Core Systems for data request.
+2011_dot_WEB,The Core2Core Subsystem shall forward preselected data types to interfacing Core Systems for data forward.
+2011_dot_WEB,The Core2Core Subsystem shall coordinate coverage with interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall advertise the boundaries of its service provision with interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall coordinate the geographic boundaries that it will service with interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall send its status to the Service Monitor Subsystem.
+2011_dot_WEB,The Core2Core Subsystem shall receive reports from System Users indicating issues with another Core System.
+2011_dot_WEB,The Core2Core Subsystem shall receive reports from System Users indicating compatibility issues with another Core System.
+2011_dot_WEB,The Core2Core Subsystem shall receive reports from System Users indicating scope issues with another Core System.
+2011_dot_WEB,The Core2Core Subsystem shall synchronize status from Core Systems it interfaces with every 5 minutes (TBD) to check availability.
+2011_dot_WEB,The Core2Core Subsystem shall send a message within 30 seconds[TBD] to all interfacing Core Systems upon any state change.
+2011_dot_WEB,The Core2Core Subsystem shall establish persistent communications with interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall support an interface to the System Operator to configure parameters that control the sharing of misbehavior information with interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall support an interface to the System Operator to control what information to provide to each interfacing Core System.
+2011_dot_WEB,The Core2Core Subsystem shall support an interface to System Operators to select services to be offered to interfacing Core Systems.
+2011_dot_WEB,"The Core2Core Subsystem shall interface with the Data Distribution Subsystem for sharing data
+provisioning information to a backup Core System."
+2011_dot_WEB,The Core2Core Subsystem shall interface with the Misbehavior Management Subsystem for misbehavior management.
+2011_dot_WEB,The Core2Core Subsystem shall interface with the Network Services Subsystem for querying for geocasting information.
+2011_dot_WEB,The Core2Core Subsystem shall interface with the Service Monitor Subsystem for status information.
+2011_dot_WEB,The Core2Core Subsystem shall interface with the User Permissions Subsystem querying for user permissions.
+2011_dot_WEB,The Core2Core Subsystem shall interface with the User Security Subsystem to manage trust credentials.
+2011_dot_WEB,The Core2Core Subsystem shall maintain a knowledge base of data available with interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall maintain a knowledge base of services available with interfacing Core Systems.
+2011_dot_WEB,The Core2Core Subsystem shall maintain storage information to identify the interfacing Core System to which data can be forwarded.
+2011_dot_WEB,The Core2Core Subsystem shall store geographic boundary coverage characteristics for services that are available.
+2011_dot_WEB,The Data Distribution Subsystem shall accept System User's requests for data that include parameters describing how often the data are to be provided.
+2011_dot_WEB,The Data Distribution Subsystem shall accept System User's requests for data that include parameters describing the length of time the data are to be provided.
+2011_dot_WEB,The Data Distribution Subsystem shall provide information to a catalog describing the type of data the data provider is sending.
+2011_dot_WEB,The Data Distribution Subsystem shall provide information to a catalog describing the quality characteristics of the type of data the data provider is sending.
+2011_dot_WEB,The Data Distribution Subsystem shall provide information to a catalog describing the data format for each type of data the data provider is sending.
+2011_dot_WEB,The Data Distribution Subsystem shall provide information to a catalog describing the geographic location where the data was generated from that the data provider is sending.
+2011_dot_WEB,The Data Distribution Subsystem shall provide information to a catalog describing the sampling rate of the data that the data provider is sending.
+2011_dot_WEB,The Data Distribution Subsystem shall provide a catalog describing the frequency of data forwarding.
+2011_dot_WEB,The Data Distribution Subsystem shall send data request to User Permissions Subsystem.
+2011_dot_WEB,The Data Distribution Subsystem shall maintain a registry of data requests.
+2011_dot_WEB,The Data Distribution Subsystem shall maintain a registry of the requesters for data from the Core System.
+2011_dot_WEB,The Data Distribution Subsystem shall maintain a registry of the data requested by System Users.
+2011_dot_WEB,The Data Distribution Subsystem shall acknowledge the System User's request if the data type requested for distribution matches the information in the data catalog.
+2011_dot_WEB,The Data Distribution Subsystem shall reject the System User's request if the data type requested for distribution does not match any information in the catalog.
+2011_dot_WEB,The Data Distribution Subsystem shall report misbehavior data requests to the Misbehavior Management Subsystem.
+2011_dot_WEB,"When in Restricted Mode, the Data Distribution Subsystem shall prioritize System User's requests to receive data."
+2011_dot_WEB,The Data Distribution Subsystem shall provide a data publisher's information in a catalog when that data is distributed as an external source-to-point (when not through the Core System).
+2011_dot_WEB,The Data Distribution Subsystem shall accept requests to publish data from System Users that include how often the data are to be provisioned.
+2011_dot_WEB,The Data Distribution Subsystem shall accept requests to publish data from System Users that include the length of time the data are to be provisioned.
+2011_dot_WEB,The Data Distribution Subsystem shall provide a catalog defining the data being provisioned.
+2011_dot_WEB,The Data Distribution Subsystem shall provide a catalog describing the type of data to be provisioned.
+2011_dot_WEB,The Data Distribution Subsystem shall provide a catalog describing the data quality characteristics of the data to be provisioned.
+2011_dot_WEB,The Data Distribution Subsystem shall provide a catalog describing the data formats of the data to be provided.
+2011_dot_WEB,The Data Distribution Subsystem shall provide a catalog describing the geographic location of where the data was generated.
+2011_dot_WEB,The Data Distribution Subsystem shall provide a catalog describing the sampling rate at which the data was collected.
+2011_dot_WEB,The Data Distribution Subsystem shall provide a catalog describing the geographic area over which the data should be broadcast.
+2011_dot_WEB,The Data Distribution Subsystem shall repackage data by parsing incoming data to extract only that data that the subscriber requires.
+2011_dot_WEB,The Data Distribution Subsystem shall repackage data by parsing incoming data to extract restricted data that the publisher does not want to be sent to the subscriber.
+2011_dot_WEB,"When in Restricted Mode, the Data Distribution Subsystem shall prioritize System User's requests to publish data."
+2011_dot_WEB,The Data Distribution Subsystem shall send requests to User Permissions Subsystem.
+2011_dot_WEB,The Data Distribution Subsystem shall maintain a registry of publishing data for System Users.
+2011_dot_WEB,The Data Distribution Subsystem shall maintain a registry of data on publishers for the Core System User.
+2011_dot_WEB,The Data Distribution Subsystem shall positively acknowledge the request to the System User if the data can be published.
+2011_dot_WEB,The Data Distribution Subsystem shall inform the System User if the request to publish cannot be processed.
+2011_dot_WEB,The Data Distribution Subsystem shall provide the address of the data publisher to send their data based on the supplied criteria when the Core System does not store the data itself.
+2011_dot_WEB,The Data Distribution Subsystem shall send misbehavior data provisioning to the Misbehavior Management Subsystem.
+2011_dot_WEB,The Data Distribution Subsystem shall identify rate of incoming messages exceeding a threshold rate [TBD] from a System User as misbehavior.
+2011_dot_WEB,The Data Distribution Subsystem shall report data rate misbehavior to the Misbehavior Management Subsystem.
+2011_dot_WEB,The Data Distribution Subsystem shall support an interface to an authorized System Operator for editing the Publisher/Subscriber configuration for the Data Distribution Subsystem supported services.
+2011_dot_WEB,The Data Distribution Subsystem shall provide an authorized System Operator with the configuration of the Data Distribution Subsystem supported services.
+2011_dot_WEB,The Data Distribution Subsystem shall support an interface to an authorized System Operator for configuring the data that will be provided by the Core System.
+2011_dot_WEB,The Data Distribution Subsystem shall support an interface to an authorized System Operator for configuring the data that will be provided by reference to their publisher only.
+2011_dot_WEB,The Data Distribution Subsystem shall provide the registry of data available to the Core2Core Subsystem for data to be distributed to System Users.
+2011_dot_WEB,The Data Distribution Subsystem shall receive contact information from the Core2Core Subsystem to populate the registry of data available for distribution.
+2011_dot_WEB,The Data Distribution Subsystem shall populate the registry of data available for distribution.
+2011_dot_WEB,"The Data Distribution Subsystem shall provide contact information to the Core2Core Subsystem for other Core Systems to receive, so they can populate their registry of data available from the originating Core System."
+2011_dot_WEB,"The Data Distribution Subsystem shall provide data description information to the Core2Core Subsystem for other Core Systems to receive, so they can populate their registry of data available from the originating Core System."
+2011_dot_WEB,The Data Distribution Subsystem shall receive data description information from the Core2Core Subsystem to populate the registry of data available for distribution.
+2011_dot_WEB,Data Distribution Configuration and Operator - Source-to-point
+2011_dot_WEB,The Data Distribution Subsystem shall support an interface to an authorized System Operator for editing the source-to-point configuration for the Data Distribution Subsystem supported services.
+2011_dot_WEB,The Data Distribution Subsystem shall send operational state transitions to the Service Monitor Subsystem.
+2011_dot_WEB,The Data Distribution Subsystem shall transition to the requested state when commanded by an authorized System Operator.
+2011_dot_WEB,The Data Distribution Subsystem shall transition to degraded mode of operations when a hardware failure within the Data Distribution Subsystem is detected.
+2011_dot_WEB,"When operating in normal operational mode, the Data Distribution Subsystem shall accept data distribution requests from System Users."
+2011_dot_WEB,The Data Distribution Subsystem shall send status to the Service Monitor Subsystem.
+2011_dot_WEB,The Data Distribution Subsystem shall transition to degraded mode of operations when a software failure within the Data Distribution Subsystem is detected.
+2011_dot_WEB,The Data Distribution Subsystem shall accept data distribution requests from other Core Systems when operating in Restricted Mode.
+2011_dot_WEB,The Data Distribution Subsystem shall transition to the requested mode of operation when commanded by an authorized System Operator.
+2011_dot_WEB,The Data Distribution Subsystem shall buffer forwarding data with a latency no greater than 500ms[TBD].
+2011_dot_WEB,The Data Distribution Subsystem shall support an interface to System Users to provide contact information for data being provisioned.
+2011_dot_WEB,The Data Distribution Subsystem shall support an interface to System Users to provide a catalog defining the data being provisioned.
+2011_dot_WEB,The Data Distribution Subsystem shall support an interface to System Users for requests to receive data being provisioned.
+2011_dot_WEB,The Data Distribution Subsystem shall interface with the Core2Core Subsystem for sharing data provisioning information to a backup Core System.
+2011_dot_WEB,The Data Distribution Subsystem shall interface with the Misbehavior Management Subsystem for misbehavior management.
+2011_dot_WEB,The Data Distribution Subsystem shall interface with the Network Services Subsystem for querying for geocasting information.
+2011_dot_WEB,The Data Distribution Subsystem shall interface with the Service Monitor Subsystem for status information.
+2011_dot_WEB,The Data Distribution Subsystem shall interface with the User Permissions Subsystem querying for user permissions.
+2011_dot_WEB,The Data Distribution Subsystem shall interface with the User Security Subsystem to manage trust credentials.
+2011_dot_WEB,The Data Distribution Subsystem shall maintain a registry containing the list of data providers.
+2011_dot_WEB,The Data Distribution Subsystem shall maintain a registry of the data that has been made available for publication.
+2011_dot_WEB,The Data Distribution Subsystem shall maintain a registry containing the list of data requesters.
+2011_dot_WEB,The Data Distribution Subsystem shall maintain a registry of the data that have been requested.
+2011_dot_WEB,The Data Distribution Subsystem shall maintain a registry of which data consumers receive what data according to the criteria provided by the requesters.
+2011_dot_WEB,"The Data Distribution Subsystem shall maintain a registry of publisher information including Data Types and Sources, Data Acceptance Changes, Data Acceptance or Discard, Data Type and Source, Permission, Data Type and Source Request, Existing Acceptance and/or Changes, Data Coverage Conflict, Data Acceptance Details."
+2011_dot_WEB,"The Data Distribution Subsystem shall maintain a registry of subscriber information including Data Type and Source Request, Existing Acceptance and/or Changes, Data Description, Subscription Details, Subscriber ID, Data Subscription Details, and Data Subscription Changes."
+2011_dot_WEB,The Misbehavior Management Subsystem shall receive Denial of Service (DoS) attack reports on the Core System from other subsystems in the Core System.
+2011_dot_WEB,The Misbehavior Management Subsystem shall accept reports of System User misbehavior by other System Users.
+2011_dot_WEB,The Misbehavior Management Subsystem shall support an interface to an authorized System Operator for creating a misbehavior entry for a System User.
+2011_dot_WEB,The Misbehavior Management Subsystem shall support the configuration for operator login failure attempts allowed before considered a misbehavior.
+2011_dot_WEB,The Misbehavior Management Subsystem shall record unauthorized operator access attempts to Core System Services to an unauthorized service access log.
+2011_dot_WEB,The Misbehavior Management Subsystem shall record unauthorized operator login attempts to an unauthorized login log.
+2011_dot_WEB,The Misbehavior Management Subsystem shall provide logs of unauthorized login attempts to an authorized System Operator.
+2011_dot_WEB,The Misbehavior Management Subsystem shall provide logs of unauthorized service access records to an authorized System Operator.
+2011_dot_WEB,The Misbehavior Management Subsystem shall record System User misbehavior reports in a System User misbehavior log.
+2011_dot_WEB,The Misbehavior Management Subsystem shall provide System User misbehavior logs to an authorized System Operator upon request.
+2011_dot_WEB,The Misbehavior Management Subsystem shall provide System User misbehavior record reports to an authorized System Operator upon occurrence.
+2011_dot_WEB,"When in Restricted Mode, the Misbehavior Management Subsystem shall prioritize misbehavior reporting."
+2011_dot_WEB,The Misbehavior Management Subsystem shall send operational state transitions to the Service Monitor Subsystem.
+2011_dot_WEB,The Misbehavior Management Subsystem shall transition to the requested state when commanded by an authorized System Operator.
+2011_dot_WEB,The Misbehavior Management Subsystem shall transition to degraded mode of operations when a hardware failure within the Misbehavior Management Subsystem is detected.
+2011_dot_WEB,"When operating in normal operational mode, the Misbehavior Management Subsystem shall accept System User Misbehavior reports from System Users."
+2011_dot_WEB,The Misbehavior Management Subsystem shall send status to the Service Monitor Subsystem.
+2011_dot_WEB,The Misbehavior Management Subsystem shall transition to degraded mode of operations when a software failure within the Misbehavior Management Subsystem is detected.
+2011_dot_WEB,The Misbehavior Management Subsystem shall transition to the requested mode of operation when commanded by an authorized System Operator.
+2011_dot_WEB,The Misbehavior Management Subsystem shall correlate the misbehavior reports received from System Users.
+2011_dot_WEB,The Misbehavior Management Subsystem shall generate a report that identifies misbehaving System Users.
+2011_dot_WEB,The Misbehavior Management Subsystem shall send the report of misbehaving System Users to the User Permissions Subsystem.
+2011_dot_WEB,The Misbehavior Management Subsystem shall send the report of misbehaving System Users to the User Security Subsystem.
+2011_dot_WEB,The Misbehavior Management Subsystem shall support configuration of correlation parameters by an authorized operator.
+2011_dot_WEB,The Misbehavior Management Subsystem shall accept input from an authorized System Operator to initiate correlation processing.
+2011_dot_WEB,The Misbehavior Management Subsystem shall store information regarding misbehavior reports from other Core System subsystems.
+2011_dot_WEB,The Misbehavior Management Subsystem shall process up to [TBD] misbehavior reports per minute from System Users.
+2011_dot_WEB,The Misbehavior Management Subsystem shall perform the misbehavior report correlation processing [TBD] times per hour.
+2011_dot_WEB,The Misbehavior Management Subsystem shall provide storage to securely store [TBD] misbehavior reports.
+2011_dot_WEB,The Misbehavior Management Subsystem shall support an interface for the System Users to send misbehavior reports regarding other System Users.
+2011_dot_WEB,The Misbehavior Management Subsystem on a Core System shall support an interface for other Core Systems to send misbehavior reports regarding System Users.
+2011_dot_WEB,The Misbehavior Management Subsystem shall support an interface for the System Users to report denial-of-service (DoS) attacks.
+2011_dot_WEB,The Misbehavior Management Subsystem shall interface with the Core2Core Subsystem for sharing data provisioning information to a backup Core System.
+2011_dot_WEB,The Misbehavior Management Subsystem shall interface with the Service Monitor Subsystem for status information.
+2011_dot_WEB,The Misbehavior Management Subsystem shall interface with the User Permissions Subsystem querying for user permissions.
+2011_dot_WEB,The Misbehavior Management Subsystem shall interface with the User Security Subsystem to manage trust credentials.
+2011_dot_WEB,The Misbehavior Management Subsystem shall maintain a history of System Users misbehavior reports.
+2011_dot_WEB,The Misbehavior Management Subsystem shall maintain a history of System Users who have misbehaved.
+2011_dot_WEB,The Misbehavior Management Subsystem shall maintain a registry of data for unauthorized login attempts.
+2011_dot_WEB,The Misbehavior Management Subsystem shall maintain a registry of usernames for failed login attempt.
+2011_dot_WEB,The Misbehavior Management Subsystem shall maintain a registry of time for when a failed login attempt occurred.
+2011_dot_WEB,The Misbehavior Management Subsystem history of data shall be stored for a configurable length of time.
+2011_dot_WEB,The Network Services Subsystem Geocasting Service (GCS) shall support IP version 6 as the network protocol.
+2011_dot_WEB,The Network Services Subsystem GCS shall verify the credentials of the sender before registering the sender of the geocast information.
+2011_dot_WEB,The Network Services Subsystem GCS shall verify with the User Permission Subsystem that the sender has sufficient privilege to send the message using the geocast service.
+2011_dot_WEB,The Network Services Subsystem GCS shall discard the message submitted for geocast when the message fails integrity check.
+2011_dot_WEB,The Network Services Subsystem GCS shall discard the message submitted for geocast when the message frequency exceeds the configured limit.
+2011_dot_WEB,The Network Services Subsystem GCS shall report geocast sender misbehavior to the Misbehavior Management Subsystem.
+2011_dot_WEB,The Network Services Subsystem GCS shall support an interface to the System Operator to configure the geocast areas using latitude and longitude coordinates.
+2011_dot_WEB,The Network Services Subsystem shall accept a request from a System User to provide data to a specified geographic area.
+2011_dot_WEB,The Network Services Subsystem shall send a response to a System User's request to allow data to be sent to a specified geographic area.
+2011_dot_WEB,The Network Services Subsystem shall support an interface to an authorized System Operator for creating configuration for its supported services.
+2011_dot_WEB,The Network Services Subsystem shall support an interface to an authorized System Operator for viewing the configuration for all its supported services.
+2011_dot_WEB,The Network Services Subsystem GCS shall record in the system log when a message meant for geocast is discarded.
+2011_dot_WEB,"When operating in normal operational mode, the Network Services Subsystem shall accept registration requests for geocast from System Users."
+2011_dot_WEB,The Network Services Subsystem shall send status to the Service Monitor Subsystem.
+2011_dot_WEB,The Network Services Subsystem shall transition to degraded mode of operations when a software failure within the Network Service Subsystem is detected.
+2011_dot_WEB,The Network Services Subsystem shall transition to the requested mode of operation when commanded by an authorized System Operator.
+2011_dot_WEB,The Network Services Subsystem shall send operational state transitions to the Service Monitor Subsystem.
+2011_dot_WEB,The Network Services Subsystem shall transition to the requested state when commanded by an authorized System Operator.
+2011_dot_WEB,The Network Services Subsystem shall transition to degraded mode of operations when a hardware failure within the Network Services Subsystem is detected.
+2011_dot_WEB,"When operating in normal operational mode, the Network Services Subsystem shall accept requests for geocast from System Users."
+2011_dot_WEB,The Network Services Subsystem shall report data request misbehavior to the Misbehavior Management Subsystem.
+2011_dot_WEB,The Network Services Subsystem shall report data routing misbehavior to the Misbehavior Management Subsystem.
+2011_dot_WEB,The Network Services Subsystem shall report data intrusion misbehavior to the Misbehavior Management Subsystem.
+2011_dot_WEB,The Network Services Subsystem shall report data detection misbehavior to the Misbehavior Management Subsystem.
+2011_dot_WEB,The Network Services Subsystem shall report Internet connectivity misbehavior to the Misbehavior Management Subsystem.
+2011_dot_WEB,The Network Services Subsystem shall accept the time of day from Time Subsystem.
+2011_dot_WEB,The Network Services Subsystem GCS shall support up to [TBD] geocast sessions at any given time.
+2011_dot_WEB,The Network Services Subsystem GCS shall support up to [TBD] megabits per second (Mbps) per geocast stream.
+2011_dot_WEB,The Network Services Subsystem GCS shall support an interface to the System User for registering to request Core System to geocast messages.
+2011_dot_WEB,The Network Services Subsystem GCS shall support an interface to the System Operator to configure a limit on the frequency of geocast transmission from an individual sender.
+2011_dot_WEB,The Network Services Subsystem shall support an interface to an authorized System Operator to configure system network parameters.
+2011_dot_WEB,The Network Services Subsystem shall support an Internet interface to connect to System Users
+2011_dot_WEB,The Network Services Subsystem shall interface with the Core2Core Subsystem for sharing data provisioning information to a backup Core System.
+2011_dot_WEB,The Network Services Subsystem shall interface with the Data Distribution System Services Subsystem for querying for geocasting information.
+2011_dot_WEB,The Network Services Subsystem shall interface with the Misbehavior Management Subsystem for misbehavior management.
+2011_dot_WEB,The Network Services Subsystem shall interface with the Service Monitor Subsystem for status information.
+2011_dot_WEB,The Network Services Subsystem shall interface with the User Permissions Subsystem querying for user permissions.
+2011_dot_WEB,The Network Services Subsystem shall interface with the User Security Subsystem to manage trust credentials.
+2011_dot_WEB,The Service Monitor Subsystem shall accept status from subsystems within the Core System.
+2011_dot_WEB,The Service Monitor Subsystem shall report status when hardware is available.
+2011_dot_WEB,The Service Monitor Subsystem shall report status when hardware has degraded.
+2011_dot_WEB,The Service Monitor Subsystem shall report status when hardware has failed.
+2011_dot_WEB,The Service Monitor Subsystem shall report CPU performance status from each Core System node to the System Operator.
+2011_dot_WEB,The Service Monitor Subsystem shall report I/O data performance status from each Core System node to the System Operator.
+2011_dot_WEB,The Service Monitor Subsystem shall report status to an authorized System Operator.
+2011_dot_WEB,The Service Monitor Subsystem shall store report status to a status history log.
+2011_dot_WEB,The Service Monitor Subsystem shall accept failed software status from the Core System subsystems.
+2011_dot_WEB,The Service Monitor Subsystem shall accept degraded software status from the Core System subsystems.
+2011_dot_WEB,The Service Monitor Subsystem shall accept operational software status from the Core System subsystems.
+2011_dot_WEB,The Service Monitor Subsystem shall accept failed hardware status from the Core System subsystems.
+2011_dot_WEB,The Service Monitor Subsystem shall accept degraded hardware status from the Core System subsystems.
+2011_dot_WEB,The Service Monitor Subsystem shall accept operational hardware status from the Core System subsystems.
+2011_dot_WEB,The Service Monitor Subsystem shall accept an authorized operator command to change States.
+2011_dot_WEB,The Service Monitor Subsystem shall accept an authorized operator command to change to Restricted Mode.
+2011_dot_WEB,The Service Monitor Subsystem shall accept an authorized operator command to change to Operational Mode.
+2011_dot_WEB,The Service Monitor Subsystem shall detect malicious software running within the Core System.
+2011_dot_WEB,The Service Monitor Subsystem shall notify an authorized System Operator when malicious software has been detected within the Core System.
+2011_dot_WEB,The Service Monitor Subsystem shall send a list of Core System Service states to System Users upon a state transition.
+2011_dot_WEB,The Service Monitor Subsystem shall send a list of Core System Service states to a System User upon request.
+2011_dot_WEB,The Service Monitor Subsystem shall send a list of Core System Service statuses from other Core System locations to a system user upon request.
+2011_dot_WEB,The Service Monitor Subsystem shall send a list of Core System services that are available from other Core Systems when that service is degraded on the local Core System.
+2011_dot_WEB,The Service Monitor Subsystem shall send a list of Core System services that are available from other Core Systems when that service has failed on the local Core System.
+2011_dot_WEB,The Service Monitor Subsystem shall accept System User's requests for a list of available Core System services.
+2011_dot_WEB,The Service Monitor Subsystem shall perform health checks in the Core System while in the operational state upon request from an authorized System Operator
+2011_dot_WEB,The Service Monitor Subsystem shall send the results of an internal health check to the System Operator upon request.
+2011_dot_WEB,The Service Monitor Subsystem shall implement mechanisms to recover degraded Core System services in the Core System.
+2011_dot_WEB,The Service Monitor Subsystem shall implement mechanisms to recover failed Core System services in the Core System.
+2011_dot_WEB,The Service Monitor Subsystem shall verify the authenticity of every software update.
+2011_dot_WEB,The Service Monitor Subsystem shall display software status to an authorized System Operator upon request.
+2011_dot_WEB,The Service Monitor Subsystem shall install only software updates that have been authenticated.
+2011_dot_WEB,The Service Monitor Subsystem shall store the versions of the installed software.
+2011_dot_WEB,The Service Monitor Subsystem shall reject a software update when authenticity has failed verification.
+2011_dot_WEB,The Service Monitor Subsystem shall send an alert to an authorized System Operator upon rejecting a software update.
+2011_dot_WEB,The Service Monitor Subsystem shall provide the history of software updates when requested by an authorized System Operator.
+2011_dot_WEB,The Service Monitor Subsystem shall provide the history of software updates to the System Operator that includes version numbers of the software installed.
+2011_dot_WEB,The Service Monitor Subsystem shall provide the history of software updates to the System Operator that includes timestamps that the software installation occurred.
+2011_dot_WEB,The Service Monitor Subsystem shall provide the version of the software that is currently running in the Core System.
+2011_dot_WEB,The Service Monitor Subsystem shall maintain an audit log on the installation of software updates.
+2011_dot_WEB,The Service Monitor Subsystem shall support an interface to an authorized System Operator for configuring parameters that control the software configuration.
+2011_dot_WEB,The Service Monitor Subsystem shall maintain an audit log on the installation of hardware updates.
+2011_dot_WEB,The Service Monitor Subsystem shall support an interface to an authorized System Operator for modifying hardware configuration parameters.
+2011_dot_WEB,The Service Monitor Subsystem shall upgrade hardware components by an authorized System Operator upon request.
+2011_dot_WEB,The Service Monitor Subsystem shall add hardware components by an authorized System Operator upon request
+2011_dot_WEB,The Service Monitor Subsystem shall reduce hardware components no longer needed by an authorized System Operator upon request.
+2011_dot_WEB,The Service Monitor Subsystem shall identify hardware configuration components upon request from an authorized System Operator.
+2011_dot_WEB,The Service Monitor Subsystem shall display hardware status to an authorized System Operator.
+2011_dot_WEB,The Service Monitor Subsystem shall accept state transitions from other Core System subsystems.
+2011_dot_WEB,The Service Monitor Subsystem shall transition to the requested state when requested by an authorized System Operator.
+2011_dot_WEB,The Service Monitor Subsystem shall accept state transition changes from subsystems within the Core System.
+2011_dot_WEB,The Service Monitor Subsystem shall transition to degraded mode of operations when a hardware failure within the Service Monitor Subsystem is detected
+2011_dot_WEB,"When operating in normal operational mode, the Service Monitor Subsystem shall send a list of Core System Services to other Core System locations."
+2011_dot_WEB,"When operating in normal operational mode, the Service Monitor Subsystem shall send a list of Core System Services to System Users."
+2011_dot_WEB,"The Service Monitor Subsystem shall report a recommended failover, when failover conditions exist, to an authorized System Operator when another Core System is available."
+2011_dot_WEB,The Service Monitor Subsystem shall transition to degraded mode of operations when a software failure within the Service Monitor Subsystem is detected.
+2011_dot_WEB,The Service Monitor Subsystem shall transition to the requested mode of operation when commanded by an authorized System Operator.
+2011_dot_WEB,The Service Monitor Subsystem shall accept the time of day from the Time Subsystem.
+2011_dot_WEB,The Service Monitor Subsystem shall notify an authorized System Operator within 30 seconds upon a software component failure.
+2011_dot_WEB,The Service Monitor Subsystem shall notify an authorized System Operator within 30 seconds upon a hardware component failure.
+2011_dot_WEB,The Service Monitor Subsystem shall notify an authorized System Operator within 30 seconds upon a connectivity interface failure.
+2011_dot_WEB,The Service Monitor Subsystem shall send a list of Core System Service states to a System User every 15 minutes.
+2011_dot_WEB,The Service Monitor Subsystem shall send an error report to an authorized System Operator  when a periodically operational state message from a Core System subsystem is not received after 1500ms[TBD].
+2011_dot_WEB,The Service Monitor Subsystem shall support an interface to send a list of Core System Service states to System Users.
+2011_dot_WEB,The Service Monitor Subsystem shall support an interface to send a list of Core System Service states upon System Users request.
+2011_dot_WEB,The Service Monitor Subsystem shall interface to an authorized System Operator.
+2011_dot_WEB,The Service Monitor Subsystem shall interface with the Core2Core Subsystem for sharing Core System status information to a backup Core System.
+2011_dot_WEB,The Service Monitor Subsystem shall store other interfacing Core System states.
+2011_dot_WEB,The Service Monitor Subsystem shall store subsystem states from the Core System subsystem.
+2011_dot_WEB,The Service Monitor Subsystem shall store subsystem states from other interfacing Core Systems.
+2011_dot_WEB,The Service Monitor Subsystem shall store the service status from the Core System.
+2011_dot_WEB,The Service Monitor Subsystem shall store the service status from other interfacing Core Systems.
+2011_dot_WEB,The Time Subsystem shall receive time synchronization data from an external reference time source.
+2011_dot_WEB,The Time Subsystem shall send time to all Core System subsystems every 100ms [TBD].
+2011_dot_WEB,The Time Subsystem shall record time synchronization anomalies in a log.
+2011_dot_WEB,The Time Subsystem shall provide time status anomalies to an authorized System Operator concerning time synchronization anomalies.
+2011_dot_WEB,"The Time Subsystem shall provide Universal Time, Coordinated (UTC) time to Core System subsystems. Note: UTC is also known as Zulu time."
+2011_dot_WEB,The Time Subsystem shall transition to degraded mode of operations when a hardware failure within the Time Subsystem is detected.
+2011_dot_WEB,The Time Subsystem shall transition to degraded mode of operations when a software failure within the Time Subsystem is detected.
+2011_dot_WEB,The Time Subsystem shall transition to degraded mode of operations when a software failure within the User Security Subsystem is detected.
+2011_dot_WEB,The Time Subsystem shall transition to the requested mode of operation when commanded by an authorized System Operator.
+2011_dot_WEB,The Time Subsystem shall transition to the requested state when commanded by an authorized System Operator.
+2011_dot_WEB,The Time Subsystem shall provide synchronization time to other Core System subsystems when operating in normal operational mode.
+2011_dot_WEB,The Time Subsystem shall provide synchronization time to other Core System subsystems when operating in Restricted Mode.
+2011_dot_WEB,The time of day shall not drift (lagging or leading in time) from the external time source standard time reference by more than [TBD] 1 second per year.
+2011_dot_WEB,The Time Subsystem shall synchronize the time of day with all the Core Subsystems every 10ms (TBD).
+2011_dot_WEB,The Time Subsystem shall support an interface to the National Institute of Standards and Technology (NIST).
+2011_dot_WEB,The Time Subsystem shall support an interface via the Core2Core Subsystem to send time to other Core Systems.
+2011_dot_WEB,The Time Subsystem shall interface with the Core2Core Subsystem to supply time of day.
+2011_dot_WEB,The Time Subsystem shall interface with the Data Distribution Subsystem for sharing data provisioning information to a backup Core System.
+2011_dot_WEB,The Time Subsystem shall interface with the Misbehavior Management Subsystem to supply time of day.
+2011_dot_WEB,The Time Subsystem shall interface with the Network Services Subsystem to supply time of day.
+2011_dot_WEB,The Time Subsystem shall interface with the Service Monitor Subsystem to supply time of day.
+2011_dot_WEB,The Time Subsystem shall interface with the User Permissions Subsystem to supply time of day.
+2011_dot_WEB,The Time Subsystem shall interface with the User Security Subsystem to supply time of day.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to Core System Personnel for performing authorized Core System management operations based on their user permissions.
+2011_dot_WEB,The User Permissions Subsystem shall prohibit Core System Personnel from performing unauthorized Core System Management operations based on their user permissions.
+2011_dot_WEB,The User Permissions Subsystem shall provide Core System Personnel registration information to other Core System subsystems.
+2011_dot_WEB,The User Permissions Subsystem shall provide Core System Personnel user permissions information to other Core System subsystems.
+2011_dot_WEB,The User Permissions Subsystem shall compare the System User's certificate(s) with the Certificate Revocation List provided by the User Security Subsystem.
+2011_dot_WEB,"The User Permissions Subsystem shall allow a System User to perform authorized system operations, based on their permissions."
+2011_dot_WEB,The User Permissions Subsystem shall record when a System User performs an authorized system user operation.
+2011_dot_WEB,The User Permissions Subsystem shall prohibit a System User from performing unauthorized system user operations based on their user permissions.
+2011_dot_WEB,The User Permissions Subsystem shall record when a System User is restricted from performing an unauthorized system user operation based on their user permissions.
+2011_dot_WEB,The User Permissions Subsystem shall provide System User registration with user permissions information to other Core System subsystems.
+2011_dot_WEB,The User Permissions Subsystem shall report unauthorized operator login attempts to the Misbehavior Management Subsystem.
+2011_dot_WEB,The User Permissions Subsystem shall report unauthorized operator access attempts to the Misbehavior Management Subsystem.
+2011_dot_WEB,The User Permissions Subsystem shall report unauthorized System User access attempts to the Misbehavior Management Subsystem.
+2011_dot_WEB,The User Permissions Subsystem shall determine the registration characteristics of the System User based on the System User's certificate(s).
+2011_dot_WEB,The User Permissions Subsystem shall transition to degraded mode of operations when a hardware failure within the User Permissions Subsystem is detected.
+2011_dot_WEB,The User Permissions Subsystem shall transition to degraded mode of operations when a software failure within the User Permissions Subsystem is detected.
+2011_dot_WEB,The User Permissions Subsystem shall transition to the requested mode of operation when commanded by an authorized System Operator.
+2011_dot_WEB,The User Permissions Subsystem shall transition to the requested state when commanded by an authorized System Operator.
+2011_dot_WEB,"Upon request, the User Permissions Subsystem shall provide Core System Personnel registration information to other Core System subsystems with [TBD] seconds."
+2011_dot_WEB,"Upon request, the User Permissions Subsystem shall provide Core System Personnel user permissions information to other Core System subsystems with [TBD] seconds."
+2011_dot_WEB,"Upon request from an authorized System Operator, the User Permissions Subsystem shall provide System User registration information to other Core System subsystems within [TBD] seconds."
+2011_dot_WEB,"Upon request from an authorized System Operator, the User Permissions Subsystem shall provide System User permissions information to other Core System subsystems within [TBD] seconds."
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to register Core System Personnel.
+2011_dot_WEB,"The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the Core System Personnel user type (Administrator, Operator, Maintainer, Developer or Deployer)."
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the Core System Personnel user identification (Name and Contact Information).
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the Core System Personnel home location.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the Core System Personnel user permissions.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to register a System User.
+2011_dot_WEB,The User Permissions Subsystem shall accept certificate(s) from a System User.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the System User identification (Name and Contact Information or Anonymous) for a valid system user certificate.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the System User role(s) [TBD] for a valid system user certificate.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the System User responsibilities [TBD] for a valid system user certificate.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the System User location if fixed for a valid system user certificate.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the System User's home Core System for a valid system user certificate.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the System User's status [TBD] for a valid system user certificate.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the System User's user permissions [TBD] for a valid system user certificate.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to register another Core System.
+2011_dot_WEB,The User Permissions Subsystem shall accept certificate(s) from another Core System.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify another Core System's identification (Name and Contact Information) for a valid Core System certificate.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the other Core System role(s) [TBD] for a valid Core System certificate.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the other Core System's responsibilities [TBD] for a valid Core System certificate.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the other Core System's location for a valid Core System certificate.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the other Core System's region of responsibility for a valid Core System certificate.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the other Core System's available services for a valid Core System certificate.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the other Core System's status [TBD] for a valid Core System certificate.
+2011_dot_WEB,The User Permissions Subsystem shall support an interface to an authorized Core System Administrator to modify the other Core System's user permissions [TBD] for a valid Core System certificate.
+2011_dot_WEB,The User Permissions Subsystem shall send User Permission data to other Core Systems.
+2011_dot_WEB,The User Permissions Subsystem shall request authorized System User registration information from other Core Systems.
+2011_dot_WEB,The User Permissions Subsystem shall request authorized System User permissions information from other Core Systems.
+2011_dot_WEB,The User Permission Subsystem shall receive authorized System User registration information from other Core Systems.
+2011_dot_WEB,The User Permission Subsystem shall receive authorized System User permissions information from other Core Systems.
+2011_dot_WEB,The User Permissions Subsystem shall interface with the Core2Core Subsystem to provide permission verification.
+2011_dot_WEB,The User Permission Subsystem shall interface with the Data Distribution Subsystem for sharing data provisioning information to a backup Core System.
+2011_dot_WEB,The User Permissions Subsystem shall interface with the Misbehavior Management Subsystem to provide permission verification.
+2011_dot_WEB,The User Permissions Subsystem shall interface with the Network Services Subsystem to provide permission verification.
+2011_dot_WEB,The User Permissions Subsystem shall interface with the Service Monitor Subsystem to provide permission verification.
+2011_dot_WEB,The User Permissions Subsystem shall interface with the User Security Subsystem to provide permission verification.
+2011_dot_WEB,The User Permissions Subsystem shall store the Core System Personnel registration information.
+2011_dot_WEB,The User Permissions Subsystem shall store the Core System Personnel user permission information.
+2011_dot_WEB,The User Permissions Subsystem shall store the System User registration information.
+2011_dot_WEB,The User Permissions Subsystem shall store the System User permission information.
+2011_dot_WEB,The User Permissions Subsystem shall store other Core System registration information.
+2011_dot_WEB,The User Permissions Subsystem shall store the other Core System user permission information.
+2011_dot_WEB,The User Permissions Subsystem shall store the System User's provider user permission information.
+2011_dot_WEB,The User Security Subsystem shall receive certificate request messages for 1609.2 Anonymous Certificates from System Users.
+2011_dot_WEB,The User Security Subsystem shall verify signed messages received from the System Users.
+2011_dot_WEB,The User Security Subsystem shall decrypt encrypted messages received from System Users.
+2011_dot_WEB,The User Security Subsystem shall decrypt encrypted messages received from configured external Certification Authorities.
+2011_dot_WEB,The User Security Subsystem shall verify signed messages received from configured external Certification Authorities.
+2011_dot_WEB,The User Security Subsystem shall encrypt messages to System Users when an encrypted message originates from the Core System.
+2011_dot_WEB,The User Security Subsystem shall sign messages to System Users when a signed message originates from the Core System.
+2011_dot_WEB,The User Security Subsystem shall encrypt messages to other Core Systems.
+2011_dot_WEB,The User Security Subsystem shall sign messages to other Core Systems.
+2011_dot_WEB,The User Security Subsystem shall encrypt messages to configured external Certification Authorities (CA) when the CA is external to the Core System.
+2011_dot_WEB,The User Security Subsystem shall sign messages to configured external Certification Authorities (CA) when the CA is external to the Core System.
+2011_dot_WEB,The User Security Subsystem shall discard messages from System Users which fail message Integrity checks.
+2011_dot_WEB,The User Security Subsystem shall discard messages from other Core Systems which fail message Integrity checks.
+2011_dot_WEB,The User Security Subsystem shall manage a persistent connection to other interfacing Core Systems.
+2011_dot_WEB,The User Security Subsystem shall send misbehavior information to the Misbehavior Management Subsystem when a signed message cannot be validated from a System User.
+2011_dot_WEB,The User Security Subsystem shall support IEEE 1609.2 Certificate Authority functions to System Users as defined in IEEE 1609.2 specification.
+2011_dot_WEB,The User Security Subsystem shall support issuance of 1609.2 Anonymous certificates to System Users as defined in IEEE 1609.2 specification.
+2011_dot_WEB,The User Security Subsystem shall support issuance of 1609.2 Identity certificates to System Users as defined in IEEE 1609.2 specification.
+2011_dot_WEB,The User Security Subsystem shall provide secure storage for 1609.2 CA private keys.
+2011_dot_WEB,The User Security Subsystem shall provide secure storage for IEEE 1609.2 root and System User certificates.
+2011_dot_WEB,The User Security Subsystem shall provide secure storage for IEEE 1609.2 Certificate Revocation Lists (CRL).
+2011_dot_WEB,The User Security Subsystem shall generate a Certificate Revocation List (CRL) containing a list of revoked certificates as defined in IEEE Standard 1609.2.
+2011_dot_WEB,The User Security Subsystem shall accept certificate request messages for 1609.2 Anonymous certificates from the System Users.
+2011_dot_WEB,The User security Subsystem shall accept 1609.2 Certificate Revocation List (CRL) retrieval requests from other Core Systems.
+2011_dot_WEB,The User Security Subsystem shall accept certificate request messages from Core System components for 1609.2 Identify Certificates.
+2011_dot_WEB,"If the Certificate Request validation is successful, the User Security Subsystem shall respond with a 1609.2 certificate response message including a signed 1609.2 Identity Certificate to the requesting entity."
+2011_dot_WEB,"If the Certificate Request validation fails, the User Security Subsystem shall respond with a 1609.2 certificate response message with a failure status to the requesting entity."
+2011_dot_WEB,The User security Subsystem shall accept 1609.2 certificate revocation list (CRL) complete retrieval requests from System Users.
+2011_dot_WEB,The User security Subsystem shall accept 1609.2 certificate revocation list (CRL) delta update retrieval requests from System Users.
+2011_dot_WEB,The User Permissions Subsystem shall send the complete 1609.2 certificate revocation list (CRL) to System Users.
+2011_dot_WEB,The User Permissions Subsystem shall send delta updates of current 1609.2 certificate revocation list (CRL) to System Users.
+2011_dot_WEB,The User Permissions Subsystem shall send the complete 1609.2 certificate revocation list (CRL) to other Core Systems.
+2011_dot_WEB,The User Permissions Subsystem shall accept the complete 1609.2 certificate revocation list (CRL) from other Core Systems.
+2011_dot_WEB,The User Permissions Subsystem shall send delta updates of current 1609.2 certificate revocation list (CRL) to other Core Systems.
+2011_dot_WEB,The User Permissions Subsystem shall accept delta updates of 1609.2 certificate revocation list (CRL) from other Core Systems.
+2011_dot_WEB,The User Security Subsystem shall perform X.509 Certificate Authority functions to System Users in conformance with IETF Public Key Infrastructure for X.509 Certificates (PKIX) standards.
+2011_dot_WEB,The User Security Subsystem shall support issuance of X.509 v3 Identity certificates to System Users.
+2011_dot_WEB,The User Security Subsystem shall provide secure storage for X.509 CA private keys.
+2011_dot_WEB,The User Security Subsystem shall provide secure storage for X.509 root and System User certificates.
+2011_dot_WEB,The User Security Subsystem shall provide secure storage for X.509 Certificate Revocation Lists (CRL).
+2011_dot_WEB,The User Security Subsystem shall generate X.509 Certificate Revocation List (CRL) containing a list of revoked X.509 Identity certificates.
+2011_dot_WEB,The User Security Subsystem shall accept certificate request messages from System Users for X.509 identify certificates.
+2011_dot_WEB,The User security Subsystem shall accept X.509 Certificate Revocation List (CRL) retrieval requests from other Core Systems.
+2011_dot_WEB,The User Security Subsystem shall accept certificate request messages from Core System components for X.509 Identify Certificates.
+2011_dot_WEB,"If the Certificate Request validation is successful, the User Security Subsystem shall respond with a X.509 certificate response message including a signed X.509 Identity certificate to the requesting entity."
+2011_dot_WEB,"If the Certificate Request validation fails, the User Security Subsystem shall respond with a X.509 certificate response message with a failure status to the requesting entity."
+2011_dot_WEB,The User security Subsystem shall accept X.509 certificate revocation list (CRL) complete retrieval requests from System Users.
+2011_dot_WEB,The User security Subsystem shall accept X.509 certificate revocation list (CRL) delta update retrieval requests from System Users.
+2011_dot_WEB,The User Permissions Subsystem shall send the complete X.509 certificate revocation list (CRL) to System Users.
+2011_dot_WEB,The User Permissions Subsystem shall send delta updates of current X.509 certificate revocation list (CRL) to System Users.
+2011_dot_WEB,The User Permissions Subsystem shall send the complete X.509 certificate revocation list (CRL) to other Core Systems.
+2011_dot_WEB,The User Permissions Subsystem shall accept the complete X.509 certificate revocation list (CRL) from other Core Systems.
+2011_dot_WEB,The User Permissions Subsystem shall send delta updates of current X.509 certificate revocation list (CRL) to other Core Systems.
+2011_dot_WEB,The User Permissions Subsystem shall accept delta updates of X.509 certificate revocation list (CRL) from other Core Systems.
+2011_dot_WEB,The User Security Subsystem shall send a X.509 root certificates retrieval requests to the x.509 Root provider.
+2011_dot_WEB,The User Security Subsystem shall provide a Graphical User interface (GUI) to an authorized System Operator for creating the configuration for its supported services.
+2011_dot_WEB,The User Security Subsystem shall create System User Identity Certificates based on command from the Operator.
+2011_dot_WEB,The User Security Subsystem shall create System User Identity Certificates based on input from the User Permissions Subsystem.
+2011_dot_WEB,The User Security Subsystem shall create System User 1609.2 Anonymous Certificates based on command from the Operator.
+2011_dot_WEB,The User Security Subsystem shall create System User 1609.2 Anonymous Certificates based on input from the User Permissions Subsystem.
+2011_dot_WEB,The User Security Subsystem shall send System User Identity Certificates to the System User device.
+2011_dot_WEB,The User Security Subsystem shall send System User 1609.2 Anonymous Certificates to the System User device.
+2011_dot_WEB,The User Security Subsystem shall record all System User Identity Certificate creation activities in a log.
+2011_dot_WEB,The User Security Subsystem shall receive requests for Identify Certificates from System Users.
+2011_dot_WEB,The User Security Subsystem shall receive requests for 1609.2 Anonymous Certificates from System Users.
+2011_dot_WEB,"If the user validation is successful, the User Security Subsystem shall respond with a 1609.2 Anonymous certificate response message including a set of signed 1609.2 Anonymous certificates to the System User."
+2011_dot_WEB,"If the user validation fails, the User Security Subsystem shall respond with a 1609.2 Anonymous certificate response message with a failure status to the System User."
+2011_dot_WEB,The User Security Subsystem shall accept certificate request messages for 1609.2 Identity certificates from the System Users.
+2011_dot_WEB,"If the user validation is successful, the User Security Subsystem shall respond with a 1609.2 Identity certificate response message including a set of signed 1609.2 Identity certificates to the System User."
+2011_dot_WEB,"if the user validation fails, the User Security Subsystem shall respond with a 1609.2 Identity certificate response message with a failure status to the System User."
+2011_dot_WEB,The User Security Subsystem shall accept 1609.2 root certificates retrieval requests from System Users.
+2011_dot_WEB,The User Security Subsystem shall accept the 1609.2 Certificate Revocation List (CRL) complete retrieval requests from System Users.
+2011_dot_WEB,The User Security Subsystem shall accept the 1609.2 Certificate Revocation List (CRL) delta update retrieval requests from System Users.
+2011_dot_WEB,The User Security Subsystem shall record all discarded message events in a log.
+2011_dot_WEB,The User Security Subsystem shall provide Certificate Creation logs to an authorized System Operator.
+2011_dot_WEB,The User Security Subsystem shall provide discarded message logs to an authorized System Operator.
+2011_dot_WEB,The User Security Subsystem shall process up to [TBD] 1609.2 Certificate Requests per second from System Users.
+2011_dot_WEB,The User Security Subsystem shall process up to [TBD] X.509 Certificate Requests per minute from System Users.
+2011_dot_WEB,The User Security Subsystem shall generate 1609.2 Certificate Revocation Lists (CRL) periodically at [TBD] rate.
+2011_dot_WEB,The User Security Subsystem shall generate X.509 Certificate Revocation Lists (CRL) periodically at [TBD] rate.
+2011_dot_WEB,The User Security Subsystem shall support an interface for 1609.2 Certificate Authority functions for System Users.
+2011_dot_WEB,The User Security Subsystem shall support an interface for X.509 Certificate Authority functions for System Users.
+2011_dot_WEB,The User Security Subsystem shall support IETF PKI X.509 (PKIX) standard interfaces to other X.509 Certificate Authorities.
+2011_dot_WEB,The User Security Subsystem shall interface with the Core2Core Subsystem to manage trust credentials.
+2011_dot_WEB,The User Security Subsystem shall interface with the Data Distribution Subsystem to manage trust credentials.
+2011_dot_WEB,The User Security Subsystem shall interface with the Misbehavior Management Subsystem to manage trust credentials.
+2011_dot_WEB,The User Security Subsystem shall interface with the Network Services Subsystem to manage trust credentials.
+2011_dot_WEB,The User Security Subsystem shall interface with the Service Monitor Subsystem to manage trust credentials.
+2011_dot_WEB,The User Security Subsystem shall interface with the User Permissions Subsystem to manage trust credentials.
+2011_dot_WEB,The User Security Subsystem shall provide secure storage for [TBD] 1609.2 Anonymous Certificates.
+2011_dot_WEB,The User Security Subsystem shall provide secure storage for [TBD] 1609.2 Identity Certificates.
+2011_dot_WEB,The User Security Subsystem shall provide secure storage for [TBD] X.509 Certificates.
+2011_dot_WEB,The User Security Subsystem shall provide secure storage for [TBD] 1609.2 Certificate Revocation Lists (CRL).
+2011_dot_WEB,The User Security Subsystem shall provide secure storage for [TBD] X.509 Certificate Revocation Lists (CRL).
+2011_dot_WEB,The User Security Subsystem shall provide secure storage on Certificate Authority (CA) locations.

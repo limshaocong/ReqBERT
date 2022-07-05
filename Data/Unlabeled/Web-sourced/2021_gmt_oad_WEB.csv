@@ -1,0 +1,864 @@
+source,reqs
+2021_gmt_oad_web,The Observatory service life shall be at least 50 years except for instruments and the adaptive optics subsystems.
+2021_gmt_oad_web,The Observatory adaptive optics subsystems service life shall be at least 20 years.
+2021_gmt_oad_web,GMT subsystems shall provide the spaces and equipment listed in GMT-REF-03725.
+2021_gmt_oad_web,The GMT shall be an aplanatic Gregorian telescope with segmented primary and secondary mirrors as specified in GMT-DOC-00010.
+2021_gmt_oad_web,The GMT shall have a Corrector and Atmospheric Dispersion Compensator that provides wide-field aberration correction over a 20 arcmin diameter field of view and atmospheric dispersion compensation over the wavelength range 0.350 to 1.3 ?m at the Direct Gregorian focus.
+2021_gmt_oad_web,The GMT Mount shall provide a deployment mechanism for inserting and removing the C-ADC first lens group (L1 and ADC) into the Direct Gregorian beam.
+2021_gmt_oad_web,The GMT Mount shall provide a deployment mechanism for inserting and removing a second wide-field corrector and/or atmospheric dispersion compensator into the Direct Gregorian beam.
+2021_gmt_oad_web,Any Instrument operating in the Direct Gregorian Wide Field optical layout shall provide a C-ADC field lens (L2).
+2021_gmt_oad_web,"The GMT shall have a flat tertiary mirror (M3) to direct an optical beam perpendicular to the Reference Optical Axis to instruments located at Folded Port, Auxiliary Port, or Instrument Platform Port."
+2021_gmt_oad_web,The M3 shall reflect an unvignetted field of view of at least 3.0 arcmin diameter.
+2021_gmt_oad_web,The M3 shall vignette no more than 48% of the 20 arcmin diameter Direct Gregorian field when deployed.
+2021_gmt_oad_web,The M3 shall provide a deployment mechanism for inserting and removing M3 onto the Reference Optical Axis.
+2021_gmt_oad_web,The Mount shall provide a common instrument rotator on the OSS to deliver a non-rotating field of view to DG and FP Science Instruments mounted on the rotator.
+2021_gmt_oad_web,The Mount GIR shall have a static position mode with rotation angle accuracy of less than ±36.5 micro radians RMS.
+2021_gmt_oad_web,"The Mount shall provide three instrument bays on the GIR, each adjacent to the DG Deployed Instrument Bay and each of which can hold one DG instrument."
+2021_gmt_oad_web,The Mount shall provide mechanisms for moving installed DG Instruments between their stowed positions and the DG focal station.
+2021_gmt_oad_web,"The M3 shall provide a mechanism to rotate M3 about the Reference Optical Axis (ROA) and direct the Folded Gregorian beam to the Folded Port, Auxiliary Port, and Instrument Platform focal stations."
+2021_gmt_oad_web,Instruments using the GIS focal station shall provide an optical or fiber relay from the Direct Gregorian or Folded Gregorian beams to the GIS instrument volume.
+2021_gmt_oad_web,Instruments using AP focal station shall provide an optical relay from the Folded Gregorian focus to the AP instrument volume.
+2021_gmt_oad_web,Instruments using the IP focal station shall provide an optical or fiber relay from the Direct Gregorian or Folded Gregorian beams to the IP instrument volume.
+2021_gmt_oad_web,The Mount shall provide a rotation mechanism to maintain Auxiliary Port instruments in a gravity-invariant orientation.
+2021_gmt_oad_web,"Instruments using the GIS focal station shall provide their own field de-rotation mechanism, if necessary."
+2021_gmt_oad_web,"Instruments using the AP focal station shall provide their own field de-rotation mechanism, if necessary."
+2021_gmt_oad_web,"Instruments using the IP focal station shall provide their own field de-rotation mechanism, if necessary."
+2021_gmt_oad_web,"The GMT site infrastructure shall include roads which connect to the LCO access road, and to connect all facility locations on the site."
+2021_gmt_oad_web,"The site infrastructure shall provide space for a water plant to store, treat, and distribute water to other buildings."
+2021_gmt_oad_web,The site infrastructure shall provide domestic waste water treatment systems to service all site facilities buildings.
+2021_gmt_oad_web,The site infrastructure shall include an electrical power connection to the Chilean commercial electrical grid.
+2021_gmt_oad_web,"The site infrastructure shall include an electrical power distribution system to supply commercial and backup power to the facilities at the summit, SS1, and SS2."
+2021_gmt_oad_web,The site infrastructure shall include electrical power substations and associated switchgear at the summit and support sites.
+2021_gmt_oad_web,The GMT shall provide a cabling infrastructure to support general services.
+2021_gmt_oad_web,Enclosure shall provide (a) cooling system(s) to provide coolant for instrumentation and telescope systems.
+2021_gmt_oad_web,"The Enclosure and Facilities shall provide space within buildings for common uses such as office space, bathrooms, and storage space."
+2021_gmt_oad_web,The Facilities shall provide space for housing staff and visitors at Support Site 2.
+2021_gmt_oad_web,"The facilities shall provide a summit support building (SSB) to house the M1 washing and reflective coating systems, and the Optical Subsystems Lab for secondary mirrors integration and testing."
+2021_gmt_oad_web,The SSB shall provide a storage bay for the seventh off-axis M1 assembly.
+2021_gmt_oad_web,The SSB shall provide a mezzanine for storage of M1 assembly accessories.
+2021_gmt_oad_web,The SSB shall provide a washing bay for cleaning and stripping of M1 mirrors.
+2021_gmt_oad_web,The SSB shall provide a staging bay for removal and replacement of M1 accessories.
+2021_gmt_oad_web,The SSB shall provide a coating bay for the M1 coating chamber.
+2021_gmt_oad_web,The SSB shall provide an electrical / UPS room.
+2021_gmt_oad_web,The SSB shall provide an equipment room.
+2021_gmt_oad_web,The SSB shall provide a magnetron target room.
+2021_gmt_oad_web,The SSB shall provide space for the Optical Subsystems Lab
+2021_gmt_oad_web,The SSB shall include a bridge crane.
+2021_gmt_oad_web,"The primary function of the facilities is to support the assembly, integration, test, and operation of the observatory. During the construction and early operations phases, the warehouse building will provide an M1 Integration Lab (MIL) with four large bays for integration of the M1 mirror cells, support systems, and optics. Following completion of observatory construction, the MIL will be transitioned to warehouse space and partially reconfigured to provide electronics and detector laboratories."
+2021_gmt_oad_web,"The facilities shall provide a warehouse building to house the M1 Integration, provide spaces for construction and operations."
+2021_gmt_oad_web,The warehouse shall provide an entry vestibule.
+2021_gmt_oad_web,The Facilities shall provide space for a shop building at SS1.
+2021_gmt_oad_web,The Facilities shall provide space for Storage of mobile equipment and electrical equipment.
+2021_gmt_oad_web,The GMTO Base Facility shall have climate-controlled work spaces.
+2021_gmt_oad_web,The GMT Base Facility shall provide office spaces for staff members and visitors.
+2021_gmt_oad_web,The GMT Base Facility shall provide a remote operations room.
+2021_gmt_oad_web,"The GMT Base Facility shall provide an enclosed space for shipping and receiving, and for temporary storage of equipment transiting to and from the mountain."
+2021_gmt_oad_web,The GMT Base Facility shall provide enough parking for staff and visitors.
+2021_gmt_oad_web,The GMT Base Facility shall provide power to critical services through a commercial power outage.
+2021_gmt_oad_web,The GMT Base Facility shall provide a large theater with reconfigurable space and seating for 50 people.
+2021_gmt_oad_web,The GMT Base Facility shall provide three conference rooms with enough space and seating for 15 people each.
+2021_gmt_oad_web,"Each GMT Base Facility conference room, and theater, shall be equipped with audio-visual presentation and videoconferencing equipment."
+2021_gmt_oad_web,The GMT Base Facility shall provide kitchen/dining facilities to support staff and visitors.
+2021_gmt_oad_web,The GMT Base Facility shall provide a small lab space.
+2021_gmt_oad_web,The GMT Base Facility shall provide shower and changing facilities for staff and visitors.
+2021_gmt_oad_web,The observatory shall provide an enclosure for the telescope.
+2021_gmt_oad_web,The enclosure shall provide an observing chamber for the telescope.
+2021_gmt_oad_web,"The enclosure shall provide an upper portion, which provides the side and upper boundaries of the observing chamber."
+2021_gmt_oad_web,The enclosure shall provide a fixed (non-rotating) working floor at the bottom of the observing chamber.
+2021_gmt_oad_web,The enclosure observing chamber floor level shall be coincident with the top surface of the telescope azimuth disk.
+2021_gmt_oad_web,The enclosure shall provide a mechanized hatch in the observing floor to enable access to the grade level in the lower enclosure.
+2021_gmt_oad_web,The enclosure shall provide an unobstructed view of the night sky for any combination of operational telescope azimuth and elevation angles.
+2021_gmt_oad_web,The enclosure shall provide a means for continuously aligning the viewing aperture with the telescope azimuth angle.
+2021_gmt_oad_web,The enclosure shall provide a means for protecting the observing chamber from heat released by the enclosure rotation system.
+2021_gmt_oad_web,The enclosure shall provide a means for wind-driven flushing of air in the observing chamber.
+2021_gmt_oad_web,"The enclosure shall provide an open/close function for the viewing aperture, whereby the enclosure, when open, will provide an unobstructed view of the sky for any telescope operational orientation."
+2021_gmt_oad_web,"The enclosure shall provide a means for modulating wind-flow through the viewing aperture, while simultaneously allowing an unobstructed view of the sky for any telescope operational elevation angle."
+2021_gmt_oad_web,The enclosure shall provide a means for modulating the wind-driven flushing of air through the observing chamber.
+2021_gmt_oad_web,"The enclosure shall provide means for lifting and positioning telescope components, including optics and instruments inside the observing chamber, during the observatory final assembly, integration, testing, and operational phases."
+2021_gmt_oad_web,"The enclosure shall provide a bridge crane, located above the highest point on the telescope, to enable construction and maintenance of the telescope and its subsystems."
+2021_gmt_oad_web,The upper enclosure shall provide a personnel-rated freight elevator.
+2021_gmt_oad_web,"The enclosure shall provide a lower portion, which structurally supports the upper enclosure, and defines the bottom of the observing chamber."
+2021_gmt_oad_web,The lower enclosure shall provide an elevated personnel floor level above the grade level and below the observing floor.
+2021_gmt_oad_web,The lower enclosure shall provide an interstitial space directly below the Observing Floor to house HVAC and potentially other equipment.
+2021_gmt_oad_web,The lower enclosure shall provide a personnel-rated freight elevator.
+2021_gmt_oad_web,"The lower enclosure grade level shall provide a ""high bay"" lab space."
+2021_gmt_oad_web,The lower enclosure grade level shall provide a “low bay” lab space.
+2021_gmt_oad_web,The Science Instruments shall provide a clean room in the Low Bay Lab.
+2021_gmt_oad_web,The lower enclosure grade level shall provide a bay below the Observing Floor Hatch large enough to fit an M1 cell.
+2021_gmt_oad_web,The lower enclosure grade level shall provide a shipping and receiving bay.
+2021_gmt_oad_web,The lower enclosure grade level shall provide space for a storage bay.
+2021_gmt_oad_web,The lower enclosure shall provide space for a utility shaft.
+2021_gmt_oad_web,The lower enclosure shall provide space for utility distribution equipment.
+2021_gmt_oad_web,The lower enclosure control level shall include a science operations control room.
+2021_gmt_oad_web,The lower enclosure control level shall include an operations room.
+2021_gmt_oad_web,The lower enclosure control level shall include a room dedicated to computer and network equipment.
+2021_gmt_oad_web,The enclosure shall provide the telescope pier.
+2021_gmt_oad_web,The enclosure shall provide the concrete foundation for connecting the telescope pier to site bedrock.
+2021_gmt_oad_web,The enclosure shall provide a means for forced-air ventilation of the volume surrounding the telescope pier.
+2021_gmt_oad_web,"The enclosure shall provide the means for transferring Direct Gregorian (DG) instruments from grade level in the lower enclosure, to the Gregorian Instrument Rotator (GIR)."
+2021_gmt_oad_web,The enclosure shall provide space beneath the Pier Lift to allow access to the Pier Lift for maintenance.
+2021_gmt_oad_web,The enclosure shall provide space within the pier to allow transfer of instruments and other large equipment onto the pier lift at grade.
+2021_gmt_oad_web,The enclosure shall provide space within the pier to allow access to the inner part of the azimuth track.
+2021_gmt_oad_web,The enclosure shall provide space within the pier to allow access to the outer part of the azimuth track.
+2021_gmt_oad_web,The enclosure shall provide space within the pier to allow access to the Mount utility interfaces.
+2021_gmt_oad_web,"The Enclosure shall provide a utility building at the summit site to house electrical and mechanical equipment needed for operation of the Enclosure, Mount, and Instruments."
+2021_gmt_oad_web,The Enclosure shall provide space next to the summit utility building for an electrical and equipment yard.
+2021_gmt_oad_web,The Enclosure shall provide a covered tunnel to run utilities between the Summit Utility Building and the Enclosure.
+2021_gmt_oad_web,Enclosure shall provide Liquid Nitrogen (LN2) at 77 K ± 0.5 K TBC to support instruments and coating operations.
+2021_gmt_oad_web,"Enclosure shall provide a source of clean, dry compressed air to support the operation of the telescope and general services for each subsystem."
+2021_gmt_oad_web,Enclosure shall provide a reserve of 2700 kg of liquid CO2 to service mirror cleaning
+2021_gmt_oad_web,The telescope coordinate systems and vertical datum shall be as defined in GMT-REF-00189.
+2021_gmt_oad_web,The GMT Mount shall have an elevation axis nominally 22.500 m above Grade Level.
+2021_gmt_oad_web,The GMT Mount shall have an Azimuth Floor (including insulation) nominally 10.700 m below the elevation axis.
+2021_gmt_oad_web,The GMT Mount shall have an Azimuth Track nominally 12.285 m below the elevation axis.
+2021_gmt_oad_web,The top of the GIR of the GMT Mount shall be nominally 1.000 m below the elevation axis.
+2021_gmt_oad_web,The Mount shall provide an Instrument Platform to allow access to instruments and other equipment.
+2021_gmt_oad_web,The top of the IP of the GMT Mount shall be nominally 1.000 m below the elevation axis.
+2021_gmt_oad_web,The GMT Mount shall have an Azimuth Track with a nominal diameter of 19.000 m.
+2021_gmt_oad_web,The GIR shall have a nominal diameter of 9.380 m.
+2021_gmt_oad_web,The GMT Mount shall distribute utilities to each of the payloads.
+2021_gmt_oad_web,The ASMS and the FSMS shall be interchangeable with the natural disconnect at the Top End-to-Truss interface.
+2021_gmt_oad_web,"The M2 Positioner shall compensate the large, common motion of the M2 segments."
+2021_gmt_oad_web,"The M2 Positioner shall compensate for the smaller, differential motions of the M2 segments."
+2021_gmt_oad_web,The off axis mirror cells shall be interchangeable.
+2021_gmt_oad_web,"Off axis M1 Cell mass shall be no greater than 60,000 kg."
+2021_gmt_oad_web,"On axis M1 Cell mass should be no greater than 60,000 kg."
+2021_gmt_oad_web,Each segment shall have static supports to carry the weight of the mirrors when active supports are not engaged.
+2021_gmt_oad_web,Each M1 cell shall contain 6 hardpoints.
+2021_gmt_oad_web,Each hardpoint shall have stiffness of at least 120 N/micron.
+2021_gmt_oad_web,"The M1 Segment Mirror first modal frequency, when supported by the M1 Hardpoints, shall be greater than or equal to 10Hz."
+2021_gmt_oad_web,Each M1 Cell shall have no greater than 50 Fan Assembly Units to control thermal load.
+2021_gmt_oad_web,"The GMT mount shall have a minimum azimuth operational range of motion of no less than ±260 degrees, with respect to 120° true azimuth."
+2021_gmt_oad_web,The GMT mount shall have an elevation operational range of motion of no less than 30.0–89.5 degrees.
+2021_gmt_oad_web,The GMT Mount shall have stationary access to 90.0 degrees elevation.
+2021_gmt_oad_web,The GMT Mount shall have a minimum GIR range of motion of no less than ±270 degrees [Goal: ±290 degrees] for observing.
+2021_gmt_oad_web,"The Mount mass shall not exceed 1,892,000 kg."
+2021_gmt_oad_web,The Telescope Metrology Subsystem mass shall not exceed 120 kg (TBR).
+2021_gmt_oad_web,"The Acquisition, Guiding, and Wavefront Sensing Subsystem mass shall not exceed 3,270 kg."
+2021_gmt_oad_web,"The Laser Guide Star Subsystem mass shall not exceed 9,200 kg."
+2021_gmt_oad_web,"The M1 System mass shall not exceed 170,611 kg."
+2021_gmt_oad_web,"The Adaptive Secondary Mirror Subsystem mass shall not exceed 4,875 kg."
+2021_gmt_oad_web,"The Fast Steering Mirror Subsystem mass shall not exceed 3,342 kg."
+2021_gmt_oad_web,"The M3 Subsystem mass shall not exceed 1,500 kg."
+2021_gmt_oad_web,"The C-ADC Subsystem mass shall not exceed 4,000 kg."
+2021_gmt_oad_web,"The Folded Port Instruments mass shall not exceed 6,450 kg."
+2021_gmt_oad_web,"The Direct Gregorian Instruments mass shall not exceed 11,250 kg."
+2021_gmt_oad_web,"The Gravity Invariant Instruments mass shall not exceed 20,550 kg."
+2021_gmt_oad_web,"The IP Instruments mass shall not exceed 7,000 kg."
+2021_gmt_oad_web,"The Auxiliary Port Instruments mass shall not exceed 3,000 kg."
+2021_gmt_oad_web,"The GMT Telescope Pier shall support a Telescope mass of no less than 2,312,520 kg."
+2021_gmt_oad_web,The GMT mount shall support a M1-Sn Segment mass of no less than 17010 kg.
+2021_gmt_oad_web,The GMT mount shall support a M1-Sn Segment Support System mass of no less than 8060 kg.
+2021_gmt_oad_web,The GMT mount shall support a M1-S7 Segment mass of no less than 15750 kg.
+2021_gmt_oad_web,The GMT mount shall support a M1-S7 Segment Support System mass of no less than 7372 kg.
+2021_gmt_oad_web,The GMT mount shall support a M1 System Hardpoint mass of no less than 133 kg.
+2021_gmt_oad_web,The GMT mount shall support a C-ADC mass of no less than 4269 kg.
+2021_gmt_oad_web,The GMT mount shall support a M2 FSMS mass of no less than 3510 kg.
+2021_gmt_oad_web,The GMT mount shall support a M2 ASMS mass of no less than 5118 kg.
+2021_gmt_oad_web,The GMT mount shall support a M3 mass of no less than 1575 kg.
+2021_gmt_oad_web,The GMT mount shall support a AGWS Probe A mass of no less than 858 kg.
+2021_gmt_oad_web,The GMT mount shall support a AGWS Probe B mass of no less than 858 kg.
+2021_gmt_oad_web,The GMT mount shall support a AGWS Probe C mass of no less than 858 kg.
+2021_gmt_oad_web,The GMT mount shall support a AGWS Probe D mass of no less than 858 kg.
+2021_gmt_oad_web,The GMT mount shall support a LPA pair 1 mass of no less than 3150 kg.
+2021_gmt_oad_web,The GMT mount shall support a LPA pair 2 mass of no less than 3150 kg.
+2021_gmt_oad_web,The GMT mount shall support a LPA pair 3 mass of no less than 3150 kg.
+2021_gmt_oad_web,The GMT mount shall support a Laser Guidestar Acquisition Subsystem mass of no less than 210 kg.
+2021_gmt_oad_web,The GMT mount shall support a Instrument Calibration Subsystem mass of no less than 42 kg.
+2021_gmt_oad_web,The GMT mount shall support a Wavefront Control Calibration Subsystem mass of no less than 42 kg.
+2021_gmt_oad_web,The GMT mount shall support a Telescope Metrology System mass of no less than 126 kg.
+2021_gmt_oad_web,The GMT mount shall support a FP Port B Instrument mass of no less than 6773 kg.
+2021_gmt_oad_web,The GMT mount shall support a FP Port C Instrument mass of no less than 4253 kg.
+2021_gmt_oad_web,The GMT mount shall support a FP Port D Instrument mass of no less than 6773 kg.
+2021_gmt_oad_web,The GMT mount shall support a DG Port A mass of no less than 11813 kg.
+2021_gmt_oad_web,The GMT mount shall support a DG Port B mass of no less than 9188 kg.
+2021_gmt_oad_web,The GMT mount shall support a DG Port D mass of no less than 9188 kg.
+2021_gmt_oad_web,"The GMT mount shall control the Azimuth, Elevation, and GIR Rotation."
+2021_gmt_oad_web,The GMT M1S shall control the M1 segment rigid body position.
+2021_gmt_oad_web,The GMT M1S shall control the M1 segment shape.
+2021_gmt_oad_web,The GMT FSMS/ASMS shall control the M2 segment rigid body position.
+2021_gmt_oad_web,The GMT AGWS shall control the Acquisition imaging of ?1 off-axis guide star.
+2021_gmt_oad_web,The M1 System shall provide segment position actuation with a transfer function response to commands within the limits specified in Figure 3-27. For axis the frequency bandwidth (–3 dB) shall be larger than 1.0 Hz. The command response shall be below +6 dB below 1.0 Hz. The resonant peaks shall be less that –6 dB above 1.0 Hz.
+2021_gmt_oad_web,The M1 System shall provide actuation of M1 segment shape with an accuracy resulting in a average surface gradient over any 0.53 × 0.53 m region of the segment no greater than 1.45 ?rad (TBC).
+2021_gmt_oad_web,The M1 System shall provide actuation of M1 segment shape with a repeatability of ? 22.5 nm RMS surface when controlling 27 bending modes per segment.
+2021_gmt_oad_web,The M1 System shall provide segment shape actuation with a transfer function response to commands within the limits specified in Figure 3-28. The frequency bandwidth (–3 dB) shall be larger than 1.0 Hz. The command response shall be below +6 dB below 1.0 Hz. The resonant peaks shall be less than –6 dB above 1.0 Hz.
+2021_gmt_oad_web,"The FSMS and ASMS shall provide actuation of the TX, TY, TZ, and RZ degrees of freedom with a transfer function response to commands within the limits specified in Figure 3-29."
+2021_gmt_oad_web,The FSMS shall provide actuation of the segment RX and RY degrees of freedom with a transfer function response outside the keep-out region specified in Figure 3-30.
+2021_gmt_oad_web,"The TMS Large Capture Range Absolute Metrology System shall measure the locations of M1, M2, M3, and the C-ADC in the OSS coordinate system with a capture range greater than the sum of the manufacturing tolerances, assembly and installation tolerances, and maximum expected flexure, and an inaccuracy less than the capture range of the TMS Precision Absolute Metrology System."
+2021_gmt_oad_web,"The TMS Precision Absolute Metrology System shall measure the locations of M1, M2, and M3 in the OSS coordinate system, with a capture range greater than the maximum expected flexure of the combined Mount and main optics."
+2021_gmt_oad_web,The Natural Seeing rejection transfer function for global and segment wavefront tip-tilt disturbances shall remain outside of the keep-out region specified in Figure 3-33.
+2021_gmt_oad_web,The ASM in the GLAO wavefront control mode shall have at least 150 controlled modes per segment.
+2021_gmt_oad_web,The AGWS in the GLAO wavefront control mode shall measure the system wavefront with an accuracy of ?80 mas RMS in each subaperture.
+2021_gmt_oad_web,The GLAO wavefront control mode rejection transfer function for all controlled modes shall not exceed that in Figure 3-36.
+2021_gmt_oad_web,The ASMS in the NGAO wavefront control mode shall have at least 500 controlled modes per segment.
+2021_gmt_oad_web,The ASMS shall provide control of segment shape with an accuracy resulting in a average surface gradient over any 6.6 × 6.6 cm region of the segment no greater than 11.7 ?rad (TBC).
+2021_gmt_oad_web,The ASM shall provide control of segment shape with a precision of ? 5 nm RMS surface.
+2021_gmt_oad_web,The ASMS shall provide actuation of segment shape in all controlled modes with a transfer function response to commands outside the keep-out regions specified in Figure 3-40.
+2021_gmt_oad_web,The AGWS shall meet its NGAO measurement accuracy requirements with a sky coverage of no less than 90% in the FP optical configuration.
+2021_gmt_oad_web,The AGWS SPS sensor shall have a capture range no less than ± 30 m.
+2021_gmt_oad_web,"The NGWS shall be replicated for each instrument operating in the NGAO wavefront control mode, and fed by reflection off the instrument cryostat window."
+2021_gmt_oad_web,The NGWS shall meet its performance requirements using only 450-920 nm wavelength light.
+2021_gmt_oad_web,The NGWS shall meet its performance requirements using guide stars up to 60 arcsec off-axis.
+2021_gmt_oad_web,The NGWS shall be sensitive to both continuous wavefront errors and phase differences across the GMT segment gaps.
+2021_gmt_oad_web,The NGWS shall measure the wavefront error of an R = 10 guide star with a measurement error of < 60 nm RMS wavefront at ?1000 Hz.
+2021_gmt_oad_web,The NGAO wavefront control mode rejection transfer function for all controlled modes shall not exceed that in Figure 3-41.
+2021_gmt_oad_web,"The On-Axis Tomography control loop shall tomographically reconstruct the on-axis wavefront error from wavefront measurements made by the LTWS, and apply corrections for this error to the ASMS face sheets."
+2021_gmt_oad_web,"The Off-Axis Tomography control loop shall tomographically reconstruct the off-axis wavefront error from wavefront measurements made by the LTWS, and apply corrections for this error to the OIWFS deformable mirror."
+2021_gmt_oad_web,"The Uplink Tip-Tilt control loop shall reconstruct the global tip-tilt error of each LGS from wavefront measurements made by the LTWS, and apply corrections for this error using the LGSS fast steering mirrors."
+2021_gmt_oad_web,The NGS Tip-Tilt control loop shall receive the NGS global tip-tilt error measured by the OIWFS and apply corrections for this error to the ASMS face sheets.
+2021_gmt_oad_web,The NGS Focus control Loop shall receive the NGS global focus error measured by the OIWFS and apply corrections for this error to the LTWS focus stage.
+2021_gmt_oad_web,"The On-Axis Dynamic Calibration control loop in the LTAO control mode shall reconstruct the low-order wavefront error from measurements made by the OIWFS, and apply corrections for this error to the LTWS reference slopes."
+2021_gmt_oad_web,"The Off-Axis Dynamic Calibration control loop in the LTAO control mode shall reconstruct the low-order wavefront error from measurements made by the OIWFS downstream of its deformable mirror, and apply corrections for this error to the OIWFS deformable mirror commands."
+2021_gmt_oad_web,"The LTWS Rotation control loop shall reconstruct pupil rotation error from the subaperture intensities measured by the LTWS, and apply corrections for this error to the LTWS rotation stage."
+2021_gmt_oad_web,"The LTWS Pupil control loop shall reconstruct pupil position error from the subaperture intensities measured by the LTWS, and apply corrections for this error to the LGS Dichroic tip and tilt."
+2021_gmt_oad_web,"The M1 Segment Piston feed-forward loop shall receive the M1 differential piston error measured by the TMS M1 Edge Sensors, and apply corrections for this error to the ASMS face sheets."
+2021_gmt_oad_web,"The M2 Segment Piston feed-forward loop shall receive the M2 differential piston error measured by the ASMS M2 Edge Sensors, and apply corrections for this error to the ASMS face sheets."
+2021_gmt_oad_web,"The Active Optics and Phasing control loop in the LTAO control mode shall reconstruct field-dependent segment aberrations and both on-axis and field-dependent segment phase piston from measurements made by the AGWS, and apply corrections for these errors to the Mount, M1S segment positions and shapes, and TMS M1 Edge Sensor setpoints."
+2021_gmt_oad_web,The NGWS shall actuate the LGS Dichroic in tip and tilt.
+2021_gmt_oad_web,"The NGWS LGS Dichroic tip-tilt actuation shall have an absolute accuracy of < 1.0 mrad RMS with respect to the Instrument-NGWS mechanical interface, anywhere within its range of motion after calibration."
+2021_gmt_oad_web,The NGWS LGS Dichroic tip-tilt actuation shall have a repeatability of < 10 ?rad RMS for small offsets.
+2021_gmt_oad_web,The NGWS LGS Dichroic tip-tilt actuation shall have a range of at least ± 6.0 mrad (TBC).
+2021_gmt_oad_web,The LGSS shall generate sodium laser guide stars at 589 nm wavelength.
+2021_gmt_oad_web,"The LGSS shall project a 6 laser guide stars in a circular asterism centered on the telescope optical axis, with a radius adjustable between 25.0 and 35.0 arcsec."
+2021_gmt_oad_web,The LGSS shall generate laser guide stars with an annual-median return flux at the GMT primary mirror of no less than 400 ph/cm2/s (TBC).
+2021_gmt_oad_web,"The LGSS shall generate LGS with a FWHM no greater than 1.0 arcsec along the axis perpendicular to spot elongation, when imaged through a 42x42 cm square aperture."
+2021_gmt_oad_web,The LGSS shall point the laser guide stars over an angular range of no less than ± 2.6 arcmin with respect to the normal to the Mount-LGSS mechanical interface.
+2021_gmt_oad_web,The GMT shall point the laser guide stars with a blind pointing accuracy of < 4.6 arcsec peak error.
+2021_gmt_oad_web,The LGSS Laser Acquisition System shall measure the position of the LGS with respect to the telescope optical axis.
+2021_gmt_oad_web,The LGSS Laser Acquisition System shall measure the position of the LGS with respect to the telescope optical axis with an accuracy of < 0.5 arcsec RMS.
+2021_gmt_oad_web,The LGSS Laser Acquisition System shall have a capture range ? 6.0 arcmin diameter centered on the telescope optical axis.
+2021_gmt_oad_web,The Laser Tomography Wavefront Sensor Subsystem (LTWS) measures the high-order components of the atmospheric and telescope phase error.
+2021_gmt_oad_web,"The LTWS shall be replicated for each instrument operating in the LTAO wavefront control mode, and fed by reflection off the instrument cryostat window and the NGWS LTAO Dichroic."
+2021_gmt_oad_web,The LTWS shall operate using the 589 nm wavelength light of the sodium laser guide stars.
+2021_gmt_oad_web,"The LTWS shall have 6 wavefront sensors equally spaced on a circle centered on the telescope optical axis, configurable to radii of 25 to 35 arcsec."
+2021_gmt_oad_web,The LTWS wavefront sensors shall be of a Shack-Hartmann type with a pupil sampling of at least 60x60 subapertures.
+2021_gmt_oad_web,The LTWS shall have a pixel sampling of < 0.8 arcsec/pixel.
+2021_gmt_oad_web,The LTWS shall have a field of view of < 9.2 arcsec.
+2021_gmt_oad_web,The LTWS wavefront sensors shall have a relative pupil registration error of < 4.2 cm (TBC) in the entrance pupil.
+2021_gmt_oad_web,The LTWS shall have a maximum frame rate no less than 500 Hz.
+2021_gmt_oad_web,The LTWS shall track the rotating LTAO asterism.
+2021_gmt_oad_web,The LTWS shall refocus to track the LGS range from 83.5 km to 190 km.
+2021_gmt_oad_web,The Instrument OIWFS shall be capable of observing any NGS from 15.0 to 60.0 arcsec (TBC) from the instrument optical axis.
+2021_gmt_oad_web,"Edge sensors between M1 and M2 segments supplement the low-bandwidth segment phase piston measurements made by the AGWS to enable phasing of the GMT in the LTAO mode. The edge sensor measurements are fed forward to the ASMS, and their setpoints corrected every 30s based on the off-axis natural guide star measurements made by the AGWS. The M1 Edge Sensor measurement accuracy is specified explicitly in this section because the control is performed by the OCS. However, at M2 the control is performed internal to the ASMS and therefore only the final phasing error is specified."
+2021_gmt_oad_web,The ASMS shall maintain the segments in their commanded positions with a differential segment phase piston error ? 31 nm RMS surface.
+2021_gmt_oad_web,"The Mount accelerometer metrology system shall measure Mount, M1 segment, and M2 segment rigid body degrees of freedom acceleration in the 0.1 to 160 Hz frequency range."
+2021_gmt_oad_web,The LTAO wavefront control mode rejection transfer function for all controlled modes except segment piston shall not exceed that in Figure 3-43.
+2021_gmt_oad_web,The WCCS shall project a diffraction-limited broadband on-axis light source from the prime focus to M2.
+2021_gmt_oad_web,"The WCCS shall retro-reflect light projected from the Gregorian focus off M2, while preserving the pupil position."
+2021_gmt_oad_web,The WCCS shall project broadband and monochromatic off-axis sources from the prime focus to M2 that mimic the light of natural and sodium laser guide stars.
+2021_gmt_oad_web,The WCCS shall measure the surface figure of M2 using a metrology interferometer located at the Gregorian focus.
+2021_gmt_oad_web,The Mount shall retract the WCCS Deployment Mechanism to a position that is out of the optical beam of the telescope.
+2021_gmt_oad_web,"When deployed, the WCCS and Mount Deployment Mechanism shall vignette the projected calibration source beams by less than 5%."
+2021_gmt_oad_web,The Wavefront Control Calibration System shall be capable of being used in the AO Integration Facility for integrated functional and performance testing of the NGAO and LTAO observing modes.
+2021_gmt_oad_web,The NGWS shall include an internal calibration source to calibrate its response to a flat wavefront.
+2021_gmt_oad_web,The NGWS shall project a calibration light source upstream along the NGWS optical axis to enable testing and calibration of the NGAO wavefront control mode.
+2021_gmt_oad_web,The NGWS shall record diffraction-limited images of the guide star for engineering tests of the NGAO control loop performance.
+2021_gmt_oad_web,The Observatory Instruments shall have a service life of at least 10 years [goal: not less than 15 years].
+2021_gmt_oad_web,Each Instrument shall provide appropriate data reduction routines to extract scientific data from the raw data.
+2021_gmt_oad_web,The Commissioning Camera (ComCam) shall be located at the Direct Gregorian (DG) focal station.
+2021_gmt_oad_web,The Commissioning Camera (ComCam) shall enable evaluation of the GLAO wavefront control mode.
+2021_gmt_oad_web,The Commissioning Camera (ComCam) shall have a field of view of minimum diameter 6.0 arcmin.
+2021_gmt_oad_web,The Commissioning Camera (ComCam) shall have a wavelength coverage 360 – 950 nm.
+2021_gmt_oad_web,The Commissioning Camera (ComCam) shall provide discrete and tunable narrow-band filters within its wavelength coverage.
+2021_gmt_oad_web,G-CLEF shall be located at the Gravity Invariant Station (GIS).
+2021_gmt_oad_web,G-CLEF light shall be picked-off on the Reference Optical Axis ahead of the DG focus and arrive at the GIS Spectrograph via optical fibers from a Front End unit located at the Instrument Platform (IP) focal station.
+2021_gmt_oad_web,G-CLEF shall provide an internal unit for instrument calibration (flat-field and wavelength).
+2021_gmt_oad_web,GMACS shall be located at the Direct Gregorian (DG) focal station.
+2021_gmt_oad_web,GMTIFS shall deliver science enabled by the following Observatory Performance Modes (OPM): · Small Field Infrared LTAO (OPMs 7 and 8) · Small Field Infrared NGAO (OPM 9)
+2021_gmt_oad_web,GMTIFS shall be located at a Folded Port (FP) focal station.
+2021_gmt_oad_web,GMTIFS shall provide an internal unit for instrument calibration (flat-field and wavelength).
+2021_gmt_oad_web,"GMTIFS shall provide capabilities for wavefront control diagnostics and calibration, including a pupil imager, phase diversity optics, and non-redundant pupil masks in the imager channel."
+2021_gmt_oad_web,GMTNIRS shall be located at a Folded Port (FP) focal station.
+2021_gmt_oad_web,GMTNIRS shall provide an internal unit for instrument calibration (flat-field and wavelength).
+2021_gmt_oad_web,MANIFEST shall direct the light of multiple targets across the GMT’s full 20 arcmin diameter field of regard to science instruments.
+2021_gmt_oad_web,MANIFEST shall be reconfigurable such that it can interface to different target fields and different client instruments.
+2021_gmt_oad_web,MANIFEST shall be located at the Direct Gregorian (DG) focal station.
+2021_gmt_oad_web,The GMT Enclosure shall provide ventilation openings over ? 30% of its vertical area to enable wind-driven temperature equilibration within the telescope chamber.
+2021_gmt_oad_web,The GMT Enclosure vents shall enable adjustment of the wind speed at M1 with a resolution ? 0.5 m/s.
+2021_gmt_oad_web,The GMT Enclosure exterior surface shall have an average emissivity no greater than 0.4.
+2021_gmt_oad_web,The GMT Enclosure exterior surface shall have an average absorptivity no greater than 0.2.
+2021_gmt_oad_web,The Mount Elevation axis shall be located no less than 20 m above the finished grade.
+2021_gmt_oad_web,The M1 optical surface shall be maintained within ±0.2 K of the ambient air temperature.
+2021_gmt_oad_web,The M2 optical surface shall be maintained within ±0.2 K of the ambient air temperature.
+2021_gmt_oad_web,"An individual standard electronics cabinet (SEC), exclusive of payloads, shall induce on-axis wavefront error at the telescope focal plane due to vibration forces and moments at the Mount interfaces no greater than 0.5nm RMS during NGAO observing operations."
+2021_gmt_oad_web,"The primary mirror wedges interface plates shall be located in the back of the mirror coordinate system M1-B1 with accuracy of ±2 mm per axis X, Y and Z"
+2021_gmt_oad_web,The M1 cell shall be able to adjust it position respect to the mount in the Y and Z direction of M1-T coordinate system.
+2021_gmt_oad_web,The M1 cell shall have and adjustable range of motion of ±3.5 mm for Y and Z respect to the M1-T coordinate system.
+2021_gmt_oad_web,The M1 cell shall be able to have adjustability of the Y and Z axis with an accuracy of 0.25 mm respect to the M1-T coordinate system.
+2021_gmt_oad_web,"The mount structure has been modeled designed with steel. Due to the large coefficient of thermal expansion of the steel, and the broad range of temperatures of operation, M1, M2, M3 mirror positioning systems along with the ADC and AGWS have to be able to compensate for the departures from the nominal position. In order to allocate this range of motion a maximum coefficient of thermal expansion has to be imposed on the Mount structure."
+2021_gmt_oad_web,The Mount shall have a maximum linear coefficient of thermal expansion of 12.2 ppm/K.
+2021_gmt_oad_web,The GMT shall provide blind pointing to a position on the sky with an accuracy of 10 arcsec RMS [goal: 5 arcsec RMS] [TBR].
+2021_gmt_oad_web,"After initial calibration, the GMT shall point to an absolute position in RA and Dec with an accuracy of 5 arcsec RMS."
+2021_gmt_oad_web,"After initial calibration, the GMT shall point to an absolute position in RA and Dec with an accuracy of 3 arcsec RMS, with the TMS active."
+2021_gmt_oad_web,The GMT Observatory shall maintain the required pointing and image stability accuracies on the scientific target when the guide star measurements are performed at a different wavelength than the science observation.
+2021_gmt_oad_web,The AGWS shall track guide stars at up to 6 arcsec/min relative to the sidereal rate with no more than 20 mas RMS of additional guiding error.
+2021_gmt_oad_web,The AGWS shall track guide stars at up to 1 arcsec/s relative to the sidereal rate with no more than 200 mas RMS of additional guiding error.
+2021_gmt_oad_web,"The AGWS shall meet all of its performance requirements with the GIR fixed, over an apparent sky rotation angle of up to 60 degrees."
+2021_gmt_oad_web,"After calibration, the GMT shall provide guided pointing with an accuracy < 0.2 arcseconds RMS at Direct Gregorian ports."
+2021_gmt_oad_web,"After calibration, the GMT shall provide guided pointing with an accuracy < 1 arcsecond RMS at the Folded Port."
+2021_gmt_oad_web,The GMT shall offset between two or more positions on the sky separated by up to 60 arcseconds with a pointing accuracy at each position of no greater than 0.1*PSF FWHM arcseconds RMS.
+2021_gmt_oad_web,"The GMT observatory shall be able to perform observations with the minimum average throughput in each 50 nm window for clean, freshly-polished mirrors as outlined in the table in Appendix B."
+2021_gmt_oad_web,"The GMT observatory shall, at minimum, clean the optics with CO2 once every two weeks, and the primary mirrors will be wet-washed every other year between re-coatings."
+2021_gmt_oad_web,M3 shall be cleaned prior to folded port infrared observations (OPMs 5 – 9) to ensure that dust levels are minimized on the optics.
+2021_gmt_oad_web,"The GMT shall have an effective collecting area of no less than 358 square meters, including all baffling."
+2021_gmt_oad_web,The GMT shall be able to perform small field observations with vignetting < 1% at a field angle of 1.5 arcmin.
+2021_gmt_oad_web,The GMT shall be able to perform wide-field observations with vignetting < 7% at a field angle of 10 arcmin.
+2021_gmt_oad_web,"The GMT observatory shall be able to enable observations with a maximum pupil motion of less than 0.25% of the pupil diameter, in any OPM."
+2021_gmt_oad_web,GMTO shall design the telescope and enclosure to minimize stray light during night-time observing and daytime calibration sequences.
+2021_gmt_oad_web,GMT shall have a primary mirror baffle to disrupt glancing incident reflections to the central hole with a height no greater than 6400 mm above the OSS origin (TBC) and an inner diameter no less than 1722 mm (TBC).
+2021_gmt_oad_web,GMT shall have a secondary mirror baffle that circumscribes the secondary mirror segments with a diameter no larger than 3.6 meters as close to the exit pupil as the design will allow.
+2021_gmt_oad_web,"The enclosure provides opportunities for light to scatter. This can affect observations, particularly during the day when calibrations need to be performed. In order to mitigate the adverse effects of stray light, the enclosure needs to be light-tight and use low-reflectivity surfaces."
+2021_gmt_oad_web,The GMT shall limit total stray light levels to 1.3 x 10-3 W m-2 (TBC) at 0.5 ?m in the observing chamber.
+2021_gmt_oad_web,"No fixed lights shall be on during science operations (i.e., parking lot lights)."
+2021_gmt_oad_web,Each light source within the Observing Chamber shall have the ability to be switch to an “off” state so that it does not add excess stray light.
+2021_gmt_oad_web,"Light sources must be adequately guarded against afterglow leakage, visible or thermal, when they are turned off during science operations or calibrations."
+2021_gmt_oad_web,The GMT shall have a baffling system where a circular annular ring is installed above the top surface of each primary mirror segment to mitigate against stray light from the rough round-off edges of the M1 segment mirror.
+2021_gmt_oad_web,"Point source sensitivity requirements and measurements for the GMT are dependent on the emissivity of the system. The telescope and its peripherals (i.e., baffles, mirror coatings, pupil, etc.) will cause background noise and structure that can be comparable to the signal for faint targets. Without proper planning and design to mitigate the thermal background of the telescope, the thermal background noise can over-power any signal, especially at mid-infrared wavelengths."
+2021_gmt_oad_web,The GMT contribution to on-axis emissivity shall not exceed the specifications below in Table 4-25 for DGNF (no C-ADC) and FP.
+2021_gmt_oad_web,The GMT Observatory shall be able to acquire images with a maximum change in the uncertainty in the flux in a 5 (TBC) x FWHM diameter aperture (excluding throughput variations) over a two-hour period as described in Table 4-27.
+2021_gmt_oad_web,The GMT observatory shall be able to maintain field distortion stability to the levels outlined in Table 428 over a 10-hour period.
+2021_gmt_oad_web,GMT shall enable spectral stability with a wavelength accuracy of < 10% of the spectral resolution when the signal-to-noise ratio is < 10.
+2021_gmt_oad_web,The GMT shall provide a deployable Instrument Calibration System (ICS).
+2021_gmt_oad_web,The ICS Deployment Mechanism shall operate at any elevation angle within the observing range of the telescope (including zenith).
+2021_gmt_oad_web,The Mount shall retract the ICS to a position that is out of the optical beam of the telescope.
+2021_gmt_oad_web,"When deployed, the ICS Deployment Mechanisms shall vignette the projected calibration source beams by less than 5% [goal: 0%]."
+2021_gmt_oad_web,The GMT shall support the calibration of science instruments by providing a deployable system(s) to project continuum light sources with beam characteristics that match the light coming from the sky and celestial sources.
+2021_gmt_oad_web,The GMT shall support the calibration of science instruments by providing a deployable system(s) to project spectral light sources with beam characteristics that match the light coming from the sky and celestial sources.
+2021_gmt_oad_web,The ICS shall provide flat field and spectral calibration sources to cover the wavelength range of 320– 2500 nm over the maximum Field of View of the telescope.
+2021_gmt_oad_web,The ICS shall provide calibration light over the maximum Field of View of the telescope.
+2021_gmt_oad_web,The ICS shall be deployable or retractable while the telescope is in motion.
+2021_gmt_oad_web,The ICS shall be available for use in day and night time.
+2021_gmt_oad_web,"The ICS shall enable the use of automated calibration sequences, including source selection and illumination control."
+2021_gmt_oad_web,Science instruments that require flat-field or spectral calibration performance beyond that provided by the GMT instrument calibration system shall provide their own calibration systems.
+2021_gmt_oad_web,Subsystems or components sensitive to condensation shall either be protected from condensing conditions (e.g. in a building or enclosure that is environmentally controlled) or placed into a safe state (e.g. powered off) during condensing conditions.
+2021_gmt_oad_web,"No part of the Observatory shall be exposed to any precipitation (rain, snow, or hail), except the components providing environmental protection for the rest of the Observatory (e.g. building or enclosure)."
+2021_gmt_oad_web,"The GMT Observatory shall meet all functional and performance requirements, with the exception of image quality, under external air temperature range of –3 °C to +19.5 °C."
+2021_gmt_oad_web,"The GMT Observatory shall meet all functional and performance requirements, with the exception of image quality, under external air temperature change over 30 minutes of –1.45 °C to +1.62 °C [1% and 99% points in the CDF as per data in GMT Environmental Conditions document (GMT-SE-REF00144)]."
+2021_gmt_oad_web,"The GMT Observatory shall meet all functional and performance requirements, with the exception of image quality, under external air pressure of 743 mbar to 758 mbar."
+2021_gmt_oad_web,"The GMT Observatory shall meet all functional and performance requirements, with the exception of image quality, under external maximum wind speed (1minute average @ M1 height) of up to 17.0 m/s."
+2021_gmt_oad_web,The GMT Observatory shall survive repeated exposure to external air temperature range of –8.5 °C to +27.7 °C.
+2021_gmt_oad_web,The GMT Observatory shall survive repeated exposure to external air pressure range of 740 mbar to 758 mbar.
+2021_gmt_oad_web,The GMT Observatory shall survive repeated exposure to external maximum wind speed (3s gust @M1 elevation) of up to 55 m/s.
+2021_gmt_oad_web,The GMT Observatory shall survive repeated exposure to external air temperature change over 30 minutes of –4.8 to +4.3 °C (extremes measured).
+2021_gmt_oad_web,The GMT Observatory shall survive repeated exposure to external rainfall rate of 0.2 m/hour (maximum measured).
+2021_gmt_oad_web,The GMT Observatory shall survive repeated exposure to external snowfall of column density up to 200 kg m–2.
+2021_gmt_oad_web,"After exposure to conditions beyond the Survival Conditions, regular operations staff shall be able to determine, after a maximum 6-hour inspection, whether the observatory is in a safe condition to return to science and technical operations."
+2021_gmt_oad_web,"The GMT shall provide an Environmental Monitoring Facility for monitoring the seismic, particulate, weather and atmospheric conditions."
+2021_gmt_oad_web,The GMT shall archive Environmental Data into the Engineering Data Archive and make it available to Observatory users.
+2021_gmt_oad_web,The GMT shall provide a system to alert users of detrimental environmental conditions.
+2021_gmt_oad_web,"The GMTO shall utilize weather forecasts for short-, medium-and long-range scheduling."
+2021_gmt_oad_web,Control of scattered light is discussed in Section 4.8. This includes the Moon shades and vent shades.
+2021_gmt_oad_web,"The GMT Enclosure Building, when closed, shall seal against external environmental conditions that could damage or degrade performance of the telescope systems."
+2021_gmt_oad_web,The GMT Enclosure shall protect against precipitation (rain and snow) when closed.
+2021_gmt_oad_web,The GMT enclosure shall be designed using best practices to minimize the effects of wind disturbance on the telescope structure and thermal effects that contribute to image blur in the science field.
+2021_gmt_oad_web,The GMT Support Buildings shall be environmentally conditioned to provide a temperature range from 20–24 °C and a humidity range between 20% and 60% during recoating processes.
+2021_gmt_oad_web,The Summit Support Building shall supply an area that can be thermally controlled within the Extended Operating Conditions and in which an off-axis M1 cell with mirror cover can be stored.
+2021_gmt_oad_web,The Lower Enclosure Instrument Bays shall be thermally controlled to provide a range of temperatures including the Extended Operating Conditions.
+2021_gmt_oad_web,The GMT living spaces and office spaces shall be maintained at a temperature range from 20–24 °C.
+2021_gmt_oad_web,The GMT living spaces shall have the ability to block internal light sources from escaping into the external environment during the night.
+2021_gmt_oad_web,The Observatory shall limit M1 principal optics probability of failure due to seismic events over the service life of the Observatory to less than or equal to [1%] TBC.
+2021_gmt_oad_web,The Observatory shall limit M2 principal optics probability of failure due to seismic events over the service life of the Observatory to less than or equal to [1%] TBC.
+2021_gmt_oad_web,The Observatory shall limit Enclosure Telescope Pier Seismic Isolation System probability of failure due to seismic events during the Observatory service life to less than or equal to [0.5%]TBC.
+2021_gmt_oad_web,"The Observatory shall meet all functional and performance requirements without the need of repair, realignment, recalibration, inspection or maintenance, except for recentering, immediately following ground motion up to and including an RLE event defined in [GMT-DOC-03787]TBC."
+2021_gmt_oad_web,The Observatory shall meet all functional and performance requirements without the need to recenter immediately following seismic events with an average return period of 1 year or less.
+2021_gmt_oad_web,"After an RLE, the GMT shall measure the telescope position relative to fiducials and derive and apply corrections to the pointing model in a time no more than TBD minutes."
+2021_gmt_oad_web,The Observatory shall be capable of resuming normal operations using available resources following motions up to and including the level defined for an OLE defined in GMT-DOC-03270 and GMT-DOC03271.
+2021_gmt_oad_web,The Observatory shall be capable of resuming normal operations using available resources following Telescope Pier OLE excursions of up to 100 mm radially and 3 mm in the Pier +Z direction with respect to the fixed Telescope Pier Footing.
+2021_gmt_oad_web,The Observatory shall protect personnel and onerous-to-replace equipment from ground motions up to and including the level defined for an SLE event in [GMT-DOC-03785 and GMT-DOC-03786]TBC.
+2021_gmt_oad_web,The Observatory shall not impede Telescope Pier Assembly excursions of up to 700 mm radially and 112 mm in the Pier +Z direction with respect to the fixed foundation.
+2021_gmt_oad_web,The Observatory shall protect personnel and onerous-to-replace equipment from the SLE Telescope Pier Assembly Excursions of GMT-L3-OAD-92171.
+2021_gmt_oad_web,"The Enclosure shall recenter the Telescope Pier Assembly after a seismic event, up to an SLE level earthquake, in [less than or equal to one day shift of 8 hours]TBC."
+2021_gmt_oad_web,All standardized software user interfaces shall be accessible from remote workstations by users with the appropriate access credentials.
+2021_gmt_oad_web,The OCS shall include a design system for developing consistent graphical user interfaces.
+2021_gmt_oad_web,The OCS shall include graphical user interfaces for observatory operations.
+2021_gmt_oad_web,GMT subsystems shall provide documentation on the subsystem's operation.
+2021_gmt_oad_web,"GMT subsystems shall provide engineering data to the Engineering Archive, including subsystem telemetry data and associated metadata."
+2021_gmt_oad_web,"GMT subsystems shall provide continuous performance, status and system health monitoring for any parameter that affects subsystem performance."
+2021_gmt_oad_web,GMT subsystems shall provide alarm levels for any critical parameters that affect function or performance.
+2021_gmt_oad_web,The OCS shall provide software and a user interface to log and track faults and responses to faults.
+2021_gmt_oad_web,"The OCS shall provide access-controlled, individual workspaces for individual scientific users."
+2021_gmt_oad_web,Each instrument shall provide “quick look” data reduction software to allow near real-time quality assessment of the instrument’s scientific data.
+2021_gmt_oad_web,The GMT software tools shall support the operating and wavefront control modes of the telescope.
+2021_gmt_oad_web,The GMT Observatory Control System shall enable data collection with multiple instruments operating simultaneously.
+2021_gmt_oad_web,"The GMT shall allow the automated switching, initiated and monitored by the instrument operator, of the active instrument set during the night."
+2021_gmt_oad_web,"PI Instruments will be designed for operational support by the Instrument groups with minimal assistance from the GMT Observatory staff, as defined in the agreement with the PI Institution."
+2021_gmt_oad_web,The GMT shall provide a tool to visualize the configuration and its status.
+2021_gmt_oad_web,The GMT DG Instrument Deployment Mechanism shall insert or remove a DG instruments in a time not to exceed 30 minutes.
+2021_gmt_oad_web,The GMT shall reconfigure from one DG instrument to another DG instrument in no more than 4 hours [goal: 1 hour].
+2021_gmt_oad_web,"The M3 Rotation Mechanism shall move between any two rotational positions within a 360 degree range, at any gravity orientation in a time not to exceed 2 minutes."
+2021_gmt_oad_web,The GMT shall deploy or retract M3 and rebalance the GIR in no more than 5 minutes [Goal: 3 min].
+2021_gmt_oad_web,The GMT shall deploy or retract optical relays located on the FP and rebalance the GIR in no more than 5 minutes [Goal: 3 min].
+2021_gmt_oad_web,The Mount DG Instrument Deployment Mechanism shall be capable of deploying or stowing a DG Instrument when the telescope is zenith pointing.
+2021_gmt_oad_web,The GMT shall deploy the Corrector-ADC into or out of the beam in a time not to exceed 5 minutes [Goal: 3 minutes] with the telescope parked at zenith position.
+2021_gmt_oad_web,The ICS and WCCS shall each be deployable and ready for operation within 2 minutes [goal: 1 min].
+2021_gmt_oad_web,The OCS shall provide visualization to support assessment of runtime observing conditions.
+2021_gmt_oad_web,"The Mount and Enclosure shall have an operational, bidirectional angular slewing velocity in azimuth of up to and including 1.8 deg/sec."
+2021_gmt_oad_web,The Mount and Enclosure shall have an operational bidirectional angular slewing acceleration in azimuth of no less than 0.1 deg/sec/sec.
+2021_gmt_oad_web,"The Mount and Enclosure shall have an operational angular tracking ability, at full performance, of up to and including 0.45 deg/sec."
+2021_gmt_oad_web,"The Mount and Enclosure Wind Screen shall have an operational, bidirectional angular slewing velocity in elevation of up to and including 1.0 deg/sec."
+2021_gmt_oad_web,"The Mount and Enclosure Wind Screen shall have an operational, bidirectional angular slewing acceleration in elevation of no less than 0.1 deg/sec/sec."
+2021_gmt_oad_web,The GMT shall offset distances of < 5 arcsec on sky in no more than 5 seconds of time in Natural Seeing wavefront control mode.
+2021_gmt_oad_web,The GMT shall offset distances of between 5 arcsec and 30 arcsec on sky in no more than 10 seconds of time in Natural Seeing wavefront control mode.
+2021_gmt_oad_web,The GMT shall offset distances of more than 30 arcsec but no more than 180 arcsec on sky in no more than 20 seconds of time in Natural Seeing wavefront control mode.
+2021_gmt_oad_web,The GMT shall offset distances of < 5 arcsec on sky in no more than 2.5 seconds of time in diffraction-limited wavefront control modes.
+2021_gmt_oad_web,The GMT shall offset distances of between 5 arcsec and 30 arcsec on sky in no more than 5 seconds of time in diffraction-limited wavefront control modes.
+2021_gmt_oad_web,The GMT shall offset distances of more than 30 arcsec but no more than 180 arcsec on sky in no more than 10 seconds of time in diffraction-limited wavefront control modes.
+2021_gmt_oad_web,"For Natural Seeing Modes, the GMT shall maintain the specified Natural Seeing Image Quality over at least a 2 minute (TBC) period with two guide stars."
+2021_gmt_oad_web,The OCS shall provide for each subsystem an automated startup and an automated shutdown procedure.
+2021_gmt_oad_web,The GMT subsystems shall transition from a daytime maintenance state to a state ready for science operations in less than 20 minutes.
+2021_gmt_oad_web,The GMT Observatory subsystems shall transition from their science operations state to their daytime maintenance state in a total time not to exceed 10 minutes. (TBR)
+2021_gmt_oad_web,The GMT Observatory subsystems shall transition from their science operations state to their environmental standby state in a total time not to exceed 3 minutes. (TBR)
+2021_gmt_oad_web,The GMT Observatory subsystems shall transition from their environmental standby state to their science operations state in no more than TBD minutes.
+2021_gmt_oad_web,The GMT shall provide a maintenance system that includes procedures for maintaining GMT subsystems as described in GMT-DOC-01221.
+2021_gmt_oad_web,Each GMT subsystem shall develop a maintenance program for servicing that subsystem.
+2021_gmt_oad_web,Each GMT subsystem shall provide procedures and documentation for subsystem maintenance in a form that can be ingested into and used by the GMT Maintenance System.
+2021_gmt_oad_web,"The Facilities shall provide space at the observatory for off-telescope assembly and maintenance of two instruments, each space being four times the footprint of the instrument, and the height sufficient to allow movement and disassembly/assembly of the instrument."
+2021_gmt_oad_web,Instrument Support Equipment shall provide modular and portable clean room tents for assembling and servicing Scientific Instruments.
+2021_gmt_oad_web,The Facilities shall provide dry storage space at the observatory for the temporary storage of instruments/AO and associated handling and support equipment.
+2021_gmt_oad_web,The Mount shall provide space on the Instrument Platform for an FP Instrument Maintenance Station.
+2021_gmt_oad_web,The Mount shall provide access platforms at either AP Instrument Station to allow instrument maintenance tasks.
+2021_gmt_oad_web,The shall provide outer access platforms on the Instrument Platform to facilitate maintenance performed on the Instrument Platform level.
+2021_gmt_oad_web,"The Mount shall provide an access platform that does not rotate with the GIR and is located to allow personnel access to the midpoint, parallel to the telescope Z axis, of the GIR and DG instruments."
+2021_gmt_oad_web,The Mount shall provide an access platform on the rotating GIR and is located at the same level as the OSS Mid-Level Platform.
+2021_gmt_oad_web,"The Mount shall provide an access platform that does not rotate with the GIR and is located to allow personnel access to the bottom, parallel to the telescope Z axis, of the GIR and DG instruments."
+2021_gmt_oad_web,The Mount shall provide an access platform on the rotating GIR and is located at the same level as the OSS Lower Level Platform.
+2021_gmt_oad_web,The Mount shall provide a platform at the same level as the Observing Floor that rotates with the telescope in azimuth and allows maintenance access to the lower components of the GIR and Mount.
+2021_gmt_oad_web,The GMT shall make serviceable equipment accessible and include local controls as required for maintenance.
+2021_gmt_oad_web,All Subsystems shall deliver equipment necessary to maintain all critical components and systems over their lifetime on the observatory.
+2021_gmt_oad_web,Each GMT Instrument shall be able to be physically installed on the Mount in less than 6 hours.
+2021_gmt_oad_web,"Each Visitor Instrument will be designed for maintenance by the Visiting Instrument group with minimal assistance from the GMT Observatory staff, as defined in the agreement with the PI Institution."
+2021_gmt_oad_web,Each GMT Instrument shall require no more than 10 hours [goal: 5 hours] of scheduled nighttime maintenance per year.
+2021_gmt_oad_web,"GMT shall provide the capability to record a failure of the system, perform troubleshooting on a specific failure and run extensive system diagnostics."
+2021_gmt_oad_web,GMT shall provide the capability to control any single degree of freedom within any subsystem.
+2021_gmt_oad_web,The GMT Mirror Coating Facility shall be upgradable in the future for advanced multi-layer low-emissivity coatings.
+2021_gmt_oad_web,The GMT shall provide facilities and procedures for cleaning and/or recoating optical surfaces as required to meet throughput and emissivity specifications during science operations.
+2021_gmt_oad_web,The GMT Observatory shall deliver equipment and procedures for in-telescope CO2 cleaning of the M1 reflective surfaces.
+2021_gmt_oad_web,The GMT Observatory shall deliver equipment and procedures for in-telescope wet wash cleaning of the M1 reflective surfaces.
+2021_gmt_oad_web,The GMT Observatory shall provide equipment and establish procedures for in-telescope CO2 cleaning of the M2 reflective surfaces.
+2021_gmt_oad_web,The GMT Observatory shall provide equipment and establish procedures for in-telescope CO2 cleaning of the M3 reflective surface.
+2021_gmt_oad_web,The GMT Observatory shall provide equipment and establish procedures for in-telescope cleaning of the exposed optical surfaces of the Corrector-ADC.
+2021_gmt_oad_web,Each GMT subsystem shall develop a Failure Modes Effects and Criticality Analysis (FMECA).
+2021_gmt_oad_web,Each GMT subsystem shall assess the need to provide spares according to the “Spares Policy” described in GMT-DOC-01221.
+2021_gmt_oad_web,The M1 in-situ washing equipment shall be designed to allow the washing of one (1) M1 segment to be completed in no more than 4 hours during the day without the loss of a night.
+2021_gmt_oad_web,The GMT Observatory shall exchange an M1 off axis segment in less than 10 hours.
+2021_gmt_oad_web,The in-situ M1 CO2 cleaning equipment shall be designed to allow the cleaning of one (1) M1 segment to be completed in no more than 2 hours during the day without the loss of a night.
+2021_gmt_oad_web,The in-situ M2 CO2 cleaning equipment shall be designed to allow the cleaning of all seven (7) M2 segments to be completed in no more than 2 hours during the day without the loss of a night.
+2021_gmt_oad_web,The GMT shall be designed to operate 365 days/year under normal observing/maintenance conditions.
+2021_gmt_oad_web,Instruments shall be kept in an environmentally controlled state at all times unless undergoing maintenance.
+2021_gmt_oad_web,"Facility Instruments shall be designed to be mounted on the telescope for a minimum of 2 years, requiring only in-situ maintenance, following policies established by GMTO."
+2021_gmt_oad_web,"Instruments shall recover in at most one hour from a loss of critical services (power, communication, cooling, vacuum) for a minimum of one hour."
+2021_gmt_oad_web,"The Observatory shall provide power, cooling, and communications with no interruption in service longer than one hour for normal maintenance procedures."
+2021_gmt_oad_web,"The Observatory shall allow for a planned, continuous power outage of up to 8 hours occurring at least once per year."
+2021_gmt_oad_web,The GMT shall provide safe access to subsystems and components that require in-situ maintenance.
+2021_gmt_oad_web,"The Enclosure shall provide a Boom Lift in the Upper Enclosure with a capacity of at least 400 kg and a reach that allows access to the interface between the upper and lower trusses, and all points on all M1 segment surfaces."
+2021_gmt_oad_web,The Mount shall provide a Jib Crane for aiding in the installation/ removal and handling of equipment between the Enclosure Observing Floor and the Instrument Platform.
+2021_gmt_oad_web,The Mount shall provide a Hoist for aiding in the handling of components of the VWS.
+2021_gmt_oad_web,The M1 System shall provide a vacuum lifting fixture to safely lift an uncoated M1 mirror into its cell.
+2021_gmt_oad_web,"Each subsystem shall provide any specialized equipment (e.g. fixtures, carts) needed to handle the subsystem or its components."
+2021_gmt_oad_web,The Instrument shall provide fixtures and containers for safely handling and transporting equipment.
+2021_gmt_oad_web,Instrument Support Equipment shall provide a DG–IMF Handling Cart for safely transporting one DG instrument mounted in its IMF within the enclosure.
+2021_gmt_oad_web,Instrument Support Equipment shall provide a DG–IMF Transfer Fixture to be attached to the top of the Pier Lift Platform (PLP).
+2021_gmt_oad_web,Instrument Support Equipment shall provide a FP Handling Cart for safely transporting one FP instrument.
+2021_gmt_oad_web,Each GMT subsystem shall provide protection from the environment external to Observatory buildings during transportation of sensitive components from building to building.
+2021_gmt_oad_web,"The GMT shall provide an external crane with capacity to remove transportation crates for M1 mirrors, weldments, and covers."
+2021_gmt_oad_web,"The OCS shall provide a science data archive, including data storage, automated ingestion software, and an externally available archive interface."
+2021_gmt_oad_web,"The OCS shall provide an engineering data archive, including data storage, automated ingestion software, and an externally available archive interface."
+2021_gmt_oad_web,The Science and Engineering Data Archives shall curate data for at least the 50-year lifetime of the Observatory.
+2021_gmt_oad_web,The OCS shall provide interfaces to the Science and Engineering Data Archives.
+2021_gmt_oad_web,The GMT shall provide an on-site data storage facility with sufficient capacity to store at least one month of science and engineering data.
+2021_gmt_oad_web,"The GMT shall provide a complete, off-site, backup copy of the science and engineering data archives."
+2021_gmt_oad_web,The OCS shall provide a remotely accessible work space for interactive data reduction for individual scientists.
+2021_gmt_oad_web,"Observatory IT will provide communication between the facilities on the summit, the support sites, the base facility, and the outside world through the Observatory IT Network. Observatory IT is separate from the Observatory Computing Network (OCN) and the ISS network. In general, hardware will be located within rooms in specific buildings, hence contained within the PBS of those buildings, while the connecting fibers will be part of Site Infrastructure. Internet service to the GMT site during the construction phase is provided by a connection to the existing LCO network. The construction internet system has a bandwidth of approximately 100 Mbps."
+2021_gmt_oad_web,The GMT Observatory IT system shall provide access control from outside the Observatory IT Network into the Local Site IT Network.
+2021_gmt_oad_web,The Observatory IT system shall provide access control from the Observatory IT Network into the Observatory Control Network.
+2021_gmt_oad_web,The Observatory IT system shall provide access control using groups of users.
+2021_gmt_oad_web,The Observatory IT system shall provide access control by individual accounts.
+2021_gmt_oad_web,The Observatory IT network shall provide transparent user access from the CMMS to the Observatory Control Network.
+2021_gmt_oad_web,The Observatory IT network shall separate security data from other data.
+2021_gmt_oad_web,The GMT networks shall implement a Quality of Service protocol that prioritizes operation-critical network traffic between the summit and remote sites.
+2021_gmt_oad_web,The Observatory IT network shall host the Computerized Maintenance Management System.
+2021_gmt_oad_web,The Observatory IT network shall host video and audio surveillance information and control.
+2021_gmt_oad_web,The Observatory IT network shall support remote observing from authorized external networks and authorized users.
+2021_gmt_oad_web,The Observatory IT system shall provide secure communication hardware and software to external sites.
+2021_gmt_oad_web,The Observatory IT network shall provide real-time access to building and subsystem models.
+2021_gmt_oad_web,The Observatory IT network shall provide real-time access to administrative and support software.
+2021_gmt_oad_web,The Observatory IT network shall provide wireless communications within the Observing Chamber covering the inner walls of the Upper Enclosure and the Observing Floor outside the azimuth disk.
+2021_gmt_oad_web,The Observatory IT network shall provide wireless communications covering the top of the CCF while the telescope is pointed to zenith.
+2021_gmt_oad_web,The Observatory IT network shall provide wireless communications covering the IP level of the Mount.
+2021_gmt_oad_web,"The Observatory IT shall provide internal reliability of 99.99% (TBC) during Operations, with the exception of scheduled maintenance downtime."
+2021_gmt_oad_web,Science operations shall not be interrupted if communications to the outside world is lost.
+2021_gmt_oad_web,The Observatory IT network shall have a bandwidth of at least 10 Gbit/sec.
+2021_gmt_oad_web,Authorized remote observing sites shall have a technical downtime of less than 0.1 hours/year during science operations.
+2021_gmt_oad_web,The bandwidth of authorized remote observing sites shall be at least 10 Gbit/sec.
+2021_gmt_oad_web,Authorized remote observing sites shall have a latency of less than 0.1 seconds.
+2021_gmt_oad_web,"The commercial electrical power connection shall enable power distribution to the summit, SS1, and SS2 at 23 kV TBC."
+2021_gmt_oad_web,380V 3-phase and 220V single-phase power at 50 Hz shall be provided to all support/summit facilities that require electrical power.
+2021_gmt_oad_web,The GMT site infrastructure shall provide conditioned electrical backup power.
+2021_gmt_oad_web,The central backup electrical power system shall provide a capacity of at least 2.9 MW TBC.
+2021_gmt_oad_web,The GMT shall condition the load such that the power factor at the pole 0 is no less than 0.93.
+2021_gmt_oad_web,Site Infrastructure shall provide backup power generation that reach full capacity within 10 seconds TBR of loss of normal power.
+2021_gmt_oad_web,"In the absence of commercial power, the site infrastructure provided backup power system shall be capable of automatically providing power to continue normal science operations for a minimum of 7 days."
+2021_gmt_oad_web,Site Infrastructure shall provide fuel to support emergency power.
+2021_gmt_oad_web,Site Infrastructure shall provide means to monitor power quality remotely and locally.
+2021_gmt_oad_web,Electric loads are classified into two categories according to their sensitivity to power interruptions.
+2021_gmt_oad_web,Site Infrastructure shall provide a UPS system capable of providing continuous 380V 3-phase and 220V single-phase uninterrupted power at 50 Hz power for critical loads at the moment of loss of commercial power to the moment when backup power is fully running.
+2021_gmt_oad_web,The UPS system shall be capable of supplying science operation power for a period no greater than 50 seconds TBR before switching to fully running backup power.
+2021_gmt_oad_web,The uninterruptible power supply shall have N+1 redundant capability.
+2021_gmt_oad_web,Observatory critical equipment and electronics shall be connected to the Site Infrastructure provided UPS System.
+2021_gmt_oad_web,Site Infrastructure shall provide a dedicated and separate circuit of power to supply sensitive loads that require high quality power.
+2021_gmt_oad_web,Site Infrastructure shall provide a dedicated circuit to supply Noisy loads.
+2021_gmt_oad_web,Observatory essential loads connected to 220V 1-phase power or 380V 3-phase power that shall automatically switch to backup power upon loss of commercial power.
+2021_gmt_oad_web,Coolant pumps that are not supplying cooling to critical loads
+2021_gmt_oad_web,Compressed air that is not in service to critical loads
+2021_gmt_oad_web,Non-control components for: -Enclosure mechanisms -Ventilation -Non-HBS or Drive components for the Mount -Environmental Monitoring facility
+2021_gmt_oad_web,Observatory essential loads shall be restored to an operational state in no greater than 10 minutes.
+2021_gmt_oad_web,"Concrete-encased electrodes shall be installed in the building footings and slabs per the NFPA 70 (NEC) to create an Ufer ground to be bonded to the building frames, perimeter ground ring, and ground rods."
+2021_gmt_oad_web,"If allowed by local regulations, the perimetral ground ring, as well as the ground rods, should be installed with the addition of ground enhancing chemicals to lower the ground resistance."
+2021_gmt_oad_web,Site Infrastructure shall provide a low-inductance safety ground system bonded to structures and enclosures to all loads.
+2021_gmt_oad_web,The resistance between the safety ground and any other ground shall be less than 10 Ohms(DWC).
+2021_gmt_oad_web,Unintentional radiators (digital devices with clocks greater than 9 kHz) shall meet the emission requirements of FCC Part 15 Class A or CISPR-11 and CISPR-22 standards.
+2021_gmt_oad_web,"Intentional radiators, such as wireless access points, Bluetooth devices, and other such devices, shall comply with FCC part 15 and part 18, or CISPR-11 and CISPR-22 standards."
+2021_gmt_oad_web,"Due to the increased risk of EMI from variable frequency drives, the installation of variable frequency drives shall be designed to meet the IEC 61800-3 standard for emissions."
+2021_gmt_oad_web,Electronic equipment installed on the GMT shall be designed to be compatible with equipment that meets FCC Part 15 Class A or CISPR-11/22 emission standards.
+2021_gmt_oad_web,"Electronic equipment installed on the GMT shall be compatible with VHF/UHF radios up to 5W radiating power, Cell phones, and WIFI communications transmitting at a distance of 1 meter, which comply with FCC part 15 and part 18, or CISPR-11 and CISPR-22 standards."
+2021_gmt_oad_web,"Electronic equipment installed on the GMT shall pass IEC 61000-4-2 Level 2 standards, with the exception of equipment marked as ESD (Electrostatic Discharge) sensitive, accompanied by documentation detailing proper handling procedures."
+2021_gmt_oad_web,The site infrastructure includes a short pipeline to connect to the LCO water system at the LCO water tank (located just North of the GMT summit site). The site infrastructure includes water systems to distribute domestic and fire water to the summit and both support sites. The domestic and fire water systems include a water treatment system to monitor and control water quality.
+2021_gmt_oad_web,The site infrastructure shall provide a water system interface to external water facilities to provide no greater than 128 m3/day of water resources for operations for potable water and fire water.
+2021_gmt_oad_web,The domestic waste water treatment systems for all site facilities shall treat domestic waste water to a level that allows surface discharge according to Norma Chilena code standards.
+2021_gmt_oad_web,The GMT shall provide the design for SECs and their required hardware.
+2021_gmt_oad_web,Systems shall provide their associated SECs based off the GMT design.
+2021_gmt_oad_web,"Electrical hardware excluding cabling on the telescope shall be contained within Standard Electronics Cabinets (SECs), unless an exception is granted by systems engineering."
+2021_gmt_oad_web,Granted exceptions for electrical equipment incompatible with an SEC shall be contained in Non-Standard Electronics Cabinets (NSECs to be reviewed by GMT Systems Engineering).
+2021_gmt_oad_web,The GMT shall provide facilities at the support sites 1 & 2 for utility distribution and general maintenance.
+2021_gmt_oad_web,The Instruments usage of utilities shall not exceed the allocated quantities as identified in the Utilities Budget GMT-DOC-00366.
+2021_gmt_oad_web,The Mount shall provide cable trays to allow efficient and safe installation of instruments and equipment.
+2021_gmt_oad_web,The Mount shall provide utility panels to allow systems to connect to provided utilities.
+2021_gmt_oad_web,"The GMT shall comply with handling, transportation, and storage conditions specified in MIL-STD-810E and MIL-STD-810G."
+2021_gmt_oad_web,The GMT shall provide warehouse space at the Base Facility for the transshipment of material and supplies to the summit.
+2021_gmt_oad_web,The GMT shall provide dry storage space at the observatory for the temporary storage of primary mirror cells and general storage of supplies and equipment.
+2021_gmt_oad_web,The GMT shall identify lay-down areas for construction that will not inhibit access to the systems under construction.
+2021_gmt_oad_web,The GMT shall provide an Interlock and Safety System.
+2021_gmt_oad_web,"The GMT Interlock and Safety System design, development and implementation shall be performed in accordance with IEC 62061 guidelines."
+2021_gmt_oad_web,The GMT Interlock and Safety System design shall comply with GMT Software and Control Standards (GMT-REF-00029).
+2021_gmt_oad_web,GMT Interlock and Safety System safety-related control functions shall be determined from the outcome of a hazard analysis validated by GMT.
+2021_gmt_oad_web,The GMT Interlock and Safety System shall use safety-rated Programmable Logic Controllers (PLCs) of no less than Safety Integrity Level 3 (SIL 3) rating.
+2021_gmt_oad_web,The GMT Interlock and Safety System shall include local Interlock and Safety Systems that are responsible for the functional safety within each controlled subsystem.
+2021_gmt_oad_web,The GMT Interlock and Safety System shall include a Global Interlock and Safety System that is responsible for system-level functional safety.
+2021_gmt_oad_web,The GMT Interlock and Safety System shall in case of self-failure put the controlled subsystem in a safe state.
+2021_gmt_oad_web,The GMT Interlock and Safety System shall include recovery functionality to recover a controlled subsystem from the actuation of a safety-related control function.
+2021_gmt_oad_web,The GMT Interlock and Safety System shall implement a system-wide Emergency Stop function that safely halts all mechanism movement in the Observatory.
+2021_gmt_oad_web,The GMT Interlock and Safety System shall provide an audible and visible annunciator system for impending hazards or possible residual risks.
+2021_gmt_oad_web,The GMT Interlock and Safety System shall monitor and record continuous status information of all safety-related control functions.
+2021_gmt_oad_web,The GMT Interlock and Safety System shall store all status information in the Engineering Archive.
+2021_gmt_oad_web,The GMT Interlock and Safety System shall provide a health and status summary display.
+2021_gmt_oad_web,The GMT Interlock and Safety System shall be limited to safety-related control functionality.
+2021_gmt_oad_web,The GMT Interlock and Safety System life cycle shall be independent of the life cycle of Device Control Systems.
+2021_gmt_oad_web,The GMT Interlock and Safety System shall interface with the Observatory Control System (OCS) for monitoring and archiving the Interlock and Safety System status.
+2021_gmt_oad_web,The GMT Global Interlock and Safety System shall interface with the local Interlock and Safety Systems within each controlled subsystem.
+2021_gmt_oad_web,"The GMT Design Safety Requirements (GMT-DOC-01578) describes compliance-based standards, policies, and procedures that GMT will follow."
+2021_gmt_oad_web,The GMT shall provide a plan for emergency response consistent with OSHA 29 CFR 1910.38.
+2021_gmt_oad_web,The Mount shall design for means of egress consistent with NFPA 101 and OSHA 29 CFR 1910.36–37.
+2021_gmt_oad_web,Each subsystem shall design for emergency lighting consistent with NFPA 101.
+2021_gmt_oad_web,Fire safety during construction shall be consistent with the requirements of the International Building Code (IBC) and NFPA 241.
+2021_gmt_oad_web,Fire protection shall be consistent with NFPA 101 based on an unusual structure occupancy type.
+2021_gmt_oad_web,"The GMT shall provide a plan for fire control that adheres to OSHA regulations 1910, Subpart L and 1910.39."
+2021_gmt_oad_web,"The GMT shall provide personal protective equipment for hazardous work situations that adheres to OSHA regulations 1910, Subpart I."
+2021_gmt_oad_web,The GMT shall provide a plan for electrical safety that adheres to OSHA 1910.303 for general electrical safety requirements.
+2021_gmt_oad_web,The GMT shall provide a plan for chemical management that adheres to OSHA 29 CPR 1910 Subpart H and 1910.200.
+2021_gmt_oad_web,The GMT shall provide safety facilities for hazardous work situations and general environmental controls.
+2021_gmt_oad_web,The GMT shall provide a lock-out/tag-out plan and appropriate procedures that adhere to OSHA 29 CPR 1910.147.
+2021_gmt_oad_web,The GMT shall provide a laser control and safety system that adheres to ANSI Z136.1.
+2021_gmt_oad_web,"The GMT shall provide a plan and equipment for safe work on electrical systems that adheres to OSHA regulations 1910, Subpart S."
+2021_gmt_oad_web,"The GMT shall provide procedures for safe operational of heavy mobile equipment that adheres to OSHA CFR 1910, Subpart F (powered platforms, manlifts, and vehicle-mounted work platforms), 1910.178 (powered industrial trucks), 1910.179 (overhead and gantry cranes), and 1910.194 (slings)."
+2021_gmt_oad_web,"The GMT shall provide a plan for industrial hygiene that adheres to OSHA 29 CFR 1910, Subpart G."
+2021_gmt_oad_web,The GMT shall provide a guide for ergonomics.
+2021_gmt_oad_web,The GMT shall provide appropriate safety training for hazardous work situations and proper use of personal protective equipment.
+2021_gmt_oad_web,The GMT shall provide medical services at the site to treat medical problems and emergencies that adhere to OSHA 29 CFR 1910 Subpart K.
+2021_gmt_oad_web,"The GMT shall be constructed in accordance with the building, occupational, and safety codes specified TBD."
+2021_gmt_oad_web,The GMT shall comply with the GMT Computer Aided Design Standards (GMT-SWC-REF-00149).
+2021_gmt_oad_web,The GMT shall comply with the GMT Software and Controls Standards (GMT-REF-00029).
+2021_gmt_oad_web,The GMT shall comply with the GMT Electronics Standards (GMT-SE-REF-00191).
+2021_gmt_oad_web,The Observatory subsystems shall comply with industry power quality standards as defined in TBD.
+2021_gmt_oad_web,The Observatory subsystems shall comply with industry EMI standards for emissions and immunity as defined in TBD.
+2021_gmt_oad_web,The FSMS and ASMS in the Natural Seeing wavefront control mode shall provide actuation of the Tx degree of freedom to with repeatability of < 1.0 ?m (1-sigma precision).
+2021_gmt_oad_web,The FSMS and ASMS in the Natural Seeing wavefront control mode shall provide actuation of the Ty degree of freedom to with repeatability of < 1.0 ?m (1-sigma precision).
+2021_gmt_oad_web,The FSMS and ASMS in the Natural Seeing wavefront control mode shall provide actuation of the Tz degree of freedom to with repeatability of < 1.0 ?m (1-sigma precision).
+2021_gmt_oad_web,The FSMS and ASMS in the Natural Seeing wavefront control mode shall provide actuation of the Rx degree of freedom to with repeatability of < 0.1 ?rad (1-sigma precision).
+2021_gmt_oad_web,The FSMS and ASMS in the Natural Seeing wavefront control mode shall provide actuation of the Ry degree of freedom to with repeatability of < 0.1 ?rad (1-sigma precision).
+2021_gmt_oad_web,The FSMS and ASMS in the Natural Seeing wavefront control mode shall provide actuation of the Rz degree of freedom to with repeatability of < 0.5 ?rad (1-sigma precision).
+2021_gmt_oad_web,The FSMS and ASMS shall provide actuation of segment position in the Ty degree of freedom to an accuracy of < 75 ?m.
+2021_gmt_oad_web,The FSMS and ASMS shall provide actuation of segment position in the Tz degree of freedom to an accuracy of < 75 ?m.
+2021_gmt_oad_web,The FSMS and ASMS shall provide actuation of segment position in the Rx degree of freedom to an accuracy of < 15 ?rad.
+2021_gmt_oad_web,The FSMS and ASMS shall provide actuation of segment position in the Ry degree of freedom to an accuracy of < 15 ?rad.
+2021_gmt_oad_web,The FSMS and ASMS shall provide actuation of segment position in the Rz degree of freedom to an accuracy of < 1600 ?rad.
+2021_gmt_oad_web,The M1 System shall provide actuation of segment position in the Tx degree of freedom to an accuracy of < 75 ?m.
+2021_gmt_oad_web,The M1 System shall provide actuation of segment position in the Ty degree of freedom to an accuracy of < 75 ?m.
+2021_gmt_oad_web,The M1 System shall provide actuation of segment position in the Tz degree of freedom to an accuracy of < 4.3 ?m.
+2021_gmt_oad_web,The M1 System shall provide actuation of segment position in the Rx degree of freedom to an accuracy of < 1.8 ?rad.
+2021_gmt_oad_web,The M1 System shall provide actuation of segment position in the Ry degree of freedom to an accuracy of < 1.8 ?rad.
+2021_gmt_oad_web,The M1 System shall provide actuation of segment position in the Rz degree of freedom to an accuracy of < 190 ?rad.
+2021_gmt_oad_web,The M2 System shall provide actuation of segment position in the Ty degree of freedom to an accuracy of < 75 ?m.
+2021_gmt_oad_web,The M2 System shall provide actuation of segment position in the Tz degree of freedom to an accuracy of  75 ?m.
+2021_gmt_oad_web,The M2 System shall provide actuation of segment position in the Rx degree of freedom to an accuracy of < 15 ?rad.
+2021_gmt_oad_web,The M2 System shall provide actuation of segment position in the Ry degree of freedom to an accuracy of < 15 ?rad.
+2021_gmt_oad_web,The M2 System shall provide actuation of segment position in the Rz degree of freedom to an accuracy of < 1600 ?rad.
+2021_gmt_oad_web,The TMS shall measure the location of the main optics in the M1 Tz degree of freedom to an accuracy of < 4.3 ?m.
+2021_gmt_oad_web,The TMS shall measure the location of the main optics in the M1 Rx degree of freedom to an accuracy of < 190 ?rad.
+2021_gmt_oad_web,The TMS shall measure the location of the main optics in the M1 Ry degree of freedom to an accuracy of < 190 ?rad.
+2021_gmt_oad_web,The TMS shall measure the location of the main optics in the M1 Rz degree of freedom to an accuracy of < 190 ?rad.
+2021_gmt_oad_web,The TMS shall measure the location of the main optics in the M2 Tz degree of freedom to an accuracy of < 4.3 ?m.
+2021_gmt_oad_web,The TMS shall measure the location of the main optics in the M2 Rx degree of freedom to an accuracy of < 1600 ?rad.
+2021_gmt_oad_web,The TMS shall measure the location of the main optics in the M2 Ry degree of freedom to an accuracy of < 1600 ?rad.
+2021_gmt_oad_web,The TMS shall measure the location of the main optics in the M2 Rz degree of freedom to an accuracy of < 1600 ?rad.
+2021_gmt_oad_web,The TMS shall measure the location of the main optics in the M3 Tx degree of freedom to an accuracy of < 25 ?m.
+2021_gmt_oad_web,The TMS shall measure the location of the main optics in the M3 Ty degree of freedom to an accuracy of < 25 ?m.
+2021_gmt_oad_web,The TMS shall measure the location of the main optics in the M3 Tz degree of freedom to an accuracy of < 25 ?m.
+2021_gmt_oad_web,The TMS shall measure the location of the main optics in the M3 Rx degree of freedom to an accuracy of < 2000 ?rad.
+2021_gmt_oad_web,The TMS shall measure the location of the main optics in the M3 Ry degree of freedom to an accuracy of < 2000 ?rad.
+2021_gmt_oad_web,The TMS shall measure the location of the main optics in the M3 Rz degree of freedom to an accuracy of < 2000 ?rad.
+2021_gmt_oad_web,The M1 System shall provide actuation of the segment position in the Rx degree of freedom to with repeatability of < 0.5 ?rad (1-sigma precision).
+2021_gmt_oad_web,The M1 System shall provide actuation of the segment position in the Ry degree of freedom to with repeatability of < 0.5 ?rad (1-sigma precision).
+2021_gmt_oad_web,"The M3 System shall provide actuation of the M3 tip, tilt, and piston in the Tz degree of freedom to an accuracy of < 25 ?m."
+2021_gmt_oad_web,"The M3 System shall provide actuation of the M3 tip, tilt, and piston in the Rz degree of freedom to an accuracy of < 500 ?rad."
+2021_gmt_oad_web,"The M3 System shall provide actuation of the M3 tip, tilt, and piston in the Rz degree of freedom to with repeatability of < 12 ?rad (1-sigma precision)."
+2021_gmt_oad_web,The AGWS in the NGAO wavefront control mode shall measure the On-axis segment phase piston to an accuracy of < 50 nm.
+2021_gmt_oad_web,The AGWS in the NGAO wavefront control mode shall measure the Field-dependent segment phase piston to an accuracy of < 10 nm/arcmin.
+2021_gmt_oad_web,The OIWFS shall include a Image Motion capture range of ± 1.0 arcsec.
+2021_gmt_oad_web,The OIWFS shall include a Focus capture range of ± 200nm.
+2021_gmt_oad_web,The OIWFS shall include a Low-order wavefront sensing capture range of ± 1.0 arcsec wavefront slope.
+2021_gmt_oad_web,The OIWFS shall include a Chief ray angle capture range of ± 6 mrad.
+2021_gmt_oad_web,The OIWFS shall have a Image Motion measurement accuracy of ? 0.10 mas at 0.1 Hz (1? accuracy).
+2021_gmt_oad_web,The OIWFS shall have a Focus measurement accuracy of ? 5 nm at 0.1 Hz (1? accuracy).
+2021_gmt_oad_web,The OIWFS shall have a Low-order wavefront sensing measurement accuracy of ? 20 nm at 0.1 Hz (1? accuracy).
+2021_gmt_oad_web,The OIWFS shall have a Chief ray angle measurement accuracy of ? 120 ?rad at 0.1 Hz (1? accuracy).
+2021_gmt_oad_web,The GMT M1S in the LTAO wavefront control mode shall control the M1 segment rigid body position.
+2021_gmt_oad_web,The GMT M1S in the LTAO wavefront control mode shall control the M1 segment shape.
+2021_gmt_oad_web,The GMT FSMS/ASMS in the LTAO wavefront control mode shall control the M2 segment rigid body position.
+2021_gmt_oad_web,The GMT ASMS in the LTAO wavefront control mode shall control the M2 segment shape.
+2021_gmt_oad_web,"The GMT M3 in the LTAO wavefront control mode shall control the M3 piston, tip, and tilt."
+2021_gmt_oad_web,The OIWFS operating in LTAO mode using off-axis NGS shall have a Image Motion measurement accuracy of < 2.1 mas at 500 Hz (1-sigma accuracy) when using a K=17.0 guide star at 45 arcsec off-axis.
+2021_gmt_oad_web,The OIWFS operating in LTAO mode using off-axis NGS shall have a Focus measurement accuracy of < 35 nm at 10 Hz (1-sigma accuracy) when using a K=17.0 guide star at 45 arcsec off-axis.
+2021_gmt_oad_web,The OIWFS operating in LTAO mode using off-axis NGS shall have a Low-order wavefront sensing measurement accuracy of < 45 nm at 0.1 Hz (1-sigma accuracy) when using a K=17.0 guide star at 45 arcsec off-axis.
+2021_gmt_oad_web,The OIWFS operating in LTAO mode using off-axis NGS shall have a Chief ray angle measurement accuracy of < 120 ?rad at 0.1 Hz (1-sigma accuracy) when using a K=17.0 guide star at 45 arcsec off-axis.
+2021_gmt_oad_web,The OIWFS operating in LTAO mode using off-axis NGS shall have a Image Motion measurement accuracy of < 5.0 mas at 500 Hz (1-sigma accuracy) when using a K=18.0 guide star at 60 arcsec off-axis.
+2021_gmt_oad_web,The OIWFS operating in LTAO mode using off-axis NGS shall have a Focus measurement accuracy of < 50 nm at 10 Hz (1-sigma accuracy) when using a K=18.0 guide star at 60 arcsec off-axis.
+2021_gmt_oad_web,The OIWFS operating in LTAO mode using off-axis NGS shall have a Chief ray angle measurement accuracy of < 120 ?rad at 0.1 Hz (1-sigma accuracy) when using a K=18.0 guide star at 60 arcsec off-axis.
+2021_gmt_oad_web,"The OIWFS operating in LTAO mode using off-axis NGS shall have a Image Motion measurement accuracy of < 2.1 mas at 500 Hz (1-sigma accuracy) when using a J=15.4, H=14.5, and K=13.8 on-axis guide star."
+2021_gmt_oad_web,"The OIWFS operating in LTAO mode using off-axis NGS shall have a Focus measurement accuracy of < 35 nm at 10 Hz (1-sigma accuracy) when using a J=15.4, H=14.5, and K=13.8 on-axis guide star."
+2021_gmt_oad_web,"The OIWFS operating in LTAO mode using off-axis NGS shall have a Low-order wavefront sensing measurement accuracy of < 45 nm at 0.1 Hz (1-sigma accuracy) when using a J=15.4, H=14.5, and K=13.8 on-axis guide star."
+2021_gmt_oad_web,"The OIWFS operating in LTAO mode using off-axis NGS shall have a Chief ray angle measurement accuracy of < 120 ?rad at 0.1 Hz (1-sigma accuracy) when using a J=15.4, H=14.5, and K=13.8 on-axis guide star."
+2021_gmt_oad_web,The maximum temperature differential between Mount (below M1) and the ambient temperature from evening to morning 12° twilight shall be no greater than 1.0 K.
+2021_gmt_oad_web,The maximum temperature differential between M1 System and the ambient temperature from evening to morning 12° twilight shall be no greater than 0.5 K.
+2021_gmt_oad_web,The maximum temperature differential between M2 ASMS and the ambient temperature from evening to morning 12° twilight shall be no greater than 0.5K .
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Wavefront Control & Residual Atmosphere error no greater than 104.5 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median ASM Control error no greater than 72.1 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median High Bandwidth Wavefront Sensing error no greater than 63.8 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Truth Wavefront Sensing error no greater than 20.8 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Wavefront Control error no greater than 9.2 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Uncorrected Atmospheric error no greater than 33.7 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Telescope error no greater than 63.9 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Optical Design error no greater than 0.3 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Telescope Tracking error no greater than 31.7 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median M1 Figure and Alignment error no greater than 30.7 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median M2 Figure and Alignment error no greater than 40 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median M3 Figure and Alignment error no greater than 23.1 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Disturbances error no greater than 65.5 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Wind Forces error no greater than 42.3 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Mechanical Vibration error no greater than 31.6 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Aero-Thermal error no greater than 35.6 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Gravity and Thermal Flexure error no greater than 14.9 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Atmostpheric Refraction error no greater than 3 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Calibration error no greater than 46.4 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median System/ASMS Calibration error no greater than 22.9 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median NGWS Calibration error no greater than 22.4 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Instrument Calibration error no greater than 33.5 nm RMS on-axis when using an R=10 guide star.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Wavefront Control & Residual Atmosphere error no greater than 254.5 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median ASM Control error no greater than 95.1 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Active Optics error no greater than 50 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median High Bandwidth Wavefront Sensing error no greater than 82.1 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Segment Edge Sensing error no greater than 84.4 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Instrument Wavefront Sensing error no greater than 157.8 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Wavefront Control error no greater than 9.2 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Tomography error no greater than 115 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Uncorrected Atmospheric error no greater than 33.7 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Telescope error no greater than 60.7 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Optical Design error no greater than 0.3 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Telescope Tracking error no greater than 31.7 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median M1 Figure and Alignment error no greater than 30.7 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median M2 Figure and Alignment error no greater than 34.6 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median M3 Figure and Alignment error no greater than 23.1 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Disturbances error no greater than 88.8 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Wind Forces error no greater than 73.4 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Mechanical Vibration error no greater than 31.6 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Aero-Thermal error no greater than 35.6 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Gravity and Thermal Flexure error no greater than 14.9 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Atmostpheric Refraction error no greater than 3 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Calibration error no greater than 46.4 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median System/ASMS Calibration error no greater than 22.9 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median LTWS Calibration error no greater than 22.4 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Instrument Calibration error no greater than 33.5 nm RMS on-axis over 50% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Wavefront Control & Residual Atmosphere error no greater than 319.9 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median ASM Control error no greater than 95.1 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Active Optics error no greater than 50 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median High Bandwidth Wavefront Sensing error no greater than 82.1 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Segment Edge Sensing error no greater than 84.4 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Instrument Wavefront Sensing error no greater than 250 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Wavefront Control error no greater than 9.2 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Tomography error no greater than 115 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Uncorrected Atmospheric error no greater than 33.7 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Telescope error no greater than 60.7 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Optical Design error no greater than 0.3 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Telescope Tracking error no greater than 31.7 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median M1 Figure and Alignment error no greater than 30.7 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median M2 Figure and Alignment error no greater than 34.6 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median M3 Figure and Alignment error no greater than 23.1 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Disturbances error no greater than 88.8 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Wind Forces error no greater than 73.4 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Mechanical Vibration error no greater than 31.6 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Aero-Thermal error no greater than 35.6 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Gravity and Thermal Flexure error no greater than 14.9 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Atmostpheric Refraction error no greater than 3 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Calibration error no greater than 46.4 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median System/ASMS Calibration error no greater than 22.9 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median LTWS Calibration error no greater than 22.4 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The GMT in the NGAO wavefront control mode shall maintain a median Instrument Calibration error no greater than 33.5 nm RMS on-axis over 80% of the observable sky.
+2021_gmt_oad_web,The mount shall limit the elastic and hysteric displacement of the Primary mirror vertex dY with respect to OSS coordinates due to changing zenith angles to < 0.78 mm.
+2021_gmt_oad_web,The mount shall limit the elastic and hysteric displacement of the Primary mirror vertex dZ with respect to OSS coordinates due to changing zenith angles to < 1.91 mm.
+2021_gmt_oad_web,The mount shall limit the elastic and hysteric displacement of the Primary mirror vertex dRX with respect to OSS coordinates due to changing zenith angles to < 395 ?rad.
+2021_gmt_oad_web,The mount shall limit the elastic and hysteric displacement of the Primary mirror vertex dRY with respect to OSS coordinates due to changing zenith angles to < 310 ?rad.
+2021_gmt_oad_web,The mount shall limit the elastic and hysteric displacement of the Primary mirror vertex dRZ with respect to OSS coordinates due to changing zenith angles to < 77 ?rad.
+2021_gmt_oad_web,The mount shall limit the elastic and hysteric displacement of the Secondary mirror vertex dX with respect to OSS coordinates due to changing zenith angles to < 0.6 mm.
+2021_gmt_oad_web,The mount shall limit the elastic and hysteric displacement of the Secondary mirror vertex dY with respect to OSS coordinates due to changing zenith angles to < 0.6 mm.
+2021_gmt_oad_web,The mount shall limit the elastic and hysteric displacement of the Secondary mirror vertex dZ with respect to OSS coordinates due to changing zenith angles to < 1.4 mm.
+2021_gmt_oad_web,The mount shall limit the elastic and hysteric displacement of the Secondary mirror vertex dRX with respect to OSS coordinates due to changing zenith angles to < 100 ?rad.
+2021_gmt_oad_web,The mount shall limit the elastic and hysteric displacement of the Secondary mirror vertex dRY with respect to OSS coordinates due to changing zenith angles to < 100 ?rad.
+2021_gmt_oad_web,The mount shall limit the elastic and hysteric displacement of the Secondary mirror vertex dRZ with respect to OSS coordinates due to changing zenith angles to < 100 ?rad.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the Direct Gregorian instrument window dX with respect to OSS coordinates due to changing zenith angles and GIR angle to < 0.5 mm.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the Direct Gregorian instrument window dY with respect to OSS coordinates due to changing zenith angles and GIR angle to < 0.5 mm.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the Direct Gregorian instrument window dZ with respect to OSS coordinates due to changing zenith angles and GIR angle to < 0.25 mm.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the Direct Gregorian instrument window dRX with respect to OSS coordinates due to changing zenith angles and GIR angle to < 100 ?rad.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the Direct Gregorian instrument window dRY with respect to OSS coordinates due to changing zenith angles and GIR angle to < 100 ?rad.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the Direct Gregorian instrument window dRZ with respect to OSS coordinates due to changing zenith angles and GIR angle to < 100 ?rad.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the Folder Port instrument window dX with respect to OSS coordinates due to changing zenith angles and GIR angle to < 0.5 mm.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the Folder Port instrument window dY with respect to OSS coordinates due to changing zenith angles and GIR angle to < 0.5 mm.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the Folder Port instrument window dZ with respect to OSS coordinates due to changing zenith angles and GIR angle to < 0.5 mm.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the Folder Port instrument window dRX with respect to OSS coordinates due to changing zenith angles and GIR angle to < 100 ?rad.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the Folder Port instrument window dRY with respect to OSS coordinates due to changing zenith angles and GIR angle to < 100 ?rad.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the Folder Port instrument window dRZ with respect to OSS coordinates due to changing zenith angles and GIR angle to < 100 ?rad.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the IP instrument window dX with respect to OSS coordinates due to changing zenith angles and GIR angle to < 0.5 mm.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the IP instrument window dY with respect to OSS coordinates due to changing zenith angles and GIR angle to < 0.5 mm.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the IP instrument window dZ with respect to OSS coordinates due to changing zenith angles and GIR angle to < 0.5 mm.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the IP instrument window dRX with respect to OSS coordinates due to changing zenith angles and GIR angle to < 100 ?rad.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the IP instrument window dRY with respect to OSS coordinates due to changing zenith angles and GIR angle to < 100 ?rad.
+2021_gmt_oad_web,The mount shall limit the gravity deflection of the IP instrument window dRZ with respect to OSS coordinates due to changing zenith angles and GIR angle to < 100 ?rad.
+2021_gmt_oad_web,The M1S shall have a range of motion in the M1 segment X translation degree of freedom of ± 3.0 mm.
+2021_gmt_oad_web,The M1S shall have a range of motion in the M1 segment Y translation degree of freedom of ± 4.75 mm.
+2021_gmt_oad_web,The M1S shall have a range of motion in the M1 segment Z translation degree of freedom of ± 4.0 mm.
+2021_gmt_oad_web,The M1S shall have a range of motion in the M1 segment RX rotation degree of freedom of ± 650 ?rad.
+2021_gmt_oad_web,The M1S shall have a range of motion in the M1 segment RY rotation degree of freedom of ± 575 ?rad.
+2021_gmt_oad_web,The M1S shall have a range of motion in the M1 segment RZ rotation degree of freedom of ± 575 ?rad.
+2021_gmt_oad_web,The ASMS and FSMS shall have a range of motion in the M2 segment X translation degree of freedom of ± 11.0 mm.
+2021_gmt_oad_web,The ASMS and FSMS shall have a range of motion in the M2 segment Y translation degree of freedom of ± 11.0 mm.
+2021_gmt_oad_web,The ASMS and FSMS shall have a range of motion in the M2 segment Z translation degree of freedom of ± 12.0 mm.
+2021_gmt_oad_web,The ASMS and FSMS shall have a range of motion in the M2 segment RX rotation degree of freedom of ± 3000 ?rad.
+2021_gmt_oad_web,The ASMS and FSMS shall have a range of motion in the M2 segment RY rotation degree of freedom of ± 3000 ?rad.
+2021_gmt_oad_web,The ASMS and FSMS shall have a range of motion in the M2 segment RZ rotation degree of freedom of ± 3000 ?rad.
+2021_gmt_oad_web,The M1 segment mount shall have a range of motion in the M1 segment motion in Y respect to the Cell respect to M1-A? 17 mm.
+2021_gmt_oad_web,The M1 segment mount shall have a range of motion in the M1 segment motion in Z respect to the Cell respect to M1-A? 12 mm.
+2021_gmt_oad_web,The M1 segment mount shall have a range of motion in the M1 segment motion in RX respect to the Cell respect to M1-A? 5 mrad.
+2021_gmt_oad_web,The M1 segment mount shall have a range of motion in the M1 segment motion in RY respect to the Cell respect to M1-A? 5 mrad.
+2021_gmt_oad_web,The M1 segment mount shall have a range of motion in the M1 segment motion in RZ respect to the Cell respect to M1-A? 0.75 mrad.
+2021_gmt_oad_web,The GMT shall slew telescope to target during target acquisition in Natural Seeing mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall reconfigure AGWS during target acquisition in Natural Seeing mode in a maximum of 45 sec.
+2021_gmt_oad_web,The GMT shall reconfigure enclosure vents during target acquisition in Natural Seeing mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall reconfigure wind screen during target acquisition in Natural Seeing mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall rotate enclosure during target acquisition in Natural Seeing mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall reconfigure M3 (if necessary) during target acquisition in Natural Seeing mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall reconfigure C-DAC (if necessary) during target acquisition in Natural Seeing mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall reconfigure instrument (if necessary) during target acquisition in Natural Seeing mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall make stack and center measurements during target acquisition in Natural Seeing mode in a maximum of 5 sec.
+2021_gmt_oad_web,The GMT shall center and stack acquisition star during target acquisition in Natural Seeing mode in a maximum of 5 sec.
+2021_gmt_oad_web,The GMT shall identify and center science target during target acquisition in Natural Seeing mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall slew telescope to target during target acquisition in GLAO mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall reconfigure AGWS during target acquisition in GLAO mode in a maximum of 45 sec.
+2021_gmt_oad_web,The GMT shall reconfigure enclosure vents during target acquisition in GLAO mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall reconfigure wind screen during target acquisition in GLAO mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall rotate enclosure during target acquisition in GLAO mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall reconfigure M3 (if necessary) during target acquisition in GLAO mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall reconfigure C-DAC (if necessary) during target acquisition in GLAO mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall reconfigure instrument (if necessary) during target acquisition in GLAO mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall make stack and center measurements during target acquisition in GLAO mode in a maximum of 5 sec.
+2021_gmt_oad_web,The GMT shall identify and center science target during target acquisition in GLAO mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall slew telescope to target during target acquisition in NGAO mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall reconfigure AGWS during target acquisition in NGAO mode in a maximum of 45 sec.
+2021_gmt_oad_web,The GMT shall reconfigure enclosure vents during target acquisition in NGAO mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall reconfigure wind screen during target acquisition in NGAO mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall rotate enclosure during target acquisition in NGAO mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall reconfigure M3 (if necessary) during target acquisition in NGAO mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall reconfigure instrument (if necessary) during target acquisition in NGAO mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall use TMS to correct segment alignmentduring target acquisition in NGAO mode in a maximum of 15 sec.
+2021_gmt_oad_web,The GMT shall make stack and center measurements during target acquisition in NGAO mode in a maximum of 5 sec.
+2021_gmt_oad_web,The GMT shall center and stack acquisition star during target acquisition in NGAO mode in a maximum of 5 sec.
+2021_gmt_oad_web,The GMT shall center NGAO guide star during target acquisition in NGAO mode in a maximum of 10 sec.
+2021_gmt_oad_web,The GMT shall center NGAO control loops during target acquisition in NGAO mode in a maximum of 10 sec.
+2021_gmt_oad_web,The GMT shall identify and center science target during target acquisition in NGAO mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall slew telescope to target during target acquisition in LTAO mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall reconfigure AGWS during target acquisition in LTAO mode in a maximum of 45 sec.
+2021_gmt_oad_web,The GMT shall reconfigure enclosure vents during target acquisition in LTAO mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall reconfigure wind screen during target acquisition in LTAO mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall rotate enclosure during target acquisition in LTAO mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT shall reconfigure M3 (if necessary) during target acquisition in LTAO mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall reconfigure C-DAC (if necessary) during target acquisition in LTAO mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall reconfigure instrument (if necessary) during target acquisition in LTAO mode in a maximum of 300 sec.
+2021_gmt_oad_web,The GMT shall use TMS to correct segment alignment during target acquisition in LTAO mode in a maximum of 15 sec.
+2021_gmt_oad_web,The GMT shall make stack and center measurements during target acquisition in LTAO mode in a maximum of 5 sec.
+2021_gmt_oad_web,The GMT shall center science target during target acquisition in LTAO mode in a maximum of 120 sec.
+2021_gmt_oad_web,The GMT subsystems shall open enclosure shutter and vents within 10 mins.
+2021_gmt_oad_web,The GMT subsystems shall focus and stack images within 10 mins.
+2021_gmt_oad_web,The GMT subsystems shall calibrate pointing model within 10 mins.
+2021_gmt_oad_web,"The GMT subsystems shall LGS checkout, LGS focus, tip, tilt, beam optimization and tune laserwithin 15 mins."
+2021_gmt_oad_web,The facilities subsystem shall be maintainable within 2390 hours per year.
+2021_gmt_oad_web,The enclosure subsystem shall be maintainable within 842 hours per year.
+2021_gmt_oad_web,The observatory control system subsystem shall be maintainable within 1713 hours per year.
+2021_gmt_oad_web,The mount subsystem shall be maintainable within 3097 hours per year.
+2021_gmt_oad_web,The telescope metrology subsystem (TMS) subsystem shall be maintainable within 784 hours per year.
+2021_gmt_oad_web,The wavefront control calibration subsystem subsystem shall be maintainable within 784 hours per year.
+2021_gmt_oad_web,The wavefront control testbed subsystem shall be maintainable within 784 hours per year.
+2021_gmt_oad_web,The AGWS subsystem shall be maintainable within 706 hours per year.
+2021_gmt_oad_web,The laser guide star subsystem subsystem shall be maintainable within 1394 hours per year.
+2021_gmt_oad_web,The LTWS (x2) subsystem shall be maintainable within 958 hours per year.
+2021_gmt_oad_web,The NGWS (x2) subsystem shall be maintainable within 1684 hours per year.
+2021_gmt_oad_web,The environmental monitoring facility (EMF) subsystem shall be maintainable within 784 hours per year.
+2021_gmt_oad_web,The M1 subsystem subsystem shall be maintainable within 929 hours per year.
+2021_gmt_oad_web,The ASM subsystem subsystem shall be maintainable within 658 hours per year.
+2021_gmt_oad_web,The FSM subsystem subsystem shall be maintainable within 377 hours per year.
+2021_gmt_oad_web,The M3 subsystem subsystem shall be maintainable within 726 hours per year.
+2021_gmt_oad_web,The C-ADC subsystem shall be maintainable within 426 hours per year.
+2021_gmt_oad_web,The optics servicing subsystem shall be maintainable within 435 hours per year.
+2021_gmt_oad_web,The GMTIFS subsystem shall be maintainable within 1606 hours per year.
+2021_gmt_oad_web,The GMTNIRS subsystem shall be maintainable within 319 hours per year.
+2021_gmt_oad_web,The GMACS subsystem shall be maintainable within 639 hours per year.
+2021_gmt_oad_web,The manifest subsystem shall be maintainable within 1384 hours per year.
+2021_gmt_oad_web,The commissioning camera subsystem shall be maintainable within 155 hours per year.
+2021_gmt_oad_web,The G-CLEF subsystem shall be maintainable within 1161 hours per year.
+2021_gmt_oad_web,The instrument calibration subsystem (ICS) subsystem shall be maintainable within 697 hours per year.
+2021_gmt_oad_web,"The Science Data Archive shall store Level 0 (raw data), Level 1 (instrument signatures removed) and Level 2 (calibrated data) processed science data.."
+2021_gmt_oad_web,The Science Data Archive shall record Instrument metadata.
+2021_gmt_oad_web,The Science Data Archive shall record Telescope metadata.
+2021_gmt_oad_web,The Science Data Archive shall allow access to raw data within five minutes of the end of the science exposure.
+2021_gmt_oad_web,The Science Data Archive shall not preclude ingesting and serving extracted scientific data.
+2021_gmt_oad_web,The Science Data Archive shall have a 99.99% availability for access.
+2021_gmt_oad_web,The Science Data Archive shall archive science proposals and related information.
+2021_gmt_oad_web,The Science Data Archive shall control access to archived data by user and date.
+2021_gmt_oad_web,The Science Data Archive shall allow exporting science data in the Flexible Image Transport System (FITS) data format.
+2021_gmt_oad_web,The Science Data Archive shall provide data compliant with International Virtual Observatory Alliance standards.
+2021_gmt_oad_web,The Science Data Archive shall provide an API (application program interface) for external and internal users to script archive queries.
+2021_gmt_oad_web,The Science Data Archive shall provide archive performance and usage metrics (top level).
+2021_gmt_oad_web,The Science Data Archive shall develop a process to maintain data integrity.
+2021_gmt_oad_web,The data processing shall remove instrument signatures from raw data within 24 hours of availability of both the science and its associated calibration data.
+2021_gmt_oad_web,The data processing shall identify relevant calibration data for each science exposure and associate that data with the science data.
+2021_gmt_oad_web,The data processing shall track and make accessible to archive users the provenance (history) of Level 1 and higher data.
+2021_gmt_oad_web,The data processing shall provide an automated quality control process.
+2021_gmt_oad_web,The data processing shall calculate and provide access to reconstructed point-spread functions.
+2021_gmt_oad_web,The data processing shall provide for re-reduction of raw data into Level 1 data.
+2021_gmt_oad_web,The data processing shall allow the storage of multiple versions of reduced data in the archive.

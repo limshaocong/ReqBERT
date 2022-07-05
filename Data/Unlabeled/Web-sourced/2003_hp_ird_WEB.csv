@@ -1,0 +1,221 @@
+source,reqs
+2003_hp_ird_web,During all mission phases (including LEOP and transfer to L2) there shall be no requirement for the MOC to send telecommands in nominal or contingency cases with a response time of less than 3 minutes.
+2003_hp_ird_web,Situations in which the MOC is expected to react within a short time (< 30 minutes) shall be well identified and agreed by ESA.
+2003_hp_ird_web,"Situations in which the MOC is required to react within a short time (< 30 minutes) shall be unambiguously recognisable in the telemetry available to the MOC, without the need for complex processing (such as historical data processing)."
+2003_hp_ird_web,"HK Telemetry shall be continuously generated and recorded in all modes of operations, including Survival Mode. However, when a Subsystem or Instrument - which nominally generates or relays HK Telemetry - is in a specific non-nominal mode (as : processor halted / reset) , this requirement does not apply to the concerned Subsystem or instrument."
+2003_hp_ird_web,"The S/C and on-board users shall always be able to receive, process and distribute all the uplinked command packets at the maximum uplink rate, regardless of packet sizes. CTRL-6. No slowing down of the commanding rate shall be imposed by on-board"
+2003_hp_ird_web,No slowing down of the commanding rate shall be imposed by on-board limitations in hardware or software for handling the incoming telecommands by any subsystem or instrument.
+2003_hp_ird_web,Execution of hazardous functions shall be implemented by means of two independent telecommands. TC-2. Execution of vital functions (agreed by ESA) shall be implemented by a
+2003_hp_ird_web,Execution of vital functions (agreed by ESA) shall be implemented by a nominal and a redundant telecommand.
+2003_hp_ird_web,Redundant telecommands shall be differently routed from the related nominal telecommand.
+2003_hp_ird_web,A telecommand packet shall contain one and only one telecommand function.
+2003_hp_ird_web,It shall be possible to command the spacecraft or any subsystem or instrument into each of their pre-defined operation modes by means of a single telecommand
+2003_hp_ird_web,It shall be possible to command all on-board devices individually from the ground.
+2003_hp_ird_web,A telecommand that does not conform to the packet telecommand standard and/or is not recognised as a valid telecommand shall be rejected at the earliest possible stage in the on-board acceptance and execution process.
+2003_hp_ird_web,"The on-board reception, processing and execution of telecommands shall not affect any other independent on-board process."
+2003_hp_ird_web,Changes to on-board data or software parameters shall be implemented via a dedicated telecommand and not via a multi-purpose software load telecommand. TC-10. Readouts of loaded on-board data or software parameters shall be
+2003_hp_ird_web,Readouts of loaded on-board data or software parameters shall be requested via a dedicated telecommand and not via a multi-purpose software dump telecommand.
+2003_hp_ird_web,The telecommand history (including content) of on-board issued commands shall be kept on-board for interrogation (and/or deletion) by ground. 2.1.3 Telemetry
+2003_hp_ird_web,"The MOC shall be provided throughout the mission with the data, in raw form, required for the execution and analysis of all nominal operations and foreseen contingency operations for the spacecraft subsystems and instruments."
+2003_hp_ird_web,The availability of telemetry information shall be compatible with the required response times which have been identified for any control loops implemented on ground.
+2003_hp_ird_web,Telemetry data shall be provided to the ground such that complete and unambiguous assessment of the spacecraft and payload status and performance is possible without the need for reference to the telecommand history to interpret the data.
+2003_hp_ird_web,"Telemetry shall be provided to allow complete and unambiguous verification of acceptance and execution of all telecommands sent from any source (sent from ground for immediate, delayed or time-tagged execution, and sent from on-board applications)."
+2003_hp_ird_web,Telemetry shall always be provided to unambiguously identify the conditions required for execution of all possible configuration dependent telecommands.
+2003_hp_ird_web,Status information in telemetry shall always be provided from direct measurements from operating units rather than from secondary effects. This is in particular essential for the status of all on-board relays.
+2003_hp_ird_web,"All mission critical action shall be observable by at least two independently obtained measurements, collected on-board via independent routes. TM-8. All inputs to on-board autonomous processes, in particular On-Board Control"
+2003_hp_ird_web,"All inputs to on-board autonomous processes, in particular On-Board Control Procedures, shall be accessible to the ground via telemetry."
+2003_hp_ird_web,Information to indicate all actions of operational significance taken by on- board software shall be available in telemetry.
+2003_hp_ird_web,"Software status telemetry shall include all commandable parameters such as monitoring and control thresholds, software tables, flags, global variables used by On-Board Controlrocedures, etc."
+2003_hp_ird_web,The values of telemetry parameters shall be self-contained. TM-12. The value of a telemetry parameter shall be transmitted in contiguous bits
+2003_hp_ird_web,The value of a telemetry parameter shall be transmitted in contiguous bits within one packet.
+2003_hp_ird_web,"It shall be possible to store all telemetry generated on-board in the SSMM, including that currently defined for immediate transmission to ground, until deleted by ground. TM-14. Event packets (also from the monitoring service) and telecommand acceptance reports shall be stored regardless of the status of the SSMM."
+2003_hp_ird_web,Event packets (also from the monitoring service) and telecommand acceptance reports shall be stored regardless of the status of the SSMM. This is to ensure that a minimum reporting capability is available in the absence of the SSMM so that the spacecraft performance during non- coverage periods can be assessed.
+2003_hp_ird_web,"Any packet carrying engineering measurement and performance information for a unit shall also contain the information necessary to determine the validity of the data, e.g. the unit status."
+2003_hp_ird_web,"If it is necessary to define synthetic parameters (i.e. parameters which are calculated using other parameters), all the contributing parameters should appear in the same packet."
+2003_hp_ird_web,All packets shall include the time field in the data field header
+2003_hp_ird_web,All event packets shall include a counter (in the data field) which permits the unambiguous identification of the type (severity) of events lost when event packets are found to be missing (from the packet source sequence count).
+2003_hp_ird_web,All timing information used for on-board functions like time-tagging of telecommands and running of application software and for telemetry time- stamping shall be synchronised with a single on-board Central Time Reference.
+2003_hp_ird_web,Timing information provided in telemetry shall allow the on-ground correlation of on-board time with UTC with an accuracy defined in AD - 3 and AD - 4.
+2003_hp_ird_web,It shall be possible to establish by analysis the original on-board sampling time of any spacecraft status telemetry parameter appearing in the telemetry source packets.
+2003_hp_ird_web,"After switch on or reset, any unit shall flag in each packet with the time field that the time has not yet been synchronised"
+2003_hp_ird_web,During all active mission phases the spacecraft shall be able to operate without ground contact for a period of 48 hours without interrupting mission product generation. Beyond the 48 hours the spacecraft shall be able to survive in a safe mode for 7 days without the need for ground intervention.
+2003_hp_ird_web,On-board intelligent units including instruments shall be able to enter their Safe Mode on receipt of a single TC-packet.
+2003_hp_ird_web,The spacecraft shall be able to detect failures which are hazardous for the spacecraft or its instruments; if such a condition is detected the spacecraft shall autonomously configure the affected on-board subsystems and instruments into safe modes of operation. In principle the S/C shall be capable of recovering from a first failure and continue normal operations.
+2003_hp_ird_web,"The Survival Mode shall initiate any payload re-configuration activities necessary to put the payload in a safe and recoverable mode. The “Survival Mode” is here assumed to be the mode to which the system falls back when all autonomous recovery actions have been exhausted, whereby a minimal functionality is retained to control the system within the set of constraints necessary for the survival of the S/C and instruments until the ground can intervene."
+2003_hp_ird_web,When in Survival Mode the spacecraft shall start generating a minimum set of telemetry packets which allow unambiguous and rapid identification of the Survival Mode. The reason for the triggering of the Survival Mode and the history of the defined events occurred before and after the detection of the failure condition shall also be accessible in telemetry either directly or stored in memory areas that can be later dumped and reset by the ground.
+2003_hp_ird_web,"Essential on-board autonomous functions, including fault management, shall be available in Survival Mode."
+2003_hp_ird_web,"It shall be possible to enable / disable autonomous entry, and to force manual entry into Survival Mode by telecommand. Autonomous entry shall be enabled by default."
+2003_hp_ird_web,No nominal operation shall require inhibition of the Survival Mode nor a forced entry into Survival Mode.
+2003_hp_ird_web,The management of anomalies within a subsystem or instrument shall be handled in a hierarchical manner such that resolution is sought on the lowest level possible.
+2003_hp_ird_web,All intelligent subsystems and instruments shall perform regular self-checks.
+2003_hp_ird_web,Anomalies and actions taken to recover from them shall be reported in event packets.
+2003_hp_ird_web,It shall be possible to reconstruct from telemetry the conditions leading to the generation of an event.
+2003_hp_ird_web,The on-board system shall capture sufficient information to enable the ground to analyse failures.
+2003_hp_ird_web,It shall be possible for the ground to enable / disable each individual fault management function.
+2003_hp_ird_web,"All parameters used for autonomous fault management (e.g. thresholds for limit checks or thresholds and biases for attitude control), including fault management, orbit and attitude control, etc., shall be updateable by telecommand and available in telemetry."
+2003_hp_ird_web,The on-board fault management shall avoid continuous toggling of the configuration of a unit between the prime and the redundant element.
+2003_hp_ird_web,The spacecraft shall have the knowledge of the actual health status of all the telemetry.
+2003_hp_ird_web,An on-board safety logic shall be available to prevent inadvertent commanding of forbidden mode transitions. It shall be possible nonetheless to force a “forbidden transition” from the ground by means of an explicit override.
+2003_hp_ird_web,"It shall be possible for the ground to command, via dedicated telecommands, every individual AOCS actuator."
+2003_hp_ird_web,Sufficient sensor information shall be available on request in telemetry in each of the AOCS modes to allow the ground to determine the spacecraft attitude.
+2003_hp_ird_web,Sufficient information from all actuators and units involved in reaction control shall be available in telemetry to allow the ground to verify the correct attitude and orbit control.
+2003_hp_ird_web,A counter for the accumulated commanded “thruster-on” time shall be available in telemetry for each thruster independently.
+2003_hp_ird_web,The on-board attitude and constraint tables shall not require an update from ground more frequently than once every 48 hour in all critical phases of the mission.
+2003_hp_ird_web,It shall be possible to activate any provided diagnostic mode of a unit without entering safe or survival mode of the spacecraft.
+2003_hp_ird_web,No fault management function shall trigger on test data generated by a unit operating in test mode.
+2003_hp_ird_web,Entering a test mode shall not require (or imply) disabling of fault management functions.
+2003_hp_ird_web,"An OBCP shall be controllable (e.g. loaded, started, stopped…) from any command source."
+2003_hp_ird_web,"An OBPC shall be able to access telemetry , issue telecommands and issue event packets."
+2003_hp_ird_web,"An OBPC shall be able to execute simple mathematical expressions (e.g. +, -, *, /), simple logical functions (e.g. if then else; select; repeat; for; while; do; on case etc., and Wait (for a specified time or events)"
+2003_hp_ird_web,"It shall be possible to have several OBPCs loaded and some or all concurrently executing, without interference."
+2003_hp_ird_web,It shall be possible to load and remove OBCPs without interference with to other OBCPs.
+2003_hp_ird_web,The development environment for OBCPs shall provide a simple language to express the procedure
+2003_hp_ird_web,The development environment for OBCP s shall provide tools for testing and debugging procedures
+2003_hp_ird_web,The development environment for OBCP s shall provide the procedure as it is to be loaded to the on-board system in a form compatible with the MOC control system.
+2003_hp_ird_web,The procedure development environment shall be delivered to ESA for installation at the MOC.
+2003_hp_ird_web,For both Telecommands and Telemetry packets the Application ID (APID) shall be allocated according to the tables contained in the AD – 5
+2003_hp_ird_web,Telecommands destined to different spacecraft subsystems and instruments shall be assigned different Application IDs (APIDs).
+2003_hp_ird_web,Telemetry packets originating from a spacecraft subsystems and instruments shall be assigned the same APID as used for the telecommands to that subsystem and instrument wherever possible.
+2003_hp_ird_web,It shall be possible to derive the location of a HK parameter within a telemetry packet from the APID and theacket Type/Subtype and Structure ID (SID).
+2003_hp_ird_web,All SIDs shall be unique within an APID.
+2003_hp_ird_web,The number of SIDs per APID shall be minimised.
+2003_hp_ird_web,HKarameter subcommutation within a packet shall not be used.
+2003_hp_ird_web,"HKarameter supercommutation is allowed if the parameter is sampled regularly in time, at an interval which is the same for all occurrences of the packet; consecutive packets guarantee continuous sampling of the parameter; the time offset of the first sample of the parameter within a packet is known."
+2003_hp_ird_web,A telemetry parameter shall always have the same structure and interpretation in all telemetry packets in which it appears.
+2003_hp_ird_web,"Telemetry parameters shall be sampled at a frequency ensuring that no information of operational significance, for all nominal and contingency operations, is lost."
+2003_hp_ird_web,The sampling time of a telemetry parameters in a packet with respect to the packet time shall be implicitly and uniquely defined by the packet APID and SID.
+2003_hp_ird_web,The telemetry packet time field shall report the instant in time of initiation of packet data acquisition. Whenever not feasible a deterministic relationship shall exist between the packet data acquisition and the time stamp.
+2003_hp_ird_web,All telemetry packets shall have a time field (with the exception of the Time Packet and the Idleacket).
+2003_hp_ird_web,"APIDs shall be assigned by the ESAroject Office, and defined in AD-5."
+2003_hp_ird_web,Telecommand packets shall be validated by the destination application process at the moment of acceptance.
+2003_hp_ird_web,Herschel Instrument data packets shall be labelled with a common Observation Identifier which will permit the relationship of the data to an observation without reference to external information. The format of the identifier is defined in AD – 9.
+2003_hp_ird_web,"The level of verification required in telemetry (acceptance, acceptance and execution) shall be controlled by each telecommand packet."
+2003_hp_ird_web,A telemetry packet for successful command acceptance shall be generated by the receiving application for every telecommand packet properly received and containing valid data.
+2003_hp_ird_web,A telemetry packet for unsuccessful command acceptance shall be generated by the receiving application for every telecommand packet not properly received or containing invalid data. This telemetry packet shall indicate the reason for not acceptance of the related telecommand.
+2003_hp_ird_web,A telemetry packet for successful command execution shall be generated by the receiving application for every telecommand packet properly executed if the acknowledgement field is set accordingly.
+2003_hp_ird_web,"A telemetry packet for unsuccessful command execution shall be generated by the receiving application for every telecommand not properly executed, if the acknowledgement field is set accordingly. This telemetry packet shall indicate the reason for the failed execution of the related telecommand."
+2003_hp_ird_web,It shall be possible for the ground to suspend transmission to ground of telecommand verification packets.
+2003_hp_ird_web,"Telecommand verification packets shall indicate the source of the telecommand (i.e. ground, Mission Time line, On-Board Controlrocedure)."
+2003_hp_ird_web,A telecommand verification packet shall be generated at reception of the telecommand.
+2003_hp_ird_web,Direct confirmation of the effects of all executed telecommands should be provided in the housekeeping telemetry.
+2003_hp_ird_web,Device Telecommands shall be provided to satisfy the general requirement to be able to command individually and directly any on-board device.
+2003_hp_ird_web,"Where more than one device telecommand is required to execute a specific function it shall be possible, but not mandatory, to pack all required device telecommands into a single telecommand packet. After unpacking the commands shall be sent for execution in the same order as contained in the packet."
+2003_hp_ird_web,It shall be possible to issue pulse device commands directly from the telecommand decoder if needed.
+2003_hp_ird_web,Device telecommands shall include pulse commands (for example ON/OFF) and Register Load commands.
+2003_hp_ird_web,An appropriate reserved downlink bandwidth shall be provided for the subset of telemetry housekeeping data which is essential and sufficient to characterise the current status of the spacecraft (and its payloads) and indicate whether there is an anomalous condition that requires ground intervention.
+2003_hp_ird_web,"It shall be possible for the ground and/or an On-Board Controlrocedure to request the generation of a specified housekeeping telemetry packet, with a desired frequency within the constraints of the on-board design."
+2003_hp_ird_web,"To allow the definition of special diagnostic telemetry packets which support over-sampling of selected parameters for troubleshooting purposes, the on- board system shall ensure that a minimum sampling interval consistent with the measurement of transient phenomenon (e.g. a pyro firing current ) will be possible for all housekeeping parameters."
+2003_hp_ird_web,"It shall be possible to replace or clear existing, and define new diagnostic telemetry packet structures via a dedicated telecommand."
+2003_hp_ird_web,A pre-defined set of housekeeping report telemetry packets with a default generation frequency structured according to the different sources shall be available on-board.
+2003_hp_ird_web,It shall be possible to enable/disable generation of a specified housekeeping (or diagnostic) telemetry packet via a dedicated telecommand.
+2003_hp_ird_web,"It shall be possible to request, via a dedicated telecommand, the generation of a telemetry report containing the definition of any specified housekeeping or diagnostic packet."
+2003_hp_ird_web,All on-board events of operational significance shall be reported in a complete and unambiguous manner using event report packets.
+2003_hp_ird_web,"Anomaly reports shall contain a unique identification of the anomaly, its time of occurrence and a record of the data relevant to the anomaly detection function."
+2003_hp_ird_web,Input data to the anomaly detection function shall be recorded on-board such that they can be reported by the anomaly report packet for an appropriate interval of time centred around the time of occurrence of the anomaly.
+2003_hp_ird_web,"The design of the reporting mechanism shall be such to avoid excessive use of the downlink bandwidth (and of the on-board storage capacity). This means that related events shall be reported as far as possible together; anomaly reports shall be generated only once per anomaly occurrence, even if the detection cycle repeats itself."
+2003_hp_ird_web,"Information to identify the nature (in particular, if action is required) of the report packet shall be contained in the APID and/or packet data field header."
+2003_hp_ird_web,"For telecommands initiating a long execution process the start and the end of the process shall be reported in telemetry. In addition, reports of progress either periodically or at pre-determined steps in the execution shall be provided."
+2003_hp_ird_web,All event packets of type 2 and 3 of EVRP-1 shall be additionally stored on- board in a so called Critical Events Log which can be accessed regardless of the state of the SSMM.
+2003_hp_ird_web,Dedicated telecommands shall be provided to read and clean the Critical Events Log.
+2003_hp_ird_web,It shall be possible for the ground to load any changeable memory area.
+2003_hp_ird_web,It shall be possible to load with a single telecommand packet a contiguous memory area (e.g. by indicating the start address for loading and the length of the load)
+2003_hp_ird_web,"Each telecommand packet needed to load any area of memory shall be self-consistent, such that the successful load shall not depend on previous packets, and any single TC packet which is rejected may be uplinked at a later time without forcing re-uplink of other related TC packets already successfully uplinked."
+2003_hp_ird_web,"As part of the onboard acceptance of a memory load, the destination Application process shall be able to detect data corruption."
+2003_hp_ird_web,The end-to-end verification of a memory load shall consist of confirming that the data have been correctly loaded into their destination memory
+2003_hp_ird_web,"It shall be possible for the ground to dump any memory area (including non- volatile memories, mass memories)."
+2003_hp_ird_web,The memory dump request shall specify the name of the memory to be dumped and indicate a contiguous memory area (e.g. by indicating the start address and the length of the dump).
+2003_hp_ird_web,"Only a single telecommand packet shall be required for a memory dump request, even if several telemetry source packets are required to convey the dumped data to the ground."
+2003_hp_ird_web,It shall be possible for the ground to request a check of a specified area of an onboard memory (over one or a range of addresses defined by start address and length)
+2003_hp_ird_web,"In response to a request to check memory, the onboard action shall be to perform a checksum over the requested addresses and report the result to the ground."
+2003_hp_ird_web,The system and application software of the on-board intelligent users shall reside in non-volatile memories.
+2003_hp_ird_web,"It shall be possible to modify the on-board software, either by modifying the image on non-volatile memory or by patching the image in working memory, while the unit affected is operational."
+2003_hp_ird_web,It shall be possible to communicate with a function (i.e. pass it parameters or modify variables) without the need for the ground to first deactivate the function.
+2003_hp_ird_web,Any communication between the ground and a function shall be effected by means of telecommand and telemetry source packets specifically designed for the purpose.
+2003_hp_ird_web,It shall be possible for the ground to inspect loaded data/control parameters .
+2003_hp_ird_web,The CDMS shall produce a time report as defined by AD 6
+2003_hp_ird_web,It shall be possible for the ground to request that the time reference within any on-board application (or on-board intelligent user) be synchronised with the CDMS Central Time Reference.
+2003_hp_ird_web,"It shall be possible for the ground to request generation of time verification report packets, to confirm that the time of any application or user is synchronised with the CDMS Central Time Reference."
+2003_hp_ird_web,All on-board applications and intelligent users of the CDMS services shall support time synchronisation and verification.
+2003_hp_ird_web,Telemetry produced and stamped with a time known to be out of synchronisation with the central reference time shall be explicitly identified as such.
+2003_hp_ird_web,It shall be possible to synchronise the CDMS Central Reference Time with a ground-based clock.
+2003_hp_ird_web,It shall be possible to load any telecommand (including those which operate on the MTL itself) into storage on-board for execution at a time specified at the time of uplink within the telecommand packet.
+2003_hp_ird_web,"The MTL shall be implemented in the spacecraft CDMS as a single, centralised spacecraft function."
+2003_hp_ird_web,The MTL shall be active by default whenever the CDMS is active
+2003_hp_ird_web,The MTL shall be capable of storing any and all the telecommands needed for the execution of all routine operations.
+2003_hp_ird_web,It shall be possible to suspend/resume MTL execution by telecommand.
+2003_hp_ird_web,It shall be possible to prevent execution of a specified subset of telecommands contained in the running MTL without having to stop the entire MTL. The selection shall be made by telecommand APID (or by using a filter class (Sub-schedule Identifier) defined at the time of the uplink.
+2003_hp_ird_web,"It shall be possible to insert and append commands to the MTL, without the necessity of first stopping it."
+2003_hp_ird_web,The accuracy of the MTL execution is 1 sec.
+2003_hp_ird_web,Commands loaded into the MTL with the same execution time shall be executed in the same order they were uplinked to the spacecraft.
+2003_hp_ird_web,"An On-Board Monitoring Function (OBMF) shall be provided, capable of monitoring any housekeeping parameter and any non-science telemetry packet generated by the subsystems and/or the payload."
+2003_hp_ird_web,"The OBMF shall be implemented in the spacecraft CDMS as a single, centralised spacecraft function."
+2003_hp_ird_web,The OBMF shall be active by default whenever the CDMS is active
+2003_hp_ird_web,It shall be possible to modify any sub-set of the monitoring information for a parameter (i.e. without having to first delete the parameter and then add it again to the monitoring list).
+2003_hp_ird_web,It shall be possible to clear (i.e. to reset) the monitoring list.
+2003_hp_ird_web,It shall be possible to delete any sub-set of parameters from the monitoring list.
+2003_hp_ird_web,When a check is enabled the monitoring shall assume that the state is as expected or within limits (i.e if a parameter is actually out-of-limits or not as expected when the check is enabled an event shall be generated).
+2003_hp_ird_web,The telemetry event report packet shall contain the parameter value and the value of the limit being crossed
+2003_hp_ird_web,"It shall be possible to request a report of the contents of the monitoring list, giving the list of monitored parameters together with their associated validity parameters, check definitions and check selection parameters."
+2003_hp_ird_web,On request each Applicationrocess shall provide status information indicating those packets whose transmission is currently enabled and (where appropriate) the generation frequency..
+2003_hp_ird_web,"An on-board telemetry storage capability shall be implemented in the CDMS as a single, centralised spacecraft function."
+2003_hp_ird_web,"It shall be possible to record on the on-board storage all telemetry packets that are generated on-board , independent of the status of the transmission to ground."
+2003_hp_ird_web,Storage shall be organised in virtual stores calledacket Stores. The selection of which Application ID and which packet type shall be stored in whichacket Store shall be maintainable by means of dedicated telecommands. Any number of different APIDs can be assigned to a specificacket Store..
+2003_hp_ird_web,"It shall be possible to define a defaultacket Store: i.e for each APID and packet type it shall be known to which packet store it shall be routed to by default. This default set of packet stores shall be active after initialisation or reset of the CDMU, if the packet store definition has been lost in the reset process."
+2003_hp_ird_web,Telemetry storage shall be configurable to either overwrite old data or to stop recording once the store is full.
+2003_hp_ird_web,The onboard storage capability shall be sufficient to store all packets generated onboard for a duration at least equal to 48 hours.
+2003_hp_ird_web,"It shall be possible for the ground to retrieve selected telemetry packets (byacket Store, Application ID, and packet time) from the on-board storage."
+2003_hp_ird_web,Housekeeping information shall be provided on the state of the onboard storage and retrieval function and to request details of which packets are assigned to which stores.
+2003_hp_ird_web,Information on the used and available space on the onboard storage shall be reported in telemetry on request. Tthe information shall be provided for each packet store.
+2003_hp_ird_web,"It shall be possible for the ground to enable and disable the storage function for selected packets (all packets, byacket Store, Application ID, packet type)."
+2003_hp_ird_web,It shall be possible for the ground (and only the ground) to clear the contents of theacket Stores (specific stores or all) up to a specific storage time or completely. An acceptable implementation of complete deletion could be to allow a clear contents command with a time later than the last packet stored
+2003_hp_ird_web,"The storage of packets shall not be interrupted if the ground requests a deletion from, retrieval from, or reset of, the onboard storage."
+2003_hp_ird_web,The onboard packet distribution system shall generate a report (event) whenever a problem arises with the onboard traffic (e.g. a bottleneck in the distribution of telecommand packets or of telemetry source packets on the packet bus).
+2003_hp_ird_web,Adequate control capabilities shall be provided to permit the ground to resolve all pre-identified onboard problems relating to onboard traffic.
+2003_hp_ird_web,"Packet bus management and resource parameters, such as average and peak bus loading, numbers of packet retransmissions etc., shall be available to the ground in the housekeeping telemetry."
+2003_hp_ird_web,It shall be possible to enable/disable the routing of telecommand packets from a particular source to the destination by means of a dedicated telecommand.
+2003_hp_ird_web,"An ""are you alive"" function shall be provided for testing the end-to-end connection between ground and the CDMS and/or any other on-board intelligent user."
+2003_hp_ird_web,The connection test between CDMS and on-board intelligent users shall be performed by CDMS.
+2003_hp_ird_web,It shall be possible by the ground to request the initiation of this connection test between CDMS and the on-board intelligent user
+2003_hp_ird_web,"It shall be possible to control OBCPs , via specific telecommand packets, in"
+2003_hp_ird_web,"It shall be possible to communicate with an OBCP (i.e. pass it parameters or modify variables used by the OBCP) without the need for the ground to first suspend, the OBCP."
+2003_hp_ird_web,"It shall be possible for the ground to inspect the loaded data/control parameters utilised by an OBCP at any time before, during or after the OBCP run."
+2003_hp_ird_web,It shall be possible for the ground to request a list of all OBCPs stored on- board.
+2003_hp_ird_web,The CDMS shall provide a mechanism to manage multiple triggering of
+2003_hp_ird_web,The CDMS shall be able to respond to an event packet which requires on- board action by issuing a telecommand packet.
+2003_hp_ird_web,The action shall be conditioned by the event as defined by the source APID and the Event Report Identifier
+2003_hp_ird_web,It shall be possible to request a report of the current action list
+2003_hp_ird_web,The content of the SUM shall be consistent with the Satellite Database and indicate to which version it relates.
+2003_hp_ird_web,The content of the SUM shall be consistent with the Flight Dynamics Database and indicate to which version it relates.
+2003_hp_ird_web,The content of the SUM shall be consistent with all major releases of the on-board software and indicate to which versions (for each subsystem/instrument) it relates.
+2003_hp_ird_web,The content of the SUM shall comply with the requirements of Annex 1.
+2003_hp_ird_web,The procedures presented in the SUM shall be validated at S/C system and subsystem level testing.
+2003_hp_ird_web,The SUM shall be used by the contractor as a reference document during the AIV programme.
+2003_hp_ird_web,"Issue 0 of the SUM is required at the end ofhase B, in time for Industry preparation of system and subsystem test procedures. This issue shall contain draft design information and skeleton procedures."
+2003_hp_ird_web,"Issue 1 of the SUM is required at L-36 months. This issue shall contain a preliminary Mission Description, System and subsystem Sections and preliminary design information."
+2003_hp_ird_web,"Issue 2 is required at L-24 months. This issue shall contain all the design information, draft nominal operating procedures (no contingency analysis or procedures are expected at this stage)."
+2003_hp_ird_web,Issue 3 is required at L-15 months. This issue shall contain all nominal and contingency procedures. The annexes shall be supplied in draft form.
+2003_hp_ird_web,"Issue 4 is required at L-9 months. This is the final version of the Users Manual; all sections and annexes shall reflect the latest state of knowledge of the Flight spacecraft, such that only minor updating is needed subsequently."
+2003_hp_ird_web,"The Users Manual shall be placed under configuration control at Issue 2 above. Subsequent to Issue 4, any updates to the Users Manual shall be issued as page changes as and when they arise."
+2003_hp_ird_web,The User Manual shall be delivered in hard copy and in an agreed electronic format FUMD-8 It shall be possible to view the User Manual through a Hypertext medium.
+2003_hp_ird_web,"The satellite prime contractor and instrument developers shall deliver a Satellite Database (SDB) containing a complete definition of all telemetry and telecommand data, command sequences, software parameters and commands for the satellite subsystems and instruments. The latter shall be provided by theIs."
+2003_hp_ird_web,"The SDB shall be a single common database used for satellite system engineering, AIV and operations purposes."
+2003_hp_ird_web,"The SDB shall contain information relevant to both ground check out and in orbit operations, clearly identified."
+2003_hp_ird_web,The content of the SDB shall comply with AD-8 and the requirements of Annex 2 covering both the physical and the operational characteristics of the data.
+2003_hp_ird_web,The contents of the SDB shall be internally consistent SDBC-6 The contents of the SDB shall be consistent with the FDDB
+2003_hp_ird_web,The contents of the SDB shall be consistent with all on-board software (subsystems and instruments)
+2003_hp_ird_web,All updates to the SDB shall be automatically recorded in a Configuration Control Record down to field level.
+2003_hp_ird_web,The SDB shall include definitions to write and read parameter values to and from on-board RAM.
+2003_hp_ird_web,The SDB shall be validated by therime Contractor at both system and subsystem level. SDBC-11 The SDB shall not contain irrelevant data.
+2003_hp_ird_web,The SDB shall not contain duplications.
+2003_hp_ird_web,Each delivery of the SDB shall be accompanied by a Configuration Control File showing changes down to field level.
+2003_hp_ird_web,It shall be possible to deliver/transfer the SDB by digital means to an agreed standard file format.
+2003_hp_ird_web,The satellite prime contractor shall deliver a Flight Dynamics Database (FDDB) containing all information and reference sources needed to establish the ground Flight Dynamics System
+2003_hp_ird_web,"The FDDB shall contain information relevant to both ground check out and in orbit operations, clearly identified."
+2003_hp_ird_web,The content of the FDDB shall comply with requirements of Annex 3 covering both the physical and the operational characteristics of the data.
+2003_hp_ird_web,The contents of the FDDB shall be internally consistent FDDC-5 The contents of the FDDB shall be consistent with the SDB
+2003_hp_ird_web,"The contents of the FDDB shall be consistent with all related on-board software including AOCS, Star Tracker and CDMS."
+2003_hp_ird_web,All updates to the FDDB shall be automatically recorded in a Configuration Control Record down to field level.
+2003_hp_ird_web,"The FDDB shall contain, the reference documents from which the FDDB data have been extracted. The reference documents shall be updated for each FDDB delivery. The reference documents shall be stored in .pdf format."
+2003_hp_ird_web,"The FDDB shall contain original measurement results provided by the unit manufacturer, unaltered by the party responsible for FDDB generation"
+2003_hp_ird_web,Each delivery of the FDDB shall be accompanied by a Configuration Control File showing changes down to field level.
+2003_hp_ird_web,It shall be possible to deliver/transfer the FDDB by digital means to an agreed file format.

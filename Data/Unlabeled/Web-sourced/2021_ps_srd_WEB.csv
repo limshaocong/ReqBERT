@@ -1,0 +1,46 @@
+source,reqs
+2021_ps_srd_WEB,"Develop and validate algorithms to approach the GCOS ECV and meet the wider requirements of the Climate Community (i.e. long term, consistent, stable, uncertainty-characterized) global satellite data products from multi- sensor data archives. [CR-1]"
+2021_ps_srd_WEB,"Produce, validate and deliver consistent time series of multi-sensor global satellite ECV data products for climate science. [CR-2]"
+2021_ps_srd_WEB,"The Permafrost_cci system shall be able to generate different products:
+1.    GTD, when the parameter is ground temperature at a certain depth
+2.    ALT, if the parameter is active layer thickness
+3.    PFR if the parameter is permafrost extent (fraction)
+4.    PFF if the parameter is permafrost-free fraction
+5.    PFT if the parameter is fraction underlain by talik
+6.    PZO if the parameter is permafrost zone"
+2021_ps_srd_WEB,"Generate and fully document a production system capable of processing and reprocessing the data, with the aim of supporting transfer to operational activities outside CCI (such as C3S). [CR-4]"
+2021_ps_srd_WEB,All project documentation shall be made publicly available via the CCI Open Data Portal.\
+2021_ps_srd_WEB,"The PS shall capitalise on existing European assets through their reuse, particularly Open Source scientific tools and prototype ECV processing systems from prior projects. (heritage)"
+2021_ps_srd_WEB,The global Permafrost community shall play an active role in its creation according to given guidelines and advice from a strategic operations team. They shall also give feedback from the implementation to the strategic team.
+2021_ps_srd_WEB,The system shall implement a data production line that is sufficiently flexible to continuously update and extend the database (e.g. with data from new sensors or better acquisitions).
+2021_ps_srd_WEB,The available data shall be frequently reported and properly disseminated to the interested user communities.
+2021_ps_srd_WEB,Minimum maintenance and cost
+2021_ps_srd_WEB,The Products shall be uniquely identified.
+2021_ps_srd_WEB,"The PS shall store data in a structured way using type, revision, date."
+2021_ps_srd_WEB,"If input data is retrieved directly from a third party ground segment, the PS has to ensure that links are maintained and functionality is regularly checked."
+2021_ps_srd_WEB,The PS shall be able to reprocess also parts of the products.
+2021_ps_srd_WEB,The PS shall be able to do partial processing.
+2021_ps_srd_WEB,The PS shall be flexible in form of delivery for maps and data.
+2021_ps_srd_WEB,The PS shall include proper Product Description
+2021_ps_srd_WEB,The PS shall be able to do long time series processing in due time.
+2021_ps_srd_WEB,The PS shall be able to do reprocessing in due time.
+2021_ps_srd_WEB,The PS shall be able to run on the available hardware infrastructure
+2021_ps_srd_WEB,The PS shall have sufficient space for output data
+2021_ps_srd_WEB,The PS shall have sufficient space for auxiliary data
+2021_ps_srd_WEB,The PS shall have sufficient space for input data
+2021_ps_srd_WEB,The PS shall have the capability and interfaces to extend for future adaptations.
+2021_ps_srd_WEB,The PS shall have or use a long-term storage for its products
+2021_ps_srd_WEB,The PS shall have a self-standing documentation
+2021_ps_srd_WEB,Development of the PS shall be under version control.
+2021_ps_srd_WEB,The system should be decoupled from the research
+2021_ps_srd_WEB,"Development of the system shall be based on the user requirements, the selected algorithms and the validation protocols used to generate the baseline products for the worldwide glacier inventory."
+2021_ps_srd_WEB,The PS development shall be overseen by a science team that drives the development process.
+2021_ps_srd_WEB,"Each PS installation includes a set of test tools, data and benchmark data to test PS integrity (end-to-end, interfaces)"
+2021_ps_srd_WEB,"If a module is based on a prototype, the prototype state has to be frozen until it is implemented."
+2021_ps_srd_WEB,"The verification is regarded as successful, when all tests agree within TBD limits. Hashes are to be preferred where applicable."
+2021_ps_srd_WEB,The operational processor shall not overwrite existing data. Versioning shall be used instead.
+2021_ps_srd_WEB,"The system developed shall be detailed as a separate self-standing document providing an overview of the system and its components, functionality of the system and its subsystems, inputs, outputs, resource key interfaces, and resource requirements."
+2021_ps_srd_WEB,Verification of the correct implementation of the prototype system against the algorithms developed in Task 2 is a fundamental part of the process.
+2021_ps_srd_WEB,"The verification shall be documented in a Verification Report. It shall contain the chosen approach and the justification, the selected verification data set and the verification results."
+2021_ps_srd_WEB,The PS shall provide means against data loss of its input / output products.
+2021_ps_srd_WEB,All data stored in the system shall be available for the long-term (at least 15 years).

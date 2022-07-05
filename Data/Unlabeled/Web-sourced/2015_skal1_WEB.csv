@@ -1,0 +1,815 @@
+source,reqs
+2005_skal1_WEB,"The SKA1_Low shall utilise dual, orthogonal, polarization log-periodic antennas."
+2005_skal1_WEB,The SKA1_Low shall have an array resolution of better than 5 arc minutes at 100 MHz (centre of the EoR frequency range).
+2005_skal1_WEB,SKA1_Low shall be able to measure electromagnetic radiation in a frequency range from 50 MHz to 350 MHz.
+2005_skal1_WEB,"The spectral stability, on a time scale of 600 sec.,of the station beam bandpass, post station calibration and RFI- mitigation, shall be within 1.3 %, 0.4 %, 0.6 % and 1.1 % at 50 MHz, 100 MHz, 160 MHz, and 220 MHz respectively compared to the full polarization, parameterized beam model."
+2005_skal1_WEB,The SKA1_Low array shall have sensitivity per polarization at zenith greater than 72 m2K-1 at 50MHz when assuming a sky noise temperature following the law 60.lamda2.
+2005_skal1_WEB,The SKA1_Low array shall have a sensitivity per polarization at zenith greater than 380 m2K-1 at 100 MHz when assuming a sky noise temperature following the law 60.lambda^2.55
+2005_skal1_WEB,The SKA1_Low array shall have a sensitivity per polarization at zenith of greater than 535 m2K-1 at 160 MHz when assuming a sky noise temperature following the law 60.lambda^2.55
+2005_skal1_WEB,The SKA1_Low array shall have a sensitivity per polarization at zenith of greater than 530 m2K-1 at 220 MHz when assuming a sky noise temperature following the law 60.lambda^2.55.
+2005_skal1_WEB,The SKA1_Low array shall have a sensitivity per polarization at zenith greater than 500 m^2/K at 280 MHz when assuming a sky noise temperature following the law 60.lambda^2.55
+2005_skal1_WEB,The SKA1_Low array shall have a sensitivity per polarization at zenith greater than 453 m^2/K at 340 MHz when assuming a sky noise temperature following the law 60.lambda^2.55
+2005_skal1_WEB,"The SKA1_low receptor has an off-zenith beam response defined by the receptor, a log-periodic dipole antenna,in the Baseline Design."
+2005_skal1_WEB,The SKA1_Low shall comprise of stations each containing 256 antennas.
+2005_skal1_WEB,"The station diameter will be 35 metres, which is consistent with being able to provide a single, circularly symmetric, beam of 5 degrees at the half-power points at 100 MHz (centre of the EoR frequency range) while meeting the sensitivity requirements with 256 antennas per station evenly distributed in an irregular- random configuration."
+2005_skal1_WEB,The SKA1_Low shall comprise of 512 stations.
+2005_skal1_WEB,The SKA1_Low shall have a configuration as specified in TBD.
+2005_skal1_WEB,The maximum distance between station centres shall be approximately 80 km
+2005_skal1_WEB,The SKA1_Low shall be capable of simultaneously processing 300 MHz of bandwidth.
+2005_skal1_WEB,The SKA1_Low core shall be located at a minimum distance of 10km from the ASKAP core.
+2005_skal1_WEB,Digitisation of SKA1_antenna (SKA1_Low only) signals shall be to at least 8 bits.
+2005_skal1_WEB,The amplitude dynamic range of the SKA1_Low ADC's shall be such that no clipping will occur for 95% of the time
+2005_skal1_WEB,Clipped data shall be flagged accordingly within the data stream.
+2005_skal1_WEB,"At the finest frequency resolution in the processing chain, the level of spurious signals due to non- linearity shall be less than the noise level when no external input signal is present."
+2005_skal1_WEB,The absolute flux scale shall be accurate to 5%
+2005_skal1_WEB,The SKA1_Low beams shall have a dynamic range of better than 40 dB
+2005_skal1_WEB,"The antennas within each station shall be coherently beam-formed to provide one pair of station beams,one beam for each orthogonal polarization,for primary science."
+2005_skal1_WEB,It shall be possible to control specific properties of the station beam by setting the station beam weights appropriately.
+2005_skal1_WEB,"The difference between the parameterized station beam model and the actual station beam shall remain smaller than 1.3 %, 0.4 %, 0.6 % and 1.1 % relative to the main beam peak power, after calibration, at 50 MHz, 100 MHz, 160 MHZ and 220 MHz respectively"
+2005_skal1_WEB,Calibration measurements shall be necessary at a rate of no more than 10seconds.
+2005_skal1_WEB,The LFAA reception system at station level shall provide on-line instrumental calibration functions with an update rate of 10 minutes
+2005_skal1_WEB,The SKA1_Low shall be capable of outputting beam products as voltage time series.
+2005_skal1_WEB,The SKA1_Low correlator shall be able to correlate SKA1_low station beams from one to sixteen sub- arrays independently and concurrently.
+2005_skal1_WEB,"The SKA1_Low channelisation for each sub array shall provide up to 65,536 linearly spaced frequency channels across the available frequency range of each band."
+2005_skal1_WEB,The SKA1_Low channeliser for each sub- array shall have a maximum noise leakage power from immediately adjacent frequency channels of < -30 dB.
+2005_skal1_WEB,The SKA1_Low channeliser for each sub- array shall have a maximum noise leakage power from non adjacent frequency channels better than -60 dB.
+2005_skal1_WEB,The fine frequency channels for the SKA1_Low channeliser shall have a total amplitude variation as a function of frequency of less than 0.01 dB.
+2005_skal1_WEB,The fine frequency cells for the SKA1_Low channeliser shall have a -3dB transition band amplitude at the channel band edge.
+2005_skal1_WEB,"SKA1_Low correlation, for each sub array, shall not degrade the Signal to Noise ratio by more than 2 % compared to ideal analogue correlation."
+2005_skal1_WEB,The SKA1_Low correlator for each sub array shall have independently configurable visibility integration periods in the range 9s to 0.9s.
+2005_skal1_WEB,SKA1 dishes shall have a projected diameter of larger than 15m and smaller than 16.5m.
+2005_skal1_WEB,Aperture efficiency shall be within +/- 5 % of 60% at 350MHz with gradual degradation from 400 to 350 MHz 
+2005_skal1_WEB,Aperture efficiency shall be within +/- 5 % of 65% at 400MHz
+2005_skal1_WEB,Aperture efficiency shall be within +/- 5 % 78% from 600MHz to 8000MHz
+2005_skal1_WEB,The pointing repeatability shall be better than 10 arc seconds rms for winds < 7 m/s at night time.
+2005_skal1_WEB,The pointing repeatability shall be better than 17 arc seconds rms for an average wind speed of < 7 m/s in the day time
+2005_skal1_WEB,The pointing repeatability shall be better than 180 arc seconds rms for an average wind speed between 7 and 20 m/s
+2005_skal1_WEB,There shall be space at the Gregorian focus of SKA1 dishes for five single pixel feeds (SPF) or three Phased Array Feeds (PAF)
+2005_skal1_WEB,The IXR shall be better than 15 dB over the whole observing bandwidth within the HPBW
+2005_skal1_WEB,Reflector antennas shall be capable of operating at all elevations greater than 15 degrees
+2005_skal1_WEB,"The Dish shall have a continuous useable azimuth observation range from -270° to +270°, inclusive measured relative to true North defined as 0° and with East defined as +90°"
+2005_skal1_WEB,The SKA1_Mid shall incorporate the 64 antennas in both monitor and control and data collection functions.
+2005_skal1_WEB,The monitor and control functions of MeerKAT shall be made available to SKA1_Mid via a Foreign Telescope interface consisting of a Local Monitor and Control system connected to the SKA1_Mid Telescope Manager.
+2005_skal1_WEB,"Where economically practicable, the existing MeerKAT infrastructure will be reused"
+2005_skal1_WEB,The absolute flux scale shall be accurate to 5% rms.
+2005_skal1_WEB,The absolute flux scale shall be accurate to 3% rms.
+2005_skal1_WEB,The SKA1_Mid shall have the configuration defined in the TBD
+2005_skal1_WEB,The SKA1_Mid array shall consist of 133 antennas centred in the same location as the MeerKAT array
+2005_skal1_WEB,The Dish Element shall make available only a single frequency band at any one time.
+2005_skal1_WEB,35 to 1.050 GHz for each polarisation.
+2005_skal1_WEB,"The SKA1_Mid dishes, when the band 2 capability is selected, shall operate over a frequency range from 0.95 to 1.76 GHz for each polarisation."
+2005_skal1_WEB,"The SKA1_Mid dishes, when the band 3 capability is selected, shall operate over a frequency range from 1.65 to 3.05 GHz for each polarisation"
+2005_skal1_WEB,"The SKA1_Mid dishes, when the band 4 capability is selected, shall operate over a frequency range from 2.80 to 5.18 GHz for each polarisation"
+2005_skal1_WEB,"The SKA1_Mid dishes, when the band 5 capability is selected, shall operate over a frequency range from 4.6 to 13.8 GHz for each polarisation."
+2005_skal1_WEB,The instantaneous bandwidth for band 1 will be 700MHz and shall be sampled to at least 2.0 G samples per second for each polarisation.
+2005_skal1_WEB,The instantaneous bandwidth for band 2 will be 810 MHz and shall be sampled to at least 2.0 G sample per second for each polarisation.
+2005_skal1_WEB,"The instantaneous bandwidth for band 3 will be 1,403 MHz and shall be sampled to at least 5.0 G samples per second for each polarisation"
+2005_skal1_WEB,"The instantaneous bandwidth for band 4 will be 2,380 MHz and shall be sampled at at least 5.0 G samples per second for each polarisation."
+2005_skal1_WEB,"The SKA_Mid, for band 5, shall digitise two separate 2.5 GHz bands for each polarisation."
+2005_skal1_WEB,Digitisation for each polarisation shall be: ? band 1 8 bits ? band 2 8 bits ? band 3 6 bits ? band 4 at least 4 bits ? band 5 at least 2 streams of 3 bits
+2005_skal1_WEB,The SKA1_Mid shall be able to correlate SKA1_mid dishes as multiple sub-arrays independently and concurrently..
+2005_skal1_WEB,"The SKA1_Mid channelisation for each sub array shall provide up to 65,536 linearly spaced frequency channels across the sampled bandwidth of each band."
+2005_skal1_WEB,The SKA1_Mid for each sub- array shall have a maximum noise leakage power from immediately adjacent frequency channels of < -30 dB
+2005_skal1_WEB,"The SKA1_Mid, for each sub-array, shall have a maximum noise leakage power from non adjacent frequency channels better than -60 dB."
+2005_skal1_WEB,The fine frequency channels for the SKA1_Mid channeliser shall have a total amplitude variation as a function of frequency of less than 0.01 dB after bandpass calibration
+2005_skal1_WEB,The fine frequency cells for the SKA1_Mid channeliser shall have a -3dB transition band amplitude at the channel band edge.
+2005_skal1_WEB,"The SKA1_Mid correlation, for the same sub-array, shall not degrade the Signal to Noise ratio by more than 2% compared to ideal analogue correlation."
+2005_skal1_WEB,The SKA1_Mid shall have independently configurable visibility integration period from a maximum integration time of 1.4s to a minimum of 0.14s for each subarray.
+2005_skal1_WEB,"The SKA1_Mid, for each subarray, shall allow for pulse phase- resolved observations supporting the product of the number of phase bins, channel and polarisation products up to 262,144 (i.e. 4 x 65,536)."
+2005_skal1_WEB,The SKA1_Mid shall be capable of providing pulsar phase bin widths with a time resolution of better than 10us.
+2005_skal1_WEB,The SKA1_Mid shall be capable of synchronising phase bins to the ephemeris to limit drift to less than 10% of the selected bin width within the selected correlator integration period.
+2005_skal1_WEB,The SKA1_Mid phase bin averaging time shall be constrained to limit the output data rate to at most the single bin configuration output data rate.
+2005_skal1_WEB,The SKA1_Mid correlator shall be capable of forming real time cross correlation products from all antenna within the SKA1_Mid combined array including those MeerKAT.
+2005_skal1_WEB,The SKA1_Mid central beam-former shall be able to form beams or more beams for one to sixteen sub- arrays independently and concurrently.
+2005_skal1_WEB,SKA1_Mid shall be capable of Pulsar search and timing processing within individual sub-arrays.
+2005_skal1_WEB,"The central beam- former for pulsar search shall be capable of forming beams independently across all dishes (SKA1_Mid and MeerKAT) within each of the SKA1_Mid sub-arrays up to a distance of up to 10,000 metres from sub- array centres."
+2005_skal1_WEB,The Pulsar search beamformer shall form beams for each of the search sub arrays with an independently selectable centre frequency for the sub- array in the range from the lowest frequency of SKA1_Mid band 1 through to the highest frequency of band 5.
+2005_skal1_WEB,The SKA1_Mid Pulsar search shall have a contiguous processing bandwidth for beamforming of up to 300 MHz.
+2005_skal1_WEB,"SKA1_Mid, when performing the Pulsar Search function, shall simultaneously form up to a total of 1111 beams per observation across all sub arrays."
+2005_skal1_WEB,The SKA1_Mid central beam-forming for each sub array shall have a Signal to Noise ratio greater or equal to 98% of ideal analogue beam forming for the same sub array:
+2005_skal1_WEB,For each SKA1_Mid Pulsar search sub-array the output shall be the power of summed polarisation beams.
+2005_skal1_WEB,The frequency resolution for SKA1_Mid Pulsar search shall be independently configurable in frequency resolution with values in the 20 kHz and 75 kHz
+2005_skal1_WEB,SKA1_Mid Pulsar search output beams shall have a minimum time resolution of 50us.
+2005_skal1_WEB,"The central beam-former for pulsar timing shall be capable of forming beams across all dishes within the SKA1_Mid sub-arrays to a distance of up to 10,000 metres from their centres."
+2005_skal1_WEB,The Pulsar timing beamformer shall form beams for each of the timing sub-arrays with a selectable centre frequency for the sub-array in the range from the lowest frequency of SKA1_Mid band 1 through to the highest frequency of band 5.
+2005_skal1_WEB,The SKA1_Mid Pulsar timing beamformer for each timing sub-array shall have a contiguous processing bandwidth up to the full bandwidth of the selected band up to a bandwidth of 2.5 GHz.
+2005_skal1_WEB,The SKA1_Mid central beam-former for Pulsar timing shall be capable of forming up to 16 dual polarisation coherent beams in total across all timing sub-arrays.
+2005_skal1_WEB,The SKA1_Mid for Pulsar timing shall have a Signal to Noise ratio greater or equal to 98% of an ideal analogue beam former.
+2005_skal1_WEB,SKA1_Mid shall be capable of producing up to four VLBI beams
+2005_skal1_WEB,SKA1_Mid shall be able to generate VLBI beams from sub-arrays with receptors separated by up to 100km.
+2005_skal1_WEB,SKA1_Mid shall be able to form a VLBI beam with a 0.01MHz step selectable centre frequency within the boundaries of the defined frequency bands for SKA1_Mid.
+2005_skal1_WEB,SKA1_Mid VLBI beamforming shall have a contiguous processing bandwidth up to the full bandwidth of the selected band
+2005_skal1_WEB,SKA1_Mid VLBI beamforming shall have the Signal to Noise ratio by more than 98% compared to an ideal analogue beam former.
+2005_skal1_WEB,SKA1_Mid shall be able to store the time- dependent antenna weights used for each tied-array beam sum
+2005_skal1_WEB,SKA1_Mid shall be able to generate data from the VLBI beams with samples traceable to a timestamp with an accuracy of 1 nsec or better.
+2005_skal1_WEB,SKA1_Mid shall be able to output VLBI beams with a sampling rate selectable between Nyquist and oversampled rates for the selected bandwidth.
+2005_skal1_WEB,"SKA1_Mid shall be able to allocate antennas to be included in, or excluded from, individual tied-array beams."
+2005_skal1_WEB,The SKA1_Mid beamformer shall be able to weight the antenna inputs into the tied-array sums based on relative sensitivity and coherence losses.
+2005_skal1_WEB,"SKA1_Mid shall be able to change the pointing, centre frequency, and bandwidth of the individual tied-array beams within a single observing schedule."
+2005_skal1_WEB,"SKA1_Mid shall be capable of selecting, through configuration, 1, 2, 3, or 4 separate VLBI specific beams, each with independently selectable centre frequency, bandwidth, frequency resolution and pointing."
+2005_skal1_WEB,"SKA1_Mid shall be capable of reconfiguring the centre frequency, frequency band, and bandwidth for each tied- array beam, in less than 30 seconds."
+2005_skal1_WEB,SKA1_Mid shall be able to generate VLBI beams with a spectral resolutions different from the spectral resolution used for imaging within the same VLBI sub-array
+2005_skal1_WEB,"SKA1_Mid shall be able to generate VLBI beam data with a selectable channel width of: 512MHz, 256 MHz, 128MHz, 64MHz, 32MHz, 16MHz, 4MHz or 1MHz."
+2005_skal1_WEB,"SKA1_Mid shall be able to simultaneously generate imaging data using all antennas in a VLBI sub- array, as well as generating the VLBI beams."
+2005_skal1_WEB,SKA1_Mid shall be able to generate VLBI beams optimised for either spectral line observations (to mitigate spectral leakage) or time domain observations (to mitigate time smearing)
+2005_skal1_WEB,SKA1_Mid shall be able to allocate individual VLBI beams to different sub-arrays.
+2005_skal1_WEB,SKA1_Mid shall be able to generate VLBI beams from sub-arrays with receptors separated by up to 20km.
+2005_skal1_WEB,The SKA1_Mid Pulsar search shall be able to independently process a total of up to 1111 beams from one to sixteen sub-arrays independently and concurrently.
+2005_skal1_WEB,The Pulsar search processing shall have a contiguous processing bandwidth up to 300 MHz for each search sub array.
+2005_skal1_WEB,"SKA1_Mid for pulsar search shall provide, for each sub array, trial dispersion corrections across the observation frequency range for dispersion measures from 0 up to 3000 pc cm-3."
+2005_skal1_WEB,The time resolution of the SKA1_Mid pulsar search processing for each sub-array shall be equivalent to the temporal smearing due to dispersion at the observation frequency and bandwidth of the observation with a quantisation of value in powers of 2 from 50 µs to 800 us
+2005_skal1_WEB,"For each Pulsar search sub-array, the processing shall provide independently configurable observation times up to 1800 seconds duration."
+2005_skal1_WEB,"For each search sub-array within SKA1_Mid Pulsar search, the processing shall be capable of searching for single dispersed pulses over dispersion measure range up to 3000 pc cm-3 commensally with searches for periodic pulses with a S/N performance better than 7"
+2005_skal1_WEB,For each Pulsar search sub-array within SKA1_Mid the processing shall be capable of searching for binary systems with accelerations due to their orbital motion of up to 350 ms-2.
+2005_skal1_WEB,The SKA1_Mid Pulsar timing processing shall be able to independently process a total of up to 16 beams from one to sixteen sub-arrays independently and concurrently.
+2005_skal1_WEB,The Pulsar timing engine shall have a contiguous processing bandwidth up to the full bandwidth of the selected band up to a bandwidth of 2.5 GHz for each timing sub- array
+2005_skal1_WEB,"The SKA1_Mid system shall, for each timing sub-array, be able to change from observing in any frequency band, to observing in any other frequency band in less than or equal to 30 seconds."
+2005_skal1_WEB,The observation period for each observation for each timing sub-array shall be independently configurable between 3 minutes and 300 minutes.
+2005_skal1_WEB,"For each individual Pulsar timing observation within a sub- array, each data sample shall be traceable to a time stamp derived from a clock accurate to 10ns on a time scale of 10 years referenced to a common delay centre at the centre of the SKA1_Mid array."
+2005_skal1_WEB,The SKA Phase 1 shall be capable of timing up to 16 pulsars simultaneously in total across all timing sub arrays .
+2005_skal1_WEB,The SKA1_Mid shall be capable of timing pulsars with dispersion measures between 0 to 3000 pc cm-3 such that residual dispersive smearing is less than 500 ns.
+2005_skal1_WEB,Both SKA1 telescopes shall be capable of operating in a Continuum and Spectral-line imaging mode concurrently.
+2005_skal1_WEB,"The SKA1_mid telescope shall be capable of operating in a Pulsar search mode, concurrently with Continuum imaging mode."
+2005_skal1_WEB,"The SKA1_mid telescope shall be capable of operating in a Pulsar timing mode, concurrently with continuum imaging mode."
+2005_skal1_WEB,Both SKA1 telescopes shall be capable of operating concurrently and independently.
+2005_skal1_WEB,The switching time between telescope operating modes shall take less than 30 seconds (not including antenna slewing time)
+2005_skal1_WEB,The observatory shall have the capability of scheduling observations at a specific epoch for time dependent phenomena.
+2005_skal1_WEB,There shall be a mechanism for requesting observing time outside the normal observing time allocation process for unpredicted phenomena or in cases of high current scientific interest.
+2005_skal1_WEB,The Director-General or his/her delegate shall have the power to override allocation of time to other projects.
+2005_skal1_WEB,There shall be a documented data access rights policy for commensal observing for data sets shared across projects.
+2005_skal1_WEB,"Both of the SKA1 telescopes shall be capable of operating independently with one to sixteen sub-arrays (i.e. collecting area is split and allocated to separate, concurrently observing programmes)."
+2005_skal1_WEB,All SKA users shall require to be registered and authenticated for the purposes of proposal and project submission.
+2005_skal1_WEB,A maintenance database shall be established that logs all the scheduled maintenance and unexpected repairs.
+2005_skal1_WEB,"A failure database shall be established, which logs the errors of the system and its subsystems, including the corrective actions taken."
+2005_skal1_WEB,"The system shall extract information about the current condition of the system from the science and calibration data streams, and log this information along with other relevant system and environmental status information. Based on this information, it shall be possible to monitor, save, and analyse the technical performance of the system."
+2005_skal1_WEB,External sources of information used by the Elements shall be cached by Telescope Manager. No sources other than those cached by TM shall be used.
+2005_skal1_WEB,TOO observing shall be via Scheduling Blocks.
+2005_skal1_WEB,Scheduling intervention on TOO triggers shall be initiated within 1s of receiving the trigger.
+2005_skal1_WEB,"At the launching of a TOO Scheduling Block, the results from any active Scheduling Blocks shall be discarded."
+2005_skal1_WEB," Program submission, assessment, and time allocation shall governed by an official policy document"
+2005_skal1_WEB,"There shall be a tool to facilitate the assessment, review and ranking of proposals, guided by official SKA Policies."
+2005_skal1_WEB,"There shall be a tool, either web or client, for the construction and submission of proposals, as necessary facilitating access to relevant sources of information such as Telescope characteristics, previous observations, SIMBAD, templates."
+2005_skal1_WEB,Scheduling Blocks shall have computable pre- and post-conditions.
+2005_skal1_WEB,A Semester Queue (SQ) shall be constructed by Operations following acceptance of proposals.
+2005_skal1_WEB,Operations shall be responsible for constructing an executable schedule and Scheduling Blocks and submitting for execution.
+2005_skal1_WEB,There shall be an interactive tool to aid the proposer in constructing Scheduling Blocks and an executable schedule.
+2005_skal1_WEB,There shall be a API or APIs for the construction of scheduling blocks from Python and Java.
+2005_skal1_WEB,The scheduling tool shall offer the option to simulate execution of Scheduling Blocks in order to verify correctness and scientific performance at some limited level of accuracy.
+2005_skal1_WEB,It shall be possible for the operator to take manual control of the telescope.
+2005_skal1_WEB,The nature of the response to a transient event shall be controlled by policy administered by Telescope Manager.
+2005_skal1_WEB,"Responses shall be one of the following (a) invoking a special mode on the telescope of origin, (b) issuing an VOEvent, (c) issuing a TOO announcement to SKA Telescopes, (d) no action."
+2005_skal1_WEB,The maximum allowed latency between event and detection shall be allowed to be Observing Mode dependent.
+2005_skal1_WEB,Proposals to search for transients shall include rules for issuing VOEvents.
+2005_skal1_WEB,Response to an event shall be initiated within 1 second of notification.
+2005_skal1_WEB,TOO proposals shall include specified VOEvent streams to be monitored.
+2005_skal1_WEB,A qualifying VOEvent shall lead to initiation of a response by the Telescope Manager within 1 second.
+2005_skal1_WEB,"A dynamic computational model of the Telescope shall be used to answer all queries about the state of the Telescope. The telescope model shall consist of configuration information, numerical models, empirical parameters, and conventions."
+2005_skal1_WEB,"There shall be a single geodetic model for all telescopes, published as part of the Telescope Model."
+2005_skal1_WEB,"There shall be a single geometric model for all receptor types, published by TM."
+2005_skal1_WEB,"The dish receptor system shall include a model for pointing including structural model, thermal model, reference pointing model, and refraction model, published by TM."
+2005_skal1_WEB,"The AA receptor system shall include a model for element and station beams as a function of azimuth and zenith angle, frequency, and polarisation, published by TM."
+2005_skal1_WEB,The interactive forensic tool shall have an Internet interface with availability on a range of platforms including desktop and mobile devices.
+2005_skal1_WEB,The interactive forensic tool shall allow replay of selected sequences.
+2005_skal1_WEB,"Alarm notification shall be active (via SMS, email, etc.) rather than passive (requiring an Operator query)"
+2005_skal1_WEB,It shall be possible to filter alarms individually or by group.
+2005_skal1_WEB,Latency from event to alarm shall be no more than 5 seconds.
+2005_skal1_WEB,All current and historic Site monitor data shall be as examinable as that from any telescope component.
+2005_skal1_WEB,"The SKA Phase 1 TM shall retrieve, persist and publish data on Total Electron Content (TEC) from dual frequency GPS as part of the Telescope Model."
+2005_skal1_WEB,There shall be timely access to information from other relevant sources e.g. IPS concerning unusual ionospheric activity or alerts.
+2005_skal1_WEB,There shall be a data base for site weather station data.
+2005_skal1_WEB,"There shall be a database of relevant satellite trajectories, including orbit information, emission characteristics and owner."
+2005_skal1_WEB,There shall be a data base of commercial flights in the neighbourhood of the site.
+2005_skal1_WEB,There shall be a database holding information about RFI.
+2005_skal1_WEB,The Calibration and Imaging formalism shall be based upon the Rau framework [14].
+2005_skal1_WEB,The telescope calibration shall be solved by comparison of observed with GSM predictions with a time scale appropriate to the component and physical effect being calibrated and fed back to the telescope.
+2005_skal1_WEB,"Calibration and continuum subtraction shall use a Local Sky Model, derived from a Global Sky Model or previous Local Sky Model."
+2005_skal1_WEB,All imaging shall construct and make use of frequency dependent image models over the entire observed bandwidth.
+2005_skal1_WEB,e. on the tangent plane) deconvolution shall be available.
+2005_skal1_WEB,It shall be possible to solve for and correct time- and station-dependent pointing errors with accuracy and timescale limited by signal to noise ratio.
+2005_skal1_WEB,Peeling of bright sources (strength limited by signal to noise ratio) from the visibility data shall be possible.
+2005_skal1_WEB,Self-calibration and image reconstruction algorithms shall be capable of dealing with direction dependent effects.
+2005_skal1_WEB,There shall be a direction dependent model for the aperture array primary beam to be used in calibration and imaging.
+2005_skal1_WEB,There shall be a direction dependent model for the dish primary beam to be used in calibration and imaging.
+2005_skal1_WEB,There shall be a direction dependent Faraday Rotation model for use in calibration and imaging.
+2005_skal1_WEB,"Where appropriate, continuum source finding shall be conducted on images generated by the Continuum Imaging pipeline. Polarization shall be fitted if available."
+2005_skal1_WEB,"Where appropriate, spectral line source finding shall be conducted on image cube generated by the Spectral Line pipeline."
+2005_skal1_WEB,"Where appropriate, spectral line stacking shall be conducted on image cubes generated by the pipelines using a priori known source lists."
+2005_skal1_WEB,"All pipelines shall include as data products the pipeline processing log, and Quality Assessment log."
+2005_skal1_WEB,"There shall be a Calibration pipeline that derives current telescope parameters using a recent observation and a Global Sky Model, either a known GSM or the most recent GSM."
+2005_skal1_WEB,There shall be a Continuum Imaging pipeline that shall have the goal of constructing noise-limited wide-band images for observations up to 1000h integration time. Polarisation shall be available if requested or necessary for calibration or quality assurance.
+2005_skal1_WEB,"The Data Products shall include the first n moment images for multi- frequency synthesis, corresponding residual images (if deconvolved), sensitivity image and representative PSF image, where n is set by signal to noise ratio."
+2005_skal1_WEB,There shall be a Spectral Line Emission pipeline that is optimised for constructing noise-limited (up to 1000h integration) channel cubes of spectral line emission either with continuum emission remaining or with continuum emission removed.
+2005_skal1_WEB,"The data products shall include spectral line cube image, continuum model images, sensitivity image, and representative point spread function."
+2005_skal1_WEB,There shall be a Spectral Line Absorption pipeline that is optimised for constructing noise-limited channel cubes of spectral line absorption with continuum sources removed.
+2005_skal1_WEB,"The data products shall include spectral line cube image, continuum model images, sensitivity image, and representative point spread function."
+2005_skal1_WEB,"There shall be a Slow Transient imaging pipeline that shall be capable of constructing a continuum image after a GSM has been subtracted for every correlator integration time or slower, searching for transient sources, and producing a time-ordered catalogue."
+2005_skal1_WEB,"The data products shall include a catalogue of found sources, a sensitivity image, and representative PSF image."
+2005_skal1_WEB,"All pipelines shall perform standardised, automated Quality Assessment of Images along the axes of astrometry, photometry, radiometry, polarimetry, and spectrometry."
+2005_skal1_WEB,"There shall be an archive for each telescope, located in the Science Processing Centre, for storing selected science data products for subsequent access by users according to science data access policy."
+2005_skal1_WEB,The science- processing centre will convert the output data from the CSP into science data products to be stored in the science data archive.
+2005_skal1_WEB,All data within Science Archives shall have a secondary copy located offsite in a secure location.
+2005_skal1_WEB,The science data archives shall be accessible from the internet via a standardised web interface.
+2005_skal1_WEB,The science data archives shall be accessible via a set of recommended IVOA services chosen to allow access to all approved data products.
+2005_skal1_WEB,"The science data archives shall publish a user accessible, open API in a small number of complementary languages such as Python, C++, and Java."
+2005_skal1_WEB,"An official data product shall have known, documented provenance, and shall have been produced via SKA observations and processing."
+2005_skal1_WEB,The telescope shall facilitate the addition of QA annotations by Users.
+2005_skal1_WEB,Third party data products shall not be admitted to the archive.
+2005_skal1_WEB,"There shall be a policy, developed and administered by Operations, governing which types and sizes of data products will be retained in the archive and for how long."
+2005_skal1_WEB,"A telescope archive will be nominally open for access 24/7/365, with no more than 24 hrs planned downtime per year. Unplanned downtime shall be consistent with availability budget."
+2005_skal1_WEB,The science data archives shall be designed to provide an archived data lifetime of not less than 50 years from the start of archived observations.
+2005_skal1_WEB,The archive design shall support and facilitate migration from one medium to another.
+2005_skal1_WEB,Operations shall maintain at all times and update yearly a current data migration plan covering the contingency of moving from one archive platform to another.
+2005_skal1_WEB,"As limited by resource constraints, it will be possible to deliver science data products to approved off-site facilities, which may be globally distributed."
+2005_skal1_WEB,Backup archive items shall be retrievable to the full archive from an alternate source within 24 hours
+2005_skal1_WEB,Users shall have access to the data of the entire archive within one week following an incident.
+2005_skal1_WEB,Access to the archive shall be either anonymous with correspondingly limited capabilities or via SKA authentication and authorisation.
+2005_skal1_WEB,"SDP processing per telescope at Early Science shall support processing rates 10% of that required for Full Observing (decimation being in any or all of time, frequency, field of view)"
+2005_skal1_WEB,"The SKA frequency reference system shall provide a 2% maximum coherence loss , equivalent to 0.2 radians, within a maximum integration period of 1s."
+2005_skal1_WEB,"The SKA frequency reference system shall provide a 2% maximum coherence loss , equivalent to 0.2 radians, within a maximum solution interval for in-beam calibration of 1 minute."
+2005_skal1_WEB,"The SKA Frequency Reference System shall have a phase drift of less than 1 radian, over calibration intervals of up to 10 minutes, when using out of beam calibration sources."
+2005_skal1_WEB,"The SKA synchronisation and timing system shall provide a 1 pps heartbeat signal, precise to the sampling clock (the pulse-to- pulse scatter is less than one sampling time), derived from the distributed frequency reference."
+2005_skal1_WEB,The SKA synchronisation and timing system shall provide a 1PPS heartbeat signal with phase relative to UTC that over a 10 minute calibration interval shall survive synchronisation loss.
+2005_skal1_WEB,"The SKA1 timescale shall be connected to UTC with an accuracy of 10 ns, on a timescale of 10 years."
+2005_skal1_WEB,"In order to avoid large offsets, the central frequency reference shall be steered to UTC to within at least 1 microsecond, with a frequency drift of less than 10 ns/day."
+2005_skal1_WEB,The solution period for the calculation of offsets between SKA1 timescale and UTC shall be less than 1 day
+2005_skal1_WEB,"Weather monitoring stations (2 No at each core and 2 No within each spiral arm) shall be provided as part of the infrastructure - wind, temperature and humidity."
+2005_skal1_WEB,"The infrastructure shall provide day and night time capability for the operator(s) to visually monitor all antennas: for Dish antennas this shall be at every dish, for LFAA this shall be located at each station and also around the perimeter of the core area. Monitoring to deliver images at least one per minute for purposes of security and general telescope visual monitoring and shall be able to detect personnel at each dish and within each LFAA station."
+2005_skal1_WEB,Permanent stations and mobile RFI monitoring units shall be provided as part of infrastructure.
+2005_skal1_WEB,Existing Tropospheric monitoring stations shall be expanded as part of the SKA1 infrastructure to provide at least 3 No sensor units in each of the Australia and South Africa locations.
+2005_skal1_WEB,The power delivery infrastructure shall comply with the SKA1 RFI levels documentation.
+2005_skal1_WEB,"Roads and track- ways (including drainage) for the safe, secure and economic construction and operation of the SKA1 shall be provided."
+2005_skal1_WEB,There shall be access to an air strip on site.
+2005_skal1_WEB,Potable and non-potable water shall be available at SKA1 construction camps including foundation concrete plants.
+2005_skal1_WEB,Sufficient water shall be continually available at SKA1 facilities in support of equipment cooling for each telescope.
+2005_skal1_WEB,The delivery and disposal of water and all construction activity shall be compliant with local and national standards and regulations.
+2005_skal1_WEB,Each Central Processing Facility shall provide RFI shielding greater than that derived from zoning specifications given in the SKA RFI levels documentation (to be published by T0 + 12w).
+2005_skal1_WEB,The Central Processing Facility shall provide RFI compliant penetrations for signal and power cables entering the facility and also for all other penetrations.
+2005_skal1_WEB,For lightning protection of each dish antenna the earthing system shall conform to the requirements of IEC 62305 and also to national standards SANS 10142 and 10313. National standards shall take precedence.
+2005_skal1_WEB,All populated facilities shall provide connectivity to the public telephone network.
+2005_skal1_WEB,All vehicles used on site shall be equipped with long range communication devices.
+2005_skal1_WEB,All drivers on or to the sites shall have appropriate awareness training.
+2005_skal1_WEB,The total steady state power budget for the African site shall be within the limits specified in SKA Power Budget SKA- SE-POW-TN-001 [21].
+2005_skal1_WEB,The total steady state power budget for the Australian site shall be within the limits specified in SKA Power Budget SKA- SE-POW-TN-001 Revision 1 [21].
+2005_skal1_WEB,SKA1 shall use a time reference derived from Global Positioning System (GPS).
+2005_skal1_WEB,The SKA1_Mid telescope shall be a data source for VLBI data acquisition system. The interface between the SAK1_Mid telescope and the external VLBI data acquisition system shall be compliant with the ICD SKA-TEL-SKO-0000116
+2005_skal1_WEB,Provision of equipment for recording or capturing VLBI data is outside the scope of SKA1
+2005_skal1_WEB,VLBI equipment and eVLBI connectivity beyond the interface boundary described in the ICD SKA-TEL-SKO- 0000116 is outside the scope of supply of the SKA1 project.
+2005_skal1_WEB,The following infrastructure shall be provided to allow eventual outfitting of SKA1_Mid with VLBI equipment: 1. Adequate access for the potential fitment of VLBI equipment 2. Equipment space 3. Power 4. Cooling 5. Cable trays
+2005_skal1_WEB,Provision for VLBI terminals or equivalent equipment shall be made in the Science Processing Centres for the associated telescopes.
+2005_skal1_WEB,SKA1 shall be able to output VLBI beam data with each individual stream limited to 512 MHz of signal bandwidth to ensure compatibility with existing VLBI terminal capability
+2005_skal1_WEB,"VLBI processing, with the exception of beam-forming and SKA1 imaging in support of VLBI. is outside the scope of the SKA1"
+2005_skal1_WEB,SKA1 shall be able to produce VLBI beam output data with either dual or single polarization
+2005_skal1_WEB,"SKA1 shall be able to output VLBI beam data with configurable word formats, the allowed values being 2, 4, 8, and 16-bit integer."
+2005_skal1_WEB,The interface between MeerKAT and SKA1_mid CSP shall be compliant with SKA- TEL.AIV.SE-TEL.CSP.SE- ICD-001 Interface Control Document
+2005_skal1_WEB,The interface between MeerKAT and SKA1_mid SADT shall be compliant with SKA- TEL.AIV.SE- TEL.SADT.SE-ICD-001 Interface Control Document
+2005_skal1_WEB,The interface between MeerKAT and SKA1_mid SADT shall be compliant with SKA- TEL.AIV.SE-TEL.TM.SE- ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between MeerKAT and SKA1_INFRA shall be compliant with SKA- TEL.AIV.SE- TEL.INFRA.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between CSP and Infra shall be compliant with the SKA-TEL.CSP.SE- TEL.INFRA.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between CSP and SDP shall be compliant with the SKA-TEL.SDP.SE- TEL.CSP.SE-ICD-001 Interface Control Document
+2005_skal1_WEB,The interface between CSP and Dish shall be compliant with the SKA-TEL.DSH.SE- TEL.CSP.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between Dish and Infra shall be compliant with the SKA-TEL.DSH.SE- TEL.INFRA.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between LFAA and CSP shall be compliant with the SKA-TEL.LFAA.SE- TEL.CSP.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB, The interface between LFAA and INFRA shall be compliant with the SKA- TEL.LFAA.SE-TEL.INFRA AUS.SE-ICD-001Interface Control Document.
+2005_skal1_WEB,The interface between SADT and DSH shall be compliant with the SKA- TEL.SADT.SE- TEL.DSH.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between SADT and LFAA shall be compliant with the SKA- TEL.SADT.SE- TEL.LFAA.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between SADT and CSP shall be compliant with the SKA-TEL.SADT.SE- TEL.CSP.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between SADT and SDP shall be compliant with the SKA-TEL.SADT.SE- TEL.SDP.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between SADT and Infra shall be compliant with the SKA.TEL.SADT.SE- TEL.INFRA.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between TM and Dish shall be compliant with the SKA-TEL.TM.SE- TEL.DSH.SE-ICD-001. Interface Control Document.
+2005_skal1_WEB,The interface between TM and LFAA shall be compliant with the SKA-TEL.TM.SE- TEL.LFAA.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between TM and SADT shall be compliant with the SKA-TEL.TM.SE- TEL.SADT.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between CSP and TM shall be compliant with the SKA-TEL.CSP.SE- TEL.TM.SE-ICD-001. Interface Control Document.
+2005_skal1_WEB,The interface between TM and INFRA shall be compliant with the SKA.TEL.TM.SE- TEL.INFRA.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between SDP and TM shall be compliant with the SKA-TEL.SDP.SE- TEL.TM.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB, The interface between SDP and Infra shall be compliant with the SKA.TEL.SDP.SE- TEL.INFRA.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,"Any component of the observatory shall not emit electromagnetic radiation, in any of the stated frequency intervals for broad band and narrow band cases, that exceeds the SKA RFI/EMI Threshold Levels[4]"
+2005_skal1_WEB,"The SKA1 Telescope shall generate less self-induced RFI, within the Telescope's operating frequency bands, than the SKA RFI/EMI Protection Levels, for both broad band and narrow band cases, as specified in the ""RFI/EMI Protection and Threshold Levels for the SKA"" document. The SKA RFI/EMI Protection Levels are defined at the respective receiver input, and measured at the respective Telescope time series output"
+2005_skal1_WEB,"The SKA1 Telescopes shall be compliant with one or more of the following standards for emissions and one or more for susceptibility/immunity: *BS EN 61000-6-2. Electromagnetic compatibility (EMC). Generic standards. Immunity standard for industrial environments. *BS EN 61000-6-4 AMD2. Electromagnetic compatibility (EMC). Part 6- 4. Generic standards. Emission standard for industrial environments. *BS CISPR 14-1. Electromagnetic compatibility. Requirements for household appliances, electric tools and similar apparatus. Part 1. Emission. *MIL-STD-464C"
+2005_skal1_WEB,The SKA1 telescopes shall follow the TBD code of practice for the application of Electromagnetic Compatibility (EMC) standards and guidelines in electricity utility networks.
+2005_skal1_WEB,"All ""off-the-shelf"" equipment shall possess as a minimum the host country EMC marking."
+2005_skal1_WEB,The observatory shall not be susceptible to terrestrial electromagnetic radiation at any frequency that significantly interferes with its normal operation.
+2005_skal1_WEB,The SKA1 telescopes shall automatically flag frequency data with a resolution of one channel and time data to the resolution of the integration unit if the data is corrupted by RFI.
+2005_skal1_WEB,The SKA1 Telescopes shall automatically excise data that is corrupted by RFI.
+2005_skal1_WEB,The SKA1 Telescopes shall flag data according to a pre-selected RFI Mask.
+2005_skal1_WEB, The SKA1 telescopes shall allow spatial zones of avoidance to be defined.
+2005_skal1_WEB,The ergonomic design shall be compliant with ISO 6385
+2005_skal1_WEB,"Equipment shall comply with the safety requirements of BS EN IEC 60950. NOTE: This includes electric shock, energy related hazards, fire, heat related hazards, mechanical hazards, radiation and chemical hazards."
+2005_skal1_WEB,"Designs shall demonstrate the elimination, or mitigation to a risk level practically achievable, of all hazards by means of a subsystem hazard analysis (SSHA) report as described in EN 14738 and tailored by SKA Product Assurance and Safety Plan SKA- OFF.PAQA-SKO-QP-001."
+2005_skal1_WEB,"A hazard analysis shall be performed at the system and element level in accordance with BS IEC 61882 and, where applicable, shall include a FMEA in accordance with EN 60812."
+2005_skal1_WEB,"Each Element supplier shall provide a list of hazardous materials used for all items intended for use in the SKA1 detailing suggested handling precautions, disposal instructions and contra- indications."
+2005_skal1_WEB,All items that present a potential hazard shall be labelled in accordance with BS EN ISO 7010.
+2005_skal1_WEB,"In accordance with ISO 61310_2, machinery shall bear all markings which are necessary – for its unambiguous identification; – for its safe use; and supplementary information shall be given, as appropriate: – permanently on the machinery; – in accompanying documents such as instruction handbooks; – on the packaging"
+2005_skal1_WEB,Components and Equipment shall be designed to be locally fail-safe and not rely on external safety devices or measures to operate safely.
+2005_skal1_WEB,The equipment shall be designed such that hardware failures and software errors should not create a hazardous situation to interfacing systems.
+2005_skal1_WEB,The SKA1 Elements shall have emergency stop switches or brakes for all electro- mechanical or mechanical systems that have been identified by safety analyses (required under SYS_REQ- 2435) to pose a hazard.
+2005_skal1_WEB,Emergency stop switches shall be located in such a way to minimize the risk of injury. (Verified by Analysis as 'minimisation' is unverifiable any other way.)
+2005_skal1_WEB,"Elements shall provide procedures for maintainers to recover from an unplanned shut-down, including safety checks to be conducted prior to start-up, as specified in SKA PRODUCT ASSURANCE & SAFETY PLAN SKA-OFF.PAQA- SKO-QP-001."
+2005_skal1_WEB,"If they cannot be eliminated from design, sharp edges, access openings and corners shall be protected with covers or coatings."
+2005_skal1_WEB,"Electrical risks and hazards shall be controlled in accordance with local, State and national legislation and Codes of Practice. NOTE: In South Africa, SANS 10142-1 and SANS 10142-2 shall apply. NOTE: In Australia, in addition to legislation, the following Codes of Practice shall be applied: AS/NZ 3000 Safe Work Australia 'Managing Electrical Risks at the Workplace'; Western Australia Director of Energy Safety 'Safe Low Voltage Work Practices by Electricians'"
+2005_skal1_WEB,High voltage cages or enclosures shall be used to protect personnel from inadvertent access to high voltages in accordance with AS/NZS3000 (Australia) and SANS10142 (South Africa).
+2005_skal1_WEB,"External conductive parts shall be grounded in compliance to: South Africa: National Building Regulations and Building Standards Act, 1977 Occupational Health and Safety act, 1993 SANS 10313 Australia: AS/NZ 3000, AS/NZ 1768"
+2005_skal1_WEB,Electrical circuit inter-locks shall be provided to prevent personnel coming into contact with hazards that cannot otherwise be eliminated from design.
+2005_skal1_WEB,The observatory shall provide an independent system to communicate with outside locations in emergencies.
+2005_skal1_WEB,"A comprehensive safety plan, tailored to construction and AIV activities, shall be established and implemented before the construction starts at the observatory site."
+2005_skal1_WEB,A safety incident recovery plan shall be produced in accordance with SKA PRODUCT ASSURANCE & SAFETY PLAN SKA-OFF.PAQA- SKO-QP-001.
+2005_skal1_WEB,All personnel shall be provided with appropriate Health and Safety training in compliance with local regulations.
+2005_skal1_WEB,Fire fighting equipment shall be made available at all SKA premises and facilities.
+2005_skal1_WEB,First aid stations shall be provisioned.
+2005_skal1_WEB,Protective Clothing for areas where environments detrimental to human safety shall be worn.
+2005_skal1_WEB,"Personnel shall adhere to local safety procedures for travelling in remote areas. NOTE: Safety procedures should include the training and equipment required, such as driving instruction, vehicles appropriate for the environment and radio equipment."
+2005_skal1_WEB,"The observatory shall comply with all applicable local, State and national occupational health regulations and standards in force at the time. Regulations include, but are not limited to: South Africa: Occupational Health and Safety Act, 1993, and all its regulations. Australia: Commonwealth Occupational Health and Safety Act 1991; OHS (Safety Arrangements) Regulations 1991; OHS (Safety Standards) Regulations 1994; OHS Codes of Practice 2008. Western Australia: Occupational Safety and Health Act 1984; Harmonised OHS legislation (as enacted)."
+2005_skal1_WEB,"Personnel shall not be exposed to noise level dosages exceeding local health and safety guideline levels. The maximum noise levels shall not exceed an 8- hour average exposure of 85 decibels as specified in the Australian National Standard for Occupational Noise NOHSC: 1007(2000) and South African Noise-Induce Hearing Loss Regulations (No R.307 2003) of the Occupational Health and Safety Act, 1993 (Act No 85 of 1993). The desirable maximum noise level is 75 decibels. Note: The National Code of Practice for Noise Management and Protection of Hearing at Work [NOHSC:2009(2004)] provides practical guidance on how NOHSC:1007(2000) can be achieved."
+2005_skal1_WEB,Noise levels exceeding 85dB shall be controlled or mitigated in accordance with NOHSC National Standard for Occupational Noise [NOHSC: 1007].
+2005_skal1_WEB,Personnel shall be provided with a working illumination level which is compliant with local and national regulations including the current issue of SANS 10114-1 in South Africa and the AS/NZS 1680 series in Australia.
+2005_skal1_WEB,Personnel shall be provided with air quality at least compliant with the current issue of SANS 10400- O (South Africa - The application of National Building Regulations Part O : Lighting and ventilation) and the AS 1668 series of codes (Australia - The use of mechanical ventilation and air conditioning in buildings).
+2005_skal1_WEB,"Working environments shall be designed, built and maintained to provide air quality that meets or exceeds the guidance provided in the Australian Code of Practice for Managing the Work Environment and Facilities, National Code of Australia and AS 1668. NOTE: Building humidity required for computing facilities is specified in Req 2367."
+2005_skal1_WEB,"The SKA shall provide a security management system that includes : i. personnel security, ii. physical security (asset) iii. security of information"
+2005_skal1_WEB,All personnel shall receive the security training identified in the Security Management System necessary for their location. Additional specialist pre- deployment training shall be given prior to working in remote environments.
+2005_skal1_WEB,"The observatory shall provide a secure environment for equipment. This shall include protection of generators, fuel, solar cells and inter-station assets such as copper cables."
+2005_skal1_WEB,An information security risk assessment shall be conducted for each element in accordance with ISO/IEC 27005.
+2005_skal1_WEB, Information transfer between organisations shall be controlled in accordance with ISO/IEC 27010 as tailored by SKA Organisation Security Policy.
+2005_skal1_WEB,It shall be possible to control on a per user basis which SKA1 facilities and resources (both hardware and software) may be accessed by the user.
+2005_skal1_WEB,The observatory shall provide a secure environment for all its data archives.
+2005_skal1_WEB,"Equipment in stationary use at non-weather protected locations shall be protected against environmental conditions 4K4H/ 4Z1/ 4Z5/ 4Z6/ 4B2/ 4C1/ 4S3/ 4M4 in accordance with BS EN IEC 60721-3-4. NOTE: 4Z5 refers to the survival, non-operational mode. The equipment shall be able to operate normally for air movement up to 11 m/s"
+2005_skal1_WEB,SKA1 equipment located at the dishes or aperture arrays or outside the central processing and operating facilities shall be able to withstand (non- operating if necessary) an outside air temperature within the range of -15 ºC to +60 ºC. Note this takes precedence over IEC 60721-3-4 4K4H of parent requirement.
+2005_skal1_WEB,SKA1 equipment located at the dishes or aperture arrays or outside the central processing and operating facilities shall be able to operate within specification if the outside air temperature is within the range of -5 ºC to +50 ºC. Note this takes precidence over IEC60721-3-4 4K4H
+2005_skal1_WEB,"SKA1 equipment shall be able to survive wind velocities up to 160 km/hr, and shall operate within normal specification ranges for wind velocities up to 40 km/hr. Note: this takes precedence over IEC60721-3-4 4Z5"
+2005_skal1_WEB,Equipment in stationary use at weather protected locations shall be protected against environmental conditions 3K8H/ 3Z1/ 3Z11/ 3Z12/ 3B3/ 3C1R/ 3S3/ 3M4 in accordance with BS EN IEC 60721-3-3.
+2005_skal1_WEB,The operating humidity shall be between 40% and 60%
+2005_skal1_WEB,The storage and transport humidity shall be between 40% and 95%.
+2005_skal1_WEB,Appropriate measures shall be taken to prevent the formation of condensation on operating electronic components.
+2005_skal1_WEB,"Components shipped by air shall be capable of surviving pressures down to 11 kPa (equivalent altitude ~ 50,000 feet)."
+2005_skal1_WEB,"Where appropriate, SKA1 equipment facilities shall be adequately protected against intrusion by insect and ""larger"" wandering animals."
+2005_skal1_WEB,SKA1 systems shall be adequately protected against sand and dust ingress.
+2005_skal1_WEB,Equipment shall be protected against fungus growth.
+2005_skal1_WEB,Designs shall identify any requirements for equipment to be stored in environmental conditions less severe than 1K11/1B3/1C1/1S3/1M3 as specified inBS EN IEC 60721-3-1. Note: It may be assumed that equipment will be stored in its original packaging.
+2005_skal1_WEB,Equipment shall be designed to withstand transportation from an engineering depot to a station exposed to environmental conditions 2K5H/2B3/2C1/2S3/2M3 as detailed in BS EN IEC 60721- 3-2. NOTE: It may be assumed that the equipment will be transported in the original packaging that it was delivered to the engineering depot.
+2005_skal1_WEB,"SKA1 equipment and buildings shall be designed and built in compliance with national and State regulations including AS 1170.4 (Importance level 3, design life 50 years) and SANS 10160-4 for earthquakes of magnitude up to Richter 3.8."
+2005_skal1_WEB,SKA1 structures and equipment shall survive and be fully operational after a seismic event of magnitude up to Richter 3.8. Note: Seismic event includes underground collapses in addition to earthquakes.
+2005_skal1_WEB,Each SKA1 telescope shall have an operational availability of 95%
+2005_skal1_WEB,System designs shall meet the system availability allocations specified in SKA- OFF.SE.ARC-SKAO-RAM- 001.
+2005_skal1_WEB,"Availability budgets shall be allocated at the system decomposition level, and shall be consistent with the system level requirements for reliability and maintainability of the system."
+2005_skal1_WEB,Best available methods for reducing adverse effects of operational and maintenance environments on critical components shall be adopted.
+2005_skal1_WEB,Any critical- useful-life components shall be identified.
+2005_skal1_WEB,Parts and components shall be selected to meet reliability requirements.
+2005_skal1_WEB,Parts requiring select on test shall be eliminated by deign if possible.
+2005_skal1_WEB,The failure rate of parts shall be known (e.g. through analysis or modelling) before inclusion in SKA design.
+2005_skal1_WEB, Parts with excessive failure rates shall be identified.
+2005_skal1_WEB,A testing and evaluation master plan shall be generated for high- risk reliability components.
+2005_skal1_WEB,Critical spare and repair line replaceable units shall be tested before deployment.
+2005_skal1_WEB,Safety factors and margins shall be applied in the selection of modules and components
+2005_skal1_WEB,The shelf life and wear out characteristics of all components and parts shall be known before inclusion in SKA designs.
+2005_skal1_WEB,"Critical parts requiring special procurement methods, testing and handling provisions shall be identified."
+2005_skal1_WEB,Designs shall implement fail-safe provisions to prevent secondary failures.
+2005_skal1_WEB," Maintainability budgets shall be allocated at the system decomposition level, and shall be consistent with the system level requirements for reliability and maintainability of the system."
+2005_skal1_WEB,Where end user repair is applicable Test and Repair Instructions shall be delivered with all equipment.
+2005_skal1_WEB,The level of maintenance shall be identified for each repairable item.
+2005_skal1_WEB,Equipment required for test and support shall be identified for each repairable item.
+2005_skal1_WEB,"Designs shall incorporate maintainability studies and analysis in accordance with BS EN IEC 60706-2 with emphasis on minimising the need for maintainers on sites. This activity should incorporate best practice such as described by B.S. Blanchard & W.J. Fabrycky 'Systems Engineering and Analysis', Pearson 2011."
+2005_skal1_WEB,The packaging of components shall be modular to limit maintenance to the removal of one module.
+2005_skal1_WEB,"Repairable items shall be designed to include maintenance provisions such as test points, accessibility, and plug-in components."
+2005_skal1_WEB, Discard at failure items shall be packed at low cost.
+2005_skal1_WEB,The design shall implement plug-in modules to the maximum extent possible.
+2005_skal1_WEB,"Where applicable, access between modules shall be sufficient to facilitate hand grasping."
+2005_skal1_WEB,Modules and components shall be mounted such that removal of any single item will not require the removal of other items (component stacking to be avoided where possible)
+2005_skal1_WEB,Modules shall be securely mounted (in compliance with the shock and vibration requirements) with the minimum number of fasteners.
+2005_skal1_WEB,Shock mounting provisions shall be made where applicable.
+2005_skal1_WEB,Provisions for the preclusion of mounting the wrong module shall be provided (key coding of connectors etc.).
+2005_skal1_WEB,Stand-offs and handles shall be used to protect system components from damage during shop maintenance.
+2005_skal1_WEB,Mounting guides and location pins shall be provided to facilitate module mounting.
+2005_skal1_WEB,"Where possible, labelling of modules shall be on the top or adjacent in plain sight."
+2005_skal1_WEB,Labels shall be permanently affixed and unlikely to come off during maintenance or as a result of the environment.
+2005_skal1_WEB,Disposable line replaceable units should be labelled as such.
+2005_skal1_WEB,There shall be a plan for the management of component obsolescence.
+2005_skal1_WEB,Long lead time items shall be identified to the project management.
+2005_skal1_WEB,The estimated availability of the parts shall be compatible with the final system's life cycle.
+2005_skal1_WEB,Product Assurance shall be managed following a process modelled on the SKA Product Assurance & Safety Plan SKA-OFF.PAQA-SKO-QP- 001
+2005_skal1_WEB,"SKA1 dedicated workmanship standards shall cover all phases of production, assembly and integration, testing, handling, and include clear requirements for acceptance/rejection criteria."
+2005_skal1_WEB,Designs shall include an assessment of testability in accordance with BS EN IEC 60706-5
+2005_skal1_WEB,Self-Test capability such that all faults can be identified down to LRU level shall be provided.
+2005_skal1_WEB,"Where possible, the system shall be designed to provide continuous performance monitoring."
+2005_skal1_WEB,All equipment malfunction shall be detected at the system level.
+2005_skal1_WEB,Access requiring tools shall be minimised.
+2005_skal1_WEB,All designs for the SKA shall be designed for economic production. This is required to ensure that the SKA is buildable for a reasonable cost (Con Ops Section 1.2)
+2005_skal1_WEB,Design definition shall be in sufficient detail to allow one or more manufacturers to produce the same item within identified tolerances.
+2005_skal1_WEB,"Where possible, currently existing facilities shall be used for manufacturing."
+2005_skal1_WEB,"Where possible, standard manufacturing tools shall be used."
+2005_skal1_WEB,Each sub- system supplier shall provide a Materials list for all items intended for use within SKA1.
+2005_skal1_WEB,Each Element supplier shall provide a parts list for all items intended for use in the SKA1.
+2005_skal1_WEB,Each element supplier shall provide a process list for all items intended for use in the SKA1.
+2005_skal1_WEB,Each part shall be marked with a unique serial number in an easily visible location.
+2005_skal1_WEB,Each LRU type shall be identified with a unique drawing number.
+2005_skal1_WEB,"Method of marking shall be compatible with the nature of the item, its environment and its use."
+2005_skal1_WEB,Where possible line replaceable items shall be marked with an Electronically readable or scannable ID.
+2005_skal1_WEB,All packaging shall be marked with the part number of the contents.
+2005_skal1_WEB,All packaging shall be marked with the serial number of the contents.
+2005_skal1_WEB,All LRUs with electrostatic sensitive components shall be fitted with ESD warning labels.
+2005_skal1_WEB,All packaging containing static sensitive contents shall be marked with ESD warning labels.
+2005_skal1_WEB,All cables ends shall carry a unique identifier.
+2005_skal1_WEB,All connector plates shall carry identification labels for connectors.
+2005_skal1_WEB,"The SKA1_Low shall utilise dual, orthogonal, polarization log-periodic antennas."
+2005_skal1_WEB,The SKA1_Low shall have an array resolution of better than 5 arc minutes at 100 MHz (centre of the EoR frequency range).
+2005_skal1_WEB,SKA1_Low shall be able to measure electromagnetic radiation in a frequency range from 50 MHz to 350 MHz.
+2005_skal1_WEB,",of the station beam bandpass, post station calibration and RFI-mitigation, shall be within 1.3 %, 0.4 %, 0.6 % and 1.1 % at 50 MHz, 100 MHz, 160 MHz, and 220 MHz respectively compared to the full polarization, parameterized beam model."
+2005_skal1_WEB,The SKA1_Low array shall have sensitivity per polarization at zenith greater than 72 m2K-1 at 50MHz when assuming a sky noise temperature following the law 60.lamda2.55
+2005_skal1_WEB,The SKA1_Low array shall have a sensitivity per polarization at zenith greater than 380 m2K-1 at 100 MHz when assuming a sky noise temperature following the law 60.lambda^2.55
+2005_skal1_WEB,The SKA1_Low array shall have a sensitivity per polarization at zenith of greater than 535 m2K-1 at 160 MHz when assuming a sky noise temperature following the law 60.lambda^2.55
+2005_skal1_WEB,The SKA1_Low array shall have a sensitivity per polarization at zenith of greater than 530 m2K-1 at 220 MHz when assuming a sky noise temperature following the law 60.lambda^2.55.
+2005_skal1_WEB,The SKA1_Low array shall have a sensitivity per polarization at zenith greater than 500 m^2/K at 280 MHz when assuming a sky noise temperature following the law 60.lambda^2.55
+2005_skal1_WEB,The SKA1_Low array shall have a sensitivity per polarization at zenith greater than 453 m^2/K at 340 MHz when assuming a sky noise temperature following the law 60.lambda^2.55
+2005_skal1_WEB,"The SKA1_low receptor has an off-zenith beam response defined by the receptor, a log-periodic dipole antenna,in the Baseline Design."
+2005_skal1_WEB, The SKA1_Low shall comprise of stations each containing 256 antennas.
+2005_skal1_WEB,"The station diameter will be 35 metres, which is consistent with being able to provide a single, circularly symmetric, beam of 5 degrees at the half-power points at 100 MHz (centre of the EoR frequency range) while meeting the sensitivity requirements with 256 antennas per station evenly distributed in an irregular-random configuration."
+2005_skal1_WEB,The SKA1_Low shall comprise of 512 stations.
+2005_skal1_WEB,The SKA1_Low shall have a configuration as specified in TBD.
+2005_skal1_WEB,The maximum distance between station centres shall be approximately 80 km
+2005_skal1_WEB,The SKA1_Low shall be capable of simultaneously processing 300 MHz of bandwidth.
+2005_skal1_WEB,The SKA1_Low core shall be located at a minimum distance of 10km from the ASKAP core.
+2005_skal1_WEB,Digitisation of SKA1_antenna (SKA1_Low only) signals shall be to at least 8 bits.
+2005_skal1_WEB,The amplitude dynamic range of the SKA1_Low ADC's shall be such that no clipping will occur for 95% of the time
+2005_skal1_WEB,Clipped data shall be flagged accordingly within the data stream.
+2005_skal1_WEB,"At the finest frequency resolution in the processing chain, the level of spurious signals due to non- linearity shall be less than the noise level when no external input signal is present."
+2005_skal1_WEB,The absolute flux scale shall be accurate to 5
+2005_skal1_WEB,The SKA1_Low beams shall have a dynamic range of better than 40 dB
+2005_skal1_WEB,"The antennas within each station shall be coherently beam-formed to provide one pair of station beams,one beam for each orthogonal polarization,for primary science."
+2005_skal1_WEB,It shall be possible to control specific properties of the station beam by setting the station beam weights appropriately
+2005_skal1_WEB,"The difference between the parameterized station beam model and the actual station beam shall remain smaller than 1.3 %, 0.4 %, 0.6 % and 1.1 % relative to the main beam peak power, after calibration, at 50 MHz, 100 MHz, 160 MHZ and 220 MHz respectively"
+2005_skal1_WEB,Calibration measurements shall be necessary at a rate of no more than 10seconds.
+2005_skal1_WEB,The LFAA reception system at station level shall provide on-line instrumental calibration functions with an update rate of 10 minutes
+2005_skal1_WEB,The SKA1_Low shall be capable of outputting beam products as voltage time series.
+2005_skal1_WEB,The SKA1_Low correlator shall be able to correlate SKA1_low station beams from one to sixteen sub- arrays independently and concurrently
+2005_skal1_WEB,"The SKA1_Low channelisation for each sub array shall provide up to 65,536 linearly spaced frequency channels across the available frequency range of each band."
+2005_skal1_WEB,The SKA1_Low channeliser for each sub-array shall have a maximum noise leakage power from immediately adjacent frequency channels of < -30 dB.
+2005_skal1_WEB,The SKA1_Low channeliser for each sub-array shall have a maximum noise leakage power from non adjacent frequency channels better than -60 dB.
+2005_skal1_WEB,The fine frequency channels for the SKA1_Low channeliser shall have a total amplitude variation as a function of frequency of less than 0.01 dB.
+2005_skal1_WEB,The fine frequency cells for the SKA1_Low channeliser shall have a -3dB transition band amplitude at the channel band edge.
+2005_skal1_WEB,"SKA1_Low correlation, for each sub array, shall not degrade the Signal to Noise ratio by more than 2 % compared to ideal analogue correlation."
+2005_skal1_WEB,The SKA1_Low correlator for each sub array shall have independently configurable visibility integration periods in the range 9s to 0.9s.
+2005_skal1_WEB,SKA1 dishes shall have a projected diameter of larger than 15m and smaller than 16.5m.
+2005_skal1_WEB,"Aperture efficiency shall be within +/- 5% of: 60% at 350MHz with gradual degradation from 400 to 350 MHz, 65% at 400MHz, 78% from 600MHz to 8000MHz, 70% from, to 15 GHz, 65% from 15 to 20 GHz."
+2005_skal1_WEB,The pointing repeatability shall be better than 10 arc seconds rms for winds < 7 m/s at night time.
+2005_skal1_WEB,The pointing repeatability shall be better than 17 arc seconds rms for an average wind speed of < 7 m/s in the day time
+2005_skal1_WEB,The pointing repeatability shall be better than 180 arc seconds rms for an average wind speed between 7 and 20 m/s
+2005_skal1_WEB,There shall be space at the Gregorian focus of SKA1 dishes for five single pixel feeds (SPF) or three Phased Array Feeds (PAF)
+2005_skal1_WEB,The IXR shall be better than 15 dB over the whole observing bandwidth within the HPBW
+2005_skal1_WEB,Reflector antennas shall be capable of operating at all elevations greater than 15 degrees
+2005_skal1_WEB,"The Dish shall have a continuous useable azimuth observation range from -270° to +270°, inclusive measured relative to true North defined as 0° and with East defined as +90°"
+2005_skal1_WEB,The SKA1_Mid shall incorporate the 64 antennas in both monitor and control and data collection functions.
+2005_skal1_WEB,The monitor and control functions of MeerKAT shall be made available to SKA1_Mid via a Foreign Telescope interface consisting of a Local Monitor and Control system connected to the SKA1_Mid Telescope Manager.
+2005_skal1_WEB,"Where economically practicable, the existing MeerKAT infrastructure will be reused"
+2005_skal1_WEB,The absolute flux scale shall be accurate to 5% rms
+2005_skal1_WEB,The absolute flux scale shall be accurate to 3% rms
+2005_skal1_WEB,The SKA1_Mid shall have the configuration defined in the TB
+2005_skal1_WEB,The SKA1_Mid array shall consist of 133 antennas centred in the same location as the MeerKAT array
+2005_skal1_WEB,The Dish Element shall make available only a single frequency band at any one time.
+2005_skal1_WEB,35 to 1.050 GHz for each polarisation.
+2005_skal1_WEB,"The SKA1_Mid dishes, when the band 2 capability is selected, shall operate over a frequency range from 0.95 to 1.76 GHz for each polarisation."
+2005_skal1_WEB,"The SKA1_Mid dishes, when the band 3 capability is selected, shall operate over a frequency range from 1.65 to 3.05 GHz for each polarisation"
+2005_skal1_WEB," The SKA1_Mid dishes, when the band 4 capability is selected, shall operate over a frequency range from 2.80 to 5.18 GHz for each polarisation"
+2005_skal1_WEB,"The SKA1_Mid dishes, when the band 5 capability is selected, shall operate over a frequency range from 4.6 to 13.8 GHz for each polarisation."
+2005_skal1_WEB,The instantaneous bandwidth for band 1 will be 700MHz and shall be sampled to at least 2.0 G samples per second for each polarisation
+2005_skal1_WEB,The instantaneous bandwidth for band 2 will be 810 MHz and shall be sampled to at least 2.0 G sample per second for each polarisation.
+2005_skal1_WEB,0 G samples per second for each polarisation
+2005_skal1_WEB,0 G samples per second for each polarisation.
+2005_skal1_WEB,5 GHz bands for each polarisation.
+2005_skal1_WEB,"Digitisation for each polarisation shall be: band 1 8 bits, band 2 8 bits, band 3 6 bits, band 4 at least 4 bits, band 5 at least 2 streams of 3 bits"
+2005_skal1_WEB,The SKA1_Mid shall be able to correlate SKA1_mid dishes as multiple sub-arrays independently and concurrently..
+2005_skal1_WEB,"The SKA1_Mid channelisation for each sub array shall provide up to 65,536 linearly spaced frequency channels across the sampled bandwidth of each band."
+2005_skal1_WEB,The SKA1_Mid for each sub-array shall have a maximum noise leakage power from immediately adjacent frequency channels of < -30 dB
+2005_skal1_WEB,"The SKA1_Mid, for each sub-array, shall have a maximum noise leakage power from non adjacent frequency channels better than -60 dB."
+2005_skal1_WEB,The fine frequency channels for the SKA1_Mid channeliser shall have a total amplitude variation as a function of frequency of less than 0.01 dB after bandpass calibratio
+2005_skal1_WEB,The fine frequency cells for the SKA1_Mid channeliser shall have a -3dB transition band amplitude at the channel band edge.
+2005_skal1_WEB,"The SKA1_Mid correlation, for the same sub-array, shall not degrade the Signal to Noise ratio by more than 2% compared to ideal analogue correlation."
+2005_skal1_WEB,The SKA1_Mid shall have independently configurable visibility integration period from a maximum integration time of 1.4s to a minimum of 0.14s for each subarray.
+2005_skal1_WEB,"The SKA1_Mid, for each subarray, shall allow for pulse phase-resolved observations supporting the product of the number of phase bins, channel and polarisation products up to 262,144 (i.e. 4 x 65,536)."
+2005_skal1_WEB,The SKA1_Mid shall be capable of providing pulsar phase bin widths with a time resolution of better than 10us
+2005_skal1_WEB,The SKA1_Mid shall be capable of synchronising phase bins to the ephemeris to limit drift to less than 10% of the selected bin width within the selected correlator integration period.
+2005_skal1_WEB,The SKA1_Mid phase bin averaging time shall be constrained to limit the output data rate to at most the single bin configuration output data rate.
+2005_skal1_WEB,The SKA1_Mid correlator shall be capable of forming real time cross correlation products from all antenna within the SKA1_Mid combined array including those MeerKAT.
+2005_skal1_WEB,The SKA1_Mid central beam-former shall be able to form beams or more beams for one to sixteen sub-arrays independently and concurrently.
+2005_skal1_WEB,SKA1_Mid shall be capable of Pulsar search and timing processing within individual sub- arrays.
+2005_skal1_WEB,"The central beam-former for pulsar search shall be capable of forming beams independently across all dishes (SKA1_Mid and MeerKAT) within each of the SKA1_Mid sub-arrays up to a distance of up to 10,000 metres from sub-array centres."
+2005_skal1_WEB,The Pulsar search beamformer shall form beams for each of the search sub arrays with an independently selectable centre frequency for the sub-array in the range from the lowest frequency of SKA1_Mid band 1 through to the highest frequency of band 5.
+2005_skal1_WEB,The SKA1_Mid Pulsar search shall have a contiguous processing bandwidth for beamforming of up to 300 MHz.
+2005_skal1_WEB,"SKA1_Mid, when performing the Pulsar Search function, shall simultaneously form up to a total of 1111 beams per observation across all sub arrays."
+2005_skal1_WEB,The SKA1_Mid central beam-forming for each sub array shall have a Signal to Noise ratio greater or equal to 98% of ideal analogue beam forming for the same sub array:
+2005_skal1_WEB, For each SKA1_Mid Pulsar search sub-array the output shall be the power of summed polarisation beams.
+2005_skal1_WEB,The frequency resolution for SKA1_Mid Pulsar search shall be independently configurable in frequency resolution with values in the 20 kHz and 75 kHz
+2005_skal1_WEB,SKA1_Mid Pulsar search output beams shall have a minimum time resolution of 50us.
+2005_skal1_WEB,"The central beam-former for pulsar timing shall be capable of forming beams across all dishes within the SKA1_Mid sub-arrays to a distance of up to 10,000 metres from their centres."
+2005_skal1_WEB,The Pulsar timing beamformer shall form beams for each of the timing sub-arrays with a selectable centre frequency for the sub-array in the range from the lowest frequency of SKA1_Mid band 1 through to the highest frequency of band 5.
+2005_skal1_WEB,The SKA1_Mid Pulsar timing beamformer for each timing sub-array shall have a contiguous processing bandwidth up to the full bandwidth of the selected band up to a bandwidth of 2.5 GHz.
+2005_skal1_WEB,The SKA1_Mid central beam-former for Pulsar timing shall be capable of forming up to 16 dual polarisation coherent beams in total across all timing sub-arrays.
+2005_skal1_WEB,The SKA1_Mid for Pulsar timing shall have a Signal to Noise ratio greater or equal to 98% of an ideal analogue beam former.
+2005_skal1_WEB, SKA1_Mid shall be capable of producing up to four VLBI beams
+2005_skal1_WEB,SKA1_Mid shall be able to generate VLBI beams from sub-arrays with receptors separated by up to 100km
+2005_skal1_WEB,SKA1_Mid shall be able to form a VLBI beam with a 0.01MHz step selectable centre frequency within the boundaries of the defined frequency bands for SKA1_Mid.
+2005_skal1_WEB,SKA1_Mid VLBI beamforming shall have a contiguous processing bandwidth up to the full bandwidth of the selected band
+2005_skal1_WEB,SKA1_Mid VLBI beamforming shall have the Signal to Noise ratio by more than 98% compared to an ideal analogue beam former.
+2005_skal1_WEB, SKA1_Mid shall be able to store the time-dependent antenna weights used for each tied-array beam su
+2005_skal1_WEB,SKA1_Mid shall be able to generate data from the VLBI beams with samples traceable to a timestamp with an accuracy of 1 nsec or better
+2005_skal1_WEB,SKA1_Mid shall be able to output VLBI beams with a sampling rate selectable between Nyquist and oversampled rates for the selected bandwidth
+2005_skal1_WEB," SKA1_Mid shall be able to allocate antennas to be included in, or excluded from, individual tied-array beams"
+2005_skal1_WEB,The SKA1_Mid beamformer shall be able to weight the antenna inputs into the tied-array sums based on relative sensitivity and coherence losses
+2005_skal1_WEB," SKA1_Mid shall be able to change the pointing, centre frequency, and bandwidth of the individual tied-array beams within a single observing schedule"
+2005_skal1_WEB,"SKA1_Mid shall be capable of selecting, through configuration, 1, 2, 3, or 4 separate VLBI specific beams, each with independently selectable centre frequency, bandwidth, frequency resolution and pointing"
+2005_skal1_WEB,"SKA1_Mid shall be capable of reconfiguring the centre frequency, frequency band, and bandwidth for each tied-array beam, in less than 30 seconds"
+2005_skal1_WEB,SKA1_Mid shall be able to generate VLBI beams with a spectral resolutions different from the spectral resolution used for imaging within the same VLBI sub-arra
+2005_skal1_WEB,"SKA1_Mid shall be able to generate VLBI beam data with a selectable channel width of: 512MHz, 256 MHz, 128MHz, 64MHz, 32MHz, 16MHz, 4MHz or 1MHz"
+2005_skal1_WEB,"SKA1_Mid shall be able to simultaneously generate imaging data using all antennas in a VLBI sub-array, as well as generating the VLBI beams"
+2005_skal1_WEB,SKA1_Mid shall be able to generate VLBI beams optimised for either spectral line observations (to mitigate spectral leakage) or time domain observations (to mitigate time smearing
+2005_skal1_WEB,SKA1_Mid shall be able to allocate individual VLBI beams to different sub-arrays
+2005_skal1_WEB,SKA1_Mid shall be able to generate VLBI beams from sub-arrays with receptors separated by up to 20km
+2005_skal1_WEB,The SKA1_Mid Pulsar search shall be able to independently process a total of up to 1111 beams from one to sixteen sub-arrays independently and concurrently.
+2005_skal1_WEB,The Pulsar search processing shall have a contiguous processing bandwidth up to 300 MHz for each search sub array.
+2005_skal1_WEB,"SKA1_Mid for pulsar search shall provide, for each sub array, trial dispersion corrections across the observation frequency range for dispersion measures from 0 up to 3000 pc cm-3."
+2005_skal1_WEB,The time resolution of the SKA1_Mid pulsar search processing for each sub-array shall be equivalent to the temporal smearing due to dispersion at the observation frequency and bandwidth of the observation with a quantisation of value in powers of 2 from 50 µs to 800 us
+2005_skal1_WEB,"For each Pulsar search sub-array, the processing shall provide independently configurable observation times up to 1800 seconds duration."
+2005_skal1_WEB,"For each search sub-array within SKA1_Mid Pulsar search, the processing shall be capable of searching for single dispersed pulses over dispersion measure range up to 3000 pc cm-3 commensally with searches for periodic pulses with a S/N performance better than 7"
+2005_skal1_WEB,For each Pulsar search sub-array within SKA1_Mid the processing shall be capable of searching for binary systems with accelerations due to their orbital motion of up to 350 ms-2.
+2005_skal1_WEB,The SKA1_Mid Pulsar timing processing shall be able to independently process a total of up to 16 beams from one to sixteen sub- arrays independently and concurrently.
+2005_skal1_WEB,The Pulsar timing engine shall have a contiguous processing bandwidth up to the full bandwidth of the selected band up to a bandwidth of 2.5 GHz for each timing sub-array
+2005_skal1_WEB,"The SKA1_Mid system shall, for each timing sub- array, be able to change from observing in any frequency band, to observing in any other frequency band in less than or equal to 30 seconds."
+2005_skal1_WEB,The observation period for each observation for each timing sub-array shall be independently configurable between 3 minutes and 300 minutes.
+2005_skal1_WEB,"For each individual Pulsar timing observation within a sub-array, each data sample shall be traceable to a time stamp derived from a clock accurate to 10ns on a time scale of 10 years referenced to a common delay centre at the centre of the SKA1_Mid array."
+2005_skal1_WEB,The SKA Phase 1 shall be capable of timing up to 16 pulsars simultaneously in total across all timing sub arrays .
+2005_skal1_WEB,The SKA1_Mid shall be capable of timing pulsars with dispersion measures between 0 to 3000 pc cm-3 such that residual dispersive smearing is less than 500 ns.
+2005_skal1_WEB,Both SKA1 telescopes shall be capable of operating in a Continuum and Spectral-line imaging mode concurrently.
+2005_skal1_WEB,"The SKA1_mid telescope shall be capable of operating in a Pulsar search mode, concurrently with Continuum imaging mode."
+2005_skal1_WEB,"The SKA1_mid telescope shall be capable of operating in a Pulsar timing mode, concurrently with continuum imaging mode."
+2005_skal1_WEB,Both SKA1 telescopes shall be capable of operating concurrently and independently.
+2005_skal1_WEB,The switching time between telescope operating modes shall take less than 30 seconds (not including antenna slewing time)
+2005_skal1_WEB,The observatory shall have the capability of scheduling observations at a specific epoch for time dependent phenomena.
+2005_skal1_WEB,There shall be a mechanism for requesting observing time outside the normal observing time allocation process for unpredicted phenomena or in cases of high current scientific interest.
+2005_skal1_WEB,The Director-General or his/her delegate shall have the power to override allocation of time to other projects.
+2005_skal1_WEB,There shall be a documented data access rights policy for commensal observing for data sets shared across projects.
+2005_skal1_WEB,"Both of the SKA1 telescopes shall be capable of operating independently with one to sixteen sub-arrays (i.e. collecting area is split and allocated to separate, concurrently observing programmes)."
+2005_skal1_WEB,All SKA users shall require to be registered and authenticated for the purposes of proposal and project submission.
+2005_skal1_WEB,A maintenance database shall be established that logs all the scheduled maintenance and unexpected repairs.
+2005_skal1_WEB,"A failure database shall be established, which logs the errors of the system and its subsystems, including the corrective actions taken."
+2005_skal1_WEB,"The system shall extract information about the current condition of the system from the science and calibration data streams, and log this information along with other relevant system and environmental status information. Based on this information, it shall be possible to monitor, save, and analyse the technical performance of the system."
+2005_skal1_WEB, External sources of information used by the Elements shall be cached by Telescope Manager. No sources other than those cached by TM shall be used.
+2005_skal1_WEB,TOO observing shall be via Scheduling Blocks.
+2005_skal1_WEB,Scheduling intervention on TOO triggers shall be initiated within 1s of receiving the trigger.
+2005_skal1_WEB,"At the launching of a TOO Scheduling Block, the results from any active Scheduling Blocks shall be discarded."
+2005_skal1_WEB,"Program submission, assessment, and time allocation shall governed by an official policy document"
+2005_skal1_WEB,"There shall be a tool to facilitate the assessment, review and ranking of proposals, guided by official SKA Policies."
+2005_skal1_WEB,"There shall be a tool, either web or client, for the construction and submission of proposals, as necessary facilitating access to relevant sources of information such as Telescope characteristics, previous observations, SIMBAD, templates."
+2005_skal1_WEB,Scheduling Blocks shall have computable pre- and post-conditions.
+2005_skal1_WEB,A Semester Queue (SQ) shall be constructed by Operations following acceptance of proposals.
+2005_skal1_WEB,Operations shall be responsible for constructing an executable schedule and Scheduling Blocks and submitting for execution.
+2005_skal1_WEB,There shall be an interactive tool to aid the proposer in constructing Scheduling Blocks and an executable schedule.
+2005_skal1_WEB,There shall be a API or APIs for the construction of scheduling blocks from Python and Java.
+2005_skal1_WEB,The scheduling tool shall offer the option to simulate execution of Scheduling Blocks in order to verify correctness and scientific performance at some limited level of accuracy.
+2005_skal1_WEB,It shall be possible for the operator to take manual control of the telescope.
+2005_skal1_WEB,The nature of the response to a transient event shall be controlled by policy administered by Telescope Manager.
+2005_skal1_WEB,"Responses shall be one of the following (a) invoking a special mode on the telescope of origin, (b) issuing an VOEvent, (c) issuing a TOO announcement to SKA Telescopes, (d) no action."
+2005_skal1_WEB,The maximum allowed latency between event and detection shall be allowed to be Observing Mode dependent.
+2005_skal1_WEB, Proposals to search for transients shall include rules for issuing VOEvents.
+2005_skal1_WEB, Response to an event shall be initiated within 1 second of notification.
+2005_skal1_WEB,TOO proposals shall include specified VOEvent streams to be monitored.
+2005_skal1_WEB,A qualifying VOEvent shall lead to initiation of a response by the Telescope Manager within 1 second.
+2005_skal1_WEB,"A dynamic computational model of the Telescope shall be used to answer all queries about the state of the Telescope. The telescope model shall consist of configuration information, numerical models, empirical parameters, and conventions."
+2005_skal1_WEB,"There shall be a single geodetic model for all telescopes, published as part of the Telescope Model."
+2005_skal1_WEB,"There shall be a single geometric model for all receptor types, published by TM."
+2005_skal1_WEB,"The dish receptor system shall include a model for pointing including structural model, thermal model, reference pointing model, and refraction model, published by TM."
+2005_skal1_WEB,"The AA receptor system shall include a model for element and station beams as a function of azimuth and zenith angle, frequency, and polarisation, published by TM."
+2005_skal1_WEB,The interactive forensic tool shall have an Internet interface with availability on a range of platforms including desktop and mobile devices.
+2005_skal1_WEB,The interactive forensic tool shall allow replay of selected sequences.
+2005_skal1_WEB,"Alarm notification shall be active (via SMS, email, etc.) rather than passive (requiring an Operator query)"
+2005_skal1_WEB,It shall be possible to filter alarms individually or by group.
+2005_skal1_WEB,Latency from event to alarm shall be no more than 5 seconds.
+2005_skal1_WEB,All current and historic Site monitor data shall be as examinable as that from any telescope component.
+2005_skal1_WEB,"The SKA Phase 1 TM shall retrieve, persist and publish data on Total Electron Content (TEC) from dual frequency GPS as part of the Telescope Model."
+2005_skal1_WEB,There shall be timely access to information from other relevant sources e.g. IPS concerning unusual ionospheric activity or alerts.
+2005_skal1_WEB,There shall be a data base for site weather station data.
+2005_skal1_WEB,"There shall be a database of relevant satellite trajectories, including orbit information, emission characteristics and owner."
+2005_skal1_WEB,There shall be a data base of commercial flights in the neighbourhood of the site.
+2005_skal1_WEB,There shall be a database holding information about RFI.
+2005_skal1_WEB,The Calibration and Imaging formalism shall be based upon the Rau framework [14].
+2005_skal1_WEB,The telescope calibration shall be solved by comparison of observed with GSM predictions with a time scale appropriate to the component and physical effect being calibrated and fed back to the telescope.
+2005_skal1_WEB,"Calibration and continuum subtraction shall use a Local Sky Model, derived from a Global Sky Model or previous Local Sky Model."
+2005_skal1_WEB,All imaging shall construct and make use of frequency dependent image models over the entire observed bandwidth.
+2005_skal1_WEB,e. on the tangent plane) deconvolution shall be available.
+2005_skal1_WEB,It shall be possible to solve for and correct time- and station-dependent pointing errors with accuracy and timescale limited by signal to noise ratio.
+2005_skal1_WEB,Peeling of bright sources (strength limited by signal to noise ratio) from the visibility data shall be possible.
+2005_skal1_WEB,Self- calibration and image reconstruction algorithms shall be capable of dealing with direction dependent effects
+2005_skal1_WEB,There shall be a direction dependent model for the aperture array primary beam to be used in calibration and imaging.
+2005_skal1_WEB,There shall be a direction dependent model for the dish primary beam to be used in calibration and imaging.
+2005_skal1_WEB,There shall be a direction dependent Faraday Rotation model for use in calibration and imaging.
+2005_skal1_WEB,"Where appropriate, continuum source finding shall be conducted on images generated by the Continuum Imaging pipeline. Polarization shall be fitted if available."
+2005_skal1_WEB,"Where appropriate, spectral line source finding shall be conducted on image cube generated by the Spectral Line pipeline."
+2005_skal1_WEB,"Where appropriate, spectral line stacking shall be conducted on image cubes generated by the pipelines using a priori known source lists."
+2005_skal1_WEB,"All pipelines shall include as data products the pipeline processing log, and Quality Assessment log."
+2005_skal1_WEB,"There shall be a Calibration pipeline that derives current telescope parameters using a recent observation and a Global Sky Model, either a known GSM or the most recent GSM."
+2005_skal1_WEB,There shall be a Continuum Imaging pipeline that shall have the goal of constructing noise-limited wide-band images for observations up to 1000h integration time. Polarisation shall be available if requested or necessary for calibration or quality assurance.
+2005_skal1_WEB,"The Data Products shall include the first n moment images for multi- frequency synthesis, corresponding residual images (if deconvolved), sensitivity image and representative PSF image, where n is set by signal to noise ratio."
+2005_skal1_WEB,There shall be a Spectral Line Emission pipeline that is optimised for constructing noise-limited (up to 1000h integration) channel cubes of spectral line emission either with continuum emission remaining or with continuum emission removed.
+2005_skal1_WEB,"The data products shall include spectral line cube image, continuum model images, sensitivity image, and representative point spread function."
+2005_skal1_WEB,There shall be a Spectral Line Absorption pipeline that is optimised for constructing noise-limited channel cubes of spectral line absorption with continuum sources removed.
+2005_skal1_WEB,"The data products shall include spectral line cube image, continuum model images, sensitivity image, and representative point spread function."
+2005_skal1_WEB,"There shall be a Slow Transient imaging pipeline that shall be capable of constructing a continuum image after a GSM has been subtracted for every correlator integration time or slower, searching for transient sources, and producing a time-ordered catalogue."
+2005_skal1_WEB,"The data products shall include a catalogue of found sources, a sensitivity image, and representative PSF image."
+2005_skal1_WEB,"All pipelines shall perform standardised, automated Quality Assessment of Images along the axes of astrometry, photometry, radiometry, polarimetry, and spectrometry."
+2005_skal1_WEB,"There shall be an archive for each telescope, located in the Science Processing Centre, for storing selected science data products for subsequent access by users according to science data access policy."
+2005_skal1_WEB,The science-processing centre will convert the output data from the CSP into science data products to be stored in the science data archive.
+2005_skal1_WEB,All data within Science Archives shall have a secondary copy located offsite in a secure location.
+2005_skal1_WEB,The science data archives shall be accessible from the internet via a standardised web interface.
+2005_skal1_WEB,The science data archives shall be accessible via a set of recommended IVOA services chosen to allow access to all approved data products.
+2005_skal1_WEB,"The science data archives shall publish a user accessible, open API in a small number of complementary languages such as Python, C++, and Java."
+2005_skal1_WEB,"An official data product shall have known, documented provenance, and shall have been produced via SKA observations and processing."
+2005_skal1_WEB,The telescope shall facilitate the addition of QA annotations by Users.
+2005_skal1_WEB,Third party data products shall not be admitted to the archive.
+2005_skal1_WEB,"There shall be a policy, developed and administered by Operations, governing which types and sizes of data products will be retained in the archive and for how long."
+2005_skal1_WEB,"A telescope archive will be nominally open for access 24/7/365, with no more than 24 hrs planned downtime per year. Unplanned downtime shall be consistent with availability budget."
+2005_skal1_WEB,The science data archives shall be designed to provide an archived data lifetime of not less than 50 years from the start of archived observations.
+2005_skal1_WEB,The archive design shall support and facilitate migration from one medium to another.
+2005_skal1_WEB,Operations shall maintain at all times and update yearly a current data migration plan covering the contingency of moving from one archive platform to another.
+2005_skal1_WEB,"As limited by resource constraints, it will be possible to deliver science data products to approved off-site facilities, which may be globally distributed"
+2005_skal1_WEB,Backup archive items shall be retrievable to the full archive from an alternate source within 24 hours
+2005_skal1_WEB,Users shall have access to the data of the entire archive within one week following an incident.
+2005_skal1_WEB,Access to the archive shall be either anonymous with correspondingly limited capabilities or via SKA authentication and authorisation.
+2005_skal1_WEB,"SDP processing per telescope at Early Science shall support processing rates 10% of that required for Full Observing (decimation being in any or all of time, frequency, field of view)"
+2005_skal1_WEB,"The SKA frequency reference system shall provide a 2% maximum coherence loss , equivalent to 0.2 radians, within a maximum integration period of 1s."
+2005_skal1_WEB,"The SKA frequency reference system shall provide a 2% maximum coherence loss , equivalent to 0.2 radians, within a maximum solution interval for in- beam calibration of 1 minute."
+2005_skal1_WEB,"The SKA Frequency Reference System shall have a phase drift of less than 1 radian, over calibration intervals of up to 10 minutes, when using out of beam calibration sources."
+2005_skal1_WEB,"The SKA synchronisation and timing system shall provide a 1 pps heartbeat signal, precise to the sampling clock (the pulse-to-pulse scatter is less than one sampling time), derived from the distributed frequency reference"
+2005_skal1_WEB,The SKA synchronisation and timing system shall provide a 1PPS heartbeat signal with phase relative to UTC that over a 10 minute calibration interval shall survive synchronisation loss
+2005_skal1_WEB,"The SKA1 timescale shall be connected to UTC with an accuracy of 10 ns, on a timescale of 10 years"
+2005_skal1_WEB,"In order to avoid large offsets, the central frequency reference shall be steered to UTC to within at least 1 microsecond, with a frequency drift of less than 10 ns/day."
+2005_skal1_WEB,The solution period for the calculation of offsets between SKA1 timescale and UTC shall be less than 1 day
+2005_skal1_WEB,"Weather monitoring stations (2 No at each core and 2 No within each spiral arm) shall be provided as part of the infrastructure - wind, temperature and humidity."
+2005_skal1_WEB,"The infrastructure shall provide day and night time capability for the operator(s) to visually monitor all antennas: for Dish antennas this shall be at every dish, for LFAA this shall be located at each station and also around the perimeter of the core area. Monitoring to deliver images at least one per minute for purposes of security and general telescope visual monitoring and shall be able to detect personnel at each dish and within each LFAA station."
+2005_skal1_WEB,Permanent stations and mobile RFI monitoring units shall be provided as part of infrastructure
+2005_skal1_WEB,Existing Tropospheric monitoring stations shall be expanded as part of the SKA1 infrastructure to provide at least 3 No sensor units in each of the Australia and South Africa locations.
+2005_skal1_WEB,The power delivery infrastructure shall comply with the SKA1 RFI levels documentation.
+2005_skal1_WEB,"Roads and track-ways (including drainage) for the safe, secure and economic construction and operation of the SKA1 shall be provided"
+2005_skal1_WEB,There shall be access to an air strip on site.
+2005_skal1_WEB,Potable and non- potable water shall be available at SKA1 construction camps including foundation concrete plants.
+2005_skal1_WEB,Sufficient water shall be continually available at SKA1 facilities in support of equipment cooling for each telescope.
+2005_skal1_WEB,The delivery and disposal of water and all construction activity shall be compliant with local and national standards and regulations.
+2005_skal1_WEB,Each Central Processing Facility shall provide RFI shielding greater than that derived from zoning specifications given in the SKA RFI levels documentation (to be published by T0 + 12w).
+2005_skal1_WEB,The Central Processing Facility shall provide RFI compliant penetrations for signal and power cables entering the facility and also for all other penetrations.
+2005_skal1_WEB,For lightning protection of each dish antenna the earthing system shall conform to the requirements of IEC 62305 and also to national standards SANS 10142 and 10313. National standards shall take precedence.
+2005_skal1_WEB,All populated facilities shall provide connectivity to the public telephone network.
+2005_skal1_WEB,All vehicles used on site shall be equipped with long range communication devices.
+2005_skal1_WEB,All drivers on or to the sites shall have appropriate awareness training.
+2005_skal1_WEB,The total steady state power budget for the African site shall be within the limits specified in SKA Power Budget SKA-SE-POW-TN- 001 [21]
+2005_skal1_WEB,The total steady state power budget for the Australian site shall be within the limits specified in SKA Power Budget SKA-SE-POW- TN-001 Revision 1 [21].
+2005_skal1_WEB,The SKA1_Mid telescope shall be a data source for VLBI data acquisition system. The interface between the SAK1_Mid telescope and the external VLBI data acquisition system shall be compliant with the ICD SKA-TEL-SKO- 0000116
+2005_skal1_WEB,Provision of equipment for recording or capturing VLBI data is outside the scope of SKA
+2005_skal1_WEB,VLBI equipment and eVLBI connectivity beyond the interface boundary described in the ICD SKA-TEL-SKO-0000116 is outside the scope of supply of the SKA1 project
+2005_skal1_WEB,The following infrastructure shall be provided to allow eventual outfitting of SKA1_Mid with VLBI equipment: 1. Adequate access for the potential fitment of VLBI equipment 2. Equipment space 3. Power 4. Cooling 5. Cable trays
+2005_skal1_WEB,Provision for VLBI terminals or equivalent equipment shall be made in the Science Processing Centres for the associated telescopes
+2005_skal1_WEB,SKA1 shall be able to output VLBI beam data with each individual stream limited to 512 MHz of signal bandwidth to ensure compatibility with existing VLBI terminal capabilit
+2005_skal1_WEB,"VLBI processing, with the exception of beam-forming and SKA1 imaging in support of VLBI. is outside the scope of the SKA"
+2005_skal1_WEB,SKA1 shall be able to produce VLBI beam output data with either dual or single polarizatio
+2005_skal1_WEB,"SKA1 shall be able to output VLBI beam data with configurable word formats, the allowed values being 2, 4, 8, and 16-bit integer"
+2005_skal1_WEB,The interface between MeerKAT and SKA1_mid CSP shall be compliant with SKA-TEL.AIV.SE- TEL.CSP.SE-ICD-001 Interface Control Document
+2005_skal1_WEB,The interface between MeerKAT and SKA1_mid SADT shall be compliant with SKA- TEL.AIV.SE-TEL.SADT.SE-ICD-001 Interface Control Documen
+2005_skal1_WEB,The interface between MeerKAT and SKA1_mid SADT shall be compliant with SKA- TEL.AIV.SE-TEL.TM.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between MeerKAT and SKA1_INFRA shall be compliant with SKA-TEL.AIV.SE- TEL.INFRA.SE-ICD-001 Interface Control Document
+2005_skal1_WEB,The interface between CSP and Infra shall be compliant with the SKA- TEL.CSP.SE-TEL.INFRA.SE-ICD- 001 Interface Control Document.
+2005_skal1_WEB,The interface between CSP and SDP shall be compliant with the SKA- TEL.SDP.SE-TEL.CSP.SE-ICD-001 Interface Control Document
+2005_skal1_WEB,The interface between CSP and Dish shall be compliant with the SKA- TEL.DSH.SE-TEL.CSP.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between Dish and Infra shall be compliant with the SKA- TEL.DSH.SE-TEL.INFRA.SE-ICD- 001 Interface Control Document.
+2005_skal1_WEB,The interface between LFAA and CSP shall be compliant with the SKA- TEL.LFAA.SE-TEL.CSP.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between LFAA and INFRA shall be compliant with the SKA- TEL.LFAA.SE-TEL.INFRA AUS.SE- ICD-001Interface Control Document.
+2005_skal1_WEB,The interface between SADT and DSH shall be compliant with the SKA- TEL.SADT.SE-TEL.DSH.SE-ICD- 001 Interface Control Document.
+2005_skal1_WEB,The interface between SADT and LFAA shall be compliant with the SKA- TEL.SADT.SE-TEL.LFAA.SE-ICD- 001 Interface Control Document.
+2005_skal1_WEB,The interface between SADT and CSP shall be compliant with the SKA- TEL.SADT.SE-TEL.CSP.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between SADT and SDP shall be compliant with the SKA- TEL.SADT.SE-TEL.SDP.SE-ICD- 001 Interface Control Document.
+2005_skal1_WEB,The interface between SADT and Infra shall be compliant with the SKA.TEL.SADT.SE-TEL.INFRA.SE- ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between TM and Dish shall be compliant with the SKA-TEL.TM.SE- TEL.DSH.SE-ICD-001. Interface Control Document.
+2005_skal1_WEB,The interface between TM and LFAA shall be compliant with the SKA-TEL.TM.SE- TEL.LFAA.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between TM and SADT shall be compliant with the SKA-TEL.TM.SE- TEL.SADT.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between CSP and TM shall be compliant with the SKA- TEL.CSP.SE-TEL.TM.SE-ICD-001. Interface Control Document.
+2005_skal1_WEB,The interface between TM and INFRA shall be compliant with the SKA.TEL.TM.SE-TEL.INFRA.SE- ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between SDP and TM shall be compliant with the SKA- TEL.SDP.SE-TEL.TM.SE-ICD-001 Interface Control Document.
+2005_skal1_WEB,The interface between SDP and Infra shall be compliant with the SKA.TEL.SDP.SE-TEL.INFRA.SE- ICD-001 Interface Control Document.
+2005_skal1_WEB,"Any component of the observatory shall not emit electromagnetic radiation, in any of the stated frequency intervals for broad band and narrow band cases, that exceeds the SKA RFI/EMI Threshold Levels[4]"
+2005_skal1_WEB,"The SKA1 Telescope shall generate less self- induced RFI, within the Telescope's operating frequency bands, than the SKA RFI/EMI Protection Levels, for both broad band and narrow band cases, as specified in the ""RFI/EMI Protection and Threshold Levels for the SKA"" document. The SKA RFI/EMI Protection Levels are defined at the respective receiver input, and measured at the respective Telescope time series output."
+2005_skal1_WEB,"The SKA1 Telescopes shall be compliant with one or more of the following standards for emissions and one or more for susceptibility/immunity:*BS EN 61000-6-2. Electromagnetic compatibility (EMC). Generic standards. Immunity standard for industrial environments. *BS EN 61000-6-4 AMD2. Electromagnetic compatibility (EMC). Part 6-4. Generic standards. Emission standard for industrial environments. *BS CISPR 14-1. Electromagnetic compatibility. Requirements for household appliances, electric tools and similar apparatus. Part 1. Emission. *MIL-STD-464C"
+2005_skal1_WEB,The SKA1 telescopes shall follow the TBD code of practice for the application of Electromagnetic Compatibility (EMC) standards and guidelines in electricity utility networks.
+2005_skal1_WEB,"All ""off-the-shelf"" equipment shall possess as a minimum the host country EMC marking."
+2005_skal1_WEB,The observatory shall not be susceptible to terrestrial electromagnetic radiation at any frequency that significantly interferes with its normal operation.
+2005_skal1_WEB,The SKA1 telescopes shall automatically flag frequency data with a resolution of one channel and time data to the resolution of the integration unit if the data is corrupted by RFI.
+2005_skal1_WEB,The SKA1 Telescopes shall automatically excise data that is corrupted by RFI.
+2005_skal1_WEB,The SKA1 Telescopes shall flag data according to a pre- selected RFI Mask.
+2005_skal1_WEB,The SKA1 telescopes shall allow spatial zones of avoidance to be defined.
+2005_skal1_WEB,Design trade studies for SKA1 shall include scenarios where design features are included which will allow 1. Increases in the number of receptors for SKA2 over SKA1 by a factor of 10 whilst re-using more than 90% of SKA1 hardware 2. The introduction of AIP technologies at SKA2 scales whilst re-using more than 90% of SKA1 hardware Such trade studies shall yield the incremental cost of such scenarios over those which do not include such design features.
+2005_skal1_WEB,All materials used in the SKA1 design shall be fully compliant to all environmental rules applicable to the SKA1 core and remote sites
+2005_skal1_WEB,A risk assessment shall be conducted for each item of machinery in accordance with BS EN ISO 12100
+2005_skal1_WEB,The ergonomic design shall be compliant with ISO 6385.
+2005_skal1_WEB,"Equipment shall comply with the safety requirements of BS EN IEC 60950. NOTE: This includes electric shock, energy related hazards, fire, heat related hazards, mechanical hazards, radiation and chemical hazards"
+2005_skal1_WEB,"Designs shall demonstrate the elimination, or mitigation to a risk level practically achievable, of all hazards by means of a subsystem hazard analysis (SSHA) report as described in EN 14738 and tailored by SKA Product Assurance and Safety Plan SKA-OFF.PAQA-SKO-QP-001."
+2005_skal1_WEB,"A hazard analysis shall be performed at the system and element level in accordance with BS IEC 61882 and, where applicable, shall include a FMEA in accordance with EN 60812."
+2005_skal1_WEB,"Each Element supplier shall provide a list of hazardous materials used for all items intended for use in the SKA1 detailing suggested handling precautions, disposal instructions and contra- indications."
+2005_skal1_WEB,All items that present a potential hazard shall be labelled in accordance with BS EN ISO 7010
+2005_skal1_WEB,Components and Equipment shall be designed to be locally fail-safe and not rely on external safety devices or measures to operate safely.
+2005_skal1_WEB,The equipment shall be designed such that hardware failures and software errors should not create a hazardous situation to interfacing systems
+2005_skal1_WEB,The SKA1 Elements shall have emergency stop switches or brakes for all electro-mechanical or mechanical systems that have been identified by safety analyses (required under SYS_REQ-2435) to pose a hazard.
+2005_skal1_WEB,Emergency stop switches shall be located in such a way to minimize the risk of injury. (Verified by Analysis as 'minimisation' is unverifiable any other way.
+2005_skal1_WEB,"Elements shall provide procedures for maintainers to recover from an unplanned shut-down, including safety checks to be conducted prior to start- up, as specified in SKA PRODUCT ASSURANCE & SAFETY PLAN SKA-OFF.PAQA-SKO-QP-001."
+2005_skal1_WEB,"If they cannot be eliminated from design, sharp edges, access openings and corners shall be protected with covers or coatings."
+2005_skal1_WEB,"Electrical risks and hazards shall be controlled in accordance with local, State and national legislation and Codes of Practice.NOTE: In South Africa, SANS 10142-1 and SANS 10142-2 shall apply.NOTE: In Australia, in addition to legislation, the following Codes of Practice shall be applied: AS/NZ 3000 Safe Work Australia 'Managing Electrical Risks at the Workplace'; Western Australia Director of Energy Safety 'Safe Low Voltage Work Practices by Electricians'"
+2005_skal1_WEB,High voltage cages or enclosures shall be used to protect personnel from inadvertent access to high voltages in accordance with AS/NZS3000 (Australia) and SANS10142 (South Africa).
+2005_skal1_WEB,"External conductive parts shall be grounded in compliance to:South Africa: National Building Regulations and Building Standards Act, 1977 Occupational Health and Safety act, 1993 SANS 10313Australia: AS/NZ 3000, AS/NZ 1768"
+2005_skal1_WEB,Electrical circuit inter-locks shall be provided to prevent personnel coming into contact with hazards that cannot otherwise be eliminated from design.
+2005_skal1_WEB,The observatory shall provide an independent system to communicate with outside locations in emergencies.
+2005_skal1_WEB,"A comprehensive safety plan, tailored to construction and AIV activities, shall be established and implemented before the construction starts at the observatory site."
+2005_skal1_WEB,A safety incident recovery plan shall be produced in accordance with SKA PRODUCT ASSURANCE & SAFETY PLAN SKA-OFF.PAQA- SKO-QP-001.
+2005_skal1_WEB,All personnel shall be provided with appropriate Health and Safety training in compliance with local regulations.
+2005_skal1_WEB,Fire fighting equipment shall be made available at all SKA premises and facilities.
+2005_skal1_WEB,First aid stations shall be provisioned.
+2005_skal1_WEB,Protective Clothing for areas where environments detrimental to human safety shall be worn.
+2005_skal1_WEB,"Personnel shall adhere to local safety procedures for travelling in remote areas. NOTE: Safety procedures should include the training and equipment required, such as driving instruction, vehicles appropriate for the environment and radio equipment"
+2005_skal1_WEB,"The observatory shall comply with all applicable local, State and national occupational health regulations and standards in force at the time. Regulations include, but are not limited to: South Africa: Occupational Health and Safety Act, 1993, and all its regulations. Australia: Commonwealth Occupational Health and Safety Act 1991; OHS (Safety Arrangements) Regulations 1991; OHS (Safety Standards) Regulations 1994; OHS Codes of Practice 2008. Western Australia: Occupational Safety and Health Act 1984; Harmonised OHS legislation (as enacted)."
+2005_skal1_WEB,"Personnel shall not be exposed to noise level dosages exceeding local health and safety guideline levels. The maximum noise levels shall not exceed an 8-hour average exposure of 85 decibels as specified in the Australian National Standard for Occupational Noise NOHSC: 1007(2000) and South African Noise-Induce Hearing Loss Regulations (No R.307 2003) of the Occupational Health and Safety Act, 1993 (Act No 85 of 1993). The desirable maximum noise level is 75 decibels. Note: The National Code of Practice for Noise Management and Protection of Hearing at Work [NOHSC:2009(2004)] provides practical guidance on how NOHSC:1007(2000) can be achieved"
+2005_skal1_WEB,Noise levels exceeding 85dB shall be controlled or mitigated in accordance with NOHSC National Standard for Occupational Noise [NOHSC: 1007]
+2005_skal1_WEB,Personnel shall be provided with a working illumination level which is compliant with local and national regulations including the current issue of SANS 10114-1 in South Africa and the AS/NZS 1680 series in Australia.
+2005_skal1_WEB,Personnel shall be provided with air quality at least compliant with the current issue of SANS 10400-O (South Africa - The application of National Building Regulations Part O : Lighting and ventilation) and the AS 1668 series of codes (Australia - The use of mechanical ventilation and air conditioning in buildings).
+2005_skal1_WEB,"Working environments shall be designed, built and maintained to provide air quality that meets or exceeds the guidance provided in the Australian Code of Practice for Managing the Work Environment and Facilities, National Code of Australia and AS 1668. NOTE: Building humidity required for computing facilities is specified in Req 2367."
+2005_skal1_WEB,"The SKA shall provide a security management system that includes : i. personnel security, ii. physical security (asset) iii. security of informatio"
+2005_skal1_WEB,All personnel shall receive the security training identified in the Security Management System necessary for their location. Additional specialist pre-deployment training shall be given prior to working in remote environments.
+2005_skal1_WEB,"The observatory shall provide a secure environment for equipment. This shall include protection of generators, fuel, solar cells and inter-station assets such as copper cables."
+2005_skal1_WEB,An information security risk assessment shall be conducted for each element in accordance with ISO/IEC 27005
+2005_skal1_WEB,Information transfer between organisations shall be controlled in accordance with ISO/IEC 27010 as tailored by SKA Organisation Security Policy
+2005_skal1_WEB,It shall be possible to control on a per user basis which SKA1 facilities and resources (both hardware and software) may be accessed by the user.
+2005_skal1_WEB,The observatory shall provide a secure environment for all its data archives
+2005_skal1_WEB,"Equipment in stationary use at non-weather protected locations shall be protected against environmental conditions 4K4H/ 4Z1/ 4Z5/ 4Z6/ 4B2/ 4C1/ 4S3/ 4M4 in accordance with BS EN IEC 60721-3-4. NOTE: 4Z5 refers to the survival, non- operational mode. The equipment shall be able to operate normally for air movement up to 11 m/s"
+2005_skal1_WEB,SKA1 equipment located at the dishes or aperture arrays or outside the central processing and operating facilities shall be able to withstand (non-operating if necessary) an outside air temperature within the range of -15 ºC to +60 ºC. Note this takes precedence over IEC 60721-3-4 4K4H of parent requirement
+2005_skal1_WEB,SKA1 equipment located at the dishes or aperture arrays or outside the central processing and operating facilities shall be able to operate within specification if the outside air temperature is within the range of -5 ºC to +50 ºC.
+2005_skal1_WEB,"SKA1 equipment shall be able to survive wind velocities up to 160 km/hr, and shall operate within normal specification ranges for wind velocities up to 40 km/hr. Note: this takes precedence over IEC60721-3-4 4Z"
+2005_skal1_WEB,Equipment in stationary use at weather protected locations shall be protected against environmental conditions 3K8H/ 3Z1/ 3Z11/ 3Z12/ 3B3/ 3C1R/ 3S3/ 3M4 in accordance with BS EN IEC 60721-3- 3.
+2005_skal1_WEB,The operating humidity shall be between 40% and 60%
+2005_skal1_WEB, The storage and transport humidity shall be between 40% and 95%.
+2005_skal1_WEB,Appropriate measures shall be taken to prevent the formation of condensation on operating electronic components.
+2005_skal1_WEB,"Components shipped by air shall be capable of surviving pressures down to 11 kPa (equivalent altitude ~ 50,000 feet)."
+2005_skal1_WEB,"Where appropriate, SKA1 equipment facilities shall be adequately protected against intrusion by insect and ""larger"" wandering animals."
+2005_skal1_WEB,SKA1 systems shall be adequately protected against sand and dust ingress.
+2005_skal1_WEB,Equipment shall be protected against fungus growth.
+2005_skal1_WEB,Designs shall identify any requirements for equipment to be stored in environmental conditions less severe than 1K11/1B3/1C1/1S3/1M3 as specified inBS EN IEC 60721-3-1. Note: It may be assumed that equipment will be stored in its original packaging
+2005_skal1_WEB,"SKA1 equipment and buildings shall be designed and built in compliance with national and State regulations including AS 1170.4 (Importance level 3, design life 50 years) and SANS 10160-4 for earthquakes of magnitude up to Richter 3.8."
+2005_skal1_WEB,SKA1 structures and equipment shall survive and be fully operational after a seismic event of magnitude up to Richter 3.8. Note: Seismic event includes underground collapses in addition to earthquakes.
+2005_skal1_WEB,"There shall be an availability, reliability and maintenance plan for each SKA1 telescope."
+2005_skal1_WEB,Each SKA1 telescope shall have an operational availability of 95%
+2005_skal1_WEB,System designs shall meet the system availability allocations specified in SKA- OFF.SE.ARC-SKAO-RAM-001
+2005_skal1_WEB,"Availability budgets shall be allocated at the system decomposition level, and shall be consistent with the system level requirements for reliability and maintainability of the system."
+2005_skal1_WEB,Best available methods for reducing adverse effects of operational and maintenance environments on critical components shall be adopted.
+2005_skal1_WEB,Any critical-useful-life components shall be identified.
+2005_skal1_WEB,Parts and components shall be selected to meet reliability requirements.
+2005_skal1_WEB,Parts requiring select on test shall be eliminated by deign if possible.
+2005_skal1_WEB,The failure rate of parts shall be known (e.g. through analysis or modelling) before inclusion in SKA design.
+2005_skal1_WEB,Parts with excessive failure rates shall be identified.
+2005_skal1_WEB,A testing and evaluation master plan shall be generated for high-risk reliability components.
+2005_skal1_WEB,Critical spare and repair line replaceable units shall be tested before deployment.
+2005_skal1_WEB,Safety factors and margins shall be applied in the selection of modules and components
+2005_skal1_WEB,The shelf life and wear out characteristics of all components and parts shall be known before inclusion in SKA designs.
+2005_skal1_WEB,"Critical parts requiring special procurement methods, testing and handling provisions shall be identified."
+2005_skal1_WEB,Designs shall implement fail-safe provisions to prevent secondary failures.
+2005_skal1_WEB,"Maintainability budgets shall be allocated at the system decomposition level, and shall be consistent with the system level requirements for reliability and maintainability of the system."
+2005_skal1_WEB,Where end user repair is applicable Test and Repair Instructions shall be delivered with all equipment.
+2005_skal1_WEB,The level of maintenance shall be identified for each repairable item.
+2005_skal1_WEB,Equipment required for test and support shall be identified for each repairable item.
+2005_skal1_WEB,The packaging of components shall be modular to limit maintenance to the removal of one module.
+2005_skal1_WEB,"Repairable items shall be designed to include maintenance provisions such as test points, accessibility, and plug-in components."
+2005_skal1_WEB,Discard at failure items shall be packed at low cost.
+2005_skal1_WEB,The design shall implement plug-in modules to the maximum extent possible.
+2005_skal1_WEB,"Where applicable, access between modules shall be sufficient to facilitate hand grasping."
+2005_skal1_WEB,Modules and components shall be mounted such that removal of any single item will not require the removal of other items (component stacking to be avoided where possible)
+2005_skal1_WEB,Modules shall be securely mounted (in compliance with the shock and vibration requirements) with the minimum number of fasteners.
+2005_skal1_WEB,Shock mounting provisions shall be made where applicable.
+2005_skal1_WEB,Provisions for the preclusion of mounting the wrong module shall be provided (key coding of connectors etc.).
+2005_skal1_WEB,Stand-offs and handles shall be used to protect system components from damage during shop maintenance.
+2005_skal1_WEB,Mounting guides and location pins shall be provided to facilitate module mounting.
+2005_skal1_WEB,"Where possible, labelling of modules shall be on the top or adjacent in plain sight."
+2005_skal1_WEB,Labels shall be permanently affixed and unlikely to come off during maintenance or as a result of the environment.
+2005_skal1_WEB, Disposable line replaceable units should be labelled as such.
+2005_skal1_WEB,There shall be a plan for the management of component obsolescence.
+2005_skal1_WEB,Long lead time items shall be identified to the project management.
+2005_skal1_WEB,The estimated availability of the parts shall be compatible with the final system's life cycle.
+2005_skal1_WEB,Product Assurance shall be managed following a process modelled on the SKA Product Assurance & Safety Plan SKA-OFF.PAQA-SKO-QP-00
+2005_skal1_WEB,"SKA1 dedicated workmanship standards shall cover all phases of production, assembly and integration, testing, handling, and include clear requirements for acceptance/rejection criteria."
+2005_skal1_WEB,Designs shall include an assessment of testability in accordance with BS EN IEC 60706-
+2005_skal1_WEB,Self-Test capability such that all faults can be identified down to LRU level shall be provided.
+2005_skal1_WEB,"Where possible, the system shall be designed to provide continuous performance monitoring."
+2005_skal1_WEB,All equipment malfunction shall be detected at the system level.
+2005_skal1_WEB,Access requiring tools shall be minimised.
+2005_skal1_WEB,All designs for the SKA shall be designed for economic production. This is required to ensure that the SKA is buildable for a reasonable cost (Con Ops Section 1.2)
+2005_skal1_WEB,Design definition shall be in sufficient detail to allow one or more manufacturers to produce the same item within identified tolerances.
+2005_skal1_WEB,"Where possible, currently existing facilities shall be used for manufacturing."
+2005_skal1_WEB," Where possible, standard manufacturing tools shall be used."
+2005_skal1_WEB,Each sub-system supplier shall provide a Materials list for all items intended for use within SKA1.
+2005_skal1_WEB,Each Element supplier shall provide a parts list for all items intended for use in the SKA1.
+2005_skal1_WEB,Each element supplier shall provide a process list for all items intended for use in the SKA1.
+2005_skal1_WEB,Each part shall be marked with a unique serial number in an easily visible location.
+2005_skal1_WEB,Each LRU type shall be identified with a unique drawing number
+2005_skal1_WEB,"Method of marking shall be compatible with the nature of the item, its environment and its use."
+2005_skal1_WEB,Where possible line replaceable items shall be marked with an Electronically readable or scannable ID
+2005_skal1_WEB,All packaging shall be marked with the part number of the contents.
+2005_skal1_WEB,All packaging shall be marked with the serial number of the contents.
+2005_skal1_WEB,All LRUs with electrostatic sensitive components shall be fitted with ESD warning labels.
+2005_skal1_WEB,All packaging containing static sensitive contents shall be marked with ESD warning labels.
+2005_skal1_WEB,All cables ends shall carry a unique identifier.
+2005_skal1_WEB,All connector plates shall carry identification labels for connectors.

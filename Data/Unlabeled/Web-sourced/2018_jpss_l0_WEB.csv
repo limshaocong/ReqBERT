@@ -1,0 +1,481 @@
+source,reqs
+2018_jpss_l0_web,The science products shall be designed to be integrated into the ESPC.
+2018_jpss_l0_web,The science products shall use ancillary data available through Product Distribution and Access (PDA).
+2018_jpss_l0_web,The science products shall use data (xDRs and ASD files) from the Infrastructure Segment and the Interface Data Processing Segment (IDPS).
+2018_jpss_l0_web,All science products shall be produced in NetCDF4 format.
+2018_jpss_l0_web,The science products shall include metadata that are compatible with the NetCDF Climate and Forecast (CF) Metadata Conventions.
+2018_jpss_l0_web,The science product geolocation latitude and longitude shall comply with the NetCDF Climate and Forecast (CF) Metadata Conventions.
+2018_jpss_l0_web,The science algorithm along with the NDE 2.0 IT resources shall produce products within the latency identified in Appendix A.
+2018_jpss_l0_web,The science products (EDRs) produced by the NESDIS ESPC shall meet the data product performance requirements as specified in the JPSS Level-1 Requirements Document-Supplement unless an exclusion or degradation condition occurs.
+2018_jpss_l0_web,"The EDR Accuracy, Precision, Uncertainty (APU) and Probability of Correct Typing (PCT) performance shall be assessed and validated against their requirements using correlative data."
+2018_jpss_l0_web,APU and PCT requirements shall apply only within the specified Measurement Range.
+2018_jpss_l0_web,Retrieved values within a product that are described by Degradation Conditions shall be identified.
+2018_jpss_l0_web,"Unless otherwise indicated for an EDR and where possible, retrieved values that are described by Exclusion Conditions shall be identified."
+2018_jpss_l0_web,The algorithm shall produce a cloud liquid water product that has a horizontal cell size of 15 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce a cloud liquid water product that has a measurement precision of 0.08 mm over sea.
+2018_jpss_l0_web,The algorithm shall produce a cloud liquid water product that has a measurement accuracy of 0.03 mm over sea.
+2018_jpss_l0_web,The algorithm shall produce an imagery product under all weather conditions.
+2018_jpss_l0_web,The algorithm shall produce an imagery product at each channels highest native resolution.
+2018_jpss_l0_web,The algorithm shall produce an imagery product where all channels are vertically and horizontally polarized.
+2018_jpss_l0_web,The algorithm shall produce an imagery product that has a horizontal reporting interval of 15 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce an imagery product that has a mapping uncertainty (3 sigma) of 5 km.
+2018_jpss_l0_web,The algorithm shall produce a land surface emissivity that has a horizontal cell size of 15 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce a land surface emissivity that has a measurement precision of 3.0% for 23.8 GHz (V-pol).
+2018_jpss_l0_web,The algorithm shall produce a land surface emissivity that has a measurement precision of 3.0% for 50.3 GHz (H-Pol).
+2018_jpss_l0_web,The algorithm shall produce a land surface emissivity that has a measurement precision of 4.0% for 165.5 GHz (H-Pol).
+2018_jpss_l0_web,The algorithm shall produce a land surface emissivity that has a measurement accuracy of 2.0% for 23.8 GHz (V-pol).
+2018_jpss_l0_web,The algorithm shall produce a land surface emissivity that has a measurement accuracy of 1.5% for 50.3 GHz (H-Pol).
+2018_jpss_l0_web,The algorithm shall produce a land surface emissivity that has a measurement accuracy of 1.5% for 165.5 GHz (H-Pol).
+2018_jpss_l0_web,The algorithm shall produce a moisture profile that has a horizontal reporting interval of 15 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce a moisture profile that has a vertical reporting interval from the surface to 0.01 mb.
+2018_jpss_l0_web,"The algorithm shall produce a moisture profile that has a measurement precision of 60% at 400 mb, 60 % at 500 mb, 50% at 700 mb, and 30 % at 900 mb for clear sea scenes."
+2018_jpss_l0_web,"The algorithm shall produce a moisture profile that has a measurement precision of 60% at 400 mb, 65 % at 500 mb, 60% at 700 mb, and 30 % at 900 mb for cloudy sea scenes."
+2018_jpss_l0_web,"The algorithm shall produce a moisture profile that has a measurement precision of 60% at 400 mb, 60 % at 500 mb, 50% at 700 mb, and 50 % at 900 mb for both clear and cloudy land scenes."
+2018_jpss_l0_web,"The algorithm shall produce a moisture profile that has a measurement accuracy of 30% at 400 mb, 20 % at 500 mb, 20% at 700 mb, and 20 % at 900 mb for clear sea scenes."
+2018_jpss_l0_web,"The algorithm shall produce a moisture profile that has a measurement accuracy of 30% at 400 mb, 20 % at 500 mb, 10% at 700 mb, and 20 % at 900 mb for cloudy sea scenes."
+2018_jpss_l0_web,"The algorithm shall produce a moisture profile that has a measurement accuracy of 30% at 400 mb, 10 % at 500 mb, 10% at 700 mb, and 20 % at 900 mb for both clear and cloudy land scenes."
+2018_jpss_l0_web,The algorithm shall produce a rain rate product that has a horizontal cell size of 15 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce a rain rate product that has a measurement precision of 1.0 mm/h over sea and 1.5 mm/h over land.
+2018_jpss_l0_web,The algorithm shall produce a rain rate product that has a measurement accuracy of 0.10 mm/h over sea and 0.05 mm/h over land.
+2018_jpss_l0_web,The algorithm shall produce a rain rate product that has a probability of detection of 50% over sea and 50% over land.
+2018_jpss_l0_web,The algorithm shall produce a rain rate product that has a false alarm rate of 5.0% over sea and 6.0% over land.
+2018_jpss_l0_web,The algorithm shall produce a rain rate product that has a Heidke Skill Score (HSS) (-1 - +1) of 0.30 over sea and 0.30 over land.
+2018_jpss_l0_web,The algorithm shall produce a sea ice concentration product that has a horizontal reporting interval of 15 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce a sea ice concentration product that has a measurement precision of 25%.
+2018_jpss_l0_web,The algorithm shall produce a sea ice concentration product that has a measurement accuracy 10%.
+2018_jpss_l0_web,The algorithm shall produce a snow cover product that has a horizontal cell size of 15 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce a snow cover product that has a probability of detection (0 – 1) of 0.80.
+2018_jpss_l0_web,The algorithm shall produce a snow cover product that has a false alarm ratio (0 – 1) of 0.10.
+2018_jpss_l0_web,The algorithm shall produce a snow cover product that has a Heidke Skill Score (- 1 - +1) of 0.55.
+2018_jpss_l0_web,The algorithm shall produce a snow water equivalent product that has a horizontal cell size of 15 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce a snow water equivalent product that has a measurement precision of 6.0 cm.
+2018_jpss_l0_web,The algorithm shall produce a snow water equivalent product that has a measurement accuracy of 3.0 cm.
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a horizontal reporting interval of 15 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a vertical reporting interval from the surface to 0.01 mb.
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 2.0 K at 100 mb for clear sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 2.0 K at 300 mb for clear sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 2.0 K at 500 mb for clear sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 3.0 K at 900 mb for clear sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 2.0 K at 100 mb for cloudy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 2.5 K at 300 mb for cloudy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 2.0 K at 500 mb for cloudy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 3.0 K at 900 mb for cloudy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 2.5 K at 100 mb for rainy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 2.5 K at 300 mb for rainy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 2.5 K at 500 mb for rainy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 3.5 K at 900 mb for rainy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 2.0 K at 100 mb for clear and cloudy land scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 2.0 K at 300 mb for clear and cloudy land scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 2.5 K at 500 mb for clear and cloudy land scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 5.5 K at 900 mb for clear and cloudy land scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 2.5 K at 100 mb for rainy land scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 2.5 K at 300 mb for rainy land scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 3.0 K at 500 mb for rainy land scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement precision of 5.5 K at 900 mb for rainy land scenes.
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 0.2 K at 100 mb for clear sea scenes.
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 0.5 K at 300 mb for clear sea scenes.
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 0.2 K at 500 mb for clear sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 1.5 K at 900 mb for clear sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 0.8 K at 100 mb for cloudy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 0.8 K at 300 mb for cloudy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 0.6 K at 500 mb for cloudy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 2.0 K at 900 mb for cloudy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 1.0 K at 100 mb for rainy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 1.5 K at 300 mb for rainy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 2.0 K at 500 mb for rainy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 2.0 K at 900 mb for rainy sea scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 0.5 K at 100 mb for clear and cloudy land scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 0.8 K at 300 mb for clear and cloudy land scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 0.2 K at 500 mb for clear and cloudy land scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 2.5 K at 900 mb for clear and cloudy land scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 1.5 K at 100 mb for rainy land scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 1.0 K at 300 mb for rainy land scenes;
+2018_jpss_l0_web,The algorithm shall produce a temperature profile product that has a measurement accuracy of 0.5 K at 500 mb for rainy land scenes;
+2018_jpss_l0_web,The algorithm shall produce a TPW product that has a horizontal cell size of 15 km at nadir.
+2018_jpss_l0_web,"The algorithm shall produce a TPW product that has a measurement precision of 2.5 mm for clear and cloudy scenes over the sea,"
+2018_jpss_l0_web,"The algorithm shall produce a TPW product that has a measurement precision of 2.0 mm for clear and cloudy scenes over sea ice,"
+2018_jpss_l0_web,"The algorithm shall produce a TPW product that has a measurement precision of 5.5 mm for clear and cloudy scenes over land, and"
+2018_jpss_l0_web,The algorithm shall produce a TPW product that has a measurement precision of 2.0 mm for clear and cloudy scenes over snow.
+2018_jpss_l0_web,"The algorithm shall produce a TPW product that has an accuracy of 1.5 mm for clear scenes over the sea,"
+2018_jpss_l0_web,"The algorithm shall produce a TPW product that has an accuracy of 0.5 mm for cloudy scenes over the sea,"
+2018_jpss_l0_web,"The algorithm shall produce a TPW product that has an accuracy of 2.0 mm for both clear and cloudy scenes over sea ice,"
+2018_jpss_l0_web,"The algorithm shall produce a TPW product that has an accuracy of 2.5 mm for both clear and cloudy scenes over land, and"
+2018_jpss_l0_web,The algorithm shall produce a TPW product that has an accuracy of 0.5 mm for both clear and cloudy scenes over snow.
+2018_jpss_l0_web,"The algorithm shall produce a TPW product that has a measurement uncertainty of 2.5 for both clear and cloudy scenes over the sea,"
+2018_jpss_l0_web,"The algorithm shall produce a TPW product that has a measurement uncertainty of 2.5 for both clear and cloudy scenes over sea ice,"
+2018_jpss_l0_web,"The algorithm shall produce a TPW product that has a measurement uncertainty of 5.5 for both clear and cloudy scenes over land, and"
+2018_jpss_l0_web,The algorithm shall produce a TPW product that has a measurement uncertainty of 2.0 for both clear and cloudy scenes over snow.
+2018_jpss_l0_web,"The algorithm shall incorporate fill and quality flag conditions including degraded, excluded or other applicable quality conditions."
+2018_jpss_l0_web,The algorithm shall produce a CO2 product that has a vertical coverage of the total column.
+2018_jpss_l0_web,The algorithm shall produce a CO2 product that has a horizontal resolution of 100 km.
+2018_jpss_l0_web,The algorithm shall produce a CO2 product that has a mapping uncertainty (3 sigma) of 25 km.
+2018_jpss_l0_web,The algorithm shall produce a CO2 product that has a measurement range of 300 to 500 ppmv (Note 1).
+2018_jpss_l0_web,The algorithm shall produce a CO2 product that has a measurement precision of 0.5% (2 ppmv) (Note 2).
+2018_jpss_l0_web,The algorithm shall produce a CO2 product that has a measurement accuracy of +/-1% (4 ppmv) (Note 3).
+2018_jpss_l0_web,The algorithm shall produce a CO product that has a vertical coverage of the total column.
+2018_jpss_l0_web,The algorithm shall produce a CO product that has a horizontal resolution of 100 km.
+2018_jpss_l0_web,The algorithm shall produce a CO product that has a mapping uncertainty (3 sigma) of 25 km.
+2018_jpss_l0_web,The algorithm shall produce a CO product that has a measurement range of 0 to 200 ppbv.
+2018_jpss_l0_web,The algorithm shall produce a CO product that has a measurement precision of 15%.
+2018_jpss_l0_web,The algorithm shall produce a CO product that has a measurement accuracy of 5%.
+2018_jpss_l0_web,The algorithm shall produce a CH4 product that has a vertical coverage of the total column.
+2018_jpss_l0_web,The algorithm shall produce a CH4 product that has a horizontal resolution of 100 km.
+2018_jpss_l0_web,The algorithm shall produce a CH4 product that has a mapping uncertainty (3 sigma) of 25 km.
+2018_jpss_l0_web,The algorithm shall produce a CH4 product that has a measurement range of 1100 to 2250 ppbv (Note 1).
+2018_jpss_l0_web,The algorithm shall produce a CH4 product that has a measurement precision of 1% (~ 20 ppbv) (Note 2).
+2018_jpss_l0_web,The algorithm shall produce a CH4 product that has a measurement accuracy of +/-4% (~ 80 ppbv) (Note 3).
+2018_jpss_l0_web,The algorithm shall produce an infrared ozone profile product that has a horizontal cell size of 50 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce an infrared ozone profile product on the native retrieval reporting interval (usually the forward model’s vertical grid) such that users can vertically remap the product without the loss of vertical information content.
+2018_jpss_l0_web,The algorithm shall produce an infrared ozone profile product that has a mapping uncertainty (3 sigma) of 10 km.
+2018_jpss_l0_web,The algorithm shall produce an infrared ozone profile product that has a measurement precision of 20% from 4 hPa to 260 hPa (6 statistic layers) and 20% form 260 hPa to the surface (1 statistic layer).
+2018_jpss_l0_web,The algorithm shall produce an infrared ozone profile product that has a measurement accuracy of 10% from 4 hPa to 250 hPa (6 statistic layers) and 10% from 260 hPa to the surface (1 statistic layer).
+2018_jpss_l0_web,The algorithm shall produce an infrared ozone profile product that has a measurement uncertainty of 25% from 4 hPa to 250 hPa (6 statistic layers) and 25% from 260 hPa to the surface (1 statistic layer).
+2018_jpss_l0_web,"The algorithm shall produce an OLR product during daytime and nighttime, regardless of sky conditions."
+2018_jpss_l0_web,The algorithm shall produce an OLR product that has a horizontal cell size of 25 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce an OLR product that has a mapping uncertainty (3 sigma) of 5 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce an OLR product that has a measurement range of 0 to 500 W/m2.
+2018_jpss_l0_web,The algorithm shall produce an OLR product that has a measurement precision of 12 W/m2.
+2018_jpss_l0_web,The algorithm shall produce an OLR product that has a measurement accuracy of 5 W/m2.
+2018_jpss_l0_web,The algorithm shall produce the AVMP product under Day and Night conditions.
+2018_jpss_l0_web,"The algorithm shall produce the AVMP product under cloud-free, partly cloudy, and cloudy conditions."
+2018_jpss_l0_web,The algorithm shall produce the AVMP product that has a horizontal cell size of 50 km at nadir (Note 1).
+2018_jpss_l0_web,The algorithm shall produce the AVMP product that has a vertical reporting interval of 20 mb from surface to 850 mb and 50 mb from 850 mb to 100 mb.
+2018_jpss_l0_web,The algorithm shall produce the AVMP product that has a mapping uncertainty (3 sigma) of 5 km.
+2018_jpss_l0_web,"The algorithm shall produce the AVMP product that has a measurement uncertainty (expressed as a percent of average mixing ratio in 2 km layers) of greater of 20 % or 0.2 g/kg for cloud-free to partly cloudy, surface to 600 mb (Note 2);"
+2018_jpss_l0_web,"The algorithm shall produce the AVMP product that has a measurement uncertainty (expressed as a percent of average mixing ratio in 2 km layers) of greater of 35 % or 0.1 g/kg for cloud-free to partly cloudy, 600 mb to 300 mb (Note 2);"
+2018_jpss_l0_web,"The algorithm shall produce the AVMP product that has a measurement uncertainty (expressed as a percent of average mixing ratio in 2 km layers) of greater of 35 % or 0.1 g/kg for cloud-free to partly cloudy, 300 mb to 100 mb (Note 2);"
+2018_jpss_l0_web,"The algorithm shall produce the AVMP product that has a measurement uncertainty (expressed as a percent of average mixing ratio in 2 km layers) of greater of 20 % or 0.2 g/kg for cloudy, surface to 600 mb (Note 3); Greater of 40 % or 0.1 g/kg for cloudy, 600 mb to 400 mb (Note 3); and Greater of 40 % or 0.1 g/kg for cloudy, 400 mb to 100 mb (Note 3)."
+2018_jpss_l0_web,"The algorithm shall produce the AVMP product that incorporates fill and quality flag conditions including degraded, excluded or other applicable quality conditions."
+2018_jpss_l0_web,The algorithm shall produce the AVTP product under Day and Night conditions.
+2018_jpss_l0_web,"The algorithm shall produce an AVTP product under cloud-free, partly cloudy, and cloudy conditions."
+2018_jpss_l0_web,The algorithm shall produce an AVTP product that has a horizontal cell size of 50 km at nadir (Note 1).
+2018_jpss_l0_web,The algorithm shall produce an AVTP product that has a vertical reporting interval of 20 mb from the surface to 850 mb; 50 mb from 850 mb to 300 mb;
+2018_jpss_l0_web,The algorithm shall produce an AVTP product that has a vertical reporting interval of 25 mb from 300 mb to 100 mb;
+2018_jpss_l0_web,The algorithm shall produce an AVTP product that has a vertical reporting interval of 20 mb from 100 mb to 10 mb;
+2018_jpss_l0_web,"The algorithm shall produce an AVTP product that has a vertical reporting interval of 2 mb from 10 mb to 1.0 mb, and"
+2018_jpss_l0_web,The algorithm shall produce an AVTP product that has a vertical reporting interval of 0.2 mb from 1.0 mb to 0.5 mb.
+2018_jpss_l0_web,The algorithm shall produce an AVTP product that has a mapping uncertainty (3 sigma) of 5 km.
+2018_jpss_l0_web,"The algorithm shall produce an AVTP product that has a measurement uncertainty expressed as an error in layer average temperature of 1.6 K per 1 km layer for cloud-free to partly cloudy, surface to 300 mb over ocean (Note 2);"
+2018_jpss_l0_web,"The algorithm shall produce an AVTP product that has a measurement uncertainty expressed as an error in layer average temperature of 1.5 K per 3 km layer for cloud-free to partly cloudy, 300 mb to 30 mb (Note 2);"
+2018_jpss_l0_web,"The algorithm shall produce an AVTP product that has a measurement uncertainty expressed as an error in layer average temperature of 1.5 K per 5 km layer for cloud-free to partly cloudy, 30 mb to 1 mb (Note 2);"
+2018_jpss_l0_web,"The algorithm shall produce an AVTP product that has a measurement uncertainty expressed as an error in layer average temperature of 3.5 K per 5 km layer for cloud-free to partly cloudy, 1 mb to 0.5 mb (Note 2);"
+2018_jpss_l0_web,"The algorithm shall produce an AVTP product that has a measurement uncertainty expressed as an error in layer average temperature of 2.5 K per 1 km layer for cloudy, surface to 700 mb (Note 3);"
+2018_jpss_l0_web,"The algorithm shall produce an AVTP product that has a measurement uncertainty expressed as an error in layer average temperature of 1.5 K per 1 km layer for cloudy, 700 mb to 300 mb (Note 3);"
+2018_jpss_l0_web,"The algorithm shall produce an AVTP product that has a measurement uncertainty expressed as an error in layer average temperature of 1.5 K per 3 km layer for cloudy, 300 mb to 30 mb (Note 3);"
+2018_jpss_l0_web,"The algorithm shall produce an AVTP product that has a measurement uncertainty expressed as an error in layer average temperature of 1.5 K per 3 km layer for cloudy, 30 mb to 1 mb (Note 3); and"
+2018_jpss_l0_web,"The algorithm shall produce an AVTP product that has a measurement uncertainty expressed as an error in layer average temperature of 3.5 K per 5 km layer for cloudy, 1 mb to 0.5 mb (Note 3)."
+2018_jpss_l0_web,The algorithm shall produce an ozone nadir profile product that has a horizontal cell size of 250 x 250 km (Note 1).
+2018_jpss_l0_web,The algorithm shall produce an ozone nadir profile product that provides atmospheric vertical ozone profiles with a vertical cell size of 5 km.
+2018_jpss_l0_web,"The algorithm shall produce an ozone nadir profile product that has a vertical cell size of 10-20 km below 30 hPa,"
+2018_jpss_l0_web,"The algorithm shall produce an ozone nadir profile product that has a vertical cell size of 7-10 km from 30-1 hPa, and"
+2018_jpss_l0_web,The algorithm shall produce an ozone nadir profile product that has a vertical cell size of 10-20 km above 1 hPa.
+2018_jpss_l0_web,The algorithm shall produce an ozone nadir profile product that has a mapping uncertainty (3 sigma) of < 25 km.
+2018_jpss_l0_web,The algorithm shall produce an ozone nadir profile product that has a measurement range of 0.1-15 ppmv for 0-60 km.
+2018_jpss_l0_web,"The algorithm shall produce an ozone nadir profile product that has a measurement precision of Greater of 20% or 0.1 ppmv below 30 hPa,"
+2018_jpss_l0_web,"The algorithm shall produce an ozone nadir profile product that has a measurement precision of Greater of 10% or 0.1 ppmv at 30 hPa,"
+2018_jpss_l0_web,"The algorithm shall produce an ozone nadir profile product that has a measurement precision of 5% - 10 % from 30 – 1 hPa, and"
+2018_jpss_l0_web,The algorithm shall produce an ozone nadir profile product that has a measurement precision of Greater of 10% or 0.1 ppmv above 1 hPa. (Note 2)
+2018_jpss_l0_web,"The algorithm shall produce an ozone nadir profile product that has a measurement accuracy of Greater of 10% or 0.1 ppmv below 30 hPa,"
+2018_jpss_l0_web,"The algorithm shall produce an ozone nadir profile product that has a measurement accuracy of 5% - 10 % from 30 – 1 hPa,"
+2018_jpss_l0_web,"The algorithm shall produce an ozone nadir profile product that has a measurement accuracy of Greater of 10% or 0.1 ppmv at 1 hPa, and"
+2018_jpss_l0_web,The algorithm shall produce an ozone total column product that has a horizontal cell size of 50 x 50 km2 at Nadir.
+2018_jpss_l0_web,The algorithm shall produce an ozone total column product that has a vertical cell size of 0-60 km.
+2018_jpss_l0_web,"The algorithm shall produce an ozone total column product that has a mapping uncertainty, 1 sigma, of 5 km at Nadir."
+2018_jpss_l0_web,The algorithm shall produce an ozone total column product that has a measurement range of 50-650 milli-atm-cm.
+2018_jpss_l0_web,"The algorithm shall produce an ozone total column product that has a measurement precision of 6.0 milli-atm-cm for X<0.25 atm-cm,"
+2018_jpss_l0_web,"The algorithm shall produce an ozone total column product that has a measurement precision of 7.7 milli-atm-cm for 0.25 < X < 0.45 atm-cm, and"
+2018_jpss_l0_web,The algorithm shall produce an ozone total column product that has a measurement precision of 2.8 milli-atm-cm + 1.1% for X>0.45 atm-cm.
+2018_jpss_l0_web,"The algorithm shall produce an ozone total column product that has a measurement accuracy of 9.5 milli-atm-cm for X<0.25 atm-cm,"
+2018_jpss_l0_web,"The algorithm shall produce an ozone total column product that has a measurement accuracy of 13.0 milli-atm-cm for 0.25 < X < 0.45 atm-cm, and"
+2018_jpss_l0_web,The algorithm shall produce an ozone total column product that has a measurement accuracy of 16.0 milli-atm-cm + 1.1% for X>0.45 atm-cm.
+2018_jpss_l0_web,The algorithm shall produce an Active Fires product with a horizontal cell size of 0.80 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce an Active Fires product with a horizontal reporting interval of 0.80 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce an Active Fires product globally (Note 2).
+2018_jpss_l0_web,"The algorithm shall produce an Active Fires product with a mapping uncertainty, 3 sigma, of 1.5 km."
+2018_jpss_l0_web,The algorithm shall produce an Active Fires Radiative Power product with a measurement range of 1.0 MW to 5.0 (10)3 MW (Note 3).
+2018_jpss_l0_web,The algorithm shall produce an Active Fires Radiative Power product with a measurement uncertainty of 50%.
+2018_jpss_l0_web,The algorithm shall produce an aerosol detection product that has a horizontal cell size of 0.8 km at Nadir (Note 2).
+2018_jpss_l0_web,The algorithm shall produce an aerosol detection product that has a vertical cell size of the total column.
+2018_jpss_l0_web,The algorithm shall produce an aerosol detection product that has a mapping uncertainty (3 sigma) of 3 km.
+2018_jpss_l0_web,The algorithm shall produce an aerosol detection product that has a probability of correct typing (Note 2) of
+2018_jpss_l0_web,The algorithm shall produce an aerosol detection product that has a probability of correct typing (Note 2) of 80% for suspended matter
+2018_jpss_l0_web,The algorithm shall produce an aerosol detection product that has a probability of correct typing (Note 2) of 80% for Dust
+2018_jpss_l0_web,The algorithm shall produce an aerosol detection product that has a probability of correct typing (Note 2) of 70% for Smoke
+2018_jpss_l0_web,The algorithm shall produce an aerosol optical depth with a vertical coverage of the total column.
+2018_jpss_l0_web,The algorithm shall produce an aerosol optical depth with a horizontal cell size of 0.8 km at Nadir and
+2018_jpss_l0_web,The algorithm shall produce an aerosol optical depth with a horizontal cell size of 1.6 km at the edge of scan.
+2018_jpss_l0_web,The algorithm shall produce an aerosol optical depth with a vertical cell size of the total column.
+2018_jpss_l0_web,The algorithm shall produce an aerosol optical depth with a mapping uncertainty (3 sigma) of 4 km (Note 2)
+2018_jpss_l0_web,The algorithm shall produce an aerosol optical depth with a measurement range from -0.05 to 5 (Note 5).
+2018_jpss_l0_web,"The algorithm shall produce an aerosol optical depth with a measurement accuracy of 0.08 (Tau < 0.3) and 0.15 (Tau >= 0.3) over ocean (Notes 1, 2, 3, and 4) and 0.06 (Tau < 0.1), 0.05 (0.1 <= Tau <= 0.8), and 0.2 (Tau > 0.8) over land."
+2018_jpss_l0_web,The algorithm shall produce an aerosol optical depth with a measurement precision of 0.15 (Tau < 0.3) and 0.35 (Tau >= 0.3) over ocean
+2018_jpss_l0_web,"The algorithm shall produce an aerosol optical depth with a measurement precision of 0.15 (Tau < 0.1), 0.25 (0.1 <= Tau <= 0.8), and 0.45 (Tau > 0.8) over land"
+2018_jpss_l0_web,The algorithm shall produce an aerosol particle size product with a horizontal cell size of 0.8 km at Nadir and 1.6 km at the edge of scan.
+2018_jpss_l0_web,The algorithm shall produce an aerosol particle size product with a vertical cell size of the total column.
+2018_jpss_l0_web,The algorithm shall produce an aerosol particle size product with a mapping uncertainty (3 sigma) of 4 km.
+2018_jpss_l0_web,The algorithm shall produce an aerosol particle size product with a measurement range of -1 to +3 alpha units (Note 2).
+2018_jpss_l0_web,The algorithm shall produce an aerosol particle size product with a measurement precision of 0.6 alpha units over ocean (Note 2).
+2018_jpss_l0_web,The algorithm shall produce an aerosol particle size product with a measurement accuracy of 0.3 alpha units over ocean (Note 2).
+2018_jpss_l0_web,The algorithm shall produce a cloud cover/layers product that has a horizontal cell size of 10 km.
+2018_jpss_l0_web,The algorithm shall produce a cloud cover/layers product that has a vertical reporting interval of cloud cover in 3 predefined layers and total cloud cover in the column.
+2018_jpss_l0_web,The algorithm shall produce a cloud cover/layers product that has a mapping uncertainty (3 sigma) of 4 km.
+2018_jpss_l0_web,The algorithm shall produce a cloud cover/layers product that has a measurement range from 0 to 1.0 horizontal cell size (HCS) area.
+2018_jpss_l0_web,The algorithm shall produce a cloud cover/layers product that has a measurement uncertainty of 15%.
+2018_jpss_l0_web,The algorithm shall produce a cloud height product that has a horizontal cell size of 0.8 km.
+2018_jpss_l0_web,The algorithm shall produce a cloud height product that has a vertical reporting interval of top and base of highest cloud in the column.
+2018_jpss_l0_web,The algorithm shall produce a cloud height product that has a mapping uncertainty (3 sigma) of 4 km.
+2018_jpss_l0_web,The algorithm shall produce a cloud top height product that has a measurement precision of 1.0 km for COT >= 1.
+2018_jpss_l0_web,The algorithm shall produce a cloud top height product that has a measurement precision of 2.0 km for COT < 1.
+2018_jpss_l0_web,The algorithm shall produce a cloud base height product that has a measurement precision of 2.0 km for COT >= 1.
+2018_jpss_l0_web,The algorithm shall produce a cloud base height product that has a measurement precision of 3.0 km for COT < 1 (Note 2).
+2018_jpss_l0_web,The algorithm shall produce a cloud mask product that has a horizontal cell size of 0.8 km at Nadir.
+2018_jpss_l0_web,The algorithm shall produce a cloud mask product that has a horizontal reporting interval the same as the cloud mask horizontal cell size.
+2018_jpss_l0_web,The algorithm shall produce a cloud mask product that has a mapping uncertainty (3 sigma) of 4 km.
+2018_jpss_l0_web,The algorithm shall produce a cloud mask product that has measurement range of cloudy/not cloudy.
+2018_jpss_l0_web,"The algorithm shall produce a cloud mask product that has a probability of correct typing of 87% Globally,"
+2018_jpss_l0_web,"The algorithm shall produce a cloud mask product that has a probability of correct typing of 92% Ocean, Day,"
+2018_jpss_l0_web,"The algorithm shall produce a cloud mask product that has a probability of correct typing of 90% Ocean, Night,"
+2018_jpss_l0_web,"The algorithm shall produce a cloud mask product that has a probability of correct typing of 90% Snow-free Land, Day"
+2018_jpss_l0_web,"The algorithm shall produce a cloud mask product that has a probability of correct typing of 88% Snow-free Land, Night"
+2018_jpss_l0_web,"The algorithm shall produce a cloud mask product that has a probability of correct typing of 85% Desert, Day."
+2018_jpss_l0_web,"The algorithm shall produce a cloud mask product that has a probability of correct typing of 85% Desert, Night,"
+2018_jpss_l0_web,"The algorithm shall produce a cloud mask product that has a probability of correct typing of 88% Snow-covered land, Day"
+2018_jpss_l0_web,"The algorithm shall produce a cloud mask product that has a probability of correct typing of 85% Snow-covered land, Night"
+2018_jpss_l0_web,"The algorithm shall produce a cloud mask product that has a probability of correct typing of 82% Sea-Ice, Day."
+2018_jpss_l0_web,"The algorithm shall produce a cloud mask product that has a probability of correct typing of 72% Sea-Ice, Night,"
+2018_jpss_l0_web,"The algorithm shall produce a cloud mask product that has a probability of correct typing of 80% Antarctica and Greenland, Day"
+2018_jpss_l0_web,"The algorithm shall produce a cloud mask product that has a probability of correct typing of 70% Antarctica and Greenland, Night."
+2018_jpss_l0_web,The algorithm shall produce a cloud optical depth product that has a horizontal cell size of 0.8 km.
+2018_jpss_l0_web,The algorithm shall produce a cloud optical depth product that has a mapping uncertainty (3 sigma) of 4 km.
+2018_jpss_l0_web,The algorithm shall produce a cloud optical depth product that has a measurement range of 0.3 – 64 (Day) and
+2018_jpss_l0_web,The algorithm shall produce a cloud optical depth product that has a measurement range of 0.3 – 8 (Night).
+2018_jpss_l0_web,The algorithm shall produce a cloud optical depth product that has a measurement precision of greater of 30% or 3.0 Tau (Day) and greater of 30% or 0.8 Tau (Night).
+2018_jpss_l0_web,"The algorithm shall produce a cloud optical depth product that has a measurement accuracy of liquid phase: 20% (Day), 30% (Night);"
+2018_jpss_l0_web,"The algorithm shall produce a cloud optical depth product that has a measurement accuracy of ice phase: 20% (Day), 30% (Night)."
+2018_jpss_l0_web,The algorithm shall produce a cloud particle size distribution product that has a horizontal cell size of 0.8 km.
+2018_jpss_l0_web,The algorithm shall produce a cloud particle size distribution product that has a mapping uncertainty (3 sigma) of 4 km.
+2018_jpss_l0_web,"The algorithm shall produce a cloud particle size distribution product that has a measurement range of 2 to 50 µm (day),"
+2018_jpss_l0_web,"The algorithm shall produce a cloud particle size distribution product that has a measurement range of 2 to 32 µm for water (night), and"
+2018_jpss_l0_web,The algorithm shall produce a cloud particle size distribution product that has a measurement range of 2 to 50 µm for ice (night).
+2018_jpss_l0_web,The algorithm shall produce a cloud particle size distribution product that has a measurement precision of greater of 4 µm or 25% for water and greater of 10 µm or 25% for ice.
+2018_jpss_l0_web,The algorithm shall produce a cloud particle size distribution product that has a measurement accuracy of greater of 4 µm or 30% for water and 10 µm for ice.
+2018_jpss_l0_web,The algorithm shall produce a cloud phase product that has a horizontal cell size of 0.8 km.
+2018_jpss_l0_web,The algorithm shall produce a cloud phase product that has a mapping uncertainty (3 sigma) of 4 km.
+2018_jpss_l0_web,The algorithm shall produce a cloud phase product that has a measurement accuracy of 80% correct classification (Cloud Phase).
+2018_jpss_l0_web,The algorithm shall produce a cloud phase product that has a measurement accuracy of 60% Correct Classification (Cloud Type).
+2018_jpss_l0_web,The algorithm shall produce a cloud top pressure product with a horizontal cell size of 0.8 km.
+2018_jpss_l0_web,The algorithm shall produce a cloud top pressure product with a vertical reporting interval of tops of up to four layers.
+2018_jpss_l0_web,The algorithm shall produce a cloud top pressure product with a mapping uncertainty (3 sigma) of 4 km.
+2018_jpss_l0_web,The algorithm shall produce a cloud top pressure product with a measurement 100 hPa for COT >= 1 and 200 hPa for COT < 1.
+2018_jpss_l0_web,The algorithm shall produce a cloud top temperature product with a horizontal cell size of 0.8 km.
+2018_jpss_l0_web,The algorithm shall produce a cloud top temperature product with a vertical reporting interval of tops of highest cloud in the column.
+2018_jpss_l0_web,The algorithm shall produce a cloud top temperature product with a mapping uncertainty (3 sigma) of 4 km.
+2018_jpss_l0_web,The algorithm shall produce a cloud top temperature product with a measurement precision of 6 K for COT >=1.
+2018_jpss_l0_web,The algorithm shall produce a cloud top temperature product with a measurement precision of 12 K for COT <1.
+2018_jpss_l0_web,The algorithm shall produce a GVF product that has a horizontal cell size of 16 km.
+2018_jpss_l0_web,The algorithm shall produce a GVF product that has a mapping uncertainty (3 sigma) of 4 km.
+2018_jpss_l0_web,The algorithm shall produce a GVF product that has a measurement precision of 15% globally and regionally.
+2018_jpss_l0_web,The algorithm shall produce a GVF product that has a measurement accuracy of 12% globally and regionally.
+2018_jpss_l0_web,The algorithm shall produce a GVF product that has a measurement uncertainty of 17% globally and regionally.
+2018_jpss_l0_web,The algorithm shall produce an ice age/thickness product that has a vertical coverage of the ice surface.
+2018_jpss_l0_web,The algorithm shall produce an ice age/thickness product that has a horizontal cell size of 1.0 km in clear conditions.
+2018_jpss_l0_web,The algorithm shall produce an ice age/thickness product that has a mapping uncertainty (3 sigma) of 1 km at Nadir for clear pixels.
+2018_jpss_l0_web,"The algorithm shall produce an ice age/thickness product that has a measurement range of Ice free, New/Young Ice, all other ice for Ice Age"
+2018_jpss_l0_web,"The algorithm shall produce an ice age/thickness product that has a measurement uncertainty of 70% for Ice Age probability of correct typing (Notes 1, 2, 3)."
+2018_jpss_l0_web,The algorithm shall produce an ice age/thickness product in all ice-covered regions of the global ocean.
+2018_jpss_l0_web,The algorithm shall produce an ice concentration product that has a vertical coverage of the ice surface.
+2018_jpss_l0_web,The algorithm shall produce an ice concentration product that has a horizontal cell size of 1.0 km in clear conditions.
+2018_jpss_l0_web,The algorithm shall produce an ice concentration product that has a mapping uncertainty (3 sigma) of 1 km at Nadir for clear pixels.
+2018_jpss_l0_web,The algorithm shall produce an ice concentration product that has a measurement range of 0 – 100%.
+2018_jpss_l0_web,"The algorithm shall produce an ice concentration product that has a measurement accuracy of 10% (Notes 1, 2, 3)."
+2018_jpss_l0_web,"The algorithm shall produce an ice concentration product that has a measurement uncertainty of 25% (Notes 1, 2, 3)."
+2018_jpss_l0_web,The algorithm shall produce an ice concentration product in all ice-covered regions of the global ocean.
+2018_jpss_l0_web,The algorithm shall produce an ice surface temperature product with a sensing depth of the ice surface.
+2018_jpss_l0_web,The algorithm shall produce an ice surface temperature product with a horizontal cell size of 1 km at Nadir and 1.6 km at worst case.
+2018_jpss_l0_web,The algorithm shall produce an ice surface temperature product with a mapping uncertainty (3 sigma) of 1 km at Nadir and 1.6 km at worst case.
+2018_jpss_l0_web,The algorithm shall produce an ice surface temperature product with a measurement range of 213-275 K.
+2018_jpss_l0_web,The algorithm shall produce an ice surface temperature product with a measurement uncertainty of 1 K.
+2018_jpss_l0_web,The algorithm shall produce an ice surface temperature product with a geographic coverage of ice-covered oceans (Note 1).
+2018_jpss_l0_web,The algorithm shall produce a land surface temperature product with a horizontal cell size of 0.80 km.
+2018_jpss_l0_web,The algorithm shall produce a land surface temperature product with a mapping uncertainty (3 sigma) of 1 km at Nadir.
+2018_jpss_l0_web,The algorithm shall produce a land surface temperature product with a measurement range of 213 – 343 K.
+2018_jpss_l0_web,The algorithm shall produce a land surface temperature product with a measurement precision (1 sigma) of 2.5 K (Note 1).
+2018_jpss_l0_web,The algorithm shall produce a land surface temperature product with a measurement accuracy (bias) of 1.4 K (Note 1).
+2018_jpss_l0_web,The algorithm shall produce an OC/C product during clear conditions.
+2018_jpss_l0_web,The algorithm shall produce an OC/C product during daytime conditions.
+2018_jpss_l0_web,The algorithm shall produce an OC/C product that has a horizontal cell size of 0.75 km at nadir (worst case of 1.6 km).
+2018_jpss_l0_web,The algorithm shall produce an OC/C product that has a mapping uncertainty (3 sigma) of 0.75 at nadir (worst case 1.6 km).
+2018_jpss_l0_web,"The algorithm shall produce an OC/C product that has a measurement range of 0.1 – 50 W/m2/um/sr for ocean color,"
+2018_jpss_l0_web,"The algorithm shall produce an OC/C product that has a measurement range of 4.6/(10)2 to 1.0/m for optical properties – absorption,"
+2018_jpss_l0_web,"The algorithm shall produce an OC/C product that has a measurement range of 4.0/(10)4 to 1.1/(10)2/m for optical properties – backscattering, and"
+2018_jpss_l0_web,The algorithm shall produce an OC/C product that has a measurement range of 0.01 to 100 mg/m3 for chlorophyll.
+2018_jpss_l0_web,"The algorithm shall produce an OC/C product that has a measurement precision (open ocean, blue band) of 10% operational (5% science quality) for ocean color, 20% for optical properties,"
+2018_jpss_l0_web,"The algorithm shall produce an OC/C product that has a measurement precision (open ocean, blue band) of 30% for chlorophyll at Ch1 < 1 mg/m3"
+2018_jpss_l0_web,"The algorithm shall produce an OC/C product that has a measurement precision (open ocean, blue band) of 30% for chlorophyll at 1.0 mg/m3 < Ch1 < 10 mg/m3, and 50% for chlorophyll at Ch1 > 10 mg/m3."
+2018_jpss_l0_web,"The algorithm shall produce an OC/C product that has a measurement accuracy (open ocean, blue band) of 10% operational (5% science quality) for ocean color,"
+2018_jpss_l0_web,"The algorithm shall produce an OC/C product that has a measurement accuracy (open ocean, blue band) of 35% operational (25% science quality) for optical properties,"
+2018_jpss_l0_web,"The algorithm shall produce an OC/C product that has a measurement accuracy (open ocean, blue band) of 35% operational (25% science quality) for chlorophyll at Ch1 < 1 mg/m3"
+2018_jpss_l0_web,"The algorithm shall produce an OC/C product that has a measurement accuracy (open ocean, blue band) of 30% operational (25% science quality) for chlorophyll at 1.0 mg/m3 < Ch1 < 10 mg/m3, and"
+2018_jpss_l0_web,"The algorithm shall produce an OC/C product that has a measurement accuracy (open ocean, blue band) of 40% operational (30% science quality) for chlorophyll at Ch1 > 10 mg/m3."
+2018_jpss_l0_web,The algorithm shall produce an OC/C product that demonstrates that nLw errors in the contributing sensor bands are spectrally correlated as observed in heritage data.
+2018_jpss_l0_web,The algorithm shall produce a polar winds product that has vertical coverage from the surface to the tropopause.
+2018_jpss_l0_web,The algorithm shall produce a polar winds product that has a horizontal resolution of 10 km.
+2018_jpss_l0_web,The algorithm shall produce a polar winds product that has a vertical reporting interval at cloud tops.
+2018_jpss_l0_web,The algorithm shall produce a polar winds product that has a mapping uncertainty (3 sigma) of 5 km.
+2018_jpss_l0_web,The algorithm shall produce a polar winds product that has a measurement range of 3 to 100 m/sec for speed and 0 to 360 degrees for direction.
+2018_jpss_l0_web,The algorithm shall produce a polar winds product that has a measurement precision mean vector difference of 3.8 m/sec.
+2018_jpss_l0_web,The algorithm shall produce a polar winds product that has a measurement accuracy mean vector difference of 7.5 m/sec.
+2018_jpss_l0_web,The algorithm shall produce a SST product that has a horizontal cell size of 1.6 km (Note 1).
+2018_jpss_l0_web,The algorithm shall produce a SST product that has a mapping uncertainty (3 sigma) of 2 km (Note 1).
+2018_jpss_l0_web,The algorithm shall produce a SST product that has a measurement range of 271 K to 313 K.
+2018_jpss_l0_web,The algorithm shall produce a SST product that has a measurement accuracy of 0.2 K.
+2018_jpss_l0_web,The algorithm shall produce a SST product that has a measurement precision of 0.6 K.
+2018_jpss_l0_web,The algorithm shall produce a SST product that has a geographic coverage of global cloud and ice-free ocean – excluding lakes and rivers.
+2018_jpss_l0_web,The algorithm shall produce a snow cover product that has a horizontal cell size of 1.6 km (edge of scan) for clear pixels.
+2018_jpss_l0_web,"The algorithm shall produce a snow cover product that has a measurement range, snow cover, of 0-100% area fraction."
+2018_jpss_l0_web,"The algorithm shall produce a snow cover product that has a measurement range, snow cover, of 0 or 1 binary mask."
+2018_jpss_l0_web,The algorithm shall produce a snow cover product that has a mapping uncertainty (3 sigma) of 3 km for clear pixels.
+2018_jpss_l0_web,The algorithm shall produce a snow cover product that has a measurement uncertainty of 20% snow fraction.
+2018_jpss_l0_web,"The algorithm shall produce a snow cover product that has a measurement uncertainty of 90 % probability of correct snow/no-snow classification for clear pixels (Notes 2, 3)."
+2018_jpss_l0_web,The algorithm shall produce a surface albedo product with a horizontal cell size of 0.80 km.
+2018_jpss_l0_web,The algorithm shall produce a surface albedo product with a mapping uncertainty (3 sigma) of 1 km at Nadir.
+2018_jpss_l0_web,The algorithm shall produce a surface albedo product with a measurement range of 0 to 1.0 (albedo units).
+2018_jpss_l0_web,The algorithm shall produce a surface albedo product with a measurement precision of 0.05 (albedo units).
+2018_jpss_l0_web,The algorithm shall produce a surface albedo product with a measurement accuracy of 0.08 (albedo units).
+2018_jpss_l0_web,"The algorithm shall produce a surface albedo product with geographic coverage of global, including land ocean and ice surface conditions."
+2018_jpss_l0_web,The algorithm shall produce a surface albedo product with spectra coverage of broad band values from 0.4 to 4.0 microns.
+2018_jpss_l0_web,The algorithm shall produce a surface reflectance product with a horizontal cell size of 0.80 km for radiometric and 0.40 km for imagery bands.
+2018_jpss_l0_web,"The algorithm shall produce a surface reflectance product with a mapping uncertainty, 3 Sigma, of the VIIRS SDR pixel geolocation uncertainty."
+2018_jpss_l0_web,The algorithm shall produce a surface reflectance product with a measurement range of 0-1.
+2018_jpss_l0_web,The algorithm shall produce a surface reflectance product with a measurement Accuracy 0.005+0.05?. (Note 1)
+2018_jpss_l0_web,The algorithm shall produce a surface reflectance product with a measurement Precision of 0.005+0.05?. (Note 1)
+2018_jpss_l0_web,The algorithm shall produce a surface type product with a horizontal cell size of 1 km at Nadir.
+2018_jpss_l0_web,The algorithm shall produce a surface type product with a mapping uncertainty (3 sigma) of 5 km.
+2018_jpss_l0_web,The algorithm shall produce a surface type product with a measurement range of 17 IGBP classes specified in Table 1.
+2018_jpss_l0_web,The algorithm shall produce a surface type product with a measurement accuracy of 70% correct for 17 types.
+2018_jpss_l0_web,The algorithm shall produce a vegetation health index product that has a horizontal cell size of 0.036° (4 km). (Note 3)
+2018_jpss_l0_web,The algorithm shall produce a vegetation health index product that has a mapping uncertainty (3 sigma) of < 0.036° (<4 km).
+2018_jpss_l0_web,The algorithm shall produce a vegetation health index product that has a measurement precision of 4.0% (for the range 0-100%).
+2018_jpss_l0_web,The algorithm shall produce a vegetation health index product that has a measurement accuracy of 1%.
+2018_jpss_l0_web,The algorithm shall produce a daily vegetation indices product with a horizontal cell size of 4 km global and 1 km regional. (Note 3).
+2018_jpss_l0_web,The algorithm shall produce a daily vegetation indices product with a mapping uncertainty (3 sigma) of 4 km. (Note 3)
+2018_jpss_l0_web,"The algorithm shall produce a daily vegetation indices product with a measurement range of -1 to +1 for NDVITOA, -1 to +4 for EVI (Note 1), and -1 to +1 for NDVITOC."
+2018_jpss_l0_web,The algorithm shall produce a daily vegetation indices product with a measurement accuracy of 0.05 NDVI units for NDVITOA. (Note 2) (Note 3)
+2018_jpss_l0_web,The algorithm shall produce a daily vegetation indices product with a measurement precision of 0.04 NDVI units for NDVITOA. (Note 2) (Note 3)
+2018_jpss_l0_web,The algorithm shall produce a daily vegetation indices product with a measurement accuracy of 0.05 NDVI units for EVI. (Note 2) (Note 3)
+2018_jpss_l0_web,The algorithm shall produce a vegetation indices product with a measurement precision of 0.04 NDVI units for EVI. (Note 2)
+2018_jpss_l0_web,The algorithm shall produce a daily vegetation indices product with a measurement accuracy of 0.05 NDVI units for NDVITOC. (Note 2) (Note 3)
+2018_jpss_l0_web,The algorithm shall produce a daily vegetation indices product with a measurement precision of 0.04 NDVI units for NDVITOC. (Note 2) (Note 3)
+2018_jpss_l0_web,The algorithm shall produce a weekly vegetation indices product with a horizontal cell size of 4 km global and 1 km regional. (Note 4)
+2018_jpss_l0_web,The algorithm shall produce a weekly vegetation indices product with a mapping uncertainty (3 sigma) of 4 km. (Note 4)
+2018_jpss_l0_web,The algorithm shall produce a weekly vegetation indices product with a measurement accuracy of 0.05 NDVI units for NDVITOA. (Note 2) (Note 4)
+2018_jpss_l0_web,The algorithm shall produce a weekly vegetation indices product with a measurement precision of 0.04 NDVI units for NDVITOA. (Note 2) (Note 4)
+2018_jpss_l0_web,The algorithm shall produce a weekly vegetation indices product with a measurement accuracy of 0.05 NDVI units for EVI. (Note 2) (Note 4)
+2018_jpss_l0_web,The algorithm shall produce a weekly vegetation indices product with a measurement precision of 0.04 NDVI units for EVI. (Note 2) (Note 4)
+2018_jpss_l0_web,The algorithm shall produce a weekly vegetation indices product with a measurement accuracy of 0.05 NDVI units for NDVITOC. (Note 2) (Note 4)
+2018_jpss_l0_web,The algorithm shall produce a bi-weekly vegetation indices product with a measurement precision of 0.04 NDVI units for NDVITOC. (Note 2) (Note 4)
+2018_jpss_l0_web,The algorithm shall produce a bi-weekly vegetation indices product with a horizontal cell size of 4 km global and 1 km regional. (Note 5)
+2018_jpss_l0_web,The algorithm shall produce a bi-weekly vegetation indices product with a mapping uncertainty (3 sigma) of 4 km. (Note 5)
+2018_jpss_l0_web,"The algorithm shall produce a bi-weekly vegetation indices product with a measurement range of -1 to +1 NDVITOA, -1 to +4 for EVI (Note 1), and -1 to +1 for NDVITOC."
+2018_jpss_l0_web,The algorithm shall produce a bi-weekly vegetation indices product with a measurement accuracy of 0.05 NDVI units for NDVITOA. (Note 2) (Note 5)
+2018_jpss_l0_web,The algorithm shall produce a bi-weekly vegetation indices product with a measurement precision of 0.04 NDVI units for NDVITOA. (Note 2) (Note 5)
+2018_jpss_l0_web,The algorithm shall produce a bi-weekly vegetation indices product with a measurement accuracy of 0.05 NDVI units for EVI. (Note 2) (Note 5)
+2018_jpss_l0_web,The algorithm shall produce a bi-weekly vegetation indices product with a measurement precision of 0.04 NDVI units for EVI. (Note 2) (Note 5)
+2018_jpss_l0_web,The algorithm shall produce a bi-weekly vegetation indices product with a measurement accuracy of 0.05 NDVI units for NDVITOC. (Note 2) (Note 5)
+2018_jpss_l0_web,The algorithm shall produce a bi-weekly vegetation indices product with a measurement precision of 0.04 NDVI units for NDVITOC. (Note 2) (Note 5)
+2018_jpss_l0_web,The algorithm shall produce a volcanic ash detection and height product that has a horizontal cell size of 0.8 km.
+2018_jpss_l0_web,The algorithm shall produce a volcanic ash detection and height product that has a vertical coverage of the total column.
+2018_jpss_l0_web,The algorithm shall produce a volcanic ash detection and height product that has a mapping uncertainty (3 sigma) of 3 km.
+2018_jpss_l0_web,"The algorithm shall produce a volcanic ash detection and height product that has a measurement accuracy of 2 tons/km2, 3 km height (Note 1)."
+2018_jpss_l0_web,The algorithm shall produce a volcanic ash detection and height product that has a measurement precision of 2.5 tons/km2 (Note 1).
+2018_jpss_l0_web,The algorithm shall produce the cloud liquid water product under all-weather conditions.
+2018_jpss_l0_web,The algorithm shall produce the cloud liquid water product that has a horizontal cell size of 10 km (37 GHz FOV size); 10 km sampling (Note 1).
+2018_jpss_l0_web,The algorithm shall produce the cloud liquid water product that has a vertical reporting interval of the total column.
+2018_jpss_l0_web,The algorithm shall produce the cloud liquid water product that has a mapping uncertainty (3 sigma) of 5 km.
+2018_jpss_l0_web,The algorithm shall produce the cloud liquid water product that has a measurement uncertainty of 0.05 mm over ocean and best efforts over land.
+2018_jpss_l0_web,The algorithm shall produce the cloud liquid water product that has a measurement accuracy of 0.01 mm.
+2018_jpss_l0_web,The algorithm shall produce the cloud liquid water product globally over ice-free oceans.
+2018_jpss_l0_web,The algorithm shall produce the cloud liquid water product that has a range of 0.005 – 1 mm.
+2018_jpss_l0_web,The algorithm shall produce the imagery product under all-weather conditions. JERD-2232 Each channel shall be provided at its highest native resolution.
+2018_jpss_l0_web,All channels shall be vertically and horizontally polarized.
+2018_jpss_l0_web,"All channels shall be sampled at 10 km except 89 GHz, which shall be sampled at 5 km."
+2018_jpss_l0_web,The algorithm shall produce the imagery product that has a horizontal sampling interval (Note 1) of 10 km except 89 GHz which is at 5 km (Note 2).
+2018_jpss_l0_web,The algorithm shall produce the imagery product that has a mapping uncertainty (3 sigma) of 5 km.
+2018_jpss_l0_web,The algorithm shall produce a precipitation type/rate product under all-weather conditions.
+2018_jpss_l0_web,The algorithm shall produce the precipitation type/rate product that has a horizontal cell size of 5 km over land (89 GHz FOV) (Note 1); 5 km over ocean (37 GHz FOV size); 5-10 km sampling.
+2018_jpss_l0_web,The algorithm shall produce the precipitation type/rate product that has a mapping uncertainty (3 sigma) of < 5 km.
+2018_jpss_l0_web,The algorithm shall produce the precipitation type/rate product that has a measurement range of 0-50 mm/hr.
+2018_jpss_l0_web,The algorithm shall produce the precipitation type/rate product that has a measurement precision of 0.05 mm/hr.
+2018_jpss_l0_web,The algorithm shall produce the precipitation type/rate product that has a measurement uncertainty of 2 mm/hr over ocean and 5 mm/hr over land.
+2018_jpss_l0_web,The algorithm shall produce the precipitation type/rate product that has a precipitation type of stratiform or convective.
+2018_jpss_l0_web,The algorithm shall produce a sea ice characterization product under all-weather conditions.
+2018_jpss_l0_web,The algorithm shall produce the sea ice characterization product that has a vertical coverage of the ice surface.
+2018_jpss_l0_web,The algorithm shall produce the sea ice characterization product that has a horizontal cell size of 10 km.
+2018_jpss_l0_web,The algorithm shall produce the sea ice characterization product that has a mapping uncertainty (3 sigma) of 5 km.
+2018_jpss_l0_web,The algorithm shall produce the sea ice characterization product that has a measurement range of 1/10 – 10/10 for ice concentration.
+2018_jpss_l0_web,The algorithm shall produce the sea ice characterization product that has a measurement uncertainty of 10% for ice concentration.
+2018_jpss_l0_web,The algorithm shall produce the sea ice characterization product that has a probability of correct typing of 70% for typing of Ice Age Classes.
+2018_jpss_l0_web,The algorithm shall produce the sea ice characterization product that has a geographic coverage of all ice-covered regions of the global ocean.
+2018_jpss_l0_web,The algorithm shall produce the SST product under all-weather conditions.
+2018_jpss_l0_web,The algorithm shall produce the SST product that has a horizontal cell size of 40 km (Note 1).
+2018_jpss_l0_web,The algorithm shall produce the SST product that has a mapping uncertainty (3 sigma) of 5 km.
+2018_jpss_l0_web,The algorithm shall produce the SST product that has a measurement range of 271 K to 313 K (Note 2).
+2018_jpss_l0_web,"The algorithm shall produce the SST product that has a measurement accuracy, skin and bulk, of 0.5 K."
+2018_jpss_l0_web,The algorithm shall produce the SST product that has a measurement uncertainty of 1.0 K.
+2018_jpss_l0_web,The algorithm shall produce the SST product that has a geographic coverage of the global oceans (Note 4).
+2018_jpss_l0_web,The algorithm shall produce a sea surface wind speed product under all-weather conditions.
+2018_jpss_l0_web,The algorithm shall produce the sea surface wind speed product that has a horizontal cell size of 33 km (10.7 GHz FOV size) (Note 3); 10 km sampling.
+2018_jpss_l0_web,The algorithm shall produce the sea surface wind speed product that has a mapping uncertainty (3 sigma) of 5 km.
+2018_jpss_l0_web,The algorithm shall produce the sea surface wind speed product that has a measurement range (speed) of 2 – 30 m/sec.
+2018_jpss_l0_web,The algorithm shall produce the sea surface wind speed product that has a measurement uncertainty (speed) of greater of 2.0 m/sec or 10%.
+2018_jpss_l0_web,The algorithm shall produce the sea surface wind speed product that has a measurement accuracy of 0.5 m/sec (Note 4).
+2018_jpss_l0_web,The algorithm shall produce the sea surface wind speed product that has a geographic coverage of global ice-free oceans.
+2018_jpss_l0_web,The algorithm shall produce a snow cover/depth product under all-weather conditions.
+2018_jpss_l0_web,The algorithm shall produce the snow cover/depth product that has a sensing depth of 0 – 60 cm.
+2018_jpss_l0_web,The algorithm shall produce the snow cover/depth product that has a horizontal cell size of 10 km.
+2018_jpss_l0_web,The algorithm shall produce the snow cover/depth product that has a mapping uncertainty (3 sigma) of 5 km.
+2018_jpss_l0_web,The algorithm shall produce the snow cover/depth product that has snow depth ranges of 5 – 60 cm.
+2018_jpss_l0_web,The algorithm shall produce the snow cover/depth product that has a measurement uncertainty of 80% probability of correct snow/no snow classification – snow depth: 20 cm (30 cm if forest cover exceeds 30%) for clear scenes.
+2018_jpss_l0_web,The algorithm shall produce the snow cover/depth product that has a measurement uncertainty of 80% probability of correct snow/no snow classification – snow depth: 20 cm for cloudy scenes.
+2018_jpss_l0_web,The algorithm shall produce a snow water equivalent product under all-weather conditions.
+2018_jpss_l0_web,The algorithm shall produce the snow water equivalent product that has a horizontal cell size of 10 km.
+2018_jpss_l0_web,The algorithm shall produce the snow water equivalent product that has a mapping uncertainty (3 sigma) of 5 km.
+2018_jpss_l0_web,The algorithm shall produce the snow water equivalent product that has a measurement range of 10 – 200 mm.
+2018_jpss_l0_web,The algorithm shall produce the snow water equivalent product that has a measurement uncertainty of 20 mm or 50% for shallow to moderate snow packs (10-100 mm) and 70% for high snow accumulation (above 100 mm).
+2018_jpss_l0_web,The algorithm shall produce a soil moisture product under all-weather conditions.
+2018_jpss_l0_web,The algorithm shall produce the soil moisture product that has a sensing depth of surface to -0.1 cm (skin layer).
+2018_jpss_l0_web,The algorithm shall produce the soil moisture product that has a horizontal cell size of 40 km.
+2018_jpss_l0_web,The algorithm shall produce the soil moisture product that has a mapping uncertainty (3 sigma) of 5 km.
+2018_jpss_l0_web,"The algorithm shall produce the soil moisture product that has a measurement uncertainty of 6% volumetric RMSE (goal), with VWC < 1.5 kg/m2 or GVF < 0.5 and < 2 mm/hr precipitation rate."
+2018_jpss_l0_web,The algorithm shall produce the soil moisture product that has a measurement range of 0 – 50% (Note 1).
+2018_jpss_l0_web,The algorithm shall produce the TPW product that has a horizontal cell size of 10 km (21 GHz FOV sampling) (Note 1).
+2018_jpss_l0_web,The algorithm shall produce the TPW product that has a mapping uncertainty (3 sigma) of 5 km.
+2018_jpss_l0_web,The algorithm shall produce the TPW product that has a measurement range of 1– 75 mm.
+2018_jpss_l0_web,The algorithm shall produce the TPW product that has a measurement uncertainty of 2 mm or 10%; whichever is greater.
+2018_jpss_l0_web,The algorithm shall produce the TPW product that has a measurement accuracy of 1 mm.
+2018_jpss_l0_web,The algorithm shall produce the TPW product that has a coverage of ice-free global ocean.
+2018_jpss_l0_web,"The OMPS LP SDR shall satisfy the Threshold performance characteristics as given in Tables omps-lp-1, omps-lp-2a, omps-lp-2b, and omps-lp-2c for all scenes with solar zenith angles less than 80 degrees and all Fields of View."
+2018_jpss_l0_web,The OMPS LP SDR shall produce OMPS LP SDR products globally.
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has a horizontal cell size of 250 km.
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has a horizontal reporting interval of 150 km.
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has a vertical coverage of TH to 60 km. (Note 1)
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has a vertical reporting interval of 1 km.
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has a vertical resolution of N/A from 0 to TH (Note 1).
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has a vertical resolution of 5 km from TH to 25 km.
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has a vertical resolution of 5 km from 25 to 60 km.
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has a mapping uncertainty (1 sigma) of <25 km.
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has a measurement range of N/A for 0 to TH.
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has a measurement range of 0.1 to 15 ppmv for TH – 60 km.
+2018_jpss_l0_web,"The algorithm shall produce an ozone limb profile product that has N/A for 0 to TH (Note 1),"
+2018_jpss_l0_web,"The algorithm shall produce an ozone limb profile product that has is greater of 10% or 0.1 ppmv from TH to 15 km, (Note 1),"
+2018_jpss_l0_web,"The algorithm shall produce an ozone limb profile product that has is greater of 3% or 0.05 ppmv from 15 to 50 km,"
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has is greater of 10% or 0.1 ppmv from 50 to 60 km.
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has a measurement accuracy of greater of 10% or 0.1 ppmv for 15 to 60 km.
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has a measurement accuracy of greater of 20% or 0.1 ppmv from TH to 15 km.
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has a refresh of at least 75% coverage of the globe every 4 days (monthly average). (Note 2)
+2018_jpss_l0_web,The algorithm shall produce an ozone limb profile product that has long term stability of 2% over 7 years.
+2018_jpss_l0_web,The algorithm shall produce a snowfall rate product that has a horizontal cell size of 15 km at nadir.
+2018_jpss_l0_web,The algorithm shall produce a SFR product that has a measurement precision of 1.0 mm/hr.
+2018_jpss_l0_web,The algorithm shall produce a SFR product that has an accuracy of: ±0.3 mm/hr JERD-4116 The algorithm shall produce a SFR product that has a measurement uncertainty of 1.0 mm/hr.
+2018_jpss_l0_web,"The algorithm shall incorporate fill and other condition flags including degraded, excluded or other applicable conditions."
+2018_jpss_l0_web,The NESDIS ESPC shall incorporate JPSS and GCOM-W data into the blended satellite products identified in Appendix D.

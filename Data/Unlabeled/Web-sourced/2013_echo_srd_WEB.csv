@@ -1,0 +1,42 @@
+source,reqs
+2013_echo_srd_WEB,"EChO shall observe a core sample of > 100 exoplanet targets, known as the EChO core survey."
+2013_echo_srd_WEB,"EChO should observe a core sample of > 200 exoplanet targets, known as the EChO core survey."
+2013_echo_srd_WEB,The mission design shall allow observations to be carried out of a wide range of planetary sizes from gas giants to super-Earths. These will have a range of temperatures from hot (up to 3000K) to temperate (350 K) and are found orbiting a range of stellar types and magnitudes from cool M- dwarfs to hot F-stars. The mission design shall encompass both the faintest and brightest expected targets. Nominally these are exemplified by the systems GJ1214 (faint cold dwarf star) and 55Cnc (bright G star).
+2013_echo_srd_WEB,"The survey will be divided into three survey tiers: the names, characteristics and description of the each of the tiers are given in Table 2."
+2013_echo_srd_WEB,More than 25 (TBC) of the planets observed in the Chemical Census tier shall be observed in the Origin tier.
+2013_echo_srd_WEB,More than 50 (TBC) of the planets observed in the Chemical Census tier should be observed in the Origin tier.
+2013_echo_srd_WEB,More than 10 (TBC) of the planets observed in the Chemical Census tier shall be observed in the Rosetta Stone tier.
+2013_echo_srd_WEB,More than 20 (TBC) of the planets observed in the Chemical Census tier should be observed in the Rosetta Stone tier.
+2013_echo_srd_WEB,The instantaneous wavelength coverage of EChO shall span 0.55 to 11 micron.
+2013_echo_srd_WEB,The instantaneous wavelength coverage of EChO should span 0.4 to 16 micron.
+2013_echo_srd_WEB,"For wavelengths greater than 3 micron, division of the EChO waveband shall be made such that no cut falls between the following wavelength intervals (inclusive): 3.00-3.60 micron, 4.10-5.00 micron, 5.70 -8.30 micron, 9.20-11.00 micron
+"
+2013_echo_srd_WEB,Division of the EChO waveband should be made such that no cut falls in the wavelength interval 13.50 - 16.00 micron
+2013_echo_srd_WEB,The overlap between spectral channels shall be ? 5 resolution elements for ?<5 micron (assuming R?300) and ? 1 resolution element for ?>5 micron (assuming R?30) TBC.
+2013_echo_srd_WEB,A minimum of 80% of the in-band channel average performance is required for each resolution element
+2013_echo_srd_WEB,EChO shall have a resolving power of R?300 for ?<5 micron and R?30 for ?>5 micron.
+2013_echo_srd_WEB,EChO shall have a resolving power of R?300 over the wavelength range specified in G-SCI- 020.
+2013_echo_srd_WEB,For all targets observed in primary transit the average SNR on the stellar signal per spectral resolution element at R=300 in the 0.55 – 1.0 micron waveband shall be ?200 per transit event.
+2013_echo_srd_WEB,All targets in the target list shall be observed with at least 90% of the SNR defined in R-SCI-055 and R-SCI-056.
+2013_echo_srd_WEB,All targets in the target list should be observed with at least 95% of the SNR defined in R-SCI-055 and R-SCI-056.
+2013_echo_srd_WEB,Neighbouring sources that fall within the field of view of target stars shall make a negligible contribution to the noise budget. Observation of stars with neighbouring sources that make a larger contribution is TBD.
+2013_echo_srd_WEB,Stellar variability (post-processing) shall make a negligible contribution to the noise budget (< 10% in RSS). Observation of stars with a higher residual variability is TBD.
+2013_echo_srd_WEB,"Only photometric variations within the frequency band of 2.8x10-­5 Hz to 3.7mHz shall be included in the overall noise budget, which is set by the MRS and SNR requirements defined in R-SCI- 060"
+2013_echo_srd_WEB,"Only photometric variations within the frequency band of 3.8x10-6 Hz to 16mHz should be included in the overall noise budget, which is set by the MRS and SNR requirements defined in R-SCI- 060"
+2013_echo_srd_WEB,40% of the sky shall be accessible at any one time. The same 40% shall be accessible over a period of ~10 hrs. The complete sky shall be accessible within a year (TBC). A source at the ecliptic shall be observable for 40% of the mission lifetime.
+2013_echo_srd_WEB,The interval between consecutive measurements of the host star/exoplanet system taken during a single transit/occultation shall be ?90 seconds
+2013_echo_srd_WEB,The interval between consecutive measurements of the host star/exoplanet system taken during a single transit/occultation should be ?30 seconds.
+2013_echo_srd_WEB,The faintest target shortward of 3 micron that the spacecraft will be designed to observe shall be a M5V star with Ks-band magnitude of 8.8 (equivalent to GJ 1214).
+2013_echo_srd_WEB,The faintest target shortward of 3 micron that the spacecraft will be designed to observe should be an M5V star with Ks-band magnitude of 9.8.
+2013_echo_srd_WEB,The faintest target between 3 and 8 micron that the spacecraft will be designed to observe shall be a G0V star with Ks-band magnitude of 9.0 (no known equivalent yet).
+2013_echo_srd_WEB,The faintest target between 3 and 8 micron that the spacecraft will be designed to observe should be a G0V star with Ks-band magnitude of 10.0.
+2013_echo_srd_WEB,The faintest target longward of 8 micron that the spacecraft will be designed to observe shall be a G0V star with Ks-band magnitude of 8.0 (no known equivalent yet).
+2013_echo_srd_WEB,The faintest target longward of 8 micron that the spacecraft will be designed to observe should be a G0V star with Ks-band magnitude of 9.0.
+2013_echo_srd_WEB,The brightest target that the spacecraft will be designed to observe shall be a K0V star with Ks- band magnitude 4.0 (equivalent to 55 Cnc).
+2013_echo_srd_WEB,The brightest target that the spacecraft will be designed to observe should be an F9V star with Ks-band magnitude 2.9 (equivalent to ? And).
+2013_echo_srd_WEB,An absolute photometric calibration accuracy of 5% (TBC) shall be achieved for all targets across the full waveband of EChO using celestial objects.
+2013_echo_srd_WEB,"Absolute wavelength calibration, after post- processing including calibration observations, shall be accurate to within 1/3 of the required spectral resolution element specified in R-SCI- 040 at all wavelengths and for all targets."
+2013_echo_srd_WEB,"It should be possible to observe the following objects/classes of object with the same performance as for the primary exoplanet targets: Uranus, Neptune, Brown dwarfs, Comets."
+2013_echo_srd_WEB,It should be possible to track Solar System objects that move at nonsidereal rates of up to 10 arcseconds/minute.
+2013_echo_srd_WEB,No less than 85% (TBC) of the total available observing time shall be reserved for the EChO core survey.
+2013_echo_srd_WEB,"A percentage, TBC but less than 5%, of the total available observing time that is not specified in R- SCI-230 shall be allocated by the Director at his discretion (discretionary time)."

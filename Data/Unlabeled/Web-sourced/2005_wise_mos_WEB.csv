@@ -1,0 +1,152 @@
+source,reqs
+2005_wise_mos_WEB,The MOS shall support a WISE mission life-time of 7 months.
+2005_wise_mos_WEB,The MOS will be designed to support the goal of a WISE mission life-time of 13 months.
+2005_wise_mos_WEB,The MOS shall be designed to complete a survey of the entire sky within 6 months of science operations.
+2005_wise_mos_WEB,"The ground segment shall comply with the DSMS IT Security Policy, IND 800-12, JPL-D23140, and NASA Procedures and Guidelines for Security NPG 2810.1."
+2005_wise_mos_WEB,"The WISE MOS shall follow standard JPL practices for the configuration management of documentation, operational products and software."
+2005_wise_mos_WEB,After the start of System Level GDS testing  all GDS and MOS anomalies shall be reported and dispositioned using either the JPL AAMES or ISA institutional anomaly reporting systems .
+2005_wise_mos_WEB,The MOS shall follow documented processes consistent with JPL Standards.
+2005_wise_mos_WEB,The MOS software documentation shall follow JPL or IPAC Caltech standards as applicable.
+2005_wise_mos_WEB,"The MOS shall update and maintain  documents including but not limited to the Command Dictionary, Telemetry Dictionary, and Flight Rules, inherited from the WISE development phase throughout the life of the mission."
+2005_wise_mos_WEB,The MOS shall maintain the WISE fault tree throughout the operational mission.
+2005_wise_mos_WEB,The ground segment shall as a goal design its normal mission operations processes based on a 40-hour workweek.
+2005_wise_mos_WEB,"As a goal the, MOS shall automate real time operations to achieve unattended operations for up to 24 hours."
+2005_wise_mos_WEB,"The MOS shall verify the proper functioning of capabilities added to the flight software post-launch, including interaction with existing flight software."
+2005_wise_mos_WEB,All MOS processes shall include at least 20% operational margin (meaning 20% of the time allocated to do a process shall be margin).
+2005_wise_mos_WEB,The MOS shall schedule the TDRSS tracking coverage during the mission
+2005_wise_mos_WEB,"The Ground Segment shall comply with the WISE Safety and Mission Assurance Plan, Mission Operations Assurance Section"
+2005_wise_mos_WEB,All data products and operations reporting shall contain Coordinated Universal Time (UTC) time-tagging with an absolute knowledge of +/-0.6 seconds.
+2005_wise_mos_WEB,The WISE MOS shall use the International Celestial Reference System (ICRS) to describe the positions and motions of celestial bodies.
+2005_wise_mos_WEB,The WISE MOS shall use standard SI engineering units for engineering data.
+2005_wise_mos_WEB,The MOS shall apply the CCSDS data system standards as specified in the Flight- Ground ICD to the design and implementation of the WISE ground system.
+2005_wise_mos_WEB,"The MOS shall conduct a training program for its operations staff, including at least one formal Operational Readiness Test to certify the readiness of the WISE operations teams to successfully execute IOC, mission critical events and science survey mission."
+2005_wise_mos_WEB,"The WISE Ground System shall provide all command and control functions for operations of the satellite, including command generation and execution, scheduling, navigation and satellite performance analysis."
+2005_wise_mos_WEB,"The WISE Ground System shall provide data system processing functions necessary to capture, process, store and distribute the WISE data including mission ground system interfaces."
+2005_wise_mos_WEB,"The MOS shall design the Ground Data System with 50%  margin in the following areas: CPU utilization, storage space, and LAN loading (for data queries, etc)."
+2005_wise_mos_WEB,All MOS interfaces shall be implemented according to the descriptions in the WISE MOS ICD.
+2005_wise_mos_WEB,"Operations at JPL shall be conducted from a Mission Support Area which shall include all the workstations, LAN, and other connections needed by the various elements of the Flight Control Team."
+2005_wise_mos_WEB,A MSA shall exist at BATC for spacecraft team support and at the WISE Science Data Center (WSDC) and UCLA for science team operations.
+2005_wise_mos_WEB,The MOS shall provide an online repository for all operations products for the life of the project.
+2005_wise_mos_WEB,"Mean Time Between Failures (MTBF) for the Science Processing MOS elements shall be greater than 1 week,  and Mean Time To Restore (MTTR)  shall be less than 1 day."
+2005_wise_mos_WEB,The Mean Time Between Failures (MTBF) for real-time EOS elements shall be greater than 1 week and a Mean Time To Restore (MTTR) shall be less than 30 minutes.
+2005_wise_mos_WEB,"The MOS shall provide for connectivity of all the portions of the distributed Ground Data System, including the telemetry and command system for ATLO, White Sands, JPL and BATC, and the WISE Science Data Center at IPAC/Caltech."
+2005_wise_mos_WEB,"The MOS shall provide voice communication links between the JPL MSA, the BATC s/c support area, the WISE Science Data Center, and ATLO operations sites at BATC, Vandenberg launch site and White Sands TDRSS communications complex."
+2005_wise_mos_WEB,"The MOS design shall accommodate the inclusion and maintenance of a flight system testbed during flight, including any training, procedures, and necessary data connectivity."
+2005_wise_mos_WEB,"Following the occurrence of an flight-system anomaly, the MOS shall be capable of designing, generating, and executing the recovery response, and returning the spacecraft to nominal operations (for those failure modes that are recoverable) within 3  days."
+2005_wise_mos_WEB,The MOS shall develop and maintain contingency plans and  recovery procedures for anomalies whose recovery response time would result in a significant threat to the achievement of level 1 requirements.
+2005_wise_mos_WEB,The MOS shall as a goal develop and maintain validated command products for anomalies whose recovery response time would result in a significant threat to the achievement of level 1 requirements.
+2005_wise_mos_WEB,The MOS shall have the capability to generate and radiate commands or sequences that respond to high-priority flight-system events or activities within 24  hours of the decision to send the commands.
+2005_wise_mos_WEB,The MOS shall be able to clear all on-board fault indicators or counters by ground command.
+2005_wise_mos_WEB,The MOS shall create science survey schedule requests specifying the necessary flight system maneuvers to implement the science survey 3 weeks prior to the next planned uplink opportunity.
+2005_wise_mos_WEB,The MOS shall identify all instrument engineering activities for an uplink planning period and provide detailed scheduling instructions at least 10 days prior to planned execution.
+2005_wise_mos_WEB,"The uplink command sequence implementation shall be a controlled process. The details shall be documented in OIAs, the WISE Operations Plan and Procedures."
+2005_wise_mos_WEB,MOS shall generate sequences to control spacecraft and instrument activity.
+2005_wise_mos_WEB,MOS shall maintain and uplink configuration files as necessary to respond to changes in spacecraft and instrument behavior.
+2005_wise_mos_WEB,"The MOS shall be capable of updating, processing, uplinking, and tracking FSW updates and parameters."
+2005_wise_mos_WEB,"The MOS shall generate an integrated timeline based on mission science survey plan, IER and spacecraft engineering requests that cover the period of a sequence under consideration. It shall identify time windows for all known science and s/c and instrument engineering activities, downlinks, guidelines and constraints for the sequence, and available resources (TDRSS)."
+2005_wise_mos_WEB,"The MOS shall write and maintain a block dictionary containing all the information related to each spacecraft block. The document shall describe, as a minimum, each block in terms of its unique name, functions, parameters, composition, and sequence constraints including rules, utilization of spacecraft resources, and required support activities. Blocks can reside on the ground in the form of pre- validated sequences."
+2005_wise_mos_WEB,The MOS shall generate and maintain a list of restricted commands.
+2005_wise_mos_WEB,"The WISE MOS uplink system shall be capable of generating and transmititng all (real-time, restricted, sequence) commands specified in the WISE Command and Telemetry Dictionary."
+2005_wise_mos_WEB,The MOS shall format commands according to the format definition in the Command and Telemetry Dictionary.
+2005_wise_mos_WEB,The WISE MOS shall use the S-band Single Access Forward TDRSS channel for uplink communication with the flight-system.
+2005_wise_mos_WEB,The MOS shall be capable of operating WISE with an uplink data rate consistent with the Flight Ground IRD.
+2005_wise_mos_WEB,The WISE MOS Uplink system performance shall have no greater than 10^-5 Bit Error Rates (BER).
+2005_wise_mos_WEB,The MOS shall design and check each sequence and each real-time command to ensure that flight rules and constraints are not violated.
+2005_wise_mos_WEB,The MOS shall ensure that the maximum time between contacts with the flight- system does not exceed 3 days.
+2005_wise_mos_WEB,The Sun shall never be allowed to shine into the flight system aperture shade. The dot product SHADE*SUN shall always be less than -sin(angular radius of the Sun). This applies to all operations after the cover is ejected.
+2005_wise_mos_WEB,The earth shall not be allowed to shine into the flight system aperture shade. The earth avoidance angle shall be within 32 degrees off-Zenith in roll and pitch. This applies to all operations after the cover is ejected.
+2005_wise_mos_WEB,The MOS shall operate the flight-system maintaining a power margin consistent with JPL D-17868.
+2005_wise_mos_WEB,The MOS shall operate the WISE flight-system to maintain operational temperatures consistent with achieving the science requirements.
+2005_wise_mos_WEB,The MOS shall manage the on-board mass data storage. It shall ensure that no more than 3 days of data accumulate on board at any time during the mission.
+2005_wise_mos_WEB,The MOS shall ensure that adequate sequence memory is available before loading new sequences.
+2005_wise_mos_WEB,The MOS shall schedule momentum dump opportunities and set momentum management thresholds.
+2005_wise_mos_WEB,The MOS shall determine the ephemeris for the WISE Flight-system.
+2005_wise_mos_WEB,"The MOS shall maintain on-board ephemeris information for WISE and solar system bodies to allow the flight-system to perform science operations, sun and earth avoidance and downlinks with the required pointing accuracy."
+2005_wise_mos_WEB,"The MOS shall have the capability to model spacecraft pointing both as a predict, as well as a reconstruction."
+2005_wise_mos_WEB,"The MOS shall expand the instrument, engineering, spacecraft sub-system and system-level activities included in sequences into commands and ground directives."
+2005_wise_mos_WEB,"The MOS shall generate and make available sequence products necessary for sequence review, validation, and approval. The products shall allow the MOS teams to judge the correct implementation of a given survey plan, instrument or spacecraft engineering activity."
+2005_wise_mos_WEB,The MOS shall validate all sequences and interactive real-time commands against validation criteria prior to radiation to the spacecraft. The preferred method of validation is simulation for first time or unique activities. The method of validation shall be documented in test/validation criteria prior to sequence validation.
+2005_wise_mos_WEB,The MOS shall have the capability to radiate real-time commands.
+2005_wise_mos_WEB,"For all real-time commands, the MOS shall plan to incorporate the necessary safeguards to prevent potentially catastrophic commands from being processed by direct input into the command  system, and develop detailed operational procedures to ensure all real-time commands receive analysis, verification, and proper approval before radiation to the spacecraft."
+2005_wise_mos_WEB,"The MOS shall allow commanding of the spacecraft ""in the blind"" when the spacecraft is not in an attitude that provides downlink."
+2005_wise_mos_WEB,"The MOS shall have sufficient safe-guards that operator errors in commanding the flight system, will not threaten the achievement of minimum L1 requirements."
+2005_wise_mos_WEB,The MOS shall follow a documented process for the approval of all uplink sequences and real-time commands.
+2005_wise_mos_WEB,The MOS shall review any flight rules or other constraints violations pertaining to each sequence prior to approval for uplink.
+2005_wise_mos_WEB,The MOS shall review any waivers for any flight rules or constraints violated pertaining to each sequence prior to approval for uplink.
+2005_wise_mos_WEB,The MOS shall review names of all the files used during the sequencing process pertaining to each sequence prior to approval for uplink.
+2005_wise_mos_WEB,The MOS shall review any liens against the sequence prior to approval for uplink.
+2005_wise_mos_WEB,The MOS shall review any deviations outside the nominal sequencing process prior to approval for uplink.
+2005_wise_mos_WEB,The MOS shall review a  list of any restricted commands used summary of validation/test results (if applicable) pertaining to each sequence prior to approval for uplink.
+2005_wise_mos_WEB,The MOS shall check all commands to be sent to the spacecraft against the restricted command list prior to transmission.
+2005_wise_mos_WEB,The MOS shall have the capability to radiate uplink signals at S-Band using TDRSS relay satellites via the TDRSS White Sands Ground Station in accordance with the FGICD.
+2005_wise_mos_WEB,The WISE MOS shall be designed to return to the ground at least 95% of the data taken by the instrument.
+2005_wise_mos_WEB,The WISE MOS downlink performance shall have no greater than 10^-5 Bit Error Rate (BER).
+2005_wise_mos_WEB,"The MOS shall capture and archive the following data sets received or created by the EOS during the mission: (a) all telemetry data received on the ground, (b) all commands sent to the spacecraft, (c) all sequence products, (d) all data processing logs."
+2005_wise_mos_WEB,The WISE MOS shall accomodate for up to 5 downlink sessions per day.
+2005_wise_mos_WEB,The MOS shall monitor the health and status of the WISE Flight-system based on downlink engineering telemetry and instrument housekeeping telemetry.
+2005_wise_mos_WEB,The MOS shall store all WISE level 0 data until confirmed receipt of that data at the WSDC or 30 days whichever is shorter.
+2005_wise_mos_WEB,The high rate science data shall be transferred to the WSDC within 14 (goal 5) days from receipt on the ground.
+2005_wise_mos_WEB,A sample of 3% (TBC) of the scientific data from a given period of autonomy (PAO) shall be transferred and pipeline processed in an expedited way. The goal will be for this quick look data to be transferred to the WSDC within 3 hours from receipt of the data on the ground.
+2005_wise_mos_WEB,"The MOS shall perform data accountability checks (Quality, Quantity, Continuity) on all downlinked data and store the results online."
+2005_wise_mos_WEB,"The MOS shall generate level 0 data out of the raw telemetry stream prior to processing at the WSDC. The level 0 data shall have the convolutional encoding removed, Reed-Solomon de-coded, de-packetized and Rice lossless un- compressed, i.e. they will essentially be comprised of a binary stream of images as transferred from the instrument to the spacecraft."
+2005_wise_mos_WEB,"The WISE science data processing shall be designed to meet data quality requirements for data taken as close as 15 deg. to the moon, assuming adequate stray light performance of the flight system."
+2005_wise_mos_WEB,"Within 24 hours after receipt, the WSDC shall ingest the science quick look data into the WISE mission database and process it through a quick turn-around version of the WISE pipeline. It shall produce  processing reports and quality summaries to a WISE internal web-site, and stage sample fits data to a WISE ftp site at the same time, from which the other MOS partners can fetch the data for evaluation."
+2005_wise_mos_WEB,As a goal the WSDC shall complete the ingest of level 0 science data within 3 days from its receipt.
+2005_wise_mos_WEB,The WSDC shall read and validate the level 0 science data  for readability and completeness of content.
+2005_wise_mos_WEB,The WSDC shall create a copy of the level 0 science data in a medium appropriate for permanent long term storage.
+2005_wise_mos_WEB,"The WSDC shall ingests the science data into the WISE data management file system in preparation for pipeline processing. This step shall reformat the data, correlate it with the appropriate spacecraft and instrument HK data and register it with the WISE Project Database."
+2005_wise_mos_WEB,After successful read of the level 0 science data the WSDC shall notify the EOS so that any temporary storage related to this dataset can be released to be overwritten.
+2005_wise_mos_WEB,"Within 3 days from receipt of a given data set at the WSDC all data shall be processed through the first stage of the pipeline, performing processing on images from individual orbits. The results of this processing step shall be updated Quality Analysis Web-pages and a set of pre-processed data for internal evaluation."
+2005_wise_mos_WEB,Sample images shall be made available for outreach purposes within 1 month of start of normal operations.
+2005_wise_mos_WEB,"Within 6 days (goal) from receipt of a given dataset the data of the individual orbits with the dataset shall be co-added using the in-scan overlaps.  The results of this processing step shall be preliminary source extractions and image data, which are ingested/referenced into the WISE working database (WWDB) allowing access by the WST for external quality assessment."
+2005_wise_mos_WEB,"Within 15 days (goal) from receipt of all the science and ancillary data for a given orbit, the WSDC shall generate science data products that combine (stack) its images with those from orbits (>18) taken earlier to make use of cross-scan redundancy and new source extractions"
+2005_wise_mos_WEB,The WSDC shall perform quality analysis of all WISE science data and make quality reports available on a regular basis.
+2005_wise_mos_WEB,"The ground segment shall plan, support, and conduct operational readiness testing prior to major activities including launch and orbital operations."
+2005_wise_mos_WEB,The MOS shall support cross-system tests to verify the functional operation of the combined flight and ground system.
+2005_wise_mos_WEB,The MOS shall provide personnel to support ATLO.  The intention is to ensure that MOS personnel gain experience with the spacecraft prior to launch.
+2005_wise_mos_WEB,The WISE Facility (Flight-system plus ground data systems) shall be tested end-to- end prior to Flight-system launch.
+2005_wise_mos_WEB,The MOS shall provide telemetry and command capabilities to support faclity level activities during the ATLO mission phase.
+2005_wise_mos_WEB,The MOS shall participate in at least one major spacecraft operational test performed at the launch site. 
+2005_wise_mos_WEB,"The ground segment shall be ready to support launch on Oct. 1, 2008."
+2005_wise_mos_WEB,The MOS shall be designed to support a launch period during any time of the year (no preferred season) and at any day during a selected launch period.
+2005_wise_mos_WEB,The MOS shall be ready and able to support launch for a minimum of 36 hours after disconnection from helium servicing lines.
+2005_wise_mos_WEB,"In the case that launch of the WISE Flight-system is not achieved within 36 hours after disconnection from helium servicing lines, the MOS shall be ready to support another launch attempt  within 48 hours."
+2005_wise_mos_WEB,The MOS shall assume responsibility for the flight-system after successful orbit insertion.
+2005_wise_mos_WEB,The WISE In-orbit check-out phase shall be completed within 30 days of achieving orbit.
+2005_wise_mos_WEB,The MOS shall commission the WISE flight-system for nominal operations during IOC. This includes performing all necessary calibrations of the spacecraft and the instrument to achieve science data quality requirements.
+2005_wise_mos_WEB,The details of the Flight System commissioning implementation shall be documented in the “WISE IOC Plan”.
+2005_wise_mos_WEB,The MOS shall demonstrate the autonomous avoidance of the sun and earth constraints by th Flight System prior to the deployment of the cryostat cover.
+2005_wise_mos_WEB,As a goal the MOS shall prepare and validate all IOC specific procedures and sequences prior to launch.
+2005_wise_mos_WEB,Pre-launch the MOS shall develop and test the command sequences and procedures for the execution of all mission critical events. The WISE Mission Critical Events are cryostat valve opening and cover deployment.
+2005_wise_mos_WEB,The MOS shall command the cryostat vent valves open within 90 minutes of launch vehicle separation.
+2005_wise_mos_WEB,The MOS shall as a goal command the deployment if the cryostat cover no later than 14 days after orbit insertion.
+2005_wise_mos_WEB,The MOS shall ensure that the WISE flight system is in a known attitude consistent with the WISE operational constraints prior to cover deployment.
+2005_wise_mos_WEB,The MOS shall design the cover deployment sequence in such a way that hte reflection of sun-light by the cover into the payload aperture is minimized.
+2005_wise_mos_WEB,The MOS shall calibrate the flight-system and scan mirror rates to achieve required image quality.
+2005_wise_mos_WEB,The MOS shall develop survey plans that are consistent with obtaining four or more  independent exposures in each filter at each sky position over at least 95% of the sky during the 6 months nominal operations.
+2005_wise_mos_WEB,During routine survey operations the MOS shall ensure that the Frame-to-Frame overlap of image frames in in-scan direction is greater than 5%.
+2005_wise_mos_WEB,During routine survey operations the MOS shall ensure that the Frame-to-Frame overlap of image frames in cross-scan direction is greater than 85%.
+2005_wise_mos_WEB,The MOS shall generate survey plans that compensate for sky coverage lost due to the moon and the South Atlantic Anomaly (SAA).
+2005_wise_mos_WEB,The MOS shall generate survey plans that ensure that the time interval between the first and last exposure at each position on the sky be at least 30 minutes.
+2005_wise_mos_WEB,The MOS shall generate and release the preliminary image atlas within 6 months of the end of on-orbit data collection.
+2005_wise_mos_WEB,The MOS shall release the preliminary image atlas corresponding to unconfused regions from the first 50% of the sky which is surveyed.
+2005_wise_mos_WEB,The MOS shall provide a preliminary source catalog  within 6 months of the end of on-orbit data collection.
+2005_wise_mos_WEB,The MOS shall provide a preliminary source catalog corresponding to the first 50% of the sky which is surveyed.
+2005_wise_mos_WEB,The preliminary WISE point source catalog shall contain at least 95% of the sources in unconfused regions detected in a single band with signal to noise ratio greater than 20.
+2005_wise_mos_WEB,"The MOS shall release an atlas of images which combine multiple exposures at each position on the sky, within 17 months of the end of on-orbit data collection."
+2005_wise_mos_WEB,The images in the final WISE atlas shall be resampled to a common pixel grid at all wavelengths.
+2005_wise_mos_WEB,"The root mean square error in WISE catalog positions with respect to 2MASS catalog positions shall be less than 0.5”, for sources with SNR > 20 in at least one WISE band."
+2005_wise_mos_WEB,The photometric calibration of the final image atlas shall be tied to the photometric calibration of the final catalog.
+2005_wise_mos_WEB,"The WISE survey shall achieve a signal to noise ratio of 5 or more in regions unconfused by Galactic sources, but including the effects of extragalactic source confusion, on point sources with fluxes of 0.12 mJy at 3.3 micrometers, 0.16 mJy at 4.7 micrometers, 0.65 mJy at 12 micrometers, and 2.6 mJy at 23 micrometers."
+2005_wise_mos_WEB,The WISE MOS shall produce a catalog of sources within 17 months of the end of on-orbit data collection.
+2005_wise_mos_WEB,Relative photometric fluxes of bright sources in the WISE catalog shall be accurate to better than 7%  in each band for unsaturated point sources in unconfused regions with signal to noise ratio greater than 100.   
+2005_wise_mos_WEB,The WISE catalog shall have greater than 99.9% reliability for sources in unconfused regions detected in a single band with signal to noise ratio greater than 20.
+2005_wise_mos_WEB,The WISE catalog shall be at least 95% complete for sources in unconfused regions detected in a single band with signal to noise ratio greater than 20.
+2005_wise_mos_WEB,The WISE catalog shall include sources to SNR 5 in any band and the completeness and reliability shall be characterized at all flux levels.
+2005_wise_mos_WEB,"The science data releases shall be accompanied by sufficient documentation about the mission, spacecraft, instrument, operations, data quality, processing and characteristics of artifacts to allow their scientific exploitation by the astronomical community."
+2005_wise_mos_WEB,The MOS shall make all image data available in accordance to the Flexible Image Transport (FITS) astronomical data standard
+2005_wise_mos_WEB,The MOS shall make the WISE catalog and image products available to the community via the internet through appropriate web search tools.
+2005_wise_mos_WEB,"As a goal, the MOS will maintain the data products in a way that distribution of the complete WISE source catalogue via portable media to frequent users would be possible."
+2005_wise_mos_WEB,"The MOS shall make the image atlas and catalog   products accessible to the astronomical community in collaboration with the NASA/IPAC science archive infrared to ensure long-term availability beyond the end WISE missions operations and data processing phase, and insure inoperability with other NASA mission archives."
+2005_wise_mos_WEB,"In order to ensure survivability in case of a major catastrophe, during the WISE mission causing the loss of the WISE facilities, the MOS shall maintain a complete copy of the WISE science data set and software source code at a secure off-site location."
+2005_wise_mos_WEB,"After the WISE mission, all raw science and mission data shall be stored at the NSFDC  deep archive."

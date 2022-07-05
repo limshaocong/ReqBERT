@@ -1,0 +1,189 @@
+source,reqs
+2019_gateway_WEB,The Gateway shall be capable of launching modules on a commercial launch vehicle or as a Co-manifested Payloads (CPL) on the Space Launch System (SLS).
+2019_gateway_WEB,The Gateway shall use docking systems compliant with the DSG-SPEC-MECH-017 Gateway Program Docking System Specification.
+2019_gateway_WEB,The Gateway shall have a minimum of four Gateway Docking System compliant docking ports available for non-permanent use in any combination of radial or axial configurations.
+2019_gateway_WEB,The Gateway shall use SEP.
+2019_gateway_WEB,The Gateway shall be placed and operate in a NRHO.
+2019_gateway_WEB,The Gateway shall be capable of performing a single round trip transfer to Distant Retrograde Orbit (DRO) and back within 11 months.
+2019_gateway_WEB,The Gateway shall provide a fuel capacity that would support performing a minimum of two round-trip uncrewed low-energy cislunar orbit transfers between a near-rectilinear halo orbit (NRHO) and a distant retrograde orbit (DRO) and orbit maintenance for a period of 15 years between refueling <TBR-HEOR-002>.
+2019_gateway_WEB,"The Gateway shall operate, during lunar flyby operations, at an altitude no less than 100 km during lunar flyby operations.  <TBR-L2-GW-003>"
+2019_gateway_WEB,"<TBR-L2-GW-053> The Gateway shall operate in an orbit that limits the time during perilune passage, below 10,000 km but not lower than 1500 km altitude, above the lunar surface to less than 8 consecutive hours."
+2019_gateway_WEB,The Gateway shall provide a mission life capability for each module of at least 15 years after deployment.
+2019_gateway_WEB,"The Gateway shall support a crew of two, three, and four."
+2019_gateway_WEB,The Gateway shall accommodate crew for a minimum of 30 continuous days independent of visiting crew vehicle's systems and consumables.
+2019_gateway_WEB,The Gateway shall remotely transition from an uncrewed state to accommodate a safe crew ingress.
+2019_gateway_WEB,The Gateway SLS Co-Manifested modules shall have a launch mass not exceeding 9000 kg.
+2019_gateway_WEB,"The Gateway shall have module launch masses not exceeding those in Table 3.2.3-1, Gateway Element Launch Masses <TBR-L2-GW-004>."
+2019_gateway_WEB,The Gateway shall protect far side of the moon as a unique radio science location.
+2019_gateway_WEB,"The Gateway shall operate internal systems, required to maintain control of the Gateway, during and after exposure to pressures from nominal operation pressures down to zero psi, within <TBD-L2-GW-003> minutes (or a depress rate), for a duration up to <TBD-L2-GW-004> hours."
+2019_gateway_WEB,The Gateway shall accommodate automated delivery of logistics cargo and payloads.
+2019_gateway_WEB,"The Gateway shall allow for safe disposal of the on-orbit Gateway, to preclude the generation of space debris, at the end of its useful life."
+2019_gateway_WEB,"The Gateway shall comply with applicable requirements in DSG-SPEC-GNC-009, Gateway Program Subsystem Specification for Guidance, Navigation and Control (GNC)."
+2019_gateway_WEB,"The Gateway shall manage the mass properties for the integrated stack, from initial deployment through operational capabilities for the purposes of bounding the center of mass, moments and products of inertia and total mass to enable integrated stack rotational and translational control."
+2019_gateway_WEB,The Gateway shall change the Gateway attitude to any orientation (as needed) to meet operational constraints for all configurations.
+2019_gateway_WEB,The Gateway shall provide integrated attitude control services for the integrated stack.
+2019_gateway_WEB,The Gateway shall acquire and process navigation data onboard to determine absolute position/velocity without communications with the earth.
+2019_gateway_WEB,The Gateway shall incorporate an Absolute Attitude Determination capability.
+2019_gateway_WEB,The Gateway shall incorporate an Absolute Navigation State Determination capability.
+2019_gateway_WEB,The Gateway shall provide integrated vehicle translational control for the integrated stack.
+2019_gateway_WEB,"The Gateway shall control attitude and attitude rates, within <TBD-L2-GW-001>."
+2019_gateway_WEB,The Gateway shall limit maximum magnitude of linear rigid-body acceleration at the integrated stack center of gravity during integrated vehicle translations to 0.1g.
+2019_gateway_WEB,"The Gateway shall support autonomous docking, undocking, berthing, and unberthing of Visiting Vehicle and modules while there are no crew present on the arriving/departing module or Gateway."
+2019_gateway_WEB,"The Gateway shall provide docking targets as defined in the DSG-SPEC-GNC-009, Gateway Program Subsystem Specification for GNC."
+2019_gateway_WEB,The Gateway shall be on-orbit refuelable for both Xenon and Hydrazine propellants.
+2019_gateway_WEB,The Gateway shall use a monopropellant hydrazine propulsion system.
+2019_gateway_WEB,"The Gateway shall comply with applicable requirements in DSG-SPEC-COMM-005, Gateway Program Subsystem Specification for Communications."
+2019_gateway_WEB,"The Gateway shall incorporate modular, reconfigurable communication systems to support expandability and extensibility for additional capabilities."
+2019_gateway_WEB,"The Gateway shall comply with spectrum selection/allocation, certification, and usage restriction policies set forth in NPD 2570.5, NASA Electromagnetic (EM) Spectrum Management Document."
+2019_gateway_WEB,"The Gateway shall implement security functions and controls for a high potential impact system utilizing NIST Special Publication 800-53, Security and Privacy Controls for Federal Information Systems and Organizations or approved international equivalent."
+2019_gateway_WEB,"The Gateway shall provide spherical coverage for the different mission phases and links, excluding non-Gateway structural blockage, as given in Table 3.2.6-1, Data Download Volume to Earth <TBR-L2-GW-018>."
+2019_gateway_WEB,The Gateway shall communicate with Earth for data exchange and radiometric tracking.
+2019_gateway_WEB,The Gateway shall support a minimum of 3 simultaneous RF communication links.
+2019_gateway_WEB,The Gateway shall communicate with Earth without placing constraints on flight attitudes during nominal operations.
+2019_gateway_WEB,The Gateway shall support at least 7.49 Tbits per day (~935 GB per day) data downlink capacity to Earth.
+2019_gateway_WEB,The Gateway shall communicate with Lunar Systems.
+2019_gateway_WEB,The Gateway shall support at least 1.62 Terabits (TBs) per day data transfer from Lunar Systems.
+2019_gateway_WEB,The Gateway shall have the capability to communicate with at least 2 Lunar Systems simultaneously.
+2019_gateway_WEB,The Gateway shall provide integrated communications services for all docked modules/vehicles.
+2019_gateway_WEB,The Gateway shall communicate with Visiting Vehicle for data exchange and radiometric tracking.
+2019_gateway_WEB,The Gateway shall support direct voice communications between crewed spacecraft during proximity operations.
+2019_gateway_WEB,The Gateway shall provide an antenna and RF electronics connecting to visiting vehicles to provide communications coverage during RPOD.
+2019_gateway_WEB,The Gateway shall provide internal and external wireless communications.
+2019_gateway_WEB,The Gateway shall support internal voice communications between Gateway crew and ground operators.
+2019_gateway_WEB,The Gateway shall communicate with up to 4 EVA crewmembers.
+2019_gateway_WEB,"The Gateway shall comply with applicable requirements in DSG-SPEC-VSM-003, Gateway Program Subsystem Specification for Vehicle System Manager (VSM)."
+2019_gateway_WEB,The Gateway shall provide a VSM to manage the Gateway modules and coordinate with crew and ground controllers.
+2019_gateway_WEB,"The Gateway shall provide for autonomous operations for up to 21 continuous days independent of ground communications, with or without crew."
+2019_gateway_WEB,The Gateway shall curate data based on priorities and events.
+2019_gateway_WEB,"The Gateway shall comply with applicable requirements in DSG-SPEC-FSW-014, Gateway Program Subsystem Specification for Software."
+2019_gateway_WEB,The Gateway shall transport data required for vehicle operations.
+2019_gateway_WEB,The Gateway shall capture data required for recovery of vehicle systems.
+2019_gateway_WEB,"The Gateway shall detect, report, and annunciate faults for alerts, caution, warning, and emergency events to the on-orbit crew (IVA and EVA), lunar-surface crew, Earth (e.g. control centers), Visiting Vehicle, and/or autonomous operations."
+2019_gateway_WEB,The Gateway shall be able to update executable Flight Software (FSW) and configuration data to support ongoing vehicle operations and configurations.
+2019_gateway_WEB,The Gateway shall have FSW that performs maintenance tasks to limit required periodic servicing of the software by ground and crew.
+2019_gateway_WEB,The Gateway shall utilize the Core Flight Software (cFS) as the standard software framework.
+2019_gateway_WEB,The Gateway shall provide the capability to isolate and recover from faults identified during system development or mission operations that would result in a catastrophic event.
+2019_gateway_WEB,The crewed Gateway shall provide the capability for the onboard crew to manually override software functionality when the transition to manual operation will not cause a catastrophic event.
+2019_gateway_WEB,The crewed Gateway shall provide the capability for the crew to manually control the attitude and translation of their crewed space system.
+2019_gateway_WEB,"The Gateway shall provide the capability for the crew to monitor, operate, and control the crewed system and subsystems."
+2019_gateway_WEB,"The Gateway shall comply with applicable requirements in DSG-SPEC-CDH-004, Gateway Program Subsystem Specification for Avionics."
+2019_gateway_WEB,"The Gateway shall comply with applicable requirements in DSG-SPEC-CHI-018, Gateway Program Subsystem Specification for Computer Human Interface."
+2019_gateway_WEB,The Gateway shall provide a total of three TTE planes through each inter-module connector for redundancy.
+2019_gateway_WEB,The Gateway shall incorporate a shared data storage system.
+2019_gateway_WEB,The Gateway shall provide shared processing.
+2019_gateway_WEB,The Gateway shall provide crew displays and controls that are operable by a crewmember from within any habitable environment.
+2019_gateway_WEB,The Gateway shall provide internal lighting for the illumination required for all operational tasks dependent on visible light.
+2019_gateway_WEB,"The Gateway shall comply with applicable requirements in DSG-SPEC-PWR-011, Gateway Program Subsystem Specification for Power."
+2019_gateway_WEB,The Gateway shall provide a minimum of 32kW for Gateway use when SEP is inactive.
+2019_gateway_WEB,"The Gateway shall conform to the DSG-SPEC-PQS-020, Gateway Electrical Power Quality Specification Requirements for 120Vdc."
+2019_gateway_WEB,The Gateway shall distribute primary power using two bi-directional power domains to each axial docking port.
+2019_gateway_WEB,The Gateway shall implement a redundant 16kW bi-directional primary power pass-through to each radial docking port.
+2019_gateway_WEB,The Gateway shall provide dc-isolation between the Gateway primary power domains and the secondary power domains.
+2019_gateway_WEB,The Gateway shall be capable of operating critical systems off of a single power domain.
+2019_gateway_WEB,The Gateway shall provide energy storage capacity capable of supplying a minimum of 32kW during non-insolation periods of at least 1.5 hrs.
+2019_gateway_WEB,The Gateway shall provide a minimum of 24kW for system use when SEP is active.
+2019_gateway_WEB,"The Gateway shall adhere to the Program Element Power Allocation in Table 3.2.10- 1, Gateway Power Allocation and Table 3.2.10-2, EVR Power Allocation."
+2019_gateway_WEB,The Gateway shall reserve a minimum of 4kW power for utilization use.
+2019_gateway_WEB,"The Gateway shall be automatically booted to an operational and commandable state with the energizing of the Ground Support Equipment (GSE), or initial delivery vehicle, or the Gateway primary power interface."
+2019_gateway_WEB,The Gateway shall provide a Gateway standard power interface for internal portable electrical equipment including science and IVR.
+2019_gateway_WEB,The Gateway shall provide imagery to support operations during all mission phases.
+2019_gateway_WEB,The Gateway shall enable two-way private audio and motion imagery communication between the ground and crew.
+2019_gateway_WEB,The Gateway shall provide imagery and associated synchronized audio to the Crew.
+2019_gateway_WEB,The Gateway shall record imagery with associated audio.
+2019_gateway_WEB,The Gateway shall provide imagery with associated audio to Exploration Systems.
+2019_gateway_WEB,"The Gateway shall comply with applicable requirements in DSG-SPEC-ECLS-007, Gateway Program Subsystem Specification for Environmental Control and Life Support System (ECLSS)."
+2019_gateway_WEB,The Gateway shall condition the atmosphere in habitable volumes and attached visiting vehicles to maintain temperature and humidity levels and to provide proper atmosphere circulation within the habitable volumes.
+2019_gateway_WEB,"The Gateway shall provide potable water for crew, system and payload use."
+2019_gateway_WEB,"The Gateway shall provide fire detection, suppression, isolation, and recovery for any internal fire events when there are potential flammable materials or ignition sources present, or credible oxygen enrichment."
+2019_gateway_WEB,"The Gateway shall collect, contain, and dispose of crew bodily wastes."
+2019_gateway_WEB,"The Gateway shall provide emergency equipment for crew survival, accessible within the time required to respond to the emergency."
+2019_gateway_WEB,The Gateway shall be designed to operate in atmospheric conditions with 0% humidity during uncrewed periods.
+2019_gateway_WEB,The Gateway shall operate in conditions up to 24.1% oxygen with nominal operating functions at the nominal atmospheric pressure of 101.3 kPa (14.7 psi).
+2019_gateway_WEB,The Gateway shall operate in conditions up to 30% oxygen for atmosphere pressures up to 70 kPa (10.2 psia).
+2019_gateway_WEB,The Gateway shall maintain an internal habitable environment at pressures between 65 kPa (9.5 psia) to 102 kPa (14.9 psia); with the exception of airlocks.
+2019_gateway_WEB,The Gateway shall maintain interior atmosphere temperature to between 4°C (39°F) and 27°C (81°F).
+2019_gateway_WEB,The Gateway shall equalize the pressure between adjacent isolated modules.
+2019_gateway_WEB,The Gateway shall limit disturbances caused by venting of fluids and gasses per the <TBD-L2- GW-059> table.
+2019_gateway_WEB,"The Gateway shall comply with applicable requirements in DSG-SPEC-THR-015, Gateway Program Subsystem Specification for Thermal."
+2019_gateway_WEB,The Gateway shall have a Thermal Control System that maintains all habitable volumes and internal and external components within thermal limits.
+2019_gateway_WEB,The Gateway shall operate within thermal limits independent of flight attitude.
+2019_gateway_WEB,The Gateway shall apply an architecture that provides for module thermal independence during non-contingency operations.
+2019_gateway_WEB,"The Gateway shall have crew hatches in accordance with DSG-SPEC-HTCH-019, Gateway Program Subsystem Specification for Hatches."
+2019_gateway_WEB,"The Gateway shall continuously record structural dynamic responses at discrete locations and process data to assess structural life consumption and perform damage detection, location, and assessment."
+2019_gateway_WEB,The Gateway shall limit atmospheric leakage rate to less than 0.05 kg/day at ambient pressure in isolated module configuration.
+2019_gateway_WEB,The Gateway shall detect atmospheric leaks greater than <TBD-L2-GW-011>.
+2019_gateway_WEB,The Gateway shall localize atmospheric leaks to within <TBD-L2-GW-012> location in any pressurized habitable volume.
+2019_gateway_WEB,"The Gateway shall have an 800mm -0.3mm/+unlimited diameter transfer passageway between modules mated with the Gateway Docking System (GDS), as described in the DSG-SPEC- MECH-017, Gateway Program Docking System Specification."
+2019_gateway_WEB,The Gateway shall be equipped with passive or active crew exercise equipment isolation systems to reduce induced loads to the primary structure to less than or equal to <TBD-L2-GW- 013> per axis at the structural mounting interfaces of the exercise equipment to the primary Gateway structure.
+2019_gateway_WEB,The Gateway shall have a Probability of No Penetration (PNP) greater than or equal to 0.99999^(A*Y) where: A = total hazardous impact surface area and Y = exposure time in years for items with the potential to create a catastrophic hazard if impacted or punctured by MMOD.
+2019_gateway_WEB,The Gateway shall provide at least single failure tolerance to catastrophic events.
+2019_gateway_WEB,"The Gateway shall provide the capability for autonomous operation of system and subsystem functions, which if lost, would result in a catastrophic event."
+2019_gateway_WEB,The Gateway shall control critical hazards.
+2019_gateway_WEB,The Gateway shall provide the appropriate failure tolerance capability without the use of emergency equipment and systems.
+2019_gateway_WEB,"The Gateway shall protect redundant systems, redundant subsystems, and redundant major elements of subsystems (such as assemblies, panels, power supplies, tanks, controls, and associated interconnecting wiring and fluid lines) to ensure that an unexpected event which damages one is not likely to prevent the other from performing the functions."
+2019_gateway_WEB,"The Gateway shall limit the risk of human casualty on the ground in accordance with NPR 8715.6, NASA Procedural Requirements for Limiting Orbital Debris."
+2019_gateway_WEB,"The Gateway shall comply with the requirements in DSG-SPEC-CHP-010, Gateway Program Subsystem Specification for Crew Health and Performance (CHP)."
+2019_gateway_WEB,The Gateway shall provide a habitable volume that accommodates crew living and working tasks.
+2019_gateway_WEB,The Gateway shall manage crew nutrition.
+2019_gateway_WEB,"The Gateway shall manage crew medical care, per DSG-SPEC-CHP-010, Gateway Program Subsystem Specification for CHP."
+2019_gateway_WEB,The Gateway shall manage crew behavioral health.
+2019_gateway_WEB,The Gateway shall manage crew sleep.
+2019_gateway_WEB,The Gateway shall manage crew physiological health.
+2019_gateway_WEB,The Gateway system shall limit cross-contamination between food preparation areas and body waste management and hygiene areas.
+2019_gateway_WEB,The Gateway shall protect crew from toxicological hazards.
+2019_gateway_WEB,The Gateway shall protect crew from microbial hazards.
+2019_gateway_WEB,The Gateway shall protect crew from acoustic hazards.
+2019_gateway_WEB,The Gateway shall protect crew from radiation hazards.
+2019_gateway_WEB,The Gateway shall maintain a shirt sleeve environment in all habitable volumes during crewed missions.
+2019_gateway_WEB,The Gateway shall manage expected biological hazards.
+2019_gateway_WEB,The Gateway shall incorporate window(s) in a habitable element for crew viewing that maximize views of both the Moon and Earth measuring no less than 50.8 centimeters (20 inches) in diameter.
+2019_gateway_WEB,"The Gateway shall tolerate an inadvertent operator action, as identified by a human error analysis (HEA), without causing a catastrophic event."
+2019_gateway_WEB,The Gateway shall tolerate inadvertent operator action in the presence of any single system failure.
+2019_gateway_WEB,"The Gateway shall comply with applicable requirements in DSG-SPEC-CS-006, Gateway Program Subsystem Specification for Crew Systems."
+2019_gateway_WEB,The Gateway shall provide for crew to conduct personal hygiene.
+2019_gateway_WEB,The Gateway shall provide a trash management system to contain expected trash and evolved gases.
+2019_gateway_WEB,The Gateway shall provide an inventory management system (IMS).
+2019_gateway_WEB,The Gateway shall provide a stowage system that can be monitored via the IMS.
+2019_gateway_WEB,The Gateway shall accommodate restraints and mobility aids for IVA operations.
+2019_gateway_WEB,The Gateway shall provide for self-rescue of an EVA crewperson who becomes separated from the Gateway spacecraft.
+2019_gateway_WEB,The Gateway shall support EVA operations.
+2019_gateway_WEB,The Gateway shall establish EVA worksites <TBR-L2-GW-013>.
+2019_gateway_WEB,"The Gateway shall comply with interface requirements in DSG-IRD-EVA-008, Gateway Program Extravehicular Activity (EVA) Compatibility Interface Requirements."
+2019_gateway_WEB,The Gateway shall accommodate EVA capability without blocking access to the visiting crewed vehicle(s) during the EVA.
+2019_gateway_WEB,The Gateway shall provide EVA compatible accommodations to support continuous translation across adjacent (berthed/docked) modules.
+2019_gateway_WEB,The Gateway shall provide recharge services for at least two-crew EVA suits two times per crewed mission.
+2019_gateway_WEB,"The Gateway shall use standard robotic interfaces that comply with applicable CSA-GWY-ID- 0001, EVR Interface Requirements and Definition Document."
+2019_gateway_WEB,"The Gateway shall provide power, data, video, structural support and thermal services, as applicable, to external robotically compatible equipment, during all phases of operation."
+2019_gateway_WEB,The Gateway shall provide worksites for external robotics operations in accordance with CSA-
+2019_gateway_WEB,The Gateway shall have external ORUs that are compatible with robotics per the EVR Interface Requirements and Definition Document CSA-GWY-ID-0001.
+2019_gateway_WEB,The Gateway shall autonomously perform off-loading and re-loading of external logistics vehicles.
+2019_gateway_WEB,"The Gateway shall provide external robotically compatible attachment locations that provide services for ORUs, systems, and payloads during all ORU/payload life-cycle phases: operation, non-operation, external stowage, robotic manipulation and any others."
+2019_gateway_WEB,The Gateway shall provide a robotically compatible science airlock.
+2019_gateway_WEB,The Gateway shall provide redundant robotic translation paths and utilization access (single- fault tolerance).
+2019_gateway_WEB,The Gateway shall support external robotics performing end-over-end translation to perform its functions on all external surfaces of the Gateway where robotics activities are planned.
+2019_gateway_WEB,The Gateway shall provide robotic base points for external robotics operations that allow coverage of Gateway external surfaces and support all EVR operations as defined in L2-GW- 0327.
+2019_gateway_WEB,"The Gateway shall have an external robotic system capable of autonomous operations that implements the following functions on the exterior of Gateway: inspection, installation and removal of payloads, transfer of equipment through the science airlock, off-loading and re- loading of logistics vehicles, free-flying vehicle capture and release, lunar and planetary mission equipment transfer, lunar and planetary element assembly, berthing and unberthing of modules and vehicles, removal and replacement of ORUs, self-maintenance, and assistance to EVA."
+2019_gateway_WEB,"The Gateway shall limit disturbances to the vehicle and robotics, during sensitive External Robotic operations, to a level <TBD-L2-GW-014> that will not affect robot performance and safety, without the need for flight-specific analysis, including after a single failure."
+2019_gateway_WEB,The Gateway shall support a network with a TTE end-over-end translation of the external robotics.
+2019_gateway_WEB,The Gateway shall support self-deployment of the EVR Element upon initial delivery.
+2019_gateway_WEB,"The Gateway shall comply with applicable requirements in DSG-SPEC-IVR-013, Gateway Program Subsystem Specification for Intravehicular Robotics."
+2019_gateway_WEB,The Gateway shall provide the ability to access and service designated internal payloads and logistics without the need for crew intervention.
+2019_gateway_WEB,The Gateway shall have internal robotic assets capable of inspection.
+2019_gateway_WEB,The Gateway shall support internal robotics access between modules.
+2019_gateway_WEB,The Gateway shall provide a method for determining and communicating internal location information that is common to internal robotics and human operators (crew and ground).
+2019_gateway_WEB,"The Gateway shall ensure that payloads, equipment, and tools used by internal robotics have interfaces for both humans and robots."
+2019_gateway_WEB,The Gateway shall provide stowage and charging interfaces to support internal robotics operations.
+2019_gateway_WEB,The Gateway shall provide a reconfigurable mobile video camera system for inspection and internal robotic operations support.
+2019_gateway_WEB,The Gateway shall use robotically compatible interfaces to allow the IVR system to access/retrieve/install internal logistics cargo.
+2019_gateway_WEB,The Gateway shall provide resources and interfaces for Utilization payloads and payload accommodations as defined in the Gateway Utilization Payload Interface Requirement Document <TBD-L2-GW-062>.
+2019_gateway_WEB,The Gateway shall allocate a minimum of 5.15 Tbits/day (644 GB/day) for utilization use.
+2019_gateway_WEB,The Gateway shall provide a minimum of three (3) cubic meters (m3) of internal volume for powered payload locations.
+2019_gateway_WEB,"The Gateway shall provide a minimum of five (5) cubic meters (m3) <TBR-L2-GW-016> of internal volume for utilization stowage, in addition to powered payload volume allocations."
+2019_gateway_WEB,"The Gateway shall provide <TBD-L2-GW-016> internal volume for powered multi-use equipment to support utilization, in addition to volume for powered payload locations."
+2019_gateway_WEB,"The Gateway shall have a minimum of 1,000 kg on-orbit mass allocated for utilization, for each crewed Gateway mission."
+2019_gateway_WEB,The Gateway shall provide enhanced inherent capabilities to facilitate science.
+2019_gateway_WEB,The Gateway shall support satellite deployment.
+2019_gateway_WEB,The Gateway shall transfer samples and external hardware from free-flying vehicles and payloads to the Gateway interior for return to Earth.
+2019_gateway_WEB,"The Gateway Probability of LOC shall have a mean value no greater than 1 in 400, for a 30-day crewed mission including 2 EVAs."
+2019_gateway_WEB,"The Gateway Probability of LOM shall have a mean value no greater than 1 in 10, for a one year mission including a 30-day crewed mission."
+2019_gateway_WEB,The Gateway critical systems shall be designed to be maintainable.

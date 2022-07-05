@@ -1,0 +1,84 @@
+source,reqs
+2019_jpss_l2_WEB,"The NESDIS ESPC shall be capable of IPv6, per IETF RFC 2460."
+2019_jpss_l2_WEB,"The NESDIS ESPC shall make available metadata with delivered data products that are compatible with the ISO 19115 and 19115-2 metadata standards, with extensions as necessary to support NOAA user needs."
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide functionality to translate xDR products from HDF5 to Georeferenced Tagged Image File Format (GeoTIFF)
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide functionality to translate xDR products from HDF5 to GRIdded Binary Format 2 (GRIB2)
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide functionality to translate xDR products from HDF5 to Network Common Data Format 4 (NetCDF4)
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide functionality to translate the following xDR products from HDF5 to BUFR.
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide functionality to translate ATMS radiances (SDR/TDR) from HDF5 to BUFR.
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide functionality to translate CrIS Radiances (SDR) from HDF5 to BUFR.
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide functionality to translate VIIRS Radiances (SDR) from HDF5 to BUFR.
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide functionality to translate VIIRS Polar Winds from HDF5 to BUFR.
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide functionality to translate Sea Surface Temperature from HDF5 to BUFR.
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide functionality to translate Total Column Ozone from HDF5 to BUFR.
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide functionality to translate Nadir Profile Ozone from HDF5 to BUFR.
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide functionality to translate Aerosol Optical Thickness from HDF5 to BUFR.
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide functionality to translate AMSR-2 Sea Surface Temperature from NetCDF to BUFR.
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide functionality to translate AMSR-2 Sensor Calibrated Data from NetCDF to BUFR.
+2019_jpss_l2_WEB,"The NESDIS ESPC shall provide functionality to tailor xDR products that can be tailored to the following projections: Plate carrée, Mercator, Polar Stereographic."
+2019_jpss_l2_WEB,"The NESDIS ESPC shall provide functionality to compress data, including in the following formats: GZIP, ZIP, ZLIB, JPEG."
+2019_jpss_l2_WEB,The NESDIS ESPC shall be capable of converting ASD files into raw APID files.
+2019_jpss_l2_WEB,The NESDIS ESPC shall be capable of applying WMO headers to any JPSS product as requested by the user.
+2019_jpss_l2_WEB,The NESDIS ESPC new components supporting JPSS functions shall have a design life through at least FY2025.
+2019_jpss_l2_WEB,The NESDIS ESPC shall make all system status information including detected hardware and software anomaly information accessible to the designated authority for queries and report generation.
+2019_jpss_l2_WEB,The NESDIS ESPC shall make performance measurements accessible to the designated authority for queries and report generation.
+2019_jpss_l2_WEB,"The ESPC shall monitor performance, for all systems providing JPSS functionality, including but not limited to: data availability, data integrity, resource utilization, storage system I/O operations, communications, data latency."
+2019_jpss_l2_WEB,The ESPC shall make data integrity status available to operators.
+2019_jpss_l2_WEB,The NESDIS ESPC shall make JPSS data availability and JPSS latency information accessible to the designated authority for queries and report generation.
+2019_jpss_l2_WEB,"The NESDIS ESPC shall have sufficient capacity to ingest either S-NPP, JPSS-1, and GCOM-W or JPSS-1, JPSS-2, and GCOM-W missions data streams (as specified in Appendix A)."
+2019_jpss_l2_WEB,"The NESDIS ESPC shall have sufficient capacity for data product generation of two JPSS missions (S-NPP and JPSS-1, or JPSS-1 and JPSS-2), and GCOM-W missions data (as specified in Appendix A)."
+2019_jpss_l2_WEB,"The NESDIS ESPC shall have sufficient capacity for product distribution of two JPSS missions (S-NPP and JPSS-1, or JPSS-1 and JPSS-2), and GCOM-W missions data streams (as specified in Appendix A)."
+2019_jpss_l2_WEB,The NESDIS ESPC shall be sized to support product output volumes of 25.9 terabytes of JPSS data per day.
+2019_jpss_l2_WEB,The NESDIS ESPC shall be capable of supporting ingress volumes of 6 terabytes of JPSS data per day.
+2019_jpss_l2_WEB,The NESDIS ESPC shall be capable of supporting 100 JPSS concurrent ad-hoc transfers.
+2019_jpss_l2_WEB,The NESDIS ESPC shall be capable of supporting 200 JPSS concurrent transfers. JERD-552 The NESDIS ESPC shall be sized to support a maximum ingress bit rate of 3.5 Gbps of JPSS data.
+2019_jpss_l2_WEB,The NESDIS ESPC shall be sized to support an egress bit-rate of 22.9 Gbps of JPSS data.
+2019_jpss_l2_WEB,The NESDIS ESPC shall support a JPSS to ESPC ingress peak file access rate of 40 JPSS files/second.
+2019_jpss_l2_WEB,The NESDIS ESPC architecture shall be flexible enough to accommodate 100% CPU and memory growth without necessitating a redesign of the system for any new functionality added to ESPC in support of JPSS.
+2019_jpss_l2_WEB,"The NESDIS ESPC shall have sufficient computer processing such that Central Processing Unit utilization does not exceed 70%, averaged daily."
+2019_jpss_l2_WEB,"The NESDIS ESPC shall have sufficient computer memory such that the computer memory utilization does not exceed 50%, averaged daily."
+2019_jpss_l2_WEB,"The NESDIS ESPC shall provide 50% margin on all system resources, including processing, storage, and throughput, under peak loading conditions."
+2019_jpss_l2_WEB,The NESDIS ESPC shall be capable of receiving SMD accounting data from the JPSS Ground System.
+2019_jpss_l2_WEB,The NESDIS ESPC shall monitor the quality of the ESPC generated Products.
+2019_jpss_l2_WEB,The NESDIS ESPC shall monitor the integrity of the input data it receives.
+2019_jpss_l2_WEB,The NESDIS ESPC shall retain a listing of data received for no less than 30 consecutive calendar days.
+2019_jpss_l2_WEB,The NESDIS ESPC shall retain a listing of data distributed for no less than 90 consecutive calendar days.
+2019_jpss_l2_WEB,The NESDIS ESPC shall retain a listing of data requested by users for no less than 90 consecutive calendar days.
+2019_jpss_l2_WEB,The NESDIS ESPC shall store all data products received from the JPSS Ground System for a minimum of 4 days.
+2019_jpss_l2_WEB,The NESDIS ESPC shall support software updates while satisfying all functional and performance requirements.
+2019_jpss_l2_WEB,The NESDIS ESPC shall prevent delivery of test data to the operational environment.
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide the functionality to perform integration and testing or maintenance without any impact to ongoing operations.
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide the capability for a designated authority to manage system resources.
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide the capability to restrict access to data.
+2019_jpss_l2_WEB,The NESDIS ESPC shall ingest data from the JPSS Ground System in compressed format as documented in JPSS GS to NESDIS ESPC IRD.
+2019_jpss_l2_WEB,The NESDIS ESPC shall be capable of processing data from the JPSS Ground System received in compressed format as documented in JPSS GS to NESDIS ESPC IRD.
+2019_jpss_l2_WEB,"The NESDIS ESPC shall generate JPSS data products in accordance with Appendix A only for those products annotated as ""ESPC Product Generation."""
+2019_jpss_l2_WEB,All raw and sensor data available from the JPSS Ground System shall be made available by ESPC regardless of whether or not EDR Degradation and Exclusion Conditions apply.
+2019_jpss_l2_WEB,The NESDIS ESPC shall have the capability to provide quality flags as generated by algorithms.
+2019_jpss_l2_WEB,The NESDIS ESPC shall make available to the JPSS Ground System (GS) ancillary data as specified in Table A.
+2019_jpss_l2_WEB,The ESPC shall make available one complete set (primary set) of data products identified in Appendix A from the science data acquired from the JPSS GS.
+2019_jpss_l2_WEB,"The ESPC shall make available any additional product sets as specified in Appendix A, that originated from secondary mission sensors to ESPC Registered Users."
+2019_jpss_l2_WEB,The NESDIS ESPC shall make available ancillary data in accordance with Table A to JPSS service delivery points at the primary (NSOF) and alternate (Consolidated Back Up (CBU)) processing centers.
+2019_jpss_l2_WEB,"The NESDIS ESPC shall make available all products identified in Appendix A as ""ESPC Product Generation"" to CLASS."
+2019_jpss_l2_WEB,The NESDIS ESPC shall deliver to NWS the data products identified in JERD Appendix A that are designated to go to NWS (S-NPP and NOAA-20 legacy parent requirements designating NWS receipt are contained in the L1RD Supplement Tables 2.2 and 2.3.)
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide the capability to make select JPSS products ready for GTS dissemination.
+2019_jpss_l2_WEB,"The NESDIS ESPC shall meet ESPC pass through, Product Generation, reformatting times as specified in Appendix A. (See Waiver on page xv)"
+2019_jpss_l2_WEB,The NESDIS ESPC shall either deliver or make available the products identified in Appendix A to ESPC Registered Users. (S-NPP and NOAA-20 legacy parent requirements on data product recipients are contained in the JPSS L1RD Supplement Tables 2.2 and 2.3.)
+2019_jpss_l2_WEB,"The NESDIS ESPC shall provide a user interface that supports search, order, and subscription management services."
+2019_jpss_l2_WEB,The NESDIS ESPC shall allow users to subscribe to a subset of JPSS products as identified in Appendix A and Table A.
+2019_jpss_l2_WEB,The NESDIS ESPC shall be capable of fulfilling user data subscriptions and ad- hoc orders.
+2019_jpss_l2_WEB,The NESDIS ESPC shall be capable of notifying users of the status of their orders.
+2019_jpss_l2_WEB,The NESDIS ESPC outages in support of JPSS functions shall be less than 5 hours over a 30day period.
+2019_jpss_l2_WEB,"The system shall have no single point of failure for ingest, product generation and product distribution functionality."
+2019_jpss_l2_WEB,The NESDIS ESPC shall provide an interface between the system's distribution capability (i.e. PDA) and external data consumers.
+2019_jpss_l2_WEB,"The NESDIS ESPC shall interface with the JPSS Ground System in accordance with the Joint Polar Satellite System (JPSS) Ground System (GS) to National Environmental Satellite, Data, and Information Service (NESDIS) Environmental Satellite Processing Center (ESPC) Interface Requirements Document (IRD) (document number 474-00303)."
+2019_jpss_l2_WEB,The NESDIS ESPC shall interface with the NOAA CLASS.
+2019_jpss_l2_WEB,The NESDIS ESPC shall interface with the National Weather Service (NWS).
+2019_jpss_l2_WEB,The NEDSIS ESPC shall ensure that system status is available only to those authorized to have access.
+2019_jpss_l2_WEB,"The NESDIS ESPC shall deploy an alternate Data Processing Center as part of the CBU capability to fulfill Continuity of Operations (COOP) that at a minimum produces AMSR-2/3 Calibrated Sensor Data, Green Vegetation Fraction (VIIRS), Ocean Color (VIIRS), Polar Winds (VIIRS), AMSR-2/3 SST, VIIRS SST."
+2019_jpss_l2_WEB,The NESDIS ESPC shall as part of the CBU capability to fulfill Continuity of Operations (COOP) be capable of distributing the minimum set of data products in accordance with the JERD Appendix A designated for APC distribution.
+2019_jpss_l2_WEB,The NESDIS ESPC alternate distribution center shall deliver data to the CLASS Point of Presence (PoP) at the Consolidated Back Up (CBU).
+2019_jpss_l2_WEB,The ESPC shall transition full operations between the COOP and primary facilities in less than 12 hours.
+2019_jpss_l2_WEB,The NESDIS ESPC shall support operations out of the COOP facility for at least 30 consecutive days during each COOP event.
+2019_jpss_l2_WEB,The NESDIS ESPC alternate processing center shall be capable of being remotely configurable from the primary data processing center at NSOF.
+2019_jpss_l2_WEB,The NESDIS ESPC alternate processing center shall be capable of being remotely-operable from the primary data processing center at NSOF.

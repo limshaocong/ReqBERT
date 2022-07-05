@@ -1,0 +1,792 @@
+source,reqs
+2004_hp_srs_web,"The Herschel satellite shall accommodate the Herschel instruments and telescope and shall satisfy all performances and interface requirements as specified in the IID’s (AD4-1,AD4-2, AD4-3, AD4-4), and AD2-1. In addition, it shall deliver the instruments in an adequate Lissajous orbit around L2."
+2004_hp_srs_web,"The Planck satellite shall accommodate the Planck instruments and telescope (including the primary, secondary reflectors and baffle) and shall satisfy all performances and interface requirements as specified in the IID’s (AD4-1,AD4-5, AD4-6) and AD2-2. In addition, it shall deliver the instruments in an adequate Lissajous orbit around L2."
+2004_hp_srs_web,The Herschel spacecraft shall support the scientific observations of the Herschel instruments
+2004_hp_srs_web,The Planck spacecraft shall support the scientific observations of the Planck instruments
+2004_hp_srs_web,The spacecraft design shall enable the operational control by the ground segment during all mission phases and modes in both nominal and contingency situations.
+2004_hp_srs_web,The spacecraft shall be able to support continuous communications with the ground during station visibility periods.
+2004_hp_srs_web,"During all mission phases the spacecraft shall be able to receive telecommands and transmit housekeeping data in any attitude and orbit position , i.e. omni-directional coverage shall be provided."
+2004_hp_srs_web,The spacecraft design shall support real time housekeeping data (spacecraft and payload)
+2004_hp_srs_web,The spacecraft design shall support real time science + Real time housekeeping data
+2004_hp_srs_web,The spacecraft design shall support real time housekeeping data + dump of on-board mass memory
+2004_hp_srs_web,The spacecraft design shall support real time housekeeping +Real time science + dump of the on- board mass memory
+2004_hp_srs_web,"Each spacecraft shall be equipped with a set of Visual Monitoring Camera(s) (VMC). The purpose being Public Relations effort, the performance (resolution, colour image, etc.), location and field of view shall be selected accordingly."
+2004_hp_srs_web,Each spacecraft shall be equipped with a Radiation Monitor according to AD2-3. Its intended operation is also described in AD2-3.
+2004_hp_srs_web,Each spacecraft shall be able to operate out of ground contact and follow a programme of operations loaded by the ground during the communication period (DTCP).
+2004_hp_srs_web,"Both spacecraft shall be compatible with the facilities at the launch site. However Contractor., specific non-standard facility modifications/extension that might have to be implemented (e.g. for helium handling or dry nitrogen flushing) by the launcher authority shall be identified by the Contractor."
+2004_hp_srs_web,"Both spacecraft shall be compatible with a direct ignition of the launcher upper stage, shall be supported by internal power and withstand the mechanical and thermal environment."
+2004_hp_srs_web,"During the launch phase, both spacecraft shall be in a minimum power mode using on-board batteries. All instruments are switched off with the exception of the launch lock of the mechanical coolers for the Planck S/C. Command for cryogenic valve actuation, if necessary during launch, could be supplied by the launch vehicle."
+2004_hp_srs_web,Both spacecraft shall be compatible with a daily launch window of 45 minutes.
+2004_hp_srs_web,Both spacecraft shall be compatible with the combined duration of the yearly launch windows of at least 6 months.
+2004_hp_srs_web,The spacecraft shall autonomously detect separation from the launch vehicle and reorient itself to achieve Sun-pointing of the solar arrays.
+2004_hp_srs_web,The spacecraft shall autonomously detect correct Sun-acquisition and switch to the solar array power mode.
+2004_hp_srs_web,"20 seconds after separation, the spacecraft shall provide telemetry data for spacecraft monitoring and check-out."
+2004_hp_srs_web,The spacecraft shall provide attitude information for attitude reconstitution by the ground.
+2004_hp_srs_web,Both spacecraft shall be compatible with the direction of the Delta- Velocity vector as defined by SGEN-060.
+2004_hp_srs_web,The spacecraft propulsion system shall support all post-launch attitude and orbit manoeuvres required to correct for injection errors.
+2004_hp_srs_web,All planned manoeuvres shall be possible without ground link.
+2004_hp_srs_web,Both spacecraft shall be compatible with the operational Lissajous orbit around the 2nd Lagrangian Libration point in the Earth/Moon – Sun system.
+2004_hp_srs_web,The Herschel spacecraft shall be compatible with a maximum Sun/Spacecraft/Earth angle of 40 degrees in its operational orbit.
+2004_hp_srs_web,Both spacecraft shall be compatible with a maximum distance to Sun of 154E6 km.
+2004_hp_srs_web,Both spacecraft propulsion systems shall support all orbit correction/ maintenance manoeuvres.
+2004_hp_srs_web,To perform orbit maintenance the spacecraft design shall not require dedicated slew manoeuvres but maintain the attitude imposed by the execution of the nominal sky scanning law.
+2004_hp_srs_web,The attitude constraints as defined in Section 4.2.7. shall be satisfied during the ?V and orbit maintenance manoeuvres.
+2004_hp_srs_web,The attitude constraints and restrictions shall be respected at separation until the end of mission.
+2004_hp_srs_web,The Herschel spacecraft shall be compatible with any of the following combination of sun aspect angles away from the +Z-axis during all observational modes: +/-30 degrees about the Y-axis and +/-1 degrees about the X-axis.
+2004_hp_srs_web,The Planck spacecraft shall be compatible with a sun aspect angle of ± 10° from the -X-axis (around the spin axis) during all operation modes.
+2004_hp_srs_web,The Planck spacecraft shall be designed such as to enable the Planck instruments to image at least 95% of the sky twice over.
+2004_hp_srs_web,"During the DTCP, the MGA (Medium Gain Antenna) shall be pointed towards the Earth as defined by the Mission Timeline."
+2004_hp_srs_web,"Mission planning will ensure that during scientific operations, the minimum angle between the line of sight (X axis) of the telescope and the Earth direction shall be 23 degrees."
+2004_hp_srs_web,"Mission planning will ensure that during scientific operations, the minimum angle between line of sight (X axis) of the telescope and the Moon direction shall be 13 degrees."
+2004_hp_srs_web,"During Herschel Science Observations, the spacecraft shall provide the pointing modes defined in Herschel Pointing Modes, Annex 1."
+2004_hp_srs_web,During the Observation Period it shall be possible to point the LOS of the prime instrument to any target within the FOR according to any of the operational pointing modes as described in Annex 1.
+2004_hp_srs_web,During the Telecommunication Period it should be possible to point the LOS of the prime instrument to any selected target within the FOR whose coordinates are compatible with telecommunication phase Earth-pointing requirements.
+2004_hp_srs_web,"During science observations, the pointing requirements corresponding to the selected observation mode shall be met (section 4.4.2)."
+2004_hp_srs_web,"It shall be possible to maintain the fine pointing for periods of up to 22 hours, during which momentum unloading shall not occur."
+2004_hp_srs_web,"The spin axis of the Planck spacecraft shall be nominally parallel to the X-axis and pointing to the Sun as defined in the Planck Scanning Strategy, Annex 2."
+2004_hp_srs_web,The direction (sense of rotation) of the spin shall be unique throughout the mission as specified in MOOF-050.
+2004_hp_srs_web,The spacecraft shall be capable of re-pointing the spin axis to ? 10? away from the Sun.
+2004_hp_srs_web,The Planck spacecraft shall downlink all the data acquired during 24 Hours without interrupting the survey mode.
+2004_hp_srs_web,"The Herschel spacecraft must as a minimum support the simultaneous operation of the HIFI instrument in Prime mode, the PACS instrument in Standby mode, and the SPIRE instrument in Standby mode."
+2004_hp_srs_web,"The Herschel spacecraft must as a minimum support the simultaneous operation of the HIFI instrument in Standby mode, the PACS instrument in Prime mode, and the SPIRE instrument in Standby mode."
+2004_hp_srs_web,"The Herschel spacecraft must as a minimum support the simultaneous operation of the HIFI instrument in Standby mode, the PACS instrument in Standby mode, and the SPIRE instrument in Prime mode."
+2004_hp_srs_web,"The Herschel spacecraft must as a minimum support the simultaneous operation of the HIFI instrument in Standby mode, the PACS instrument in Prime mode, and the SPIRE instrument in Parallel mode."
+2004_hp_srs_web,"The Planck spacecraft must as a minimum support the simultaneous operation of the HIFI instrument in Prime mode, and the LFI instrument in Prime mode."
+2004_hp_srs_web,"The Planck spacecraft must as a minimum support the simultaneous operation of the HIFI instrument in Prime mode, and the LFI instrument in Standby mode."
+2004_hp_srs_web,"The Planck spacecraft must as a minimum support the simultaneous operation of the HIFI instrument in Standby mode, and the LFI instrument in Prime mode."
+2004_hp_srs_web,"During satellite slews, the Herschel satellite shall provide all the resources necessary for operation of one science instrument in serendipity mode. Such science observations shall not put any demands on the spacecraft attitude profile."
+2004_hp_srs_web,"During the DTCP, the Herschel satellite shall provide all the resources required to operate the instruments in the operational modes defined in table 4.3.1.1. Such observations shall be executed at an attitude compliant with the attitude constraints during the DTCP ."
+2004_hp_srs_web,"During Planck Science Observations, the spacecraft shall support the scanning law defined in the Planck Scanning Strategy in Annex 2."
+2004_hp_srs_web,The Planck spacecraft design shall allow for complete sky coverage (at least 95 % of the full 4 pi sr. celestial sphere ) in a spatially continuous way in less than 7.5 months.
+2004_hp_srs_web,"The time needed for the regular (planned and/or preventive) maintenance operations of the Planck spacecraft in-orbit shall be less than 10 hours per month and shall take place during DTCP , while continuing the instruments observational operations ."
+2004_hp_srs_web,"During the Telecommunication Period DTCP, the Planck satellite shall provide all resources required to operate both instruments in their nominal operational modes."
+2004_hp_srs_web,"The spacecraft shall support a calibration mode, involving the execution of multiple calibrations in order to establish the angles between stellar reference and the instruments lines of sight such that the pointing requirements of the fine pointing mode can be met at all possible spacecraft attitudes satisfying the attitude constraints of Section 4.2.7. and for all possible spacecraft operational conditions."
+2004_hp_srs_web,"The spacecraft shall communicate, on-board and to ground, a request for pointing correction from the prime instrument per single pointing mode as defined in Annex 1 (excluding line scanning)."
+2004_hp_srs_web,"After reception of the request for pointing correction from the instrument, the spacecraft shall autonomously readjust its attitude accordingly."
+2004_hp_srs_web,"The correction shall only be allowed within predefined boundaries , <10 arcsec around Y and Z axes."
+2004_hp_srs_web,The spacecraft shall provide inertial attitude data such that it will be possible to derive the absolute angle between the LOS of each Planck detector and the actual attitude of the spacecraft with accuracy compatible with the Planck pointing requirements (AME).
+2004_hp_srs_web,"The spacecraft shall support a calibration mode, involving the execution of multiple calibrations in order to establish the angles between a stellar reference and the instruments lines of sight such that the pointing requirements can be met at all possible spacecraft attitudes satisfying the attitude constraints of Section 4.2.7. and for all possible spacecraft operational conditions."
+2004_hp_srs_web,The survival mode shall maintain a safe attitude within the constraints allowing a continuous supply of power and maintaining a thermal environment compatible with the spacecraft and essential loads.
+2004_hp_srs_web,It shall ensure a two way communication link with the ground station when coverage is available for at least housekeeping telemetry data and commanding (i.e. providing suitable link margins with omni- directional coverage).
+2004_hp_srs_web,It shall maintain spacecraft and instruments in safe conditions and broadcast a safe mode flag to the instruments upon entry to the safe mode.
+2004_hp_srs_web,It shall be possible to enter the survival mode by ground command. Exit from the survival mode shall only be possible by ground command.
+2004_hp_srs_web,The spacecraft shall be able to maintain the survival mode without any ground contact for at least seven days.
+2004_hp_srs_web,The survival mode shall not rely on any volatile memory (Random Access Memory or other) stored data.
+2004_hp_srs_web,"The exact attitude during the survival mode may not be known, but the attitude constraints of Section 4.2.7. shall be satisfied."
+2004_hp_srs_web,"Upon entry in the survival mode, the Mission Time-Line shall be discontinued. The TM format shall be switched to HK mode only."
+2004_hp_srs_web,"If no ground command has been received since more than a ground programmable time and after a minimum time of 60 hours, transponder/antenna toggling shall be initiated."
+2004_hp_srs_web,"In case transponder/antenna toggling is initiated because no ground command has been received, this toggling shall ensure that all combinations of redundancies within the telecommand and telemetry system are sequentially and continuously configured for a minimum time of 10 minutes each."
+2004_hp_srs_web,The spacecraft design shall comply with the AD 3-2 requirements.
+2004_hp_srs_web,The spacecraft shall support on-board storage of the mission timeline for a 48 hours mission time.
+2004_hp_srs_web,The spacecraft shall support autonomous (i.e. without ground contact) execution of the mission timeline.
+2004_hp_srs_web,The spacecraft shall support rescheduling of planned events in the mission timeline as defined in AD3-2.
+2004_hp_srs_web,The time resolution of the mission timeline shall be 1 s.
+2004_hp_srs_web,It shall be possible to exit from the Autonomy Mode by Ground Command.
+2004_hp_srs_web,"The spacecraft shall support on-board storage of all mission data generated during 48 hours (e.g. science and HK data, events, reports etc)."
+2004_hp_srs_web,The spacecraft shall be capable of autonomous wheel off-loading.
+2004_hp_srs_web,"Under nominal conditions, wheel off-loading shall take place outside the Observation Period (OP)."
+2004_hp_srs_web,Initiation of wheel off-loading shall be possible by ground command as well as trough the MTL (Mission Timeline).
+2004_hp_srs_web,"Off-loading, as well as up-loading, of each reaction wheel shall be possible to a ground-commanded value."
+2004_hp_srs_web,The pointing budget shall demonstrate compliance of the design with these requirements; it shall be established according to the rules defined in the ESA Pointing Error Handbook (RD-1).
+2004_hp_srs_web,The survival mode shall be activated automatically by the S/C after a H/P major on-board failure or a violation of the attitude constraints of Section 4.2.7.
+2004_hp_srs_web,"In consecutive pointings within 4 deg. x 4 deg. spherical area, the SRPE of all pointings following the initial pointing, as referred to the average (barycentre) pointing direction of the first pointing shall be less than 1 arcsec (68% probability level)."
+2004_hp_srs_web,"During the sky survey mode, the pointing requirements are specified in the table below:"
+2004_hp_srs_web,The nominal spin axis motion about the spacecraft +X-axis shall be at constant rate of +1 rpm (+6?/sec) with an Absolute Rate Error of less than 5.4 arcmin/sec.
+2004_hp_srs_web,"Between 2 consecutive re-orientation manoeuvres , the spin rate drift or fluctuation over one hour shall be less than 10-4 rpm ."
+2004_hp_srs_web,Slews shall nominally not use the Reaction Control Subsystem (RCS).
+2004_hp_srs_web,The maximum slew speed shall be at least 7 degrees/min when the slew angle is large enough to permit full angular velocity.
+2004_hp_srs_web,"It shall be possible to change by command, scan rate between 0.1 arcsec/s and 1 arcmin/s with a resolution of 0.1 arcsec/s."
+2004_hp_srs_web,The Absolute Rate Error about the scan axis shall be better than 1% of the demanded rate but not less than 0.1 arcsec/s.
+2004_hp_srs_web,"The system shall be dimensioned for operational slews of at least 90 degrees, executed twice per day. Slews with an amplitude of 90 degrees shall be completed within 15 min, including settling."
+2004_hp_srs_web,The spacecraft shall be capable of reorienting the jitter strip average with an average frequency of one manoeuvre every 45 minutes throughout the nominal lifetime.
+2004_hp_srs_web,The spacecraft shall be capable of reorienting the jitter strip average with an average amplitude of 3 arcmin (consistent with the Planck scanning law) and a resolution of 0.1 arcmin in any direction at a maximum rate of once per 30 min.
+2004_hp_srs_web,The spacecraft shall be capable of reorienting the jitter strip average for up to 3 arcmin with an accuracy of <0.4 arcmin relative to the previous orientation (amplitude and direction; 68% probability level)
+2004_hp_srs_web,"The duration, including the settling time, of a 3 arcmin amplitude jitter strip average reorientation shall be < 5 minutes (elapsed time during which pointing requirements cannot be met)"
+2004_hp_srs_web,The shortest duration between two manoeuvres will be 30 min.
+2004_hp_srs_web,"For large spin axis reorientation not part of the Planck scanning law (up to 20 degrees), the rate of reorientation of the jitter strip average shall be at least 0.5 arcmin/s."
+2004_hp_srs_web,To meet Planck APE and PDE requirements the spacecraft design shall not require dedicated reorientation manoeuvres but utilise a maximum of +/-10% tuning of the amplitude of the manoeuvres needed to execute the nominal sky survey.
+2004_hp_srs_web,"The design shall prevent the loss of the satellite. Any hazardous situation, which will not cause immediate loss but may develop into a loss of the satellite, shall be prevented by design or shall be protected."
+2004_hp_srs_web,"Single failures, which pose a threat to mission objectives, mission life or spacecraft safety shall be eliminated. Where this cannot be achieved, a justification for retention shall be proposed for ESA assessment and approval by a Request For Waiver (RFW)."
+2004_hp_srs_web,The spacecraft design shall not include any failure propagation path such that failure from one function/unit causes permanent failure to another function/unit.
+2004_hp_srs_web,"Redundant units shall have a physical separation between them. If redundancy is implemented in the same box, a metallic separation is required."
+2004_hp_srs_web,"Where redundancy is employed, the design shall allow to operate and verify the redundant item/function independently of the nominal use."
+2004_hp_srs_web,Each redundant path or function shall meet the full performance requirements.
+2004_hp_srs_web,Autonomous failure detection and recovery shall not be based on a single sensor readout.
+2004_hp_srs_web,Switch over to redundant units shall be possible without reconfiguration of unrelated units.
+2004_hp_srs_web,"The satellite shall respond to on-board failures by switching, independent from ground control, to redundant functional path. Where this can be accomplished without risk to satellite safety such switching shall enable the continuity of the mission timeline and performance. In"
+2004_hp_srs_web,"the event that alternative redundant paths do not exist or that the failure effect is too complex to allow autonomous recovery, the satellite shall enter Survival Mode."
+2004_hp_srs_web,No single failure in the on-board protection system shall cause the spacecraft to go into survival mode.
+2004_hp_srs_web,The spacecraft shall suppress uncontrolled recycling of error reaction functions.
+2004_hp_srs_web,"It shall be possible to enable, disable or reverse any on board autonomous function or action by ground command."
+2004_hp_srs_web,"Exceptions ( e.g. Power distribution , DC/DC converters over-voltage protections , … ) shall be identified and agreed ."
+2004_hp_srs_web,The design of fault management systems shall be intrinsically fail-safe.
+2004_hp_srs_web,All relevant anomalies shall be properly detected and unambiguously reported.
+2004_hp_srs_web,Spurious anomaly detection (false alarms) shall be avoided.
+2004_hp_srs_web,A clear and adequate fault reporting shall be provided in the telemetry.
+2004_hp_srs_web,A clear and adequate fault diagnosis and identification shall be provided on-board.
+2004_hp_srs_web,"An expedite and reliable procedure, under ground control, shall be provided to return to nominal operations after a failure."
+2004_hp_srs_web,"Autonomous action shall be implemented at the appropriate level, i.e. at system level if the impact is system wide, at subsystem level if the impact does not reach further than the subsystem and at unit level if the impact is constrained to that unit."
+2004_hp_srs_web,The implementation of any autonomous action shall avoid switching back and forth between unhealthy systems.
+2004_hp_srs_web,An anomaly detection shall be confirmed by using more than one sample of the same measurement.
+2004_hp_srs_web,The anomaly detection system must ensure that only valid information is used.
+2004_hp_srs_web,Trigger limits shall have adequate and quantified margins .
+2004_hp_srs_web,It shall be possible to adjust software parameter values for confirmation time and trigger by ground command.
+2004_hp_srs_web,"For any on-board autonomous reconfiguration, telemetry data shall indicate the time and the conditions, at/under which the event occurred."
+2004_hp_srs_web,Control laws and parameters for autonomous functions shall be capable of being modified by ground command.
+2004_hp_srs_web,No nominal operation shall require the deactivation of the on-board protection system.
+2004_hp_srs_web,"The Herschel S/C coordinate system (OHSC, XHSC, YHSC, ZHSC) is defined as follows: the origin OHSC is at the centre of the Herschel/Launcher separation plane, the XHSC-axis is normal to the Herschel/Launcher separation plane, positive towards the payload, the ZHSC-axis is normal to the X-axis such that nominally Z is pointing positive towards the sun, and the YHSC-axis completes the right handed system."
+2004_hp_srs_web,"The Planck S/C coordinate system (OPSC, XPSC, YPSC, ZPSC) is defined as follows: the origin OPSC is in the centre of the Planck/Launcher separation plane, the XPSC-axis is normal to the Planck/Launcher separation plane, positive towards the payload, the ZPSC-axis is normal to the X-axis, in the symmetry plane of the telescope, with the positive direction on the concave side of the telescope, andthe YPSC-axis completes the right handed system."
+2004_hp_srs_web,"The Herschel and Planck spacecraft design shall allow for maximum autonomy during integration and testing of the Herschel Payload Module, the Herschel Telescope Assembly, the Planck Payload Module and the Service Modules."
+2004_hp_srs_web,The Planck spacecraft spin axis shall be the principal axis of maximum moment of inertia.
+2004_hp_srs_web,"For the Planck spacecraft, the stabilisation inertia ratio, expressed as lambda = 1+sqrt[(lx/lz-1) (lx/ly-1)] with lz<ly<lx, taking into account satellite inertia uncertainties shall be higher than 1.05."
+2004_hp_srs_web,"The total mass of the Herschel / Planck composite at launch , including the scientific instruments and ESA reserve, shall not exceed 5593 kg including applicable development margins."
+2004_hp_srs_web,The knowledge accuracy of the satellite mass shall be better than +/- 1% and of the moment of inertia shall be better than +/- 5%.
+2004_hp_srs_web,The flight ready spacecraft shall comply with the static and dynamic balance requirements specified in the ARIANE 5 Users manual ( AD6-1 ).
+2004_hp_srs_web,"The parts, materials and processes shall comply with the requirements, the environments and the quality assurance provisions as specified herein and with AD1-1."
+2004_hp_srs_web,"The selection of mechanical parts shall be justified by analyses, similarity, and if necessary, appropriate tests and their qualification for the required application shall be demonstrated."
+2004_hp_srs_web,Materials shall not be flaking or dusting so that a high degree of cleanliness of the flight hardware can be achieved and maintained. This is also applicable to materials used on GSE.
+2004_hp_srs_web,"Materials and combinations of materials bonded to each other shall be resistant to the thermal cycling to which they will be exposed until the end of the mission. A standard thermal cycling method is defined in AD6-14, but the contractor shall as necessary perform specific thermal cycling tests which are representative of the actual qualification temperatures for the application, for qualification with at least a factor 1.5 on the number of cycles expected until end of the nominal lifetime (minimum 10 cycles)."
+2004_hp_srs_web,Materials shall be resistant to the radiation to which they will be exposed during their operational lifetime. The contractor shall determine what the anticipated radiation environment will be for materials used in various locations and as necessary demonstrate by appropriate testing that the properties shall not degrade below acceptable limits for significant properties.
+2004_hp_srs_web,"Materials, which are in contact with each other, shall be compatible with each other. Compatibility shall be demonstrated by test if insufficient data is available from standard references or previous applications."
+2004_hp_srs_web,Materials shall be resistant to corrosion or they shall be suitably protected against corrosion.
+2004_hp_srs_web,Materials shall have high resistance to stress corrosion cracking (SCC) for all structural applications but also for applications (like pretensioned springs or welded constructions which frequently include residual internal and assembly stresses) in which the materials are exposed for extended periods of time to tensile stresses in the terrestrial atmosphere or potentially corrosive environments. The requirement also applies for GSE handling and lifting devices for loads higher than 30 kg.
+2004_hp_srs_web,Adequate resistance to SCC shall be verified in agreement with AD6- 16.
+2004_hp_srs_web,Metals which are in direct contact with each other shall not form a galvanic couple with a difference of more than 0.5 V Electro-Motive Force (EMF); in corrosive environments it shall not be more than 0.25 V EMF.
+2004_hp_srs_web,"As far as practicable, materials and mechanical parts shall be non- magnetic. In case magnetic material must be used for a particular function, the magnetic characteristics of the part will have to be determined and depending on the effects on system level, magnetic compensation methods might have to be applied."
+2004_hp_srs_web,"Materials that are nutrients for fungus shall not be used when their use can be avoided. Where used and not hermetically sealed, these materials shall be treated with a suitable fungicide agent."
+2004_hp_srs_web,Materials which may constitute a safety hazard or can cause contamination shall not be used without specific approval by ESA (RFW).
+2004_hp_srs_web,"The design of the spacecraft shall consider the need for accessibility and the methods to be employed for the removal of units, placement of test aids, for equipment requiring adjustment or maintenance with the aim of eliminating or minimising the possibility of injury to personnel"
+2004_hp_srs_web,"The design of the spacecraft shall consider the need for accessibility and the methods to be employed for the removal of units, placement of test aids, for equipment requiring adjustment or maintenance with the aim of eliminating or minimising the possibility of damage to equipment or facility"
+2004_hp_srs_web,"The design of the spacecraft shall consider the need for accessibility and the methods to be employed for the removal of units, placement of test aids, for equipment requiring adjustment or maintenance with the aim of eliminating or minimising the possibility of incorrect assembly"
+2004_hp_srs_web,"The design of the spacecraft shall consider the need for accessibility and the methods to be employed for the removal of units, placement of test aids, for equipment requiring adjustment or maintenance with the aim of eliminating or minimising task complexity"
+2004_hp_srs_web,"The design of the spacecraft shall consider the need for accessibility and the methods to be employed for the removal of units, placement of test aids, for equipment requiring adjustment or maintenance with the aim of eliminating or minimising use of special tools or equipment"
+2004_hp_srs_web,"The design of the spacecraft shall consider the need for accessibility and the methods to be employed for the removal of units, placement of test aids, for equipment requiring adjustment or maintenance with the aim of eliminating or minimising use of non-standard hardware"
+2004_hp_srs_web,"The design of the spacecraft shall consider the need for accessibility and the methods to be employed for the removal of units, placement of test aids, for equipment requiring adjustment or maintenance with the aim of eliminating or minimising design complexity"
+2004_hp_srs_web,"The design of the spacecraft shall consider the need for accessibility and the methods to be employed for the removal of units, placement of test aids, for equipment requiring adjustment or maintenance with the aim of eliminating or minimising the need for special skills"
+2004_hp_srs_web,"The design of the spacecraft shall consider the need for accessibility and the methods to be employed for the removal of units, placement of test aids, for equipment requiring adjustment or maintenance with the aim of eliminating or minimising the activity duration"
+2004_hp_srs_web,"It shall be possible to access or remove equipment if it requires maintenance control, with minimum disturbance to and interference with spacecraft or payload."
+2004_hp_srs_web,Items to be removed before flight (red tag items) shall be visible after integration with the spacecraft.
+2004_hp_srs_web,"Items requiring integration for safety, logistical or life reasons, close to the launch, shall be accessible without removing any equipment from the spacecraft."
+2004_hp_srs_web,"Items, which require adjustment, servicing or maintenance before launch, shall be accessible without removing any equipment from the spacecraft."
+2004_hp_srs_web,"Each item of the spacecraft shall be directly interchangeable in form, fit and function with another item of the same part number (configuration item number). The performance characteristics and dimensions of like units shall be sufficiently uniform to permit interchange with a minimum of adjustment and re-calibration."
+2004_hp_srs_web,Periodic maintenance requirements during storage and ground life shall be minimised and declared.
+2004_hp_srs_web,The spacecraft and its constituting modules/assemblies and sub- assemblies shall survive all environmental testing without the need for refurbishment.
+2004_hp_srs_web,The composite design shall be compatible with the cleanliness and contamination requirements given in the Product Assurance document (AD1-1) until the end of the nominal lifetime.
+2004_hp_srs_web,"The spacecraft and its items (like optical bench, telescope …) shall not contaminate the instruments and optical surfaces more than as specified in the following requirements deleted."
+2004_hp_srs_web,"For the Herschel telescope, the optical subsystem transmission losses (as defined in AD2-1) shall be lower than 3.5% (TBC) over the full 80 - 670 µm range at the time of cryostat cover opening in- orbit. Appropriate and timely analyses and measurement verifications shall be undertaken throughout the programme to give maximum confidence that this performance will be achieved."
+2004_hp_srs_web,"For the Herschel telescope, the optical subsystem transmission losses (as defined in AD2-1) shall be lower than 4.2% (TBC) over the full 80 - 670 µm range at the end of the nominal mission."
+2004_hp_srs_web,"The contamination of all optical surfaces of the Herschel and the Planck telescopes and instruments shall be controlled during all phases of the project (including ground life, pre-launch, launch and orbit life)."
+2004_hp_srs_web,The spacecraft shall provide means to prevent contamination of the telescopes and instruments in-orbit during the initial (outgassing) phase and during the thruster firings.
+2004_hp_srs_web,"Each spacecraft shall collect, store and transmit to the ground stationall data (scientific and housekeeping) coming from the scientific instruments."
+2004_hp_srs_web,"The Herschel Payload Module shall provide the necessary interfaces (mechanical, optical and electrical) with the Agency’s provided Telescope and other elements of the spacecraft."
+2004_hp_srs_web,"The Herschel Payload Module shall accommodate the focal plane units (FPU) of the instruments, the Local Oscillator Unit (LOU) of HIFI and the Buffer Amplifier Unit (BOLA) of PACS in accordance with the requirements and interface specification of the IID’s Part B (AD4-2, AD4-3, AD4-4)"
+2004_hp_srs_web,"The Herschel Payload Module shall provide to the instruments FPU's, the required thermal environment, through a cryogenic subsystem"
+2004_hp_srs_web,"The Planck Payload Module shall provide the necessary interface (mechanical, optical, thermal and electrical) with the Planck Service Module"
+2004_hp_srs_web,The Planck Payload Module shall accommodate the offset Telescope
+2004_hp_srs_web,"The Planck Payload Module shall accommodate the HFI and LFI instruments in accordance with the requirements and interface specification of the IID’s (AD4-5, AD4- 6)"
+2004_hp_srs_web,The Planck Payload Module shall provide the required thermal/stray light environment
+2004_hp_srs_web,Each Service Module shall provide structural support and SVM thermal control
+2004_hp_srs_web,Each Service Module shall provide on board storage of TM (SSR)
+2004_hp_srs_web,Each Service Module shall provide control and measurement of satellite attitude
+2004_hp_srs_web,Each Service Module shall provide satellite orbit control
+2004_hp_srs_web,"Each Service Module shall provide electrical power generation, conditioning, storage and distribution"
+2004_hp_srs_web,Each Service Module shall provide radio frequency transmission/reception with the ground
+2004_hp_srs_web,Each Service Module shall provide data handling for distribution of ground and on-board commands and sampling/formatting of telemetry data
+2004_hp_srs_web,Each Service Module shall provide distribution of all electrical signals through an SVM harness.
+2004_hp_srs_web,The Herschel Service Module shall provide the following specific functions in addition to the above mentioned:
+2004_hp_srs_web,The Herschel Service Module shall support the Extended Herschel Payload Module
+2004_hp_srs_web,The Herschel Service Module shall interface with the launcher or the Planck spacecraft according to the selected launch configuration
+2004_hp_srs_web,The Planck Service Module shall support the Planck Payload Module
+2004_hp_srs_web,The Planck Service Module shall interface with the launcher
+2004_hp_srs_web,The Planck Service Module shall support the Herschel spacecraft according to the selected launch configuration.
+2004_hp_srs_web,"For the Herschel mission , the Herschel spacecraft shall have a nominal lifetime of 3.5 years from launch till the end of the mission. This duration includes an allocation of 6 months for the transfer to the L-2 Lissajous orbit."
+2004_hp_srs_web,"For the Planck mission , the Planck spacecraft shall have a nominal lifetime of at least 21 months from launch till the end of mission .
+This duration shall allow two full sky surveys ( with a coverage of at least 95% of the full sky) at the operational Lissajous orbit around L-2
+, and includes an allocation of 6 months for the transfer to the L-2 Lissajous orbit."
+2004_hp_srs_web,"The completely integrated Herschel and Planck spacecraft shall permit storage in a controlled facility before launch, prior to start of transport to the launch site of 24 months. If required, helium refilling(s)/top- up(s) may be envisaged during this period."
+2004_hp_srs_web,"The lifetime in orbit ( from launch till the end of the mission ) of Herschel items which degrade with time or usage shall be designed for 4.5 years , under nominal conditions ( no additional margin is required )."
+2004_hp_srs_web,"The lifetime in orbit ( from launch till the end of the mission ) of Planck items which degrade with time or usage shall be designed for 2.5 years , under nominal conditions ( no additional margin is required )."
+2004_hp_srs_web,"For Herschel , propellant for orbit maintenance, attitude control and momentum management shall be dimensioned for 4.5 years."
+2004_hp_srs_web,"For Planck , propellant for orbit maintenance, attitude control and momentum management shall be dimensioned for 2.5 years."
+2004_hp_srs_web,The spacecraft must be able to execute the commanded manoeuvres. The magnitude error of the Delta-V manoeuvre shall not exceed 1% for manoeuvres of more than 10 m/s and shall not exceed 5% for smaller manoeuvres (including the effects of attitude accuracy) of the commanded magnitude at 95% confidence level.
+2004_hp_srs_web,"The parasitic light in the focal plane shall be below 1% of the background induced by self emission of the optical system for Sun, Earth, Moon at worst case locations corresponding to the aspect angle limits as specified in Section 4.2.7 for the Herschel observation mission phase."
+2004_hp_srs_web,"The straylight level received at the detector element location of the PLM/Focal Plane Unit Straylight Models by self emission, not including the self-emission of the telescope reflectors alone, shall be less than 10% of the background induced by the self emission of the telescope reflectors."
+2004_hp_srs_web,"The Amplitude Spectral Density ( ASD ) at the bolometer ( HFI ) or cold LNA ( LFI ) of any signal due to fluctuating thermal emission from a S/C element that couples radiatively into payload detectors , shall be as specified below for each of the five defined individual frequencies , taking into account the power transfer function between the radiating source and the detectors ."
+2004_hp_srs_web,"A failure of one piece of equipment (unit level) shall not cause failure of or damage to another piece of equipment or subsystem, including the scientific instruments."
+2004_hp_srs_web,Protected switching configurations employing separate “arm” and “active” operations shall be implemented whenever an unintended activation can lead to an operational hazard.
+2004_hp_srs_web,Protection systems shall be intrinsically fail safe and shall be capable of being enabled and disabled by ground command.
+2004_hp_srs_web,Cross strapping shall be incorporated in between chains of redundant units so that maximum overall reliability is achieved.
+2004_hp_srs_web,"Hot redundancy shall be provided for functions, which could result in loss of mission if failing (e.g. receivers)."
+2004_hp_srs_web,Provisions shall be made to prevent malfunction or elimination of redundant units by a common cause.
+2004_hp_srs_web,There shall be on-board failure detection capabilities
+2004_hp_srs_web,Event packets containing the details of any reconfiguration and the exact time of occurrence shall be included in the housekeeping telemetry and be stored on-board as necessary for later transmission to the ground. These event packets shall also be available to other on-board applications.
+2004_hp_srs_web,"Compliance to the fault tolerance requirements, as given in section 4.5, shall be verified by FMECA or by other suitable methods, which are subject to agreement with ESA."
+2004_hp_srs_web,"Single point failures, which cannot be eliminated from the design with reasonable effort (or fault tolerance requirements, which cannot be met) shall be summarised in a Single Point Failure/Critical Items List. They shall be subjected to formal approval by ESA on a case by case basis with a detailed retention rationale."
+2004_hp_srs_web,"The Herschel spacecraft shall provide a mass allocation of 465 kg for the baseline payload accommodation as defined in IID Part B (AD4-2, AD4-3 and AD4-4) including margins."
+2004_hp_srs_web,The Planck spacecraft shall provide a mass allocation of 480 kg for the baseline payload accommodation as defined in IID Part B (AD4-5 and AD4-6) including instrument coolers and margins.
+2004_hp_srs_web,"In addition to the margin specified in paragraph 5.1.4, the structural design of the Herschel and Planck spacecraft including the payload interfaces shall be able to meet its requirements if the mass of any particular payload unit is increased by 20% above the allocated values agreed in the IID’s part B, issue 2.0 (AD4-2, AD4-3, AD4-4, AD4-5, AD4-6)."
+2004_hp_srs_web,"The Herschel spacecraft shall provide a mean power allocation of 550 W to the Herschel payload during nominal scientific operations, including instrument margins."
+2004_hp_srs_web,"The Planck spacecraft shall provide a mean power allocation of 1000 W to the Planck payload during nominal scientific operations, including instrument margins."
+2004_hp_srs_web,"The spacecraft shall provide peak power for the instruments as defined in the IID’s Part B (AD4-2, AD4-3, AD4-4, AD4-5, AD4-6)."
+2004_hp_srs_web,The Herschel spacecraft shall provide the necessary resources for the average acquisition of at least 130 Kbps science telemetry over 24 hours.
+2004_hp_srs_web,The Planck spacecraft shall provide the necessary resources for the average acquisition of at least 130 Kbps science telemetry over 24 hours.
+2004_hp_srs_web,The spacecraft shall provide the necessary resources for the burst acquisition of at least 300 Kbps science telemetry from a single instrument for at least 30 minutes.
+2004_hp_srs_web,"For the Herschel Mission, a “On Target Flag” (OTF) shall be generated when the commanded target has been acquired."
+2004_hp_srs_web,The OTF shall be made available in the TM (required for instrument data processing). The OTF shall indicate the time at which the OTF conditions start and end .
+2004_hp_srs_web,For the Planck mission the spacecraft shall deliver the precise instant (± 1.5msec) at which the phase of the spin can be referenced in inertial space.
+2004_hp_srs_web,The spin reference message shall be made available in the TM (required for instrument data processing).
+2004_hp_srs_web,The time correlation between the attitude information and science data shall be better than 0.5 ms.
+2004_hp_srs_web,28V bus regulated and MIL-1553B standard shall be the electrical interface types used for the instruments.
+2004_hp_srs_web,The Optical Bench (OB) supporting the Focal Plane Units of the Herschel instruments inside the Herschel Payload Module (FPLM) shall be in aluminium.
+2004_hp_srs_web,The spacecraft shall accommodate the Herschel telescope defined in AD2-1 including mechanisms (TBC) and shall provide the resources to ensure that the performance requirements of Herschel and the needs of its instruments are fulfilled.
+2004_hp_srs_web,The spacecraft shall accommodate the Planck telescope and its reflectors defined in AD1-3 and AD2-2 and shall provide the resources to ensure that the performance requirements of Planck and the needs
+2004_hp_srs_web,The spacecraft design shall be compatible with the ground segment interfaces as defined in the Herschel / Planck Space/Ground Interface (RF link) Documents (AD3-1) and the Herschel / Planck Operation Interface Requirement Document (AD3-2).
+2004_hp_srs_web,The Herschel spacecraft design shall permit the dump of 24 hours stored telemetry with the real time science and housekeeping telemetry and simultaneously upload of the mission timeline in less than 3 hours at the maximum distance from the earth around L2 and with the Perth / New Norcia ground station.
+2004_hp_srs_web,The Planck spacecraft design shall permit the dump of 24 hours stored telemetry with the real time science and housekeeping telemetry and simultaneously upload of the mission timeline in less than 3 hours at the maximum distance from earth around L2 and with the Perth / New Norcia ground station.
+2004_hp_srs_web,"Kourou ground stations type will be used during commissioning, initial orbit phase and in case of emergency."
+2004_hp_srs_web,The spacecraft shall be compatible with a maximum duration of 6 hours of daily contact with the Kourou ground station type.
+2004_hp_srs_web,The spacecraft design shall be compatible with the relevant ground test facilities.
+2004_hp_srs_web,A justification for such modifications/ extensions shall be submitted to ESA for assessment and approval.
+2004_hp_srs_web,Electrical access for adequate system testing must be ensured.
+2004_hp_srs_web,The spacecraft design shall be such as to allow for transportation of each complete spacecraft as well as the separate modules by standard commercial means.
+2004_hp_srs_web,The design of the satellite and all operations and handling on the site shall be compliant with the safety regulations of the launch site (AD6- 2).
+2004_hp_srs_web,The Herschel and Planck spacecraft shall be compatible with a launch on Ariane 5.
+2004_hp_srs_web,"The Herschel and Planck spacecraft design and operations shall comply with all performances, requirements, interfaces and operations specified in the Ariane 5 User’s Manual (AD6-1)."
+2004_hp_srs_web,The telemetry and telecommand standards applied to the satellites shall be compatible with those used on the launch site in order to perform the launch tests and to monitor the satellite during the launch preparation.
+2004_hp_srs_web,The spacecraft Ground Support Equipment shall be compatible with the requirements listed in AD6-2/2.
+2004_hp_srs_web,"On ground, during integration, handling and transportation, the environment, with the exception of bake-out, shall be such as to be significantly less severe than launch and orbit conditions with the exception of the thermal environment of the Cryostat for Herschel and the Planck sorption cooler radiator."
+2004_hp_srs_web,No induced environment shall lead to a degradation of the spacecraft and the instrument performances
+2004_hp_srs_web,"The Herschel / Planck composite shall be designed to withstand all mechanical static and dynamic loads encountered during its entire life, including: manufacturing, assembly, handling, transportation, testing, launch and in-orbit operations."
+2004_hp_srs_web,"Manufacturing, handling and transportation loads (except for the MGSE interface points themselves) as well as test loads shall not be design drivers."
+2004_hp_srs_web,The mechanical environment for the launch phase shall be derived from the Launcher Coupled Loads Analysis.
+2004_hp_srs_web,The mechanical dynamic test environment shall meet the requirements of the Ariane 5 User’s Manual (AD6-1).
+2004_hp_srs_web,The in-orbit environment shall be derived from the Mission Analysis Document (AD5-2).
+2004_hp_srs_web,"The environments under a) above shall not be design drivers, except for the bake-out."
+2004_hp_srs_web,"The spacecraft shall be designed to withstand a relative humidity (RH) without performance degradation of 45 % RH to 65 % RH , non- condensing, and for two weeks a relative humidity of 95 % RH , non- condensing."
+2004_hp_srs_web,The spacecraft shall be designed to withstand any external air pressure between ambient (0.105 MPa) and vacuum (< 10-4 Pa).
+2004_hp_srs_web,The composite shall be designed to withstand the depressurisation profile as defined in the Ariane 5 User’s Manual (AD-6-1).
+2004_hp_srs_web,"The contractor shall be responsible for performing radiation analyses as required using the nominal mission scenario and taking into account the data from the Herschel L2 Radiation Environment document (AD5-1). The in-orbit case with a beginning of mission in February 2007 shall be taken into account. In particular, the figures related to the Silicon Solar cells, Gallium Arsenide cells, single dose/depth, non-ionising dose/depth and raw particle spectra shall be taken into account."
+2004_hp_srs_web,The satellite shall be designed to withstand the doses predicted for a 2 times the nominal lifetime of the spacecraft except for the solar array sizing.
+2004_hp_srs_web,The components and their shielding shall be compatible with the above requirement such that the radiation dose will not cause failures or produce unacceptable changes in performance.
+2004_hp_srs_web,"For the design of the solar array and the determination of its degradation during the mission, the total equivalent fluence of 1 MeV electrons shall be taken into account for the extended lifetime."
+2004_hp_srs_web,"Components shall be qualified (either based on existing or new test data) to withstand the doses predicted according to SENV-085. Radiation testing shall be included in the lot acceptance testing, if the margin is small and if the variation of radiation resistance between lots is large or insufficiently known. An exception to this requirement is the solar cells, which shall be qualified according to applicable documents (AD6-8/1 and AD6-8/2)."
+2004_hp_srs_web,"The spacecraft design and component selection shall be such as to minimise these effects, including any necessary means to ensure the most rapid restoration of nominal performance."
+2004_hp_srs_web,"The spacecraft design shall withstand the effects of SEU's without interrupting the on-going operation and it shall include proper error detection, transient filters and correction schemes."
+2004_hp_srs_web,The prediction of Single Event Upset ( SEU ) effects and rates shall be based on the Linear Energy Transfer ( LET ) spectrum given in AD5-1.
+2004_hp_srs_web,This LET spectrum includes the fluxes of galactic cosmic rays and of solar protons .
+2004_hp_srs_web,The rate of uncorrectable errors in spacecraft memories shall be better than 1E-11 (error/bit/day).
+2004_hp_srs_web,"Any device used as memory (EDAC, registers …) for which the correct functioning is critical to mission objectives, mission life or spacecraft safety, shall have protection against SEU effects."
+2004_hp_srs_web,All spacecraft processor semiconductor memories and registers shall implement Single Error Correction and Double Error Detection (SECDED) for each smallest addressable unit in memory.
+2004_hp_srs_web,The processor design shall ensure that the processor internal registers are refreshed at a rate sufficient to avoid cumulation of deposited charges leading to errors.
+2004_hp_srs_web,Protection against latch-up and de-latching shall be provided for devices showing a sensitivity to latch-up.
+2004_hp_srs_web,Spacecraft design and materials selected shall be such as to ensure that no parts of the spacecraft are charged to high potentials.
+2004_hp_srs_web,All spacecraft surfaces exposed to the plasma environment shall be conductive and grounded to the spacecraft structure.
+2004_hp_srs_web,The exposed harness di-electric charging shall be taken into account and appropriate design provisions shall be taken.
+2004_hp_srs_web,"The spacecraft design and component selection shall take these effects into account and shall ensure that these effects do not cause a degraded performance or hazardous situations, which could lead to loss of mission."
+2004_hp_srs_web,"The spacecraft shall not be susceptible to self-generated electromagnetic interference and ensure satisfactory payload performance during the mission, as well as non-hazardous operation of the spacecraft in ground test and launch environment. The term EMC shall cover all frequencies (including DC) which fall in either the Payload, Spacecraft or Launcher bandwidth."
+2004_hp_srs_web,The spacecraft electromagnetic emissions and susceptibility shall comply with the payload requirements listed in the IID’s Part B outside the DTCP
+2004_hp_srs_web,The composite electromagnetic emissions and susceptibility shall comply with the launcher requirements (AD6-1).
+2004_hp_srs_web,The grounding scheme shall be selected to meet the payload and spacecraft subsystem requirements.
+2004_hp_srs_web,"Good and reliable bonds shall be provided between the various parts of any electronic box, connectors, harness shields, structure including external booms, thermal blankets (foil and MLI) and the spacecraft structure."
+2004_hp_srs_web,The power converter frequency bands shall be selected to minimise potential interference with the bandwidth of payload equipment.
+2004_hp_srs_web,A frequency control plan shall be established and maintained as part of the EMC programme.
+2004_hp_srs_web,Galvanic isolation shall be provided between primary and secondary power.
+2004_hp_srs_web,"Signal, power and data lines and their returns shall be separated."
+2004_hp_srs_web,"The contractor shall support an EMC Review Board consisting of experimenters, Industry and ESA in order to review the Spacecraft/Payload EMC performance and to advise and seek solutions to EMC when needed."
+2004_hp_srs_web,The applicable solid particle in-orbit environment is given in AD5-3. The spacecraft shall be designed to minimise the effect of this environment.
+2004_hp_srs_web,Structure resonance frequencies shall meet the launcher requirements as specified in AD6-1.
+2004_hp_srs_web,The eigen frequencies of compact equipment and boxes in hard- mounted conditions shall be above 140 Hz.
+2004_hp_srs_web,Each satellite shall be able to withstand the mechanical environment as deduced from the coupled analysis with the launcher.
+2004_hp_srs_web,"Under worst case combinations of mechanical and thermal loads and after application of the relevant safety factors ( SF ) , the margins of safety ( MOS ) shall be positive ."
+2004_hp_srs_web,"The structure shall withstand at element, subassembly, or complete spacecraft level, the ultimate loads without rupture, collapse or permanent deformations that impact the integrity of other parts or the system performance."
+2004_hp_srs_web,"The structure shall withstand at element, subassembly, or complete spacecraft level, the yield loads, where applicable, without permanent deformation or any plastic deformation resulting in performance degradation."
+2004_hp_srs_web,"The structure shall withstand at element, subassembly, or complete spacecraft level, the buckling loads without elastic buckling or collapse taking into account a non perfection of the failing element, e.g. by knock- down factors."
+2004_hp_srs_web,"Under the design loads and where the mass of each unit or component is set at the maximum allocated, the force fluxes at the launcher interface shall meet the launcher requirements as specified in AD6-1."
+2004_hp_srs_web,The spacecraft structure shall withstand the complete set of tests at qualification level with sufficient margins without the need of any refurbishment for flight.
+2004_hp_srs_web,"Safety Factors (SF) shall account for inaccuracies in predicted allowable and applied stresses due to analysis uncertainties, manufacturing tolerances, and scatter in Material properties."
+2004_hp_srs_web,The design loads applicable to units shall be greater than or equal to the design loads of the supporting structure.
+2004_hp_srs_web,"The material Design Allowable shall correspond to the A values as defined in the applicable document reference AD6-18, MIL-HDBK-5. The contractor shall perform material testing as necessary to establish the Design Allowable. The test program and interpretation of the results are subject to ESA approval."
+2004_hp_srs_web,The total mass of the Herschel / Planck composite ESA shall include a reserve of 100 kg.
+2004_hp_srs_web,"The mechanisms shall comply with the requirements of AD6-10. In case of conflict between requirements in AD6-10 and the requirements in the present document, the latter ones will have precedence."
+2004_hp_srs_web,"The mechanism, with its electronics for drive and control shall include monitoring equipment to provide data describing the status of the mechanism and/or electronics."
+2004_hp_srs_web,The monitoring data shall be accessible to the spacecraft telemetry at any time and shall be of the absolute type.
+2004_hp_srs_web,"During launch, the deployables must be contained within the limits of the dynamic envelope of the allocated space within the launch vehicle. In this configuration, all deployable and movable assemblies shall be properly restrained to avoid excessive loads or damage by contact or excessive amplification of vibration."
+2004_hp_srs_web,Global and local envelope volumes shall be defined for all moving parts within which they are free to move. It shall be demonstrated at system level and at unit level that these envelopes are sufficient and do not lead to mechanical interference.
+2004_hp_srs_web,The tolerances of the Steady State Parameters shall be specified and demonstrated compatible with the functional needs.
+2004_hp_srs_web,The parameters restricting the design of the Dynamical Variables shall be established and demonstrated compatible with the functional needs at system level.
+2004_hp_srs_web,"The mechanisms shall comply with the safety requirements of launcher, launch range and spacecraft."
+2004_hp_srs_web,The structural parts of the mechanisms shall meet the requirements specified in Section 5.6.1.
+2004_hp_srs_web,Stiffness requirements shall be established and demonstrated compatible with the structural and functional needs at system level for all the envisaged configurations of the mechanism.
+2004_hp_srs_web,In addition to the limit/design loads specified in Section 5.6.1.4 the structural parts of the mechanisms shall withstand the loads induced by its operation.
+2004_hp_srs_web,Hold-down and release mechanisms shall be capable of being operated the number of times required by on-ground and in-orbit operations plus a margin of at least 10 operations.
+2004_hp_srs_web,Mechanisms shall be simple and self-locking and be easily resettable for ground testing in case of latches for post-deployment latching.
+2004_hp_srs_web,Mechanisms shall not be capable of being driven in an anomalous and non-recoverable configuration.
+2004_hp_srs_web,"Off-load mechanisms, if used, shall be capable of being operated manually for protection during handling or transportation. Such attachments as required for manual operation may be removable provided that removal does not compromise the built of the equipment."
+2004_hp_srs_web,Mechanisms shall satisfy the thermal requirements of Section 5.6.3.
+2004_hp_srs_web,Motors shall withstand their stalling torques for a period of time of at least 24 hours under the maximum predicted operating voltage without degradation under the hottest qualification environmental temperatures.
+2004_hp_srs_web,"Mechanisms shall be capable of being tested representatively on ground and of being operated in an ambient environment. However, if required, flushing with inert gas may be designed to protect parts of the mechanism, which are sensitive to operation in air due to the presence of moisture, particles or other sources of contamination."
+2004_hp_srs_web,Mechanisms shall not require any periodic maintenance for their entire storage period. Activation and maintenance after a period of storage is acceptable to verify the functional performances.
+2004_hp_srs_web,Existing parts and components used in mechanisms shall be fully qualified for the intended application. The qualification procedures are subject to ESA approval.
+2004_hp_srs_web,"Sliding surfaces shall be avoided. If they cannot be avoided, lubricated hard surface coatings shall be applied to prevent fretting."
+2004_hp_srs_web,Mechanisms shall only employ lubricants that are qualified according to procedures compliant with ESA PA requirements. Dry lubricants are preferred. Use of liquid lubricants shall be fully justified and approved by ESA.
+2004_hp_srs_web,Emergency mechanical end stops shall be designed to prevent a moving part from protruding from the volume envelopes defined in Section 5.6.2.1.
+2004_hp_srs_web,"The mechanisms shall comply with the relevant power supply and harness requirements specified in Sections 6.5 and 6.11, respectively."
+2004_hp_srs_web,"Windings shall be designed and tested to withstand a high voltage of 500 V DC / 1 min (for operating voltage up to 50 V) and 1500 V DC (for higher operating voltage), applied between each other or between windings and the structure for a period of time of at least two minutes without causing disruptive charges."
+2004_hp_srs_web,"Torsional loads shall not be applied to electrical cables, which change their configuration, e.g. wires around a hinge."
+2004_hp_srs_web,"The use of pyrotechnics shall be avoided. If no alternative exists, the use of pyrotechnics in the design shall be duly justified by the contractor and approved by ESA."
+2004_hp_srs_web,"As a minimum, properties such as strength, shock impulse, redundancy, performance output, sealing and operation at temperature extremes under vacuum must have been demonstrated."
+2004_hp_srs_web,The initiation chain of all Electro-Explosive Devices (EED) shall incorporate inhibits compatible with the launcher safety requirements for hazardous devices.
+2004_hp_srs_web,"In the conventional temperature range, the following definition and thermal control requirements shall apply ."
+2004_hp_srs_web,"For the cryogenics temperature range, the definitions are identical, except for the temperature margins between various temperature ranges (Qualification, Acceptance...) which are depending of the temperature levels and the heat budgets ."
+2004_hp_srs_web,"The prime contractor shall propose on a case by case basis the relevant margins to be used, depending on the temperature level, and heat budget. The proposed margins shall be subject to ESA approval."
+2004_hp_srs_web,The TRP shall be selected by the unit thermal designer in order to be the most representative of the unit temperature.
+2004_hp_srs_web,"The TRP shall be instrumented during the Qualification/Acceptance testing of the unit and during the TB/TV test at system level and, as far as operationally required, for the flight."
+2004_hp_srs_web,"The TCS predicted temperature range shall be enveloped by the relevant TCS design temperature range with a TCS design margin, which shall be justified by the spacecraft Contractor."
+2004_hp_srs_web,Fulfilment of all the functional performances (operational and non- operational) of the unit shall be demonstrated by test for the complete acceptance test temperature range. This test is mandatory for all FM units prior to delivery to the spacecraft.
+2004_hp_srs_web,"Fulfilment of all the functional performances (operational and non- operational) of the unit is mandatory for the complete acceptance test range. Partial deviation from the performance requirements may be accepted within the item qualification test margins, provided they do not affect the interfaces to the S/C and they are reversible."
+2004_hp_srs_web,The internal thermal design of a unit shall envelope the unit qualification test temperature range at TRP and STP for the operating and non-operating modes of this unit.
+2004_hp_srs_web,"For Cryogenic temperatures, the unit temperature ranges shall be tailored to the relevant cryogenic range. The proposed ranges shall be subject to ESA approval."
+2004_hp_srs_web,The TCS shall ensure that the TRP temperatures are kept within their TCS design ranges for all phases of the mission with all energy boundary conditions specified or derived from this specification.
+2004_hp_srs_web,"The thermal control subsystem shall use the inherent or designed-in thermal properties of the structure and units, a minimum of additional thermal control components, and the satellite geometry to maintain temperature levels and distributions within the specified limits for allowable satellite orientations."
+2004_hp_srs_web,In-flight equipment temperatures shall be monitored by means of sensors. These sensors shall provide information about spacecraft health and shall serve as a reference for heater control.
+2004_hp_srs_web,For the Herschel cryogenic subsystem all thermal requirements as specified in IID’s Part B for the Focal Plane Units and any other payload or spacecraft units requiring cryogenic cooling for at least the nominal lifetime until all helium has been consumed shall be met.
+2004_hp_srs_web,The thermal design shall comply with the requirements of the Planck IID’s Part B.
+2004_hp_srs_web,"The TCS shall ensure that all equipment temperatures remain within the thermal design limits defined for each unit, during all phases of the mission, including ground testing. If applicable, it shall also ensure the required temperature stability for equipment. It shall maintain the structural parts with the required temperatures and temperature stabilities such that the necessary alignments are met between units involved in the pointing or alignment required performances."
+2004_hp_srs_web,"The thermal design shall be compatible with all solar aspect angles and albedo and any radiative inputs, which are foreseen during all mission phases."
+2004_hp_srs_web,The TCS shall ensure survival of spacecraft during eclipses from launch until end of mission with minimum use of heater power.
+2004_hp_srs_web,"The thermal design shall take into account the degradation of the surface properties (?, ?) during the mission lifetime."
+2004_hp_srs_web,The margins for unit acceptance with respect to the TCS design temperature range shall be at least 5°C on both sides.
+2004_hp_srs_web,The margins for unit qualification with respect to the TCS design temperature range shall be at least 10°C on both sides.
+2004_hp_srs_web,"The thermal control subsystem must be as simple as possible. MLI and radiators with thermal coatings control the Sun, Earth and albedo effects and the internal heat distribution and rejection. Internally, thermal coatings and conductive paths will be used to control the temperature of critical units."
+2004_hp_srs_web,Heaters shall be used when necessary. All heaters shall be capable of being commanded from ground.
+2004_hp_srs_web,The TCS shall be protected against any single point of failure of any item of the chain of the temperature measurements by appropriate redundancy. The TCS shall be design to minimise the temperature fluctuations of the TRP.
+2004_hp_srs_web,"The thermal control subsystem design shall incorporate sufficient flexibility to accommodate foreseeable changes in layout, power dissipation (amount and location), mission requirements and required temperature ranges."
+2004_hp_srs_web,"The thermal design shall be such that easy repair and minor changes in design are possible through simple removal and replacement of insulation blankets, foils, heaters and/or by in-place refurbishment of thermal control coatings and surface treatments."
+2004_hp_srs_web,The thermal design shall minimise the need for ground operational testing and subsystem level thermal vacuum tests. It shall not impose unacceptable constraints on other spacecraft elements nor on mission operation.
+2004_hp_srs_web,"The thermal design shall be such that the spacecraft can be developed, integrated and tested at module level, with minimum interaction from the other modules. The modules shall therefore be thermally de-coupled as much as possible."
+2004_hp_srs_web,Grouping of heaters circuits shall be implemented whenever feasible in order to minimise the total number of needed ON-OFF commands.
+2004_hp_srs_web,Use of material with stable thermo-optical properties is required. Any deviation shall be adequately justified and the ageing law assumptions shall be substantiated
+2004_hp_srs_web,"The TCS design shall allow easy access to the units and equipments. All parts belonging to the TCS shall stay within their allocated volume envelopes. The MLI design shall ensure a minimum clearance of 20 mm between the MLI and any moving part. If the MLI is attached to a moving part, the clearance shall be of 35 mm at least."
+2004_hp_srs_web,"The TCS shall be testable on ground. If special equipments are required to evacuate the heat during the spacecraft functional tests under ambient environment, they shall be compatible with the cleanliness requirements. No TCS item shall prevent the spacecraft from being operated/tested under an attitude required by the thermal environment test."
+2004_hp_srs_web,Venting of all the cavities including the interspacing of the MLI shall be designed to avoid damaging overpressure during the ascent. The method of venting shall prevent the release of contaminants toward the sensitive components of the payload or of the spacecraft.
+2004_hp_srs_web,A structural Finite Element Model of the spacecraft shall be established by the Contractor.
+2004_hp_srs_web,Any structural Finite Element Model (FEM) shall be delivered in NASTRAN format.
+2004_hp_srs_web,"The FEM shall be detailed enough to ensure an appropriate derivation/verification of the design loads and of the modal response for all important modes with an effective mass > 5% of the total mass, up to 140 Hz."
+2004_hp_srs_web,"It shall be supported by additional and more detailed models for the analysis and design of specific aspects (strength verification, thermal stress analysis, thermo-elastic analysis, interface stiffness analysis, optical analysis, as required)."
+2004_hp_srs_web,"At system level, the FEM shall be reduced to an Interface FEM (IFEM) for the Launcher Coupled Dynamic Analysis (LCDA). The IFEM shall fulfil the requirements established by the Launch Vehicle Authorities, as defined in AD6-24."
+2004_hp_srs_web,"All the design loads applicable to the various parts, subassemblies or complete spacecraft shall be substantiated by analyses of significant events during the complete lifetime. They shall be reassessed after each test at subassembly or system level."
+2004_hp_srs_web,The stiffness analysis shall demonstrate compliance with the requirements as indicated in Section 5.6.1.1. The analytically predicted frequencies shall be higher than the minimum requirement specifications with positive margins .
+2004_hp_srs_web,"The stress analysis shall demonstrate MOS, which shall be in agreement with section 5.6.1.2, and cover loads originating from mechanical, thermal and moisture desorption effects combined all together."
+2004_hp_srs_web,"In case of a proto-flight approach, the yield and ultimate MOS shall be greater than 0.2."
+2004_hp_srs_web,Strength values for mechanical parts shall not be assumed higher than the values specified for the relevant qualification and acceptance tests.
+2004_hp_srs_web,"Fatigue analysis shall be carried out where relevant, and demonstrate a positive reserve after application of 4 times the most constraining life cycles."
+2004_hp_srs_web,"Fracture mechanics analysis shall be carried out for the items, which are potentially hazardous for the ground operations and meet the requirements specified in AD6-11."
+2004_hp_srs_web,A significant number of standard potted inserts with low margin of safety ( MOS ) shall be tested for workmanship .
+2004_hp_srs_web,"The mechanism verification shall comply with the requirements of AD6-10 paragraph 4.8. In case of conflict between requirements of AD6-10 and the requirements in the present document, the latter shall have precedence."
+2004_hp_srs_web,"Detailed Thermal Mathematical Models ( DTMM ) and Detailed Geometrical Mathematical Models ( DGMM ) of the spacecraft shall be created for analytical predictions representative of all the phases of the mission, including ground tests. Parametrical modelling approach is recommended to ease follow up of design evolution."
+2004_hp_srs_web,"The models shall unambiguously identify the flight and the test monitoring points (TRP, STP)."
+2004_hp_srs_web,"The Detailed Thermal Mathematical Models ( DTMM ) shall be delivered as a coherent set of ESATAN files compatible with ESATAN version 8.5 or higher , and together with any scripts necessary to run the models and analysis cases . Sub-modelling techniques shall be used down to a level agreed with ESA ."
+2004_hp_srs_web,"The Detailed Geometrical Mathematical Models ( DGMM ) shall be delivered as a coherent set of ESARAD files compatible with ESARAD version 4.3.2 or higher , and together with any scripts necessary to run the models and analysis cases . As a minimum, the set of ESARAD files shall include the geometry definition , the kernel and the ESATAN formatting files ."
+2004_hp_srs_web,"The detailed DTMM and DGMM shall be correlated against the environmental test results. After correlation, the temperature differences between predictions and measurements shall be analysed for all the measurement points"
+2004_hp_srs_web,A Reduced Thermal Mathematical Model (RTMM) of the entire spacecraft shall be derived from the DTMM for system verification. It shall include the launch configuration for the integrated analysis with the launcher.
+2004_hp_srs_web,The RTMM shall be delivered to ESA.
+2004_hp_srs_web,The TMM’s shall be able to predict applicable transient behaviour and behaviour under applicable periodic thermal excitations.
+2004_hp_srs_web,The compliance with the thermal performance requirements shall be demonstrated by analysis for the nominal operational and non- operational cases.
+2004_hp_srs_web,"A set of agreed failure cases shall be simulated for which positive TCS design margins shall be demonstrated for any TRP. After correlation of the DTMM with test results, the TCS Design margins may be reduced down to zero for the agreed failure cases."
+2004_hp_srs_web,"TCS uncertainties shall be added to the TCS calculated temperature ranges when comparing the TCS predicted temperatures ranges with the TCS design ranges applicable to TRP’s, see chart at 5.6.3.1, Definitions. They shall be substantiated by appropriate sensitivity analysis and agreed by ESA."
+2004_hp_srs_web,The differences between the test measurements and the test simulated by the correlated DTMM shall be taken into account for the final flight predictions.
+2004_hp_srs_web,The differences between the results yielded by the RTMM and the DTMM running similar cases (transient and steady state) shall be taken into account for the final flight predictions.
+2004_hp_srs_web,A sensitivity analysis of the DTMM shall be performed.
+2004_hp_srs_web,"The calculation uncertainties of the DTMM shall be estimated using the sensitivity analysis and an agreed table of uncertainty on input parameters. If required, the uncertainties on relevant parameters shall be reduced using adequate measurements."
+2004_hp_srs_web,The thermal design of the spacecraft shall be validated by a thermal balance test.
+2004_hp_srs_web,"The test cases shall cover, as far as practical, the extreme environmental conditions envisaged for the complete mission and the most critical predicted thermal situations."
+2004_hp_srs_web,"The spacecraft thermal sensors ( e.g. thermistors, thermo-couples ) shall be continuously monitored during the test and be used for the assessment of the stabilisation. In addition, they shall be used for the correlation. Additional measurement points shall be provided by test thermal sensors , mainly for complementing the flight measurement plan and monitoring local or general environmental data."
+2004_hp_srs_web,"The environment induced by the test facility shall be continuously monitored during the test with a level of details, as it will be required by the thermal mathematical model for the prediction of the test."
+2004_hp_srs_web,The Thermal Vacuum test at system level shall be designed to bring all the S/C and Payload units to their worst predicted flight environment without exceeding their qualification range
+2004_hp_srs_web,"All interfaces between Service Module, Herschel Payload Module, and Herschel Telescope shall be kept simple and easily manageable."
+2004_hp_srs_web,All interfaces between Service Module and the Planck Payload Module shall be kept simple and easily manageable.
+2004_hp_srs_web,"The mechanical interfaces shall be consistent with the structural, thermal and alignment/alignment stability requirements and shall allow for an easy and repeatable assembly of the modules."
+2004_hp_srs_web,Herschel and Planck spacecraft shall use a standard Ariane 5 interface as specified in AD6-1.
+2004_hp_srs_web,"The spacecraft structure shall provide the lifting points and transportation interfaces for handling, integration, test and transportation of spacecraft; this applies for all spacecraft integration phases."
+2004_hp_srs_web,All spacecraft actuated valves shall be equipped with a status indicator and their status shall be reported by the telemetry.
+2004_hp_srs_web,The Herschel SVM structure shall provide the structural support to carry the Herschel Payload Module (PLM).
+2004_hp_srs_web,The Planck SVM structure shall provide the structural support to carry the Planck Payload Module and the Herschel spacecraft if applicable.
+2004_hp_srs_web,Each SVM structure shall be compliant with the overall spacecraft stiffness requirements as specified in Section 5.6.
+2004_hp_srs_web,Each SVM structure shall be compliant with the strength requirements as specified in Section 5.6. It shall show positive margins of safety for the specified design loads with the specified safety factors.
+2004_hp_srs_web,"All performance requirements shall be met under the applicable environmental conditions encountered on the ground, during launch and on orbit (as defined in section 5.5)."
+2004_hp_srs_web,The SVM structure shall comply with the mechanical design verification requirements as given in Section 5.7.1.
+2004_hp_srs_web,The primary and secondary structure shall comply with the interface requirements of the payload defined in IID’s Part B (AD4-2 through AD4-7).
+2004_hp_srs_web,The structure design shall be such as to provide simple load paths and simple interfaces.
+2004_hp_srs_web,"The structure design shall provide easy accessibility to connectors and equipment and shall allow for easy integration, removal and maintenance of all secondary structures, subsystems and equipment."
+2004_hp_srs_web,"Fastener selection shall be dictated by structural, electrical and thermal considerations. Fastener types shall be metric. All threaded parts shall be positively locked."
+2004_hp_srs_web,The lifting points and transportation interfaces shall be arranged such that (except for the lifting points themselves) ground-handling loads will not constitute a critical load case.
+2004_hp_srs_web,The SVM structure shall not disturb the field of view of optical sensors.
+2004_hp_srs_web,Thermo-elastic deformation of the SVM structure shall not cause unacceptable misalignment between reference axes and sensors.
+2004_hp_srs_web,The structure shall be made of materials fulfilling the requirements of Section 5.1.
+2004_hp_srs_web,The design of the Planck SVM shall minimise the thermal transients and the periodic thermal variations into the Planck PLM.
+2004_hp_srs_web,"The PLM / cryostat shall accommodate the focal plane units and shall provide the necessary cryogenic cooling to the instruments. It shall be capable of maintaining the values specified in the IID’s Part B (AD4-2, AD4-3, AD4-4) for focal plane unit absolute temperature, temperature stability and temperature gradients during the Commissioning, Calibration and Operational phases."
+2004_hp_srs_web,The cryostat vacuum vessel shall provide the load path between the SVM/PLM interface structure and the PLM/Telescope and PLM/ Sunshade interface structures and shall provide the mounting interfaces specified above.
+2004_hp_srs_web,The PLM shall provide a baffled unvignetted optical path from the entrance of the beam into the PLM to the Focal Plane Units.
+2004_hp_srs_web,The PLM shall provide the possibility to close the beam entrance aperture for ground operations and during the initial in-orbit period.
+2004_hp_srs_web,"The shipment of PLM models and of the complete satellite in ""cold condition"" shall be possible."
+2004_hp_srs_web,The determination on a half-yearly basis of the remaining mass of helium contained in the main tank over the nominal lifetime shall be included in the lifetime calculation and shall not shorten the lifetime by more than 1%.
+2004_hp_srs_web,The cryostat and its internal insulation shall meet the specified nominal lifetime and temperature requirements given in relevant IIDB’s. The amount of cryogen shall be sized accordingly and shall include a margin of 15%.
+2004_hp_srs_web,"During pre-launch, launch and in-orbit the cryostat main bath temperature shall never exceed 2.10K. However, transport capability of the cryostat in the Herschel PLM or the spacecraft container in its superfluid status is not required."
+2004_hp_srs_web,"The cryogenic system shall be equipped with the adequate piping, bypasses and valves to allow for evacuation, purging, baking out, cooling down, filling, venting and topping up operations."
+2004_hp_srs_web,Correct and safe functioning of the cryogenic system including filling and vent lines shall be ensured by an adequate number of valves and safety devoted components such as pressure relief valves and burst discs.
+2004_hp_srs_web,It shall be possible to fill the main tank with superfluid helium at 1.6 K to no less than 98% of full capacity.
+2004_hp_srs_web,The cryostat shall allow for an on-ground autonomy period of 6 days with the helium tank filled in the above conditions and the helium temperature after 6 days below 2.10 K and instruments being non operational.
+2004_hp_srs_web,"To obtain the on-ground autonomy, an auxiliary reservoir with He I at atmospheric pressure shall be used. It shall be possible to fill this reservoir through the payload access doors in the Ariane 5 fairing."
+2004_hp_srs_web,"The helium subsystem shall be adequately instrumented, including temperature sensors and in particular with devices for the measurement of the mass of helium remaining in the tanks on the ground with an accuracy of 2% and with an accuracy of 5% in orbital conditions (for the main HeII tank only)."
+2004_hp_srs_web,The main tank shall be equipped with heaters to enable depletion within two days during ground operations.
+2004_hp_srs_web,"Final Cryostat filling operations, including conversion to superfluid helium and topping up of the main tank shall be performed within a period not exceeding 24 hours and ending prior to launch day minus four days (J-4), with the spacecraft installed on the launcher but without the fairing."
+2004_hp_srs_web,"It shall be possible to perform the actuation of valves during the launcher upper section (L9) boost phase, directly from Ariane 5 initiated commands."
+2004_hp_srs_web,"In orbit helium exhaust shall be made such that, during the routine scientific observation phase, the resulting torque shall compensate for the solar pressure disturbance in order to minimise the overall increase of angular momentum."
+2004_hp_srs_web,"In operational orbit, the temperature of the helium bath shall remain at the necessary temperature to provide proper cooling to the instruments as defined in the IID’s (AD4-1 to AD4-4)."
+2004_hp_srs_web,The accommodation and alignment of the Focal Plane Units shall meet the requirements as specified in the IID’s (AD4-1 to AD4-4).
+2004_hp_srs_web,The cryostat vacuum shall be such as to provide proper and stable cryogenic performances at room temperature.
+2004_hp_srs_web,"The cryostat shall be equipped with a cryocover, which provides a vacuum-tight closure of the cryostat aperture on-ground and during the initial in-orbit period."
+2004_hp_srs_web,The design shall be such as to make leak testing of the complete cryostat possible.
+2004_hp_srs_web,The aperture shall comply with the telescope optical interface requirements as specified in AD2-1.
+2004_hp_srs_web,"In particular, the aperture shall be sufficiently large not to cause any vignetting."
+2004_hp_srs_web,The beam of the Local Oscillator of the HIFI will enter the cryostat via windows in the CVV and radiation shields. The design of these windows shall be in accordance with the instrument requirements as specified in the HIFI IID part B (AD4-2) and such that the overall heat input through these windows is minimised.
+2004_hp_srs_web,"Once in orbit, the cryocover shall be opened by a fully redundant mechanism(s) with adequate margins of safety against worst case torques/forces. Only one in-orbit opening operation is foreseen and such an opening shall be possible with any temperature of the mechanism(s) from ambient down to operational temperature."
+2004_hp_srs_web,"The cryocover shall, once opened, be protected against unintended closure and bouncing back."
+2004_hp_srs_web,"The cryocover shall, once opened, not cause vignetting of the telescope beam."
+2004_hp_srs_web,"The cryocover, when closed, shall be protected against unintended opening."
+2004_hp_srs_web,The cryocover in its open position shall be taken into account in straylight and thermal analysis.
+2004_hp_srs_web,"In order to limit parasitic heat loads through the closed cryocover prior to in-orbit operations, the internal temperature of the door shall be as low as possible by passive shielding and/or ground active cooling."
+2004_hp_srs_web,It shall be possible to open and close the cryocover on ground with the cryostat in cold condition by appropriate GSE devices.
+2004_hp_srs_web,The use of pyrotechnics in the design shall be avoided.
+2004_hp_srs_web,"During launch and during all ground operations including transport, the cryocover shall be properly restrained to avoid excessive loads or damage by contact or excessive amplification of vibration."
+2004_hp_srs_web,"All cryocover mechanisms shall comply with the mechanisms and mechanisms verification requirements of Sections 5.6.2 and 5.7.2, respectively."
+2004_hp_srs_web,"The Planck Payload Module shall comply and accommodate the Planck instruments [AD4-5, AD4-6], the Planck Telescope [AD1-3] and the shielding necessary to provide the thermal, straylight and RFI environment."
+2004_hp_srs_web,The Planck Payload Module structure shall provide the interface to the SVM.
+2004_hp_srs_web,The Planck Payload Module shall never be exposed to the sun.
+2004_hp_srs_web,"In operational orbit, the thermal environment of the Planck Payload Module shall be as defined in IID’s (AD4-1, AD4-5, AD4-6)."
+2004_hp_srs_web,The radiative sink temperature (see section 5.6.3) of the innermost shield of the PPLM shall be less than 60 K with a goal of 50 K.
+2004_hp_srs_web,"The accommodation and alignment of the Focal Plane Unit shall meet the requirements as specified in the IIDs (AD4-1, AD4-5, AD4-6)."
+2004_hp_srs_web,The aperture shall comply with the telescope optical interface requirements as specified in AD1-3.
+2004_hp_srs_web,The FOV of the instruments shall be unobstructed.
+2004_hp_srs_web,"The PCS shall condition, control and store energy coming from the solar array and the batteries."
+2004_hp_srs_web,"The PCS shall condition, control and distribute all the electrical power required by the scientific instruments and spacecraft subsystems and/or units as defined in AD4-2 to AD4-6."
+2004_hp_srs_web,"In case there is no solar array power or if its power is not sufficient to meet the scientific instruments and/or spacecraft power demand, the required (additional) power shall be provided by the batteries of the PCS."
+2004_hp_srs_web,The PCS shall maintain proper operating conditions for the batteries and shall manage the charge/discharge cycles of the batteries to fulfil power demands as required.
+2004_hp_srs_web,"The PCS shall provide all resources needed for the operation of the pyro-technical devices (if any) for experiments as well as for spacecraft functions and it shall condition, control and distribute the power to these devices."
+2004_hp_srs_web,The change of state of all pyrotechnically initiated mechanisms shall be confirmed by an end-effect monitor and reported in the telemetry.
+2004_hp_srs_web,The subsystem shall provide adequate failure tolerance and protection circuitry to avoid failure propagation and to ensure recovery from any malfunction within the subsystem and/or load failure.
+2004_hp_srs_web,The subsystem shall provide adequate status monitoring and telecommand interfaces necessary to operate the subsystem and permit evaluation of its performance during ground testing and in-flight operations.
+2004_hp_srs_web,Sufficient telemetry parameters shall be assigned such that the power available and requested can be established.
+2004_hp_srs_web,Adequate means and telemetry shall be provided to determine the state of charge of the batteries throughout all mission phases to an accuracy better than 10%.
+2004_hp_srs_web,The subsystem shall provide sufficient telecommands to 
+2004_hp_srs_web,"The subsystem shall provide sufficient telecommands to meet scientific instrument and spacecraft subsystem switching, reconfiguration and autonomy requirements"
+2004_hp_srs_web,The subsystem shall provide sufficient telecommands to select between redundant equipment
+2004_hp_srs_web,The subsystem shall provide sufficient telecommands to override the autonomous and protection functions by direct ground command.
+2004_hp_srs_web,The subsystem shall provide dedicated heater outputs for thermally critical units. These outputs shall be connected such that no other unit nor subsystem must be active to energise these lines. The lines shall act as additional redundancies and shall be controlled by independent and dedicated thermostats.
+2004_hp_srs_web,The PCS equipment shall be capable of operating continuously under all operational conditions of the mission including contingency situations. No damage or degradation shall result from intermittent or cycled operation.
+2004_hp_srs_web,The subsystem shall restart automatically and autonomously after a complete loss of all main bus when Solar array power reappears.
+2004_hp_srs_web,"The PCS shall be able to distribute sufficient power to the scientific instruments and spacecraft subsystems to operate these according to the mission requirements, for all operational modes and during all mission phases."
+2004_hp_srs_web,"At power up, restart and upon recovery from any power loss, the spacecraft electrical configuration (including all sub-systems, units and instruments) shall be in a known deterministic and reproducible state."
+2004_hp_srs_web,This state shall be safe and shall allow a predefined recovery of the spacecraft and of its sub-systems.
+2004_hp_srs_web,The power conditioning shall be designed such that a regulated 28 V DC Main Bus is provided to all users.
+2004_hp_srs_web,The Main Bus voltage regulation requirement shall be in accordance with the requirements of PSS-02-10 (AD6-9)
+2004_hp_srs_web,The Main Bus impedance shall be in accordance with AD6-9.
+2004_hp_srs_web,The power regulation shall be such that the transition and sharing between solar array power mode and battery power mode is performed in a continuous way without main bus voltage variations being outside the specified tolerance range.
+2004_hp_srs_web,Bus transients due to inter-domain operation shall be in accordance with the requirements of AD6-9.
+2004_hp_srs_web,Transient voltage excursions due to step load changes shall not interfere with the operation of other subsystems or experiments.
+2004_hp_srs_web,No single component failure shall cause an over voltage or permit short circuit on the main bus.
+2004_hp_srs_web,No undesirable operating mode shall occur in the event of failure in other subsystems (including harness) or in one or more experiments.
+2004_hp_srs_web,"Battery selection and design, the number of discharge cycles, the operating temperature and temperature gradient and the battery charge / discharge management shall ensure fulfilment of the satellite power requirements to be compliant with the battery depth of discharge requirements."
+2004_hp_srs_web,"The design of the subsystem shall be in accordance with the ESA Power Standard PSS-02-10 (AD6-9), shall comply with the system requirements and shall be compatible with the scientific instruments and the other subsystems. All the electrical elements shall comply with the EMC requirements."
+2004_hp_srs_web,The PCS shall contain all electronics necessary to Provide electrical power from the solar array and/or batteries to all users (SVM and PLM)
+2004_hp_srs_web,"The PCS shall contain all electronics necessary to charge, Discharge and, if needed, recondition all batteries"
+2004_hp_srs_web,The PCS shall contain all electronics necessary to allow for the capability of automatic and commanded control of the operation of the subsystem
+2004_hp_srs_web,The PCS shall contain all electronics necessary for switching and protection of the experiments and spacecraft subsystems
+2004_hp_srs_web,"The subsystem shall be designed such that in all operating modes where the power available from the solar array exceeds the main bus and battery charge demand, the surplus electrical power is left in the solar array. Large circulating currents between the solar array and the spacecraft shall be avoided."
+2004_hp_srs_web,No single point failure shall endanger full mission performance or cause permanent damage to any essential load.
+2004_hp_srs_web,An automatic protection shall be provided to ensure that the power subsystem shall be able to recover from any malfunction in any load or from any abnormal spacecraft mode of operation.
+2004_hp_srs_web,The 28 V main bus shall be distributed through current limiters and switches according to the interface requirements.
+2004_hp_srs_web,"The energy storage system shall consist of batteries. Each battery shall contain thermal sensors, temperature control heating elements and, if needed, cell by-pass diode circuitry."
+2004_hp_srs_web,"The batteries shall be protected against excessive overcharge, undervoltage, overheating and freezing."
+2004_hp_srs_web,Power pulses required for firing of pyro's (if applicable) and release of deployables shall be supplied by the batteries.
+2004_hp_srs_web,"The batteries and their regulator units shall be functionally one failure tolerant up to the input of the power control/regulation unit, including failures in power transmission elements such as connectors, harness, etc."
+2004_hp_srs_web,"Full protection against short circuit or overload shall be provided by limiting the maximum current in any supply line . Protection shall be implemented via electronic protection devices ( e.g. LCL , FCL , electronic fuses ) . Usage of conventional fuses shall be avoided ."
+2004_hp_srs_web,Essential functions (e.g. synchronisation or auxiliary power supply) shall not rely on centrally generated auxiliary functions. Any power subsystem equipment shall be able to operate independently of any external synchronisation or auxiliary power supply.
+2004_hp_srs_web,"The Herschel power budget shall include an ESA reserve of 100 W , except for the launch phase ( from lift-off to separation ) during which a reserve of 30 % shall be included ."
+2004_hp_srs_web,"The Planck power budget shall include an ESA reserve of 100 W , except for the launch phase ( from lift-off to separation ) during which a reserve of 30 % shall be included ."
+2004_hp_srs_web,"The solar array (SA) shall provide the necessary power for the spacecraft throughout the nominal lifetime in the worst case conditions for Sun intensity and solar aspect angle in all phases. The worst case for solar aspects angle will be defined, taking into account the attitude constraints and restrictions and phases defined in section 3.2."
+2004_hp_srs_web,"The solar array performance shall be predicted and the performance figures shall include all effects which have an impact on this performance (solar attitude, Sun intensity and variations thereof, cell temperature, radiation, micro-meteorites, etc.) and shall be based on accepted cell degradation figures and actual cell performance measurements."
+2004_hp_srs_web,A margin of 10% on solar array calculated power at the end of nominal life time shall be taken into account.
+2004_hp_srs_web,"If silicon cells are used for the electrical network they shall meet the requirements of the ESA specification for silicon solar cells, PSS-01- 604 (AD-8/1)."
+2004_hp_srs_web,If GaAS cells are used for the electrical network they shall meet the requirements of the Generic Specification for Gallium Arsenide Solar Cells (AD-8/2).
+2004_hp_srs_web,All solar array cell strings shall have individual blocking diodes and shunt diodes where required.
+2004_hp_srs_web,The solar array shall be designed such that it is one string failure tolerant.
+2004_hp_srs_web,"The power transmission elements such as connectors and harness , shall be redundant . The complete connectors themselves shall be redundant , i.e. not only the pins ."
+2004_hp_srs_web,"The electrical network shall be composed of identical electrical sections , as far as possible . It shall minimise the resulting magnetic moment and ensure the insulation of solar network with respect to the solar array structure."
+2004_hp_srs_web,The solar array design (including all units placed on its surface) shall minimise the generation of periodic temperature changes in the SVM and PLM of Planck induced by the spin modulation of the solar flux.
+2004_hp_srs_web,"The CDMS shall be compliant with the Packet Telemetry Standard, ESA PSS-04-106 (AD6-6)"
+2004_hp_srs_web,"The CDMS shall be compliant with the Packet Telecommand Standard, ESA PSS-04-107 (AD6-7)"
+2004_hp_srs_web,The CDMS shall be compliant with the Telemetry Channel Coding ESA PSS-04-107 (AD6-3)
+2004_hp_srs_web,"The CDMS shall be compatible with the Herschel / Planck Operations Interface Requirements Document (AD3-2), the Herschel / Planck Space to Ground Interface Document (AD3-1) and the Herschel / Planck Packet Structure ICD (AD3-3)."
+2004_hp_srs_web,"The CDMS shall provide an interface to the Electrical Ground Support Equipment (EGSE). This shall at least include telemetry, telecommand, timing signals and all other signals needed for the system level check-out."
+2004_hp_srs_web,"The CDMS shall be fully redundant including cross strapping to improve reliability. It shall survive any single point failure and no failure shall propagate outside the unit level, or even sub-unit level for complex units."
+2004_hp_srs_web,The CDMS shall be fully operational after start-up.
+2004_hp_srs_web,The CDMS shall perform telemetry acquisition and formatting
+2004_hp_srs_web,"The CDMS shall perform Telecommand acquisition, decoding validation and distribution"
+2004_hp_srs_web,The CDMS shall perform data storage
+2004_hp_srs_web,The CDMS shall perform time distribution and time tagging
+2004_hp_srs_web,The CDMS shall perform autonomy supervision and management
+2004_hp_srs_web,The CDMS shall be connected to the instruments via an on-board data bus architecture according to MIL 1553B.
+2004_hp_srs_web,"The CDMS shall exchange TM / TC packets with all on-board units, which can encode / decode TM / TC packets."
+2004_hp_srs_web,The CDMS shall acquire the scientific and periodic and non-periodic housekeeping data from the scientific instruments.
+2004_hp_srs_web,The CDMS shall acquire the periodic and non-periodic housekeeping data from the spacecraft subsystems.
+2004_hp_srs_web,"The CDMS shall condition, process, format, packetize and code the data for on-board storage and for telemetry transmission to the ground station and for on-board supervisory functions as required."
+2004_hp_srs_web,It shall be possible to transmit to ground the various telemetry modes described in 4.1 and simultaneously record the real time housekeeping data or the real time housekeeping data and real time science data.
+2004_hp_srs_web,"The CDMS shall distribute all commands from ground, stored, and/or generated on-board."
+2004_hp_srs_web,"The CDMS shall store all commands, housekeeping and science data generated on-board."
+2004_hp_srs_web,"It shall be possible to dump the non-periodic housekeeping, periodic housekeeping and other data separately."
+2004_hp_srs_web,The CDMS shall store the mission timeline on-board for 48 hours.
+2004_hp_srs_web,The CDMS shall provide synchronisation signals and timing signals as required by the science instruments or spacecraft units.
+2004_hp_srs_web,The CDMS shall maintain on-board a Central Time Reference ( CTR ) and shall distribute this time to all on-board users . The CDMS Central Time Reference shall be settable by telecommand .
+2004_hp_srs_web,The CDMS shall allow for the implementation of the autonomy requirements as specified in Section 4.
+2004_hp_srs_web,The CDMS shall perform its own initialisation and monitoring.
+2004_hp_srs_web,"The CDMS shall be able to distinguish between permanent faults and transient ones (single event upset, e.g.) and shall be able to reconfigure or adopt a safe mode autonomously as well as by ground command."
+2004_hp_srs_web,"The CDMS shall be able to route and store the peak TM and TC traffic without degradation, as required by instruments and on-board users."
+2004_hp_srs_web,Telemetry packets shall be used on the space to ground link. S/C units shall generate unsegmented TM packets.
+2004_hp_srs_web,Telecommand packets with no segmentation shall be used on the ground to space link.
+2004_hp_srs_web,Any invalid telecommand received shall be rejected and the rejection shall be indicated in the telemetry without delay.
+2004_hp_srs_web,The telecommand rate shall be switchable between the high bit rates (4 kbps) and low bit rate compatible with the Kourou station at maximum distance.
+2004_hp_srs_web,All commands necessary to recover from the survival mode shall be identified by the contractor.
+2004_hp_srs_web,The size of the on-board storage medium shall be sufficient to store the averaged scientific and housekeeping data for a minimum of 2 days . The input data rate of the on-board storage medium shall allow the acquisition of the peak scientific and housekeeping data .
+2004_hp_srs_web,The storage media shall support partial readout
+2004_hp_srs_web,The storage media shall manage free space and automatically mark bad areas
+2004_hp_srs_web,"The storage media shall make available on request information about free space, files stored and bad areas"
+2004_hp_srs_web,The storage media shall support simultaneous read and write operations
+2004_hp_srs_web,The storage media shall have a bit error rate of less than 1 in 1013 at end of mission.
+2004_hp_srs_web,Each processing unit shall count the single bit corrections by the EDAC and the uncorrectable double errors. These values shall be part of the TM housekeeping information.
+2004_hp_srs_web,The Spacecraft Event Log (SEL) shall be partitioned such that the various types of records can be easily separated and handled as separate logs.
+2004_hp_srs_web,All entries in the SEL shall be time-stamped using the on-board spacecraft time reference.
+2004_hp_srs_web,The CDMS shall allow down-linking of any selected partition of the SEL.
+2004_hp_srs_web,It shall be possible to clear the SEL (or any SEL partition) by ground command.
+2004_hp_srs_web,The input and output data rates of the storage medium and the CDMS shall be compatible with the Telecommunication period for data volumes corresponding to 24 hours of operations.
+2004_hp_srs_web,"All time reference in telemetry, telecommand and on-board shall be derived from the on-board Central Time Reference ( CTR ) ."
+2004_hp_srs_web,"The accuracy of the CTR ( Central on-board Reference Time ) shall be at least 1 * 10 E-6 . This includes short term stability over 100 seconds and stability over 30 days , including all parameters influencing the stability ( ageing, temperature, accuracy of the time correlation, etc. )."
+2004_hp_srs_web,The time format shall be Consultative Committee for Space Data Systems ( CCSDS ) Unsegmented Code.
+2004_hp_srs_web,"It shall be possible to set and adjust the CTR ( Central Time Reference) to TAI ( Temps Atomique International , Ref. 1958 January Epoch ) as defined in AD6-19 , when needed , and to verify the on-board CTR by telecommand / telemetry ."
+2004_hp_srs_web,The accuracy of the time adjustment shall be 500 ms to TAI.
+2004_hp_srs_web,Each science and housekeeping packets shall contain adequate time information to enable the user to perform the necessary correlation between the data acquisition and the UTC on ground .
+2004_hp_srs_web,The spacecraft shall deliver the timing information ( time in TAI [ Temps Atomique International ] format ) including synchronisation signals and clock to the instruments for datation of their information with an accuracy of 0.1 ms.
+2004_hp_srs_web,"The TT&C Subsystem shall be able to receive and demodulate telecommands, modulate and transmit the telemetry, and transpond the ranging signal, simultaneously."
+2004_hp_srs_web,The TT&C Subsystem shall interface with the ground segment according to the requirements of AD3-1.
+2004_hp_srs_web,The links with the ground shall be established using X-band for both uplink and downlink.
+2004_hp_srs_web,"The TT&C Subsystem shall be compatible with the Ranging Standard, ESA PSS-04-104 (AD6-4)"
+2004_hp_srs_web,"The TT&C Subsystem shall be compatible with the Radio Frequency and Modulation Standard, ESA PSS-04-105 (AD6-5)"
+2004_hp_srs_web,The spacecraft shall have no requirements for telecommand and telemetry operation during the launch phase via its RF links.
+2004_hp_srs_web,The TT&C subsystem shall accept uplink signals and provide a demodulated digital telecommand signal to the CDMS for further processing. This function shall always be enabled without any possibility of switching it off.
+2004_hp_srs_web,The TT&C subsystem shall accept a digital telemetry signal from the CDMS and modulate it onto a downlink carrier. It shall be possible to disable this function.
+2004_hp_srs_web,"The TT&C subsystem shall provide a range and/or range rate measurement capability. For ranging, it shall be capable to demodulate ranging tone from the uplink carrier and modulate the downlink carrier with this tone."
+2004_hp_srs_web,Hot redundancy shall be provided for the receive function and cold redundancy for the transmit function.
+2004_hp_srs_web,The receiver outputs shall be cross-coupled with the inputs of the CDMS command decoders.
+2004_hp_srs_web,The configuration shall be such that both receivers can receive and both decoders can decode simultaneously.
+2004_hp_srs_web,The transmitters shall be able to receive the telemetry stream from both parts of the redundant CDMS.
+2004_hp_srs_web,The antenna configuration shall ensure sufficient coverage and up-and downlink rate capability for all mission phases.
+2004_hp_srs_web,When switching between antennas it shall not be necessary to switch off the transmitter.
+2004_hp_srs_web,"Telecommands shall be via the LGA’s and the MGA , and the subsystem shall provide the required telecommand capabilities at maximum distance from the Earth and in any S/C attitude ."
+2004_hp_srs_web,The receiver shall provide a status signal indicating the presence of an uplink signal.
+2004_hp_srs_web,Limited housekeeping data will be routinely delivered to the LGA’s for transmission upon ground request.
+2004_hp_srs_web,A Medium-Gain Antenna (MGA) shall provide the primary communication for the downlink during the scientific operations phase and during the Commissioning and Performance Verification Phases.
+2004_hp_srs_web,The uplink/downlink signals shall be in the range –7190-7235 MHz for telecommands and 8450-8500 MHz for telemetry. Separate frequencies will be allocated by ESA for Herschel and Planck respectively.
+2004_hp_srs_web,The link budget calculations and associated margins shall be according to AD3-1 section 4.3.
+2004_hp_srs_web,The probability of frame loss on the downlink shall be < 10-5.
+2004_hp_srs_web,"The LGA’s shall support an uplink high command rate of 4Kbps using the 35 m station at Perth / New Norcia and a low command data rate of 125 bps using the 15 m station at Kourou , up to a distance from Earth of 1.8 x 106 km for Herschel and of 1.6 x 106 km for Planck."
+2004_hp_srs_web,"The MGA shall support an uplink command rate of 4 K.bps for both Perth / New Norcia and Kourou stations , up to a distance from Earth of 1.8 x 106 km for Herschel and of 1.6 x 106 km for Planck."
+2004_hp_srs_web,"The LGA’s shall support the downlink of real time housekeeping data ( spacecraft and payload ) telemetry using the 35 m station at Perth / New Norcia , and 500 bps using the 15 m station at Kourou , up to a distance from Earth of 1.8 x 106 km for Herschel and of 1.6 x 106 km for Planck."
+2004_hp_srs_web,The omni-directional coverage of the LGA’s shall overlap to the extend necessary to ensure that the antenna switching is never time-critical.
+2004_hp_srs_web,"The MGA shall allow for the telemetry downlink with the Perth / New Norcia 35 m station and with the 15 m station at Kourou up to a distance from Earth of 1.8 x 106 km for Herschel and of 1.6 x 106 km for Planck , during the telecommunication period ( DTCP ) , at 10° elevation."
+2004_hp_srs_web,"The TT&C subsystem shall not have any single point failure except for the radiating elements of the antennas and their associated cabling. It shall have the capability of recovering from a failure autonomously. In all cases, it shall be possible to override the autonomous recovery action by use of ground commands."
+2004_hp_srs_web,The subsystem design shall ensure that all its relevant operational parameters are acquired via suitable sensors and provided to the CDMS for incorporation into the HK telemetry.
+2004_hp_srs_web,"The TT&C subsystem shall be designed such as to be launched power ""ON""; however, the telemetry function shall be disabled during launch."
+2004_hp_srs_web,The radio frequency switching between antenna and transponders shall be done without single point failure.
+2004_hp_srs_web,The subsystem shall meet all EMC requirements.
+2004_hp_srs_web,"The subsystem design shall ensure testability, including hot redundant functions, and failure indication."
+2004_hp_srs_web,Antenna pattern and performance shall be verified with a test mock- up.
+2004_hp_srs_web,The RF-suitcase shall contain flight representative hardware sufficient to test all up- and downlinks for both functional and performance characteristics.
+2004_hp_srs_web,"The RF-suitcase shall enable the verification of all telemetry, telecommand and ranging functions and combinations thereof, as well as spectral analysis."
+2004_hp_srs_web,"The RF-suitcase shall be a self-contained item easy to transport, and shall include flight representative CDMS and RF units as well as the RF switches and cables. The suitcase shall allow to control and monitor all integrated units."
+2004_hp_srs_web,The RF-suitcase shall be computer controlled to allow the commanding of any function of the units and to display all telemetry data on request. The housekeeping data of the integrated units shall be displayed permanently.
+2004_hp_srs_web,The command bit stream and clock shall be available to measure the bit error rate (BER).
+2004_hp_srs_web,"The suitcase shall be capable of generating transfer frames in the same layout as during flight, with representative packets"
+2004_hp_srs_web,"The suitcase shall be able to support the lower level protocols, e.g. COP-1 for command reception."
+2004_hp_srs_web,The Contractor shall deliver a RF suitcase description and operation manual so that operations of the suitcase by ESOC technical personnel is possible without the need for Contractor’s assistance.
+2004_hp_srs_web,The RF suitcase shall display the parameters relevant to the commands received (e.g. the number of packets received and the contents of the packets).
+2004_hp_srs_web,"The ACMS shall be able to provide all the necessary capabilities to satisfy the attitude and orbit control and measurement requirements of all mission phases, operational modes and operational functions."
+2004_hp_srs_web,The ACMS shall put the spacecraft within its attitude constraints in less than 5 minutes after separation.
+2004_hp_srs_web,The ACMS shall allow a first orbit correction manoeuvre to be performed within 6 hours after separation in order to compensate for the launcher upper stage injection errors and the perigee velocity variation and to reach the nominal transfer orbit.
+2004_hp_srs_web,The ACMS shall allow for additional orbit correction manoeuvres (trim manoeuvres) at any time during the transfer phase to L2.
+2004_hp_srs_web,"Once in the operational orbit, the ACMS shall allow for orbit maintenance manoeuvres to be executed at monthly (TBC) intervals."
+2004_hp_srs_web,"The subsystem shall acquire and control the attitude necessary for the correct execution of the various orbit insertion, correction and maintenance manoeuvres."
+2004_hp_srs_web,The ACMS shall provide a stable attitude before and after the deployment of flexible elements (if applicable).
+2004_hp_srs_web,During all phases of the mission the ACMS shall be capable of acquiring and maintaining any attitude as required by the sequence of mission operations.
+2004_hp_srs_web,"During the commissioning and calibration phases , as well as during the operational phase, the ACMS shall provide the capability to calibrate sensors according to the requirements in Section 4.3.2."
+2004_hp_srs_web,The ACMS shall provide the science observation modes as required during the operational phase according to Sections 4.2.
+2004_hp_srs_web,The ACMS shall provide slewing and scanning capability of the spacecraft as required for scientific or spacecraft operations in accordance with the requirements of Section 4.
+2004_hp_srs_web,The subsystem shall provide angular momentum management according to the requirements of Section 4.3.1.
+2004_hp_srs_web,"The ACMS shall avoid unsafe attitudes, which might endanger the mission or degrade scientific instrument performance. It shall be able to detect a violation, or an attitude mode, which will result in a violation, of the attitude constraints defined in Section 4.2.7."
+2004_hp_srs_web,The ACMS shall support the survival mode according to the requirements of Section 4.2. to protect the spacecraft and payload in case of hazardous deviations from the safe attitude conditions.
+2004_hp_srs_web,It shall provide the capability for detecting and isolating any anomaly resulting in the loss of nominal pointing.
+2004_hp_srs_web,The autonomy capability shall be present during all mission phases and modes and it shall be possible to deactivate/activate this capability by ground command.
+2004_hp_srs_web,"The ACMS shall provide the capability of autonomous attitude manoeuvres, including science observations, slews, tracking, wheel off-loading, etc., according to a pre-defined sequence as required by the mission operations."
+2004_hp_srs_web,The number of necessary commands to execute the predefined sequences shall be minimised.
+2004_hp_srs_web,The ACMS shall deliver and receive the signals necessary for the Herschel and Planck instruments.
+2004_hp_srs_web,The ACMS shall transmit via telemetry unambiguous status information of all command and programme controlled variables and modes and of all parameters required for subsystem monitoring and performance evaluation.
+2004_hp_srs_web,"The attitude pointing and control shall be stable in the presence of perturbation torques, spacecraft flexible modes or liquid slosh during all mission phases and operational modes."
+2004_hp_srs_web,"Under worst case conditions with respect to spacecraft mass properties and perturbation torques, wheel off-loading shall not be necessary more than once per day."
+2004_hp_srs_web,"The execution of the ACMS survival mode shall, once started, not be interruptible by an external command: recovery from this mode shall only be possible after a stable Sun-pointing attitude has been reacquired."
+2004_hp_srs_web,The ACMS design shall ensure a gain margin of 6 dB for stability and flexure rejection.
+2004_hp_srs_web,The ACMS design shall ensure a phase margin of 30 dB for stability and flexure rejection.
+2004_hp_srs_web,The ACMS shall be fully operational at start up 20 seconds after separation.
+2004_hp_srs_web,Orbit control shall be open-loop under ground or stored time-tagged commands.
+2004_hp_srs_web,All attitude and orbit control and measurement functions shall be redundant.
+2004_hp_srs_web,"The Reaction Control Subsystem (RCS) shall provide the necessary forces and torques in order to achieve spacecraft linear and angular momentum changes necessary for orbit transfer/insertion/ maintenance and attitude control, respectively, during all phases of the mission."
+2004_hp_srs_web,The RCS shall supply sufficient telemetry data to provide unambiguous status information of all command and programme controlled variables and modes and of all parameters required for subsystem monitoring and performance evaluation.
+2004_hp_srs_web,"The total tank volume shall allow for a propellant growth of 20 %, subject to tank availability. The residual forces during manoeuvres which require pure torques shall be minimised."
+2004_hp_srs_web,"The RCS shall include sets of thrusters, one nominal and one redundant (not necessarily on different branches), each set shall be capable of performing a full mission profile."
+2004_hp_srs_web,The design of the RCS shall be such that a single component/part failure cannot cause the failure of functions which are vital for mission success.
+2004_hp_srs_web,The layout of the RCS and the arrangement of the tanks shall ensure a symmetrical depletion of the propellant in all tanks during all thruster firings in-flight in order to minimise the lateral shift of the spacecraft COM.
+2004_hp_srs_web,The thruster configuration shall be optimised with respect to overall manoeuvre performance so that propellant consumption for attitude and orbit control is minimised.
+2004_hp_srs_web,"The location and direction of the thrusters shall be such as to avoid, or at least minimise, contamination and plume impingement effects."
+2004_hp_srs_web,The characteristics of the thrusters and their accommodation on the spacecraft shall not cause any deleterious effects on either the spacecraft or the science instruments during operation.
+2004_hp_srs_web,"Fill and drain valve locations shall be chosen to facilitate loading and unloading of propellants, pressurants and purging fluids."
+2004_hp_srs_web,"Test port locations shall be compatible with all requirements for testing. Interfaces shall be provided through the spacecraft skin connector for providing critical value states (pressure, temperature, etc.) independent of spacecraft power."
+2004_hp_srs_web,The location of the pyrovalves shall allow for an easy access for initiator and booster installation during the launch preparation.
+2004_hp_srs_web,"Adequate means for determination of the remaining propellant quantities shall be provided. It shall be possible to achieve an accuracy better than 5% of the remaining propellant, or at least equal to the amount of propellant required for three months of operational life."
+2004_hp_srs_web,"The RCS shall comply with the safety and cleanliness/contamination requirements of launcher, launch range and spacecraft."
+2004_hp_srs_web,The design shall not require welding inside the SVM to complete the RCS assembly.
+2004_hp_srs_web,The tanks shall comply with the requirements of AD6-11 and AD6-2/3.
+2004_hp_srs_web,"Components (e.g. valves, regulators) using sliding surfaces for their actuation and operation as well as components with bellows inside the fluid containing part are not allowed. For those which cannot be avoided with reasonable effort, a rationale for retention shall be prepared which shall be subject to approval by ESA."
+2004_hp_srs_web,"All materials used in contact with propellants/simulant propellants shall be mutually compatible. All materials selected shall, in particular w.r.t. the mission duration, neither degrade and injure functionality of components nor degrade propellants."
+2004_hp_srs_web,"Pyrovalves shall have provisions, which prevents the actuator gas from flowing in the propellant or gas feed line passages and shall comply with requirements in section 5.6.2.4."
+2004_hp_srs_web,Heating capability shall be provided to prevent the freezing of the propellants.
+2004_hp_srs_web,"Heating capability shall be provided to prevent condensation of propellants in the pressurant gas control assembly / circuitry upstream of the non-return valves , if applicable (Propellant type )"
+2004_hp_srs_web,The design of the thruster control valves shall be such as to avoid a valve-open failure case.
+2004_hp_srs_web,"For testing purposes, the propellant tanks shall be filled with representative liquids having similar densities."
+2004_hp_srs_web,"The harness shall provide adequate distribution and separation of all power supply lines, analogue and digital data lines, command and actuation pulse and stimuli lines between all units of the SVM subsystems and those lines to the PLM, Planck module and Telescope interfaces, the test connectors, the safe/arm brackets and connectors and the umbilical connectors."
+2004_hp_srs_web,The harness shall transmit all electrical currents in a manner compatible with the requirements of the source and destination unit/interface.
+2004_hp_srs_web,The power harness DC equivalent resistance from the main regulation point to the input of the load (line and return) shall not exceed the value required by the power standard ESA PSS-02-10 (AD6-9).
+2004_hp_srs_web,The inductance of the power distribution harness for frequencies up to 100 kHz shall not exceed the value required by the power standard (AD6-9).
+2004_hp_srs_web,"The isolation requirements between leads, which are not connected together and between shield and centre conductor and shield to shield shall be at least 10 Mohm under 500 V DC at both polarities."
+2004_hp_srs_web,The loop resistance shall be optimised to insure the best compromise between the drop voltage acceptable to units and the harness mass.
+2004_hp_srs_web,"The mechanical construction of the harness shall assure the reliable operation of the spacecraft under all environmental conditions. The stress, which occurs during manufacturing, integration, test, transport, launch preparation, launch and in-orbit operation shall cause no changes in the harness, which might affect the correct functioning of the system."
+2004_hp_srs_web,No piece of harness shall be used as a mechanical support.
+2004_hp_srs_web,"All equipment shall use a separate connector dedicated to its functional interface, according to the categories listed above."
+2004_hp_srs_web,"Wiring of redundant systems, subsystems or units of subsystems shall be routed through separate connectors and wire bundles."
+2004_hp_srs_web,Redundant wire bundles shall be routed differently wherever possible.
+2004_hp_srs_web,Cross strapping of redundant paths and circuits shall not be carried out in the harness.
+2004_hp_srs_web,The pyrotechnic harness shall satisfy the applicable safety requirements.
+2004_hp_srs_web,The pyrotechnic harness shall consist of twisted pairs of wires with an overall shield being continuous and connected to the conductive connector shells at all interfaces and grounded to the structure at all intermediate attachment points.
+2004_hp_srs_web,Connections to the initiators shall be capable of being mechanically broken during ground handling by safe/arm connectors accessible from the outside of the spacecraft.
+2004_hp_srs_web,The shields of cables shall not be used as return lines. All hot/return lines shall be twisted together.
+2004_hp_srs_web,All harness and all box and bracket mounted connectors supplying power shall have socket contacts.
+2004_hp_srs_web,"Where it is necessary to have a shield connection through a connector, separate pins shall be used."
+2004_hp_srs_web,The initial design shall ensure that sufficient (including spare) pins are available for all foreseeable subsystem and experiment functions.
+2004_hp_srs_web,All individual wire-to-pin interfaces shall be covered with transparent heat shrink sleeves.
+2004_hp_srs_web,The possibility of incorrect mating of connectors shall be excluded by design.
+2004_hp_srs_web,"The harness connectors shall be easily accessible, attachable and removable from the corresponding unit connectors; removal of units or disconnection of adjacent connectors shall not be necessary."
+2004_hp_srs_web,The harness shall be fixed onto the structure in order to avoid any damage during launch phase. As a general rule it will be fixed at equipment level: the harness connectors shall be fitted onto the equipment connectors by appropriate locking systems
+2004_hp_srs_web,The harness shall be fixed onto the structure in order to avoid any damage during launch phase. As a general rule it will be fixed: at the structure level
+2004_hp_srs_web,The harness shall be fixed onto the structure in order to avoid any damage during launch phase. As a general rule it will be fixed: at interface level: the connectors shall be fixed on metallic brackets themselves fixed onto the structure.
+2004_hp_srs_web,Fixation of sensitive signal lines shall be such as to avoid micro-phonic noise.
+2004_hp_srs_web,The harness restraining systems on the structure shall not bring about any stress at connector level.
+2004_hp_srs_web,"The harness linking equipment mounted in or on the payload module, with the service module shall be such that the heat transferred by conduction is optimised for electrical and thermal performances."
+2004_hp_srs_web,Permanent connections installed for purposes of test at integrated satellite level shall be routed to skin connectors of the modules concerned (module interface connectors are no longer accessible at that level).
+2004_hp_srs_web,Skin connectors shall also be provided to make-or-break power circuits.
+2004_hp_srs_web,"All these skin connectors shall be closed by caps, bridging connectors, and thermal insulation for flight."
+2004_hp_srs_web,The harness shall comply with the EMC Requirements mentioned in section 5.6.4.
+2004_hp_srs_web,Twisted power lines shall be pre-manufactured by the supplier to achieve the best magnetic compensation.
+2004_hp_srs_web,"Other lines shall be twisted as far as practicable with their corresponding return path, or shall run adjacent to the reference grounds to minimise magnetic loops."
+2004_hp_srs_web,"Harness shielding, as far as required, shall preferably be made by means of overall shielding, where the signals in the bundles do not interfere with one another."
+2004_hp_srs_web,"The shields shall be connected to the equipment housings via connector pins or to the connector case, if no other special arrangement is derived from the EMC analysis of the interface design."
+2004_hp_srs_web,"All S/W production and test shall follow the ESA Software Standard, ESA ECSS-E-40 (AD6-17) and ESA ECSS Q-80 (AD6-25)."
+2004_hp_srs_web,"The on-board S/W shall be developed using a high level language, except where explicitly exempted."
+2004_hp_srs_web,"The use of a non high level language (e.g. assembler) code in the S/W shall be shown to be absolutely necessary to achieve the required performance, to the satisfaction of ESA before it is implemented."
+2004_hp_srs_web,All on board software shall be re-programmable on ground and in orbit.
+2004_hp_srs_web,"All on-board S/W running in subsystems shall be developed using the same development environment, except where explicitly exempted."
+2004_hp_srs_web,All S/W produced shall be verified by an independent Software Verification Team different from the software supplier.
+2004_hp_srs_web,All reviews shall be formal and be supported by ESA and higher level contractors.
+2004_hp_srs_web,The spacecraft shall support post-launch modifications of all on-board software.
+2004_hp_srs_web,The on-board S/W shall be structured such that modifications to any individual code module have minimum impact on other modules.
+2004_hp_srs_web,The software maintenance environment shall provide the means to generate and prepare software patches or full images for uplink to the spacecraft.
+2004_hp_srs_web,The software maintenance environment shall be integrated within the Software Validation Facility.
+2004_hp_srs_web,"The on-board software shall be implemented with a layered structure separating hardware, software, input/output, basic services and general mission services."
+2004_hp_srs_web,"The on-board software shall maintain an up-to-dated status of tasks, functions and procedures in a non-volatile memory."
+2004_hp_srs_web,Starting or stopping processes shall not affect the execution or performance of other running processes.
+2004_hp_srs_web,"The S/W shall protect itself against infinite loops, computational"
+2004_hp_srs_web,errors and possible lock-ups resulting from an undetected hardware failure.
+2004_hp_srs_web,Fixed areas of on-board memory shall be dedicated to Code
+2004_hp_srs_web,Fixed areas of on-board memory shall be dedicated to fixed constants
+2004_hp_srs_web,Fixed areas of on-board memory shall be dedicated to Variable parameters
+2004_hp_srs_web,"All memory shall support direct patching, including areas where memory management is used."
+2004_hp_srs_web,The S/W shall normally run in RAM loaded from no volatile memory.
+2004_hp_srs_web,On board memory shall contain at least 50 % free (unused) memory at Architectural Acceptance Review and 30 % at Software Acceptance Review after coding and testing has been completed; it shall be possible to use this free area for code and/or data.
+2004_hp_srs_web,"The spacecraft shall support the dumping to ground of any element of the on-board memory, initiated by telecommand."
+2004_hp_srs_web,"The data handling shall be provided with the capabilities for its fault detection, fault isolation and switching to its redundant items."
+2004_hp_srs_web,On-board monitoring shall be the activity continuously ensuring that the on-board units under supervision are in an acceptable safe state. This shall be achieved by regularly checking the state of individual parameters in the housekeeping information.
+2004_hp_srs_web,S/W engineering parameters shall be available in housekeeping telemetry to enable the ground to fully diagnose the status of the S/W.
+2004_hp_srs_web,The software code used to boot up a processor shall be optimised and characterised in terms of reliability and time to initialise (cold/warm cases).
+2004_hp_srs_web,"The processor shall boot to a stage that provides the basic critical functions (HK telemetry, TC execution and critical autonomous functions)."
+2004_hp_srs_web,CPU shall contain at least 50 % free (unused) peak load at Architectural Acceptance Review and 30 % at Software Acceptance Review after coding and testing has been completed.
+2004_hp_srs_web,"When software units are changed following formal verification, the on-board software shall undergo full regression testing and independent verification."
+2004_hp_srs_web,Test tools in the development testing of the S/W shall support the same telemetry and telecommand data base as used in system level testing.
+2004_hp_srs_web,All software codes shall be statically analysed by a standard tool.
+2004_hp_srs_web,All software codes shall be dynamically analysed by a standard tool.
+2004_hp_srs_web,The SVF shall allow S/W verification to be performed before and after the S/W is integrated at subsystem level.
+2004_hp_srs_web,The SVF shall support full testing of the software at source code and machine level.
+2004_hp_srs_web,The SVF shall allow software testing without instrumentation of the target code.
+2004_hp_srs_web,All software licences for any software used to develop and test the on-board software shall be maintainable at the same version and issue over the full life of the mission at a freeze point in the schedule and be deliverable to the Agency with the corresponding
+2004_hp_srs_web,support documentation. The freeze point shall be established in agreement with ESA.
+2004_hp_srs_web,"All Herschel / Planck on-board software shall be delivered to ESA in source form, including all building scripts necessary to regenerate the on-board image. All supporting documentation shall also be delivered to ESA"
+2004_hp_srs_web,"All on-board software resident in ASIC, FPGA or other specified circuits (including firmware and development language) shall be delivered to ESA in source form including all supporting test harness and documentation."
+2004_hp_srs_web,The Particulate contamination of the Planck Reflector 1 shall not exceed 900 ppm at delivery to Prime.
+2004_hp_srs_web,The Particulate contamination of the Planck Reflector 1 shall not exceed 5000 ppm at the end of Nominal Lifetime.
+2004_hp_srs_web,The Particulate contamination of the Planck Reflector 2 shall not exceed 900 ppm at delivery to Prime.
+2004_hp_srs_web,The Particulate contamination of the Planck Reflector 2 shall not exceed 5000 ppm at the end of Nominal Lifetime.
+2004_hp_srs_web,The Particulate contamination of the Planck FPU shall not exceed 300 ppm at delivery to Prime.
+2004_hp_srs_web,The Particulate contamination of the Planck FPU shall not exceed 5000 ppm at the end of Nominal Lifetime.
+2004_hp_srs_web,The Particulate contamination of the Herschel LOU shall not exceed 300 ppm at delivery to Prime.
+2004_hp_srs_web,The Particulate contamination of the Herschel LOU shall not exceed 1200 ppm at the end of Nominal Lifetime.
+2004_hp_srs_web,The Particulate contamination of the Herschel M1 shall not exceed 300 ppm at delivery to Prime.
+2004_hp_srs_web,The Particulate contamination of the Herschel M1 shall not exceed 4500 ppm at the end of Nominal Lifetime.
+2004_hp_srs_web,The Particulate contamination of the Herschel M2 shall not exceed 300 ppm at delivery to Prime.
+2004_hp_srs_web,The Particulate contamination of the Herschel M2 shall not exceed 4500 ppm at the end of Nominal Lifetime.
+2004_hp_srs_web,The Particulate contamination of the Herschel FPU shall not exceed 300 ppm at delivery to Prime.
+2004_hp_srs_web,The Particulate contamination of the Herschel FPU shall not exceed 1200 ppm at the end of Nominal Lifetime.
+2004_hp_srs_web,The Molecular contamination of the Planck Reflector 1 shall not exceed 5 10-7g/cm2 at delivery to Prime.
+2004_hp_srs_web,The Molecular contamination of the Planck Reflector 1 shall not exceed 40 10-7g/cm3 at the end of Nominal Lifetime.
+2004_hp_srs_web,The Molecular contamination of the Planck Reflector 2 shall not exceed 5 10-7g/cm4 at delivery to Prime.
+2004_hp_srs_web,The Molecular contamination of the Planck Reflector 2 shall not exceed 40 10-7g/cm5 at the end of Nominal Lifetime.
+2004_hp_srs_web,The Molecular contamination of the Planck FPU shall not exceed 30 10-7g/cm6 at delivery to Prime.
+2004_hp_srs_web,The Molecular contamination of the Planck FPU shall not exceed 60 10-7g/cm7 at the end of Nominal Lifetime.
+2004_hp_srs_web,The Molecular contamination of the Herschel LOU shall not exceed 40 10-7g/cm8 at delivery to Prime.
+2004_hp_srs_web,The Molecular contamination of the Herschel LOU shall not exceed 60 10-7g/cm9 at the end of Nominal Lifetime.
+2004_hp_srs_web,The Molecular contamination of the Herschel M1 shall not exceed 2 10-7g/cm10 at delivery to Prime.
+2004_hp_srs_web,The Molecular contamination of the Herschel M1 shall not exceed 40 10-7g/cm11 at the end of Nominal Lifetime.
+2004_hp_srs_web,The Molecular contamination of the Herschel M2 shall not exceed 2 10-7g/cm12 at delivery to Prime.
+2004_hp_srs_web,The Molecular contamination of the Herschel M2 shall not exceed 40 10-7g/cm13 at the end of Nominal Lifetime.
+2004_hp_srs_web,The Molecular contamination of the Herschel FPU shall not exceed 40 10-7g/cm14 at delivery to Prime.
+2004_hp_srs_web,The Molecular contamination of the Herschel FPU shall not exceed 60 10-7g/cm15 at the end of Nominal Lifetime.
+2004_hp_srs_web,The ASD ( in Watts / Hz ) at 30 GHz shall not exceed 3.4 E-18 .
+2004_hp_srs_web,The ASD ( in Watts / Hz ) at 100 (LFI) GHz shall not exceed 1.1 E-17 .
+2004_hp_srs_web,The ASD ( in Watts / Hz ) at 100 (HFI) GHz shall not exceed 2.1 E-18 .
+2004_hp_srs_web,The ASD ( in Watts / Hz ) at 353 GHz shall not exceed 1.8 E-18 .
+2004_hp_srs_web,The ASD ( in Watts / Hz ) at 857 GHz shall not exceed 2.2 E-17 .
+2004_hp_srs_web,The initial design for Primary Structures shall be subject to Longitudinal loads of 9 G and Lateral loads of 1.5 G .
+2004_hp_srs_web,The initial design for Primary Structures shall be subject to Longitudinal loads of 5 G and Lateral loads of 3 G .
+2004_hp_srs_web,The initial design for Helium-II Tank and its suspension shall be subject to Longitudinal loads of 13 G and Lateral loads of 1.8 G .
+2004_hp_srs_web,The initial design for Helium-II Tank and its suspension shall be subject to Longitudinal loads of 5 G and Lateral loads of 5 G .
+2004_hp_srs_web,The initial design for Propellant Tanks shall be subject to Longitudinal loads of 15 G and Lateral loads of 10 G .
+2004_hp_srs_web,The initial design for Propellant Tanks shall be subject to Longitudinal loads of 5 G and Lateral loads of 15 G .
+2004_hp_srs_web,The initial design for Service Module ( SVM ) equipment Panels shall be subject to Longitudinal loads of 15 G and Lateral loads of 10 G .
+2004_hp_srs_web,The initial design for Service Module ( SVM ) equipment Panels shall be subject to Longitudinal loads of 5 G and Lateral loads of 15 G .
+2004_hp_srs_web,A Software Validation Facility (SVF) shall support the software verification at the unit level (i.e. procedure or function level) during development and maintenance phases.
+2004_hp_srs_web,A Software Validation Facility (SVF) shall support the software verification at the integration level (i.e. module level) during development and maintenance phases.
+2004_hp_srs_web,A Software Validation Facility (SVF) shall support the software verification at the subsystem level (i.e. S/W subsystem level) during development and maintenance phases.

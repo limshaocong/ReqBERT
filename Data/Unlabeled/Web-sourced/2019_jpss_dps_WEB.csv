@@ -1,0 +1,304 @@
+source,reqs
+2019_jpss_dps,The data products shall be produced in NetCDF format unless otherwise specified.
+2019_jpss_dps,The data products shall include attribute metadata that are compatible with the NetCDF Climate and Forecast Metadata Conventions.
+2019_jpss_dps,The data products shall provide geolocation data that are compatible with the NetCDF Climate and Forecast Metadata Conventions.
+2019_jpss_dps,"The calibrated sensor data products shall maintain a long-term relative accuracy not to exceed 2%, for climate monitoring."
+2019_jpss_dps,"The ATMS RDR product shall aggregate spacecraft and sensor data necessary for sensor data calibration and geolocation, from downlinked spacecraft and sensor application packets, for archiving and for input to calibration & geolocation algorithms."
+2019_jpss_dps,"The ATMS TDR product shall provide antenna temperatures calibrated from ATMS RDRs, for all ATMS earth scene measurements, at the refresh rates of the instrument."
+2019_jpss_dps,"The ATMS BUFR TDR product shall provide geolocated antenna temperatures, converted from ATMS TDRs, in the BUFR format."
+2019_jpss_dps,"The ATMS SDR product shall provide scene brightness temperatures calibrated from ATMS TDRs, for all ATMS earth scene measurements, at the refresh rates of the instrument."
+2019_jpss_dps,"The ATMS BUFR SDR product shall provide geolocated scene brightness temperatures, converted from ATMS SDRs, in the BUFR format."
+2019_jpss_dps,"The ATMS TDR and SDR products shall conform with the ATMS instrument requirement MMSS-227 of the Multi-Mission System Specification, reproduced below for reference."
+2019_jpss_dps,"The ATMS Geolocation Data product shall have a 3- sigma geolocation uncertainty in the along- scan direction, over all scan angles, not to exceed 1/2 the along-scan footprint size of the 3 dB (FWHM) beam."
+2019_jpss_dps,"The ATMS Geolocation Data product shall have a 3- sigma geolocation uncertainty in the along- track direction, over all scan angles, not to exceed 1/2 the along-track footprint size of the 3 dB (FWHM) beam."
+2019_jpss_dps,"The ATMS Geolocation Data product shall provide WGS84 ellipsoid- referenced geolocation data for all beam positions, calibrated from ATMS instrument and spacecraft RDRs, for all ATMS earth scene measurements, at the refresh rates of the instrument."
+2019_jpss_dps,"The ATMS Imagery product shall provide a mapping projection of calibrated ATMS data, in all bands, globally day and night, under all weather conditions, at the native resolution of the instrument, at the refresh rates of the instrument."
+2019_jpss_dps,"The CrIS RDR product shall aggregate spacecraft and sensor data necessary for sensor data calibration and geolocation, from downlinked spacecraft and sensor application packets, for archiving and for input to calibration & geolocation algorithms."
+2019_jpss_dps,"The CrIS SDR product shall provide complex spectral radiances, calibrated from CrIS interferogram RDRs, for all CrIS earth scene measurements, at the refresh rates of the instrument."
+2019_jpss_dps,"The CrIS BUFR product shall provide geolocated complex spectral radiances, converted from CrIS SDRs, in the BUFR format."
+2019_jpss_dps,"The CrIS SDR product shall provide complex spectral radiances binned into three bands denoted SW (short wave), MW (mid wave), and LW (long wave)."
+2019_jpss_dps,"The CrIS SDR product shall conform with the CrIS instrument requirement MMSS-235 of the Multi- Mission Systems Specification, reproduced below for reference."
+2019_jpss_dps,"The CrIS Geolocation Data product shall provide WGS84 ellipsoid- referenced geolocation data for all fields of view, calibrated from CrIS instrument and spacecraft RDRs, for all CrIS earth scene measurements, at the refresh rates of the instrument."
+2019_jpss_dps,"The CrIS Geolocation Data product shall have a 3- sigma geolocation uncertainty in the along- scan direction, over all scan angles, not to exceed 1/4 the along-scan footprint size of the 3 dB (FWHM) beam of each FOV."
+2019_jpss_dps,"The CrIS Geolocation Data product shall have a 3- sigma geolocation uncertainty in the along- track direction, over all scan angles, not to exceed 1/4 the along-track footprint size of the 3 dB (FWHM) beam of each FOV."
+2019_jpss_dps,"The VIIRS RDR product shall aggregate spacecraft and sensor data necessary for sensor data calibration and geolocation, from downlinked spacecraft and sensor application packets, for archiving and for input to calibration & geolocation algorithms, for all VIIRS bands."
+2019_jpss_dps,"The VIIRS emissive band SDR product shall provide radiances and brightness temperatures for emissive M-bands and I-bands, calibrated from RDRs, for all emissive-band earth scene measurements, at the refresh rates of the instrument."
+2019_jpss_dps,"The VIIRS emissive band BUFR product shall provide geolocated radiances and brightness temperatures for emissive M-bands and I-bands, converted from emissive- band VIIRS SDRs, in the BUFR format."
+2019_jpss_dps,"The VIIRS reflective band SDR product shall provide reflectances and radiances for reflective I-bands and M-bands, calibrated from RDRs, for all daytime reflective-band earth scene measurements, at the refresh rates of the instrument."
+2019_jpss_dps,"The VIIRS reflective band BUFR product shall provide geolocated reflectances and radiances for reflective M-bands and I-bands, converted from reflective-band VIIRS SDRs, in the BUFR format."
+2019_jpss_dps,"The VIIRS day/night band SDR product shall provide radiances for the day/night band calibrated from RDRs, for all earth scene measurements, at the refresh rates of the instrument."
+2019_jpss_dps,"The VIIRS day/night band BUFR product shall provide geolocated radiances for the day/night band, converted from day/night-band VIIRS SDRs, in the BUFR format."
+2019_jpss_dps,"The VIIRS SDR products shall conform with the VIIRS instrument requirement MMSS-255 of the Multi-Mission Systems Specification, reproduced below for reference."
+2019_jpss_dps,"The VIIRS Geolocation Data product shall have a 3- sigma geolocation uncertainty for all bands, of 400 meters at nadir, and 1500 meters at edge of scan."
+2019_jpss_dps,"The VIIRS Geolocation Data product shall provide terrain-corrected geolocation data for all bands, over all scan angles, calibrated from VIIRS instrument and spacecraft RDRs, for all VIIRS earth scene measurements, at the refresh rates of the instrument."
+2019_jpss_dps,"The VIIRS Imagery product shall provide a Ground-Track Mercator projection, with terrain corrected geolocation, of all VIIRS I-band SDRs; any set of six among available 16 VIIRS M-band SDRs; and the Day/Night-band SDR; globally, day and night (for emissive and day/night bands), under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,"The OMPS-NM RDR product shall provide OMPS nadir mapper total column raw data from downlinked sensor application packets, sorted according to application packet ID, for archiving and for input to calibration & geolocation algorithms."
+2019_jpss_dps,"The OMPS-NM SDR product shall provide earth- view radiances calibrated from OMPS-NM RDRs, for all nominal OMPS-NM earth scene measurements, at the refresh rates of the instrument."
+2019_jpss_dps,"The OMPS-NM SDR product shall conform with the OMPS instrument requirement MMSS-245 of the Multi-Mission Systems Specification, reproduced below for reference."
+2019_jpss_dps,"The OMPS-NM Geolocation Data shall have a 3-sigma geolocation uncertainty in the along- scan direction, over all FOVs in the scan, not to exceed 1/2 the along-scan footprint size of the FOV."
+2019_jpss_dps,"The OMPS-NM Geolocation Data shall have a 3-sigma geolocation uncertainty in the along- track direction, over all FOVs in the scan, not to exceed 1/2 the along-track footprint size of the FOV."
+2019_jpss_dps,"The OMPS-NM Geolocation Data product shall provide WGS84 ellipsoid-referenced geolocation data for all fields of view, calibrated from OMPS-NM instrument and spacecraft RDRs, for all OMPS-NM earth scene measurements, at the refresh rates of the instrument."
+2019_jpss_dps,"The OMPS-NP RDR product shall provide OMPS nadir profiler raw data from downlinked sensor application packets, sorted according to application packet ID, for archiving and for input to calibration & geolocation algorithms."
+2019_jpss_dps,"The OMPS-NP SDR product shall provide earth- view radiances calibrated from OMPS nadir profiler RDRs, for all nominal OMPS-NP earth scene measurements, at the refresh rates of the instrument."
+2019_jpss_dps,"The OMPS-NP SDR product shall conform with the OMPS instrument requirement MMSS-245 of the Multi-Mission Systems Specification, reproduced below for reference."
+2019_jpss_dps,"The OMPS-NP Geolocation Data shall have a 3-sigma geolocation uncertainty in the along-scan direction, over all FOVs in the scan, not to exceed 1/2 the along-scan footprint size of the FOV."
+2019_jpss_dps,"The OMPS-NP Geolocation Data shall have a 3-sigma geolocation uncertainty in the along-track direction, over all FOVs in the scan, not to exceed 1/2 the along- track footprint size of the FOV."
+2019_jpss_dps,"The OMPS-NP Geolocation Data product shall provide WGS84 ellipsoid- referenced geolocation data for all fields of view, calibrated from OMPS-NM instrument and spacecraft RDRs, for all OMPS-NM earth scene measurements, at the refresh rates of the instrument."
+2019_jpss_dps,"The OMPS-LP RDR product shall aggregate spacecraft and sensor data necessary for sensor data calibration and geolocation, from downlinked spacecraft and sensor application packets, for archiving and for input to calibration & geolocation algorithms."
+2019_jpss_dps,"The AMSR-2 ASD product shall aggregate spacecraft and sensor data necessary for sensor data calibration and geolocation, from downlinked spacecraft and sensor application packets, for archiving and for input to calibration & geolocation algorithms."
+2019_jpss_dps,"The AMSR-2 calibrated sensor data product shall provide scene counts and scene brightness temperatures calibrated from AMSR-2 ASDs, for all AMSR-2 earth scene measurements, at the refresh rates of the instrument."
+2019_jpss_dps,"The AMSR-2 calibrated sensor data BUFR product shall provide geolocated scene counts and scene brightness temperatures, converted from AMSR-2 calibrated sensor data products, in the BUFR format."
+2019_jpss_dps,"The AMSR-2 Imagery product shall provide a mapping projection of AMSR-2 calibrated data, for all bands, globally day and night, under all weather conditions, at the native resolution of the instrument, at the refresh rates of the instrument."
+2019_jpss_dps,"The Infrared Ozone Profile product shall provide infrared ozone profiles, globally day and night, at the refresh rates of the instrument."
+2019_jpss_dps,"The Infrared Ozone Profile product shall provide infrared ozone profiles from the top of atmosphere to the surface, on the native vertical reporting interval of the radiative transfer model grid used in the retrieval."
+2019_jpss_dps,"The Infrared Ozone Profile product shall provide infrared ozone profiles with a measurement precision of 20% from the surface to 260 millibars (mb) in one statistic layer, and from 260 mb to 4 mb in 6 statistic layers."
+2019_jpss_dps,"The Infrared Ozone Profile product shall provide infrared ozone profiles with a measurement accuracy of 10% from the surface to 260 millibars (mb) in one statistic layer, and from 260 mb to 4 mb in 6 statistic layers."
+2019_jpss_dps,"The Outgoing Longwave Radiation product shall provide outgoing longwave radiation, globally day and night, for all scene conditions, over the measurement range of the instrument, at the refresh rates of the instrument."
+2019_jpss_dps,The Outgoing Longwave Radiation product shall provide outgoing longwave radiation with a measurement precision of 12 watts per square meter (W/m^2).
+2019_jpss_dps,The Outgoing Longwave Radiation product shall provide outgoing longwave radiation with a measurement accuracy of 5 W/m^2.
+2019_jpss_dps,"The Active Fires product shall provide fire radiative power, with a measurement uncertainty of 50%, over the measurement range of the instrument."
+2019_jpss_dps,"The Active Fires product shall provide a per-pixel fire mask and fire radiative power, calculated from infrared imager calibrated data, globally day and night, under clear sky conditions between clouds, at the refresh rates of the instrument."
+2019_jpss_dps,"The Aerosol Detection product shall provide type identification of aerosols entrained at any altitude, for the total column, globally, under cloud-free conditions, in daytime, for aerosol optical thickness greater than 0.15, at the refresh rates of the instrument."
+2019_jpss_dps,"The Aerosol Detection product shall identify aerosols of type dust, sand, and smoke, at a given location."
+2019_jpss_dps,The Aerosol Detection product shall identify presence of aerosols of any type with a probability of correct typing of 80%.
+2019_jpss_dps,The Aerosol Detection product shall identify dust with a probability of correct typing of 80%; and smoke with a probability of correct typing of 70%.
+2019_jpss_dps,The Aerosol Detection product shall identify smoke plumes with densities from 0 to 2000 micrograms per square meter of column.
+2019_jpss_dps,The Aerosol Optical Depth product shall provide aerosol optical depth; globally; in daytime; in clear conditions; for the total column; at solar zenith angles less than or equal to 80 degrees; at the refresh rates of the instrument.
+2019_jpss_dps,"The Aerosol Optical Depth BUFR product shall provide geolocated aerosol optical depth, converted from the Aerosol Optical Depth product, in BUFR format."
+2019_jpss_dps,"The Aerosol Optical Depth product shall provide aerosol optical depth with a measurement accuracy of: 0.08 over ocean for optical depth less than 0.3, and 0.15 over ocean for optical depth greater than or equal to 0.3; 0.06 over land for optical depth less than 0.1, 0.05 over land for optical depth greater than or equal to 0.1 and less than or equal to 0.8, and 0.2 over land for optical depth greater than 0.8."
+2019_jpss_dps,"The Aerosol Optical Depth product shall provide aerosol optical depth with a measurement precision of: 0.15 over ocean for optical depth less than 0.3, and 0.35 over ocean for optical depth greater than or equal to 0.3; 0.15 over land for optical depth less than 0.1, 0.25 over land for optical depth greater than or equal to 0.1 and less than or equal to 0.8, and 0.45 over land for optical depth greater than 0.8."
+2019_jpss_dps,The Aerosol Optical Depth product shall provide aerosol optical depth with a measurement range of – 0.05 to 5.
+2019_jpss_dps,"The Aerosol Optical Depth product shall provide aerosol optical depth for wavelengths at 412, 445, 488, 550, 555, 672, 746, 865, 1240, 1610, and 2250 nanometers."
+2019_jpss_dps,"The Aerosol Particle Size product shall be provided globally over ocean, daytime only, over the total column, for Ångström exponent values between -1 and +3, at the refresh rates of the instrument."
+2019_jpss_dps,The Aerosol Particle Size product shall provide the Ångström exponent with a measurement precision of 0.6 alpha units over ocean.
+2019_jpss_dps,The Aerosol Particle Size product shall provide the Ångström exponent with a measurement accuracy of 0.3 alpha units over ocean.
+2019_jpss_dps,"The Cloud Cover/Layers product shall provide geolocated fractional cloud cover per cell, for three atmospheric layers and for the total of all layers, globally, day and night, whenever detectable clouds are present, at the refresh rates of the instrument."
+2019_jpss_dps,"The Cloud Cover/Layers product shall provide geolocated fractional cloud cover per cell at the three atmospheric layers of 0 to 350 millibars (mb), 350 to 642 mb, and 642 to 1100 mb."
+2019_jpss_dps,The Cloud Cover/Layers product shall provide fractional cloud cover per cell with a measurement uncertainty of 15%.
+2019_jpss_dps,The Cloud Cover/Layers product shall provide fractional cloud cover with a horizontal cell size of 10 kilometers.
+2019_jpss_dps,The Cloud Cover/Layers product shall geolocate the center of the fractional cloud cover cell with a 3-sigma mapping uncertainty of 4 kilometers.
+2019_jpss_dps,"The Cloud Height product shall provide geolocated cloud top and base heights per cell, for the highest cloud in the column, globally, day and night, whenever detectable clouds are present, at the refresh rates of the instrument."
+2019_jpss_dps,The Cloud Height product shall provide cloud top heights per cell with a measurement precision of 1.0 kilometers for cloud optical thickness greater than or equal to 1; and 2.0 km for cloud optical thickness less than 1.
+2019_jpss_dps,The Cloud Height product shall provide cloud base heights per cell with a measurement precision of 2.0 kilometers for cloud optical thickness greater than or equal to 1; and 3.0 km for cloud optical thickness less than 1.
+2019_jpss_dps,The Cloud Height product shall provide cloud top heights per cell with a measurement accuracy of 1.0 kilometers for cloud optical thickness greater than or equal to 1; and 2.0 km for cloud optical thickness less than 1.
+2019_jpss_dps,The Cloud Height product shall provide cloud base heights per cell with a measurement accuracy of 2.0 kilometers for cloud optical thickness greater than or equal to 1; and 3.0 km for cloud optical thickness less than 1.
+2019_jpss_dps,"The Cloud Mask product shall provide a cloud mask for the total cloud cover, globally whenever detectable clouds are present, at the refresh rates of the instrument."
+2019_jpss_dps,"The Cloud Mask product shall provide a cloud mask for the total cloud cover with a probability of correct typing, averaged globally, of 87%."
+2019_jpss_dps,"The Cloud Mask product shall provide a cloud mask for the total cloud cover with a probability of correct typing over ocean of 92% in daytime, and 90% at night."
+2019_jpss_dps,"The Cloud Mask product shall provide a cloud mask for the total cloud cover with a probability of correct typing over snow-free land of 90% in daytime, and 88% at night."
+2019_jpss_dps,The Cloud Mask product shall provide a cloud mask for the total cloud cover with a probability of correct typing over desert of 85% in daytime and at night.
+2019_jpss_dps,"The Cloud Mask product shall provide a cloud mask for the total cloud cover with a probability of correct typing over snow-covered land of 88% in daytime, and 85% at night."
+2019_jpss_dps,"The Cloud Mask product shall provide a cloud mask for the total cloud cover with a probability of correct typing over sea ice of 82% in daytime, and 72% at night."
+2019_jpss_dps,"The Cloud Mask product shall provide a cloud mask for the total cloud cover with a probability of correct typing over Antarctica and Greenland of 80% in daytime, and 70% at night."
+2019_jpss_dps,"The Cloud Optical Depth product shall provide cloud optical depth, globally, day and night, whenever detectable clouds are present, at the refresh rates of the instrument."
+2019_jpss_dps,The Cloud Optical Depth product shall provide cloud optical depth with a measurement precision of the greater of 30% or 3 optical depths in daytime; and the greater of 30% or 0.8 optical depths at night.
+2019_jpss_dps,The Cloud Optical Depth product shall provide cloud optical depth with a measurement accuracy of 20% in daytime and 30% at night.
+2019_jpss_dps,"The Cloud Particle Size Distribution product shall provide the cloud effective particle size, at cloud tops, globally, day and night, whenever detectable clouds are present, at the refresh rates of the instrument."
+2019_jpss_dps,The Cloud Particle Size Distribution product shall provide cloud effective particle size over a range from 2 to 50 microns for ice and water in daytime and for ice at night; and 2 to 32 microns for water at night.
+2019_jpss_dps,The Cloud Particle Size Distribution product shall provide cloud effective particle size with a measurement precision of: the greater of 25% or 4 micron for water; greater of 25% or 10 micron for ice.
+2019_jpss_dps,The Cloud Particle Size Distribution product shall provide cloud effective particle size with a measurement accuracy of: greater of 30% or 4 micron for water; and 10 micron for ice.
+2019_jpss_dps,"The Cloud Phase product shall provide the cloud phase, globally, day and night, whenever detectable clouds are present, at the refresh rates of the instrument."
+2019_jpss_dps,The Cloud Phase product shall provide the cloud phase with an 80% probability of correct typing.
+2019_jpss_dps,"The Cloud Top Pressure product shall provide cloud top pressures for one or more atmospheric layers, globally, day and night, whenever detectable clouds are present, at the refresh rates of the instrument."
+2019_jpss_dps,The Cloud Top Pressure product shall provide cloud top pressures with a measurement precision of 100 millibars for cloud optical depth greater than or equal to 1; and 200 millibars for cloud optical depth less than 1.
+2019_jpss_dps,The Cloud Top Pressure product shall provide cloud top pressures with a measurement accuracy of 100 millibars for cloud optical depth greater than or equal to 1; and 200 millibars for cloud optical depth less than one.
+2019_jpss_dps,"The Cloud Top Temperature product shall provide cloud top temperatures of the highest cloud in the column, globally, day and night, whenever detectable clouds are present, at the refresh rates of the instrument."
+2019_jpss_dps,The Cloud Top Temperature product shall provide cloud top temperatures with a measurement precision of 6 kelvin for cloud optical depth greater than or equal to 1; and 12 K for cloud optical depth less than 1.
+2019_jpss_dps,The Cloud Top Temperature product shall provide cloud top temperatures with a measurement accuracy of 6 K for cloud optical depth greater than or equal to 1; and 12 K for cloud optical depth less than 1.
+2019_jpss_dps,"The Global Surface Type product shall provide the IGBP land cover classification, globally."
+2019_jpss_dps,The Global Surface Type product shall provide global 8-day and monthly composites of surface reflectance from their daily granule reflectance data.
+2019_jpss_dps,The Global Surface Type product shall provide the IGBP land cover classification with a horizontal cell size of 1 kilometer.
+2019_jpss_dps,The Global Surface Type product shall provide the IGBP land cover classification with a probability of correct typing of 70%.
+2019_jpss_dps,The Global Surface Type product shall be updated once per year.
+2019_jpss_dps,"The Green Vegetation Fraction product shall provide green vegetation fraction globally and regionally, daytime only, weekly with daily updates, 24 hours after the seven- day compositing period."
+2019_jpss_dps,The Green Vegetation Fraction product shall provide the green vegetation fraction globally with a cell size of 16 km. and associated 3-sigma mapping uncertainty of 4 km.
+2019_jpss_dps,The Green Vegetation Fraction product shall provide the green vegetation fraction with a measurement precision of 15%.
+2019_jpss_dps,The Green Vegetation Fraction product shall provide the green vegetation fraction with a measurement accuracy of 12%.
+2019_jpss_dps,"The Ice Surface Temperature product shall provide ice surface temperature, globally day and night, for clear conditions, for ice-covered ocean, excluding inland water and coastal areas, at the refresh rates of the instrument."
+2019_jpss_dps,The Ice Surface Temperature product shall provide ice surface temperatures with a measurement range of 213 to 275 kelvins.
+2019_jpss_dps,The Ice Surface Temperature product shall provide ice surface temperatures with a measurement uncertainty of 1 kelvin.
+2019_jpss_dps,"The Land Surface Temperature product shall provide land surface temperature, globally day and night, for clear conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Land Surface Temperature product shall provide land surface temperatures with a measurement precision of 2.5 kelvin over the measurement range of the instrument.
+2019_jpss_dps,The Land Surface Temperature product shall provide land surface temperatures with a measurement accuracy of 1.4 kelvin over the measurement range of the instrument.
+2019_jpss_dps,"The Gridded Land Surface Temperature product shall provide land surface temperature, 1 km globally day and night, for clear conditions, at the refresh rate of the instrument."
+2019_jpss_dps,The Gridded Land Surface Temperature product shall provide land surface temperatures with a measurement precision of 2.5 kelvin over the measurement range of the instrument.
+2019_jpss_dps,The Gridded Land Surface Temperature product shall provide land surface temperatures with a measurement accuracy of 1.4 kelvin over the measurement range of the instrument.
+2019_jpss_dps,The Gridded Land Surface Temperature product shall be generated within 3 hours of receiving all the required data.
+2019_jpss_dps,"The Ocean Color/Chlorophyll product shall provide ocean color (nLw), chlorophyll-a, and optical properties; for ocean, coastal, or inland water; daytime; in clear conditions; at the refresh rate of the instrument."
+2019_jpss_dps,"The Ocean Color/Chlorophyll product shall provide ocean color with a measurement precision of 10%, over the measurement range of the instrument."
+2019_jpss_dps,"The Ocean Color/Chlorophyll product shall provide optical properties with a measurement precision of 20%, over the measurement range of the instrument."
+2019_jpss_dps,"The Ocean Color/Chlorophyll product shall provide chlorophyll-a density with a measurement precision of 30% below 10 mg/m^3, and 50% at and above 10 mg/m^3, over the measurement range of the instrument."
+2019_jpss_dps,The Ocean Color/Chlorophyll product shall provide ocean color with a measurement accuracy of 10%.
+2019_jpss_dps,The Ocean Color/Chlorophyll product shall provide optical properties with a measurement accuracy of 35%.
+2019_jpss_dps,"The Ocean Color/Chlorophyll product shall provide chlorophyll-a density with a measurement accuracy of 35% below 10 mg/m^3, and 40% at and above 10 mg/m^3."
+2019_jpss_dps,"The Polar Winds product shall provide polar wind vectors, at cloud tops, globally day and night, in cloudy areas, between the surface and the tropopause."
+2019_jpss_dps,"The Polar Winds BUFR product shall provide geolocated polar wind vectors, converted from the Polar Winds product, in BUFR format."
+2019_jpss_dps,The Polar Winds product shall provide polar wind vectors with magnitudes from 3 to 100 meters/second and directions from 0 to 360 degrees.
+2019_jpss_dps,"The Polar Winds product shall provide polar wind vectors with a measurement precision of 3.8 meters/sec, expressed as a mean vector difference."
+2019_jpss_dps,"The Polar Winds product shall provide polar wind vectors with a measurement accuracy of 7.5 meters/sec, expressed as a mean vector difference."
+2019_jpss_dps,The Polar Winds product shall provide polar wind vectors with a horizontal resolution of 10 km.
+2019_jpss_dps,"The Sea Ice Age product shall provide sea ice age class, globally over ocean, in daytime, under clear conditions, at the refresh rates of the instrument."
+2019_jpss_dps,"The Sea Ice Age product shall provide sea ice age class as either ice free, new/young ice, and all other ice."
+2019_jpss_dps,The Sea Ice Age product shall provide sea ice age class with a probability of correct typing of 70%.
+2019_jpss_dps,"The Sea Ice Concentration product shall provide sea ice concentration, globally over ocean, in daytime, under clear conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Sea Ice Concentration product shall provide sea ice concentration with a measurement uncertainty of 25%.
+2019_jpss_dps,The Sea Ice Concentration product shall provide sea ice concentration with a measurement accuracy of 10%.
+2019_jpss_dps,"The Sea Surface Temperature product shall provide sea surface temperature, globally day and night, for clear conditions, for ice-free ocean, excluding lakes and rivers, at the refresh rates of the instrument."
+2019_jpss_dps,"The Sea Surface Temperature BUFR product shall provide geolocated sea surface temperature, converted from the Sea Surface Temperature product, in BUFR format."
+2019_jpss_dps,The Sea Surface Temperature product shall provide sea surface temperatures with a measurement precision of 0.6 kelvin over the measurement range of the instrument.
+2019_jpss_dps,The Sea Surface Temperature product shall provide sea surface temperature products with a measurement accuracy of 0.2 kelvin over the measurement range of the instrument.
+2019_jpss_dps,"The Snow Cover product shall provide fractional snow cover and binary snow cover mask, globally, in daytime, under clear conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Snow Cover product shall provide fractional snow cover with a measurement uncertainty of 20%.
+2019_jpss_dps,The Snow Cover product shall provide the binary snow cover mask with a 90% probability of correct snow/no-snow classification.
+2019_jpss_dps,"The Surface Albedo product shall provide the broad-band earth surface albedo, from 0.4 to 4.0 microns, globally over land and ice, in daytime, in clear conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Surface Albedo product shall provide earth surface albedo with a measurement precision of 0.05.
+2019_jpss_dps,The Surface Albedo product shall provide earth surface albedo with a measurement accuracy of 0.08.
+2019_jpss_dps,"The Gridded Surface Albedo product shall provide the broad-band earth surface albedo from 0.4 to 4.0 microns, 1 km globally over land, ocean and ice, in daytime, in clear conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Gridded Surface Albedo product shall provide earth surface albedo with a measurement precision of 0.05.
+2019_jpss_dps,The Surface Albedo product shall provide earth surface albedo with a measurement accuracy of 0.08.
+2019_jpss_dps,The Gridded Surface Albedo product shall be generated within 3 hours of receiving all the required data.
+2019_jpss_dps,"The Surface Reflectance product shall provide the narrowband, bi-directional surface reflectance, globally, in clear conditions, in daytime, at the refresh rates of the instrument."
+2019_jpss_dps,The Surface Reflectance product shall provide surface reflectance with a measurement accuracy of 0.005 + (0.05 times the retrieved surface reflectance value).
+2019_jpss_dps,The Surface Reflectance product shall provide surface reflectance with a measurement precision of 0.005 + (0.05 times the retrieved surface reflectance value).
+2019_jpss_dps,"The Surface Type product shall provide the IGBP land cover classification, globally, at the refresh rates of the instrument."
+2019_jpss_dps,The Surface Type product shall provide the IGBP land cover classification with a probability of correct typing of 70%.
+2019_jpss_dps,"The Vegetation Health Index Suite shall provide vegetation condition index (VCI), temperature condition index (TCI), and vegetation health index (VHI); globally over land; geolocated; in daytime; in clear conditions."
+2019_jpss_dps,The Vegetation Health Index Suite shall provide vegetation indices with a horizontal cell size of 4 kilometers.
+2019_jpss_dps,The Vegetation Health Index Suite shall provide vegetation indices with a refresh every 7 days.
+2019_jpss_dps,The Vegetation Health Index Suite shall provide vegetation indices with a measurement precision of 4%.
+2019_jpss_dps,The Vegetation Health Index Suite product shall provide geolocation of horizontal cell centers with a 3-sigma mapping uncertainty of 4 kilometers.
+2019_jpss_dps,The Vegetation Health Index Suite shall provide vegetation indices with a measurement accuracy of 1%.
+2019_jpss_dps,"The Vegetation Indices shall provide top-of- atmosphere (TOA) normalized difference vegetation index (NDVI), top-of-canopy (TOC) enhanced vegetation index (EVI), and top-of-canopy normalized difference vegetation index; 4 km globally and 1 km regionally over land; in daytime; in clear conditions; at the daily refresh rate."
+2019_jpss_dps,The Vegetation Indices shall provide TOA NDVI with a measurement accuracy of 0.05.
+2019_jpss_dps,The Vegetation Indices shall provide TOA NDVI with a measurement precision of 0.04.
+2019_jpss_dps,The Vegetation Indices shall provide TOC EVI with a measurement accuracy of 0.05.
+2019_jpss_dps,The Vegetation Indices shall provide TOC EVI with a measurement precision of 0.04.
+2019_jpss_dps,The Vegetation Indices shall provide TOC NDVI with a measurement accuracy of 0.05.
+2019_jpss_dps,The Vegetation Indices shall provide TOC NDVI with a measurement precision of 0.04.
+2019_jpss_dps,"The Volcanic Ash Detection and Height product shall provide detection, concentration, and top height of volcanic ash, for the total column, globally, under cloud-free conditions, in daytime, for aerosol optical depth greater than 0.15, at the refresh rates of the instrument."
+2019_jpss_dps,The Volcanic Ash Detection and Height product shall provide volcanic ash concentration with a measurement accuracy of 2 tons per square kilometer.
+2019_jpss_dps,The Volcanic Ash Detection and Height product shall provide volcanic ash concentration with a measurement precision of 2.5 tons per square kilometer.
+2019_jpss_dps,The Volcanic Ash Detection and Height product shall provide volcanic ash top height with a measurement accuracy of 3 kilometers.
+2019_jpss_dps,"The Cloud Liquid Water product shall provide cloud liquid water, globally over ice-free ocean, day and night, for the total column, under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Cloud Liquid Water product shall provide cloud liquid water with a measurement range of 0.005 to 1.0 millimeter.
+2019_jpss_dps,The Cloud Liquid Water product shall provide cloud liquid water with a measurement uncertainty of 0.05 millimeter.
+2019_jpss_dps,The Cloud Liquid Water product shall provide cloud liquid water with a measurement accuracy of 0.01 millimeter.
+2019_jpss_dps,"The Cloud Liquid Water product shall provide cloud liquid water, globally over ice-free ocean, day and night, for the total column, under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Cloud Liquid Water product shall provide cloud liquid water with a measurement precision of 0.08 millimeter.
+2019_jpss_dps,The Cloud Liquid Water product shall provide cloud liquid water with a measurement accuracy of 0.03 millimeter.
+2019_jpss_dps,"The Land Surface Emissivity product shall provide microwave land surface emissivity, globally, in clear and cloudy conditions, at the refresh rate of the instrument."
+2019_jpss_dps,"The Land Surface Emissivity product shall provide land surface emissivity with a measurement precision of 3% at 23.8 GHz and 50.3 GHz, and 4% at 165.5 GHz."
+2019_jpss_dps,"The Land Surface Emissivity product shall provide land surface emissivity with a measurement accuracy of 2% at 23.8 GHz, and 1.5% at 50.3 GHz and 165.5 GHz."
+2019_jpss_dps,"The Land Surface Temperature product shall provide land surface temperatures, globally over land, day and night, under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Land Surface Temperature product shall provide land surface temperatures with a measurement precision of 7.0 kelvin.
+2019_jpss_dps,The Land Surface Temperature product shall provide land surface temperatures with a measurement accuracy of 4.0 kelvin.
+2019_jpss_dps,"The Moisture Profile product shall provide atmospheric moisture profiles, globally, day and night, under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Moisture Profile product shall provide atmospheric moisture profiles from the surface to 0.01 millibar.
+2019_jpss_dps,"The Moisture Profile product shall provide atmospheric moisture profiles with a measurement precision over ocean in clear conditions of: 60% at 400 millibars (mb), 60% at 500 mb, 50% at 700 mb, and 30% at 900 mb."
+2019_jpss_dps,"The Moisture Profile product shall provide atmospheric moisture profiles with a measurement precision over ocean in cloudy conditions of: 60% at 400 mb, 65% at 500 mb, 60% at 700 mb, and 30% at 900 mb."
+2019_jpss_dps,"The Moisture Profile product shall provide atmospheric moisture profiles with a measurement precision over land of: 60% at 400 mb, 60% at 500 mb, 50% at 700 mb, and 50% at 900 mb."
+2019_jpss_dps,"The Moisture Profile product shall provide atmospheric moisture profiles with a measurement accuracy over ocean in clear conditions of: 30% at 400 mb, 20% at 500 mb, 20% at 700 mb, and 20% at 900 mb."
+2019_jpss_dps,"The Moisture Profile product shall provide atmospheric moisture profiles with a measurement accuracy over ocean in cloudy conditions of: 30% at 400 mb, 20% at 500 mb, 10% at 700 mb, and 20% at 900 mb."
+2019_jpss_dps,"The Moisture Profile product shall provide atmospheric moisture profiles with a measurement accuracy over land of: 30% at 400 mb, 10% at 500 mb, 10% at 700 mb, and 20% at 900 mb."
+2019_jpss_dps,"The Precipitation Rate product shall provide the rate of stratiform or convective precipitation, globally, in all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Precipitation Rate product shall provide precipitation rate with a measurement precision of 0.05 millimeters per hour (mm/hr).
+2019_jpss_dps,The Precipitation Rate product shall provide precipitation rate with a measurement uncertainty of 2 mm/hr over ocean and 5 mm/hr over land.
+2019_jpss_dps,"The Rainfall Rate product shall provide rainfall rate, globally, in all weather conditions, at the refresh rate of the instrument."
+2019_jpss_dps,The Rainfall Rate product shall provide rainfall rate with a measurement precision of 1.0 millimeter per hour (mm/hr) over ocean and 1.5 mm/hr over land.
+2019_jpss_dps,The Rainfall Rate product shall provide rainfall rate with a measurement accuracy of 0.1 millimeter per hour (mm/hr) over ocean and 0.05 mm/hr over land.
+2019_jpss_dps,The Rainfall Rate product shall provide rainfall rate with a probability of rainfall detection of 50% over land and ocean.
+2019_jpss_dps,The Rainfall Rate product shall provide rainfall rate with a false alarm rate of 5% over ocean and 6% over land.
+2019_jpss_dps,The Rainfall Rate product shall provide rainfall rate with a Heidke Skill Score of 0.3 over land and ocean.
+2019_jpss_dps,"The Sea Ice Characterization product shall provide sea ice age class, globally over ocean, in daytime and night, under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,"The Sea Ice Characterization product shall provide sea ice age class as either ice-free, first-year, or multi-year."
+2019_jpss_dps,The Sea Ice Characterization product shall provide sea ice age class with a probability of correct typing of 70%.
+2019_jpss_dps,"The Sea Ice Characterization product shall provide sea ice concentration, globally over ocean, in daytime and night, under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Sea Ice Characterization product shall provide sea ice concentration with a measurement uncertainty of 10%.
+2019_jpss_dps,"The Sea Ice Concentration product shall provide sea ice concentration, globally over ocean, day and night, at the refresh rates of the instrument."
+2019_jpss_dps,The Sea Ice Concentration product shall provide sea ice concentration with a measurement precision of 25%.
+2019_jpss_dps,The Sea Ice Concentration product shall provide sea ice concentration with a measurement accuracy of 10%.
+2019_jpss_dps,"The Sea Surface Temperature product shall provide sea surface temperature globally, in all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,"The Sea Surface Temperature BUFR product shall provide geolocated sea surface temperature, converted from the Sea Surface Temperature product, in the BUFR format."
+2019_jpss_dps,The Sea Surface Temperature product shall provide sea surface temperatures with a measurement accuracy of 0.5 kelvin over the measurement range of the instrument.
+2019_jpss_dps,The Sea Surface Temperature product shall provide sea surface temperatures with a measurement uncertainty of 1.0 kelvin over the
+2019_jpss_dps,"The Sea Surface Wind Speed product shall provide sea surface wind speed globally over ice-free ocean, in daytime and night, under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Sea Surface Wind Speed product shall provide sea surface wind speed with a measurement range of 2 to 30 meters per second (m/s).
+2019_jpss_dps,The Sea Surface Wind Speed product shall provide sea surface wind speed with a measurement uncertainty of the greater of 2 m/s or 10%.
+2019_jpss_dps,The Sea Surface Wind Speed product shall provide sea surface wind speed with a measurement accuracy of 0.5 m/s.
+2019_jpss_dps,"The Snow Cover product shall provide snow cover globally, in daytime and night, under all weather"
+2019_jpss_dps,The Snow Cover product shall provide snow cover with a probability of detection of 0.80.
+2019_jpss_dps,The Snow Cover product shall provide snow cover with a false alarm ratio of 0.10.
+2019_jpss_dps,The Snow Cover product shall provide snow cover with a Heidke Skill Score of 0.55.
+2019_jpss_dps,"The Snow Cover/Depth product shall provide snow cover and snow depth, globally, in daytime and night, under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Snow Cover/Depth product shall provide snow cover with a probability of detection of 80%.
+2019_jpss_dps,The Snow Cover/Depth product shall provide snow depth with a measurement range from 5 to 60 cm.
+2019_jpss_dps,"The Snow Cover/Depth product shall provide snow depth in clear conditions with a measurement uncertainty of 30 centimeters (cm) if forest cover exceeds 30%, and 20 cm otherwise."
+2019_jpss_dps,The Snow Cover/Depth product shall provide snow depth in cloudy conditions with a measurement uncertainty of 20 cm.
+2019_jpss_dps,"The Snow Water- Equivalent product shall provide the snow water- equivalent depth, globally, in daytime and night, under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Snow Water- Equivalent product shall provide the snow water- equivalent depth over a measurement range of 10 to 200 millimeters (mm).
+2019_jpss_dps,"The Snow Water- Equivalent product shall provide the snow water- equivalent depth with a measurement uncertainty of the greater of 20 mm or 50%, for snow water equivalents less than 100 mm; and 70% for snow water-equivalents greater than 100 mm."
+2019_jpss_dps,"The Snow Water- Equivalent product shall provide snow water- equivalent depth, globally, in daytime and night, under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Snow Water- Equivalent product shall provide the snow water- equivalent depth with a measurement precision of 6 centimeters (cm).
+2019_jpss_dps,The Snow Water- Equivalent product shall provide the snow water- equivalent depth with a measurement accuracy of 3 cm.
+2019_jpss_dps,"The Soil Moisture product shall provide soil moisture in the skin layer, globally, in daytime and night, under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Soil Moisture product shall provide soil moisture with a measurement uncertainty of 6% volumetric root mean square error.
+2019_jpss_dps,"The Temperature Profile product shall provide atmospheric temperature profiles, globally, day and night, under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Temperature Profile product shall provide atmospheric temperature profiles from the surface to 0.01 millibar.
+2019_jpss_dps,"The Temperature Profile product shall provide atmospheric temperature profiles with a measurement precision over ocean in clear conditions of: 2.0 kelvin (K) at 100 millibar (mb), 2.0 K at 300 mb, 2.0 K at 500 mb, and 3.0 K at 900 mb."
+2019_jpss_dps,"The Temperature Profile product shall provide atmospheric temperature profiles with a measurement precision over ocean in cloudy conditions of: 2.0 K at 100 mb, 2.5 K at 300 mb, 2.0 K at 500 mb, and 3.0 K at 900 mb."
+2019_jpss_dps,"The Temperature Profile product shall provide atmospheric temperature profiles with a measurement precision over ocean in rainy conditions of: 2.5 K at 100 mb, 2.5 K at 300 mb, 2.5 K at 500 mb, and 3.5 K at 900 mb."
+2019_jpss_dps,"The Temperature Profile product shall provide atmospheric temperature profiles with a measurement precision over land in non-rainy conditions of: 2.0 K at 100 mb, 2.0 K at 300 mb, 2.5 K at 500 mb, and 5.5 K at 900 mb."
+2019_jpss_dps,"The Temperature Profile product shall provide atmospheric temperature profiles with a measurement precision over land in rainy conditions of: 2.5 K at 100 mb, 2.5 K at 300 mb, 3.0 K at 500 mb, and 5.5 K at 900 mb."
+2019_jpss_dps,"The Temperature Profile product shall provide atmospheric temperature profiles with a measurement accuracy over ocean in clear conditions of: 0.2 kelvin (K) at 100 millibar (mb), 0.5 K at 300 mb, 0.2 K at 500 mb, and 1.5 K at 900 mb."
+2019_jpss_dps,"The Temperature Profile product shall provide atmospheric temperature profiles with a measurement accuracy over ocean in cloudy conditions of: 0.8 K at 100 mb, 0.8 K at 300 mb, 0.6 K at 500 mb, and 2.0 K at 900 mb."
+2019_jpss_dps,"The Temperature Profile product shall provide atmospheric temperature profiles with a measurement accuracy over ocean in rainy conditions of: 1.0 K at 100 mb, 1.5 K at 300 mb, 2.0 K at 500 mb, and 2.0 K at 900 mb."
+2019_jpss_dps,"The Temperature Profile product shall provide atmospheric temperature profiles with a measurement accuracy over land in non-rainy conditions of: 0.5 K at 100 mb, 0.8 K at 300 mb, 0.2 K at 500 mb, and 2.5 K at 900 mb."
+2019_jpss_dps,"The Temperature Profile product shall provide atmospheric temperature profiles with a measurement accuracy over land in rainy conditions of: 1.5 K at 100 mb, 1.0 K at 300 mb, 0.5 K at 500 mb, and 2.5 K at 900 mb."
+2019_jpss_dps,"The Total Precipitable Water product shall provide total precipitable water, globally, over ice-free ocean, in daytime and night, under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Total Precipitable Water product shall provide ocean total precipitable water over a measurement range of 1 to 75 millimeters (mm).
+2019_jpss_dps,The Total Precipitable Water product shall provide ocean total precipitable water with a measurement uncertainty of the greater of 2 mm or 10%.
+2019_jpss_dps,The Total Precipitable Water product shall provide ocean total precipitable water with a measurement accuracy of 1 mm.
+2019_jpss_dps,"The Total Precipitable Water product shall provide total precipitable water, globally, in daytime and night, under all weather conditions, at the refresh rates of the instrument."
+2019_jpss_dps,The Total Precipitable Water product shall provide total precipitable water with a measurement precision of 2.5 millimeters (mm) over ocean; 2.0 mm over ocean ice; 5.5 mm over land; 2.0 mm over snow-covered land.
+2019_jpss_dps,The Total Precipitable Water product shall provide total precipitable water with a measurement accuracy of 1.5 mm over clear ocean; 0.5 mm over cloudy ocean; 2.0 mm over ocean ice; 2.5 mm over land; 0.5 mm over snow-covered land.
+2019_jpss_dps,The Total Precipitable Water product shall provide total precipitable water with a measurement uncertainty of 2.5 mm over ocean; 2.5 mm over ocean ice; 5.5 mm over land; 2.0 mm over snow-covered land.
+2019_jpss_dps,The Snowfall Rate (SFR) product shall provide water equivalent snowfall amount in unit time globally.
+2019_jpss_dps,The algorithm shall produce a SFR product that has a measurement precision of: 1.0 mm/hr.
+2019_jpss_dps,The algorithm shall produce a SFR product that has a measurement accuracy of: ±0.3 mm/hr.
+2019_jpss_dps,"The Ozone Nadir Profile product shall provide atmospheric vertical ozone profiles, in daytime, in clear conditions, at the refresh rates of the instrument."
+2019_jpss_dps,"The Ozone Nadir Profile BUFR product shall provide geolocated atmospheric vertical ozone profiles, converted from the Ozone Nadir Profile product, in BUFR format."
+2019_jpss_dps,The Ozone Nadir Profile product shall provide atmospheric vertical ozone profiles with a measurement range of 0.1 to 15 parts per million by volume (ppmv) for 0-60 km.
+2019_jpss_dps,The Ozone Nadir Profile product shall provide atmospheric vertical ozone profiles with a vertical cell size of 5 kilometers.
+2019_jpss_dps,The Ozone Nadir Profile product shall provide atmospheric vertical ozone profiles with a vertical retrieval resolution of 7-10 kilometer at altitudes between 30 and 1 millibar; and 10-20 km at altitudes below 30 mb and above 1 mb.
+2019_jpss_dps,The Ozone Nadir Profile product shall provide atmospheric vertical ozone profiles with a measurement precision of the greater of 20% or 0.1 ppmv at altitudes below 30 millibar (mb); 10% from 30 to 1 mb; and the greater of 10% or 0.1 ppmv at altitudes above 1 mb.
+2019_jpss_dps,The Ozone Nadir Profile product shall provide atmospheric vertical ozone profiles with a measurement accuracy of the greater of 10% or 0.1 ppmv below 30 mb and above 1 mb; and 10% from 30 to 1 mb.
+2019_jpss_dps,"The Ozone Total Column product shall provide the total column of atmospheric ozone, in daytime, for all scenes, at the refresh rates of the instrument."
+2019_jpss_dps,"The Ozone Total Column BUFR product shall provide the geolocated total column of atmospheric ozone, converted from the Ozone Total Column product, in BUFR format."
+2019_jpss_dps,The Ozone Total Column product shall provide the total column of atmospheric ozone with a measurement range of 50 to 650 Dobson units.
+2019_jpss_dps,The Ozone Total Column product shall provide the total column of atmospheric ozone with a measurement precision of 6.0 Dobson units for columns below 250 Dobson units; 7.7 Dobson units for columns between 250 and 450 Dobson units; and 2.83 Dobson units for columns above 450 Dobson units.
+2019_jpss_dps,The Ozone Total Column product shall provide the total column of atmospheric ozone with a measurement accuracy of 9.5 Dobson units for columns below 250 Dobson units; 13 Dobson units for columns between 250 and 450 Dobson units; and 16 Dobson units for columns above 450 Dobson units.
+2019_jpss_dps,"The Atmospheric Vertical Moisture Profile product shall provide atmospheric vertical moisture profiles, globally day and night, for all scenes, for each field of regard (FOR) comprised by multiple fields of view (FOVs), at the refresh rates of the instrument."
+2019_jpss_dps,The Atmospheric Vertical Moisture Profile product shall provide atmospheric vertical moisture profiles with a horizontal cell size of 50 kilometers at nadir.
+2019_jpss_dps,The Atmospheric Vertical Moisture Profile product shall provide atmospheric vertical moisture profiles with vertical reporting intervals of 20 millibar (mb) from the surface to 850 mb; 50 mb from 850 to 100 mb.
+2019_jpss_dps,The Atmospheric Vertical Moisture Profile product shall provide atmospheric vertical moisture profiles with a cloud-free and partly-cloudy measurement uncertainty of the greater of 20% or 0.2 gram per kilogram (g/kg) from the surface to 600 mb; greater of 35% or 0.1 g/kg from 600 mb to 100 mb.
+2019_jpss_dps,The Atmospheric Vertical Moisture Profile product shall provide atmospheric vertical moisture profiles with a cloudy-condition measurement uncertainty of the greater of 20% or 0.2 g/kg from the surface to 600 mb; greater of 40% or 0.1 g/kg from 600 mb to 100 mb.
+2019_jpss_dps,"The Atmospheric Vertical Temperature Profile product shall provide atmospheric vertical temperature profiles, globally day and night, for all scenes, for each field of regard (FOR) comprised by multiple fields of view (FOVs), at the refresh rates of the instrument."
+2019_jpss_dps,The Atmospheric Vertical Temperature Profile product shall provide atmospheric vertical temperature profiles with a horizontal cell size of 50 kilometers at nadir.
+2019_jpss_dps,The Atmospheric Vertical Temperature Profile product shall provide atmospheric vertical temperature profiles with vertical reporting intervals of 20 millibar (mb) from the surface to 850 mb; 50 mb from 850 to 300 mb; 25 mb from 300 to 100 mb; 20 mb from 100 mb to 10 mb; 2 mb from 10 mb to 1.0 mb; 0.2 mb from 1.0 mb to 0.5 mb.
+2019_jpss_dps,The Atmospheric Vertical Temperature Profile product shall provide atmospheric vertical temperature profiles with a cloud-free or partly cloudy measurement uncertainty of 1.6 kelvin (K) per layer from the surface to 300 mb; 1.5 K per layer from 300 mb to 1 mb; 3.5 K per layer from 1 mb to 0.5 mb.
+2019_jpss_dps,The Atmospheric Vertical Temperature Profile product shall provide atmospheric vertical temperature profiles with a cloudy-condition measurement uncertainty of 2.5 kelvin (K) per layer from the surface to 700 mb; 1.5 K per layer from 700 mb to 1 mb; 3.5 K per layer from 1 mb to 0.5 mb.
+2019_jpss_dps,"The Carbon Dioxide product shall provide carbon dioxide volume density, geolocated, globally, for the total vertical column, in all weather conditions, day and night, at the refresh rates of the instrument."
+2019_jpss_dps,The Carbon Dioxide product shall provide carbon dioxide volume density with a measurement range of 300 to 500 parts per million by volume (ppmv).
+2019_jpss_dps,The Carbon Dioxide product shall provide carbon dioxide volume density with a horizontal resolution of 100 km.
+2019_jpss_dps,The Carbon Dioxide product shall provide carbon dioxide volume density with a measurement precision of 0.5% or 2 ppmv.
+2019_jpss_dps,The Carbon Dioxide product shall provide carbon dioxide volume density with a measurement accuracy of 1% or 4 ppmv.
+2019_jpss_dps,"The Carbon Monoxide product shall provide carbon Monoxide volume density, geolocated, globally, for the total vertical column, in all weather conditions, day and night, at the refresh rates of the instrument."
+2019_jpss_dps,The Carbon Monoxide product shall provide carbon Monoxide volume density with a measurement range of 0 to 200 parts per billion by volume (ppbv).
+2019_jpss_dps,The Carbon Monoxide product shall provide carbon Monoxide volume density with a horizontal resolution of 100 km.
+2019_jpss_dps,The Carbon Monoxide product shall provide carbon monoxide column value with a measurement precision of 15%.
+2019_jpss_dps,The Carbon Monoxide product shall provide carbon Monoxide column value with a measurement accuracy of 5%.
+2019_jpss_dps,"The Methane product shall provide methane volume density, geolocated, globally, for the total vertical column, in all weather conditions, day and night, at the refresh rates of the instrument."
+2019_jpss_dps,The Methane product shall provide methane volume density with a measurement range of 1100 to 2250 parts per billion by volume (ppbv).
+2019_jpss_dps,The Methane product shall provide methane volume density with a horizontal resolution of 100 km.
+2019_jpss_dps,The Methane product shall provide methane volume density with a measurement precision of 1% or 20 ppbv.
+2019_jpss_dps,The Methane product shall provide methane volume density with a measurement accuracy of 4% or 80 ppbv.

@@ -1,0 +1,49 @@
+source,reqs
+2015_skal0_WEB,SKA1-LOW shall provide an effective noise level within all final data products that is degraded by no more than 10% from the thermal noise associated with the net integration time over at least 95% of the effective data volume when not limited by image source confusion. All applications using SKA1-LOW (e.g. HPSO 1 – 5) are otherwise negatively impacted.
+2015_skal0_WEB,SKA1-MID shall provide an effective noise level within all final data products that is degraded by no more than 10% from the thermal noise associated with the net integration time over at least 95% of the effective data volume when not limited by image source confusion. All applications using SKA1-MID (e.g. HPSO 4 – 38) are otherwise negatively impacted.
+2015_skal0_WEB,"SKA1-LOW shall provide image fidelity of at least 10%. All applications using SKA1- LOW (e.g. HPSO 1 – 5) are otherwise negatively impacted, but particularly the foreground subtraction required for the EoR applications (HPSO 1 and 2)."
+2015_skal0_WEB,"SKA1-MID shall provide image fidelity of at least 10%. All applications using SKA1-MID (e.g. HPSO 4 – 38) are otherwise negatively impacted, but particularly the deep continuum imaging (HPSO 37+38)."
+2015_skal0_WEB,"SKA1-LOW shall provide photometric accuracy of at least 2%. All applications using SKA1-LOW (e.g. HPSO 1 – 5) are otherwise negatively impacted, but particularly the EoR imaging and power spectra applications (HPSO 1 and 2)."
+2015_skal0_WEB,"SKA1-MID shall provide photometric accuracy of at least 1%. All applications using SKA1-MID (e.g. HPSO 4 – 38) are otherwise negatively impacted, but particularly deep continuum imaging (HPSO 37+38)."
+2015_skal0_WEB,"SKA1-LOW shall provide astrometric accuracy of at least 1%. All applications using SKA1-LOW (e.g. HPSO 1 – 5) are otherwise negatively impacted, but particularly the EoR imaging (HPSO 1)."
+2015_skal0_WEB,"SKA1-MID shall provide astrometric accuracy of at least 1%. All applications using SKA1-MID (e.g. HPSO 4 – 38) are otherwise negatively impacted, but particularly deep continuum imaging (HPSO 37+38)."
+2015_skal0_WEB,"SKA1-LOW shall provide frequency accuracy of at least 10-11 over a 10 year interval. All applications using SKA1-LOW (e.g. HPSO 1 – 5) are otherwise negatively impacted, but particularly a measurement of the time evolution of cosmological red-shifts (RD1)."
+2015_skal0_WEB,"SKA1-MID shall provide frequency accuracy of at least 10-11 over a 10 year interval. All applications using SKA1-MID (e.g. HPSO 4 – 38) are otherwise negatively impacted, but particularly a measurement of the time evolution of cosmological red-shifts (RD1)."
+2015_skal0_WEB,SKA1-LOW shall provide timing accuracy of at least 10 nsec over a 10 year time year interval to enable precision pulsar timing at 150 – 350 MHz (HPSO 5).
+2015_skal0_WEB,SKA1-MID shall provide timing accuracy of at least 10 nsec over a 10 year time year interval to enable precision pulsar timing at 950 – 1760 MHz (HPSO 5).
+2015_skal0_WEB,SKA1-LOW shall provide 50 dB brightness dynamic range at 300 arcsec spatial and 1 MHz spectral resolution to enable EoR imaging and power spectra generation at 50 – 200 MHz (HPSO 1 and 2).
+2015_skal0_WEB,SKA1-MID shall provide 60 dB brightness dynamic range at 0.5 arcsec spatial and 1 MHz spectral resolution to enable deep continuum imaging at GHz frequencies at 1000 – 1700 MHz (HPSO 37+38).
+2015_skal0_WEB,SKA1-LOW shall provide 45 dB polarisation dynamic range at 300 arcsec spatial and 1 MHz spectral resolution to enable EoR imaging at 50 – 200 MHz (HPSO 1).
+2015_skal0_WEB,SKA1-MID shall provide 40 dB polarisation dynamic range at 7 arcsec spatial and 75 kHz spectral resolution to enable precision pulsar timing at 950 – 1760 MHz (HPSO 5) and sensitive intensity mapping at 350 – 1050 MHz (HPSO 32).
+2015_skal0_WEB,SKA1-LOW shall provide 50 dB spectral dynamic range at 300 arcsec spatial and 1 MHz spectral resolution to enable EoR imaging at 50 – 200 MHz (HPSO 1).
+2015_skal0_WEB,SKA1-MID shall provide 45 dB spectral dynamic range at auto-correlation spatial and 300 kHz spectral resolution to enable sensitive intensity mapping at 350 – 1050 MHz (HPSO 32).
+2015_skal0_WEB,"SKA1-LOW shall provide frequency coverage of both perpendicular polarisation states at 50 – 350 MHz to enable EoR imaging and power spectra generation (HPSO 1 and 2), as well as pulsar searching and timing (HPSO 4 and 5)."
+2015_skal0_WEB,"SKA1-MID shall provide frequency coverage of both perpendicular polarisation states at 0.35 – 1.76 GHz and 4.6 – 13.8 GHz to enable the highest priority mid-frequency science objectives to be realised (HPSOs 4 to 38). As a goal, frequency coverage of both perpendicular polarisation states will be continuous from 0.35 GHz to 24 GHz."
+2015_skal0_WEB,"SKA1-LOW shall provide a maximum instantaneous bandwidth for each of four polarisation products of 300 MHz in the 50 – 350 MHz range, sampled by a maximum number of spectral channels within output data products of 65,536."
+2015_skal0_WEB,"SKA1-LOW shall provide the capability for up to 8 simultaneous station beams, NBm, each of four polarisation products of 300/NBm MHz maximum bandwidth and a number of spectral channels per station beam within output data products of 65,536/NBm."
+2015_skal0_WEB,"SKA1-MID shall provide a maximum instantaneous bandwidth for each of four polarisation products of 1 GHz in the 0.35 – 1.76 GHz range and 2x2.5 GHz in the 4.6– 13.8 (or 24) GHz range, sampled by a maximum number of spectral channels within output data products of 65,536."
+2015_skal0_WEB,"SKA1-LOW shall provide the capability to distribute the maximum number of available spectral channels, NMax, over up to 4 spectral windows, each with up to NMax/4 spectral channels. The minimum spectral window width shall be 4 MHz and the maximum spectral window width shall be the total bandwidth divided by the spectral window number."
+2015_skal0_WEB,"SKA1-MID shall provide the capability to distribute the maximum number of available spectral channels, NMax, over up to 4 spectral windows, each with up to NMax/4 spectral channels. The minimum spectral window width shall be 4 MHz and the maximum spectral window width shall be the total bandwidth divided by the spectral window number."
+2015_skal0_WEB,"SKA1-LOW shall provide access to all local azimuthal angles, 0 – 360 deg and all local elevation angles, -5 – +90 deg."
+2015_skal0_WEB,"SKA1-MID shall provide access to all local azimuthal angles, -270 – +270 deg (relative to North = 0 deg) and local elevation angles, +15 – +95 deg."
+2015_skal0_WEB,"SKA1-LOW shall provide nominal noise performance at all local azimuthal angles, 0 – 360 deg and a degradation of peak performance of less than 30% at local elevation angle of 60 deg and less than 50% degradation at local elevation angle of 45 deg."
+2015_skal0_WEB,"SKA1-MID shall provide nominal noise performance at all local azimuthal angles, -270– +270 deg (relative to North = 0 deg) and a degradation of peak performance of less than 5% at local elevation angle of 55 deg and less than 15% degradation at local elevation angle of 20 deg."
+2015_skal0_WEB,SKA1-LOW shall provide a total array sensitivity as function of frequency at least as high as shown in Figure 2.
+2015_skal0_WEB,SKA1-MID shall provide a dish sensitivity as function of frequency at least as high as shown in Figure 2.
+2015_skal0_WEB,SKA1-LOW shall provide a relative collecting area as function of radius as shown in Figure 5.
+2015_skal0_WEB,SKA1-MID shall provide a relative collecting area as function of radius as shown in Figure 5.
+2015_skal0_WEB,SKA1-LOW shall provide a PSF quality for zenith snapshot observations at least as good as shown in Figures 3 and 4.
+2015_skal0_WEB,SKA1-MID shall provide a PSF quality for zenith snapshot observations at least as good as shown in Figures 3 and 4.
+2015_skal0_WEB,SKA1-LOW shall provide a PSF quality for a 4-hour tracking observation at nominal declination at least as good as shown in Figures 3 and 4.
+2015_skal0_WEB,SKA1-MID shall provide a PSF quality for an 8-hour tracking observation at nominal declination at least as good as shown in Figures 3 and 4.
+2015_skal0_WEB,SKA1-LOW shall provide a survey speed as function of frequency and beam-size at least as good as shown in Figure 6.
+2015_skal0_WEB,SKA1-MID shall provide a survey speed as function of frequency and beam-size at least as good as shown in Figure 7.
+2015_skal0_WEB,SKA1-LOW shall provide a survey depth in integrations of 1000 hour duration as function of frequency and beam-size at least as good as shown in Figure 6.
+2015_skal0_WEB,SKA1-MID shall provide a survey depth in integrations of 1000 hour duration as function of frequency and beam-size at least as good as shown in Figure 7.
+2015_skal0_WEB,SKA1-LOW shall provide single pointing and multi-pointing local imaging modes. SCI_REQ-48 SKA1-MID shall provide single pointing and multi-pointing local imaging modes.
+2015_skal0_WEB,"SKA1-LOW shall provide (search, timing, archive and VLBI) non-imaging observation modes."
+2015_skal0_WEB,"SKA1-MID shall provide (search, timing, archive and VLBI) non-imaging observation modes."
+2015_skal0_WEB,"SKA1-LOW shall provide (multi-pipeline, multi-sub-array, image/non-image and coordinated) commensal mode observations."
+2015_skal0_WEB,"SKA1-MID shall provide (multi-pipeline, multi-sub-array, image/non-image and coordinated) commensal mode observations."
+2015_skal0_WEB,SKA1-LOW shall provide the capability to change observing modes within less than 5 seconds.
+2015_skal0_WEB,SKA1-MID shall provide the capability to change observing modes and/or bands within less than 5 seconds.

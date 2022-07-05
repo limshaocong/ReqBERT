@@ -1,0 +1,150 @@
+source,reqs
+2000_nasax38_PURE,"Whenever a power-on reset occurs, System Initialization shall [SRS194] perform the following functions."
+2000_nasax38_PURE,"As part of System Initialization , the Boot ROM shall [SRS234] be configured to, after completing IBIT, call the manufacturer-supplied VxWorks Board Support Package (BSP) initialization software followed by a call to the FTSS System Initialization software."
+2000_nasax38_PURE,System Initialization shall [SRS014] initiate the watchdog timer.
+2000_nasax38_PURE,"System Initialization shall [SRS292] enable and reset the processor’s watchdog timer such that, in the absence of a fault, the watchdog timer does not expire and reset the processor.."
+2000_nasax38_PURE,System Initialization shall [SRS008] synchronize the FCP virtual group in the presence of a power on skew of 2.5 seconds.
+2000_nasax38_PURE,"System Initialization shall [SRS010] configure the FCP virtual group to use all available synchronized processors, if at least 3 of the 5 FCRs are active."
+2000_nasax38_PURE,The scheduler shall [SRS017] provide an API call to install a task into a rate group. The API call is invoked during system initialization.
+2000_nasax38_PURE,The scheduler shall [SRS196] support up to 20 tasks per rate group.
+2000_nasax38_PURE,The scheduler shall [SRS018] provide an API call to install a rate group into a vehicle mode at system initialization.
+2000_nasax38_PURE,The scheduler shall [SRS197] support up to 3 rate groups per vehicle mode.
+2000_nasax38_PURE,The scheduler shall [SRS195] support up to 5 vehicle modes.
+2000_nasax38_PURE,The FTSS software shall [SRS002] provide the identical services in all vehicle modes.
+2000_nasax38_PURE,The scheduler shall [SRS019] provide an API call for an FCP application task to alert the scheduler of a vehicle mode change.
+2000_nasax38_PURE,The scheduler shall [SRS020] complete the change from one vehicle mode to the next within 1.02 seconds. There is up to a full major frame from notification of an impending mode change to acting on it in minor frame 0 of the next major frame plus the time it takes during the next minor frame 0 to switch tasking.
+2000_nasax38_PURE,The scheduler shall [SRS021] process vehicle mode changes during minor frame 49.
+2000_nasax38_PURE,"The scheduler shall [SRS022] execute cyclic tasks, providing an API call to allow the application to block until its next iteration."
+2000_nasax38_PURE,The scheduler shall [SRS024] execute as the highest priority FTSS or application task in the system.
+2000_nasax38_PURE,The scheduler shall [SRS025] keep a minor frame count from 0 to 49.
+2000_nasax38_PURE,"The scheduler shall [SRS027] give tasks priority values according to their rate - the higher the rate, the higher the priority."
+2000_nasax38_PURE,"The scheduler shall [SRS028] detect 50 Hz, 10 Hz and 1 Hz rate group over-runs."
+2000_nasax38_PURE,The scheduler shall [SRS029] report rate group over-runs to the application via an API service for incorporation in the telemetry data stream.
+2000_nasax38_PURE,The scheduler shall [SRS216] provide an API call to specify which task was running within the rate group which over-ran.
+2000_nasax38_PURE,The scheduler shall [SRS030] provide a mechanism to inform a task when it did not complete during the previous frame and restart it at the beginning of the task.
+2000_nasax38_PURE,The scheduler shall [SRS181] set the 50 Hz interval timer to a count down value so as to cause the next minor frame interrupt at 20 msec from the previous interrupt congruently in all operational FCPs.
+2000_nasax38_PURE,The scheduler shall [SRS032] issue a 50 Hz interrupt to the ICPs by means of a VMEbus IRQ5 interrupt.
+2000_nasax38_PURE,The scheduler shall [SRS191] issue the 50 Hz interrupt to all the ICPs with a skew no greater than 330 microseconds.
+2000_nasax38_PURE,"The scheduler shall [SRS033] send the minor frame number, vehicle mode, mission elapsed time (MET), and separation elapsed time (SEP) to the ICP prior to the 50 Hz interrupt. Note: The NE unique identifier (NE ID) is available to the ICPs via the ftss_my_icp() API call."
+2000_nasax38_PURE,"The scheduler shall [SRS034] take no longer than 1 millisecond to execute scheduler and Time Services FTSS overhead tasks in each rate group. This means that the time from the 50 Hz timer interrupt to the start of the first task in the 50 Hz rate group will be less than or equal to 1 millisecond, assuming 27 packets of data need to be delivered."
+2000_nasax38_PURE,The FTSS software shall [SRS278] provide an API call that provides the application program the minor frame number.
+2000_nasax38_PURE,"Upon the occurrence of an exception of either kind (hardware or software), the FCP shall [SRS172] make the error type available to the application, via an API service, for incorporation in the telemetry stream and include all context data relevant to the exception, namely the contents of the Machine State Register (MSR), and the machine status Save/Restore Registers (SRR0 & SRR1)."
+2000_nasax38_PURE,The scheduler shall [SRS031] provide a mechanism for a task optionally to define a user written software-exception-handling routine that runs in the context of the task.
+2000_nasax38_PURE,"For hardware exceptions and reserved exceptions, the FTSS shall [SRS276] make the error type and its context data available to the application, then return from the exception handler to the task that was running when the exception occurred."
+2000_nasax38_PURE,"For software exceptions occurring within the FTSS, the FTSS shall [SRS277] make the error type and its context data available to the application, then restart the offending task at its beginning."
+2000_nasax38_PURE,"For other software exceptions, regardless of whether or not a user written exception handling routine is invoked, if an exception occurs, the scheduler shall [SRS173], after making available the error type and context data to the application, resume processing (after the exception-handling routine runs, if provided) at the initialization point of the offending task."
+2000_nasax38_PURE,"For software exceptions occurring during Startup, FTSS shall [SRS301] issue a VME reset to the FCR in which the exception occurred."
+2000_nasax38_PURE,"Communication services shall [SRS047] provide ""synchronous"" message passing services in the form of ""message queues""."
+2000_nasax38_PURE,"Communication services shall [SRS048] provide ""immediate"" message passing services in the form of ""pipes"". ""Pipes"" provide fast data throughput between virtual groups or within a virtual group when minimal data latency is necessary."
+2000_nasax38_PURE,"Communication services shall [SRS049] provide the capability to ""broadcast"" messages to all virtual groups."
+2000_nasax38_PURE,"Communication services shall [SRS050] restrict the use of ""immediate"" message passing services between virtual groups (from FCP to ICP) to tasks running in the highest rate group on the FCP. This restriction does NOT apply to the ICPs since they are running as simplex VGs."
+2000_nasax38_PURE,Communication services shall [SRS051] detect message passing between application tasks living on the same virtual group and bypass the usage of the network element.
+2000_nasax38_PURE,Communication services shall [SRS052] route messages to the proper virtual group(s) and socket.
+2000_nasax38_PURE,Communication services shall [SRS053] deliver messages in the same order at each member of a virtual group.
+2000_nasax38_PURE,Communication services shall [SRS054] perform synchronous message passing at rate group frame boundaries. This ensures that all redundant instantiations of a given rate group task have consistent messages throughout the rate group frame.
+2000_nasax38_PURE,Communication services shall [SRS235] detect a babbling NE or ICP within 20 milliseconds of the receipt of the first erroneous packet.
+2000_nasax38_PURE,FTSS shall [SRS255] mask out a babbling NE or ICP within 40 milliseconds after it is detected.
+2000_nasax38_PURE,"Synchronous message passing sockets shall [SRS055] queue outgoing messages until they are transmitted at frame boundaries. The ""create"" and ""open"" API calls for synchronous sockets allow the application to specify the maximum message size and how many incoming messages the socket may buffer."
+2000_nasax38_PURE,"If there is insufficient space to enqueue a message for transmission, Communication services shall [SRS059] return an error to the corresponding task. Sockets are non- blocking and place the burden of polling on the application task."
+2000_nasax38_PURE,Communication services shall [SRS062] provide a message queue communication mechanism that guarantees message delivery between a sending and receiving task.
+2000_nasax38_PURE,"Communication services shall [SRS063] provide an API for ""message queue"" communication."
+2000_nasax38_PURE,"The message queue ""create"" API requires the application to specify the sending and receiving virtual group identifiers. Communication services shall [SRS066] only allow a single task living on each specified virtual group to ""open"" the respective end of the queue."
+2000_nasax38_PURE,"The FTSS software shall [SRS237] configure the FCP to act as the Radstone IBIT master, with the exception that the ICP on the NEFU is the master."
+2000_nasax38_PURE,"The FTSS shall [SRS260] configure each FCP to perform IBIT Minimum Processing Environment (MPE) Tests, Power-up Tests, and Initial BIT on each FCP, as shown in Table 3.2-2."
+2000_nasax38_PURE,The FTSS shall [SRS261] configure each FCP to halt processing if any of the MPE tests fail.
+2000_nasax38_PURE,The FTSS shall [SRS262] configure each FCP to continue processing if any of the Power-up or Initial BIT tests fail.
+2000_nasax38_PURE,"The FTSS shall [SRS287] configure each ICP to perform IBIT Minimum Processing Environment (MPE) Tests, Power-up Tests, and Initial BIT on each ICP, as shown inTable 3.2-3."
+2000_nasax38_PURE,The FTSS shall [SRS288] configure each ICP to halt processing if any of the MPE tests fail.
+2000_nasax38_PURE,The FTSS shall [SRS289] configure each ICP to continue processing if any of the Power- up or Initial BIT tests fail.
+2000_nasax38_PURE,The FTSS shall [SRS264] configure each ICP/PMC1553 to perform IBIT MPE Tests and Initial BIT as shown in Table 3.2-4.
+2000_nasax38_PURE,The FTSS shall [SRS265] configure each ICP/PMC1553 to halt processing if any of the MPE tests fail.
+2000_nasax38_PURE,The FTSS shall [SRS266] configure each ICP/PMC1553 to continue processing if any of the Initial BIT tests fail.
+2000_nasax38_PURE,The FTSS shall [SRS267] configure each MPCC to perform MPE Tests as shown in Table 3.2-5.
+2000_nasax38_PURE,"Each MPCC is configured to halt processing if any of the MPE tests, listed in Table 3.2- 5, fails."
+2000_nasax38_PURE,"When the IBIT is complete, the FTSS in the channels that are part of the fault masking group shall [SRS239] report the results of IBIT for all Radstone boards to the application software for telemetry."
+2000_nasax38_PURE,"In IBIT failure cases that cause processing to halt, the failure shall [SRS269] be handled as described in Section 3.2.6.2, Recovery."
+2000_nasax38_PURE,"FTSS shall [SRS290], in ICP and FCP IBIT failure cases that allow processing to continue, after saving the results of IBIT for reporting to the application, in the first minor frame after Startup or recovery, consider the FCR to be failed, and start performing recovery actions for the FCR."
+2000_nasax38_PURE,"Continuous BIT, in conjunction with Redundancy Management and Scheduler operations running in the 50 Hz rategroup after the application tasks, shall [SRS091] take less than 2 milliseconds under nominal no-fault conditions."
+2000_nasax38_PURE,"Continuous BIT, in conjunction with Redundancy Management and Scheduler operations running in the 50 Hz rategroup after the application tasks, shall [SRS183] take less than 3 milliseconds while processing faults."
+2000_nasax38_PURE,Continuous BIT shall [SRS093] execute on the FCP virtual group.
+2000_nasax38_PURE,Continuous BIT shall [SRS094] reset the processor’s built-in watchdog timer at 50 Hz. A failure to reset the watchdog timer within the allotted time (nominally 1.6 seconds) will generate a processor reset.
+2000_nasax38_PURE,Continuous BIT shall [SRS095] exercise the presence test at 50 Hz to ensure that all processors in the FCP virtual group are synchronized.
+2000_nasax38_PURE,"The presence test shall [SRS184] also ascertain that all processors are executing the same 50 Hz, 10 Hz and 1 Hz frames."
+2000_nasax38_PURE,Continuous BIT shall [SRS096] diagnose the faulty FCR within 1 second after detecting a failure.
+2000_nasax38_PURE,Continuous BIT shall [SRS097] detect a failed ICP processor by detecting the absence of a periodic message for 2 consecutive minor cycles.
+2000_nasax38_PURE,Continuous BIT shall [SRS098] report all diagnosed failures and recovery actions to the application for incorporation in the telemetry stream.
+2000_nasax38_PURE,RAM scrub shall [SRS043] actively trigger the EDAC function by cyclically reading (and writing back if an error is found) all used RAM.
+2000_nasax38_PURE,"RAM scrub shall [SRS044] report detected errors to the application, congruently on all channels, via an API service for inclusion in the telemetry stream."
+2000_nasax38_PURE,"RAM scrub shall [SRS187] be capable of scrubbing at least 10 megabytes every 8 minutes, given at least 1% of the CPU is available for this processing."
+2000_nasax38_PURE,RAM scrub shall [SRS275] not scrub the area used for telemetry data.
+2000_nasax38_PURE,"Redundancy Management shall [SRS099] provide an API call to enable the application to retrieve the health status of the processors, network elements, network element links, MPCCs, and ICP controlled interfaces."
+2000_nasax38_PURE,Redundancy Management shall [SRS100] provide an API call to enable the application to request that the FTSS RM software initiate a voted reset of a channel.
+2000_nasax38_PURE,"Redundancy Management shall [SRS201] be able to accommodate power up of all 5 channels and maintain all 5 NEs active, assuming no failures."
+2000_nasax38_PURE,"When the FCP virtual group is configured as a quadruplex and a failed FCR other than the NEFU has been diagnosed, Redundancy Management shall [SRS106] degrade the FCP virtual group to triplex, removing the FCR. The NE and the processors on the failed FCR will be removed from the NEs’ Configuration Table (CT) and recovery of that channel will then take place, if alignment is permitted. Note that a failed FCR could be diagnosed using any method, including (but not limited to) Continuous BIT, ICP presence test, or NE syndrome analysis."
+2000_nasax38_PURE,"When the FCP virtual group is configured as a triplex, and if the NEFU is still active (4 NEs active total), and a failed FCR other than the NEFU has been diagnosed, Redundancy Management shall [SRS282] degrade the FCP virtual group to degraded triplex, removing the FCR. The NE and the processors on the failed FCR will be removed from the NEs’ Configuration Table (CT) and recovery of that channel will then take place, if alignment is permitted. Note that a failed FCR could be diagnosed using any method, including (but not limited to) Continuous BIT, ICP presence test, or NE syndrome analysis."
+2000_nasax38_PURE,"If the FCP is configured as a triplex, and if the NEFU is not still active (3 NEs active total), and another failure in the FCP FCR is diagnosed, Redundancy Management shall [SRS284] mask out the processors on the failed FCR. The NE will remain in the CT and no recovery will take place. Note that a failed FCR could be diagnosed using any method, including (but not limited to) Continuous BIT, ICP presence test, or NE syndrome analysis."
+2000_nasax38_PURE,"If a failure in an FCR other than the NEFU is diagnosed when the FCP is configured as a degraded triplex, no action shall [SRS254] be taken. Note that a failed FCR could be diagnosed using any method, including (but not limited to) Continuous BIT, ICP presence test, or NE syndrome analysis."
+2000_nasax38_PURE,"For the NEFU, if the first failure is diagnosed, Redundancy Management shall [SRS245] issue a configuration update to mask out the failed processor. Note that the NE is allowed to remain in the configuration and no recovery will take place. Note also that the failed NEFU could be diagnosed using any method, including (but not limited to) ICP presence test, or NE syndrome analysis."
+2000_nasax38_PURE,"For the NEFU, if errors are identified after the processor has been masked out, and if at least 4 NEs are still active, the NE shall [SRS283] be removed from the configuration and recovery will be attempted. Note that the NEFU recovery does not depend on whether alignment is permitted."
+2000_nasax38_PURE,"If the configuration needs to be changed due to a fault, as specified above, Redundancy Management shall [SRS128] issue a configuration update to mask out the failed network element."
+2000_nasax38_PURE,Redundancy Management shall [SRS109] degrade the FCP virtual group within 3 minor frames of fault detection and isolation.
+2000_nasax38_PURE,"Redundancy Management shall [SRS204] issue a voted reset to the failed channel, if alignment is permitted. (Note that NEFU recovery does not depend on whether alignment is permitted.)"
+2000_nasax38_PURE,"Redundancy Management shall [SRS129] initiate transient NE recovery to restore Byzantine-resilient communications, if alignment is permitted. (Note that NEFU recovery does not depend on whether alignment is permitted.)"
+2000_nasax38_PURE,Redundancy Management shall [SRS110] reintegrate a failed FCP processor with the FCP virtual group when alignment is permitted and when the processor failure is not permanent.
+2000_nasax38_PURE,"From the time that the FCR failure has been identified, if the components of the FCR are recoverable and alignment is permitted, to the time the FCR is recovered, shall [SRS205] be no more than 1.5 minutes."
+2000_nasax38_PURE,"Redundancy Management shall [SRS208], within 60 milliseconds after 1.5 minutes has elapsed since the voted reset was sent to the failed channel, if the voted reset fails to recover the failed channel and alignment is still allowed, request from the application a power cycle of the channel. (Note that NEFU recovery does not depend on whether alignment is permitted.)"
+2000_nasax38_PURE,"Redundancy Management shall [SRS209], within 60 milliseconds after 1.5 minutes has elapsed since the first power cycle request, if the FCR has not been recovered and alignment is still allowed, issue another request to the application for a power cycle of the channel. (Note that NEFU recovery does not depend on whether alignment is permitted.)"
+2000_nasax38_PURE,"Redundancy Management shall [SRS211], if power cycle requests fail to result in a recovered channel, request the application to power down the channel and declare the channel to be permanently failed. Note that the same result will occur if the application software ignores or fails to respond to power cycle requests."
+2000_nasax38_PURE,The application software shall [SRS285] have the capability to reset a permanently failed channel to its initial recovery state.
+2000_nasax38_PURE,"Redundancy Management shall [SRS117] reintegrate a processor that is temporarily disabled during a time when alignment was not permitted, when alignment is subsequently permitted. Redundancy Management picks up where it left off in these attempts. For example, if Redundancy Management is at 1 minute in its 1.5 minute wait for a channel after the first power cycle request, and alignment is not allowed, when alignment is subsequently allowed Redundancy Management will wait another half minute and then try the next power cycle request."
+2000_nasax38_PURE,An API call shall [SRS274] be provided that allows the application to notify FTSS that an FCR is intentionally being powered down.
+2000_nasax38_PURE,Redundancy Management shall [SRS302] provide an API call to allow the application to specify whether recovery and alignment of failed FCRs is permitted. Note that recovery of the NEFU is always considered to be permitted.
+2000_nasax38_PURE,"While synchronization is being attempted, the FCP virtual group shall [SRS123] maintain synchronous operations."
+2000_nasax38_PURE,"Only when memory alignment is permitted, Redundancy Management shall [SRS124] initiate periodic re-synchronization attempts on the FCP virtual group at a 1 second rate."
+2000_nasax38_PURE,Redundancy Management shall [SRS125] perform memory alignment on a major frame boundary upon successful synchronization of all members of the FCP virtual group.
+2000_nasax38_PURE,"Redundancy Management shall [SRS281], during memory alignment, configure the NE to mask out the processor being re-synchronized."
+2000_nasax38_PURE,Redundancy Management shall [SRS271] notify the application that alignment and reintegration of a processor will take place in 1 second.
+2000_nasax38_PURE,Redundancy Management shall [SRS272] wait for the ICP to signal that it has completed initialization before suspending the application for memory re-alignment.
+2000_nasax38_PURE,"During alignment, Redundancy Management shall [SRS126] update MET (and, by extension, SEP)."
+2000_nasax38_PURE,"Redundancy Management shall [SRS214], if alignment is permitted, incorporate a new channel within 1.5 minutes after power is applied to the channel."
+2000_nasax38_PURE,"Redundancy Management shall [SRS236], if alignment is permitted, serially incorporate two new channels if they are powered on simultaneously."
+2000_nasax38_PURE,"The FTSS API shall [SRS046] define a methodology for segregating and managing congruent aligned, congruent initialized, and non-congruent memory such that congruent aligned memory is aligned and congruent initialized memory is initialized during channel recovery. Non-congruent memory is not modified during realignment."
+2000_nasax38_PURE,"The FTSS API shall [SRS217] specify a memory map that provides the boundaries for congruent aligned memory, congruent initialized memory, and non-congruent memory."
+2000_nasax38_PURE,Memory alignment shall [SRS045] align processor state and congruent aligned memory locations. Processor state includes all registers. It also includes those timers used by FTSS.
+2000_nasax38_PURE,The re-align function shall [SRS186] write the voted value from the currently synchronized channels into the target channel.
+2000_nasax38_PURE,FTSS shall [SRS200] initialize congruent initialized memory locations from non-volatile memory.
+2000_nasax38_PURE,Memory alignment shall [SRS203] take no more than 1 second per Megabyte of data to be realigned.
+2000_nasax38_PURE,The FCP watchdog timer shall [SRS293] remain active during memory re-alignment.
+2000_nasax38_PURE,"Memory alignment shall [SRS294] reset the watchdog timer such that, in the absence of a fault, the timer never expires and resets the processor."
+2000_nasax38_PURE,The utility timer shall [SRS248] shall be set to zero prior to the first application task running in the first minor frame of each major frame.
+2000_nasax38_PURE,Support Services shall [SRS299] switch to the redundant MPCC device to continue telemetry and/or remote commanding operations. Note that there are only two CTCs. CTC1 is connected to FCC1 and FCC3. CTC2 is connected to FCC2 and FCC4.
+2000_nasax38_PURE,Support Services shall [SRS242] continue to close and reopen a faulty MPCC device until status shows that the device has recovered.
+2000_nasax38_PURE,"In all error cases, Support Services shall [SRS222] attempt to choose an error-free FCC-MPCC path, switching back and forth between channels if necessary."
+2000_nasax38_PURE,Support Services shall [SRS286] provide an API call which allows the application to specify which MPCC channels in a C&T FCR should be used for telemetry and/or command reception.
+2000_nasax38_PURE,"The telemetry capability shall [SRS148] be capable of transferring 12,800 bytes within the 10 Hz frame from the FCP."
+2000_nasax38_PURE,The telemetry capability shall [SRS149] transfer the telemetry block from the FCP to the FCC-MPCC connected to the CTC.
+2000_nasax38_PURE,The telemetry capability shall [SRS150] signal the FCC-MPCC to transfer the telemetry block to the CTC.
+2000_nasax38_PURE,The telemetry capability shall [SRS300] provide status data to FTSS FDI about each FCC-MPCC RS-422 link to the CTC.
+2000_nasax38_PURE,Support Services shall [SRS151] provide an API call to specify the address and length of a telemetry buffer.
+2000_nasax38_PURE,Support Services shall [SRS257] use no more than 5.2 milliseconds of FCP processing time to move the telemetry data to the FCC-MPCC board and complete communication and error handling for the FCC-MPCC board.
+2000_nasax38_PURE,The Command Read capability shall [SRS152] check for the presence of a command and status message from each CTC on each FCC-MPCC at 10hz.
+2000_nasax38_PURE,The Command Read capability on each FCP shall [SRS153] read the command data received from each CTC via the FCC-MPCC.
+2000_nasax38_PURE,FTSS shall [SRS304] provide status data to the application about each FCC-MPCC RS- 422 link to the CTC used for command data.
+2000_nasax38_PURE,Support Services shall [SRS156] provide an API call to provide the current command data.
+2000_nasax38_PURE,"FTSS shall [SRS249] provide an API call which closes and deletes all rate groups, deletes all communication mechanisms (including any internal to FTSS), and then deletes all tasks."
+2000_nasax38_PURE,The FTSS software shall [SRS159] be written in the C programming language. FTSS shall [SRS160] use the VxWorks Operating System version 5.4.
+2000_nasax38_PURE,The FTSS software and the VxWorks operating system shall [SRS258] utilize no more than 9 Megabytes of DRAM code and data space.
+2000_nasax38_PURE,"Of the 9 Megabytes of DRAM allocation, only 4 Megabytes of FTSS/VxWork’s DRAM shall [SRS259] be re-aligned during any re-alignment attempts."
+2000_nasax38_PURE,"FTSS shall [SRS253] be compiled, linked and downloaded using Tornado 2 for the NT environment prior to delivery, for all engineering and formal releases."
+2000_nasax38_PURE,FTSS object modules linked to the application on the four FCPs shall [SRS166] be identical.
+2000_nasax38_PURE,"After initial synchronization, the FCPs shall [SRS168] remain synchronized until a hardware fault occurs. For example, asymmetric I/O calls will not be allowed to induce a large enough skew to force the FCPs to desynchronize."
+2000_nasax38_PURE,FTSS shall [SRS303] provide an API call to allow the ICP application to determine on which channel it resides.
+2000_nasax38_PURE,FTSS shall [SRS225] provide an API call to allow applications to send a status message to FDIR running on the FCP.
+2000_nasax38_PURE,"FTSS shall [SRS226] provide ""immediate"" message passing services in the form of ""pipes"". ""Pipes"" provide fast data throughput between virtual groups or within a virtual group when minimal data latency is necessary."
+2000_nasax38_PURE,FTSS shall [SRS227] route messages to the proper virtual group(s) and socket.
+2000_nasax38_PURE,"If there is insufficient space to enqueue a message for transmission, FTSS shall [SRS228] return an error to the corresponding task. Sockets are non-blocking and place the burden of polling on the application task."
+2000_nasax38_PURE,"FTSS shall [SRS230] only allow a single task residing on each specified virtual group to ""open"" the respective end of the pipe."
+2000_nasax38_PURE,The presence or absence of an NEFU ICP shall [SRS220] not impact the FTSS software (i.e. the FTSS ICP load will not be different).
+2000_nasax38_PURE,The FTSS shall [SRS231] provide an API call to retrieve the current minor frame number sent from the FCP over the VME interface. Note that the NEFU ICP will not have this information since it does not have an FCP processor.
+2000_nasax38_PURE,The FTSS shall [SRS232] provide an API call to retrieve the current MET value sent from
+2000_nasax38_PURE,the FCP over the VME interface. Note that the NEFU ICP will not have this information since it does not have an FCP processor.

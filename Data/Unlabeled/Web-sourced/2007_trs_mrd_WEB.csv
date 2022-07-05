@@ -1,0 +1,177 @@
+source,reqs
+2007_trs_mrd_web,The objective of the system design study is to establish a feasible cost-efficient mission concept
+2007_trs_mrd_web,The mission concept shall have an optimized science return within the cost constraint
+2007_trs_mrd_web,"The study shall identify enabling technologies as well as innovative technologies and methods that have the potential for reducing resources (mass, power, volume) as well as cost"
+2007_trs_mrd_web,"All documentation shall use the SI International System of Units, as specified in ECSS E-30 Part 1A, sections E-2 to E-6 [AD6]."
+2007_trs_mrd_web,The output of the system design and mathematical models shall be compatible with the specifications provided in [AD5]
+2007_trs_mrd_web,"The SCI-A standard margin philosophy shall be applied [AD4], with the following provisions:"
+2007_trs_mrd_web,The nominal operational lifetime in the operational orbit shall be 3 years (more than two years for science acquisition and less than one year for commissioning and calibration)
+2007_trs_mrd_web,The extended operational lifetime of the science acquisition phase shall be an additional 2 years
+2007_trs_mrd_web,Any S/C (or transfer vehicle) shall not enter the “LEO protected zone” and the “GEO protected zone” after mission completion. The LEO and GEO protection regions are defined in section 5.2.2 of [AD10]. The GEO protection region is limited in latitude (+/-15 degrees). SD-OP-03 of [AD10] provides guidelines on possible end-of-life measures:
+2007_trs_mrd_web,The overall mission cost to ESA shall be less than 250 M€ (TBC)
+2007_trs_mrd_web,The S/C shall be passivated at the end of its lifetime (SD-DE-08 of [AD10])
+2007_trs_mrd_web,The overall mission cost to ESA shall be less than 350 M€ (TBC)
+2007_trs_mrd_web,"Mission cost to ESA includes S/C, GSE, AIV, launch, ESA internal costs, mission and science operations through all phases with the exclusion of the extended operational lifetime"
+2007_trs_mrd_web,The technology development and demonstration horizon shall be less than 5 years (up to 2011) (TBC)
+2007_trs_mrd_web,European equipment shall be baselined as far as practicable
+2007_trs_mrd_web,The science requirements up to and including level 5 (i.e. only level 5) shall be fulfilled (TBC for other issues)
+2007_trs_mrd_web,Lower level science requirements shall be fulfilled (TBC)
+2007_trs_mrd_web,All spacecraft shall be designed and sized from launch until the end of the extended operational lifetime (e.g. radiation tolerance and consumables)
+2007_trs_mrd_web,The distance between the centres of the small and medium scale tetrahedrons shall be less than 25% of the actual medium scale distance
+2007_trs_mrd_web,The distance between the centres of the large and medium scale tetrahedrons shall be less than 25% of actual large scale distance
+2007_trs_mrd_web,The small and medium scale spacecraft shall be in two nested tetrahedrons surrounded by three S/C on a large scale (one in every direction in GSE coordinates)
+2007_trs_mrd_web,The distance between any S/C on the large scale and the centre of medium scale tetrahedron shall be equal to the large scale distance (with an accuracy of 25% of the actual large scale distance)
+2007_trs_mrd_web,The spacecraft shall be in two nested tetrahedrons (large and medium scale) with in the centre a mother-daughter system on a small scale
+2007_trs_mrd_web,The distance between the centres of the medium scale tetrahedron and the mother-daughter system shall be less than 25% of the actual medium scale distance
+2007_trs_mrd_web,The distance between the centres of the large and medium scale tetrahedrons shall be less than 25% of the actual large scale distance
+2007_trs_mrd_web,The spacecraft shall be in two nested tetrahedrons (large and medium scale) with a single small scale spacecraft close by a medium scale spacecraft
+2007_trs_mrd_web,The distance between the centres of the large and medium scale tetrahedrons shall be less than 25% of the large scale distance
+2007_trs_mrd_web,The medium scale spacecraft shall be in a tetrahedron with a single small scale spacecraft close to one medium scale spacecraft. Three large scale spacecraft surround the medium scale tetrahedron (one in every direction in GSE coordinates)
+2007_trs_mrd_web,The distance between any spacecraft S/C on the large scale and the centre of the medium scale tetrahedron shall be equal to the large scale distance (with an accuracy of 25% of the actual average large scale distance)
+2007_trs_mrd_web,The constellation shall be in an optimized configuration around apogee (optimization at true anomaly of 160° and 200°)
+2007_trs_mrd_web,The distance between any two S/C at the small scale shall not differ by more than 10% from the actual average3 small scale distance (not applicable for 1 or 2 S/C on small scale)
+2007_trs_mrd_web,The distance between any two S/C at the medium scale shall not differ by more than 10% from the actual average (medium scale) spacecraft distance
+2007_trs_mrd_web,The distance between any two S/C at the large scale shall not differ by more than 25% from the actual average large scale S/C separation (for large scale constellation with 4 S/C)
+2007_trs_mrd_web,The mission shall allow for at least 5-20 (TBC) changes in the small scale distances (from 2-10 km to 100 km)
+2007_trs_mrd_web,"The mission shall allow for at least 3-5 (TBC) changes in the medium scale distance between 50 km and 2,000 km"
+2007_trs_mrd_web,"The large scale separation shall start with a baseline separation of 6,000 km. During the science acquisition phase, one scan shall be performed from 6,000 km (0.5y + commissioning time) to 3,000 km (0.5y) to 15,000 km (1y) to 6,000 km (till end of mission). Note: The tentative durations are specified to allow calculation of the constellation maintenance propellant budget"
+2007_trs_mrd_web,"At any time during the science acquisition phase, the actual average large scale distance shall not be smaller than the actual average medium scale distance, and the actual average medium scale distance shall not be smaller than the actual average small scale distance (at the optimization points)"
+2007_trs_mrd_web,"At any time during the science acquisition phase, the actual average scale distances at the optimization points shall not exceed the following range limits:"
+2007_trs_mrd_web,"At any time during the science acquisition phase, the actual average scale distances at the optimization points shall not exceed 1.5 – 125 km (for the actual average small scale distance)"
+2007_trs_mrd_web,"At any time during the science acquisition phase, the actual average scale distances at the optimization points shall not exceed 35 km – 2500 km (for the actual average medium scale distance)"
+2007_trs_mrd_web,"At any time during the science acquisition phase, the actual average scale distances at the optimization points shall not exceed 2700 km – 16500 km (for the actual average large scale distance)."
+2007_trs_mrd_web,The orbit shall be such that the apogee is in the ‘tailbox’ at least once a year during the mission lifetime
+2007_trs_mrd_web,"The initial orbital parameters shall be selected both for maximization of the total time spent in the ‘tailbox’ during the nominal and extended mission lifetime (see R-2.1.4-1 and R-2.1.4-2) as well as for uniformly sampling the complete ‘tailbox’ length (parallel to the ecliptic plane, see D-2.3.3-3)"
+2007_trs_mrd_web,It is foreseen that spacecraft engineering trades and mission analysis optimization (eclipse times and/or orbital evolution) determine the optimum season to visit the ‘tailbox’
+2007_trs_mrd_web,"The pericentre shall be between 6,878 km (500 km altitude above the Earth’s surface) and 10 Re."
+2007_trs_mrd_web,"The apogee shall be between 25-50 Re, baseline is 25 Re."
+2007_trs_mrd_web,No apse control to keep the line of apses along the Sun-Earth line is foreseen. It is important though that the orbit apogee does visit the tailbox with a frequency of about a year (see R-2.3.3-4)
+2007_trs_mrd_web,"The mission profile shall ensure that the spacecraft are deployed in the operational orbit and in the correct position of the constellation. If applicable, any spacecraft separation mechanisms shall be included"
+2007_trs_mrd_web,"The propulsion modules (on all spacecraft, only mother spacecraft or on dedicated transfer modules) shall be able to transfer all spacecraft into their operational orbits"
+2007_trs_mrd_web,"When required for compliance with R-2.1.5-1, the propulsion modules on all spacecraft shall, in addition, be able to de-orbit or transfer all spacecraft into a parking orbit at the end of the spacecraft operational lifetime"
+2007_trs_mrd_web,All spacecraft shall be able to perform orbit and attitude control manoeuvres during the specified nominal and extended lifetime necessary for Navigation
+2007_trs_mrd_web,All spacecraft shall be able to perform orbit and attitude control manoeuvres during the specified nominal and extended lifetime necessary for Orbit and constellation configuration maintenance
+2007_trs_mrd_web,All spacecraft shall be able to perform orbit and attitude control manoeuvres during the specified nominal and extended lifetime necessary for Science operations
+2007_trs_mrd_web,All spacecraft shall be able to perform orbit and attitude control manoeuvres during the specified nominal and extended lifetime necessary for Communication
+2007_trs_mrd_web,All spacecraft shall be able to perform orbit and attitude control manoeuvres during the specified nominal and extended lifetime necessary for Spin maintenance
+2007_trs_mrd_web,"In particular, the spacecraft shall accommodate sufficient propellant to correct for differential drift due to disturbing forces that impacts the constellation configuration"
+2007_trs_mrd_web,"During science acquisition phase, all spacecraft with science payload shall spin with 30- 60 rpm"
+2007_trs_mrd_web,The constellation configuration shall be updated only when:
+2007_trs_mrd_web,The constellation configuration shall be updated only when the scale distances and/or the centres of the three constellations are outside the scale ranges specified in section 2.3.2
+2007_trs_mrd_web,The constellation configuration shall be updated only if there is a risk of collision
+2007_trs_mrd_web,The constellation configuration shall be updated only when in order to fulfil R-2.3.2-7
+2007_trs_mrd_web,The constellation configuration shall be updated only when in order to fulfil R-2.3.3-4
+2007_trs_mrd_web,"If necessary, the AOCS system shall autonomously prevent spacecraft collision (TBC)"
+2007_trs_mrd_web,It is not required to continuously update the constellation. It is expected that a constellation configuration update only occurs at intervals of a few months (TBC)
+2007_trs_mrd_web,All primary scientific objectives shall be addressed by using a set of model payload instruments (see also [AD3])
+2007_trs_mrd_web,The payload commissioning and calibration procedure shall be completed in 6 months (see also R-2.1.4-1)
+2007_trs_mrd_web,Under nominal satellite operations all instruments shall be continuously in operation
+2007_trs_mrd_web,"The instruments shall be operated autonomously, also during eclipses and radiation belt crossings. If instruments need to be switched off, both switch-off and switch-on shall be autonomous and scheduled in advance"
+2007_trs_mrd_web,The science payload complement shall autonomously respond to damaging environmental conditions such as solar flare events (e.g. by switching off sensitive instruments)
+2007_trs_mrd_web,The instrument operational modes shall be limited as far as practicable
+2007_trs_mrd_web,R-2.3.6-7: The instrument operational modes shall be scheduled in advance
+2007_trs_mrd_web,The instruments and instrument operational procedures shall be designed to allow recovery from anomalies by the flight control team within one day (see also R-2.5.0-4)
+2007_trs_mrd_web,All spacecraft shall be capable of accommodating the payload complement that is allocated to it in order to fulfil the science requirements (section 2.2)
+2007_trs_mrd_web,"Each spacecraft shall provide the necessary resources (power, data handling, thermal control) to its payload complement"
+2007_trs_mrd_web,"Each spacecraft shall provide the necessary accommodation and interfaces (e.g. FOV, alignment) to its payload complement"
+2007_trs_mrd_web,The spacecraft shall be compatible with the following electric magnetic cleanliness limits (TBC):
+2007_trs_mrd_web,The spacecraft shall be compatible with Magnetostatic cleanliness of 5 nT and 0.1 nT/100 seconds at DC magnetometer location
+2007_trs_mrd_web,The spacecraft shall be compatible with AC magnetic field below 14 dBpT at 1 Hz down to -46 dBpT at 1 kHz (-27 dBpT at 10 kHz) at AC magnetometer location
+2007_trs_mrd_web,The spacecraft shall be compatible with Electrostatic cleanliness of < 1 Volt between any two points of the S/C external surface
+2007_trs_mrd_web,The spacecraft shall be compatible with Electric field at 1 m distance of above 1 kHz below 50 dB?V/MHz
+2007_trs_mrd_web,"The payload shall not be contaminated from particulate, organic or inorganic elements (during all mission phases starting from AIV) and shall be compatible with the limits specified in TBD"
+2007_trs_mrd_web,Spacecraft charging shall not exceed the values specified in TBD
+2007_trs_mrd_web,"All spacecraft shall allow its payload complement to be operated in a high data rate mode, whereby all instruments are operated simultaneously and acquire data at their maximum data rate. The total generated average compressed scientific burst data rate for all S/C is 2.5 Mbps (TBC)"
+2007_trs_mrd_web,"All spacecraft shall allow the payload to be operated in a nominal data rate mode, whereby all instruments are operated simultaneously and acquire data at their nominal data rate. The total generated average compressed nominal scientific data rate for all S/C is 400 kbps (TBC)"
+2007_trs_mrd_web,"All spacecraft shall allow the payload to be operated in a nominal data rate mode, whereby all instruments are operated simultaneously and acquire data at their nominal data rate. The total generated average compressed nominal scientific data rate for all S/C is 600 kbps (TBC)"
+2007_trs_mrd_web,For the distribution of data-rate production over the individual S/C it is suggested to use the relative number of payload instruments as a rough criterion for the distribution of data-rate generation among the individual S/C (TBC)
+2007_trs_mrd_web,The relative timing of science data between any two S/C on a small scale shall be retrievable with accuracy of at least 0.25 ms
+2007_trs_mrd_web,The relative timing of science data between any two S/C on a small scale shall be retrievable with accuracy of 10-100 ?s
+2007_trs_mrd_web,"The relative timing of science data between a medium scale S/C and any medium or small scale S/C shall be retrievable with accuracy of L/500,000 [km/(km/s)], with L the distance between the two spacecraft in [km]. The timing accuracy does not need to be better than 0.25 ms. The timing accuracy shall always be better than 2 ms (see also R- 2.3.8-4) (TBC)"
+2007_trs_mrd_web,The relative timing of science data between a large scale S/C and any other S/C shall be retrievable with accuracy of 2 ms
+2007_trs_mrd_web,The drift in relative timing of science data between any S/C shall be less than 50 ?s over a single orbit (TBC)
+2007_trs_mrd_web,The relative distance between any two S/C on a small scale shall be retrievable with accuracy of 125 m (TBC)
+2007_trs_mrd_web,"The relative distance between any S/C, regardless of scale, shall be retrievable with accuracy better than 1%"
+2007_trs_mrd_web,Above requirements are complementary; the most stringent mandatory requirement should be fulfilled at any time
+2007_trs_mrd_web,"If R-2.3.8-4 and/or R-2.3.8-7 are mission drivers (cost, mass etc.), they can possibly be relaxed"
+2007_trs_mrd_web,"All satellite data, both uplink and downlink, shall be acquired, processed, coded and transmitted to ground using the ESA standards and shall be compliant with the ESA Package Utilization Standard (PUS)"
+2007_trs_mrd_web,Each S/C shall have a communication link for the transmission to ground of science and housekeeping data as well as for the reception of ground commands. Ranging and range rate transmissions shall be supported
+2007_trs_mrd_web,"All S/C shall be capable to receive and acknowledge commands from the ground at all times when communication links can be established. This shall not depend on specific satellite operation modes, attitude or location on the orbit with the exception of a small sun-S/C angle"
+2007_trs_mrd_web,Monitoring shall be provided for each satellite such that its status can be assessed on ground at all times when communications can be established. This monitoring shall be automatic and autonomous and shall not be dependent on specific operation modes
+2007_trs_mrd_web,It shall be possible to handle telecommands in parallel with telemetry transmissions
+2007_trs_mrd_web,Mode changes by telecommand shall be possible including the definition of new modes.
+2007_trs_mrd_web,"The down-link of recorded science data, housekeeping, and localization/synchronization data shall be started upon ground segment command only (TBC)"
+2007_trs_mrd_web,"The total link budget of all spacecraft shall allow to downlink an on-orbit average continuously compressed science data rate equal to 200% of the nominal science data- rate in addition to housekeeping, localization and synchronization data"
+2007_trs_mrd_web,"The total link budget of all spacecraft shall allow to downlink an on-orbit average continuously compressed science data rate equal to 300% of the nominal science data- rate in addition to housekeeping, localization and synchronization data"
+2007_trs_mrd_web,Nominal average compressed science data rate is defined in R-2.3.7-9/G-2.3.7-10
+2007_trs_mrd_web,100-200% is allocated for down linking burst mode science data (see also R-2.3.7-8)
+2007_trs_mrd_web,The link budgets of the spacecraft to ground shall be calculated for a weather availability of 95%
+2007_trs_mrd_web,The communication subsystem shall be free from single point failure modes
+2007_trs_mrd_web,"The receive function of the communication subsystem shall be hot redundant, the transmission function shall be cold redundant"
+2007_trs_mrd_web,All spacecraft shall comply with the ESA Telecommunications Standards
+2007_trs_mrd_web,"The spacecraft on-board-data-handling system shall perform all commanding functions of the satellite in a centralised manner. Telecommands generated by the ground segment shall be validated and transferred to the relevant users; time and event triggering shall be provided. Timelines, consisting of several commands shall be handled according to the specified conditions; handling of nested timelines shall be possible"
+2007_trs_mrd_web,"Provisions shall be made for the acquisition, processing, storage and transmission to ground of all data generated by the payload and the platform. This shall include ancillary data necessary for instrument and other sensor calibration, operation and monitoring as well as the supporting timing, orbit and attitude data"
+2007_trs_mrd_web,"All satellite data, i.e. science, ancillary and housekeeping data shall be formatted into one data stream, referred to as the global data stream, for onboard storage, processing where applicable, and transmission to ground"
+2007_trs_mrd_web,Onboard data handling and storage shall be reconfigurable by ground command. It shall be possible to acquire process and transmit to ground only selected sets of onboard data. This shall include over- and under-sampling of data channels from one or more instruments and the platform subsystems
+2007_trs_mrd_web,"Acquisition of housekeeping data shall be performed for all instruments and the platform subsystems, such that their state of health can be assessed at all times. Housekeeping data shall be unambiguous; their update frequency shall be compatible with the characteristics of the signal sources"
+2007_trs_mrd_web,"Housekeeping data for spacecraft monitoring shall be acquired, processed, and transmitted to ground independently (see also R-2.3.9-4)"
+2007_trs_mrd_web,"The spacecraft constellation shall have an onboard data storage capability, to store house-keeping and scientific down-link data (global data stream) when sufficient communications with ground is not possible to continuously downlink the average compressed downlink data defined in R-2.3.9-8/G-2.3.9-9"
+2007_trs_mrd_web,"In addition to R-2.3.10-7, the spacecraft constellation shall have an onboard data storage capability, to store all science data produced during two orbital periods for 50% of the time in burst mode (as defined in R-2.3.7-8)"
+2007_trs_mrd_web,"In addition to R-2.3.10-7, the spacecraft constellation shall have an onboard data storage capability, to store all science data produced during two orbital periods for 100% of the time with a high-data rate (as defined in R-2.3.7-8)"
+2007_trs_mrd_web,Only a selection of the burst-mode science data will be down-linked to Earth. This selection is made after preliminary analysis of the nominal science data (see also R- 2.5.3-1)
+2007_trs_mrd_web,The onboard data storage system shall allow simultaneous recording and replay of data
+2007_trs_mrd_web,The onboard data storage system shall have sufficient reliability to allow compliance with R-2.7.2-1
+2007_trs_mrd_web,The onboard data storage system shall have sufficient reliability to allow compliance with G-2.7.2-2
+2007_trs_mrd_web,"The on-board date storage system (memory and controller) should be designed to be robust against Single Event Effects (e.g. on-board error detection correction S/W, highly reliable memory controller)"
+2007_trs_mrd_web,The on-board date storage system (memory and controller) should be designed to be robust against S/C safe mode (no loss of previously recorded data)
+2007_trs_mrd_web,The on-board date storage system (memory and controller) should be designed to be robust against S/C reboot (no loss of previously recorded data) (TBC)
+2007_trs_mrd_web,Pointing errors shall be as defined in ESA-NRC-502 [AD7]
+2007_trs_mrd_web,The absolute pointing error (APE) of the spacecraft spin axis shall be less than 1 degree (2 sigma confidence level)
+2007_trs_mrd_web,The reconstructed absolute measurement error (AME) for Spin axis shall be 0.5 degree (2 sigma confidence level)
+2007_trs_mrd_web,The reconstructed absolute measurement error (AME) for Spin phase shall be 0.1 degree (2 sigma confidence level)
+2007_trs_mrd_web,The spin-axis shall be maintained 4 +/- 1 degree towards the ecliptic north pole D-2.3.11-5: The spin-axis is pointing slightly off-normal to the ecliptic to ensure similar environmental conditions for the wire double probe antenna (see [AD3])
+2007_trs_mrd_web,"As a baseline, the space segment shall be designed to be launched by a Soyuz-Fregat 2- 1B from CSG"
+2007_trs_mrd_web,"The space segment, consisting of all S/C in a stacked configuration, shall comply with the launcher interface specifications (for SF 2-1b, see [AD8])"
+2007_trs_mrd_web,The mission concept shall allow a launch date between 2015 – 2025
+2007_trs_mrd_web,"If the system requirements (e.g. delta-V or eclipse times) are different for different launch dates, the most stringent requirements shall be used"
+2007_trs_mrd_web,The space segment shall be designed and sized such that there is at least one opportunity to launch the space segment in every four months for the time-frame specified in R- 2.4.0-5
+2007_trs_mrd_web,The space segment shall be designed and sized such that there is every day an opportunity to launch the space segment during the time-frame specified in R-2.4.0-5
+2007_trs_mrd_web,The opportunity to launch the space segment shall comprise a daily launch window for at least 20 consecutive days
+2007_trs_mrd_web,The opportunity to launch the space segment shall comprise a daily launch window for at least 90 consecutive days
+2007_trs_mrd_web,The launch window shall be compliant with the Soyuz-Fregat 2-1b launch requirements (see [AD8])
+2007_trs_mrd_web,"The ground segment shall acquire the data transmitted by the space segment, perform data processing, archiving and dissemination as well as control of the mission as a whole"
+2007_trs_mrd_web,The delivery within the established timeline constraints of the data acquired by the ground station shall be guaranteed with 95% reliability (TBC)
+2007_trs_mrd_web,Recovery from platform and/or payload anomalies shall not interfere with the operation and data down-link of the spacecraft that are functioning nominally (TBC)
+2007_trs_mrd_web,The ground segment shall be sized to allow recovery from platform and/or payload anomalies within 2 days (per spacecraft) after acquisition of signal (TBC)
+2007_trs_mrd_web,"The baselined routine ground station(s) shall be capable of acquiring the satellite science data, housekeeping, as well as localization and synchronization data"
+2007_trs_mrd_web,The routine ground station(s) shall be capable of commanding and controlling the spacecraft
+2007_trs_mrd_web,The data down-link shall be supported via X-band with a maximum data rate of 6.4 Mbps
+2007_trs_mrd_web,The routine ground station nominal data down-link operations shall be operated and managed automatically
+2007_trs_mrd_web,The time between commanding the G/S to acquire S/C signal and start of S/C signal acquisition shall be less than 5 minutes
+2007_trs_mrd_web,"The routine ground station(s) shall provide relative and absolute orbital position and velocities of the spacecraft by X-band ranging, in order to comply with:"
+2007_trs_mrd_web,"The routine ground station(s) shall provide relative and absolute orbital position and velocities of the spacecraft by X-band ranging, in order to comply with science requirements on spacecraft localization (R-2.3.8-7)"
+2007_trs_mrd_web,The routine ground station(s) shall support the reconstructed relative timing knowledge between the spacecraft by time correlation with an accuracy better than 50 ?s (see also R-2.3.8-4/G-2.3.8-5)(TBC)
+2007_trs_mrd_web,The routine ground station(s) shall support the reconstructed relative timing knowledge between the spacecraft by time correlation with an accuracy better than 10 ?s (see also R-2.3.8-4/G-2.3.8-5)(TBC)
+2007_trs_mrd_web,"One or more very small dedicated or on-call ground stations for S/C and P/L anomaly recovery shall be considered as a baseline to ensure compliance with R-2.5.0-2, R- 2.5.0-3, and R-2.5.0-4"
+2007_trs_mrd_web,The ground segment shall be capable of planning and controlling the mission and operating the satellites under all expected conditions
+2007_trs_mrd_web,The ground segment shall be capable of processing the satellite data for its own purposes and for delivery to the users
+2007_trs_mrd_web,The ground segment shall be able to archive the science and housekeeping data and the commanding history. The ground segment shall provide the functionality such that the health status of the spacecraft can be fully investigated on ground
+2007_trs_mrd_web,The ground segment shall be able to perform all activities necessary for the attitude and orbit maintenance of the spacecraft
+2007_trs_mrd_web,"The ground segment shall ensure that the spacecraft orbits do not intersect within 30 days, taking into account proper safety margins"
+2007_trs_mrd_web,The ground segment shall be able to simulate the behaviour of the satellites such that ground segment and operations training and validation activities can be carried out
+2007_trs_mrd_web,(Part) of the nominal science data shall be available to the Science Operations Centre or science community to enable the selection of 1 – 4 time slots for which the burst mode science data is to be down-linked within a time equal to one orbital period
+2007_trs_mrd_web,"During the mission and up to ten years after launch, the ground segment shall be capable of providing the users with the archived data"
+2007_trs_mrd_web,"During the mission and for ten years after launch, the ground segment shall allow the users to acquire related space and ground data"
+2007_trs_mrd_web,The space segment shall be compatible with the predicted energetic particle radiation environment experienced during all mission phases
+2007_trs_mrd_web,The space segment shall be compatible with any other space environmental condition that is experienced during any mission phase
+2007_trs_mrd_web,"The environment assessments shall comply with the ECSS standards, procedures and guidelines detailed in [AD9]"
+2007_trs_mrd_web,The energetic particle radiation environment assessment shall in particular comply with the guidelines section 9.6 (p. 105) as well as the recommended probability confidence levels in table 31 (p. 97) of [AD9]
+2007_trs_mrd_web,"The operational procedures shall comply with [AD10], in particular SD-OP-01 and SD-OP-02"
+2007_trs_mrd_web,"The individual spacecraft shall be designed to have an average science data return probability of 98% over the mission lifetime, assuming spacecraft anomalies are resolved within 2 days after acquisition of signal (see also R-2.5.0-4)(TBC)"
+2007_trs_mrd_web,"The individual spacecraft shall be designed to have an average science data return probability of 99% over the mission lifetime, assuming spacecraft anomalies are resolved within 2 days after acquisition of signal (see also R-2.5.0-4)(TBC)"
+2007_trs_mrd_web,Operation of the space segment shall be possible during all mission phases using either direct communication with Ground or via on-board intelligence and on-board data storage followed by periodic data transfer to Ground. Parameters up-linked for time- tagged deferred execution on board shall be stable for at least 17 days
+2007_trs_mrd_web,"The space segment shall perform autonomously nominal operations when ground intervention is not possible. Each spacecraft shall be capable of continuing in nominal measurement mode, assuming no failure, for a period of at least 8 days"
+2007_trs_mrd_web,"All spacecraft shall respond to on-board failures by switching, independent from ground control, to a redundant functional path. Where this can be accomplished without risk to satellite safety such switching shall enable the continuity of the mission timeline and performance. In the event that alternative redundant paths do not exist or that the failure effect is too complex to allow autonomous recovery, the spacecraft shall enter Survival Mode."
+2007_trs_mrd_web,All spacecraft shall be able to survive in safe mode without ground intervention for a duration of at least 30 days
+2007_trs_mrd_web,Recovery of S/C and P/L anomalies shall interfere as little as possible with nominal S/C operations of the other S/C (see also R-2.5.0-3 and G-2.5.1-9)
+2007_trs_mrd_web,The satellite(s) shall be designed such that reconfiguration for in-flight calibration and/or orbit maintenance is minimised

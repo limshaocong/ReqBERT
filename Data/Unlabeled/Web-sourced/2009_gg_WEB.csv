@@ -1,0 +1,59 @@
+source,reqs
+2009_gg_WEB,The payload telemetry data shall be recorded on-board by the on-board mass memory in a continuous way. The mass memory capacity shall be sized to record 7 days (TBC) of mission before rollover.
+2009_gg_WEB,The system design shall be compatible with a science daily telemetry volume of 2.5 Gbit/day.
+2009_gg_WEB,"The command and control uplink and downlink communications shall be performed in S-band, with a data rate able to handle all necessary TM/TC for housekeeping operations."
+2009_gg_WEB,Payload data downlink shall be done in S-Band.
+2009_gg_WEB,Link shall be established for an elevation angle equal or higher than 10° (TBC). [MRD-22] (R) The availability of the link shall be greater than 95%.
+2009_gg_WEB,TM and TC shall be compliant to the CCSDS standards for data coding in space- ground communications.
+2009_gg_WEB,P/L and HK telemetry data shall be separated through virtual channels in such a way that the ground station can immediately separate the telemetry flow into science data and functional housekeeping telemetry.
+2009_gg_WEB,"During the scientific mission phase, a ground station availability of 90% (TBC) maximum shall be assumed."
+2009_gg_WEB,The transmission of the HK data to the Mission Operations Centre shall be completed in less than 1 day after the end of a communication slot with the satellite.
+2009_gg_WEB,The transmission of the P/L data to the Science Operations Centre shall be completed in less than 1 week after the end of a communication slot with the satellite.
+2009_gg_WEB,"The GG system shall perform acquisition of the scientific data in P/L telemetry and pre-processing,"
+2009_gg_WEB,"The GG system shall perform systematic checks on the data validity and quality,"
+2009_gg_WEB,"The GG system shall perform instrument performances follow-up,"
+2009_gg_WEB,"The GG system shall perform instrument calibration and optimisation,"
+2009_gg_WEB,"The GG system shall perform processing of the scientific telemetry up to level 1,"
+2009_gg_WEB,The GG system shall perform archiving and cataloguing of the data delivered to final users.
+2009_gg_WEB,The science objective of GG is to test the “Equivalence Principle” (EP) to 1 part in 1017.
+2009_gg_WEB,"The GG differential capacitance readout shall be able to detect a test mass differential acceleration, with period Tdiff, and smaller than aEP = 10E-17× g(h) m/s², over the fundamental measurement interval Tint."
+2009_gg_WEB,"After calibration, the capacitance read-out shall be able to detect the displacement ?xEP (in the test masses XY plane) in one fundamental science integration time slot Tint."
+2009_gg_WEB,The overall noise affecting the science measurement shall be such that in one fundamental science integration time slot Tint the Signal to Noise Ratio is SNR > 2.
+2009_gg_WEB,"In the IRF, the residual (due to limited rejection of common mode) external non- gravitational acceleration sensed from each test mass in the XY plane shall cause no differential acceleration of the proof masses greater than 0.5×aEP m/s² at the orbit frequency, and 3×10-15 m/s2/Hz in a bandwidth of 2×10-4 Hz around the orbit frequency."
+2009_gg_WEB,"In the IRF, the product of the DFC rejection ?DFCxy and of the mechanical suspension Common Mode Rejection Ratio ?CMRRxy shall be such that in the test masses XY plane and at the orbit frequency, ?DFCxy × ?CMRRxy = 0.5×aEP/ 2×10-10."
+2009_gg_WEB,"In order to maximise the EP violating signal, the test masses material shall be chosen in order to maximise the difference between the ratio of atomic number (number of atom protons) over mass number (atomic number + number of atom neutrons)."
+2009_gg_WEB,"The quality factor Q of the mechanical springs connecting the PGB to the spacecraft, measured at the s/c spin frequency, shall be QPGB(@?’ Hz) ? 90."
+2009_gg_WEB,"The quality factor Q of the test masses mechanical suspension, measured at the s/c spin frequency shall be be QTM(@?’ Hz) ? 20000."
+2009_gg_WEB,"The residual pressure acting on the test masses shall be 10-5 torr, in order to avoid air damping in between test masses and science capacitance plates."
+2009_gg_WEB,The GG system shall be compliant with the requirements specified in the ERD [AD 2].
+2009_gg_WEB,The GG system shall be compliant with the interfaces specified in the ERD [AD 2].
+2009_gg_WEB,The GG spacecraft total length and diameter shall fit within the fairing of the selected launcher.
+2009_gg_WEB,The GG spacecraft shall fit with a standard launch adapter of the selected launcher.
+2009_gg_WEB,The GG spacecraft shall comply with fundamental lateral and longitudinal frequencies of the launch vehicle.
+2009_gg_WEB,"Total mass budget in launch configuration shall be compliant with the launcher capability, referred to selected orbit."
+2009_gg_WEB,The GG spacecraft shall be compatible with a launch window of at least 30 consecutive days.
+2009_gg_WEB,"During combined operations with the launcher, the GG spacecraft shall comply with the launcher operations and attitude."
+2009_gg_WEB,"During all phases of the launcher mission, the GG spacecraft shall comply with the attitude profile of the launcher."
+2009_gg_WEB,The maximum level of particulate contamination shall be TBD. [MRD-49] (R) The maximum level of chemical contamination shall be TBD.
+2009_gg_WEB,The spacecraft shall be compatible with the radiation environment of the selected orbit.
+2009_gg_WEB,The design margin philosophy shall comply with [SD 2].
+2009_gg_WEB,"All consumables (cold gas, propellant…) shall be sized from launch until the end of the nominal mission."
+2009_gg_WEB,"All consumables (cold gas, propellant…) shall be sized from launch until the end of the extended mission. Margins are not applied to the extended lifetime."
+2009_gg_WEB,All radiation sensitive units shall be selected and sized from launch until the end of the nominal mission
+2009_gg_WEB,All radiation sensitive units shall be selected and sized from launch until the end of the extended mission. Margins are not applied to the extended lifetime.
+2009_gg_WEB,The spacecraft shall support and provide mechanical interface to the science instrument. Interface shall be compliant to experiment specific needs.
+2009_gg_WEB,The spacecraft electrical power S/S shall provide sufficient power to the payload during all mission phases.
+2009_gg_WEB,"An adequate thermal environment shall be granted to all the subsystems, as well as to the scientific payload, so that it can operate nominally."
+2009_gg_WEB,The spacecraft shall host the communication S/S for all uplink and downlink communications (science payload and housekeeping).
+2009_gg_WEB,"The spacecraft shall have the capability to handle all the telecommands received from ground, transmit them to the payload instrument and send back all acknowledgments for ground control."
+2009_gg_WEB,The spacecraft shall have the capability to enter and exit from all the functional modes and to emit in real time the current hardware and software status for diagnostic purposes.
+2009_gg_WEB,The AOCS shall enable the spacecraft to perform all the orbital manoeuvres that may be necessary for the performance of the mission and the achievement of the science objectives.
+2009_gg_WEB,"The AOCS shall enable the spacecraft to perform attitude control in all the mission phases, compliant with the pointing requirements of the scientific payload."
+2009_gg_WEB,"The spacecraft shall respond to on-board critical failures (endangering the mission) by switching to safe mode, independently from ground control."
+2009_gg_WEB,The spacecraft shall remain in safe mode conditions for at least 7 days (TBC) without ground intervention.
+2009_gg_WEB,In safe mode the system shall provide enough power to maintain the thermal conditions within the prescribed qualification limits for the on-board equipments.
+2009_gg_WEB,Safe mode shall be recovered from ground.
+2009_gg_WEB,"All operations shall be autonomous, executed on the basis of time-tagged operation sequences that shall be loaded at least one day in advance."
+2009_gg_WEB,"The satellite shall autonomously detect its status, basing on automatic self-check procedures and programmable decision tables."
+2009_gg_WEB,"On detection of an anomaly, the satellite shall suspend the scientific operations. [MRD-72] (R) Resumption of the scientific operations shall be commanded by the ground."
+2009_gg_WEB,"In normal operations, the satellite shall receive commands and transmit telemetry from/to its dedicated Ground Station located at TBD."

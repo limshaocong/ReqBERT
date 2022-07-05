@@ -1,0 +1,213 @@
+source,reqs
+2006_hgs_ird_web,The MOC shall make available all spacecraft and instrument telemetry data to the HSC.
+2006_hgs_ird_web,The MOC shall make available telemetry data to the HSC as consolidated telemetry data.
+2006_hgs_ird_web,The MOC shall make available telemetry data (spacecraft and instruments) to the HSC in a format from which the source telemetry packets generated on-board can be extracted.
+2006_hgs_ird_web,The HSC shall request the MOC to make available consolidated telemetry data for a given operational period.
+2006_hgs_ird_web,The MOC shall make available to the HSC the consolidated telemetry data separately for Event telemetry data per APID.
+2006_hgs_ird_web,The MOC shall make available to the HSC the consolidated telemetry data separately for telecommand verification data per APID.
+2006_hgs_ird_web,The MOC shall make available to the HSC the consolidated telemetry data separately for housekeeping telemetry data per APID.
+2006_hgs_ird_web,The MOC shall make available to the HSC the consolidated telemetry data separately for spacecraft telemetry data.
+2006_hgs_ird_web,The MOC shall indicate the availability of consolidated telemetry data on a time period basis.
+2006_hgs_ird_web,The MOC shall push the consolidated telemetry data to the HSC.
+2006_hgs_ird_web,The MOC shall make available to the HSC any sequence of any category of consolidated telemetry data from dump telemetry not later than 10 minutes after the last “bit” of this sequence has been received by the MOC.
+2006_hgs_ird_web,The MOC shall make available the spacecraft orbit predicted data to the HSC.
+2006_hgs_ird_web,The MOC shall notify the HSC of the availability of spacecraft predicted orbit data updates for a given operational period.
+2006_hgs_ird_web,The HSC shall pull spacecraft predicted orbit data updates from the MOC.
+2006_hgs_ird_web,The position and velocity of the spacecraft shall be predicted to an accuracy of not worse that 72.5 km and 1 m/s.
+2006_hgs_ird_web,The MOC shall make available to the HSC the spacecraft attitude constraints algorithm (with test data) and data updates.
+2006_hgs_ird_web,The MOC shall notify the HSC of the availability of spacecraft attitude constraint algorithm and data updates for a given operational period.
+2006_hgs_ird_web,The HSC shall pull spacecraft attitude algorithm and data updates from the MOC.
+2006_hgs_ird_web,The MOC shall make available to the HSC the spacecraft slew time and path predictor algorithm and data updates.
+2006_hgs_ird_web,The MOC shall notify the HSC of the availability of spacecraft slew time and path predictor algorithm and data updates.
+2006_hgs_ird_web,The HSC shall pull spacecraft slew time and path predictor algorithm and data updates from the MOC.
+2006_hgs_ird_web,The MOC shall make available to the HSC the planning skeleton information for any given scheduling period.
+2006_hgs_ird_web,The HSC shall poll the MOC to know of the availability of a new planning skeleton for a given scheduling period.
+2006_hgs_ird_web,The HSC shall pull planning skeleton information from the MOC.
+2006_hgs_ird_web,The MOC shall make available to the HSC the acceptance/ rejection status of a schedule.
+2006_hgs_ird_web,The MOC shall make available to the HSC the mission timeline summary corresponding to any given operational period.
+2006_hgs_ird_web,The HSC shall poll the MOC to know of the availability of a new mission timeline summary.
+2006_hgs_ird_web,The HSC shall pull the new mission timeline summary from MOC.
+2006_hgs_ird_web,The MOC shall make available the mission timeline summary before the uplink of the corresponding mission timeline to the spacecraft.
+2006_hgs_ird_web,The MOC shall make available to the HSC the telecommand history information for any given operational period.
+2006_hgs_ird_web,The telecommand history data shall include the necessary information for the HSC to be able to associate (when relevant) the telecommand to the instrument or spacecraft commanding requests in the corresponding observations schedule.
+2006_hgs_ird_web,The HSC shall request the MOC to make available telecommand history data for a given operational period.
+2006_hgs_ird_web,The MOC shall push the telecommand history data to the HSC.
+2006_hgs_ird_web,The MOC shall make available to the HSC the telecommand history for a given operational period at the same time as the consolidated housekeeping telemetry for this period.
+2006_hgs_ird_web,The MOC shall make available the spacecraft reconstituted orbit data to the HSC.
+2006_hgs_ird_web,The MOC shall notify the HSC of the availability of new spacecraft reconstituted orbit data for a given operational period.
+2006_hgs_ird_web,The HSC shall pull spacecraft reconstituted orbit data from the MOC.
+2006_hgs_ird_web,The position and velocity of the spacecraft shall be reconstructed to an accuracy of not worse that 36.3 km and 1 m/s.
+2006_hgs_ird_web,The MOC shall make available the spacecraft attitude data corresponding to a given operational period.
+2006_hgs_ird_web,The HSC shall poll the MOC to know of the availability of new attitude history data for a given operational period .
+2006_hgs_ird_web,The HSC shall pull attitude history data from the MOC.
+2006_hgs_ird_web,The MOC shall make available the attitude history data for an OD not later than 8 hours after the actual reception by the MOC of the related telemetry packets.
+2006_hgs_ird_web,The MOC shall make available to the HSC the time correlation data.
+2006_hgs_ird_web,The time correlation data shall allow to correlate the spacecraft time and UTC time with a precision of better than 500 ms at any time of the spacecraft mission.
+2006_hgs_ird_web,The HSC shall request the MOC to make available time correlation data for a given operational period.
+2006_hgs_ird_web,The MOC shall push the  time correlation data to the HSC.
+2006_hgs_ird_web,The MOC shall make available to the HSC the time correlation data for a given operational period at the same time as the spacecraft consolidated housekeeping telemetry for this period.
+2006_hgs_ird_web,The MOC shall make available the instruments parameters OOL information for a given operational period.
+2006_hgs_ird_web,The HSC shall request the MOC to make available OOL data for a given operational period.
+2006_hgs_ird_web,The MOC shall push the OOL data to the HSC.
+2006_hgs_ird_web,The MOC shall make available to the HSC the instrument parameters OOL for a given operational period at the same time as the instrument consolidated housekeeping telemetry for this period.
+2006_hgs_ird_web,The MOC shall make available to the HSC the instrument memory image corresponding to an instrument memory dump requested by an ICC.
+2006_hgs_ird_web,The MOC shall notify the HSC of the availability of dumped instrument memory images.
+2006_hgs_ird_web,The HSC shall pull dumped instrument memory images from the MOC.
+2006_hgs_ird_web,The MOC shall make the image of an instrument memory at the latest one hour after the last telemetry data of the memory dump has been received by MOC.
+2006_hgs_ird_web,The MOC shall make available to the HSC the spacecraft and instruments reference databases.
+2006_hgs_ird_web,The MOC shall notify the HSC of the availability of new instruments reference databases. FGS-IR-3.1-506 The HSC shall pull new instruments reference databases from the MOC.
+2006_hgs_ird_web,The MOC shall make available to the HSC the instruments (virtual) aperture misalignment reference data w.r.t. the spacecraft attitude reference.
+2006_hgs_ird_web,The MOC shall notify the HSC of the availability of new instruments aperture pointing misalignment data.
+2006_hgs_ird_web,The HSC shall pull new instruments aperture pointing misalignment data from the MOC.
+2006_hgs_ird_web,The MOC shall make available to the HSC the spacecraft information of interest to the Herschel observers.
+2006_hgs_ird_web,The MOC shall notify the HSC of the availability of new spacecraft general information.
+2006_hgs_ird_web,The HSC shall pull new spacecraft general information from the MOC.
+2006_hgs_ird_web,The MOC shall make available to the HSC the malfunctions or operation problems information related to the instruments.
+2006_hgs_ird_web,The MOC shall notify the HSC of instruments malfunction or operation problems.
+2006_hgs_ird_web,The MOC shall notify the HSC of any instrument malfunction or operation problem within one hour of the detection of the problem.
+2006_hgs_ird_web,The MOC shall make available the orbit events corresponding to a given operational period.
+2006_hgs_ird_web,The HSC shall poll the MOC to know of the availability of new orbit event data for a given operational period .
+2006_hgs_ird_web,The HSC shall pull the orbit event data from the MOC.
+2006_hgs_ird_web,The MOC shall make available to the ICCs the malfunctions or operation problems information related to their instruments.
+2006_hgs_ird_web,The MOC shall notify the ICCs of any malfunctions or operation problems related to their instruments.
+2006_hgs_ird_web,The MOC shall notify the ICCs of any malfunctions or operation problems related to their instruments within one hour of the detection of the malfunction or problem.
+2006_hgs_ird_web,The MOC shall make available to an ICC@MOC its instrument telemetry in NRT during the commissioning phase and for instrument emergencies.
+2006_hgs_ird_web,The MOC shall make available the telemetry data to the ICC@MOC in a format from which the source telemetry packets generated on-board can be extracted.
+2006_hgs_ird_web,The MOC shall push the NRT telemetry data to the ICC@MOC.
+2006_hgs_ird_web,It shall be possible for the ICC@MOC to fetch telemetry data from the MOC DDS.
+2006_hgs_ird_web,"During the commissioning phase and for instrument emergencies, the MOC shall make available to an ICC@MOC its instrument telemetry not later than one minute after the telemetry packet has been received by MOC."
+2006_hgs_ird_web,The MOC ICC@MOC interface shall support a data rate equivalent to the maximum instrument on-board data rate (300 kbps).
+2006_hgs_ird_web,The HSC shall make available to the MOC the observations schedule corresponding to any given scheduling period.
+2006_hgs_ird_web,An observations schedule made available to the MOC by the HSC shall be compatible with the spacecraft operational and design constraints.
+2006_hgs_ird_web,The HSC shall push observations schedules to the MOC.
+2006_hgs_ird_web,The HSC shall make available to the MOC instrument on-board software and on-board control procedures (OBCP) updates
+2006_hgs_ird_web,The HSC shall push On-board software and OBCP updates to the MOC.
+2006_hgs_ird_web,The HSC shall make SSO ephemerides information available to the MOC SSO database.
+2006_hgs_ird_web,The HSC shall push SSO ephemerides to the MOC.
+2006_hgs_ird_web,The HSC shall make available to the MOC the ICC instruments database updates.
+2006_hgs_ird_web,The HSC shall push instrument databases updates to the MOC.
+2006_hgs_ird_web,The HSC shall make available to the MOC the instrument user manuals (including the instrument procedures) necessary for MOC to operate the instruments
+2006_hgs_ird_web,The HSC shall push instrument user manuals to the MOC
+2006_hgs_ird_web,The HSC shall make available to the MOC the updates of the instrument (virtual) apertures misalignment data w.r.t. the spacecraft attitude reference.
+2006_hgs_ird_web,The HSC shall push instrument apertures pointing misalignment updates to the MOC.
+2006_hgs_ird_web,The HSC shall make available to the MOC the instrument derived parameter definitions.
+2006_hgs_ird_web,The HSC shall push instrument derived parameter definitions to the MOC.
+2006_hgs_ird_web,The HSC shall make available to the MOC the instrument procedures that are to be manually executed.
+2006_hgs_ird_web,The HSC shall push the instrument procedures for manual commanding to the MOC.
+2006_hgs_ird_web,The HSC shall make available to the MOC the instrument SSO avoidance angles.
+2006_hgs_ird_web,The HSC shall push the instrument SSO avoidance angles to the MOC.
+2006_hgs_ird_web,The HSC shall make available to the ICC@ICC all the spacecraft and instrument consolidated telemetry received from the MOC.
+2006_hgs_ird_web,The HSC shall notify the ICC@ICC of the availability of new consolidated telemetry data.
+2006_hgs_ird_web,The HSC shall make available to the ICCs the spacecraft orbit predictor data updates received from the MOC.
+2006_hgs_ird_web,The HSC shall make available to the ICC@ICC the mission timeline summary data received from the MOC .
+2006_hgs_ird_web,The HSC shall make available to the ICC@ICC the telecommand history data received from the MOC.
+2006_hgs_ird_web,The HSC shall make available to the ICC@ICC the reconstituted spacecraft orbit data received from the MOC.
+2006_hgs_ird_web,The HSC shall make available to the ICC@ICC the spacecraft attitude history data received from the MOC.
+2006_hgs_ird_web,The HSC shall make available to the ICC@ICC the time correlation data received from the MOC.
+2006_hgs_ird_web,The HSC shall make available to the ICC@ICC the instrument derived parameters of their respective instrument received from the MOC.
+2006_hgs_ird_web,The HSC shall make available to the ICC@ICC the OOL information of their respective instrument received from the MOC.
+2006_hgs_ird_web,The HSC shall make available to the ICC@ICC the spacecraft and instruments reference databases received from the MOC.
+2006_hgs_ird_web,The HSC shall make available to the ICC@ICC the SSO reference database received from the MOC.
+2006_hgs_ird_web,The HSC shall make available to the ICC@ICC the instrument memory images of their respective instruments received from the MOC.
+2006_hgs_ird_web,The HSC shall notify an ICC of the availability of new MOC data when relevant to the ICC.
+2006_hgs_ird_web,The HSC shall make available to the ICCs the data generated by the HSC.
+2006_hgs_ird_web,The HSC shall notify an ICC of the availability of new HSC generated data when relevant to the ICC.
+2006_hgs_ird_web,The HSC shall make available to the ICCs the necessary proposal submission software updates to be able to define their calibration AOT observations.
+2006_hgs_ird_web,The HSC shall make available to the ICCs all the necessary scientific mission planning software updates to be able to check the schedulability of their engineering and calibration observations.
+2006_hgs_ird_web,The HSC shall notify an ICC of the availability of new HSC system software when relevant to the ICC.
+2006_hgs_ird_web,It shall be possible for the HSC to transfer helpdesk queries to the relevant ICCs
+2006_hgs_ird_web,The ICCs shall make available to the HSC instrument on-board software and on-board control procedures (OBCP) updates and associated information.
+2006_hgs_ird_web,The ICCs shall notify the HSC of the availability of an instrument on-board software and OBCP update to be validated.
+2006_hgs_ird_web,The ICCs shall make available to the HSC their information on the health of their instruments.
+2006_hgs_ird_web,The ICCs shall make available to the HSC their instrument trend analysis reports.
+2006_hgs_ird_web,The ICCs shall notify the HSC of the availability of new information on the health of their instruments.
+2006_hgs_ird_web,The ICC shall make available to the HSC any information regarding an anomaly on their instruments within one working hour after the detection of the anomaly according to agreed procedures.
+2006_hgs_ird_web,The ICCs shall make available to the HSC their instrument engineering and calibration observations to be scheduled.
+2006_hgs_ird_web,The ICCs shall make available to the HSC the scheduling constraints information associated with engineering and calibration observations.
+2006_hgs_ird_web,The ICCs shall notify the HSC of the availability of new instrument engineering and calibration observations to be scheduled .
+2006_hgs_ird_web,The ICCs shall make available to the HSC their instrument modes validation status.
+2006_hgs_ird_web,The ICCs shall notify the HSC of a new validation status of their instrument modes.
+2006_hgs_ird_web,The ICCs shall make available to the HSC their information on quality of executed observation.
+2006_hgs_ird_web,The ICCs shall notify the HSC of the availability of new information on observation quality
+2006_hgs_ird_web,The ICCs shall make available to the HSC their instrument time estimator software and data updates.
+2006_hgs_ird_web,The ICCs shall make available to the HSC their instrument commanding software and data updates.
+2006_hgs_ird_web,The ICCs shall make available to the HSC their instrument observation data processing software and data updates.
+2006_hgs_ird_web,The ICCs shall make available to the HSC the information substantiating the scientific validation of their observation data processing software for any given AOT.
+2006_hgs_ird_web,The ICCs shall notify the HSC of the availability of new instrument specific software or data when relevant to the HSC
+2006_hgs_ird_web,The ICCs shall make available to the HSC their instrument observer manual updates (TBC).
+2006_hgs_ird_web,The ICCs shall make available to the HSC the instruments scientific data analysis recipes manuals.
+2006_hgs_ird_web,The ICCs shall make available to the HSC general instruments information of relevance to the Herschel observers.
+2006_hgs_ird_web,An ICC shall notify the HSC of the availability of a new update to its instrument observer manuals or any other information of relevance to the Herschel observers.
+2006_hgs_ird_web,The ICCs shall make available to the HSC their instruments database updates.
+2006_hgs_ird_web,An ICC shall notify the HSC of the availability of a database update for its instrument.
+2006_hgs_ird_web,The ICCs shall make available to the HSC the instrument user manuals (including instrument procedures) necessary for the operation of their instruments by MOC.
+2006_hgs_ird_web,An ICC shall notify the HSC of the availability of a new update of its instrument user manual.
+2006_hgs_ird_web,The ICCs shall make available to the HSC the updates of their instrument (virtual) aperture misalignment data w.r.t. the spacecraft attitude reference.
+2006_hgs_ird_web,An ICC shall notify the HSC of the availability of an update of its instrument aperture pointing misalignment data.
+2006_hgs_ird_web,The ICCs shall make available to the HSC (helpdesk) replies to specific instrument related queries.
+2006_hgs_ird_web,The ICCs shall make available to the MOC the instrument derived parameter definitions.
+2006_hgs_ird_web,An ICC shall notify the HSC of the availability of instrument derived parameter definitions.
+2006_hgs_ird_web,An ICC shall make available to the HSC the instrument procedures that are to be manually executed from the MOC.
+2006_hgs_ird_web,An ICC shall notify the HSC of the availability of instrument procedures for manual commanding.
+2006_hgs_ird_web,An ICC shall make available to the HSC the instrument SSO avoidance angles.
+2006_hgs_ird_web,An ICC shall notify the HSC of the availability of instrument SSO avoidance angles.
+2006_hgs_ird_web,The HCSS shall make instrument housekeeping telemetry available to RTA.
+2006_hgs_ird_web,The HCSS shall make the telemetry available to the RTA system as source packets as provided by MOC.
+2006_hgs_ird_web,The RTA shall trigger the telemetry data reception from the HCSS
+2006_hgs_ird_web,The HCSS shall allow to select telemetry according to the following criteria:
+2006_hgs_ird_web,The instrument telemetry shall arrive at the RTA system at a rate up to 10 times the on- board data rate.
+2006_hgs_ird_web,The RTA shall make available to the HCSS its logs for any given testing period.
+2006_hgs_ird_web,The HCSS shall pull the RTA logs data from the RTA.
+2006_hgs_ird_web,The HCSS shall make available to the EGSE-ILT available (test) observing modes and associated parameters definitions.
+2006_hgs_ird_web,It shall be possible to import command mnemonic sequences from the HCSS to the EGSE-ILT by specifying observing modes and associated parameters values.
+2006_hgs_ird_web,An observation command mnemonic sequence made available to the EGSE-ILT by the HCSS shall be compatible with the test operational and design constraints.
+2006_hgs_ird_web,The EGSE-ILT shall pull observing modes from the HCSS.
+2006_hgs_ird_web,The EGSE-ILT shall trigger the reception of the observation command mnemonic sequences from the HCSS.
+2006_hgs_ird_web,The elapsed time between the request by the EGSE-ILT to the HCSS of the generation of an observation command mnemonic sequence and the reception of this sequence by the EGSE-ILT shall not exceed 5 seconds.
+2006_hgs_ird_web,The HCSS shall make instruments databases updates available to the EGSE-ILT.
+2006_hgs_ird_web,Instruments databases updates shall be made available in the form appropriate for the RTA system (SCOS-2000 based)
+2006_hgs_ird_web,The EGSE-ILT shall pull instruments databases updates from the HCSS.
+2006_hgs_ird_web,The EGSE-ILT shall make available to the HCSS all instrument and test equipment telemetry data generated during tests.
+2006_hgs_ird_web,The EGSE-ILT shall make available the telemetry data to the HCSS in a format from which the TEI and instrument source telemetry packets can be extracted.
+2006_hgs_ird_web,"The test equipment telemetry data shall include the necessary information for the HCSS to be able to associate, when relevant, each telemetry data to the context of an observation and observation measurement"
+2006_hgs_ird_web,The HCSS shall trigger the telemetry data reception from the EGSE-ILT.
+2006_hgs_ird_web,The telemetry data shall be received from the EGSE-ILT as one single telemetry data stream.
+2006_hgs_ird_web,The instrument telemetry shall be available in the HCSS not later than 5 seconds after the EGSE-ILT has received/ generated it.
+2006_hgs_ird_web,The EGSE-ILT HCSS telemetry interface shall support a data rate equivalent to the addition of the maximum instrument on-board data rate (300 kbps) and the maximum TEIs data rate (400 kbps).
+2006_hgs_ird_web,It shall be possible to store (retrieve) test procedures definitions from (into) the EGSE- ILT into (from) the HCSS.
+2006_hgs_ird_web,It shall be possible to store test procedures execution logs from the EGSE-ILT into the HCSS.
+2006_hgs_ird_web,It shall be possible to store (retrieve) autonomy procedures definitions from (into) the EGSE-ILT into (from) the HCSS.
+2006_hgs_ird_web,The storage (retrieval) of test procedures definition and execution logs into (from) the HCSS shall be triggered from the EGSE-ILT.
+2006_hgs_ird_web,The HCSS shall make instrument housekeeping telemetry available to RTA.
+2006_hgs_ird_web,The HCSS shall make the telemetry available to the RTA system as source packets as provided by the EGSE-ILT or the CCS.
+2006_hgs_ird_web,The RTA shall trigger the telemetry data reception from the HCSS.
+2006_hgs_ird_web,The HCSS shall allow to select telemetry according to the following criteria:
+2006_hgs_ird_web,The HCSS RTA telemetry interface shall support a data rate equivalent to 10 times the maximum instrument housekeeping on-board data rate (4 kbps).
+2006_hgs_ird_web,The HCSS shall make instrument database updates available to RTA.
+2006_hgs_ird_web,Instrument database updates shall be made available in the form appropriate for the RTA system (SCOS-2000 based).
+2006_hgs_ird_web,The RTA shall pull the instrument database update from the HCSS.
+2006_hgs_ird_web,The RTA shall make available to the HCSS the telecommand history data for any given testing period.
+2006_hgs_ird_web,The telecommand history data shall include the necessary information for the HCSS to be able to associate (when relevant) the telecommand to the instrument or TE command mnemonics exported by the HCSS.
+2006_hgs_ird_web,The HCSS shall pull the telecommand history data from the RTA.
+2006_hgs_ird_web,The RTA shall make available to the HCSS its logs for any given testing period.
+2006_hgs_ird_web,The HCSS shall pull the RTA logs data from the RTA.
+2006_hgs_ird_web,RTA shall send telemetry parameter values and events (TBC) to the EGSE-ILT (test control) when housekeeping data processing results call for procedures to be carried out by the EGSE-ILT.
+2006_hgs_ird_web,The EGSE-ILT shall trigger the reception of the RTA events and telemetry parameters values.
+2006_hgs_ird_web,RTA events shall arrive at the EGSE-ILT within 0.5 second after their generation.
+2006_hgs_ird_web,It shall be possible to store (retrieve) an instrument database from (into) the MIB editor (from) into the HCSS.
+2006_hgs_ird_web,The instrument database shall be in a format compatible with the format expected by SCOS-2000.
+2006_hgs_ird_web,The storage (retrieval) of an instrument database to (from) the HCSS shall be triggered from the MIB editor.
+2006_hgs_ird_web,The HCSS shall make available to the EGSE-IST available (test) observing modes and associated parameters definitions.
+2006_hgs_ird_web,It shall be possible to import command mnemonic sequences from the HCSS to the EGSE-IST by specifying observing modes and associated parameters values.
+2006_hgs_ird_web,An observation command mnemonic sequence made available to the EGSE-IST by the HCSS shall be compatible with the test operational and design constraints.
+2006_hgs_ird_web,The EGSE-IST shall pull observing modes from the HCSS.
+2006_hgs_ird_web,The EGSE-IST shall trigger the reception of the observation command mnemonic sequences from the HCSS.
+2006_hgs_ird_web,The elapsed time between the request by the EGSE-IST to the HCSS of the generation of an observation command mnemonic sequence and the reception of this sequence by the EGSE-IST shall not exceed 5 seconds.
+2006_hgs_ird_web,The EGSE-IST shall make available to the HCSS all instrument and spacecraft telemetry data generated during tests.
+2006_hgs_ird_web,The EGSE-IST shall make available the telemetry data to the HCSS in a format from which the instrument and spacecraft source telemetry packets can be extracted.
+2006_hgs_ird_web,The HCSS shall trigger the telemetry data reception from the EGSE-IST.
+2006_hgs_ird_web,The telemetry data shall be received from the EGSE-IST as one single telemetry data stream.
+2006_hgs_ird_web,The instrument telemetry shall be available in the HCSS not later than 5 seconds after the EGSE-IST has received/ generated it.
+2006_hgs_ird_web,The EGSE-IST HCSS telemetry interface shall support a data rate equivalent to the addition of the maximum instrument on-board data rate (300 kbps) and the maximum spacecraft data rate (TBD kbps).
+2006_hgs_ird_web,It shall be possible to store (retrieve) test procedures definitions from (into) the EGSE- IST into (from) the HCSS.
+2006_hgs_ird_web,The storage (retrieval) of test procedures definition into (from) the HCSS shall be triggered from the EGSE-IST.

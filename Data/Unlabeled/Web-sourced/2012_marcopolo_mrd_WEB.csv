@@ -1,0 +1,129 @@
+source,reqs
+2012_marcopolo_WEB,The spacecraft lifetime shall be 8 years in space and 2 years for pre-launch ground activities (AIT/AIV/storage) in a controlled environment and all space-based elements shall be designed and sized for this duration.
+2012_marcopolo_WEB,"The space segment shall be sized for the mission scenario which is most demanding (i.e. worst case ?V, launch mass, thermal and sun illumination environment) as defined in [RD1], covering the full launch window as defined in [AD13]/R-DV-4."
+2012_marcopolo_WEB,"In this assessment study, the mission design shall follow the margin philosophy defined in [AD13]. The margin philosophy and margin depletion scheme will be firmly defined at a later stage."
+2012_marcopolo_WEB,The space segment shall cope with the integration procedures on a Soyuz-Fregat 2-1 b from CSG in Kourou.
+2012_marcopolo_WEB,The space segment shall be composed of 2 modules: Sampling spacecraft + Earth Re-entry Capsule (ERC).
+2012_marcopolo_WEB,"All spacecraft shall be designed according to [RD4], [RD5], [RD6] and [RD7] unless otherwise specified in this document."
+2012_marcopolo_WEB,"The spacecraft system shall accommodate all necessary equipments and sub- systems, including mass and volume margins as defined in [AD13] and compatible with launch windows as defined in [RD1]."
+2012_marcopolo_WEB,"The maximum spacecraft dry mass, respectively wet mass shall be TBD kg, TBD kg."
+2012_marcopolo_WEB,The sampling spacecraft shall accommodate the science payload and enable fulfilling all primary science measurements.
+2012_marcopolo_WEB,A design-to-cost and risk minimization mission design approach shall be followed.
+2012_marcopolo_WEB,The sampling spacecraft shall accommodate and transport the ERC throughout the whole mission until release upon arrival at Earth.
+2012_marcopolo_WEB,The sampling spacecraft should take images of the separated ERC after release.
+2012_marcopolo_WEB,The design of the sampling spacecraft and ERC shall be robust against damage due to debris and dust encountered during all proximity operations.
+2012_marcopolo_WEB,The S/C shall be designed to withstand the predicted micro-meteorite environment throughout the mission with a probability larger than 0.998.
+2012_marcopolo_WEB,"The main spacecraft shall allow for commissioning and calibration of the orbital science instruments during the transfer to the NEA, including during fly-bys."
+2012_marcopolo_WEB,"During the touch and go sampling operations, the sampling spacecraft shall approach the surface with a maximum horizontal velocity of 5 cm.s-1 (TBC) at touchdown."
+2012_marcopolo_WEB,"During the touch and go sampling operations, the sampling spacecraft shall approach the surface with a maximum vertical velocity of 10 cm.s-1 (TBC) at touchdown."
+2012_marcopolo_WEB,The sampling spacecraft shall have a maximum attitude of +/-10o with respect to the local surface at touchdown (TBC).
+2012_marcopolo_WEB,"The touchdown accuracy of the sampling spacecraft with respect to the targeted sampling site shall be better than 50 meters, 3-? value (TBC)."
+2012_marcopolo_WEB,The sampling spacecraft shall accommodate the ERC in a safe location such that the risk of collision of the ERC Thermal Protection System with the asteroid surface is minimized.
+2012_marcopolo_WEB,After touchdown the full set of telemetry data acquired during descent shall be protected from overwriting until receipt on Earth is confirmed.
+2012_marcopolo_WEB,The ERC shall be designed such as to limit the total heat flux to 15 MW/m2 and total pressure at stagnation point to 80 kPa.
+2012_marcopolo_WEB,"The ERC shall perform a fully passive re-entry (i.e. no parachute, no propulsion, no active control)."
+2012_marcopolo_WEB,The ERC and its sub-systems shall be designed such that the shock loads on the sample are lower than 2000 g quasi-static load (TBC) for any angle of attack up to 20 degrees (TBC).
+2012_marcopolo_WEB,The ERC and its sub-systems should be designed such that the shock loads on the sample are lower than 800 g quasi-static load (TBC) for any angle of attack up to 20 degrees (TBC).
+2012_marcopolo_WEB,The ERC shall allow simple access to and recovery of the sample within the capsule without damaging the sample container seal.
+2012_marcopolo_WEB,"The ERC shall be statically stable and its dynamic instabilities, if any, shall be such that angle of attack variations are limited to 20 degrees (TBC) at all aerodynamic regimes after the peak of dynamic pressure."
+2012_marcopolo_WEB,"The maximum deceleration of the ERC through re-entry shall be 80 g, quasi-static load (TBC)."
+2012_marcopolo_WEB,"The ERC design should ensure that the sample is never exposed to temperatures higher than +40oC. For less than one minute, +80oC is acceptable."
+2012_marcopolo_WEB,"The ERC should be equipped with a flight instrumentation package to perform the following measurements during entry and descent: heat flux, temperature and pressure on both front and back shields at a frequency of 0.5 Hz (TBC)."
+2012_marcopolo_WEB,The sample sealing system shall withstand a shock load up to 2000 g quasi-static load (TBC).
+2012_marcopolo_WEB,The sample sealing system should withstand a shock load up to 800 g quasi-static load (TBC).
+2012_marcopolo_WEB,The spacecraft design and operations shall transmit back to Earth a minimum total payload data volume of 122.35 GBit (TBC) before the end of the asteroid proximity operations.
+2012_marcopolo_WEB,110.8 Gbit (TBC) of science data shall be transmitted back to Earth 2 weeks before the start of sampling operations (SAM).
+2012_marcopolo_WEB,TBD Gbit of science data shall be transmitted back to Earth 2 weeks before the start of LCP operations.
+2012_marcopolo_WEB,"The spacecraft thermal control system shall cope with the thermal needs of the various spacecraft sub-systems as required, including P/L, at any stage of the mission as a function of the spacecraft thermal modes, including safe mode."
+2012_marcopolo_WEB,The spacecraft thermal control system shall cope with the space environment throughout the mission (incl. asteroid surface operations).
+2012_marcopolo_WEB,"Sufficient telemetry and housekeeping information shall be provided for monitoring of thermal equipment (e.g. radiators, heaters, etc.)."
+2012_marcopolo_WEB,The ERC heat shield thermal protection system material shall be able to withstand entry conditions defined in R-SYS-270.
+2012_marcopolo_WEB,"The spacecraft power system shall be made of solar arrays and batteries and shall cope with the power needs of the various spacecraft sub-systems as required, including P/L, at any stage of the mission as a function of the spacecraft power modes, including safe mode."
+2012_marcopolo_WEB,The spacecraft battery shall be sized for worst case eclipses and the descent/touchdown/re-ascent phase.
+2012_marcopolo_WEB,The sizing of the solar arrays shall allow the S/C to stay on a ”Radio-science” orbit and safe position as defined in 13.2.
+2012_marcopolo_WEB,The electrical design shall comply with the requirements of [RD6]. Tailoring of these requirements may be proposed and need to be justified.
+2012_marcopolo_WEB,Asteroid acquisition (i.e. identification of the target) shall be performed one week (TBC) before the start of proximity operations.
+2012_marcopolo_WEB,"During sampling operations, the AOCS/GNC system shall prevent total attitude excursions larger than 30 degrees (TBC) (with respect to the local vertical) and attitude rates larger than 5 deg/s (TBC)."
+2012_marcopolo_WEB,"The AOCS system shall be able to maintain during safe mode the composite in a Sun-pointing attitude using a minimum of the onboard resources while ensuring power generation, a survivable thermal environment and ground communication for vital equipment."
+2012_marcopolo_WEB,"In the event of unavailability of the star trackers, the AOCS/GNC shall have the capability to maintain and propagate attitude estimation whilst meeting the relevant pointing requirements."
+2012_marcopolo_WEB,Asteroid acquisition (i.e. identification of the target) should be performed two weeks (TBC) before the start of proximity operations..
+2012_marcopolo_WEB,guarantees a minimum detection time.
+2012_marcopolo_WEB,"The spacecraft data handling system shall cope with the data transfer and storage requirements of the various spacecraft sub-systems, including payload, at any stage of the mission."
+2012_marcopolo_WEB,The DHS shall be able to receive TC and send TM from/to ground at the same time.
+2012_marcopolo_WEB,The DHS shall be able to command the instruments and equipment onboard. R-DHS-040 The DHS shall provide reconfiguration capabilities in case of failure detection. R-DHS-050 The DHS shall manage the redundancy for the relevant sub-systems.
+2012_marcopolo_WEB,"During touchdown/sampling operations, the DHS shall provide the capability to store the scientific and housekeeping data generated by the complete close-up camera and sampling operations cycle."
+2012_marcopolo_WEB,The DHS system shall support uplink and downlink file transfer.
+2012_marcopolo_WEB,The DHS shall provide the storage capability such that all science data can be downlinked (R-SYS-410/420/430) during proximity operations and assuming 2 consecutive downlink windows (i.e. 2 consecutive daily windows) are missed.
+2012_marcopolo_WEB,The DHS system shall be compatible with the maximum data rates of each instrument as specified in [RD16].
+2012_marcopolo_WEB,The DHS system shall implement system-level failure FDIR of the P/L and platform.
+2012_marcopolo_WEB,"The propulsion system shall cope with all operations and associated Delta-V/thrust requirements incl.: transfer (MCC, DSM, etc.), asteroid proximity operations, initial fly-bys, gravity field campaign, controlled orbits, local characterization phase, sampling rehearsals, descent/touchdown and re-ascent phases, etc."
+2012_marcopolo_WEB,The by-products of the propulsion system shall be characterized and reported at ppb level prior to the mission.
+2012_marcopolo_WEB,The propulsion sub-system shall be designed to be compatible with any operational S/C attitude. The main engine and any reaction control thruster shall be thermally qualified for such environmental conditions.
+2012_marcopolo_WEB,The propulsion sub-system thermal design shall assure that the minimum predicted temperatures of any wetted component or surface contacting the propellant remain at least 10oC above the maximum freezing point of the onboard propellant.
+2012_marcopolo_WEB,"The performances of the propulsion system in terms of total impulse and margin shall satisfy the requirements imposed by the mission, the trajectory analysis and the overall system requirements."
+2012_marcopolo_WEB,Real-time data shall be provided directly to Earth during descent and sampling allowing monitoring of the major events. A data rate of 100 bit/s shall be possible (TBC).
+2012_marcopolo_WEB,The mission design shall comply with ESA ECSS telecommunication standards ([RD14]).
+2012_marcopolo_WEB,The communication system shall support the two-way Ranging and Doppler measurements of the S/C throughout all mission phases and ?DOR if high- precision navigation is required (e.g. RSE campaign) TBC.
+2012_marcopolo_WEB,The link budgets of the spacecraft to ground shall be calculated for a weather availability of 95%.
+2012_marcopolo_WEB,Science data shall be downlinked by the spacecraft in X-band.
+2012_marcopolo_WEB,The maximum bit error rate during data downlink shall be better than 10-5.
+2012_marcopolo_WEB,"The telecommunication system shall be capable of simultaneously handling telemetry, ranging and telecommands."
+2012_marcopolo_WEB,The telecommunication equipment shall support the RSE as specified in [RD16].
+2012_marcopolo_WEB,The telecommunications system shall be able to downlink all science data as per R- SYS-410/420/430.
+2012_marcopolo_WEB,"All images taken by navigation cameras and required to be sent to ground (e.g. asteroid shape model, local slopes around sampling sites, etc.), if any, shall be downloaded."
+2012_marcopolo_WEB,The spacecraft structure shall support the launch environment [AD8] with MOS as defined in [RD5] which will be agreed with the agency.
+2012_marcopolo_WEB,"The spacecraft structure shall support the mechanical static and dynamic loads encountered during its entire lifetime, including: manufacturing, handling, transportation, testing, launch and in-orbit operations (incl. touchdown on the asteroid)."
+2012_marcopolo_WEB,The structure directly containing the sample (sample container) shall be able to withstand the loads (i.e. still fulfilling R-SYS-380) as defined in R-SYS-300.
+2012_marcopolo_WEB,The structural stiffness shall guarantee fundamental frequencies of the S/C within the requirements of the LV to avoid dynamic coupling.
+2012_marcopolo_WEB,The structural design shall be based on simple load paths.
+2012_marcopolo_WEB,The structural design shall provide a minimum margin of 15% over the minimum frequencies specified by the Launcher User Manual [AD8] before verification of S/C dynamic properties by test.
+2012_marcopolo_WEB,The sampling mechanism shall have the capability to collect hundreds of grams of material.
+2012_marcopolo_WEB,"The sampling mechanism shall have the capability to collect cm-sized fragments, plus a large amount (minimum several grams) of small particles (100s of ?m-sized to mms-sized)."
+2012_marcopolo_WEB,The sampling mechanism shall be compatible with asteroid material having the properties defined in R-ENV-100 and [AD2].
+2012_marcopolo_WEB,The sampling device (or any other part of the spacecraft) shall be equipped with autonomous means of verifying suitable sampling with a 95% probability (TBC).
+2012_marcopolo_WEB,The sampling device (or any other part of the spacecraft) should have the capability to provide a rough estimate of the collected sample mass and volume.
+2012_marcopolo_WEB,All mechanisms involved in the SATCS chain shall be cleaned so as to fulfil levels specified in R-CON-010/R-SYS-370 and according to the standards defined in R-CON-040.
+2012_marcopolo_WEB,All mechanisms shall be protected against debris generated by touchdown and sampling on the asteroid.
+2012_marcopolo_WEB,"The SATCS system shall be able to monitor its torque, thrust and penetration depth (if applicable)."
+2012_marcopolo_WEB,It shall be possible to detect blockage of a sampling unit and release it before re- ascent in case it gets stuck during the touchdown/sampling operations.
+2012_marcopolo_WEB,"The design of the sample collection and distribution unit (incl. container) should ensure that the sample, after collection, is never exposed to temperatures higher than +40oC. For less than one minute +80oC is acceptable."
+2012_marcopolo_WEB,"Through the monitoring of its various sensors’ information as a function of penetration progress, the SATCS should support the determination/estimation of the soil’s mechanical properties."
+2012_marcopolo_WEB,The design of the touchdown mechanism system as well as the sampling mechanism shall be such that total attitude excursions are lower than 30 degrees (TBC) (with respect to the local vertical) and attitude rates lower than 5 deg/s (TBC).
+2012_marcopolo_WEB,"Operations of the spacecraft shall be possible during all mission phases via the execution of pre-programmed sequence, or via onboard autonomy during the descent and sampling phase. Level of autonomy and detailed spacecraft operations throughout the various spacecraft operations are TBD."
+2012_marcopolo_WEB,S/C autonomy shall ensure achievement of all mission goals.
+2012_marcopolo_WEB,"During asteroid proximity operations, if a ground TC is expected for the S/C to proceed with its nominal manoeuvre and this TC is not received within a TBD time, the S/C shall be able to perform a valid transition into an asteroid Collision Avoidance Mode."
+2012_marcopolo_WEB,"During descent/sampling operations on the asteroid, in case of any failure or non- nominal S/C equipment TM (sub-system or system) the spacecraft shall autonomously be able to perform a valid transition into an asteroid Collision Avoidance Mode."
+2012_marcopolo_WEB,After TBD minutes in Collision Avoidance Mode and no ground feedback the spacecraft shall be able to perform a valid transition into Safe Mode.
+2012_marcopolo_WEB,The S/C shall be able to receive a TC from the ground to switch from Collision Avoidance Mode to Safe Mode.
+2012_marcopolo_WEB,"In any operations other than descent/sampling, in case of major system failure (or non-recoverable single failure) the spacecraft shall be able to survive in Safe Mode without the need for ground contact in: A “safe position” if during asteroid proximity operations phase, On its transfer trajectory in case of LEOP or interplanetary cruise phase."
+2012_marcopolo_WEB,"The spacecraft operating modes shall include a system-level Safe Mode that ensures the following properties are fulfilled: Uninterrupted power supply, Safe thermal conditions, Continuous communication with ground, Predictable configuration minimising the onboard power demand and data traffic."
+2012_marcopolo_WEB,When in Safe Mode the spacecraft shall have the capability to transmit a predefined set of data parameters at a rate of up to TBD b.s-1.
+2012_marcopolo_WEB,The spacecraft shall be able to perform a valid mode transition upon receipt of a telecommand at all times and in all spacecraft modes.
+2012_marcopolo_WEB,The fault management systems shall be intrinsically fail-safe.
+2012_marcopolo_WEB,The spacecraft shall function autonomously throughout any solar conjunctions on cruise to and back from the asteroid.
+2012_marcopolo_WEB,"The system (or FDIR) shall provide the capability for automatic detection, isolation and recovery of any credible system or subsystem anomaly."
+2012_marcopolo_WEB,Sampling site targeting and last go/no-go decision during actual descent and sampling shall be ground-based. Autonomous sampling site re-targeting shall not be allowed (see R-AUT-040 instead).
+2012_marcopolo_WEB,"The spacecraft composite and all its sub-systems, including payload, shall be compatible with the launch environment as defined in ([AD8])."
+2012_marcopolo_WEB,The mission design shall be compliant with the general space environment (cruise) requirements defined in [RD4] and the mission-specific (e.g. asteroid) environment requirements defined in [AD4].
+2012_marcopolo_WEB,The sample shall never be exposed to magnetic field larger than 200 µT.
+2012_marcopolo_WEB,The spacecraft shall satisfy the electric and magnetic cleanliness (EMC) requirements specified by the payload (TBD reference).
+2012_marcopolo_WEB,The maximum surface temperature of the sampling site to be considered for the design of the spacecraft shall be 500 K (TBC).
+2012_marcopolo_WEB,The mission design shall be compatible with the rotation period of the primary asteroid of ~ 3.6 hours +/- 0.1%.
+2012_marcopolo_WEB,The AIV activities of the S/C shall be compliant with the integration requirements of a Soyuz-Fregat 2-1 b in CSG Kourou.
+2012_marcopolo_WEB,The AIV facilities shall enable the implementation of sterilization and cleaning procedures as defined in R-CON-040.
+2012_marcopolo_WEB,"After LEOP, the ESA station at TBD location shall be the primary station used for contact with the spacecraft, with TBD location as backup."
+2012_marcopolo_WEB,"The ground segment shall provide for a 24 hour coverage capability for asteroid descent, touchdown, sampling and local characterization operations."
+2012_marcopolo_WEB,The ground segment shall cope with the data volume defined in R-SYS- 410/420/430.
+2012_marcopolo_WEB,It shall be possible to retrieve the ERC within 4 hours (TBC) after landing on Earth without the aid of tracking devices onboard the ERC.
+2012_marcopolo_WEB,It shall be possible to track the ERC re-entry during the whole re-entry operation.
+2012_marcopolo_WEB,It shall be possible to retrieve the ERC within 2 hours (TBC) after landing on Earth without the aid of tracking devices onboard the ERC.
+2012_marcopolo_WEB,The ground segment shall support the on-orbit calibration of the satellite autonomous pointing capabilities.
+2012_marcopolo_WEB,The ground segment shall elaborate an operational concept based on multiple uplink and downlink attempts and a respective timing for the preparation of the orbit timeline to enable standard operations under superior solar conjunction conditions with a Sun-Earth-Spacecraft angle as low as 2° (TBC). The required success rate sets of commands (number of commands in set: 50 TBC) and for telemetry packets is TBD.
+2012_marcopolo_WEB,The ground segment shall be able to support at least 4 (including rehearsals) touchdown and sampling attempts during the asteroid proximity phase.
+2012_marcopolo_WEB,The ground segment shall be able to support at least the 5 local characterization phases before sampling and the last one after sampling (above the sampled site).
+2012_marcopolo_WEB,The ground segment shall provide for a flexible re-planning capability during the asteroid phase. The manoeuvre planning for new asteroid proximity orbits and new sampling site targets shall be available within 4 days (TBC) after reception of the respective request.
+2012_marcopolo_WEB,The ground segment shall construct a global asteroid map and a global Digital Elevation Model with a 1-m spatial resolution (TBC) of the whole asteroid during the GCP phase primarily based on the navigation sensor information.
+2012_marcopolo_WEB,The overall mission reliability shall be better than 90% (TBC).
+2012_marcopolo_WEB,The design philosophy for all mechanisms shall be as defined in [RD5].
+2012_marcopolo_WEB,The risk of casualty resulting from the ERC re-entry shall be 1:10000 (TBC).
+2012_marcopolo_WEB,The communication system shall implement full redundancy except for the main antenna dishes (e.g. HGA).

@@ -1,0 +1,309 @@
+source,reqs
+2012_d51_web,Development of the SICCI system shall be undertaken with apt consideration for scientific consensus on performance specification of the operational system.
+2012_d51_web,Development of the SICCI system shall comply with all high level ESA CCI system requirements.
+2012_d51_web,Development of the SICCI system shall be undertaken with apt consideration for availability of input data from EO archives.
+2012_d51_web,Development of the SICCI system shall be undertaken with apt consideration for quality of input data from EO archives.
+2012_d51_web,"Development of the SICCI system shall be undertaken with apt consideration for availability of associated metadata, cal/val data and documentation."
+2012_d51_web,"Development of the SICCI system shall be undertaken with apt consideration for quality of associated metadata, cal/val data and documentation."
+2012_d51_web,Development of the SICCI system shall be undertaken with apt consideration for compatibility of data from different missions.
+2012_d51_web,Development of the SICCI system shall be undertaken with apt consideration for compatibility of data from different sensors.
+2012_d51_web,"Development of the SICCI system shall be undertaken with apt consideration for trade-off between cost, complexity and impact of new algorithms to be developed and validated during the project."
+2012_d51_web,Development of the SICCI system shall be undertaken with apt consideration for advance planning for data from new missions to be integrated during the project.
+2012_d51_web,Development of the SICCI system shall be undertaken with apt consideration for end-to-end throughput of ECV production systems.
+2012_d51_web,Development of the SICCI system shall be undertaken with apt consideration for re-use of existing capabilities within Europe.
+2012_d51_web,Development of the SICCI system shall be undertaken with apt consideration for compliance of ESA standards.
+2012_d51_web,Development of the SICCI system shall be undertaken with apt consideration for availability of external validation data.
+2012_d51_web,Development of the SICCI system shall be undertaken with apt consideration for avoidance of duplication of activities covered by existing operational projects.
+2012_d51_web,The SICCI system shall be cost effective.
+2012_d51_web,The pan-ECV systems must be cost effective as a whole
+2012_d51_web,Full advantage shall be taken of the latest developments in computing architectures in the development of the system.
+2012_d51_web,Full advantage shall be taken of the latest developments in data management in development of the system.
+2012_d51_web,Full advantage shall be taken of the latest developments in communications technology in development of the system.
+2012_d51_web,The SICCI system development should include cooperation with other consortia producing ECV products.
+2012_d51_web,The SICCI system shall have provision for future data set updates.
+2012_d51_web,The SICCI system shall allow algorithm change.
+2012_d51_web,The SICCI system shall have an archiving facility.
+2012_d51_web,"The SICCI system shall be designed to allow amenable interfacing to a higher level system responsible for pan-ECV collaboration, namely the Central Information System."
+2012_d51_web,The design of the system shall be as similar as possible to external systems associated with parallel ECV projects
+2012_d51_web,The SICCI system shall be designed to be data driven wherever possible
+2012_d51_web,The design of the system shall incorporate proven and scalable Off The Shelf (OTS) systems where possible
+2012_d51_web,The design of the system shall identify particularly critical components of the system.
+2012_d51_web,The SICCI system shall be provisioned with increased redundancy for identified critical components.
+2012_d51_web,The SICCI system shall adhere to GCOS Climate Monitoring Principle 1 - The impact of new systems or changes to existing systems should be assessed prior to implementation.
+2012_d51_web,The SICCI system shall adhere to GCOS Climate Monitoring Principle 2 - A suitable period of overlap for new and old observing systems should be required.
+2012_d51_web,"The SICCI system shall adhere to GCOS Climate Monitoring Principle 3 - The results of calibration, validation and data homogeneity assessments, and assessments of algorithm changes, should be treated with the same care as data."
+2012_d51_web,"The SICCI system shall adhere to GCOS Climate Monitoring Principle 4 - A capacity to routinely assess the quality and homogeneity of data on extreme events, including high-resolution data and related descriptive information, should be ensured."
+2012_d51_web,"The SICCI system shall adhere to GCOS Climate Monitoring Principle 5 - Consideration of environmental climate- monitoring products and assessments, such as IPCC assessments, should be integrated into national, regional and global observing priorities."
+2012_d51_web,The SICCI system shall adhere to GCOS Climate Monitoring Principle 6 - Uninterrupted station operations and observing systems should be maintained.
+2012_d51_web,The SICCI system shall adhere to GCOS Climate Monitoring Principle 7 - A high priority should be given to additional observations in data-poor regions and regions sensitive to change.
+2012_d51_web,"The SICCI system shall adhere to GCOS Climate Monitoring Principle 8 - Long- term requirements should be specified to network designers, operators and instrument engineers at the outset of new system design and implementation."
+2012_d51_web,The SICCI system shall adhere to GCOS Climate Monitoring Principle 9 - The carefully-planned conversion of research observing systems to long-term operations should be promoted.
+2012_d51_web,"The SICCI system shall adhere to GCOS Climate Monitoring Principle 10 - Data management systems that facilitate access, use and interpretation should be included as essential elements of climate monitoring systems."
+2012_d51_web,The SICCI system shall adhere to GCOS Climate Monitoring Principle 11 - Thus satellite systems for climate monitoring should adhere to the following specific principles: Constant sampling within the diurnal cycle (minimizing the effects of orbital decay and orbit drift) should be maintained.
+2012_d51_web,The SICCI system shall adhere to GCOS Climate Monitoring Principle 12 - A suitable period of overlap for new and old satellite systems should be ensured for a period adequate to determine inter- satellite biases and maintain the homogeneity and consistency of time- series observations.
+2012_d51_web,"The SICCI system shall adhere to GCOS Climate Monitoring Principle 13 - Continuity of satellite measurements (i.e., elimination of gaps in the long-term record) through appropriate launch and orbital strategies should be ensured."
+2012_d51_web,"The SICCI system shall adhere to GCOS Climate Monitoring Principle 14 - Rigorous pre-launch instrument characterization and calibration, including radiance confirmation against an international radiance scale provided by a national metrology institute, should be ensured."
+2012_d51_web,The SICCI system shall adhere to GCOS Climate Monitoring Principle 15 - On- board calibration adequate for climate system observations should be ensured and associated instrument characteristics monitored.
+2012_d51_web,The SICCI system shall adhere to GCOS Climate Monitoring Principle 16 - Operational production of priority climate products should be sustained and peer- reviewed new products should be introduced as appropriate.
+2012_d51_web,"The SICCI system shall adhere to GCOS Climate Monitoring Principle 17 - Data systems needed to facilitate user access to climate products, metadata and raw data, including key data for delayed- mode analysis, should be established and maintained."
+2012_d51_web,"The SICCI system shall adhere to GCOS Climate Monitoring Principle 18 - Use of functioning baseline instruments that meet the calibration and stability requirements stated above should be maintained for as long as possible, even when these exist on decommissioned satellites."
+2012_d51_web,The SICCI system shall adhere to GCOS Climate Monitoring Principle 19 - Complementary in situ baseline observations for satellite measurements should be maintained through appropriate activities and cooperation.
+2012_d51_web,The SICCI system shall adhere to GCOS Climate Monitoring Principle 20 - Random errors and time-dependent biases in satellite observations and derived products should be identified.
+2012_d51_web,"The SICCI System shall take as input, data from the following primary SIC product: SMMR Level 1b"
+2012_d51_web,"The SICCI System shall take as input, data from the following primary SIC product: SSM/I Level 1b"
+2012_d51_web,"The SICCI System shall take as input, data from the following primary SIC product: AMSR-E/Aqua L2A Global Swath Spatially-Resampled Tb"
+2012_d51_web,"The SICCI System shall take as input, data from the following primary SIC product: Envisat ASAR - ASA_WSM_1P"
+2012_d51_web,"The SICCI System shall take as input, data from the following primary SIC product: MODIS"
+2012_d51_web,"The SICCI System shall take as input, data from the following primary SIC product: Landsat TM_TM_1P"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIC product: ECMWF ERA-Interim"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIC product: Digital ice charts - various sources"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIC product: MODIS - MeltPondFraction UHAM- CliSAP-ICDC v01"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIC product: MODIS - Open water fraction UHAM-CliSAP-ICDC v01"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIC product: Open water fraction - RGPS_OWF"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIC product: Sea ice model data - HIGHTSI"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIC product: HIRLAM - High-Resolution Limited Area Model"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIC product: SMOS Arctic Sea Ice Thickness UB product"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIC product: AMSR-E thin ice thickness"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIC product: ERS1/2 RA - REAPER re-processed SGDR product"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIC product: Envisat RA-2 Sensor Data Record"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIC product: ICESat-1 - ICESat-GLA13"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIT product Airborne Laser Scanner (ALS)"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIT product Beaufort Gyre sea moored Upward Looking Sonar (ULS)"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIT product Submarine based Upward Looking Sonar (ULS)"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIT product ASIRAS Level 1B"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIT product Fram Strait Moored ULS"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIT product OIB Snow Radar L1B geolocated radar echo strength profiles"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIT product NASA-Team SMMR-SSM/I SIC"
+2012_d51_web,"The SICCI system shall take as input, data from the following auxiliary SIT product Snow depth on Arctic sea ice - Warren Snow Climatology"
+2012_d51_web,"The SICCI system shall generate SIC ECV products, as defined by PSD"
+2012_d51_web,"The SICCI system shall generate SIT ECV products, as defined by PSD"
+2012_d51_web,SIC ECV products shall be represented using NetCDF (Network Common Data Format) and CF (Climate and Forecast) convention.
+2012_d51_web,SIC ECV products shall be in accordance to ESA CCI Data Standards Working Group (DSWG) consensus on ECV product grammar definition.
+2012_d51_web,The SICCI system shall functionally treat the acquisition of data commonly for both SIT and SIC.
+2012_d51_web,The SICCI system shall functionally treat the homogenisation of data commonly both for SIT and SIC.
+2012_d51_web,The SICCI system shall automatically detect the presence of new SIC primary satellite data where such data is as defined by the DARD.
+2012_d51_web,The system shall be able to syntactically parse the metadata associated with each input product type.
+2012_d51_web,The system shall be able to semantically interpret the metadata associated with each input product type.
+2012_d51_web,"The system shall automatically check the following with regards to primary satellite data, where such integrity is as derived from the DARD - the format of the data should adhere to the accepted logical grammar."
+2012_d51_web,"The system shall automatically check the following with regards to primary satellite data, where such integrity is as derived from the DARD - the values content of the data should adhere to the accepted logical type and range."
+2012_d51_web,The system shall automatically detect new ancillary data associated with recognised primary satellite data where such ancillary data is as defined by the DARD.
+2012_d51_web,"The system shall automatically check the following with regards to the ancillary data associated with recognised primary satellite data, where such integrity is as derived via the DARD - the format of the data should adhere to the accepted logical grammar,"
+2012_d51_web,Once data is made available for Passive Acquisition the data shall start to be processed within <x> seconds.
+2012_d51_web,Once data is made available for Active Acquisition the data shall start to be processed within <x> seconds.
+2012_d51_web,"In order to accomplish Active Acquisition for a given data product, the system shall check the defined remote directory at a configurable frequency, starting from a configurable date and time."
+2012_d51_web,"The database storage of an acquired data file shall be completed within a temporal threshold, which is a multiple of <x> kilobytes acquired and <y> seconds. [TBD]"
+2012_d51_web,The system shall make provision for the manual editing of data in order to remove syntactically spurious data
+2012_d51_web,"If the format of the received satellite data products does not adhere to the accepted logical grammar as expected, then the system shall send out a warning to the Support Operator via the dashboard."
+2012_d51_web,"If the values content of the received satellite data products does not adhere to the accepted logical type or range as expected, then the system shall send out a warning to the Support Operator via the dashboard."
+2012_d51_web,"If the format of the ancillary data does not adhere to the accepted logical grammar as expected, then the system shall send out a warning to the Support Operator via the dashboard."
+2012_d51_web,"If the values content of the ancillary data does not adhere to the accepted logical type or range as expected, then the system shall send out a warning to the Support Operator via the dashboard."
+2012_d51_web,"On receiving a warning regarding the integrity of input data, the Support Operator shall ask the upstream system to re-deliver the input."
+2012_d51_web,"On receiving a warning regarding the integrity of input data, the Support Operator shall set the system in a state accommodating towards the resending of the input by the upstream operator."
+2012_d51_web,The SICCI system shall send a warning via the dashboard to Support Operator where data input size is larger than the maximum recognised for the data as derived via the DARD.
+2012_d51_web,"A cal/val tool shall be provided for an SICCI Product Contributor to manually accomplish the following – the specification of a list of fields as free text, where each field must textually match the data field of statistical interest in input data"
+2012_d51_web,A cal/val tool shall be provided for an SICCI Product Contributor to manually accomplish the following – the specification of a numerical quality threshold associated with each entry in the listed fields of (a)
+2012_d51_web,"The system shall automatically generate data quality statistics on input data, comprised of the following – display of the configurable data field defined"
+2012_d51_web,"The system shall automatically generate data quality statistics on input data, comprised of the following – the associated quality threshold defined"
+2012_d51_web,"The system shall automatically generate data quality statistics on input data, comprised of the following – unique identification of all items of data matching the configured data field label which have values falling outside the defined threshold"
+2012_d51_web,"If it is found from the quality checks on the input data that some statistical results fall outside an associated quality threshold, then the Product Expert shall investigate the source of the errors."
+2012_d51_web,"If it is found from the quality checks on the input data that some statistical results fall outside an associated quality threshold, then the Product Expert shall warn the relevant upstream system of the anomaly detected on the input data flows"
+2012_d51_web,"If it is found from the quality checks on the input data that some statistical results fall outside an associated quality threshold, then the system shall be set in a state whereby it can accommodate a new version of the same data flow being redelivered"
+2012_d51_web,"If it is found from the quality checks on the input data that some statistical results fall outside an associated quality threshold, then the Product Expert will report the anomaly to the Service Desk Manager"
+2012_d51_web,"If on investigating a Cal/Val related anomaly in input data the Product Expert finds that the problem is more serious, such as non-critical loss of an instrument on the platform, then the system shall have provision to allow the new configuration of input data, where the decision for the modification must be validated by the Service Manager"
+2012_d51_web,"If on investigating a Cal/Val related anomaly in input data the Product Expert finds that the problem is more serious, such as non-critical loss of an instrument on the platform, then information pertaining to the quality of the products shall be reported to the Service Desk from the Service Desk Manager"
+2012_d51_web,"If on investigating a Cal/Val related anomaly in input data the Product Expert finds that the problem is more serious, such as non-critical loss of an instrument on the platform, then information pertaining to the quality of the products shall be integrated into the resulting SICCI product"
+2012_d51_web,The SIC sub-system ECV product processing chain shall contain a Data Conversion & Selection module performing functionality as described in [R-8] §4.1.1 & 4.1.2.
+2012_d51_web,The SIC sub-system ECV product processing chain shall contain a Tiepoints Calculation module performing functionality as described in [R-8] §4.1.6.
+2012_d51_web,The SIC sub-system ECV product processing chain shall contain a SIC Calculation module performing functionality as described in [R-8] §4.1.4.
+2012_d51_web,The SIC sub-system ECV product processing chain shall contain a Uncertainty Calculation module performing functionality as described in [R-8] §4.1.5.
+2012_d51_web,The SIC sub-system ECV product processing chain shall contain a Gridding module performing functionality as described in [R-8] §4.2.1.
+2012_d51_web,The SIC sub-system ECV product processing chain shall contain a Coastal Correction module performing functionality as described in [R-8] §4.2.2.
+2012_d51_web,The SIC sub-system ECV product processing chain shall contain a Climatology Masking module performing functionality as described in [R-8] §4.2.3.
+2012_d51_web,The SIC sub-system ECV product processing chain shall contain a Quality Checking module performing functionality as described in §4.2.4.
+2012_d51_web,The SIC sub-system ECV product processing chain shall contain a SIC Analysis module performing functionality as described in [R-8] §4.3.1.
+2012_d51_web,The SIC sub-system ECV product processing chain shall contain a Gap Filling Interpolation module performing functionality as described in [R-8] §4.3.2.
+2012_d51_web,The SIC sub-system ECV product processing chain shall contain a Product Formatting module performing functionality as described in [R-8] §4.3.3.
+2012_d51_web,"The SIC sub-system shall make use of a production database to facilitate production, containing only the input and intermediary files used in generating the ECV product"
+2012_d51_web,"The SIC sub-system shall make use of a production database to store generated ECV products, containing only the ultimately generated ECV products"
+2012_d51_web,The SIT sub-system ECV product processing chain shall contain a Region Selection module performing functionality as described in [R-9] §1
+2012_d51_web,The SIT sub-system ECV product processing chain shall contain a General Filtering module performing functionality as described in [R-9] §2
+2012_d51_web,The SIT sub-system ECV product processing chain shall contain a Specular- Diffuse Discrimination module performing functionality as described in [R-9] §3
+2012_d51_web,The SIT sub-system ECV product processing chain shall contain a Floe- Ocean Discrimination module performing functionality as described in [R-9] §4
+2012_d51_web,The SIT sub-system ECV product processing chain shall contain a Leads Retracking module performing functionality as described in [R-9] §5.1
+2012_d51_web,The SIT sub-system ECV product processing chain shall contain a Floes Retracking module performing functionality as described in [R-9] §5.2
+2012_d51_web,The SIT sub-system ECV product processing chain shall contain a Ocean Retracking module performing functionality as described in [R-9] §5.3
+2012_d51_web,The SIT sub-system ECV product processing chain shall contain a Leads Filtering module performing functionality as described in [R-9] §6.1
+2012_d51_web,The SIT sub-system ECV product processing chain shall contain a Floes Filtering module performing functionality as described in [R-9] §6.2
+2012_d51_web,The SIT sub-system ECV product processing chain shall contain a Service Elevation Computation module performing functionality as described in [R-9] §7
+2012_d51_web,The SIT sub-system ECV product processing chain shall contain a Mean Sea Surface Removal module performing functionality as described in [R-9] §8
+2012_d51_web,The SIT sub-system ECV product processing chain shall contain a Freeboard Computation module performing functionality as described in [R-9] §9
+2012_d51_web,The SIT sub-system ECV product processing chain shall contain a Ice Thickness Computation module performing functionality as described in [R-9] §10
+2012_d51_web,"The SIT sub-system shall make use of a production database to facilitate production, containing only the input and intermediary files used in generating the ECV product"
+2012_d51_web,"The SIT sub-system shall make use of a production database to store generated ECV products, containing only the ultimately generated ECV products"
+2012_d51_web,The SIC sub-system shall store the most recent SIC product generated by the ECV processing chain
+2012_d51_web,The SIC sub-system shall manage a metadata catalogue of SIC products generated by the ECV processing chain
+2012_d51_web,The SIC sub-system shall automatically uniquely version each SIC product generated by the ECV processing chain.
+2012_d51_web,"The SIC sub-system shall automatically request the Central Operations service to generate a unique configuration file associated with each unique version comprising of the following information - List of input primary data products unique identifiers, including version"
+2012_d51_web,The SIC sub-system shall automatically request the Central Operations service to generate a unique configuration file associated with each unique version comprising of the following information - List of input primary data products description
+2012_d51_web,"The SIC sub-system shall automatically request the Central Operations service to generate a unique configuration file associated with each unique version comprising of the following information - List of input ancillary data products unique identifiers, including version"
+2012_d51_web,The SIC sub-system shall automatically request the Central Operations service to generate a unique configuration file associated with each unique version comprising of the following information - List of input ancillary data products description
+2012_d51_web,The SIC sub-system shall automatically request the Central Operations service to generate a unique configuration file associated with each unique version comprising of the following information - Unique ECV product identifier
+2012_d51_web,The SIC sub-system shall automatically request the Central Operations service to generate a unique configuration file associated with each unique version comprising of the following information - Associated instruments
+2012_d51_web,"The SIC sub-system shall automatically request the Central Operations service to generate a unique configuration file associated with each unique version comprising of the following information - Details of operating procedures, including version"
+2012_d51_web,"The SIC sub-system shall automatically request the Central Operations service to generate a unique configuration file associated with each unique version comprising of the following information - Details of algorithms used, including version"
+2012_d51_web,The SIC sub-system shall automatically request the Central Operations service to generate a unique configuration file associated with each unique version comprising of the following information - Timestamp
+2012_d51_web,The SIT sub-system shall store the most recent SIT product generated by the ECV processing chain
+2012_d51_web,The SIT sub-system shall manage a metadata catalogue of SIT products generated by the ECV processing chain
+2012_d51_web,The SIT sub-system shall automatically uniquely version each SIT product generated by the ECV processing chain.
+2012_d51_web,The SIT sub-system shall automatically request a Central Operations service to generate a unique configuration file associated with each unique version comprising of the following information -
+2012_d51_web,The SICCI system shall functionally treat the long term preservation of ECV products commonly for both SIT and SIC.
+2012_d51_web,The SICCI system shall address the European Long Term Data Preservation Guidelines
+2012_d51_web,The SICCI system shall functionally treat the provision of ECV data products to parties outside of the SICCI system commonly for both SIT and SIC.
+2012_d51_web,"The SICCI system shall serve ECV products by the OpeNDAP NetCDF-CF data server, ftp server for bulk download, and web portal (http server) for bulk download."
+2012_d51_web,The SICCI system shall provide a common data catalogue for SIC and SIT products
+2012_d51_web,The SIC sub-system metadata format shall comply with ISO19115 for spatial product metadata
+2012_d51_web,The SIC sub-system metadata format shall comply with ISO19119 for spatial access
+2012_d51_web,The SIC sub-system metadata format shall comply with ISO19139 official implementation of the two precedent standards
+2012_d51_web,The SICCI system shall make provision for user access functionality requiring a username and password.
+2012_d51_web,The SICCI system shall provide an interface for user authentication.
+2012_d51_web,"The SICCI system shall provide an interface for catalogue search, in order to allow interoperability of catalogues (CSW – OGC) and compliance with INSPIRE European Directive"
+2012_d51_web,"The SICCI system shall provide an interface to allow catalogue syncing with a Central Information System (CIS), compliant with OGC."
+2012_d51_web,The SICCI system shall allow download of products only following user authentication.
+2012_d51_web,"The SICCI system shall make provision for the logging of product downloading, in order to attain information which may be useful for the enhancement of data dissemination to users in future."
+2012_d51_web,The SICCI system shall make provision for a ticketing system for dealing with requests from users.
+2012_d51_web,User requests shall be addressed to the ticketing system via emailable electronic form.
+2012_d51_web,When a request arrives at the ticketing system it shall be addressed by the Service Desk user
+2012_d51_web,The system shall provide a product information handbook to SICCI Product Users.
+2012_d51_web,The product information handbook shall be made available via the Web Portal.
+2012_d51_web,The system shall provide requested information to users if available via a Web Portal intelligent word search of the available types of information.
+2012_d51_web,"The SICCI system shall perform common absorption and homogenisation of input data within a temporal threshold, which is a multiple of <x> kilobytes and <y> seconds [TBD]"
+2012_d51_web,"The SICCI System shall perform processing for SIC module Data Conversion & Selection within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds"
+2012_d51_web,"The SICCI System shall perform processing for SIC module Tiepoints Calculation within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds"
+2012_d51_web,"The SICCI System shall perform processing for SIC module SIC Calculation within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds"
+2012_d51_web,"The SICCI System shall perform processing for SIC module Uncertainty Calculation within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds"
+2012_d51_web,"The SICCI System shall perform processing for SIC module Gridding within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds"
+2012_d51_web,"The SICCI System shall perform processing for SIC module Coastal Correction within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds"
+2012_d51_web,"The SICCI System shall perform processing for SIC module Climatology Masking within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds"
+2012_d51_web,"The SICCI System shall perform processing for SIC module Quality Checking within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds"
+2012_d51_web,"The SICCI System shall perform processing for SIC module SIC Analysis within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds"
+2012_d51_web,"The SICCI System shall perform processing for SIC module Gap Filling Interpolation within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds"
+2012_d51_web,"The SICCI System shall perform processing for SIC module Product Formatting within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds"
+2012_d51_web,"The SICCI System shall perform processing for SIT module Region Selection within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds."
+2012_d51_web,"The SICCI System shall perform processing for SIT module General Filtering within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds."
+2012_d51_web,"The SICCI System shall perform processing for SIT module Specular- Diffuse Discrimination within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds."
+2012_d51_web,"The SICCI System shall perform processing for SIT module Floe-Ocean Discrimination within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds."
+2012_d51_web,"The SICCI System shall perform processing for SIT module Leads Retracking within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds."
+2012_d51_web,"The SICCI System shall perform processing for SIT module Floes Retracking within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds."
+2012_d51_web,"The SICCI System shall perform processing for SIT module Ocean Retracking within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds."
+2012_d51_web,"The SICCI System shall perform processing for SIT module Leads Filtering within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds."
+2012_d51_web,"The SICCI System shall perform processing for SIT module Floes Filtering within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds."
+2012_d51_web,"The SICCI System shall perform processing for SIT module Service Elevation Computation within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds."
+2012_d51_web,"The SICCI System shall perform processing for SIT module Mean Sea Surface Removal within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds."
+2012_d51_web,"The SICCI System shall perform processing for SIT module Freeboard Computation within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds."
+2012_d51_web,"The SICCI System shall perform processing for SIT module Ice Thickness Computation within a temporal threshold, which is a multiple of <x> kilobytes processed and <y> seconds."
+2012_d51_web,"The SICCI system shall have provision for Production monitoring, the monitoring of the product pipeline per SIT, SIC"
+2012_d51_web,"The SICCI system shall have provision for System monitoring, the monitoring of system events, including the monitoring of external activity to the SLCCI system supplying required data fields to the SLCCI system."
+2012_d51_web,The SICCI system shall have provision for Request monitoring of transaction accounted downloads accomplished through a Customer Relationship Management (CRM) tool under the auspices of the Service Desk.
+2012_d51_web,The SICCI system shall functionally treat monitoring centrally for SIT and SIC.
+2012_d51_web,The system shall provide a dashboard illustrating the state of all monitoring.
+2012_d51_web,The system shall have provision to system monitor the SICCI physical resources
+2012_d51_web,A Support Operator shall be responsible for system monitoring
+2012_d51_web,The system shall make provision for automated system monitoring only where the SLCCI physical resource being monitored can have a threshold set
+2012_d51_web,The thresholds for automated system monitoring shall be configurable by a Support Operator.
+2012_d51_web,Production Monitoring shall not contribute to overall performance of the system by more than 1 %.
+2012_d51_web,System Monitoring shall not contribute to overall performance of the system by more than 1 %.
+2012_d51_web,Request Monitoring shall not contribute to overall performance of the system by more than 1 %.
+2012_d51_web,Any data preservation operation shall not interrupt the normal operation of the system.
+2012_d51_web,Any data preservation operation shall not comprise a performance cost of more than 1% of the performance cost of the whole system.
+2012_d51_web,Data preservation shall be automated where possible.
+2012_d51_web,The SICCI system shall allow for simultaneous downloads from <x> users.
+2012_d51_web,The SIC sub-system shall make provision for at least <x> TBs of disk storage dedicated to intermediary data for the processing chain.
+2012_d51_web,The SIT sub-system shall make provision for at least <x> TBs of disk storage dedicated to intermediary data for the processing chain.
+2012_d51_web,The SIC sub-system shall make provision for at least <x> TBs of disk storage dedicated to hosting SIC ECV products ready for download by users
+2012_d51_web,The SIT system shall make provision for at least <x> TBs of disk storage dedicated to hosting SIT ECV products ready for download by users.
+2012_d51_web,The system shall make provision for at least <x> TBs of disk storage dedicated for long term data preservation of SIC ECV products
+2012_d51_web,The system shall make provision for at least <x> TBs of disk storage dedicated for long term data preservation of SIT ECV products
+2012_d51_web,The SICCI system shall functionally treat inventory management centrally for SIT and SIC.
+2012_d51_web,The SICCI system shall allow for the provision of an inventory to account for all SICCI physical resources associated with the system.
+2012_d51_web,All SICCI physical resources shall have an asset identification label.
+2012_d51_web,All asset identification labels shall be easily accessible for viewing
+2012_d51_web,A Support Contributor shall provide a support plan indicating how all system assets are to be maintained.
+2012_d51_web,The support plan shall define how updates shall be addressed for all SICCI assets.
+2012_d51_web,The support plan shall define how service packs shall be addressed for all SLCCI assets.
+2012_d51_web,"The support plan shall define how SICCI asset obsolescence policy ; for example, if an SICCI physical resource experiences a physical failure which is beyond repair and a new item needs to be purchased, then the support plan needs to describe how the obsolescence of the expired SICCI physical resource should be treated, such as describing considerations for environmental and sustainability matters which need to be taken into account when disposing of the equipment."
+2012_d51_web,The network infrastructure on which the SICCI physical resources reside shall accommodate IP based communication
+2012_d51_web,Any non-registered user shall be able to access all areas of the SICCI portal other than for the downloading of SICCI products.
+2012_d51_web,"Any non-registered user shall be able to search the SICCI portal, including the product catalogue."
+2012_d51_web,The web portal shall be protected against exploitation of security holes.
+2012_d51_web,The web portal shall be protected against exploitation of worms.
+2012_d51_web,The web portal shall be protected against exploitation of viruses.
+2012_d51_web,The system shall prevent any disclosure of information to unauthorised parties.
+2012_d51_web,"The system shall allow access profiles for each SICCI Contributor to be configurable, so associating each SICCI Contributor with the privileges required for their role(s)."
+2012_d51_web,"At the start of their shift, the SLCCI Contributor shall be required to login to the system."
+2012_d51_web,"At the end of their shift, the SLCCI Contributor shall be required to logout of the system."
+2012_d51_web,The system shall have provision for the logging of SLCCI Contributor logins.
+2012_d51_web,The system shall have provision for the logging of SLCCI Contributor logout.
+2012_d51_web,All SICCI Contributors shall be cleared to handle commercially sensitive intellectual property where required.
+2012_d51_web,Only SICCI Contributors cleared to handle relevant commercially sensitive intellectual property shall have physical access to SICCI physical resources on which the information is stored.
+2012_d51_web,It shall be possible to disassociate a user from any role.
+2012_d51_web,The SICCI system shall undergo a security health check as part of a test activities programme.
+2012_d51_web,The SICCI test activities programme shall include system penetration tests.
+2012_d51_web,SLCCI Contributors shall not share passwords.
+2012_d51_web,Passwords stored on the SICCI system shall be stored in an encrypted form.
+2012_d51_web,Passwords shall be communicated in an encrypted form if the communication of passwords is required between two SICCI physical resource units.
+2012_d51_web,"Passwords shall not be communicated, electronically or verbally, to any party external to the SICCI system"
+2012_d51_web,The SICCI System shall operate in a virtualised environment.
+2012_d51_web,The SICCI System shall operate in a cloud.
+2012_d51_web,The long term preservation of ECV products and secondary information generated by the SICCI System shall be long term preserved in a cloud.
+2012_d51_web,The SICCI System shall interface with the ESGF.
+2012_d51_web,"During SICCI system development a software configuration system shall be used to manage all source code artefacts during software implementation, so maintaining integrity and traceability during development."
+2012_d51_web,During SICCI system development an observation report management system shall be employed to track all observation reports during software implementation
+2012_d51_web,During SICCI system development apt attention shall be given to ECSS standard ECSS-Q-ST-80C (Space Product Assurance) as per reuse of existing software (section 6.2.7.2) such that an analysis shall be carried out of the advantages and disadvantages to be attained with the selection of existing software over new development.
+2012_d51_web,"During SICCI system development apt attention shall be given to ECSS standard ECSS-Q-ST-80C (Space Product Assurance) as per reuse of existing software (section 6.2.7.3) such that existing software shall be assessed with respect to functional, performance and quality requirements, with a view on identification of an appropriate software system for re-use."
+2012_d51_web,During SICCI system development apt attention shall be given to ECSS standard ECSS-Q-ST-80C (Space Product Assurance) as per reuse of existing software (section 6.2.7.4) such that the quality level of the existing software shall be assessed with regards to project requirements.
+2012_d51_web,"During SICCI system development apt attention shall be given to ECSS standard ECSS-Q-ST-80C (Space Product Assurance) as per reuse of existing software (section I6.2.7.5) such that results of the software reuse analysis shall be documented, including assumptions and methods applied towards estimating level of reuse."
+2012_d51_web,During SICCI system development apt attention shall be given to ECSS standard ECSS-Q-ST-80C (Space Product Assurance) as per reuse of existing software (section 6.2.7.7) such that corrective actions shall be identified and appropriately documented where the reused software does not meet the appropriate requirements of the SLCCI system.
+2012_d51_web,During SICCI system development apt attention shall be given to ECSS standard ECSS-Q-ST-80C (Space Product Assurance) as per reuse of existing software (section 6.2.7.8) such that missing documentation shall be attained to aptly reach verification and validation coverage.
+2012_d51_web,During SICCI system development apt attention shall be given to ECSS standard ECSS-Q-ST-80C (Space Product Assurance) as per reuse of existing software (section 6.2.7.9) such that identified corrective actions shall be appropriately updated and documented at project milestones.
+2012_d51_web,During SICCI system development apt attention shall be given to ECSS standard ECSS-Q-ST-80C (Space Product Assurance) as per reuse of existing software (section 6.2.7.10) such that the system being reused shall be kept under configuration control.
+2012_d51_web,During SICCI system development apt attention shall be given to ECSS standard ECSS-Q-ST-80C (Space Product Assurance) as per reuse of existing software (section 6.2.7.11) such that the configuration status of the baseline associated with the reused software shall be appropriately documented.
+2012_d51_web,The Mean Time Between Maintenance (MTBM) for the system shall be at least <x> hours.
+2012_d51_web,The Mean Time Between Maintenance (MTBM) specific to functionality within the production pipeline shall be at least <x> hours.
+2012_d51_web,The Mean Time Between Maintenance (MTBM) specific to monitoring functionality shall be at least <x> hours.
+2012_d51_web,The Mean Time Between Maintenance (MTBM) specific to product access and visualisation functionality shall be at least <x> hours.
+2012_d51_web,The Mean Time Between Maintenance (MTBM) specific to product management functionality shall be at least <x> hours.
+2012_d51_web,The Mean Maintenance Downtime (MMD) of the system shall be no more than <x> hours.
+2012_d51_web,The Mean Maintenance Downtime (MMD) for functionality specific to the production pipeline shall be no more than <x> hours.
+2012_d51_web,The Mean Maintenance Downtime (MMD) specific to monitoring functionality shall be no more than <x> hours.
+2012_d51_web,The Mean Maintenance Downtime (MMD) specific to product access & visualisation functionality shall be no more than <x> hours.
+2012_d51_web,The Mean Maintenance Downtime (MMD) specific to product management functionality shall be no more than <x> hours.
+2012_d51_web,The Mean Time Between Failures (MTBF) for all functionality within the production pipeline shall be at least <x> hours.
+2012_d51_web,The Mean Time Between Failures (MTBF) specific to monitoring functionality shall be at least <x> hours.
+2012_d51_web,The Mean Time Between Failures (MTBF) specific to product access and visualisation functionality shall be at least <x> hours.
+2012_d51_web,The Mean Time Between Failures (MTBF) specific to product management functionality shall be at least <x> hours.
+2012_d51_web,The Mean Time To Repair (MTTR) specific to the production pipeline shall be no more than <x> hours.
+2012_d51_web,The Mean Time To Repair (MTTR) specific to monitoring functionality shall be no more than <x> hours.
+2012_d51_web,The Mean Time To Repair (MTTR) specific to product access and visualisation functionality shall be no more than <x> hours.
+2012_d51_web,The Mean Time To Repair (MTTR) specific to product management functionality shall be no more than <x> hours.
+2012_d51_web,The system architecture shall be free of any single point of failure (SPF).
+2012_d51_web,"The software within the SICCI system shall be configurable during run-time rather than configurable during down- time wherever feasible, so helping avoid the need to harm availability of the system and further accommodating automation."
+2012_d51_web,The SICCI system shall have a provision to export all primary satellite data that it holds.
+2012_d51_web,The SICCI system shall have a provision to export all ancillary data that it holds.
+2012_d51_web,The system shall have a provision to export all user registration information that it holds.
+2012_d51_web,The database components used shall be sufficiently scalable to be computationally capable of processing the data load of future mission data
+2012_d51_web,The maximum SIC processing chain database size provision for primary satellite data shall be <x> Mb. [TBC]
+2012_d51_web,The maximum SIT processing chain database size provision for primary satellite data shall be <x> Mb. [TBC]
+2012_d51_web,The maximum database size provision for SIC ancillary data shall be <x> Mb. [TBC]
+2012_d51_web,The maximum database size provision for SIT ancillary shall be <x> Mb. [TBC]
+2012_d51_web,The maximum database size provision for SIC intermediary products shall be <x> Mb. [TBC]
+2012_d51_web,The maximum database size provision for SIT intermediary products shall be <x> Mb. [TBC]
+2012_d51_web,The maximum database size provision for user information shall be <x> Mb. [TBC]
+2012_d51_web,The SICCI system shall provide information via the portal denoting the algorithms used across production pipeline.
+2012_d51_web,The SICCI system shall provide the means for portal users to view on-going system activity.
+2012_d51_web,The SICCI System will provide the means by which users can provide feedback to SICCI System personnel.
+2012_d51_web,The SICCI system shall provide event status information on production pipeline within <x> seconds of a significant event occurring.
+2012_d51_web,Any user shall be allowed to perform a search query on the product meta information
+2012_d51_web,A registered user shall be able to perform a query on the content across all products
+2012_d51_web,A style guide shall be constructed for SICCI graphical user interfaces.
+2012_d51_web,All graphical user interfaces shall conform to the SICCI style guide
+2012_d51_web,"The SICCI system shall have associated with it a formal, well defined series of instructions for the setting up of all network infrastructure associated with all SICCI hardware."

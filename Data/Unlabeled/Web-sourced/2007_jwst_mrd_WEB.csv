@@ -1,0 +1,256 @@
+source,reqs
+2007_jwst_mrd_web,The International System of Units shall be used per IEEE/ASTM SI 10-2002: American National Standard for Use of the International System of Units (SI): The Modern Metric System.
+2007_jwst_mrd_web,Hybrid SI/English units are permitted for engineering and manufacturing drawings.
+2007_jwst_mrd_web,"Hybrid SI/standard astronomical units are permitted for Astronomer User’s Manuals, user interfaces (Graphical User Interfaces and files) consistent with the Astronomer's User Manuals, and for the following project documents:"
+2007_jwst_mrd_web,Non-SI units are permitted for heritage Ground Software.
+2007_jwst_mrd_web,Non-SI units are permitted in heritage hardware documentation
+2007_jwst_mrd_web,The Launch Vehicle shall place the Observatory on a trajectory from which the Observatory can transfer itself to its operational orbit.
+2007_jwst_mrd_web,The Observatory shall orbit the Second LaGrange Point (L2) of the Sun–Earth system.
+2007_jwst_mrd_web,"The operational JWST System shall maintain the excursion of the orbit about L2 in the Z direction (defined in Figure 3-2) to less than or equal to 500,000 Km."
+2007_jwst_mrd_web,"The operational JWST System shall maintain the excursion of the orbit about L2 in the Y direction (defined in Figure 3-2) to less than or equal to 800,000 Km."
+2007_jwst_mrd_web,The operational JWST System shall maintain the orbit about L2 such that the Observatory does not enter an eclipse.
+2007_jwst_mrd_web,"After separation from the Launch Vehicle, the Observatory shall obtain its operational orbit about L2 from the Launch Vehicle transfer orbits defined in the Application to Use Ariane (DUA) IRD (JWST-IRD-003674)."
+2007_jwst_mrd_web,"The science mission lifetime, after commissioning, shall be a minimum of 5 years."
+2007_jwst_mrd_web,The planned commissioning phase shall end no later than six months after launch.
+2007_jwst_mrd_web,The operational JWST system shall deliver to the S&OC a minimum of 92.5% of all real-time telemetry.
+2007_jwst_mrd_web,The operational JWST system shall archive a minimum of 97% of all data recorded on the Observatory.
+2007_jwst_mrd_web,"The observatory system shall reach the sensitivity performance levels shown in the following table when observing a position on the celestial sphere that exhibits 1.2 times the minimum Zodiacal light background power as calculated in the NIRCam Sensitivity Calculations (JWST-CALC-003894), NIRSpec Sensitivity Calculations (JWST-CALC-003895), MIRI Sensitivity Calculations, (JWST-CALC-003896), and FGS-TF Sensitivity Calculations (JWST-CALC-003897)."
+2007_jwst_mrd_web,"The contamination control of all Observatory components during fabrication, assembly, integration, and test shall be in accordance with the JWST Observatory Contamination Control Plan (JWST-PLAN-002028)."
+2007_jwst_mrd_web,The JWST System shall image the OTE primary mirror to establish the optical alignment of the OTE to the NIRCam when commanded.
+2007_jwst_mrd_web,"During a normal operations contact, the Observatory shall be capable of downlinking, and the Ground Segment capable of receiving 229 Gigabits of science data, which was compressed from 458 Gigabits."
+2007_jwst_mrd_web,The operational JWST System shall have at least one two-way communication contact between the Observatory and Ground Segment in a 24 hour period.
+2007_jwst_mrd_web,The operational JWST System shall be in continuous two-way communication from separation from the upper stage of the launch vehicle until the completion of Observatory Primary Mirror Phasing activities.
+2007_jwst_mrd_web,The operational JWST System shall be in downlink communication from launch vehicle payload fairing separation until separation from the upper stage of the launch vehicle.
+2007_jwst_mrd_web,"The Observatory and Ground Segment combined command bit error rate (BER) shall be less than 1E-7 after applying physical layer decoding, not including retransmission by higher layers."
+2007_jwst_mrd_web,"The Observatory and Ground Segment combined telemetry BER for Ka-band and S- band downlink shall be less than 1E-7, after Reed-Solomon decoding corrections on the ground."
+2007_jwst_mrd_web,The Observatory Data Loss shall be no more than 0.1% due to bit errors from each Science Instrument to transmission at the output of the spacecraft communication system.
+2007_jwst_mrd_web,The JWST System shall perform image-based wavefront sensing and control to meet all image quality requirements.
+2007_jwst_mrd_web,"The operational JWST System shall determine the a posteriori pointing knowledge for the SI FOVs to within 1 arcsec (1-sigma, radial) of their true positions in the celestial coordinate frame. For imaging and spectroscopic data this applies over the entire SI FOV."
+2007_jwst_mrd_web,"After commissioning, the JWST system shall provide at least 30,556 hours of prime exposure time on scientific targets over 5 years. This is based on and will be verified by a hypothetical science program designed with 500, 90 degree slews and 8,000 small angle slews per year."
+2007_jwst_mrd_web,"After calibration, the field distortion uncertainty within any SI and the guider shall not exceed 0.005 arcsec, 1 sigma per axis."
+2007_jwst_mrd_web,The operational JWST system shall utilize the Deep Space Network (DSN).
+2007_jwst_mrd_web,"No single part failure shall cause total loss of a function, or prevent access to extant redundant functionality."
+2007_jwst_mrd_web,"Thermal design margins shall be in accordance with the General Environmental Verification Specification for STS and ELV Payloads, Subsystems and Components (GEVS-SE) for all non-cryogenic components."
+2007_jwst_mrd_web,"The calculated margin on the heat rejection capacity of cryogenic systems shall be no less than 50% at the Critical Design Review (CDR). (This requirement does not apply to stored cryogen.) For all cryogenic components (<100 Kelvin [K]), margin is defined as excess heat rejection capacity as a percentage of the calculated load."
+2007_jwst_mrd_web,The Observatory shall operate up to a maximum Earth range of 1.8 x 106 kilometers.
+2007_jwst_mrd_web,"The Observatory shall provide the delta velocity, as computed by the Ground Segment, to maintain the excursion of the orbit about L2 in the Z direction (defined in Figure 3-2) to less than or equal to 500,000 Km."
+2007_jwst_mrd_web,"The Observatory shall provide the delta velocity, as computed by the Ground Segment, to maintain the excursion of the orbit about L2 in the Y direction (defined in Figure 3-2) to less than or equal to 800,000 Km."
+2007_jwst_mrd_web,"The JWST Observatory wet mass shall not exceed 6,159 kilograms."
+2007_jwst_mrd_web,"Any launch vehicle performance enhancement or reduction due to mission-unique, non-standard launch vehicle hardware or capability shall be added or subtracted, respectively, from the Observatory mass allocation."
+2007_jwst_mrd_web,"After commissioning, the JWST observatory shall use no more than 10,206 hours over 5 years for overhead activities which detract from prime exposure time on scientific targets. This allocation includes time for wavefront sensing and control activities, High Gain Antenna Steering, Observatory large, medium and small angle slew and settling times, station keeping, momentum management, spacecraft and ISIM safe mode down time, Guide Star identification, acquisition and retries, science instrument internal calibrations, and overheads associated with the set-up of science instrument for observations. The allocation is based on and will be verified by a hypothetical science program designed with 500, 90 degree slews and 8,000 small angle slews per year."
+2007_jwst_mrd_web,"Over an interval of one sidereal year, the Observatory shall have total sky coverage of 100%. Total sky coverage is defined as the percentage of the celestial sphere that JWST can observe while meeting all performance requirements."
+2007_jwst_mrd_web,The Observatory Field of Regard shall be at least 35% of the celestial sphere. Field of Regard is defined as the percentage of the celestial sphere that can be observed by the observatory at any given time while meeting all performance requirements.
+2007_jwst_mrd_web,"The Observatory shall observe targets in 50% of the celestial sphere for at least 60 consecutive days per year, when commanded."
+2007_jwst_mrd_web,The Observatory shall have a continuous visibility zone within 5 degrees of the ecliptic poles. Continuous visibility zone is defined as that portion of the sky that is always within the field of regard of the Observatory.
+2007_jwst_mrd_web,The Observatory spectral coverage shall extend from 0.6 µm to 27 µm.
+2007_jwst_mrd_web,The Spacecraft and OTE shall have a combined reliability goal of 0.920.
+2007_jwst_mrd_web,The reliability of the ISIM element shall be greater than or equal to .758.
+2007_jwst_mrd_web,"Over the FOV of the NIRCam, the observatory shall be diffraction limited at 2 µm"
+2007_jwst_mrd_web,"Without requiring ground-commanded correction, there shall be less than 2.0% root- mean-squared (RMS) variation about the mean encircled energy, defined to be at 0.08 arcsec radius at a wavelength of 2µm, over a 24 hour period."
+2007_jwst_mrd_web,"The 24 hour stability requirements shall be met for any combination of target pointings within the field of regard (FOR), including those separated by a slew with a thermally worst-case 10 degree pitch change."
+2007_jwst_mrd_web,The Encircled Energy within a radius of 0.08 arcsec at 2 ?m shall not change by more than 2.5% in less than 14 days following a worst case slew from a thermal equilibrium condition at the coldest pointing environment to the hottest pointing environment.
+2007_jwst_mrd_web,"The Observatory, over the FOV of the Mid-Infrared Instrument (MIRI) shall be diffraction limited at 5.6 µm, defined as having a Strehl Ratio greater than or equal to 0.8."
+2007_jwst_mrd_web,"When observing a position on the celestial sphere that exhibits 1.2 times the minimum Zodiacal light background radiance, the stray light incident into an instrument acceptance cone at the instrument pickoff mirror shall be less than an equivalent background in the field of view having a spectral radiance at the wavelengths and exclusion angles given in the table below. Sources excluded from contributing to this stray light are [1] sources inside the exclusion angle of the nominal line-of-sight, [2] sources brighter than AB mag=1 within 2.5 degrees of the line-of-sight, [3] solar system planets other than the Earth-Moon system."
+2007_jwst_mrd_web,The thermal emission stray light from the Observatory incident into an instrument acceptance cone at the instrument pickoff mirror shall be less than an equivalent background in the field of view having a spectral radiance of 3.9 E-20 W m-2 Hz-1 sr-1 at a wavelength of 10 µm and 2.00 E-18 W m-2 Hz-1 sr-1 at a wavelength of 20 µm.
+2007_jwst_mrd_web,"Over the FOV of the NIRCam, the Observatory shall be diffraction limited at 2 µm defined as having a Strehl Ratio greater than or equal to (To Be Determined [TBD]) when tracking any available target that exhibits an angular velocity v in the range of (TBD) milliseconds of arc per second (mas s-1) with respect to the guide star."
+2007_jwst_mrd_web,The Observatory shall perform image-based wavefront sensing when commanded.
+2007_jwst_mrd_web,The Observatory wavefront error (WFE) shall be correctable via ground command.
+2007_jwst_mrd_web,After Observatory Primary Mirror Phasing activities are completed the Observatory shall communicate with the Ground Segment on a daily basis.
+2007_jwst_mrd_web,The Observatory shall maintain event logs of the status of Observatory subsystems.
+2007_jwst_mrd_web,"During normal operations, the Observatory shall reject commands that do not meet the authentication protocol specified in the JWST Flight Observatory to Ground Segment IRCD (JWST-IRCD-000696)."
+2007_jwst_mrd_web,All science and defined engineering and housekeeping data generated by JWST shall be written to on-board storage and held for downlink to the Ground Segment.
+2007_jwst_mrd_web,The Spacecraft data storage capacity shall be at least 471 Gigabits of science and engineering data.
+2007_jwst_mrd_web,All science data common to a single exposure shall share a unique exposure identification by instrument that makes those data identifiable in on-board storage.
+2007_jwst_mrd_web,All science data common to an observation shall share a unique observation identification that makes those data identifiable in on-board storage.
+2007_jwst_mrd_web,The Spacecraft shall simultaneously store onboard science and housekeeping (including engineering) data during data playback.
+2007_jwst_mrd_web,The Observatory internal Command and Data Handling interfaces shall be compatible in accordance with the JWST ISIM to OTE and Spacecraft IRCD (JWST-IRCD- 000640).
+2007_jwst_mrd_web,"At launch, the processor usage required to support operations (launch, commissioning and post-commissioning) shall not exceed 70% peak processor usage of total processor throughput capability."
+2007_jwst_mrd_web,"The local and external data bus utilization required to support planned operations (launch, commissioning and post-commissioning) shall be no greater than 80% peak."
+2007_jwst_mrd_web,The Observatory central timing system shall be correlated to Coordinated Universal Time (UTC) to the accuracy defined in the JWST Flight Observatory to Ground Segment Interface Requirements and Control Document (JWST-IRCD-000696).
+2007_jwst_mrd_web,The UTC clock correlation shall not require update more than once per day.
+2007_jwst_mrd_web,"In conjunction with the on-going execution of stored commands, the Observatory shall have the capability to receive and execute real-time commands from the ground segment."
+2007_jwst_mrd_web,Protections shall exist to prevent the mutual interference of real–time and stored commanding.
+2007_jwst_mrd_web,The Observatory shall remain safe in the event of any command error or break in a command sequence.
+2007_jwst_mrd_web,The Observatory shall verify all commands received.
+2007_jwst_mrd_web,The Observatory shall report all verified commands.
+2007_jwst_mrd_web,The Observatory shall validate all commands prior to execution.
+2007_jwst_mrd_web,The Observatory shall report all validated commands.
+2007_jwst_mrd_web,The Observatory shall report all commands that have been executed.
+2007_jwst_mrd_web,"The Observatory shall report and reject invalid commands. An invalid command is any command that has an undefined application identifier, bad checksum or undefined operation code."
+2007_jwst_mrd_web,The Observatory shall be capable of parallel SI exposures while performing fine guidance.
+2007_jwst_mrd_web,The Observatory C&DH hardware (except for the Solid State Recorder [SSR] storage capacity) and software shall be sized for 10 days of autonomous science plan execution without ground intervention.
+2007_jwst_mrd_web,The Observatory shall accommodate uplinked replans that revise the on-board science observation plan.
+2007_jwst_mrd_web,"Concurrent with playback of stored data, the Spacecraft shall downlink real-time housekeeping (including real-time engineering) and ancillary data (e.g., memory dumps)."
+2007_jwst_mrd_web,"When the Ka-band communication link is available, the real-time engineering data shall be interleaved with the recorded engineering and science data for transmission via the Ka-Band link."
+2007_jwst_mrd_web,The Observatory software shall execute event-driven Observatory operations.
+2007_jwst_mrd_web,The Observatory internal Command and Data Handling subsystems shall use the same Operating System.
+2007_jwst_mrd_web,"Observatory software that is modifiable after launch shall be developed using commercially supported Ada, C, C++, or assembly programming language when use of a high level language will not meet performance requirements."
+2007_jwst_mrd_web,The Observatory shall continue uninterrupted science operations during real-time ground commanded changes to tables and files.
+2007_jwst_mrd_web,All FSW that executes out of volatile memory (RAM and EEPROM type devices) shall be maintainable through partial and full reloading.
+2007_jwst_mrd_web,Any single processor with in-flight reconfigurable software shall maintain 30% volatile and non-volatile memory margin at launch.
+2007_jwst_mrd_web,The Observatory data loss shall be no more than 0.1% due to bit errors from FPE data acquisition to transmission at the output of the Spacecraft communication system.
+2007_jwst_mrd_web,The Observatory shall prevent permanent damage to itself due to exposure to the Sun during all phases of the mission. Damage is defined as any permanent inability to meet performance requirements.
+2007_jwst_mrd_web,The Observatory shall use stars to stabilize the image on the detectors.
+2007_jwst_mrd_web,The Observatory shall have greater than 95% probability of acquiring a guide star and maintaining pointing stability on any fixed target for any valid attitude within the FOR.
+2007_jwst_mrd_web,No single point failure in the Fine Guidance Sensor (FGS) shall reduce the probability of acquiring a guide star below 90%.
+2007_jwst_mrd_web,When commanded the Observatory shall track targets which exhibit any angular velocity in the range of (TBD) milli-arseconds per second over a total motion (TBD) arcsec with respect to the guide star.
+2007_jwst_mrd_web,"When commanded, the Observatory shall point the OTE boresight to an accuracy of better than or equal to 7 arcsec (1-sigma, per axis) without using the FGS or SIs. This is the maximum allowable difference in angle between the commanded pointing direction and the actual pointing direction in celestial coordinates. Boresight pointing axes are pitch and yaw. This requirement does not apply to roll around the boresight axis."
+2007_jwst_mrd_web,"After entering fine guidance mode, the Observatory shall position a target within any SI FOV to an accuracy of 1 arcsec (1-sigma, radial) without using the SIs."
+2007_jwst_mrd_web,"During a 24 hour period of fine guidance, the Observatory shall, when commanded, remove or repeat a previous offset within a SI FOV with a repeatability of 5 milli- arcseconds, 1 sigma, per axis, regardless of the location of the guide star."
+2007_jwst_mrd_web,The Observatory shall collect and deliver the science and engineering data to the Ground Segment required to determine the SI FOVs a posteriori pointing knowledge.
+2007_jwst_mrd_web,The Observatory shall control the field of view orientation to less than or equal to 7 arcsec RMS.
+2007_jwst_mrd_web,"The Observatory shall be sized to point the same orientation of its FOV for 10 days for any available fixed target. Breaks in the observation to perform housekeeping functions such as momentum unloading, etc. are allowed as long as the total FOV orientation time on the target is greater than or equal to 10 days."
+2007_jwst_mrd_web,The Observatory shall complete a 90-degree slew in 60 minutes or less.
+2007_jwst_mrd_web,The Observatory shall complete a 20 arc-second offset in 60 seconds or less.
+2007_jwst_mrd_web,The Observatory shall complete a 280 arcsecond slew in 480 seconds or less.
+2007_jwst_mrd_web,"When commanded, the Observatory shall offset a science instrument FOV by 0.0 - 0.5 arcsec with an accuracy of 0.005 arcsec, 1 sigma, per axis, regardless of the location of the guide star."
+2007_jwst_mrd_web,"When commanded, the Observatory shall offset a SI FOV by 0.5 - 2.0 arcsec with an accuracy of 1 percent, 1 sigma, per axis, regardless of the location of the guide star."
+2007_jwst_mrd_web,"When commanded, the Observatory shall offset a SI FOV by 2.0 - 20 arcsec with an accuracy of 0.02 arcsec, 1 sigma, per axis, regardless of the location of the guide star."
+2007_jwst_mrd_web,"When commanded, the Observatory shall offset the MIRI FOV by 20 - 45 arcsec with an accuracy of 0.09 arcsec, 1 sigma, per axis in its focal plane, regardless of the location of the guide star."
+2007_jwst_mrd_web,"The ISIM mass allocation shall be 1,505 kilograms (kg)."
+2007_jwst_mrd_web,The ISIM average power allocation shall be 740 watts.
+2007_jwst_mrd_web,The SIs and guiders allocated field of views shall be greater than or equal to the values shown in the table below:
+2007_jwst_mrd_web,The SIs and guiders FOVs shall be arranged in a non-overlapping fashion within the OTE FOV as defined in the ISIM to OTE and Spacecraft IRCD (JWST-IRCD- 000640).
+2007_jwst_mrd_web,The Observatory shall provide imagery with spectral resolution (R) in the range of 3 < R < 200 over a wavelength range of 0.6 - 27 µm.
+2007_jwst_mrd_web,The Observatory shall provide spectroscopy with spectral resolution (R) in the range of 50 < R < 5000 over a wavelength range of 0.6 - 27 µm.
+2007_jwst_mrd_web,The ISIM shall contain a camera that provides the imagery required to support wavefront sensing.
+2007_jwst_mrd_web,Pupil Imaging shall be performed in the wavefront sensor.
+2007_jwst_mrd_web,"When commanded, the ISIM shall compress science data using at least a 2:1 lossless science data compression averaged over one day."
+2007_jwst_mrd_web,The ISIM shall bypass data compression on command.
+2007_jwst_mrd_web,The ISIM shall manage the event–driven execution of the planned mission timeline.
+2007_jwst_mrd_web,"Excluding mechanical transients and the use of internal lamps, SI operations shall be independent of and not interfere with one another."
+2007_jwst_mrd_web,The FGS shall perform fine guidance independently and without interference to any SI operations.
+2007_jwst_mrd_web,All science instruments and the guider shall meet their respective image quality and spectral resolution requirements after the OTE has been adjusted to an optimal focus position.
+2007_jwst_mrd_web,SIs shall not require OTE adjustment for any mode of instrument operation.
+2007_jwst_mrd_web,The ISIM shall continuously monitor SI subsystems for anomalies.
+2007_jwst_mrd_web,"The ISIM shall place the instruments into a safe state without ground command upon detection or notification of anomalies. These anomalies may be either instrument, FGS, ISIM or Spacecraft anomalies."
+2007_jwst_mrd_web,"After commissioning, the ISIM shall use no more than 3,652 hours over 5 years for overhead activities which detract from prime exposure time on scientific targets. This allocation includes time for ISIM safe mode down time, Guide Star identification, acquisition and retries, science instrument internal calibrations, and overheads associated with the set-up of science instrument for observations. The allocation is based on and will be verified by a hypothetical science program designed with 500, 90 degree slews and 8,000 small angle slews per year."
+2007_jwst_mrd_web,The unobscured primary mirror area shall be greater than or equal to 25 square meters.
+2007_jwst_mrd_web,The OTE shall not vignette the SI FOVs including all alignment tolerances.
+2007_jwst_mrd_web,"Accounting for all effects on mirror transmission including: coatings, particulate, molecular, water ice, photochemical decomposition, and meteoroid damage, the End of Life (EOL) area transmission product (i.e. unobscured area per MR-198 x transmission(?) ? requirement(?)) of the OTE shall be greater than the values shown in the following table for wavelengths between .8 micrometers and 2.0 micrometers, and greater than 22 m2 for wavelengths from 2.0 micrometers to 27 micrometers, with transmission out to 29 micrometers as a goal."
+2007_jwst_mrd_web,"The OTE optics, mounts, and baffles (except for secondary supports) shall not obstruct properly focused light from reaching the science focal planes."
+2007_jwst_mrd_web,"The OTE WFE shall be less than or equal to 131 nm RMS over the field of views of NIRCam, NIRSpec, and MIRI."
+2007_jwst_mrd_web,The OTE WFE shall be less than or equal to 150nm RMS over the field of view of the FGS.
+2007_jwst_mrd_web,The Observatory shall be designed to ensure that commanding is available on a continuous basis for 90% of 4-Pi steradian coverage as defined in the JWST Flight Observatory to Ground Segment IRCD (JWST-IRCD-000696).
+2007_jwst_mrd_web,The Observatory shall be in continuous two-way communication with the Ground Segment from separation from the upper stage of the launch vehicle until the completion of Observatory Primary Mirror Phasing activities.
+2007_jwst_mrd_web,The Observatory shall provide telemetry to the Ground Segment from launch vehicle payload fairing separation until separation from the upper stage of the launch vehicle.
+2007_jwst_mrd_web,The Observatory shall utilize the Deep Space Network to communicate with the Ground Segment.
+2007_jwst_mrd_web,The Spacecraft shall be available to receive commands via the low data rate channels (250 bits per second [bps] and 2 kilobits per second [Kbps]) during initial deployment and in events requiring emergency communications.
+2007_jwst_mrd_web,"Radio frequency (RF) link margins for all links shall be at least +3dB in all operating and contingency modes, including a combination of root–sum–square (RSS) and worst–case adverse equipment tolerance variation."
+2007_jwst_mrd_web,"During a normal operations contact, the Observatory shall downlink the uncompressed recorded engineering data."
+2007_jwst_mrd_web,The onboard data processing system shall utilize the Consultative Committee on Space Data Systems (CCSDS) File Data Protocol (CFDP) for downlink of stored science data and engineering telemetry.
+2007_jwst_mrd_web,"During a normal operations contact, the Observatory shall be capable of downlinking to the Ground Segment 229 Gigabits of science data, which was compressed from 458 Gigabits."
+2007_jwst_mrd_web,The onboard data processing system shall utilize the CCSDS protocol for real-time downlink of engineering telemetry.
+2007_jwst_mrd_web,The S-band link shall be used for ranging the Observatory.
+2007_jwst_mrd_web,COP-1 and CFDP shall be utilized for command uplink as specified in the JWST Flight Observatory to Ground Segment IRCD (JWST-IRCD-000696).
+2007_jwst_mrd_web,The command uplink shall be S–Band.
+2007_jwst_mrd_web,The command uplink shall be at 250 bps.
+2007_jwst_mrd_web,The medium rate command uplink shall be 2 Kbps.
+2007_jwst_mrd_web,The high rate command uplink shall be 16 Kbps.
+2007_jwst_mrd_web,The downlink shall be Reed-Solomon encoded.
+2007_jwst_mrd_web,JWST data encoding on the Observatory shall include CCSDS randomization encoding for transmission to the ground.
+2007_jwst_mrd_web,The low rate downlink shall be S-Band with characteristics as specified in the JWST Flight Observatory to Ground Segment IRCD (JWST-IRCD-000696).
+2007_jwst_mrd_web,The high rate downlink shall be Ka-Band with characteristics as specified in the JWST Flight Observatory to Ground Segment IRCD (JWST-IRCD-000696).
+2007_jwst_mrd_web,"The high rate downlink shall have selectable rates of 7, 14, 28 Megabits per second (Mbps) as specified in the JWST Flight Observatory to Ground Segment IRCD (JWST-IRCD-000696)."
+2007_jwst_mrd_web,The Spacecraft shall receive commands via S-Band at a minimum rate of 250 bps.
+2007_jwst_mrd_web,The Spacecraft shall transmit telemetry via S-Band at a minimum rate of 200 bps during safe mode.
+2007_jwst_mrd_web,The Observatory shall transmit a minimum of 99.5% of all real-time telemetry to the Ground Segment.
+2007_jwst_mrd_web,The Observatory shall transmit a minimum of 99.5% of all recorded data to the Ground Segment.
+2007_jwst_mrd_web,The Electrical Power Subsystem (EPS) shall provide conditioned power to the Observatory during all mission phases.
+2007_jwst_mrd_web,The EPS shall distribute direct current power to the loads at 28 V +7/-6 at the interface connectors.
+2007_jwst_mrd_web,Circuit protection devices shall be sized to protect primary power cable wiring harnesses.
+2007_jwst_mrd_web,All primary power returns shall be via hardwires to the EPS single prime power ground point.
+2007_jwst_mrd_web,"In order to assure their capability and reliability to support all JWST mission requirements, Observatory mechanisms shall have functional redundancy such that no single failure prevents the Observatory from meeting mission requirements or be designed, manufactured, integrated and tested to the requirements of the JWST Mechanisms Control Requirements (JWST-RQMT-004058)."
+2007_jwst_mrd_web,The thermal control system shall regulate the temperatures and rates of temperature changes of the JWST Observatory within safe and operational limits as appropriate for all mission phases and during all thermal environmental extremes that the Observatory may encounter.
+2007_jwst_mrd_web,The Observatory architecture shall allow for the passive cooling of ISIM-related components and electronics to their safe and operational limits.
+2007_jwst_mrd_web,The Observatory shall passively cool the Near-Infrared (NIR) Science Detectors to a temperature of less than or equal to 37K beginning at a time during commissioning that supports NIRCam and NIRSpec commissioning and continuing until the end of the science mission lifetime.
+2007_jwst_mrd_web,Propellant shall be sized for 10 years of operation after launch.
+2007_jwst_mrd_web,The Spacecraft shall be responsible for the health and safety of the Observatory.
+2007_jwst_mrd_web,The Observatory shall be autonomously single fault tolerant against all credible failures that may result in loss of the mission.
+2007_jwst_mrd_web,The design of the Observatory shall preclude propagation of the effects of part failures beyond the component containing the part that fails.
+2007_jwst_mrd_web,Redundant Observatory functionality shall be cross-strapped. This does not include primary power.
+2007_jwst_mrd_web,The Observatory shall enter safe modes and reconfigure its onboard systems in response to anomalies when configured for safe mode entry.
+2007_jwst_mrd_web,"Consistent with the nature and severity of the anomaly, the Observatory’s safe modes shall have a least-to-greatest hierarchical impact on the mission timeline."
+2007_jwst_mrd_web,All safe modes shall be designed to conserve consumables.
+2007_jwst_mrd_web,The Observatory shall sustain an autonomous safe mode for 4 weeks without Ground Segment intervention.
+2007_jwst_mrd_web,The Observatory shall exit safe modes via Ground Segment commands.
+2007_jwst_mrd_web,While in Safe Haven mode the Observatory shall retain recorded data while simultaneously down-linking the recorded data and real–time engineering data to support anomaly investigation and recovery to normal operations.
+2007_jwst_mrd_web,The JWST Observatory shall meet the interface requirements to the Launch Segment defined in the Application to Use Ariane (DUA) IRD (JWST-IRD-003674).
+2007_jwst_mrd_web,"The JWST Observatory launch vehicle shall be an Arianespace Ariane 5 Evolved Cryogenic Upper Stage Type-A (ECA) with a 5-meter diameter, long (single) payload fairing."
+2007_jwst_mrd_web,"The Ground Segment shall calculate the delta velocity needed to maintain the Observatory in orbit about L2 in the Z direction (defined in Figure 3-2) to less than or equal to 500,000 Km."
+2007_jwst_mrd_web,"The Ground Segment shall calculate the delta velocity needed to maintain the Observatory in orbit about L2 in the Y direction (defined in Figure 3-2) to less than or equal to 800,000 Km."
+2007_jwst_mrd_web,The Ground Segment shall maintain the orbit about L2 such that the Observatory does not enter an Earth or Moon eclipse.
+2007_jwst_mrd_web,The S&OC shall house the Executive that executes wavefront sensing and control (WFS&C) algorithms and generates WFS&C command content.
+2007_jwst_mrd_web,The Ground Segment shall generate wavefront error correction commands for uplink to the Observatory from the downlinked wavefront sensing data.
+2007_jwst_mrd_web,"After commissioning, the Ground Segment shall contribute observation idle time overhead of no more than 2,192 hours over a 5-year period due to the following overhead activities: Observation Plan Scheduling, Target of Opportunity Scheduling, Anomaly Recovery for all Safemode Events, Ground Segment-caused Safemode Events, Ground Segment Outages interfering with observations, and Engineering Tests. The allocation is based on and will be verified by a hypothetical science program designed with 500, 90 degree slews and 8,000 small angle slews per year."
+2007_jwst_mrd_web,The Ground Segment shall be used to maintain and operate the JWST Observatory from launch to the end of the mission.
+2007_jwst_mrd_web,The Ground Segment shall be in continuous communication with the Observatory from separation from the upper stage of the launch vehicle until the completion of Observatory Primary Mirror Phasing activities.
+2007_jwst_mrd_web,"One year after the launch of the JWST Observatory, and in the absence of anomalies, the S&OC shall continuously operate the Observatory safely with 8 hours per day, 5 days per week staffing."
+2007_jwst_mrd_web,"The Ground Segment shall have an unattended operational mode that monitors flight system telemetry and Ground Segment status autonomously, and automatically alerts on–duty and/or remote, off–duty personnel of system problems requiring human intervention."
+2007_jwst_mrd_web,"The S&OC shall plan and conduct JWST science and mission operations, and interact real-time with the Observatory for both routine and contingency activities."
+2007_jwst_mrd_web,"The Ground Segment shall generate and uplink for execution by the Observatory, an event driven schedule."
+2007_jwst_mrd_web,The S&OC shall be able to recover or modify the mission timeline within 24 hours of the decision to proceed.
+2007_jwst_mrd_web,"The Ground Segment shall determine the a posteriori pointing knowledge for the SI FOVs to within 1 arsec (1-sigma, radial) of their true positions in the celestial coordinate frame. For imaging and spectroscopic data, this applies over the entire SI FOV."
+2007_jwst_mrd_web,The Ground Segment shall perform transfer orbit and operational orbit determination.
+2007_jwst_mrd_web,"The Ground Segment shall store and maintain a ground master image of onboard computer software, tables and data loads."
+2007_jwst_mrd_web,The S&OC shall maintain an archive of all ground master images and associated documentation.
+2007_jwst_mrd_web,"The Ground Segment shall store, archive and update onboard computer software, tables and data loads."
+2007_jwst_mrd_web,The flight software repair process which includes the process starting with code compilation and ending with the delivery of the uploadable package to operations (not including verification) shall take less than 24 hours for the entire flight software system on a single processor.
+2007_jwst_mrd_web,"The S&OC shall contain the Project Reference Data Base of all JWST descriptors, commands, parameters, algorithms, characteristics, and other data and information required to operate the Observatory."
+2007_jwst_mrd_web,The Project Reference Data Base shall be the exclusive source for information used to operate the Observatory.
+2007_jwst_mrd_web,"The Project Reference Database shall be used as the baseline database, to provide an initial source of configured data and to provide a basis for tracking changes, for subsystems and higher level integration and test."
+2007_jwst_mrd_web,Data stored in the Project Reference Data Base shall be validated prior to release to operations.
+2007_jwst_mrd_web,The Ground Segment shall maintain an on-line archive catalog that is accessible to current and prospective users of JWST data.
+2007_jwst_mrd_web,"The archive shall also contain the historical and current calibration parameters, coefficients, and algorithms needed to transform raw engineering and science telemetry into calibrated measurements expressed in standard units."
+2007_jwst_mrd_web,"The data archive shall produce and retain a second, safe copy of all JWST data sets received."
+2007_jwst_mrd_web,The Ground Segment shall distribute data to other archive facilities as provided by the terms of agreements negotiated between NASA and its international partners.
+2007_jwst_mrd_web,Observatory real–time data forwarded to the S&OC shall be retained until the copy of the data recorded on-board has been received and verified.
+2007_jwst_mrd_web,Down linked data will be archived within 24 hours of receipt 90% of the time.
+2007_jwst_mrd_web,"Raw data, calibrated data and/or calibration parameters shall be supplied upon request."
+2007_jwst_mrd_web,Requested archive data shall be supplied electronically.
+2007_jwst_mrd_web,"Calibrated data (i.e., data processed to remove instrument signatures) shall be supplied upon request, using the most current calibrations applicable to the data set."
+2007_jwst_mrd_web,The data archive shall make new science data sets available electronically to the Principal Investigator (PI) of the observing program.
+2007_jwst_mrd_web,Science data shall be available at the ground segment data archive within 5 days of receipt at the S&OC.
+2007_jwst_mrd_web,Electronic availability of JWST science data sets to archival researchers shall commence as soon as the PI proprietary data period expires.
+2007_jwst_mrd_web,S&OC health and safety protections shall preclude the violation of hardware and software constraints.
+2007_jwst_mrd_web,S&OC health and safety protections shall require deliberate overrides to hardware and software restrictions that normally prevent non–standard commanding to or configurations of Observatory components.
+2007_jwst_mrd_web,"The common commanding and telemetry processing system, or copies of it, shall be used from subsystem integration and test through operations."
+2007_jwst_mrd_web,The S&OC real-time system shall be available a minimum of 99% of the time during communications contacts averaged over one year.
+2007_jwst_mrd_web,The real-time system shall have the capability to send commands intended for priority execution by the Observatory in conjunction with the on–going execution of stored commands.
+2007_jwst_mrd_web,Protections shall exist to prevent the mutual interference of real–time and stored commanding.
+2007_jwst_mrd_web,The S&OC shall maintain independent primary and back–up real–time systems.
+2007_jwst_mrd_web,Mission–critical operations shall have back–up systems configured as “hot” backups with a fail–over time of 10 minutes or less.
+2007_jwst_mrd_web,"Transfer of non-critical, real-time operations from primary to backup, or vice versa, shall require one hour or less."
+2007_jwst_mrd_web,Testing that is independent of real-time operation shall use the backup real-time system.
+2007_jwst_mrd_web,The Ground Segment shall implement the transfer of health and safety operations to an alternate facility within 90 minutes of a catastrophic failure at the primary S&OC site.
+2007_jwst_mrd_web,"The S&OC shall be the sole and secure originator of commands sent to the Observatory, as specified in the JWST Flight Observatory to Ground Segment IRCD (JWST-IRCD-000696)."
+2007_jwst_mrd_web,"During normal operations, the Ground Segment shall uplink commands that meet the authentication protocol specified in the JWST Flight Observatory to Ground Segment Interface Requirements and Control Document (JWST-IRCD-000696)."
+2007_jwst_mrd_web,The Ground Segment shall uplink commands to the Observatory.
+2007_jwst_mrd_web,The Ground Segment shall verify command receipt by the Observatory.
+2007_jwst_mrd_web,The Ground Segment shall monitor JWST Observatory status for compliance with planned operations and for conditions that indicate JWST health and safety.
+2007_jwst_mrd_web,"The real-time data system shall be able to monitor Observatory health, safety and operational status."
+2007_jwst_mrd_web,Real-time JWST engineering data received at a ground station supporting the mission shall be forwarded to the S&OC within 1 minute.
+2007_jwst_mrd_web,The DSN shall begin forwarding stored engineering data to the S&OC within 15 minutes of receipt.
+2007_jwst_mrd_web,The DSN shall forward data to the S&OC at a minimum data rate of 10 Gigabits per 30 minutes.
+2007_jwst_mrd_web,JWST stored science data shall be forwarded to the S&OC within 8 hours of receipt by the DSN.
+2007_jwst_mrd_web,"During a normal operations contact, the Ground Segment shall receive the uncompressed recorded engineering data."
+2007_jwst_mrd_web,"During normal operations contact the Ground Segment shall be capable of receiving 229 Gigabits of science data, which was compressed from 458 Gigabits."
+2007_jwst_mrd_web,The Ground Segment shall transfer to the S&OC 94% of real time data that reaches the Ground Segment.
+2007_jwst_mrd_web,The Ground Segment shall archive 98% of recorded data that reaches the Ground Segment.
+2007_jwst_mrd_web,The Ground Segment shall create valid event driven observing plan files containing all the data needed to execute flight segment activities via stored commanding.
+2007_jwst_mrd_web,The Ground Segments S&OC shall receive process and peer review JWST science proposals.
+2007_jwst_mrd_web,"The Ground Segment shall permit observers to modify observation content between proposal submission and the uplink of observing plan files, subject to policies governing time allocations, target specifications and program objectives."
+2007_jwst_mrd_web,The Ground Segment shall perform trending analysis of Observatory performance.
+2007_jwst_mrd_web,The Ground Segment shall perform trending analysis of Observatory subsystem and telemetry data calibrations.
+2007_jwst_mrd_web,The Ground Segment shall calibrate the performance of Observatory subsystems.
+2007_jwst_mrd_web,The Ground Segment shall calibrate Observatory telemetry data.
+2007_jwst_mrd_web,"The Ground Segment shall include Observatory subsystems hardware, software and operations simulators, and models for anomaly resolution, hardware re–configuration, software checkout and personnel training."
+2007_jwst_mrd_web,The Ground Segment shall provide a minimum of 4 hours of contact time per day with the Observatory.
+2007_jwst_mrd_web,The DSN antenna diameter shall be 34 meters as specified in the JWST Flight Observatory to Ground Segment IRCD (JWST-IRCD-000696).
+2007_jwst_mrd_web,The Ground Segment shall be able to obtain extended forward and return S-band service in the event of an Observatory emergency.
+2007_jwst_mrd_web,The response time for obtaining S–band emergency services shall be 2 hours or less.
+2007_jwst_mrd_web,"Acquired communications coverage shall be 24 hours per day, seven days per week for the duration of the emergency."
+2007_jwst_mrd_web,The Ground Segment shall be able to obtain extended return Ka-Band service in the event of an Observatory emergency.
+2007_jwst_mrd_web,"From separation from the upper stage of the launch vehicle until the completion of Primary Mirror Phasing activities, the Ground Segment shall be in continuous two- way S-band link communications."
+2007_jwst_mrd_web,The Ground Segment shall receive telemetry from the Observatory via the S-band link from launch vehicle payload fairing separation until separation from the upper stage of the launch vehicle.
+2007_jwst_mrd_web,"From High Gain Antenna deployment to completion of Primary Mirror Phasing activities, the Ground Segment shall have a continuous Ka-Band return link with the Observatory."

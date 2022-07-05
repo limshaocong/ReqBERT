@@ -1,0 +1,91 @@
+source,reqs
+1998_grace_WEB,The along track velocity difference of the satellites and the upper stage immediately after separation shall be greater than 0.5 m/s.
+1998_grace_WEB,The along track velocity difference of the two satellites immediately after separation shall be greater than 0.25 m/s and less than 1 m/s.
+1998_grace_WEB,The satellite shall be launched into a noon orbit.
+1998_grace_WEB,The launcher shall meet this requirement with an accuracy of ±13°.
+1998_grace_WEB,"The two GRACE satellites shall differ only in the S-band radio frequencies used for communication with the ground, and in the K-Band frequencies used for the inter-satellite link."
+1998_grace_WEB,The operating set-point temperature of the satellite equipment panel shall be settable over a range of 0 to 30°C with increment no larger than 1°C.
+1998_grace_WEB,"Both satellites shall be capable of flying either in the lead or trailing positions, “forward” or “backward” into the residual atmospheric wind."
+1998_grace_WEB,Both satellites shall be designed to an operating lifetime of five years.
+1998_grace_WEB,"Expendable or degrading resources (solar array power, cold gas propellant and battery) shall be compatible with the full five-year mission."
+1998_grace_WEB,"The satellites and payload adapter shall be compatible with the COSMOS, or equivalent, launch vehicle system, and associated environments, both on the ground and during launch."
+1998_grace_WEB,"The launch mass, including two satellites and payload adapter, shall not exceed the LV capability specified in 4.1.4."
+1998_grace_WEB,The satellites shall be capable of full Science Mode operation at any altitude between 300 and 500 km.
+1998_grace_WEB,The ballistic coefficients of the two satellites shall differ by < 0.5% irrespective of which satellite is flying “forward” (xs-axis in the direction of orbital motion) and “backward” (xs-axis opposite the direction of orbital motion).
+1998_grace_WEB,All “fine pointing modes” (Figure 4-1) shall have all science instrumentation powered continuously.
+1998_grace_WEB,"The instrument system, including thermal expansion of the satellite bus, shall not introduce errors in the range measurement at a twice-per-rev frequency having magnitude larger than four (4) microns."
+1998_grace_WEB,"At frequencies other than twice-per-rev and between 10 Hz and once-per-rev, the instrument system, including thermal expansion of the satellite bus, shall not introduce errors into the range measurement larger than 10 microns."
+1998_grace_WEB,The GPS function shall provide computed position to an accuracy better than 50m (1?) in telemetry and for real time use by the AOCS.
+1998_grace_WEB,The IPU shall output ECEF measurements in WGS-84 coordinates.
+1998_grace_WEB,The phase center of the GPS zenith antenna and the GPS backup antenna shall be determined to the accuracies given in Table 4-2 in all dimensions relative to its mounting surfaces.
+1998_grace_WEB,The mean time between IPU outage (due to SEUs) shall be greater than 30 days. The duration of each such outage shall be less than 2 minutes.
+1998_grace_WEB,The IPU shall provide a method of time calibration to an accuracy better than 100 µs
+1998_grace_WEB,The IPU shall provide 10 Hz measurements of the K and Ka band carrier phases of the ranging signal received from the other satellite with a precision of 10-4 cycle.
+1998_grace_WEB,The IPU shall output attitude measurements in the form of quaternions for use by the AOCS at a 1 Hz rate.
+1998_grace_WEB,The IPU shall output attitude solutions no more than 200 ms after receipt of a star camera image frame.
+1998_grace_WEB,"The IPU shall report attitude in local coordinates or ECEF coordinates, selectable by software."
+1998_grace_WEB,"All IPU data shall be timetagged in seconds since January 6, 1980."
+1998_grace_WEB,The KBR shall incorporate a dual frequency system selected to enable calibration of the effects of the ionospheric delay.
+1998_grace_WEB,The KBR shall generate carriers each radiated at greater than 46 dBm EIRP.
+1998_grace_WEB,The KBR shall process the received microwave signal to produce an appropriate baseband digital signal having C/N0 greater than 60 dB Hz when the satellites are separated by 500 km.
+1998_grace_WEB,The KBR shall be designed to reject multipath from the satellite to better than -56 dB relative to the direct signal.
+1998_grace_WEB,The location of the Ka and K band phase centers shall be known and referenced to the mechanical interface of the KBR as specified in Table 4-2.
+1998_grace_WEB,The measured phase of the K or Ka band signal shall vary with temperature of the RF electronics by no more than 10-4 cycle per Kelvin.
+1998_grace_WEB,The measured phase of the K or Ka band signal shall vary with temperature of the Antenna by no more than 10-4 cycle per Kelvin.
+1998_grace_WEB,The USO shall have a long term stability better than 1 x 10-10 per day after 30 days.
+1998_grace_WEB,"The USO phase noise, measured at 5 MHz, shall be less than -110 dBc integrated over f > 0.1 Hz away from the carrier"
+1998_grace_WEB,Spurious tones shall have a power less than –110 dBc within 0.1 Hz of the carrier.
+1998_grace_WEB,The total power of spurious tones outside of 0.1 Hz from the carrier shall be less than –110 dBc.
+1998_grace_WEB,The USO stability with respect to radiation shall be better than 10-12 per rad.
+1998_grace_WEB,The USO stability with respect to magnetic field shall be better than 10-12 / gauss.
+1998_grace_WEB,The USO shall be shielded to reduce local magnetic field strength to < 0.05 gauss.
+1998_grace_WEB,The radiation sensitive components in the USO shall be shielded so as to receive no more than 0.4 rad-si due to passage through the South Atlantic Anomaly at solar minimum and 500 km altitude.
+1998_grace_WEB,The LRR shall deliver sufficiently high return signal to enable both night and daylight laser ranging to the GRACE satellites over their entire range of altitudes. This shall be warranted by sufficiently large aperture and a dedicated far field reflection pattern to correct for the effect of velocity aberration to a high degree.
+1998_grace_WEB,The optical design of the LRR shall minimize the signature of the returning signal by using a minimum number of prisms.
+1998_grace_WEB,The single shot accuracy (assuming a ground station of 3 generation performance) shall be better than 10 mm. The range correction versus elevation shall be less than 4 mm for culmination heights of the GRACE satellites up to 85° over the ranging ground station.
+1998_grace_WEB,The tolerance of the effective reflection plane location shall be less than 0.5 mm.
+1998_grace_WEB,"The MOS shall provide all normal monitoring and control functions for operation of the satellite, including mission planning, command generation and execution, scheduling, navigation, and satellite performance analysis."
+1998_grace_WEB,"The navigation function, including orbit determination and correction, shall be provided by the Mission Operations System."
+1998_grace_WEB,"The MOS shall provide data system-processing functions necessary to capture and save the satellite telemetry, including the data processing system interfaces to JPL and science data processing center(s)."
+1998_grace_WEB,The MOS shall supply the Central Checkout System (CCS) prior to satellite electrical integration and support check-out operations.
+1998_grace_WEB,"The MOS shall utilize the satellite telemetry, tracking, and command data links of the DLR tracking station at Weilheim and telemetry and tracking at Neustrelitz. It shall be capable of downlinking data from selected NASA stations ( McMurdo, Poker Flat, Kaena Point and Spitzbergen) in support of LEOP and contingency operations."
+1998_grace_WEB,"Operational orbit determination, and the orbit update parameters to be sent to the two satellites, shall be provided by GSOC."
+1998_grace_WEB,"The MOS shall be capable of acquiring and processing 100 Mbytes of science and housekeeping data per day for each satellite. (Actual data return depends on many factors, including orbit geometry and station availability.)"
+1998_grace_WEB,The MOS shall successfully acquire and process an average of at least 50 Mbytes/day of data per satellite.
+1998_grace_WEB,The MOS shall provide Level 0 satellite data to the SDS within 24 hours of acquisition.
+1998_grace_WEB,"The MOS shall provide scheduling of the forward (up), return (down), and ground link services for satellite communications."
+1998_grace_WEB,The MOS shall monitor the health of the satellites for current status in real-time.
+1998_grace_WEB,The MOS shall capture and save all command and satellite telemetry data
+1998_grace_WEB,The MOS shall command the satellites to perform nominal onboard sequences of events and to recover from anomalous behavior defined in the Satellite Operations Handbook.
+1998_grace_WEB,The MOS shall be capable of uploading system software for both the OBDH and IPU.
+1998_grace_WEB,The MOS shall be capable of downloading data from both satellites during the same pass.
+1998_grace_WEB,"During LEOP, the MOS shall be capable of uploading commands to both satellites during the same pass."
+1998_grace_WEB,All operations events and data time tagging shall be relative to Coordinated Universal Time (UTC).
+1998_grace_WEB,The MOS shall determine the GRACE orbit based on GPS position measurements.
+1998_grace_WEB,"The predicted ephemerides shall comply with the absolute and relative accuracies specified in Table 4-5, even in high solar flux and low altitude conditions."
+1998_grace_WEB,The MOS shall provide orbit control to establish the operational orbit within 30 days after injection.
+1998_grace_WEB,"The MOS shall provide information about planned maneuver magnitudes and associated turns and after-the-fact information about maneuver event times, and measured errors in maneuver performance."
+1998_grace_WEB,The MOS shall perform in-flight calibration of the trajectory correction maneuvers and predict maneuver performance based on in-flight telemetry and operational orbit determination.
+1998_grace_WEB,"The SDS shall generate science data products, including data processing, verification, distribution, and archiving of science data."
+1998_grace_WEB,"The SDS shall provide for Precision Orbit Determination, including acquisition of tracking data, development of force and measurement models, and incorporation of POD data into the science data product."
+1998_grace_WEB,"A complete, documented, science data processing system shall be in place 3 months before launch of the satellites."
+1998_grace_WEB,The SDS shall begin science data processing at the initiation of the collection of science data by the GRACE satellites and continue until 3 months after the end of the mission.
+1998_grace_WEB,The SDS shall receive satellite science and housekeeping data from the MOS.
+1998_grace_WEB,The SDS shall receive and process ancillary data (e.g. meteorological) necessary for data processing and verification.
+1998_grace_WEB,The SDS shall process all science data collected by the GRACE satellites
+1998_grace_WEB,"After completion of the verification phase, the SDS shall make level 0 and 1 data available to the science investigators within 5 days of collection. Level 2 data shall be available within 60 days of acquisition."
+1998_grace_WEB,"The SDS shall archive, or arrange for archiving through existing data centers, all science data from the GRACE mission. The JPL archive shall be the Physical Oceanography Distributed Active Archive (PODAAC) of EOSDIS. The German archive shall be at GFZ Potsdam."
+1998_grace_WEB,"The SDS shall have in place, prior to launch, a capability to infer the accuracy of the GRACE orbital ephemerides, the GRACE inter-satellite ranging system, and the gravity field models derived from that data."
+1998_grace_WEB,Initial verification of the science data shall take place during the Assessment Phase.
+1998_grace_WEB,Periodic verification of science data and products shall continue throughout the entire mission duration.
+1998_grace_WEB,After separation the angular velocities of the satellites shall be less than 3°/s around each axis.
+1998_grace_WEB,Both GRACE satellites shall be launched as a dual payload on a single launch vehicle.
+1998_grace_WEB,Inclination shall be in the range 87° to 92° (goal = 90°).
+1998_grace_WEB,The dedicated Laser Retro Reflector (LRR) on-board of both satellites serves for the external calibration of the on-board microwave orbit determination system (GPS). Laser ranging data can be used to support the precise orbit determination in connection with GPS data for gravity field recovery as well.
+1998_grace_WEB,The eccentricity of the insertion orbit shall be e < 0.005.
+1998_grace_WEB,"The launch vehicle, or co-passenger satellites, shall not impact or contaminate the satellites after separation."
+1998_grace_WEB,"The launch window shall be at least one hour each day, within a period of at least 30 days."
+1998_grace_WEB,The LVS shall be capable of inserting a payload mass of 1050 kg (two satellites plus adapter) into a 500 km or lower circular orbit of 87 degree inclination.
+1998_grace_WEB,The maximum allowable tolerance for the injection orbit semi-major axis shall be ±16 km (1cr).
+1998_grace_WEB,The Star Camera Assemblies shall meet the requirements specified in Table 4-4.
+1998_grace_WEB,"The SuperSTAR accelerometer, a modified version of the previously flown ASTRE high precision accelerometer, shall provide the measurement performance specified in Table 4-3."

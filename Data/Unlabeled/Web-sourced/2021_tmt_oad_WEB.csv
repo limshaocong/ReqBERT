@@ -1,0 +1,906 @@
+source,reqs
+2021_tmt_oad_WEB,All sub-systems shall meet their Observing and Facility Performance requirements over the ambient air pressure range 600-618hPa.
+2021_tmt_oad_WEB,All sub-systems shall meet their Component Functional requirements over the ambient air pressure range 600-1015hPa.
+2021_tmt_oad_WEB,All sub-systems shall meet their Survival requirements over the ambient air pressure range 590 -1025hPa.
+2021_tmt_oad_WEB,All sub-systems shall meet their Survival requirements when in an unpowered state.
+2021_tmt_oad_WEB,All sub-systems shall meet their Observing and Facility Performance requirements when equipment is continually exposed to ozone concentrations of 50 parts per billion.
+2021_tmt_oad_WEB,The enclosure and unprotected equipment shall meet its observing performance requirements over the range -5°C to +9°C.
+2021_tmt_oad_WEB,The enclosure and unprotected equipment shall meet its facility performance requirements over the range -10°C to +13°C.
+2021_tmt_oad_WEB,The enclosure and unprotected equipment shall meet its component functional requirements over the range -13°C to +25°C.
+2021_tmt_oad_WEB,The enclosure and unprotected equipment shall meet its survival requirements over the range -16°C to +30°C.
+2021_tmt_oad_WEB,"The enclosure and unprotected equipment shall meet Observing Performance, Facility Performance, and Component Functional requirements when the absolute temperature variation is within the 99.9% values defined in Table: Temporal Temperature Gradients Inside and Outside Enclosure."
+2021_tmt_oad_WEB,The enclosure and unprotected equipment shall meet Survival requirements at temperature gradients up to the maximum level stated in Table: Temporal Temperature Gradients Inside and Outside Enclosure.
+2021_tmt_oad_WEB,The enclosure and unprotected equipment shall meet its Observing Performance requirements when relative humidity is between 0 and 95% at temperatures between -5 to +9 ?C.
+2021_tmt_oad_WEB,"The enclosure and unprotected equipment shall meet its Facility Performance, Component Functional, and Survival requirements over the relative humidity range 0-100% (condensing conditions) at temperatures between -10?C to +13?C."
+2021_tmt_oad_WEB,The enclosure and unprotected equipment shall meet its Observing Performance requirements at wind speeds up to 18m/s (1 minute average velocity at 20m elevation).
+2021_tmt_oad_WEB,The enclosure and unprotected equipment shall meet its Facility Performance requirements at wind speeds up to 30m/s (3s gust at 20m elevation).
+2021_tmt_oad_WEB,The enclosure and unprotected equipment shall meet its Survival requirements at external wind speeds up to 83.7m/s (3s gust at 20m elevation).
+2021_tmt_oad_WEB,The enclosure and unprotected equipment shall meet its Facility Performance and Survival requirements in the presence of external rainfall up to 0.04m/hour.
+2021_tmt_oad_WEB,"The summit facility and enclosure shall provide protection that allows the observatory to meet its facility performance requirements in the presence of snow, hail, and rainfall."
+2021_tmt_oad_WEB,The enclosure and summit facilities shall provide lightning protection per NFPA 780.
+2021_tmt_oad_WEB,The Summit Facilities and Enclosure shall be fully operational with up to 150 kg/m2 snow and ice load (vertical projection) after removal of ice and snow from critical areas.
+2021_tmt_oad_WEB,The Summit Facilities and Enclosure shall be able to support snow loads up to 150kg/m2.
+2021_tmt_oad_WEB,The Summit Facilities and Enclosure shall be able to support ice loads up to 68kg/m2.
+2021_tmt_oad_WEB,The Enclosure and unprotected equipment shall meet its Observing and Facility Performance requirements when equipment is continually exposed to dust concentrations as defined in Table: Median dust levels at Mauna Kea site below REQ-1-OAD-1241.
+2021_tmt_oad_WEB,Any equipment inside the enclosure shall meet its Observing Performance requirements over a temperature range from -5°C to +9°C.
+2021_tmt_oad_WEB,Any equipment inside the enclosure shall meet its Facility Performance requirements over a temperature range from -10°C to +13°C.
+2021_tmt_oad_WEB,Any equipment inside the enclosure shall meet its Component Functional requirements over a temperature range from -13°C to +25°C.
+2021_tmt_oad_WEB,Any equipment inside the enclosure shall meet its Survival Requirements over a temperature range from -16°C to +30°C.
+2021_tmt_oad_WEB,"Any equipment inside the enclosure shall meet Observing Performance, Facility Performance, and Component Functional requirements when the absolute temperature variation is within the 99.9% night-time values defined in Table 4-1: Temporal Temperature Gradients Inside and Outside Enclosure."
+2021_tmt_oad_WEB,Any equipment inside the enclosure shall meet Survival requirements at temperature gradients up to the 99.9% values for all data as stated in Table 4-1: Temporal Temperature Gradients Inside and Outside Enclosure.
+2021_tmt_oad_WEB,"The TMT Optics systems (M1, M2, M3, M1CS) shall meet their requirements for overall image quality at a temperature difference of 2?C from the most recent APS alignment."
+2021_tmt_oad_WEB,"The sub-systems inside the enclosure shall meet their Observing Performance, Facility Performance, and Survival requirements under the conditions defined in Table 4-2: Wind speeds inside enclosure."
+2021_tmt_oad_WEB,The sub-systems inside the enclosure shall meet their Observing and Facility Performance requirements when relative humidity is between 0 and 95% at their respective temperature ranges.
+2021_tmt_oad_WEB,The sub-systems inside the enclosure shall meet their Component Functional requirements when relative humidity is between 0 and 95% at temperatures between -10°C to +13°C.
+2021_tmt_oad_WEB,The sub-systems inside the enclosure shall meet their Survival requirements when humidity is between 0 and 100% (condensing conditions) at temperatures between -10°C to +13°C
+2021_tmt_oad_WEB,The sub-systems inside the enclosure shall meet Observing and Facility Performance requirements when equipment is continually exposed to dust concentrations as defined in Table 4-3: Median dust levels at Mauna Kea Site.
+2021_tmt_oad_WEB,The Summit Facilities Utility Room temperature shall be maintained between 0°C and 25°C at any time that equipment inside it is expected to operate.
+2021_tmt_oad_WEB,The Summit Facilities Utility Room relative humidity shall be maintained between 0 and 95% at any time that equipment inside it is expected to operate.
+2021_tmt_oad_WEB,"All equipment located in the Summit Facilities Utility Room shall survive exposure to temperatures in the range 0-35°C. In the range 0 to -16°C, equipment can be assumed to be non-operational, in the range 0-35°C the equipment may be operational."
+2021_tmt_oad_WEB,All equipment in the Summit Facilities Utility Room shall survive exposure to relative humidity levels up to 100% (condensing conditions). Equipment may be assumed to be non-operational at relative humidity levels >95%.
+2021_tmt_oad_WEB,The Summit Facilities Computer Room temperature shall be maintained between 15-22°C at all times that equipment inside it is expected to operate.
+2021_tmt_oad_WEB,The Summit Facilities Computer Room temperature rate of change shall not exceed 20°C/hour at any time that equipment within it is expected to operate.
+2021_tmt_oad_WEB,The Summit Facilities Computer Room humidity level shall be maintained between 20-80% RH with a maximum dew point of 17°C at all times that equipment inside it is expected to operate.
+2021_tmt_oad_WEB,"Computer Room equipment, in its power off state, shall survive exposure to temperatures in the range -16 to 45°C."
+2021_tmt_oad_WEB,"Computer Room equipment, in its power off state, shall survive exposure to humidity in the range 8-80% RH with a maximum dew point of 27°C."
+2021_tmt_oad_WEB,The observatory shall be designed to support 20 slewing moves per night over its 50-year lifespan.
+2021_tmt_oad_WEB,The observatory shall be designed to support 20 slewing moves per day over its 50-year lifespan.
+2021_tmt_oad_WEB,The observatory shall be designed to support average azimuth slewing distance of 60° over its 50-year lifespan.
+2021_tmt_oad_WEB,The observatory shall be designed to support average elevation slewing distance of 15° over its 50-year lifespan.
+2021_tmt_oad_WEB,The observatory shall be designed to support an average nighttime zenith angle of 32.5° over its 50-year lifespan.
+2021_tmt_oad_WEB,"TMT subsystems shall not emit, nor be susceptible to, electromagnetic radiation or electromagnetic conduction at any frequency that significantly interferes with the operation of itself, any other TMT subsystems, or any other astronomical facilities."
+2021_tmt_oad_WEB,"To prevent electromagnetic interference with the operation of the M1CS edge sensors, subsystems/equipment with drive system motors and variable speed motor drives operating at nighttime within the enclosure shall not operate at frequencies between 35-100 kHz, and use fixed frequency chopping if such equipment operates at frequencies below 35 kHz."
+2021_tmt_oad_WEB,"Any equipment with exposed surfaces that are expected to be below the dew point in normal operation shall be equipped with drip trays, drains or other devices to prevent condensation forming on these surfaces dripping onto other equipment."
+2021_tmt_oad_WEB,"During night time, the TMT Observatory shall not generate detectable light pollution at visible or near-infrared wavelengths (except when the laser is in use at 589nm) during scientific observations."
+2021_tmt_oad_WEB,The system shall operate with segments missing from the primary mirror or segments removed from the overall control loop.
+2021_tmt_oad_WEB,All fasteners and other hardware that could fall and damage M1 or other optics during servicing or removal/installation activities shall be designed to be captive.
+2021_tmt_oad_WEB,TMT Observatory Telescope Subsystems defined in OAD Section 2.2.1.2 shall operate and meet all requirements for at least 50 years with preventive maintenance.
+2021_tmt_oad_WEB,The telescope optical design shall be a Ritchey Chrétien (R-C) configuration (AD17).
+2021_tmt_oad_WEB,The entrance pupil of the system shall be the primary mirror with circumscribing circle at least 30 m diameter.
+2021_tmt_oad_WEB,"The system shall have a flat tertiary mirror, located in front of the primary mirror, to steer the telescope beam to Nasmyth foci."
+2021_tmt_oad_WEB,The nominal back focal distance of the system shall be 16.5 m with a tolerance of +/-0.02m.
+2021_tmt_oad_WEB,"The system shall provide Nasmyth focus in the horizontal plane containing the elevation axis, along a 20 meter radius circle around the origin of the Elevation Coordinate System (ECRS) for light collection or further light processing."
+2021_tmt_oad_WEB,"Stray light control shall be provided by a baffle around M2 and M3 and in the instrument designs. The size of the M2 and M3 baffles shall, at minimum, equal the size of a beam from the telescope exit pupil to a 20 arcmin diameter field-of-view at an instrument located on the elevation axis."
+2021_tmt_oad_WEB,Any structures that cause blockage of the telescope pupil shall be designed to minimize scattered or glancing incidence light falling within the field of view of the telescope.
+2021_tmt_oad_WEB,The TMT Observatory entrance pupil shall have a maximum of 4% obscuration due to the shadow of the secondary mirror and its support structure and follow the pattern shown in (AD41).
+2021_tmt_oad_WEB,The telescope mount axes shall allow movement in altitude and azimuth.
+2021_tmt_oad_WEB,"It shall be possible to position the telescope elevation axis at any zenith angle between 0° and 90°, with an observing range between 1° and 65°."
+2021_tmt_oad_WEB,"At all elevation and azimuth angles, no point on the telescope elevation and azimuth structure shall extend beyond the volume defined in drawing TMT.TEL.STR-ENV (AD42)."
+2021_tmt_oad_WEB,"Except when observing or when necessary in servicing and maintenance mode, the telescope shall be parked in a horizon pointing orientation at an azimuth angle of 0 degrees in TCRS coordinates (pointing South)."
+2021_tmt_oad_WEB,The external surfaces of the telescope structure shall have an emissivity <0.4.
+2021_tmt_oad_WEB,"The telescope structure shall provide space, structural support, and access/servicing provisions for the instruments/EE listed in TMT.INS.GTY-0001 (AD98), TMT.INS.GTY-0002 (AD99) and TMT.SE.GTY-0001 (AD100) without violating any space envelopes."
+2021_tmt_oad_WEB,"The telescope structure shall provide space, structural support, and access/servicing provisions for the M1S as defined in TMT.SEN.GTY-0006 (AD101) without violating any space envelopes."
+2021_tmt_oad_WEB,"The telescope structure shall provide space, structural support, and access/servicing provisions for the M2S as defined in TMT.SEN.GTY-0006 (AD101) and the M2S electronics as defined in TMT.SEN.GTY-0001 (AD100) without violating any space envelopes."
+2021_tmt_oad_WEB,"The telescope structure shall provide space, structural support, and access/servicing provisions for the M3S as defined in TMT.SEN.GTY-0006 (AD101) and the M3S electronics as defined in TMT.SEN.GTY-0001 (AD100) without violating any space envelopes."
+2021_tmt_oad_WEB,"The telescope structure shall provide space, structural support, and access/servicing provisions for the TINS as defined in TMT.SEN.GTY-0006 (AD101) without violating any space envelopes."
+2021_tmt_oad_WEB,"The telescope structure shall provide space, structural support, and access/servicing provisions for the CRYO as defined in TMT.SEN.GTY-0006 (AD101) without violating any space envelopes."
+2021_tmt_oad_WEB,"The telescope structure shall provide space, structural support, and access/servicing provisions for the M1CS without violating any space envelopes TMT.SEN.GTY- 0001 (AD101)."
+2021_tmt_oad_WEB,"The telescope structure shall provide space, structural support, and access/servicing provisions for the LGSF as defined in TMT.SEN.GTY-0006 (AD101) without violating any space envelopes."
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, the STR shall withstand the representative time series of site-specific seismic accelerations as described in (RD16) such that: after a 10-year return period earthquake, the STR can resume normal operations after inspection by the normal operations staff."
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, the STR shall withstand the representative time series of site-specific seismic accelerations as described in (RD16) such that: after a 200-year earthquake, the STR can resume normal operations within two weeks after the observatory staff has resumed regular duty."
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, the STR shall withstand the representative time series of site-specific seismic accelerations as described in (RD16) such that: after a 1000-year return period earthquake, STR components do not damage the telescope optics or present worse than a marginal hazard to personnel in the event of their failure."
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, subsystems which are mounted on the telescope structure shall withstand the seismic accelerations defined in 'Table 4-6: Seismic limits for telescope-mounted subsystems' such that: after a 10-year return period earthquake, the subsystems can resume normal operations after inspection by the normal operations staff."
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, subsystems which are mounted on the telescope structure shall withstand the seismic accelerations defined in 'Table 4-6: Seismic limits for telescope-mounted subsystems' such that: after a 200-year earthquake, the subsystems can resume normal operations within two weeks after the observatory staff has resumed regular duty."
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, subsystems which are mounted on the telescope structure shall withstand the seismic accelerations defined in 'Table 4-6: Seismic limits for telescope-mounted subsystems' such that: after a 1000-year return period earthquake, components do not damage the telescope optics or present worse than a marginal hazard to personnel in the event of their failure."
+2021_tmt_oad_WEB,Sub-systems shall operate between -16° to +30°C after a 10-year return period earthquake.
+2021_tmt_oad_WEB,Sub-systems shall operate between -5° to +13°C after a 200-year return period earthquake.
+2021_tmt_oad_WEB,Sub-systems shall operate between -5° to +13°C after a 1000-year return period earthquake.
+2021_tmt_oad_WEB,"Derating of seismic loading for 200- or 1000-year return period earthquakes for equipment in temporary configurations whose failure can damage the M1, M2, M3 or present worse than a marginal hazard to personnel shall use the acceleration scaling factors in Table 4-7: Seismic Acceleration Scaling Factors for Temporary Configurations - Personnel/Optics Safety."
+2021_tmt_oad_WEB,Derating of seismic loading for 200- or 1000-year return period earthquakes for equipment in temporary configurations not covered by shall use the acceleration scaling factors in Table 4-8: Seismic Acceleration Scaling Factors for Temporary Configurations.
+2021_tmt_oad_WEB,The telescope azimuth axis shall operate over an angle of 500 degrees without unwrapping.
+2021_tmt_oad_WEB,The azimuth range shall be -330° to +170° relative to the TCRS Coordinate System.
+2021_tmt_oad_WEB,Power and services for all systems mounted on the telescope shall be routed through a cable wrap centered on the azimuth rotational axis.
+2021_tmt_oad_WEB,A man lift shall be mounted on the azimuth structure to enable personnel to access to the M3 mirror during M3 removal or installation (with the telescope horizon pointing).
+2021_tmt_oad_WEB,The telescope elevation structure shall be mass-moment balanced about the elevation axis.
+2021_tmt_oad_WEB,The design of the telescope elevation structure shall allow the M3 system to be removed from the telescope using the enclosure shutter mounted hoist (as defined in [REQ-1- OAD-6216] when the telescope is in a horizon pointing position.
+2021_tmt_oad_WEB,"Personnel access shall be provided to the interior of the telescope pier, in order to service the cable wraps and pintle bearing areas."
+2021_tmt_oad_WEB,Emergency egress from the pier shall be possible regardless of the position of the telescope in azimuth.
+2021_tmt_oad_WEB,A section of the fixed walkway extending approximately 45 degrees clockwise from the centre of the main entrance to the fixed enclosure shall be designed to be removable.
+2021_tmt_oad_WEB,"There shall be cable wraps to accommodate the azimuth and elevation motions of the telescope with range and speed compatible to the requirements already specified for azimuth angle range, zenith angle range and maximum slew rates."
+2021_tmt_oad_WEB,"The cable wraps shall accommodate the distribution of all utilities, VTCW, HBS, power and grounding, CIS, CRYO, REFR, lighting, fire alarm, FCA, and safety network to the telescope structure as defined in (AD96)."
+2021_tmt_oad_WEB,"Each cable wrap assembly (Azimuth turning, Azimuth hanging, Elevation +X and Elevation -X) shall include spare capacity to carry an additional 25% of the total number of lines selected for that wrap, including at least one additional line of any type planned for that particular wrap."
+2021_tmt_oad_WEB,"The cable wrap system, including the associated support structure, shall be designed to facilitate in-situ removal and installation of cables and hoses."
+2021_tmt_oad_WEB,"The utilities and cables running through the cable wrap system, shall not be damaged from failures of either the cable wrap and telescope drive systems."
+2021_tmt_oad_WEB,"The lifetime of all cables, hoses and conduits running through the cable wrap system subjected to the cable wrap function shall be greater than the observatory lifetime."
+2021_tmt_oad_WEB,"The mount control system as implemented on the telescope shall exhibit a torque disturbance rejection transfer function relative to open loop, that is equal to or better than that shown in 'Figure 4-1: Bound on mount control torque rejection with respect to open-loop' below."
+2021_tmt_oad_WEB,"The telescope shall be capable of making all azimuth axis moves rapidly, such that they can be completed, including smooth ramping profiles and settling time, faster than an equivalent move with a trapezoidal velocity profile with acceleration and deceleration rate of 0.13 degrees/s^2 and a maximum velocity of 2.5 degrees/sec."
+2021_tmt_oad_WEB,The maximum slewing rate of the telescope azimuth axis shall not exceed 2.5 degrees/sec.
+2021_tmt_oad_WEB,"The telescope shall be capable of making all elevation axis moves rapidly, such that they can be completed, including smooth ramping profiles and settling time, faster than an equivalent move with a trapezoidal velocity profile with acceleration and deceleration rate of 0.1 degrees/s^2 and a maximum velocity of 1 degrees/sec."
+2021_tmt_oad_WEB,The maximum slewing rate of the telescope elevation axis shall not exceed 2.0 degrees/sec.
+2021_tmt_oad_WEB,AO guider offsets of up to 30 arcseconds on the sky shall be accurate to 0.002 arcseconds RMS.
+2021_tmt_oad_WEB,The TCS shall not send move commands to the M3 mirror during offsets of 10 arc-seconds or less on the sky.
+2021_tmt_oad_WEB,The observatory shall support a pattern of non-redundant dithers extending over a period of 4 hours with a time interval between two consecutive dithers (T_A in Figure 4-2 below) as short as 20 seconds with an RMS accuracy given in [REQ-1-OAD-1104] and Table 4-1.
+2021_tmt_oad_WEB,"The telescope shall deliver the image with jitter due to wind effects, relative to an instrument mounted on the Nasmyth platform, less than or equal to the PSD shown in 'Figure 4- 3: Allowable image jitter as seen by an instrument mounted on the Nasmyth Platform' below."
+2021_tmt_oad_WEB,"The Nasmyth platforms, instruments and their support structures must not extend outside the volume defined in TMT.INS.GTY.0003 (AD52)."
+2021_tmt_oad_WEB,The Nasmyth platforms shall provide a permanent platform covering the area defined in TMT.INS.GTY-0004 (AD74) at an elevation of 7 m below the elevation axis. All structure above this level shall be reconfigurable.
+2021_tmt_oad_WEB,"No part of the telescope structure shall obscure the light path to the science instruments as defined in (AD73) or the incoming light to the primary mirror as defined in (AD81), over the full range of observing zenith angles."
+2021_tmt_oad_WEB,"The STR, excluding the Instrument Support Structures, shall deliver an unobscured FOV 20 arcmin diameter at -21° to 5 arcmin diameter at -26.5° for the +X Nasmyth Platform."
+2021_tmt_oad_WEB,"The STR, excluding the Instrument Support Structures, shall deliver a full FOV of 20 arcmin diameter for Nasmyth foci locations from -21° to 0°, without obscuration by the telescope structure for the +X Nasmyth Platform."
+2021_tmt_oad_WEB,"The STR, excluding the Instrument Support Structures, shall deliver an unobscured FOV from 20 arcmin diameter at 0° to 5 arcmin diameter at +5.5° for the +X Nasmyth Platform."
+2021_tmt_oad_WEB,"The STR, excluding the Instrument Support Structures, shall deliver an unobscured FOV from 20 arcmin diameter at +180° to 5 arcmin at +174.5° for the -X Nasmyth Platform."
+2021_tmt_oad_WEB,"The STR, excluding the Instrument Support Structures, shall deliver a full FOV of 20 arcmin diameter for Nasmyth foci locations from +180° to 201°, without obscuration by the telescope structure for the -X Nasmyth Platform."
+2021_tmt_oad_WEB,"The STR, excluding the Instrument Support Structures, shall deliver an unobscured FOV from 20 arcmin diameter at +201° to 5 arcmin diameter at +206.5° for the -X Nasmyth Platform."
+2021_tmt_oad_WEB,"At first light, the Nasmyth Platforms shall be implemented in a way that supports the Alignment and Phasing System, on-axis at first light, and at a position approximately 14 degrees off the elevation axis."
+2021_tmt_oad_WEB,"At First Light, the Nasmyth Platforms shall provide support for the following instruments, each at their own foci: NFIRAOS with the NSCU, feeding IRIS and MODHIS, at the 174.5 degree position on the -X platform, WFOS at the 0 degree position on the +X platform, and APS at the 180 degree position on-axis and beside NFIRAOS."
+2021_tmt_oad_WEB,"The Nasmyth Platforms shall be upgradeable to support the following First Decade instruments, each at their own foci and with their required field of view: IRMOS, MIRES, PFI, NIRES, HROS."
+2021_tmt_oad_WEB,"The APS shall stay within the volumes, and meet the focal plane position requirements, defined in drawings TMT.INS.GTY-0001 (AD98), TMT.INS.GTY-0002 (AD99), and TMT.SEN.GTY-0001 (AD100)."
+2021_tmt_oad_WEB,"HROS shall stay within the volumes, and meet the focal plane position requirements, defined in drawings TMT.INS.GTY-0002 (AD99) and TMT.SEN.GTY-0001 (AD100)."
+2021_tmt_oad_WEB,"IRIS shall stay within the volumes, and meet the focal plane position requirements, defined in drawings TMT.INS.GTY-0001 (AD98) and TMT.SEN.GTY-0001 (AD100)."
+2021_tmt_oad_WEB,"MODHIS shall stay within the volumes, and meet the focal plane position requirements, defined in drawings TMT.INS.GTY-0001 (AD98) and TMT.SEN.GTY-0001 (AD100)."
+2021_tmt_oad_WEB,"IRMOS shall stay within the volumes, and meet the focal plane position requirements, defined in drawings TMT.INS.GTY-0002 (AD99) and TMT.SEN.GTY-0001 (AD100)."
+2021_tmt_oad_WEB,"MIRAO shall stay within the volumes, and meet the focal plane position requirements, defined in drawings TMT.INS.GTY-0002 (AD99) and TMT.SEN.GTY-0001 (AD100)."
+2021_tmt_oad_WEB,"MIRES shall stay within the volumes, and meet the focal plane position requirements, defined in drawings TMT.INS.GTY-0002 (AD99) and TMT.SEN.GTY-0001 (AD100)."
+2021_tmt_oad_WEB,"NFIRAOS shall stay within the volumes, and meet the focal plane position requirements, defined in drawings TMT.INS.GTY-0001 (AD98) and TMT.SEN.GTY-0001 (AD100)."
+2021_tmt_oad_WEB,"NIRES-R shall stay within the volumes, and meet the focal plane position requirements, defined in drawings TMT.INS.GTY-0002 (AD99) and TMT.SEN.GTY-0001 (AD100)."
+2021_tmt_oad_WEB,"PFI shall stay within the volumes, and meet the focal plane position requirements, defined in drawing TMT.INS.GTY-0002 (AD99) and TMT.SEN.GTY-0001 (AD100)."
+2021_tmt_oad_WEB,"WFOS shall stay within the volumes, and meet the focal plane position requirements, defined in drawings TMT.INS.GTY-0001 (AD98) and TMT.SEN.GTY-0001 (AD100)."
+2021_tmt_oad_WEB,Each lower Nasmyth platform shall provide a grid of hard points for attaching instrument support structures.
+2021_tmt_oad_WEB,The instrument support structures shall support each instrument in a manner that meets: (1) the image size error budget terms for optical alignment (image jitter and image blur); (2) the pointing error budget; and (3) the pupil shift error budget.
+2021_tmt_oad_WEB,"The instrument support structures shall also enable access to the instruments for servicing, and shall support auxiliary equipment such as electronics enclosures, as agreed upon in the instrument to telescope interface requirements."
+2021_tmt_oad_WEB,The Nasmyth platforms and instrument support structures shall be designed to have minimal obstruction of air flow across the primary mirror.
+2021_tmt_oad_WEB,"The general services supplied to the Nasmyth Platforms (including CRYO Platforms) shall be compressed air, coolant and cryogens, utility power, UPS, copper wire and optical fiber for control and communication."
+2021_tmt_oad_WEB,All permanent Nasmyth platform levels shall be accessible by personnel and equipment from the elevation of the observatory fixed base floor.
+2021_tmt_oad_WEB,Access to and from Nasmyth areas shall not place any requirements on the position or movement of the enclosure system.
+2021_tmt_oad_WEB,One or more elevators shall be provided to lift personnel and pieces of equipment up to 1.5 x 1.5 x 1.5 m (wxdxh) and 500 kg to the Nasmyth platforms.
+2021_tmt_oad_WEB,Elevator access to and from the Nasmyth areas shall be possible at any telescope azimuth position.
+2021_tmt_oad_WEB,"The elevator shall be attached to the telescope azimuth structure, and the lower level shall be at the azimuth walkway adjacent to the telescope pier."
+2021_tmt_oad_WEB,"Each Nasmyth platform shall be directly accessible by one or more stairways, that don’t require crossing to the other side of the telescope."
+2021_tmt_oad_WEB,Stairway access to and from the Nasmyth areas shall be possible at any telescope azimuth position.
+2021_tmt_oad_WEB,The enclosure subsystem shall provide a compliment of cranes and / or hoists that are able to reach and reposition loads anywhere within the perimeter of each Nasmyth platform.
+2021_tmt_oad_WEB,"The enclosure mounted cranes and hoists shall be able to reposition loads within their entire working volume, including lowering to the observatory floor."
+2021_tmt_oad_WEB,Sufficient space shall be provided between instruments to allow access for servicing.
+2021_tmt_oad_WEB,"All instruments shall provide a pathway at the Nasmyth platform level, at least 1.5 m wide and 2.5 m high, for personnel and equipment to transit between the +Y and -Y ends of the Nasmyth areas."
+2021_tmt_oad_WEB,"Access to all required instrument locations for regular servicing and maintenance shall be provided via walkways, elevators, lifts and stairs. Sufficient space shall be provided for personnel and the required equipment to access the service locations."
+2021_tmt_oad_WEB,Walkway access shall be provided between the -X and +X Nasmyth platforms and accesible at all telescope elevation angles.
+2021_tmt_oad_WEB,The walkways between the +X and -X Nasmyth areas shall be >1.5 m wide.
+2021_tmt_oad_WEB,"A lay down area for staging and assembly of equipment with a footprint of at least 5 x 7 m, and 5 m high, shall be provided on both Nasmyth platforms."
+2021_tmt_oad_WEB,The telescope STR design shall provide sufficient clearance between it and the enclosure fixed base and rotating base to allow a component of the size shown in (AD97) to be lifted from the floor to the Nasmyth platforms.
+2021_tmt_oad_WEB,Instruments shall be designed in a manner such that a temporary clean and controlled environment can be provided for assembling an instrument in-situ.
+2021_tmt_oad_WEB,"All Nasmyth instrument handling, installation and removal activities shall be compatible with the requirements of the operating observatory environment."
+2021_tmt_oad_WEB,The Nasmyth platforms shall be designed in such a way as to enable the addition of new instruments without affecting the productivity of the already commissioned instrument suite.
+2021_tmt_oad_WEB,"Servicing equipment required for regular use, including platform lifts, small cranes, personnel lifts, vacuum pumps, tool cabinets, workbenches, shall be stored on the Nasmyth platforms."
+2021_tmt_oad_WEB,"Allowance shall be made for 21 m2 of floor space with at least 3 m overhead clearance on the -X platform for instrument electronics, equipment and tools."
+2021_tmt_oad_WEB,"Allowance shall be made for 38 m2 of floor space with at least 2.5 m overhead clearance on the +X platform for instrument electronics, equipment and tools."
+2021_tmt_oad_WEB,An escape system shall be provided to allow personnel to exit the Nasmyth Platforms in the case of emergency.
+2021_tmt_oad_WEB,Areas on the telescope or enclosure where personnel need to work frequently at a height more than 1.8 meters above the observing floor shall be equipped with safety rails having kick plates to prevent loose items from being kicked over the edge.
+2021_tmt_oad_WEB,"Areas on the telescope or enclosure where personnel need to work frequently at a height more than 1.8 meters above the observing floor shall be provided with at least two paths of egress not requiring the use of elevators, in case fire or some other emergency blocks one escape route."
+2021_tmt_oad_WEB,Components of the observatory wide fire system shall be mounted on the telescope structure to allow personnel in this area to initiate a fire alarm.
+2021_tmt_oad_WEB,Components of the observatory wide fire system shall be mounted on the telescope structure to ensure fire alarms are audible and visible to personnel working on the telescope structure.
+2021_tmt_oad_WEB,Components of the observatory wide fire system shall be mounted on the telescope structure to detect smoke and heat caused by a fire on the telescope or telescope.
+2021_tmt_oad_WEB,The STR Segment Handling System (STR SHS) is an integrated system that consists of: (1) a Segment Lifting Fixture (SLF) that interfaces to the Mounted Segment Assembly (MSA); (2) a positioning system that moves the SLF to install or remove the segments in the primary mirror array; and (3) a crane or other means to raise segments from the observing floor to the mirror cell and lower them back to the observing floor.
+2021_tmt_oad_WEB,The STR SHS shall be mounted on the telescope structure.
+2021_tmt_oad_WEB,Installation and removal of primary mirror segments shall be accomplished with the telescope locked in a zenith-pointing orientation.
+2021_tmt_oad_WEB,The STR SHS shall enable the installation and removal of any 10 primary mirror segments per 10-hour day.
+2021_tmt_oad_WEB,"The STR SHS shall be able to access, install and remove any of the 492 segments in the primary mirror."
+2021_tmt_oad_WEB,"The STR SHS shall be placed in a stowed position when the telescope is used for observing. In its stowed position, no component of the STR SHS shall vignette the field of view of any of the science instruments."
+2021_tmt_oad_WEB,The STR SHS shall enable MSAs to be raised and lowered directly to a segment handling cart on the observatory floor.
+2021_tmt_oad_WEB,"The STR SHS shall have six motorized degrees of freedom (Tx, Ty, Tz, Rx, Ry, Rz, defined in a convenient orthogonal coordinate system)."
+2021_tmt_oad_WEB,The STR SHS shall level the segment (Tip = Tilt = 0) prior to installing/removing the segment onto the handling cart.
+2021_tmt_oad_WEB,"If the STR SHS is stowed when an earthquake up to the level of a very infrequent earthquake occurs, the STR SHS shall not damage any telescope mirror or any science instrument."
+2021_tmt_oad_WEB,"If the STR SHS is in use when an earthquake, up to the level of an infrequent earthquake occurs, the STR SHS shall not damage any telescope mirror systems, including M1 and M3, or any science instrument."
+2021_tmt_oad_WEB,"If the STR SHS is raising or lowering a segment from/to the observing floor when an earthquake up to the level of a frequent earthquake occurs, the STR SHS shall not allow damage to the MSA being moved."
+2021_tmt_oad_WEB,"The STR SHS shall strictly minimize any contaminants which might be deposited onto the surface of the primary mirror or tertiary mirror, including dust, debris, grease, oil or other fluids."
+2021_tmt_oad_WEB,"In its stowed position, the STR SHS shall not significantly interfere with the free flow of air across the surface of the primary mirror."
+2021_tmt_oad_WEB,"No elements of the STR SHS (including any payload) shall be able to contact the primary mirror under any combination of environmental, seismic and operational conditions or during loss of power. The STR SHS should minimize the potential damage to the segment which is in the process of being engaged during a seismic condition or operational failure."
+2021_tmt_oad_WEB,"The M1 or M2/M3 Coating Systems shall allow application of coating recipes other than the baseline coating, including coatings of different materials and number of layers."
+2021_tmt_oad_WEB,"The M1, M2, and M3 Optical Coatings shall have a lifetime of at least 2 years while meeting performance requirements."
+2021_tmt_oad_WEB,The optical surfaces of the M1 segments shall have a smooth specular surface finish that scatters less than 0.15 % of the light at the shortest observing wavelength.
+2021_tmt_oad_WEB,The M1 system shall be designed to allow in situ CO2 cleaning of the mirror.
+2021_tmt_oad_WEB,The Primary Segment Assemblies shall be designed to be serviced by personnel working in the mirror cell with the telescope zenith pointing. All components that are expected to fail at some point during use shall be replaceable without removing the segment.
+2021_tmt_oad_WEB,The Primary Segment Assemblies shall be designed so that they can be quickly inspected by personnel working inside the mirror cell to identify any damage caused by an earthquake.
+2021_tmt_oad_WEB,"The segment and the portions of the SSA that will stay with it in the coating chamber shall be compatible with the vacuum and coating environment, and shall not show any degradation after 30 re-coating cycles."
+2021_tmt_oad_WEB,The segments shall be dimensionally stable such that the relative heights of the segment edges comply with the error budget term for SOPD Segment Out of Plane Displacement [REQ-1-OAD-0418] for periods of at least 30 days without updates from the APS.
+2021_tmt_oad_WEB,The STR shall provide access to the primary mirror cell from each of the Nasmyth platforms when the telescope is zenith pointing.
+2021_tmt_oad_WEB,"Lift platforms, 100 kg capacity, or other means shall be provided to allow small wheeled equipment items to be rolled from the Nasmyth elevator to the work level of the primary mirror cell."
+2021_tmt_oad_WEB,"The primary mirror of the system shall be segmented as shown in 'Figure 4-4: Layout of the segmented primary mirror, as projected on the X-Y plane of the Elevation Coordinate System (ECRS)' below; it contains 492 segments."
+2021_tmt_oad_WEB,The pupil obscuration due to segment gaps and beveled edges shall be a maximum of 0.6% of the pupil area.
+2021_tmt_oad_WEB,"The segment support assembly must accommodate, without damage, the maximum tilt that can be imposed by the M1CS actuators."
+2021_tmt_oad_WEB,"The telescope structure and primary mirror cell shall be designed such that relative in-plane motion between any two adjacent segments results in a segment gap change of less than 0.54 mm under all Observing Performance conditions, and less than 1.0 mm under all Facility Performance conditions."
+2021_tmt_oad_WEB,The telescope structure and primary mirror cell shall be designed such that segment to segment contact does not occur under the conditions defined in the table below.
+2021_tmt_oad_WEB,"The projections of the segments on the X-Y plane of the ECRS shall be hexagons radially scaled from 492 regular hexagons with side length of approximately 0.716 m, by the factor of:"
+2021_tmt_oad_WEB,The radial scaling coefficient of [REQ-1-OAD-1750] shall be 0.1650.
+2021_tmt_oad_WEB,"The nominal (theoretically perfect) geometry of the segment vertex co- ordinates, segment co-ordinate systems, edge sensor locations, mirror cell to primary segment assembly attachment points and segment position actuator locations shall be as defined in the TMT M1 Segmentation Database (AD16)."
+2021_tmt_oad_WEB,Each segment shall have interface features that allow it to be positioned precisely in the correct position and orientation when it is substituted into any of six locations in the array.
+2021_tmt_oad_WEB,The M1 shall incorporate alignment features that allow its global position to be accurately and quickly measured by the Global Metrology System (GMS).
+2021_tmt_oad_WEB,The M1 SHC shall allow for the mounting and movement of one (1) MSA per handling cart.
+2021_tmt_oad_WEB,The M1 SHC shall be compatible with pathways and openings provided throughout the Enclosure and Summit Facilities for the purpose of mirror maintenance and storage.
+2021_tmt_oad_WEB,The M1 SHC shall provide a safe method of transporting each segment to and from the observing floor to the Segment Handling Platform (SHP).
+2021_tmt_oad_WEB,"The M1 SHC shall facilitate the stripping, washing and recoating operations."
+2021_tmt_oad_WEB,The M2 system shall be designed to allow the removal of the mirror for coating.
+2021_tmt_oad_WEB,"The M2 shall be compatible with all equipment and processes involved in stripping and replacing the reflective coating, including the vacuum and temperature conditions in the coating chamber."
+2021_tmt_oad_WEB,The M2 system shall be designed to allow in situ CO2 cleaning of the mirror.
+2021_tmt_oad_WEB,"As a goal, the M2 system shall be designed to allow in-situ washing of the mirror. Catchments shall be provided to catch all the fluids used in the washing operation, for proper disposal. No washing fluids shall be allowed to drip onto the primary mirror or tertiary mirror."
+2021_tmt_oad_WEB,The M2 System shall provide 5 degree of freedom motion of the secondary mirror relative to the telescope structure and shall control the sixth degree of freedom (rotation around the optical axis) so that it does not change.
+2021_tmt_oad_WEB,"In addition to any other motion requirements, the mechanical range of motion of the M2 system shall be sufficient to accommodate any combination of the telescope top end deflections as specified in 'Table 4-9: Maximum allowable deflection of the telescope top end' below requirement [REQ-1-OAD-1321]."
+2021_tmt_oad_WEB,The M2 System shall provide bandwidths in tip/tilt and de-center of greater than 0.1 Hz.
+2021_tmt_oad_WEB,The M2 System shall provide bandwidths in piston of greater than 0.1Hz.
+2021_tmt_oad_WEB,"The M2 System shall receive and execute real time tip/tilt, de-center, and piston commands issued by the Telescope Control System."
+2021_tmt_oad_WEB,The optical surface of the secondary mirror shall have a smooth specular surface finish that scatters less than 0.15% of the light at the shortest observing wavelength.
+2021_tmt_oad_WEB,"Except when observing or when necessary in servicing and maintenance mode, the M3 System shall be parked in an orientation that minimizes the risk of damage and collection of dust."
+2021_tmt_oad_WEB,The M3 system shall be designed to allow the removal of the mirror for coating.
+2021_tmt_oad_WEB,"The M3 shall be compatible with all equipment and processes involved in stripping and replacing the reflective coating, including the vacuum and temperature conditions in the coating chamber."
+2021_tmt_oad_WEB,The M3 system shall be designed to allow in situ CO2 cleaning of the mirror.
+2021_tmt_oad_WEB,"The M3 system shall be designed to allow in-situ washing of the mirror. Catchments shall be provided to catch all the fluids used in the washing operation, for proper disposal. No washing fluids shall be allowed to drip onto the primary mirror."
+2021_tmt_oad_WEB,"The entire M3 Assembly must fit within a 3.50 m diameter cylinder centered about the M1 optical axis, at all observing orientations, to avoid obscuration of the telescope entrance pupil."
+2021_tmt_oad_WEB,The M3 assembly shall be serviceable either using the aerial servicing platform with the telescope horizon pointing or in telescope zenith-pointing orientation by personnel who ascend into the center of the assembly through the rotation bearing of the M3 positioner.
+2021_tmt_oad_WEB,The M3 System shall provide two degree of freedom motion of the tertiary mirror relative to the telescope structure. The required mechanical range of motion shall be sufficient to redirect a beam of light from the secondary mirror towards the Nasmyth platform instrument locations per [REQ-1-OAD-1398]. The motion shall be achieved over a telescope zenith angle range of 0 to 65 degrees. All instrument optical axes are located in a plane perpendicular to the ACRS z-axis and coincident with the ECRS origin.
+2021_tmt_oad_WEB,The M3 system shall be able to address APS field positions up to 10 arcmin off axis.
+2021_tmt_oad_WEB,The M3 System shall provide bandwidths in tilt and rotation of not less than 0.1 Hz.
+2021_tmt_oad_WEB,The M3 System shall be able to redirect the beam between any two instruments in less than three (3) minutes.
+2021_tmt_oad_WEB,The M3 shall be able to track to maintain the alignment of the science beam with any instrument.
+2021_tmt_oad_WEB,The M3 System shall include a low level control system to control the M3 positioner. The M3 positioner control system shall be able to operate successfully in the absence of the M3 Cell Assembly.
+2021_tmt_oad_WEB,The M3 System shall receive and execute real time tilt and rotation commands issued by the Telescope Control System.
+2021_tmt_oad_WEB,The optical surface of the tertiary mirror shall have a smooth specular surface finish that scatters less than 0.15% of the light at the shortest observing wavelength.
+2021_tmt_oad_WEB,"The combined static stiffness of the mirror cell, actuators and segment support assembly relative to its immediate neighbours shall be no less than 10 N/um in the z direction."
+2021_tmt_oad_WEB,"The M1CS bandwidth (3dB) shall be no less than 1 Hz for Zernike patterns with radial degree 5 or higher, and no less than 0.25, 0.5, and 0.75 Hz respectively for Zernike radial degree 2, 3 and 4."
+2021_tmt_oad_WEB,The stiffness of the combined segment support shall be no less than 0.8 N/um in the z direction for frequencies between 5 and 20Hz.
+2021_tmt_oad_WEB,The stiffness of the combined segment support shall be no less than 4/f N/um in the z direction for all frequencies between 0.4Hz and 5 Hz.
+2021_tmt_oad_WEB,The M1CS shall be able to tilt any uncontrolled segments at least 40 arcseconds on the sky from the controlled segments.
+2021_tmt_oad_WEB,The M1CS shall implement the driving of the segment warping harness motors and the readback of the segment warping harness sensors.
+2021_tmt_oad_WEB,The M1CS shall provide the capability to measure and log the M1S segment temperature.
+2021_tmt_oad_WEB,The APS shall use starlight to measure the overall wavefront errors and then determine the appropriate commands to send to align the optics.
+2021_tmt_oad_WEB,"The APS shall have an acquisition camera with a 1 (goal 2) arcminute diameter field of view for use in pointing, acquisition and tracking tests."
+2021_tmt_oad_WEB,The APS shall have the ability to make off axis measurements at any point in the telescope field of view and characterize the wavefront in terms of Zernikes.
+2021_tmt_oad_WEB,The APS shall measure the position of the pupil to an accuracy of 0.03% of the diameter of the pupil.
+2021_tmt_oad_WEB,"In the absence of segment exchanges, the M1S, M2S, M3S, and M1CS shall meet all performance requirements for periods of no less than four weeks without calibration by the APS."
+2021_tmt_oad_WEB,The APS shall be able to perform on-axis alignment in less than 30 minutes (at a single elevation angle) when all optics are within the alignment maintenance specifications.
+2021_tmt_oad_WEB,The APS shall be able to perform all function necessary for on-axis alignment and M1CS calibration in 180 minutes when all optics are within the post-segment exchange specifications.
+2021_tmt_oad_WEB,The CLN shall enable cleaning of the entire optical surface of the primary mirror once every two weeks.
+2021_tmt_oad_WEB,The CLN shall enable cleaning of the entire optical surfaces of M2 and M3 using equipment that can be operated by a single person from the STR Aerial Service Platform.
+2021_tmt_oad_WEB,The CLN shall have a maximum CO2 flow velocity normal to M1 optical surface of 6 m/s.
+2021_tmt_oad_WEB,"ESEN shall provide ultrasonic anemometers with resolutions of 0.01m/s and accuracies of ±0.1m/s to extract turbulence properties for M1 wind loading control, dome seeing, and telescope wind jitter."
+2021_tmt_oad_WEB,"ESEN shall provide air temperature measurements with resolutions of 0.01K, response rates of <1s, and an accuracy of <0.1K."
+2021_tmt_oad_WEB,ESEN shall provide surface and structural temperature measurements with resolutions of 0.01K and response rates of <1s with an accuracy of <0.1K to calculate pointing corrections.
+2021_tmt_oad_WEB,"ESEN shall provide dew point measurements with an accuracy better than ±0.2K, an averaging sampling rate <1min, and a response rate of <30s."
+2021_tmt_oad_WEB,ESEN shall provide barometric pressure measurements with an accuracy better than 1 hPA to inform refraction and atmospheric-dispersion adjustments.
+2021_tmt_oad_WEB,"ESEN shall provide measurements of the lateral tilt (pitch) and longitudinal tilt (roll) of the telescope, with resolutions equal to or better than 0.05 arcseconds and long term repeatability equal to or better than 0.2 arcseconds, to compensate for mount tip/tilt effects on pointing. Accelerometers mounted to the telescope structure are required for monitoring vibration and related dynamic disturbances, and assessing structural dynamics for model validation and control design."
+2021_tmt_oad_WEB,"ESEN shall provide single-axis accelerometers, with a frequency range of at least 5 Hz to 200 Hz and a noise floor at 5 Hz better than 0.25 µg/Hz, to capture both image motion and focus/astigmatism at M1."
+2021_tmt_oad_WEB,"ESEN shall provide accelerometers, with a frequency range of at least 5 Hz to 200 Hz and a noise floor at 5 Hz better than 0.25 µg/Hz, to capture both tip/tilt and decentering motion at M2."
+2021_tmt_oad_WEB,"ESEN shall provide single-axis accelerometers, with a frequency range of at least 5 Hz to 200 Hz and a noise floor at 5 Hz better than 0.25 µg/Hz, to capture both tip/tilt and decentering motion at M3."
+2021_tmt_oad_WEB,"ESEN shall provide three-axis accelerometers, with a frequency range of at least 5 Hz to 200 Hz and a noise floor at 5 Hz better than 0.25 µg/Hz, on each Nasmyth platform to resolve key structural modes and help identify vibration sources."
+2021_tmt_oad_WEB,"ESEN shall provide three-axis accelerometers, with a frequency range of at least 5 Hz to 200 Hz and a noise floor at 5 Hz better than 0.25 µg/Hz, on the pier to resolve whether vibration sources are coming from off the telescope."
+2021_tmt_oad_WEB,The SCMS shall gather time-stamped barometric pressure measurements every 10 seconds of the following meteorological and atmospheric sensors located at the weather tower on the north edge of the TMT site.
+2021_tmt_oad_WEB,The SCMS shall gather time-stamped temperature measurements every 10 seconds of the following meteorological and atmospheric sensors located at the weather tower on the north edge of the TMT site.
+2021_tmt_oad_WEB,The SCMS shall gather time-stamped relative humidity measurements every 10 seconds of the following meteorological and atmospheric sensors located at the weather tower on the north edge of the TMT site.
+2021_tmt_oad_WEB,The SCMS shall gather time-stamped wind speed measurements every 10 seconds of the following meteorological and atmospheric sensors located at the weather tower on the north edge of the TMT site.
+2021_tmt_oad_WEB,The SCMS shall gather time-stamped wind direction measurements every 10 seconds of the following meteorological and atmospheric sensors located at the weather tower on the north edge of the TMT site.
+2021_tmt_oad_WEB,"The SCMS shall provide fog measurements with visibility resolution 5m up to 1km, every 10 seconds."
+2021_tmt_oad_WEB,The SCMS shall detect precipitation at a level 10-7 mm/s every second.
+2021_tmt_oad_WEB,"The SCMS shall measure dust mass concentration as a function of particle size in particle size bins >0.3µm, >0.5µm, >1.0µm, >2.0µm and >5.0µm every minute."
+2021_tmt_oad_WEB,The SCMS shall measure SO2 (TBC) and/or SO4 (TBC) concentration in parts every 10 seconds.
+2021_tmt_oad_WEB,The SCMS shall measure the fraction of cloud coverage across the sky to with 10% every minute.
+2021_tmt_oad_WEB,The SCMS shall provide measurements of the amount of Precipitable Water Vapor between 0 to 27mm every minute.
+2021_tmt_oad_WEB,"The SCMS shall provide measurements of the seeing and Fried Parameter (r0) at 0.5µm, corrected for a zero exposure time at the zenith, every minute."
+2021_tmt_oad_WEB,"The SCMS shall provide measurement of the optical turbulence profile (Cn2(h) m-1/3), turbulence coherence time at the zenith every minute."
+2021_tmt_oad_WEB,The SCMS shall provide measurement of the sky transparency and background sky brightness at the zenith in UBVRI bands every minute.
+2021_tmt_oad_WEB,The TINS PFC shall have an f number of 1.5.
+2021_tmt_oad_WEB,The TINS PFC shall support guiding and acquisition.
+2021_tmt_oad_WEB,The TINS PFC shall measure the subimage from a single segment with an accuracy of at least 0.1 arcsecond.
+2021_tmt_oad_WEB,The TINS GMS shall facilitate the following use cases:
+2021_tmt_oad_WEB,The TINS GMS shall facilitate M1 Sub-cell Alignment.
+2021_tmt_oad_WEB,The TINS GMS shall facilitate M1 Global Tip/Tilt - Operations.
+2021_tmt_oad_WEB,The TINS GMS shall facilitate M2 Installation and Position.
+2021_tmt_oad_WEB,The TINS GMS shall facilitate M3 Pointing Model Development.
+2021_tmt_oad_WEB,The TINS GMS shall facilitate M3 Installation and Position.
+2021_tmt_oad_WEB,The TINS GMS shall facilitate Initial Pre-observing Alignment Between M2 and M3.
+2021_tmt_oad_WEB,The TINS GMS shall facilitate NFIRAOS and NFIRAOS CLIENT Instrument Alignment.
+2021_tmt_oad_WEB,The TINS GMS shall facilitate APS Alignment to Support Pointing Budget.
+2021_tmt_oad_WEB,Instruments shall be designed to routinely acquire objects given a telescope pointing RMS accuracy of 3 arcseconds RMS.
+2021_tmt_oad_WEB,TMT Instrumentation shall incorporate all hardware necessary for calibration.
+2021_tmt_oad_WEB,Instruments shall be light tight to an extent that will allow internal calibrations to be performed during daytime operations with the enclosure lights on.
+2021_tmt_oad_WEB,"No equipment whose weight is supported by the NFIRAOS instrument support tower may use fans or other vibrating machinery, including closed cycle cryopumps."
+2021_tmt_oad_WEB,"The design lifetime of AO systems (LGSF and NFIRAOS) and First Light science instruments (IRIS, MODHIS and WFOS) shall be 20 years."
+2021_tmt_oad_WEB,Instrument maintenance and servicing shall be done primarily on the Nasmyth Platforms.
+2021_tmt_oad_WEB,Instrument maintenance and servicing shall be done secondarily on the Observing Floor Instrument reserve area.
+2021_tmt_oad_WEB,Instrument lifetime for the first generation WFOS instrument shall be based on the 50% of available science time.
+2021_tmt_oad_WEB,Instrument lifetime for the first generation IRIS instrument shall be based on the 25% of available science time.
+2021_tmt_oad_WEB,Instrument lifetime for the first generation MODHIS instrument shall be based on the 25% of available science time.
+2021_tmt_oad_WEB,Instrument lifetime for the first generation NFIRAOS instrument shall be based on the 50% of available science time.
+2021_tmt_oad_WEB,"All TMT science instruments shall produce data with the meta-data necessary for later organization (“find all science data associated with this science observation”), classification (“identify the type of science data, e.g. environmental conditions, instrument, instrument mode, etc.”), and association (“identify calibration data and processing algorithm needed to process these science data”)."
+2021_tmt_oad_WEB,"All TMT science instruments shall produce data and meta-data compliant with the then-current FITS and Virtual Observatory standards. Meta-data information shall include: information about observing program; target information; system configuration at time of observation (telescope, AO system, instrument, detector); and environmental conditions at time of observation"
+2021_tmt_oad_WEB,NFIRAOS Subsystem shall have 2 deformable mirrors conjugate to 0 km and 11.2 km.
+2021_tmt_oad_WEB,NFIRAOS Subsystem in LGS MCAO mode shall utilize six Na (Sodium) laser guide stars to improve sky coverage.
+2021_tmt_oad_WEB,"The NFIRAOS throughput to science instruments shall exceed 60% over 0.8 –1.0 microns, and 80% over the 1.0 - 2.4 micron wavelength range [Goal: 90% from 0.6 to 2.5 microns]."
+2021_tmt_oad_WEB,The NFIRAOS unvignetted field of view shall be at least 2 arcmin diameter.
+2021_tmt_oad_WEB,"Useful NFIRAOS correction shall be achieved over a 2.3 arcmin diameter field of view, with no more than 30% vignetting."
+2021_tmt_oad_WEB,NFIRAOS shall not increase the (inter-OH) background by more than 15% over natural sky + the telescope for median night time temperatures on the TMT site (assume 7% telescope emissivity at 273 K).
+2021_tmt_oad_WEB,NFIRAOS shall provide a transmitted technical field with a focal ratio of f/15.
+2021_tmt_oad_WEB,NFIRAOS shall operate with values of r0 (in the direction of the observation) as small as 0.10 m.
+2021_tmt_oad_WEB,The NFIRAOS Subsystem in LGS MCAO mode shall utilize atmospheric tomography to minimize the impact of the cone effect.
+2021_tmt_oad_WEB,"NFIRAOS System, in LGS MCAO mode, shall utilize in closed loop up to three (3) near infra-red natural guidestar tip/tilt wavefront sensors located on the client instrument to maximize sky coverage."
+2021_tmt_oad_WEB,NFIRAOS Subsystem shall implement fast tip/tilt control of the Laser Guide Star (LGS) position on the sky to maintain their centering within the wavefront sensor field of view and minimize the errors due to sensor non-linearity.
+2021_tmt_oad_WEB,"NFIRAOS System shall provide a high spatial resolution, slow “truth” NGS WFS to prevent long term drifts in the corrected wavefront due to variations in the sodium layer profile, WFS background noise due to Rayleigh backscatter, or other system calibration errors."
+2021_tmt_oad_WEB,NFIRAOS Subsystem shall meet its requirements without pupil derotation.
+2021_tmt_oad_WEB,The NFIRAOS Subsystem night time calibrations shall consume no more than 0.7% of its scheduled observing time.
+2021_tmt_oad_WEB,The NFIRAOS Subsystem in NGSAO and LGS MCAO mode shall operate with full performance using an extended object as a Pyramid WFS guidestar with size up to 0.2 arcsec FWHM.
+2021_tmt_oad_WEB,The NFIRAOS Subsystem in NGSAO and LGS MCAO mode shall operate with degraded performance using an extended object as a Pyramid WFS guidestar with size greater than 0.2 arcsec FWHM and up to 1.7 arcsec FWHM.
+2021_tmt_oad_WEB,NFIRAOS Subsystem shall be designed to be upgradeable to a higher order AO system [REQ-1-OAD-2745] that interfaces to a wider-field near infra-red science instruments.
+2021_tmt_oad_WEB,"The LGSF at early light shall be capable of projecting a sodium laser guide star asterism for NFIRAOS, as shown in 'Figure 4-5: LGSF asterisms supporting different AO modes'."
+2021_tmt_oad_WEB,"The LGSF shall project the NFIRAOS asterism, and be upgradeable to project the MIRAO asterism, the MOAO asterism, and the GLAO asterism with up to 8 LGS as shown in 'Figure 4-5: LGSF asterisms supporting different AO modes'. As a goal, the 4 asterisms shall be available at early light."
+2021_tmt_oad_WEB,The LGSF system shall be able to switch between asterisms within 1 minute.
+2021_tmt_oad_WEB,LGSF shall generate a signal level consistent with 25W or 20W with D2b repumping per LGS.
+2021_tmt_oad_WEB,"The LGSF shall include all necessary alignment, calibration and diagnostic features required to meet its performance requirements."
+2021_tmt_oad_WEB,"The baseline LGSF shall utilize multiple lasers, and be operational with one laser down at the expense of degraded AO wavefront error performance."
+2021_tmt_oad_WEB,The LGSF shall use 589 nm solid state lasers with either a continuous wave (CW) or mode locked CW pulse format.
+2021_tmt_oad_WEB,The LGSF Beam Transfer Optics shall use conventional optics to transport the beams from the Laser System to the Laser Launch Telescope.
+2021_tmt_oad_WEB,The LGSF Laser Launch Telescope shall be mounted behind the secondary mirror of the telescope (M2) or Adaptive Secondary Mirror (AM2).
+2021_tmt_oad_WEB,LGSF shall provide a fast tip/tilt control of the Laser Guide Star (LGS) position on the sky to maintain their centering within the wavefront sensor field of view and minimize the errors due to sensor non-linearity.
+2021_tmt_oad_WEB,"In addition to any other motion requirements, the LGSF shall be capable of correcting for any combination of the deflections at the telescope top end as specified in 'Table 4-9: Maximum allowable deflection of Telescope Top End' below [REQ-1-OAD-1321]."
+2021_tmt_oad_WEB,The LGSF Laser System shall be mounted on the inside of the -X ECRS elevation journal per TMT.SEN.GTY-0006 (AD101).
+2021_tmt_oad_WEB,Space shall be reserved on the inside of the +X ECRS elevation journal to allow additional lasers to be mounted for future developments of the LGSF.
+2021_tmt_oad_WEB,The LGSF Beam Transfer Optics shall transport the laser beams from the laser system up to the LGSF Laser Launch Telescope via the Beam Transfer Optics Elevation Optical Path as defined in TMT.SEN.GTY-0006 (AD101)
+2021_tmt_oad_WEB,The LGSF system shall include all the necessary safety systems that are required with the use of the selected LGSF lasers.
+2021_tmt_oad_WEB,The LGSF system shall be upgradeable to provide Laser Guide Stars with the signal level and image quality consistent with the wavefront error budget of an upgraded NFIRAOS [REQ-1-OAD-2745].
+2021_tmt_oad_WEB,LGSF night time calibration shall consume no more than 0.3% of its scheduled observing time.
+2021_tmt_oad_WEB,Access shall be provided to the LGSF Top End when the telescope is horizon pointing.
+2021_tmt_oad_WEB,"Access shall be provided to those components of the LGSF Beam Transfer Optics Elevation Optical Path which are located along the -XECRS, +YECRS vertical column including the intersection with the top ring, when the telescope is horizon pointing."
+2021_tmt_oad_WEB,"Access shall be provided to those components of the LGSF Beam Transfer Optics Elevation Optical Path which are located along the -XECRS, +YECRS hexapod leg when the telescope is horizon pointing."
+2021_tmt_oad_WEB,"The AO Executive Software shall sequence and coordinate the actions of the NFIRAOS, the LGSF, and the early light instrument wavefront sensors, before, during and after each observation."
+2021_tmt_oad_WEB,The AO Sequencer shall be upgradeable to control the first decade AO system upgrades.
+2021_tmt_oad_WEB,"The AO Sequencer shall offload tip, tilt, focus, coma, and up to 100 M1 modes, as computed by either an AO system or a seeing limited instrument, to the Telescope Control System."
+2021_tmt_oad_WEB,The AO Executive Software shall generate the AO reconstructor parameters needed by NFIRAOS to perform the AO real time reconstruction.
+2021_tmt_oad_WEB,The AO Executive Software shall post process the AO PSF from the NFIRAOS AO real time data.
+2021_tmt_oad_WEB,"IRIS shall provide diffraction-limited moderate spectral resolution NIR spectra using an integral field unit (IFU), and images over a small field of view."
+2021_tmt_oad_WEB,IRIS shall be fed MCAO corrected light from the NFIRAOS adaptive optics system.
+2021_tmt_oad_WEB,"IRIS, or the IRIS to NFIRAOS interface, shall provide both field derotation and pupil derotation."
+2021_tmt_oad_WEB,The IRIS OIWFS sensors shall provide pixel intensities to NFIRAOS.
+2021_tmt_oad_WEB,The IRIS imager shall provide up to one configurable on-detector guide window per IRIS imager science detector.
+2021_tmt_oad_WEB,IRIS shall operate at a wavelength range of 0.84 - 2.4 µm.
+2021_tmt_oad_WEB,The field of view of the IRIS IFU coarsest scale shall be at least 3 arcsec in one spatial direction for integral field mode.
+2021_tmt_oad_WEB,The IRIS Imaging field-of-view shall be greater than 30x30 arcsec
+2021_tmt_oad_WEB,"IRIS spatial sampling shall be adjustable to offer plate scales of 0.004, 0.009, 0.025 and 0.050 arcsec/spaxel for the IFU."
+2021_tmt_oad_WEB,IRIS detector sampling for imaging shall be Nyquist sampled (?/2D) (0.004 arcsec) over 10x10 arcsec.
+2021_tmt_oad_WEB,IRIS shall provide wavelength coverage (??/? ? 0.05) for an area equivalent to 100*100 spatial pixels.
+2021_tmt_oad_WEB,"IRIS shall have a minimum spectral resolving power of R=4000 over entire z, Y, J, H, K bands, one band at a time."
+2021_tmt_oad_WEB,The IRIS imager shall allow imager filters with a greater than 1% bandpass.
+2021_tmt_oad_WEB,"Throughput of the entire IRIS instrument from entrance window to detector shall be greater than 30%, not including telescope or NFIRAOS."
+2021_tmt_oad_WEB,"Throughput of the IRIS imager from entrance window to detector shall be greater than 45%, not including telescope or NFIRAOS."
+2021_tmt_oad_WEB,"IRIS shall not increase the (inter-OH) background by more than 15% over the sum of: inter-OH sky, telescope and NFIRAOS background (assume 7% emissivity at 273 K)."
+2021_tmt_oad_WEB,"IRIS, in imaging mode, shall not increase the K-band background by more than 15% over natural sky."
+2021_tmt_oad_WEB,IRIS detector dark current and read noise shall not increase the effective background by more than 5% for an integration time of 900 s.
+2021_tmt_oad_WEB,"In seeing limited mode, the image jitter resulting from the WFOS rotator shall be less than 33 mas RMS."
+2021_tmt_oad_WEB,WFOS shall be able to take an image of its spectrometric mode field of view.
+2021_tmt_oad_WEB,WFOS shall provide atmospheric dispersion correction.
+2021_tmt_oad_WEB,WFOS shall provide an acquisition and guiding system.
+2021_tmt_oad_WEB,WFOS shall provide a LOWFS (low order wavefront sensor) to supply active optics feedback signals.
+2021_tmt_oad_WEB,The WFOS wavelength range shall be 0.31 - 1.0 µm.
+2021_tmt_oad_WEB,"WFOS, in imaging mode and excluding atmospheric seeing and telescope contributions, shall yield an image quality measured at the instrument focal plane, including polychromatic correction residuals, no worse than 0.45 arcsec FWHM."
+2021_tmt_oad_WEB,"WFOS in spectroscopy mode, excluding atmospheric seeing and telescope contributions, shall yield encircled energy > 80% within an angular diameter of 0.25 arcsec on-sky."
+2021_tmt_oad_WEB,The WFOS spectroscopy field of view shall be > 25 arcmin2.
+2021_tmt_oad_WEB,The WFOS imaging field of view shall be > 25 arcmin2.
+2021_tmt_oad_WEB,The WFOS total slit length shall be > 500 arcsec.
+2021_tmt_oad_WEB,"WFOS shall provide a medium resolution mode with a median spectral resolution of R > 3500, with a 0.75 arcsec slit."
+2021_tmt_oad_WEB,"WFOS shall provide a low resolution mode with a median spectral resolution of R > 1500, with a 0.75 arcsec slit, over the full waveband in one exposure."
+2021_tmt_oad_WEB,"WFOS, in spectroscopy mode, shall have an on-axis throughput of > 25% from 0.31 µm - 1.00 µm, and > 30% from 0.35 µm - 0.90 µm, not including the telescope."
+2021_tmt_oad_WEB,"WFOS systematic errors, arising from background subtraction, scattered light, and detector noise, evaluated over a cumulative 8 hours of on-source integration time and at the channel centers of the low and medium resolution modes, shall degrade the sky background- subtracted signal-to-noise ratio by no more than 5% of the sky background Poisson error."
+2021_tmt_oad_WEB,"WFOS systematic errors, arising from background subtraction, scattered light, and detector noise, evaluated over a cumulative 8 hours of on-source integration time and at the channel centers of the low and medium resolution modes, shall introduce biases in accuracy no greater than 10% of the sky background Poisson error."
+2021_tmt_oad_WEB,"Stability of the spectral format on the WFOS detector focal plane, excluding atmospheric seeing and telescope contributions, shall be less than 1 pixel over a duration of 3 hours."
+2021_tmt_oad_WEB,MODHIS shall be fed an adaptive optics corrected beam from the NFIRAOS adaptive optics system.
+2021_tmt_oad_WEB,The MODHIS OIWFS sensors shall provide pixel intensities to NFIRAOS.
+2021_tmt_oad_WEB,MODHIS shall include one NGS wavefront sensor to provide guide star position feedback.
+2021_tmt_oad_WEB,The MODHIS to NFIRAOS interface shall permit instrument rotation to provide field derotation.
+2021_tmt_oad_WEB,MODHIS shall provide a pupil mask that can rotate to match the telescope pupil.
+2021_tmt_oad_WEB,The MODHIS science channel shall provide wavelength coverage over the 0.95 µm – 2.4 µm range.
+2021_tmt_oad_WEB,The MODHIS science channel shall provide simultaneous coverage for a given science target across the full yJ and HK astronomical bands.
+2021_tmt_oad_WEB,"MODHIS shall provide an average spectral resolution R > 100,000 over its entire science passband."
+2021_tmt_oad_WEB,MODHIS shall provide an instrumental radial velocity precision of > 30 cm/s (goal of 10 cm/s).
+2021_tmt_oad_WEB,The MODHIS science channel shall be capable of performing science on a single target with a goal of offering a multiplex of up to 4 separate simultaneous science targets.
+2021_tmt_oad_WEB,MODHIS shall provide an unvignetted field-of-regard > 4 x 4 arcsecs square.
+2021_tmt_oad_WEB,"The MODHIS science channel shall be capable of Nyquist sampling a point source from within the field-of-regard in each of y, J, H, and K bands."
+2021_tmt_oad_WEB,The MODHIS science channel end-to-end throughput shall be > 10%.
+2021_tmt_oad_WEB,The MODHIS front end instrument shall not degrade the wavefront quality of that delivered by NFIRAOS by more than 40 nm RMS.
+2021_tmt_oad_WEB,The MODHIS spectrograph shall provide an ensquared energy > 80% within a single pixel across 95% of the detector area.
+2021_tmt_oad_WEB,MODHIS shall enable subtraction of the background to better than 1%.
+2021_tmt_oad_WEB,"MODHIS shall provide raw contrast ratio of ? 100 from 0.5 ?/D to 2 ?/D and ? 1,000 from 2 ?/D to the edge of the field of regard."
+2021_tmt_oad_WEB,MODHIS shall provide spectropolarimetry with 0.1% (goal) polarimetric precision in y and J bands.
+2021_tmt_oad_WEB,Implementation and commissioning of any of the first decade instruments described in this section shall not result in the loss of more than 15 nights per instrument of productive science observing time.
+2021_tmt_oad_WEB,A backup generator shall be provided that allows automatic load transfer within 30 seconds of loss of normal power.
+2021_tmt_oad_WEB,"The backup generator shall be sized to support the loads (L3CUG, L3DG, H3DG, EMUPS) described in 'Table 4-19: Power Loads Inside Dome' and 'Table 4-20: Power Loads Inside Summit Facilities'."
+2021_tmt_oad_WEB,A centralized UPS shall be provided to cover a period of one minute between loss of normal power and transfer of load to the backup generator.
+2021_tmt_oad_WEB,All equipment and sub-systems shall be able to withstand complete loss of power without sustaining damage or causing damage to other personnel and other equipment.
+2021_tmt_oad_WEB,All power within the observatory shall be protected via fuses or circuit breakers.
+2021_tmt_oad_WEB,The illumination of interior of the enclosure shall be at 100 lux.
+2021_tmt_oad_WEB,The illumination of walkways and stairways shall be at 300 lux.
+2021_tmt_oad_WEB,Telescope operational and emergency lighting shall be provided at the illumination levels and locations defined in the Telescope Work Areas (AD93).
+2021_tmt_oad_WEB,Enclosure spot and emergency lighting shall be available for the defined work areas associated with ENC operation and maintenance activities on the interior of the fixed and rotating enclosure.
+2021_tmt_oad_WEB,General illumination on lighting zones shall be controlled independently of each other and using a communication network.
+2021_tmt_oad_WEB,Chilled water shall be supplied to the observatory at the temperatures defined in 'Table 4-21: Observatory Chilled Water Supply'
+2021_tmt_oad_WEB,The normal operating pressure of the chilled water supplies listed in 'Table 4- 21: Observatory Chilled Water Supply' above will be 5 bar.
+2021_tmt_oad_WEB,The maximum pressure drop through any single chilled water heat exchanger shall be less than 1 bar.
+2021_tmt_oad_WEB,TMT Instrumentation Cooling Subsystems (CRYO/REFR) defined in OAD Section 2.2.1.3 shall operate and meet all requirements for at least 50 years with preventive maintenance.
+2021_tmt_oad_WEB,"In the event of a failure of the normal power supply, cooling to the summit facility computer room shall be maintained."
+2021_tmt_oad_WEB,"In the event of a failure of the normal power supply, cooling to the refrigerant cooling shall be maintained."
+2021_tmt_oad_WEB,"In the event of a failure of the normal power supply, cooling to the variable temperature chilled water shall be maintained."
+2021_tmt_oad_WEB,"For instrument cooled enclosures, the gaseous return pressure shall be regulated to maintain the refrigerant boiling point (REF-SZ) at temperatures not to exceed -35°C for steady state, and not to exceed -40°C for cooldown."
+2021_tmt_oad_WEB,"For electronics cooling, the gaseous return pressure shall be regulated to maintain the refrigerant boiling point (REF-A) within 2?C of the ambient enclosure cooling set point."
+2021_tmt_oad_WEB,"Cryogenic cooldown heat removal for a single instrument shall not exceed 400 MJ, removed over a time constant of not less than 68,000 s."
+2021_tmt_oad_WEB,Liquid nitrogen shall be provided to the Nasmyth areas for use in cooling cryogenic instruments.
+2021_tmt_oad_WEB,Cryogenic cooling of instruments to temperatures between 77 K and 200 K shall use liquid nitrogen in boil-off mode.
+2021_tmt_oad_WEB,The cryogenic cooling system shall provide intermittent daytime filling of instrument LN2 reservoirs from the CRYO LN2 reservoirs on the Nasmyth platforms.
+2021_tmt_oad_WEB,"The cryogenic cooling system shall generate LN2 at a sufficient rate to supply the steady cooling requirements of the full TMT instrument suite, cool down one instrument, and replenish the minimum LN2 storage capacity within 40 days."
+2021_tmt_oad_WEB,The cryogenic cooling system shall provide sufficient LN2 storage capacity on the Nasmyth platforms to supply the steady state cooling requirements of the full TMT instrument suite for a period of at least 5 days.
+2021_tmt_oad_WEB,"The cryogenic cooling system shall provide sufficient LN2 storage capacity on the Nasmyth platforms to cool down one instrument, while supplying the steady state cooling requirements of the remaining TMT instrument suite, with LN2 remaining in Nasmyth storage at the time of maximum depletion during cooldown sufficient to provide steady state cooling and replace generation for 1 day."
+2021_tmt_oad_WEB,The cryogenic cooling system shall provide sufficient LN2 storage capacity in the SUM facility to supply the steady state cooling requirements of the full TMT instrument suite for a period of at least 48 hours.
+2021_tmt_oad_WEB,The cryogenic cooling system shall transfer the daily generated amount of LN2 to the Nasmyth platform LN2 reservoirs within 4 hours during uninterrupted daytime operation.
+2021_tmt_oad_WEB,The normal operating pressure of the FCA listed in 'Table 4-26: FCA Loads' shall be above 6 bar to each selected telescope subsystem or instrument.
+2021_tmt_oad_WEB,The TMT observatory-wide CIS network shall run on top of a communication protocol stack that has a physical IT communications network.
+2021_tmt_oad_WEB,CIS shall minimize any cross-talk or interference from power sources or supplies.
+2021_tmt_oad_WEB,"CIS shall provide the means to connect to the nearest Internet service point, whether by physical connection or microwave links, to establish internet connectivity."
+2021_tmt_oad_WEB,The CIS shall provide fiber infrastructure and access ports for the following networks:
+2021_tmt_oad_WEB,The CIS shall provide fiber infrastructure and access ports for the ENET: Enterprise Network.
+2021_tmt_oad_WEB,The CIS shall provide fiber infrastructure and access ports for the CNET: Common Software (CSW) based Network.
+2021_tmt_oad_WEB,The CIS shall provide fiber infrastructure and access ports for the PNET: Point to Point Network.
+2021_tmt_oad_WEB,The CIS shall provide fiber infrastructure and access ports for the SNET: Safet Network (OSS).
+2021_tmt_oad_WEB,"The CIS shall support standard Internet services (e-mail, Web, video conferencing, voice-over-IP, etc.)."
+2021_tmt_oad_WEB,CIS Fiber Optic attenuation shall not exceed 6dB loss over longest path (Computer Room to Top End).
+2021_tmt_oad_WEB,The CIS CNET shall accommodate a bandwidth of at least TBD Gbps.
+2021_tmt_oad_WEB,The CIS CNET shall accommodate a bandwidth of at least 0.032 Gbps to the Top End.
+2021_tmt_oad_WEB,The CIS CNET shall accommodate a bandwidth of at least 0.002 Gbps to the - X Laser Platform.
+2021_tmt_oad_WEB,The CIS CNET shall accommodate a bandwidth of at least 0.030 Gbps to the - X Elevation Wrap.
+2021_tmt_oad_WEB,The CIS CNET shall accommodate a bandwidth of at least 0.020 Gbps to the +X Elevation Wrap.
+2021_tmt_oad_WEB,The CIS CNET shall accommodate a bandwidth of at least 0.020 Gbps to the +X Elevation M1.
+2021_tmt_oad_WEB,The CIS CNET shall accommodate a bandwidth of at least 0.020 Gbps to the +X Elevation Tertiary.
+2021_tmt_oad_WEB,The CIS CNET shall accommodate a bandwidth of at least 1.698 Gbps to the - X Nasmyth Platform.
+2021_tmt_oad_WEB,The CIS CNET shall accommodate a bandwidth of at least 1.328 Gbps at the +X Nasmyth Platform.
+2021_tmt_oad_WEB,The CIS CNET shall accommodate a bandwidth of at least 0.080 Gbps to the Utility Room.
+2021_tmt_oad_WEB,The CIS CNET shall accommodate a bandwidth of at least 0.010 Gbps to the SCMS Tower.
+2021_tmt_oad_WEB,The CIS CNET shall accommodate a bandwidth of at least 0.030 Gbps to the Observing Floor.
+2021_tmt_oad_WEB,The CIS CNET shall accommodate a bandwidth of at least 0.018 Gbps to the M1 Coating room.
+2021_tmt_oad_WEB,"The CIS CNET shall accommodate a bandwidth of at least 0.500 Gbps for fire, security, and video monitoring."
+2021_tmt_oad_WEB,The CIS CNET shall accommodate a bandwidth of at least 24.0575 Gbps to the Computer Room.
+2021_tmt_oad_WEB,"The TMT System latency from the computer room to end point devices shall be less than 5ms for each telescope-mounted subsystem, as shown in Table 4-27: Latency for Subsystems Terminating in a CIS or Subsystem Switch."
+2021_tmt_oad_WEB,"The CIS shall provide access monitoring systems that include still and video cameras, sensors, and various types of identification systems."
+2021_tmt_oad_WEB,The CIS shall allow only authorized users to access Observatory networks.
+2021_tmt_oad_WEB,The CIS shall protect the Observatory from any external traffic on the public internet.
+2021_tmt_oad_WEB,HBS oil shall be supplied to the observatory with maximum allowed particle count per 1 ml of oil for each particle size as described in 'Table 4-28: HBS Oil Cleanliness'.
+2021_tmt_oad_WEB,TMT Observatory Facilities Subsystems defined in OAD Section 2.2.1.1 shall operate and meet all requirements for at least 50 years with preventive maintenance.
+2021_tmt_oad_WEB,"The TMT enclosure shall be of a Calotte style, consisting of three major structures: the base, cap and shutter."
+2021_tmt_oad_WEB,The enclosure shall be capable of moving in azimuth and zenith position between observations within 3 minutes.
+2021_tmt_oad_WEB,The enclosure shutter shall open or close within 2 minutes at any cap orientation.
+2021_tmt_oad_WEB,"The enclosure shall have an aperture opening and shutter of sufficient size to not vignette the 20 arcminute diameter field of the telescope during observations, plus additional clearance of 1 degree radius outside the field of view in all directions."
+2021_tmt_oad_WEB,The enclosure aperture opening shall have a continuous and unlimited range of azimuth motion (no cable wraps) and zenith motion range from 0 to 65 degrees zenith angle.
+2021_tmt_oad_WEB,The enclosure azimuth and cap axes shall be designed to operate with maximum acceleration and deceleration rates of 0.05 deg/s^2 and a maximum velocity of 1.15 deg/s.
+2021_tmt_oad_WEB,The enclosure shall be capable of pointing the aperture opening to a target on the sky over the required range of motion within a peak error of 10 arcmin in each axis on the sky.
+2021_tmt_oad_WEB,"For all equipment in the observatory that requires servicing there shall be safe and efficient access by personnel, provisions for transporting tools and supplies to the servicing locations, and provisions for access and lifting of the equipment for installation, removal and replacement, as appropriate."
+2021_tmt_oad_WEB,"The enclosure aperture opening and closing shall be designed to prevent water, ice or snow from falling into the enclosure."
+2021_tmt_oad_WEB,The enclosure and summit fixed base shall provide a safe environment for all observatory employees and visitors.
+2021_tmt_oad_WEB,The observatory shall provide a secure environment for equipment.
+2021_tmt_oad_WEB,"Except when observing or when necessary in servicing and maintenance mode, the enclosure shall be parked such that the top end servicing platform is aligned with the telescope top end and the shutter is pointing north."
+2021_tmt_oad_WEB,No part of the inner enclosure shall be within the volume defined in drawing TMT.FAC.ENC-ENV (AD70).
+2021_tmt_oad_WEB,The ENC shall use the geometry parameters as shown in the TMT Enclosure Geometry Drawing TMT.ENC.GTY-0001 (AD75).
+2021_tmt_oad_WEB,"In observing mode, the enclosure shall be capable of making all base axis moves rapidly, such that they can be completed, including smooth ramping profiles and settling time, faster than an equivalent move with a trapezoidal velocity profile with acceleration and deceleration rate of 0.25 degrees/s^2 and a maximum velocity of 1.25 degrees/sec."
+2021_tmt_oad_WEB,The maximum slewing rate of the enclosure base axis shall not exceed 1.25 degrees/sec.
+2021_tmt_oad_WEB,"In observing mode, the enclosure shall be capable of making all cap axis moves rapidly, such that they can be completed, including smooth ramping profiles and settling time, faster than an equivalent move with a trapezoidal velocity profile with acceleration and deceleration rate of 0.15 degrees/s^2 and a maximum velocity of 1.75 degrees/sec."
+2021_tmt_oad_WEB,The maximum slewing rate of the enclosure cap axis shall not exceed 1.75 degrees/sec.
+2021_tmt_oad_WEB,"The enclosure vents shall be individually controlled to allow all opening positions between closed and fully open, and used to enable natural ventilation of the enclosure interior during observation."
+2021_tmt_oad_WEB,The enclosure vent assemblies shall be designed for a duty cycle that allows regular movement during Observing Mode.
+2021_tmt_oad_WEB,The area averaged RSI insulation value of the enclosure including the fixed base shall be at least 6 m2K/W. This insulation value shall be provided between the enclosure interior and the interstitial space.
+2021_tmt_oad_WEB,Vent doors (including door seal conductance but not infiltration) shall provide an averaged RSI insulation value of at least 4 m2K/W.
+2021_tmt_oad_WEB,Any heat loads related to operation of the enclosure shall be dissipated to the enclosure interstitial space.
+2021_tmt_oad_WEB,The enclosure shall not utilize an active forced air ventilation system for the thermal management of the enclosure during aperture-open observing mode.
+2021_tmt_oad_WEB,The enclosure system shall provide sufficient protection from wind loading on the telescope to allow the observatory system to meet operational requirements and dynamic image motion error budget requirements.
+2021_tmt_oad_WEB,The enclosure shall incorporate aperture flaps to deflect wind at the aperture opening to reduce dynamic loading on the top end of the telescope.
+2021_tmt_oad_WEB,"The enclosure and summit facility fixed base shall be sealed to minimize influx of air and dust when in non-observing, aperture-closed mode."
+2021_tmt_oad_WEB,The external surface of the enclosure shall have emissivity <0.4.
+2021_tmt_oad_WEB,The external surface of the enclosure shall have absorptivity <0.2.
+2021_tmt_oad_WEB,The external surface of the enclosure shall have emissivity not less than absorptivity.
+2021_tmt_oad_WEB,"For thermal purposes, the emissivity of the internal surface of the enclosure shall be <0.4."
+2021_tmt_oad_WEB,The enclosure shall include a vent to remove air at a rate of 4.7m3/s from the top of the enclosure during daytime operation of the observatory air conditioning system.
+2021_tmt_oad_WEB,"The summit facility shall provide vibration isolation between the foundations of each of the Telescope pier, Enclosure pier, and Summit Facilities."
+2021_tmt_oad_WEB,The summit facility fixed base floor structure shall support HS 20-44 truckloads.
+2021_tmt_oad_WEB,The observing floor shall be flat and continuous in the area between the outer radius of the telescope fixed walkway and the inner radius of the fixed enclosure walkway.
+2021_tmt_oad_WEB,"The observing floor shall be free from obstructions in the area between the outer radius of the telescope fixed walkway and the inner radius of the fixed enclosure walkway with the exception of M2/M3 coating chamber rails, M2/M3 coating chamber rails, air handlers, fixed base elevators, and platform lifts and stairs to access telescope and enclosure fixed walkways."
+2021_tmt_oad_WEB,The summit facility fixed base shall provide an access door to the exterior of the facility at grade with an opening of at least 4.88 m wide by 5.03 m high for equipment and component movement.
+2021_tmt_oad_WEB,"The summit facility fixed base shall provide access doors to the adjacent summit facilities structure for mirror, instrument, and people movements."
+2021_tmt_oad_WEB,Two entrances at least 1 m wide by 1.9 m high shall be provided in the pier wall to allow personnel access to the area enclosed by the pier.
+2021_tmt_oad_WEB,The summit facility fixed base shall provide a tunnel from the facilities mechanical and electrical plant to the pintle bearing area housing the telescope cable wrap for delivery of utility services to the telescope and telescope mounted sub-systems.
+2021_tmt_oad_WEB,An emergency egress route shall be provided from the pintle bearing/cable wrap area that allows personnel to exit to the observing floor outside the telescope pier in the event of a fire or other hazard occurring in the service tunnel.
+2021_tmt_oad_WEB,"The summit facility fixed base design shall incorporate vibration mitigation to minimize the generation and transmission of vibrations to the telescope, instruments, adaptive optics, alignment & phasing, and calibration subsystems (reference error budget)."
+2021_tmt_oad_WEB,"The summit facilities shall provide space adjacent to the mirror coating area for the storage of equipment used for in-situ optics cleaning of M1, M2 and M3."
+2021_tmt_oad_WEB,The Summit Facilities shall provide an enclosed space within the enclosure to store and individually access the equipment used for optics handling.
+2021_tmt_oad_WEB,The summit facility fixed base shall contain equipment to be used in the day time to air condition the enclosure to the expected night time observing temperature.
+2021_tmt_oad_WEB,Two elevators and stairways that meet the location and space requirements of TMT.FAC.ELEV-ENV (AD72) shall be provided to gain access to the pier walkway.
+2021_tmt_oad_WEB,"Air handlers shall not be positioned in the following areas (defined as angles from TCRS x-axis, i.e. due east. Positive angle = clockwise when viewed from above):"
+2021_tmt_oad_WEB,Air handlers shall not be positioned between 80 to 100 degrees (to avoid directing air directly at telescope top end when telescope is in daytime parked position).
+2021_tmt_oad_WEB,Air handlers shall not be positioned between 145 degrees to 220 degrees (to avoid positioning directly beneath -X Nasmyth platform)
+2021_tmt_oad_WEB,Air handlers shall not be positioned between 320 degrees to 35 degrees (to avoid positioning directly beneath +X Nasmyth platform)
+2021_tmt_oad_WEB,One air handler should be positioned as close as possible to 270 degrees clockwise from the TCRS x-axis (i.e. North). The remaining two air handler locations shall be located as close as possible to +/-120 degrees from this position.
+2021_tmt_oad_WEB,The air handlers shall be located radially as far as possible from the centre of the enclosure.
+2021_tmt_oad_WEB,The air handler nozzle orientation shall be manually adjustable to allow air flow direction to be modified.
+2021_tmt_oad_WEB,The enclosure shall provide an access platform to allow servicing of the LGSF top end and M2S when the telescope is in the horizon pointing position.
+2021_tmt_oad_WEB,"When deployed, and during deployment, the top end servicing platform shall clear the telescope top end structure and top end equipment space envelope as defined in TMT.FAC.ENC.TEP-ENV (AD71)."
+2021_tmt_oad_WEB,The top end servicing platform shall accommodate a minimum total load of 650kg anywhere on the platform.
+2021_tmt_oad_WEB,The top end platform shall provide appropriate power outlets to allow servicing of the LGSF top end and M2S.
+2021_tmt_oad_WEB,The top end platform shall provide sufficient lighting to illuminate the M2S and LGSF top end during servicing.
+2021_tmt_oad_WEB,The enclosure shall provide a means to control this lighting remotely and from the top end platform.
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, the ENC shall withstand the representative time series of site-specific seismic accelerations as described in (RD16) such that:"
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, the ENC shall withstand the representative time series of site-specific seismic accelerations as described in (RD16) such that after a 10-year return period earthquake, the ENC can resume normal operations after inspection by the normal operations staff."
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, the ENC shall withstand the representative time series of site-specific seismic accelerations as described in (RD16) such that after a 200-year earthquake, the ENC can resume normal operations within two weeks after the observatory staff has resumed regular duty."
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, the ENC shall withstand the representative time series of site-specific seismic accelerations as described in (RD16) such that after a 1000-year return period earthquake, ENC components do not damage the telescope optics or present worse than a marginal hazard to personnel in the event of their failure."
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, Enclosure and Summit Facilities floor-mounted equipment shall withstand the seismic accelerations at the levels defined in 'Table 4-29: Seismic Limits on Floor-mounted Equipment within ENC/SUM' such that after a 10-year return period earthquake, the observatory can resume normal operations after inspection by the normal operations staff."
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, Enclosure and Summit Facilities floor-mounted equipment shall withstand the seismic accelerations at the levels defined in 'Table 4-29: Seismic Limits on Floor-mounted Equipment within ENC/SUM' such that after a 200-year earthquake, the Observatory can resume normal operations within two weeks after the observatory staff has resumed regular duty."
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, Enclosure and Summit Facilities floor-mounted equipment shall withstand the seismic accelerations at the levels defined in 'Table 4-29: Seismic Limits on Floor-mounted Equipment within ENC/SUM' such that after a 1000-year return period earthquake, components do not damage the telescope optics or present a hazard to personnel in the event of their failure."
+2021_tmt_oad_WEB,There shall be a procedure or mechanism for removal of snow and ice accumulations on the enclosure that could otherwise prevent the rotation of the enclosure cap or base.
+2021_tmt_oad_WEB,There shall be a procedure or mechanism for removal of snow and ice accumulations on the enclosure that could otherwise prevent the operation of the aperture flaps.
+2021_tmt_oad_WEB,There shall be a procedure or mechanism for removal of snow and ice accumulations on the enclosure that could otherwise prevent the operation of the aperture without snow or ice falling inside the enclosure.
+2021_tmt_oad_WEB,There shall be a procedure or mechanism for removal of snow and ice accumulations on the enclosure that could otherwise prevent the operation of the vents.
+2021_tmt_oad_WEB,There shall be a procedure or mechanism for removal of snow and ice accumulations on the enclosure that could otherwise prevent the ability to safely observe.
+2021_tmt_oad_WEB,There shall be a procedure or mechanism for removal of snow and ice accumulations on the enclosure that could otherwise prevent the opening of the shutter.
+2021_tmt_oad_WEB,There shall be a procedure or mechanism for removal from the enclosure any snow and ice accumulations that present safety hazards to personnel in working areas within or around the summit facilities.
+2021_tmt_oad_WEB,"Snow or ice falling from the enclosure shall not cause damage to the enclosure, facility buildings or any other summit systems."
+2021_tmt_oad_WEB,"The enclosure and / or summit facilities shall incorporate features to mitigate the potential damage and danger related to snow or ice falls from the enclosure onto other parts of the enclosure, the facility buildings or any other summit systems."
+2021_tmt_oad_WEB,"The process of removal of ice and snow accumulations to enable safe observing shall be able to be accomplished with a crew of 4 people within an 8 hour daytime period once the aperture flaps can be opened. An area is considered critical if snow, ice or water can reach the inside of the enclosure from that area through an open observing slit or vent."
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, the SUM shall withstand the time history response spectra of site-specific seismic accelerations as described in (RD16) such that after a 10-year return period earthquake, the SUM can resume normal operations after inspection by the normal operations staff."
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, the SUM shall withstand the time history response spectra of site-specific seismic accelerations as described in (RD16) such that after a 200-year earthquake, the SUM can resume normal operations within two weeks after the observatory staff has resumed regular duty."
+2021_tmt_oad_WEB,"Under all operating conditions and configurations, the SUM shall withstand the time history response spectra of site-specific seismic accelerations as described in (RD16) such that after a 1000-year return period earthquake, SUM components do not damage the telescope optics or present worse than a marginal hazard to personnel in the event of their failure."
+2021_tmt_oad_WEB,"The summit facilities shall provide suitable sanitary, eating, personal storage, and rest areas to support operations and observing personnel working extended hours at the summit."
+2021_tmt_oad_WEB,"The summit facilities shall route power, communications and services to the telescope and enclosure."
+2021_tmt_oad_WEB,The summit facilities shall provide space for equipment related to enclosure or telescope mounted systems as per agreed interfaces.
+2021_tmt_oad_WEB,Telephone systems and data ports shall be provided throughout the summit facilities.
+2021_tmt_oad_WEB,A backup communications system independent of other observatory systems shall be available in case of emergencies.
+2021_tmt_oad_WEB,A mirror stripping and coating facility sufficient to process the M1 mirror segments shall be located adjacent to the enclosure to minimize mirror transportation.
+2021_tmt_oad_WEB,A mirror stripping and coating facility sufficient to process the M2 and M3 mirrors shall be located either adjacent to or within the enclosure to minimize mirror transportation.
+2021_tmt_oad_WEB,The M1 mirror coating and stripping facility shall be equipped with an overhead crane.
+2021_tmt_oad_WEB,"The M1 mirror coating area shall be built and equipped to be capable of providing a class 10,000 clean room environment."
+2021_tmt_oad_WEB,The Summit Facilities shall provide space to store and access the spare quantity of M1 mirror segments either adjacent to the mirror stripping and coating facility or within the enclosure.
+2021_tmt_oad_WEB,A control room shall be provided adjacent to the enclosure with sufficient space for observing staff and associated computers and monitors.
+2021_tmt_oad_WEB,A computer room shall be provided adjacent to the enclosure with sufficient space for all centrally located observatory information technology resources.
+2021_tmt_oad_WEB,The computer room shall provide class A1 environmental conditions (per RD60: ASHRAE 90577) and be capable of operating in the recommended range when required.
+2021_tmt_oad_WEB,A mechanical workshop shall be provided adjacent to the enclosure.
+2021_tmt_oad_WEB,An engineering workshop and optical lab shall be provided adjacent to the enclosure.
+2021_tmt_oad_WEB,The summit facility mechanical and engineering workshops shall be equipped with overhead bridge cranes with sufficient hook height for associated component movements.
+2021_tmt_oad_WEB,"Personnel spaces, including entry lobby, conference room, offices, kitchenette, bathrooms, first aid, janitorial and associated storage shall be provided adjacent to the enclosure to support the direct day time maintenance crew and night time observing crew."
+2021_tmt_oad_WEB,A viewing gallery shall be provided with a window to the enclosure space.
+2021_tmt_oad_WEB,The viewing gallery shall have a separate entrance and shall contain bathrooms.
+2021_tmt_oad_WEB,The viewing gallery area shall provide toilet facilities for access by the general public.
+2021_tmt_oad_WEB,"The Summit Facilities shall provide a platform lift in the shipping and receiving area with the following characteristics: 2 ton capacity, 1.0 m x 2.4 m platform area, capable of rising to 1.6 m above floor level."
+2021_tmt_oad_WEB,A shipping and receiving area shall be provided adjacent to the enclosure for delivery/uncrating and removal/crating of components and equipment to/from the summit facilities.
+2021_tmt_oad_WEB,The shipping & receiving area shall be equipped with an overhead bridge crane with sufficient hook height for associated component movements.
+2021_tmt_oad_WEB,A mechanical plant will be provided to house the mechanical equipment required at the summit facilities.
+2021_tmt_oad_WEB,"The mechanical plant shall supply the mechanical services required at the summit facilities, including chilled and circulated water/glycol, compressed/dry air, telescope and instrument hydraulic oil and power unit(s), cryogenic closed cycle coolers and/or facility helium circulation, instrument refrigerant systems, building air conditioning, fire suppression, water & waste storage, LN2 storage."
+2021_tmt_oad_WEB,"The summit facility mechanical plant shall incorporate chillers, to be used in the daytime with the air conditioning system in the fixed base, with sufficient capacity to remove the heat loads listed in 'Table 3-3: Heat Dissipation Inside Summit Facilities' and environmental heat loads (air infiltration, solar heating, etc.). via the chilled water cooling systems described in section 4.4.2."
+2021_tmt_oad_WEB,The TMT Observatory shall provide air conditioning with a total flow of 23.6 m3/s at the following operating points with 80% of air being re-circulated:
+2021_tmt_oad_WEB,"The TMT Observatory shall provide an exhaust located on the northwest corner of the summit facilities building with the outlet directed to the north, to remove heat from the summit facilities mechanical plant."
+2021_tmt_oad_WEB,The maximum outlet temperature of the Summit Facilities exhaust shall not exceed 15?C above the ambient nighttime temperature at the exit of the vent.
+2021_tmt_oad_WEB,"The summit facility shall provide an electrical plant to supply the electrical services required at the summit facilities, including power transmission, voltage transformation, power conditioning, electrical generators and uninterruptible power supply."
+2021_tmt_oad_WEB,The roadway away from the summit facility shall be treated for a sufficient distance to minimize the generation of dust directed towards the summit facility or other observatories.
+2021_tmt_oad_WEB,The roadway close to the summit facility shall be covered with gravel or another material to minimize detrimental night time thermal effects.
+2021_tmt_oad_WEB,Road vehicle parking shall be provided close to the summit facility building entry/lobby with sufficient spaces to support the day time maintenance crew and the night time observing crew.
+2021_tmt_oad_WEB,Transport vehicle access and loading/unloading space shall be provided close to the summit facility building shipping/receiving area and close to the direct access doorway into the enclosure.
+2021_tmt_oad_WEB,The summit facility fixed base and summit buildings shall have copper mesh grounding arrangements embedded in the foundations and surrounding grounds.
+2021_tmt_oad_WEB,"The enclosure and summit buildings shall provide transient surge suppression on all electrical supplies, electrical circuits, and communication circuits."
+2021_tmt_oad_WEB,The external lightning protection system shall comply with (RD60: NFPA 780).
+2021_tmt_oad_WEB,A fire suppression system shall be supplied throughout the summit facilities building.
+2021_tmt_oad_WEB,The summit facilities shall support first aid treatment of personnel.
+2021_tmt_oad_WEB,The CIS shall incorporate a video system to allow operations staff to monitor the enclosure environment.
+2021_tmt_oad_WEB,The TMT Observatory Headquarters Facility shall be established within two (2) hours drive of the summit.
+2021_tmt_oad_WEB,All regularly used headquarter building areas shall be climate controlled.
+2021_tmt_oad_WEB,"Personnel spaces, including reception, conference room, offices, kitchenette/lounge, bathrooms, first aid, janitorial and associated storage shall be provided at the headquarters to support on-duty indirect operations, administration, site services, engineering staff, and visitors."
+2021_tmt_oad_WEB,A remote control/observing room including two full observing consoles shall be provided at the headquarters building.
+2021_tmt_oad_WEB,"An engineering workshop shall be provided, containing sufficient optical and electronic equipment, tools, consumables, and associated storage to support extended maintenance and staging of new component activities for the observatory."
+2021_tmt_oad_WEB,The Headquarters engineering workshop shall be equipped with overhead bridge cranes with sufficient hook height for associated component movements.
+2021_tmt_oad_WEB,"The headquarters shall provide a mask cutting facility including space for mask storage, mask cutter, handling carts, workstation and workbenches."
+2021_tmt_oad_WEB,"Storage and capacity shall be provided at the headquarters that is sufficient to house the equipment, tools and spares used to support sea level technical work."
+2021_tmt_oad_WEB,A shipping and receiving area shall be provided at the headquarters for delivery/uncrating and removal/crating of components and equipment to/from the summit facility.
+2021_tmt_oad_WEB,The shipping & receiving area shall be equipped with an overhead bridge crane with sufficient hook height for associated component movements.
+2021_tmt_oad_WEB,An emergency generator shall be provided to ensure that remote observing can take place in the event of a power outage.
+2021_tmt_oad_WEB,"People vehicle parking shall be provided close to the headquarters building entrances with sufficient spaces to support the extended maintenance, administration, and visitor personnel."
+2021_tmt_oad_WEB,Transport vehicle access and loading/unloading space shall be provided close to the support facility shipping/receiving area.
+2021_tmt_oad_WEB,"The entire interior of the enclosure, including the inside surface of the dome and the all components of the telescope shall be accessible by personnel lifts and freight cranes."
+2021_tmt_oad_WEB,There shall be a 20 metric tonne capacity enclosure base mounted crane that shall have a maximum reach no less than R 17.0 m to R 25.7 m relative to the TCRS z-axis.
+2021_tmt_oad_WEB,There shall be a 20 metric tonne capacity enclosure base mounted crane that shall have a maximum hook height of at least 34.5 m above the TCRS XY plane.
+2021_tmt_oad_WEB,There shall be a 20 metric tonne capacity enclosure base mounted crane that shall have a minimum hook vertical speed no greater than 0.3 m/min.
+2021_tmt_oad_WEB,There shall be a 20 metric tonne capacity enclosure base mounted crane that shall have a minimum hook horizontal speed no greater than 0.3 m/min.
+2021_tmt_oad_WEB,There shall be a 20 metric tonne capacity enclosure base mounted crane that shall have a mode in which the vertical hook acceleration is no greater than 0.05g.
+2021_tmt_oad_WEB,There shall be a 20 metric tonne capacity enclosure base mounted crane that shall have aminimum horizontal hook position resolution no greater than Ø 25.0 mm.
+2021_tmt_oad_WEB,There shall be a 20 metric tonne capacity enclosure base mounted crane that shall have a minimum increment of vertical motion no greater than 2mm.
+2021_tmt_oad_WEB,The 20 tonne enclosure base mounted cranes shall be rated for lifting up to 2 persons in a man basket.
+2021_tmt_oad_WEB,"There shall be a 10 metric tonne capacity, enclosure base mounted jib crane, capable of servicing components on and in the vicinity of enclosure-mounted telescope top end service platform."
+2021_tmt_oad_WEB,ll have a maximum reach of no less than 5.75m (between R 23.25m to R 29.0 m relative to the TCRS z-axis).
+2021_tmt_oad_WEB,ll have a maximum hook height of at least 24.8 m above the TCRS XY plane.
+2021_tmt_oad_WEB,"There shall be a 10 metric tonne capacity, enclosure shutter mounted hoist."
+2021_tmt_oad_WEB,The shutter mounted hoist control will be achieved using motion commands in a locally defined coordinate system.
+2021_tmt_oad_WEB,It shall be possible to deploy any of the enclosure mounted cranes without colliding with the telescope structure when the telescope is either zenith or horizon pointing. The volume which the cranes must clear is defined in the enclosure stay out volume drawing TMT.FAC.ENC-ENV (AD70).
+2021_tmt_oad_WEB,The shutter mounted hoist shall be rated for lifting up to 2 persons in a man basket.
+2021_tmt_oad_WEB,There shall be a crane with a minimum 0.5 tonne capacity for handling primary mirror segment assemblies.
+2021_tmt_oad_WEB,There shall be a crane with a minimum capacity of 2.5 tonnes for handling enclosure azimuth bogies.
+2021_tmt_oad_WEB,There shall be a crane with a minimum capacity of 0.5 tonnes for handling enclosure cap bogies.
+2021_tmt_oad_WEB,"There shall be a crane, hoist or other suitable handling equipment provided for servicing the elements of the LGSF laser system and beam transfer optics mounted on the inside of the -X ECRS elevation journal."
+2021_tmt_oad_WEB,"There shall be a mobile crane, with 2 tonne capacity, and 24 meters reach, located on the observatory floor."
+2021_tmt_oad_WEB,"An overhead crane shall be available in the Freight and delivery area and mechanical workshop: monorail crane with 5 tonnes capacity, hoist with continuously variable speed control from 0.5 to 5m per minute, trolley with continuously variable speed control from less than 0.2m per minute to at least 20m per minute."
+2021_tmt_oad_WEB,An overhead bridge crane shall be available in the M1 mirror coating area with a 1 ton (907 kg) capacity.
+2021_tmt_oad_WEB,An overhead bridge crane shall be available in the M1 mirror coating area with a hoist with continuously variable speed control from 0 to 4m per minute.
+2021_tmt_oad_WEB,An overhead monorail crane shall be available in the M1 mirror segment maintenance area with a 1 ton (907kg) capacity.
+2021_tmt_oad_WEB,The M1 mirror segment storage area shall be accessible by overhead monorail crane/s with the specifications:
+2021_tmt_oad_WEB,"An overhead monorail crane shall be available in the engineering lab with a 5 ton (4,535 kg) capacity."
+2021_tmt_oad_WEB,"An overhead bridge crane shall be available in the mechanical workshops with a 3 tonnes (3,000 kg) capacity."
+2021_tmt_oad_WEB,"An overhead monorail crane shall be available in the Utility Room with a 2 ton (1,814 kg) capacity."
+2021_tmt_oad_WEB,"The TMT Observatory shall implement and maintain a comprehensive maintenance system, which includes scheduling and details of both predictive and preventative maintenance, component and assembly replacement, and alignment procedures."
+2021_tmt_oad_WEB,"A failure database shall be established by the end of construction, and maintained throughout operations, which allows the logging of errors of the system and its subsystems, including corrective actions taken."
+2021_tmt_oad_WEB,Each subsystem shall continuously monitor its own status and operation for the purpose of detecting faults or other hazardous conditions that can cause safety hazards and increase risk.
+2021_tmt_oad_WEB,"The TMT Observatory shall incorporate fixed, automatic, or other protective safety devices into the design of subsystems identified in hazard analysis."
+2021_tmt_oad_WEB,The OSS and other sub-systems in the Functional Safety Architecture (those requiring a safety related control function to mitigate a hazard and/or those sub-systems providing safety related telemetry to the OSS) shall comply with (RD60: IEC 62061).
+2021_tmt_oad_WEB,Any sub-system whose hazard analysis identifies a hazard that needs to be mitigated by a 'Safety Related Control Function (SRCF)' per (RD60: IEC 62061) shall provide a Local Safety Controller to implement the SRCF.
+2021_tmt_oad_WEB,The Local Safety Controller provided by the sub-system shall follow the use the hardware defined in AD85.
+2021_tmt_oad_WEB,Each LSC shall provide a local user interface.
+2021_tmt_oad_WEB,"Upon detecting a hazardous fault or condition, a subsystem shall independently and immediately take action to alert personnel and mitigate the hazard without any interaction with, or the presence of, the OSS."
+2021_tmt_oad_WEB,Sub-systems required to enter an interlocked state due to hazards occurring in other areas of the observatory shall respond to interlocks imposed by the OSS by implementing behaviour as agreed in the appropriate sub-system to OSS ICD.
+2021_tmt_oad_WEB,"Upon detecting a hazardous fault or condition and imposing the appropriate interlock, a subsystem shall provide the OSS with Safety Status information."
+2021_tmt_oad_WEB,A special mode implemented via a sub-system's LSC and associated HMI shall be used when recovery from an interlocked condition requires the temporary inhibition of interlocks.
+2021_tmt_oad_WEB,"All safety-related communication between the OSS GSC, the sub-system LSCs, and all Remote I/O shall be via a safety-rated EtherNet/IP & CIP Safety network provided by the OSS (or by the responsible sub-system for connections between an LSC and remote I/O module)."
+2021_tmt_oad_WEB,Sub-systems incorporating a Local Safety Controller (LSC) shall comply with the requirements contained in the Local Safety Controller Design Requirement Document (AD84).
+2021_tmt_oad_WEB,The OSS Global Safety Controller and Local Safety Controllers used by sub- systems shall be developed following the OSS Developer's Guide (AD85).
+2021_tmt_oad_WEB,Barriers and/or gates shall be used to prevent access to areas where hazards to personnel may be caused by release of stored energy during normal operations.
+2021_tmt_oad_WEB,Access to the hazardous areas shall only be possible when all sources of hazardous energy have been locked out using an energy isolating device.
+2021_tmt_oad_WEB,Operating modes supporting special operating procedures that allow entry without isolating energy sources shall be defined and included in the functions of sub-system local safety controllers.
+2021_tmt_oad_WEB,Trapped key devices shall be used that allow each person entering a hazardous area to carry a personal safety key with them that guarantees that sources of hazardous energy affecting that area are isolated.
+2021_tmt_oad_WEB,"The gates preventing access to hazardous areas shall be locked at all times when entry/exit is not in progress, and may only be unlocked from the outside using a personal safety key."
+2021_tmt_oad_WEB,"Exiting any hazardous areas shall, in normal circumstances, be achieved using a push button to unlock the gate."
+2021_tmt_oad_WEB,"When a personal key is used to gain access to a hazardous area, or the push button is used to exit the area, the gate shall unlock only for a period sufficient to allow a person to enter or exit, and shall re-lock after that period has elapsed or after each person as entered or exited the hazardous area (except in emergency situations as described in [REQ-1-OAD-7607])."
+2021_tmt_oad_WEB,"In emergency situations, it shall be possible to open every gate from the inside using a manual override that unlocks the gate and keeps it unlocked."
+2021_tmt_oad_WEB,The system shall monitor and display the status of all lockouts implemented by trapped keys and the removal of trapped keys from any key exchange devices.
+2021_tmt_oad_WEB,The design of the trapped key system shall be consistent with that described in the Observatory Safety Access Summary (AD91) and figure 'Trapped Key System Schematic' below.
+2021_tmt_oad_WEB,"Except when safety would be compromised, cost would be significantly increased, schedule would be significantly prolonged, performance would be significantly degraded, electrical and electronic commercial-off-the-shelf (COTS) equipment contained in TMT systems shall be compliant with the Directive of 2011/65/EU of the European Parliament and of the Council of 8 June 2011 (AD39) on the restriction of the use of certain hazardous substances in electrical and electronic equipment, commonly known as Restriction of Hazardous Substances in Electrical and Electronic Equipment, or ROHS."
+2021_tmt_oad_WEB,"Except when cost would be significantly increased, schedule would be significantly prolonged or performance would be significantly degraded, custom build electrical and electronic equipment contained in TMT systems shall not contain ROHS prohibited materials, as defined in (AD39)."
+2021_tmt_oad_WEB,"Electrical and electronic equipment that contains ROHS restricted materials shall be labeled, with details of restricted materials contained within, on a side or surface that is visible under normal maintenance conditions."
+2021_tmt_oad_WEB,The Observatory Safety System shall be implemented as an independent PLC based system whose operation does not rely on the availability of any other sub-systems other than power.
+2021_tmt_oad_WEB,The OSS shall provide different operational modes that support Observing Operations.
+2021_tmt_oad_WEB,The OSS shall provide different operational modes that support Maintenance Operations.
+2021_tmt_oad_WEB,The OSS shall provide different operational modes that support Fault and Interlock Recovery.
+2021_tmt_oad_WEB,"The OSS shall provide fault, interlock and emergency stop monitoring and control in a manner consistent with the TMT System Level Hazard Analysis Document (AD37)."
+2021_tmt_oad_WEB,The OSS shall be able to detect hazardous faults or conditions that are not associated with a particular sub-system.
+2021_tmt_oad_WEB,The OSS shall have the capability to detect earthquakes and respond by implementing and enforcing any interlocks on sub-systems that are required to maintain safety under these conditions.
+2021_tmt_oad_WEB,The OSS shall have a Hardware Control Daemon (HCD) that allows OSS information to be communicated via the common services framework using a read-only OSW compliant interface.
+2021_tmt_oad_WEB,"The OSS shall include a simple user interface accessible via both a PanelView and the ESW via the OSS HCD (Hardware Control Daemon), that displays an indication of the state of the safety system and allows the user to:"
+2021_tmt_oad_WEB,"The OSS shall include a simple user interface accessible via both a PanelView and the ESW via the OSS HCD (Hardware Control Daemon), that displays an indication of the state of the safety system and allows the user to: reset interlocks"
+2021_tmt_oad_WEB,"The OSS shall include a simple user interface accessible via both a PanelView and the ESW via the OSS HCD (Hardware Control Daemon), that displays an indication of the state of the safety system and allows the user to query which sub-systems have generated interlock requests."
+2021_tmt_oad_WEB,"The OSS shall include a simple user interface accessible via both a PanelView and the ESW via the OSS HCD (Hardware Control Daemon), that displays an indication of the state of the safety system and allows the user to query which sub-systems are interlocked via interlock demand signals."
+2021_tmt_oad_WEB,The OSS shall provide an indication to the Data Management System (DMS) and the Executive Software (ESW) of the status of any interlocks raised by either the OSS Global Safety Controller (GSC) or any sub-system Local Safety Controller (LSC).
+2021_tmt_oad_WEB,"Whenever the OSS alerts the ESW and/or the DMS to an interlock event, it shall include in the notification any relevant engineering information pertaining to the interlock condition (e.g. the sub-system that raised the interlock request, the time the event occurred, etc.)."
+2021_tmt_oad_WEB,The OSS shall provide and control independent audible and visual warning devices located throughout the summit facility as per the Hazard Analysis.
+2021_tmt_oad_WEB,"The OSS shall continuously monitor the fault states of all connected devices and subsystems and, upon detection of faults or hazards, impose appropriate interlocks on other connected subsystems per the TMT System Level Hazard Analysis (AD37)."
+2021_tmt_oad_WEB,The OSS shall have the capability to latch an interlock until it is manually reset via the user interface.
+2021_tmt_oad_WEB,The re-setting of sub-system interlocks shall be via a secure interface to the global safety controller.
+2021_tmt_oad_WEB,Reset of the interlock demands generated by the OSS shall only be possible provided the interlock request is no longer present.
+2021_tmt_oad_WEB,The OSS shall ensure that the system enters a safe state on system startup or if there is a power or network failure.
+2021_tmt_oad_WEB,The OSS shall implement an emergency stop (E-Stop) system that operates without reliance on any other subsystem.
+2021_tmt_oad_WEB,"The OSS shall be responsible for continuously monitoring all emergency stops throughout the observatory. In the event of an emergency stop being triggered, it is responsible for ensuring that appropriate action is taken to enforce safety and reduce risk."
+2021_tmt_oad_WEB,Emergency stop devices shall be conveniently and appropriately located throughout the Observatory as necessary to ensure adequate coverage and access in the event of an emergency.
+2021_tmt_oad_WEB,"The OSS shall provide any emergency stop devices and connect them to the nearest interface to the OSS, except for e-stops on the ENC."
+2021_tmt_oad_WEB,OSS E-stop devices shall adhere to ISO 1385 (AD102).
+2021_tmt_oad_WEB,All subsystems and equipment interlocked by the OSS shall be capable of withstanding multiple emergency stop occurrences without damage.
+2021_tmt_oad_WEB,The OSS shall immediately identify and report the location of any triggered emergency stop.
+2021_tmt_oad_WEB,"The elevation structure of the telescope shall have the capability to be physically restrained to inhibit motion or damage, even under Infrequent Earthquake Conditions, for any servicing or maintenance operation where a mass imbalance of the elevation axis is expected."
+2021_tmt_oad_WEB,The elevation structure shall include locking devices that prevent motion during servicing operations when the telescope is zenith pointing or horizon pointing.
+2021_tmt_oad_WEB,The telescope shall incorporate earthquake stops on the elevation and azimuth axes that are capable of restraining the system during an Infrequent earthquake event.
+2021_tmt_oad_WEB,The telescope shall provide a secondary emergency means of egress for personnel from the Nasmyth platforms that is available at any telescope azimuth position.
+2021_tmt_oad_WEB,There shall be a secondary emergency means of egress for personnel from all permanent walkways within the summit facility.
+2021_tmt_oad_WEB,"In an emergency situation, it shall take no longer than 2 minutes to exit the observatory from any regularly accessed location."
+2021_tmt_oad_WEB,"Under an emergency stop condition, azimuth motion shall be stopped as quickly as possible without exceeding a deceleration rate of 2 degrees/sec2."
+2021_tmt_oad_WEB,The elevation travel limit system shock absorbers and mechanical stops shall decelerate the elevation structure such that the maximum deceleration is no greater than 2.5 deg/s2.
+2021_tmt_oad_WEB,"Under an emergency stop condition, elevation motion shall be stopped as quickly as possible without exceeding a deceleration rate of 2.0 degrees/sec2."
+2021_tmt_oad_WEB,The Enclosure shall incorporate an emergency lighting system to illuminate the interior of the enclosure and emergency exit paths during a power failure or E-stop occurrence.
+2021_tmt_oad_WEB,The Enclosure Safety System shall monitor and protect the system and personnel under the conditions identified in the TMT Enclosure Hazard Analysis process.
+2021_tmt_oad_WEB,The System shall follow the safety rules defined for the class 4 lasers used in the LGSF system.
+2021_tmt_oad_WEB,The Laser Guide Star Facility Safety System shall monitor the LGSF systems and the associated environment in order to enforce safety of both personnel and the facility and to mitigate the risks and hazards associated with the system identified in the TMT LGSF Hazard Analysis Document.
+2021_tmt_oad_WEB,The Laser Guide Star Facility Safety System shall monitor and protect aircraft from accidental laser illumination via transponder based aircraft detection system.
+2021_tmt_oad_WEB,The Observatory procedures and the Observatory Executive Software shall protect satellites from accidental laser illumination.
+2021_tmt_oad_WEB,The Laser Guide Star Facility Safety System shall monitor and protect neighboring telescopes from projection of the laser beams within their field of view.
+2021_tmt_oad_WEB,The Telescope Optical Feedback System (TOFS) shall improve the alignment of the telescope relative to the sky by means of closed optical loop guiding.
+2021_tmt_oad_WEB,Guiding shall correct residual image motions by reconstructing image motion (OPD tip/tilt) into mount elevation and azimuth angles.
+2021_tmt_oad_WEB,The bandwidth for the closed optical guide loop shall be at least 0.1 Hz.
+2021_tmt_oad_WEB,"In seeing limited operation, guiding errors shall be directly calculated from the slopes of a guiding NGS WFS or the centroids of a guide camera by the Active Optics Reconstructor & Controller (aORC), which is part of the Telescope Control System (TCS) (See 'Figure 5-1: Control architecture for seeing limited observations' below)."
+2021_tmt_oad_WEB,"In adaptive optics operation, guiding errors shall be computed by averaging the AO fast tip/tilt mirror commands or, if AM2 is used, by averaging the AM2 tip/tilt modes. In both cases, the guiding errors are computed by the AO RTC (see 'Figure 5-2: Control Architecture for adaptive optics observations' below)."
+2021_tmt_oad_WEB,"In seeing limited operations, the OPD information from guiders shall be scaled and rotated into telescope modes (degrees of freedoms) that are transferred to the Telescope Control System."
+2021_tmt_oad_WEB,"The guiding NGS WFS(s) shall be either adjacent to the entrance window of the instrument, or preferably located inside the instrument."
+2021_tmt_oad_WEB,"The telescope control system (TCS) shall control NGS WFS probe positioning in coordination with the mount to perform sidereal, non-sidereal tracking, dithering, and differential refraction compensation."
+2021_tmt_oad_WEB,The observatory shall guide/track at any rate up to 1.1 times the sidereal rate.
+2021_tmt_oad_WEB,"During dithering, the deviation of the telescope mount and NGS WFS probes from the profile commanded by the TCS shall not exceed +/- 0.25 arcseconds."
+2021_tmt_oad_WEB,The system shall be able to validate pointing independent of an instrument.
+2021_tmt_oad_WEB,Field de-rotation opto-mechanical components shall be the responsibility of the instruments or adaptive optics systems.
+2021_tmt_oad_WEB,Field de-rotation shall be a “blind” i.e. open optical loop operation driven by the rotation command calculated by the pointing model in the telescope control system (see 'Figure 5-1: Control architecture for seeing limited observations' and 'Figure 5-2: Control Architecture for adaptive optics observations' in the previous section).
+2021_tmt_oad_WEB,"Instruments and AO systems that need higher field de-rotation accuracy than the seeing limited requirements shall provide the means to calibrate their de-rotator, and/or correcting rotation errors by real time optical feedback."
+2021_tmt_oad_WEB,The telescope control system (TCS) shall provide pointing model open-loop telemetry for instrument atmospheric dispersion compensator (ADC) operation.
+2021_tmt_oad_WEB,"The TMT Observatory shall provide ADC compensation, applied either by the AO system or instrument, as agreed."
+2021_tmt_oad_WEB,"The TMT Observatory shall maintain the shape of the M1 optical surface and the alignment of M1, M2, and M3 relative to each other, i.e. the collimation of the telescope by means of active optics compensation of thermal, gravitational, and vibration disturbances (see 'Figure 5-1: Control architecture for seeing limited observations' and 'Figure 5-2: Control Architecture for adaptive optics observations' in the previous section)."
+2021_tmt_oad_WEB,The TMT Observatory shall validate wavefront control independent of an instrument.
+2021_tmt_oad_WEB,The Telescope Optical Feedback System (TOFS) shall meet all performance requirements without degrading the sky coverage of the seeing limited science instruments: 95% for WFOS at the galactic pole.
+2021_tmt_oad_WEB,The Telescope Optical Feedback System (TOFS) shall operate and meet performance requirements even when not all primary mirror segments are installed.
+2021_tmt_oad_WEB,"The active optics system shall adjust M1 segment position in 3 DoF (tip, tilt, piston) by means of 3 piston actuators per segment."
+2021_tmt_oad_WEB,"The active optics system shall adjust M1 global position in 3 DoF (tip, tilt, piston) by means of 3 piston actuators per segment."
+2021_tmt_oad_WEB,The active optics system shall adjust M1 segment shape by means of 21 warping harness actuators for each segment.
+2021_tmt_oad_WEB,The warping harness shall be capable of correcting low order errors present in each segment by the amount shown in the table below.
+2021_tmt_oad_WEB,"The active optics system shall adjust M2 position in 5 DoF (tip, tilt, piston, x and y decenters) by means of a hexapod."
+2021_tmt_oad_WEB,The active optics system shall adjust M3 position in 2 DoF (tip and rotation about the telescope optical axis) by means of 2 actuators.
+2021_tmt_oad_WEB,The active optics system shall measure M1 segment position relative to neighboring segments by means of sensors attached to all shared segment to segment edges.
+2021_tmt_oad_WEB,The M1 segment position sensing system shall be capable of operating with less than a full complement of segments installed.
+2021_tmt_oad_WEB,"The adaptive optics system, or in absence of it an “on-instrument” low order NGS WFS, shall provide time averaged wavefront errors to the Telescope Optical Feedback System (TOFS)."
+2021_tmt_oad_WEB,The OPD information supplied to the TOFS shall be the same in both seeing limited and near diffraction limited observations.
+2021_tmt_oad_WEB,OPD focus shall be reconstructed into M2 piston.
+2021_tmt_oad_WEB,The bandwidth for the Telescope Optical Feedback System (TOFS) loop feeding OPD focus back to M2 piston shall be 0.0001 Hz.
+2021_tmt_oad_WEB,OPD coma shall be reconstructed into M2 decenter.
+2021_tmt_oad_WEB,"In seeing limited operations higher order OPD information including focus and coma shall be directly calculated from the slopes of the Low Order NGS WFS in the seeing limited instruments, by the Active Optics Reconstructor & Controller (aORC)."
+2021_tmt_oad_WEB,"In adaptive optics operation higher order OPD information including focus and coma shall be computed by averaging the ground conjugated deformable mirror commands, or, if AM2 is used, by averaging the AM2 modes. In both cases, the higher order OPD information are computed by the AO RTC."
+2021_tmt_oad_WEB,"In adaptive optics operations, the OPD information shall be scaled into telescope modes (degrees of freedom) that are transferred to the Telescope Control System."
+2021_tmt_oad_WEB,OPD Zernike modes up to the 6th radial order shall be reconstructed into M1 mirror modes.
+2021_tmt_oad_WEB,"In steady state conditions, the telescope system shall meet the image quality requirements over periods up to 300s without corrections from the optical feedback system."
+2021_tmt_oad_WEB,"The Low Order NGS WFS in the seeing limited instruments shall be either adjacent to the entrance window of the instrument, or preferably located inside the instrument."
+2021_tmt_oad_WEB,"The AO RTC shall collect the measurements from the various NGS and LGS WFS and compute the commands to the wavefront correctors. (Deformable Mirrors, Tip Tilt Mirrors or Tip Tilt platform, AM2 modes when AM2 is used as an AO woofer)."
+2021_tmt_oad_WEB,The control architecture for near diffraction limited observations shall be as shown in 'Figure 5-2: Control Architecture for adaptive optics observations' below [REQ-1-OAD- 8055].
+2021_tmt_oad_WEB,TMT Executive Software shall coordinate the preset and acquisition processes.
+2021_tmt_oad_WEB,TMT instruments and AO systems shall provide their sensors for guiding.
+2021_tmt_oad_WEB,Early light instruments/AO combination choosing the option of not having an acquisition camera shall provide provisions for dependable acquisition in the commissioning phase when the pointing precision of the telescope may not meet the pointing requirement.
+2021_tmt_oad_WEB,TMT TCS shall command the position of the guiders or wavefront sensors (WFS).
+2021_tmt_oad_WEB,"As a goal, the acquisition camera shall have the same spectral sensitivity as the WFS in order to prevent long integration time and consequently time consuming acquisition process."
+2021_tmt_oad_WEB,"IRIS science target acquisition time for IFU, in NGSAO or LGS MCAO shall take less than 2 minutes, after the guide star acquisition has been completed."
+2021_tmt_oad_WEB,"IRIS science target acquisition time for the Full Array Imager, in NGSAO or LGS MCAO shall take less than 0.5 minutes, after the guide star acquisition has been completed."
+2021_tmt_oad_WEB,"WFOS science target acquisition time for multi-slit masks, in seeing-limited, shall take less than 3 minutes, after the guide star acquisition has been completed."
+2021_tmt_oad_WEB,"WFOS science target acquisition time of a single target onto a long slit, in seeing-limited, shall take less than 1 minute, after the guide star acquisition has been completed."
+2021_tmt_oad_WEB,The OSA principal systems shall be implemented per the Observatory Subsystem Allocation subsystem elements as shown in 'Table 5-5: OSA subsystem allocation into Principal Software Systems' and 'Figure 5-3: Observatory Software Architecture (OSA) Subsystem Decomposition'.
+2021_tmt_oad_WEB,OSA subsystem command-and-control shall be strictly hierarchical as indicated by the arrows in 'Figure 5-4: OSA partitions software subsystems into Principal Software Systems'.
+2021_tmt_oad_WEB,The OSA shall include all software necessary to implement the first light observing mode called Visitor Observing Mode.
+2021_tmt_oad_WEB,The OSA shall include all software necessary to implement the first light observing mode called Service Observing Mode.
+2021_tmt_oad_WEB,The OSA shall include an observing mode called Adaptive Queue Observing Mode to ensure that this mode is available without significant re-design as part of the Service Observing Mode.
+2021_tmt_oad_WEB,The OSA design shall include all software necessary to support Target of Opportunity (ToO) observations during time allocated for both Visitor and Service Observing Mode programs.
+2021_tmt_oad_WEB,"Each OSA software subsystem shall be built using the standard TMT software framework as provided by TMT Common Software and described in TMT Software Design Document (AD86), (AD87)."
+2021_tmt_oad_WEB,Each OSA software subsystem shall be compliant with the TMT Software Development Process (AD79).
+2021_tmt_oad_WEB,All OSA software subsystems shall have the same CentOS 7 Linux 64-bit deployment platform.
+2021_tmt_oad_WEB,OSA software subsystems that require a private non-relational database or technical datastore shall integrate with the Observatory Databases through an HTTP-based interface.
+2021_tmt_oad_WEB,OSA software subsystems shall use Graphical user interfaces (GUIs) as the default for all normal scientific and technical operations.
+2021_tmt_oad_WEB,OSA software subsystems shall provide engineering GUIs if they include low-level technical software parameter settings that are modifiable during operations.
+2021_tmt_oad_WEB,OSA software subsystems shall provide engineering GUIs if they include low-level engineering functions that are occasionally executed by an expert user.
+2021_tmt_oad_WEB,OSA software subsystems shall provide engineering GUIs if they are required to operate in standalone mode.
+2021_tmt_oad_WEB,"The combined set of OSA software subsystems shall be implemented such that, without warning, they can be removed from the TMT operational environment then re-installed and restored to their operational state in less than eight (8) hours."
+2021_tmt_oad_WEB,"The OESA shall enable efficient observation of astronomical objects as well as efficient command, control, and monitoring of all observatory functions."
+2021_tmt_oad_WEB,OESA shall consist of a set of software subsystems that interact through a software connectivity backbone that is implemented in a software Subsystem called Common Software (CSW) layered on top of a physical communications network Subsystem called Communications and Information Systems (CIS) (see 'Figure 5-3: Observatory Software Architecture (OSA) Subsystem Decomposition').
+2021_tmt_oad_WEB,Each OESA software subsystem shall consist of one or more lower-level software components.
+2021_tmt_oad_WEB,"Any OESA software subsystems that contain hardware and software, such as instruments and telescope subsystems, shall be structured in a TMT-standard way consisting of an observing mode-oriented sequencer, assemblies and hardware control daemons."
+2021_tmt_oad_WEB,Each OESA subsystem or component shall integrate and communicate with the other principal systems of the OESA using only the integration services and other software provided by the TMT Common Software (CSW) subsystem (see 'Table 5-8: TMT Common Software services definitions' below [REQ-1-OAD-9200]).
+2021_tmt_oad_WEB,Each OESA software subsystem user interface shall support the tasks of the user types shown in 'Table 5-6: Software subsystem user types' below.
+2021_tmt_oad_WEB,"All OESA software subsystem user interfaces shall have a common look-and- feel within each interface category (i.e. command-line interface, graphical user interface, Web interface)."
+2021_tmt_oad_WEB,Each OESA software subsystem shall initialize itself with a default configuration and make itself ready for operation without further human intervention in less than one (1) minute.
+2021_tmt_oad_WEB,"Each OESA software subsystem shall provide a simulation mode, either independently or in conjunction with other subsystems or components of the TMT software system."
+2021_tmt_oad_WEB,"Each OESA software subsystem shall be capable of being built, run, controlled, and monitored in stand-alone mode, i.e. without starting the entire TMT software system."
+2021_tmt_oad_WEB,"Any TMT software subsystem platform, when operating at full capacity, shall have an available margin in computational power of 30% or more."
+2021_tmt_oad_WEB,The OESA software subsystems shall allow remote/programmatic control of power to controllers and devices over the CIS network using TMT standard hardware.
+2021_tmt_oad_WEB,The PESA shall be implemented to enable efficient management of astronomical programs from proposal creation to data delivery based on the end-to-end observing workflow.
+2021_tmt_oad_WEB,The PESA software subsystems and tools shall support the operations workflow and operations modes of the TMT OSW OCDD (RD45).
+2021_tmt_oad_WEB,PESA subsystems shall follow the same user interface standards and guidelines as OESA subsystems unless it is determined that they are not sufficient.
+2021_tmt_oad_WEB,"Unless otherwise noted, PESA subsystems shall follow the same communication stack solutions as OESA subsystems. However, PESA systems acting as web services may work synchronously with a request-response communication model."
+2021_tmt_oad_WEB,"All Observatory and observing-related information shall be stored in one or more databases, consistent with the architecture shown in 'Figure 5-6: Observatory Database Architecture'."
+2021_tmt_oad_WEB,"The observatory databases shall be designed, as a minimum, to the following use cases as shown in 'Table 5-7: Observatory Database Use Cases'."
+2021_tmt_oad_WEB,The observatory Databases shall provide one or more persistent data stores for observatory information as shown in 'Figure 5-6: Observatory Database Architecture'
+2021_tmt_oad_WEB,All observatory subsystems shall store their configuration information in a central observatory configuration database.
+2021_tmt_oad_WEB,"The configuration of each observatory subsystem, and therefore the entire observatory, shall be accessible from a central observatory configuration database."
+2021_tmt_oad_WEB,"The observatory shall maintain a searchable status and alarms database, that includes both current and historical data."
+2021_tmt_oad_WEB,Each subsystem using its own database shall use standard choices for database technologies identified by TMT.
+2021_tmt_oad_WEB,Subsystems that store technical data locally shall provide an HTTP query interface to enable retrieval of data from local database.
+2021_tmt_oad_WEB,"If access and or update to a subsystem database is required by other subsystems, an Application Programmer Interface shall be provided by the subsystem containing the database that describes the available data structures and operations."
+2021_tmt_oad_WEB,"When used between subsystems, database Application Programmer Interfaces shall be implementation neutral whenever possible."
+2021_tmt_oad_WEB,TMT Operations Subsystems defined in OAD Section 2.2.1.4 shall operate and meet all requirements for at least 50 years with preventive maintenance.
+2021_tmt_oad_WEB,"Whenever possible, the TMT software framework shall use and be based upon widely used open source tools, libraries, data structures, etc. Commercial solutions are also possible if necessary. Solutions that have high, long-term maintenance or licensing costs (e.g. commercial enterprise-class middleware and libraries) shall be avoided unless specifically approved by the TMT Project."
+2021_tmt_oad_WEB,The communications backbone shall run on top of a communication protocol stack that has a physical IT communications network as provided by the CIS subsystem.
+2021_tmt_oad_WEB,The CSW shall allow integration of low-level hardware or vendor-software subsystems by providing TMT-standardized software Hardware Control Daemons for these systems (see [REQ-1-OAD-9365]).
+2021_tmt_oad_WEB,CSW shall provide the OESA reusable components for development teams that allow implementation of the software structures of [REQ-1-OAD-9365].
+2021_tmt_oad_WEB,The CSW shall include libraries and/or editors to support component and GUI development.
+2021_tmt_oad_WEB,CSW shall implement support for automatic startup and shutdown of OESA subsystems and components as required by [REQ-1-OAD-9740].
+2021_tmt_oad_WEB,CSW shall provide support that allows an OESA software subsystem or component to initialize itself with a default configuration to support [REQ-1-OAD-9309].
+2021_tmt_oad_WEB,The CSW shall include the set of software communication and integration services listed in 'Table 5-8: TMT Common Software services definitions' below with a general description of their functionality
+2021_tmt_oad_WEB,"Each CSW service shall have an Application Programming Interface (API). It is a goal to make each API service implementation neutral, i.e. it shall be possible to change how a service is implemented without needing to make extensive code modifications to subsystems using that service."
+2021_tmt_oad_WEB,"The Single Sign-on (SSO) Service shall enable OESA users to authenticate once and gain access to authorized operations. For each user, one or more authorization roles shall be maintained."
+2021_tmt_oad_WEB,The Connection and Command Service shall enable one software component to create a connection to another in order to perform command and control of a specific set of OESA subsystems for specific operations.
+2021_tmt_oad_WEB,The Location Service shall provide a service that allows one software component to find other registered components for the purpose of creating connections for inter- process communication.
+2021_tmt_oad_WEB,"The Health Service supports and enables the publication of a software process or component’s health, e.g. GOOD, ILL, BAD, UNKNOWN."
+2021_tmt_oad_WEB,The Configuration Service shall manage a database containing configuration files and a historical record of changes made to those files. Clients use the Configuration Service to store and retrieve versions of configuration files.
+2021_tmt_oad_WEB,"The Logging Service shall allow software processes or components to record diagnostic or explanatory messages (with time-stamps) local to the process or component or to a central, shared log storage system or database."
+2021_tmt_oad_WEB,The Database Service shall provide access to a relational database system that components or processes may use to create specialized databases that store complex relational data for which the Configuration Service is inadequate.
+2021_tmt_oad_WEB,The Time Service shall provide software components and processes with access to precise and accurate time (based on RD60: IEEE 1588 V2) and a GPS-based time base.
+2021_tmt_oad_WEB,The TMT standard time provided by the time service and to be used as the baseline by other systems within the OESA and PESA is International Atomic Time (TAI).
+2021_tmt_oad_WEB,"The CSW Event Services shall enable the publication of events or messages indicating a change of state, completion of task, etc. and the subscription to events from specific registered processes."
+2021_tmt_oad_WEB,"On initialization, OESA subsystem software components shall publish initial values for all events."
+2021_tmt_oad_WEB,"After an event publishing component has initialized, the CSW Event Service shall immediately provide the most recently published value of an event to a newly subscribing component."
+2021_tmt_oad_WEB,"The CSW Event Service shall provide a component the most recent value of an event, including an accurate time of occurrence, upon request. The component does not need to be a subscriber of the event to request the most recent value of the event."
+2021_tmt_oad_WEB,"When an event publisher has not yet published an event value because it has not initialized, the CSW Location Service shall enable a subscribing component to determine that the publisher is not currently available."
+2021_tmt_oad_WEB,"The ESW shall support the end-to-end observatory workflow as shown in 'Figure 5-9: The TMT Operations Plan observing workflow', including the future use of conditions- based scheduling (Adaptive Queue)."
+2021_tmt_oad_WEB,The ESW OCS sequencer shall be responsible for the coordination and synchronization of subsystems.
+2021_tmt_oad_WEB,The ESW OCS sequencer shall support the PI-directed and Pre-planned observing modes by accepting Observation Blocks as an input created by a user interface program or a database of Observation Blocks (Observation Block Generators) as shown in 'Figure 5-7: The ESW sequencing system accepts Observation Blocks (OBs) created by Observation Block Generators' below.
+2021_tmt_oad_WEB,The ESW OCS shall define and develop the Observation Block describing the information created by observing user interfaces and observation planning tools (Observation Block Generators).
+2021_tmt_oad_WEB,"An ESW OCS sequencer shall be able to orchestrate a complete observation, including observatory configuration, target acquisition, and science data acquisition."
+2021_tmt_oad_WEB,The ESW OCS sequencer shall establish an appropriate command-and- control hierarchy depending on the requested observation (or observatory system re- configuration).
+2021_tmt_oad_WEB,The ESW OCS shall develop a common sequencer framework to be used by all subsystems that contain sequencers.
+2021_tmt_oad_WEB,ESW shall provide a scripting language that integrates with TMT Common Services and allows development of sequences for operations and testing of software components.
+2021_tmt_oad_WEB,"The ESW OCS sequencer shall allow the execution of more than one independent, non-conflicting sequence in parallel."
+2021_tmt_oad_WEB,The ESW OCS shall integrate with the DMS.SCI infrastructure to ensure information for dataset headers is gathered or made available at the appropriate times.
+2021_tmt_oad_WEB,"The ESW HCMS shall provide the high-level, operations-focused user interfaces necessary to display, command and operate the system including those of telescope controls, instruments, and adaptive optics controls during daytime and nighttime operations."
+2021_tmt_oad_WEB,The ESW HCMS shall provide an operations-based read-only user interface for monitoring of the OSS.
+2021_tmt_oad_WEB,"The ESW UI Standards shall allow for the creation of reusable Graphical UI templates, frameworks, libraries, or tools as needed."
+2021_tmt_oad_WEB,ESW UIs shall only be able to be executed by authenticated users on trusted machines.
+2021_tmt_oad_WEB,ESW user interfaces shall make use of the communication and integration services defined in 'Table 5-8: TMT Common Software services definitions' below [REQ-1-OAD- 9200] and libraries provided by ESW in [REQ-1-OAD-9312].
+2021_tmt_oad_WEB,The ESW UI standards shall provide a user interface solution that accommodates remote observing from the Headquarters facility and from designated remote locations.
+2021_tmt_oad_WEB,The ESW UI standards shall accommodate an observer eavesdropping mode.
+2021_tmt_oad_WEB,The ESW UI Standards shall include example applications showing typical user interface scenarios and solutions.
+2021_tmt_oad_WEB,ESW shall provide visualization UIs or tools that support target acquisition support (acquisition and WFS).
+2021_tmt_oad_WEB,ESW shall provide visualization UIs or tools that support science data quick-look data quality assurance support.
+2021_tmt_oad_WEB,ESW shall provide visualization UIs or tools that support technical data presentation.
+2021_tmt_oad_WEB,ESW shall provide visualization UIs or tools that support environmental conditions presentation.
+2021_tmt_oad_WEB,ESW shall provide visualization UIs or tools that support system status presentation.
+2021_tmt_oad_WEB,The ESW ACQ shall provide extendable and customizable high-level sequences that integrate all observatory subsystems to enable and implement first-light target and data acquisition.
+2021_tmt_oad_WEB,"W ACQ shall provide support for gathering and logging information for basic observing-oriented metrics including: total amount of science and non-science observing time, open shutter efficiency, target acquisition statistics, Target of Opportunity observations."
+2021_tmt_oad_WEB,W ACQ shall provide support gathering and persisting information needed to monitor the amount of observing time used by each partner.
+2021_tmt_oad_WEB,"The Data Management System (DMS) shall provide the necessary software infrastructure to capture, format (as necessary), store and manage the TMT science data streams."
+2021_tmt_oad_WEB,The DMS shall support the continuous and peak science data throughput estimates of Appendix 7.6 of the OAD.
+2021_tmt_oad_WEB,"The DMS shall provide infrastructure that allows data production from science instruments and other data sources (e.g., wavefront sensors) to integrate with the ESW."
+2021_tmt_oad_WEB,"The DMS shall provide infrastructure to capture, store and associate science data metadata during science data acquisition."
+2021_tmt_oad_WEB,The DMS shall define TMT standards for metadata and data storage. TMT standards shall use and be compatible with astronomy standards such as FITS and Virtual Observatory services and metadata standards.
+2021_tmt_oad_WEB,The DMS shall implement the proprietary period policy that allows data products and metadata to be private for a specified amount of time that can vary for each TMT partner.
+2021_tmt_oad_WEB,The DMS shall provide infrastructure to move detector data from the telescope and instruments to the support facility and on to the archive and partner data centers.
+2021_tmt_oad_WEB,"The DMS shall provide a persistent store with adequate space for all science data, engineering data and other long-term data. The storage system shall have the ability to increase its capacity as needed over the lifetime of the observatory if no offsite archive is created or the most recent 2 years if there is an offsite archive."
+2021_tmt_oad_WEB,The DMS persistent data store shall be initially sized and allow growth over the lifetime of the observatory according to the data estimates of Appendix 7.6 of the OAD.
+2021_tmt_oad_WEB,Two copies of all data objects covered by [REQ-1-OAD-9370] shall be kept in physically separate locations. The physical separation must be large enough that local catastrophic events do not destroy both data copies.
+2021_tmt_oad_WEB,Functionality shall be provided to guarantee or automatically and regularly check that the two data copies are identical.
+2021_tmt_oad_WEB,The DMS shall ensure that science data and other science data products covered by the proprietary period policy is secure and not available to unauthorized users or staff from the time it is created until it is public.
+2021_tmt_oad_WEB,The DMS shall provide a database or other system that allows association of science datasets and calibrations as well as associations with other files such as Adaptive Optics Point Spread Function files.
+2021_tmt_oad_WEB,The DMS storage functionality shall use the Single Sign-on Service to authenticate and authorize user identity and roles to ensure users can only access data for which they are entitled.
+2021_tmt_oad_WEB,"The DMS shall provide functionality that provides users with access to and retrieval capabilities for data packages associated with their observations and science programs. A data package includes all related science, calibration, and technical data as well as any associated information such as observing logs."
+2021_tmt_oad_WEB,"The DMS shall provide a minimal access capability that allows the TMT users, technical staff, partners and the public with local and remote access to TMT data products. This minimal access capability is not meant to provide the features of a full astronomical archive."
+2021_tmt_oad_WEB,The DMS data access functionality shall provide access to TMT data products according to the TMT proprietary period policies.
+2021_tmt_oad_WEB,The DMS access functionality shall use the CSW Single Sign-on Service to authenticate and authorize user roles and set data access rights.
+2021_tmt_oad_WEB,"The DMS shall provide a subsystem that captures and stores telemetry events (time-stamped) and other events (time-stamped), and provides tools that allow TMT staff to perform simple time-based queries and extract data for further analysis."
+2021_tmt_oad_WEB,The DMS Engineering Database shall support the steady state events and telemetry data rates in Appendix 7.6: Estimated System Data Rate and Storage Requirements.
+2021_tmt_oad_WEB,The Engineering Database shall be able to capture short bursts of high- bandwidth telemetry according to [REQ-1-OPSRD-2375].
+2021_tmt_oad_WEB,"The set of telemetry that is persisted in the Engineering Database shall be selected during operations, but is assumed to be a subset of the available telemetry."
+2021_tmt_oad_WEB,The storage system and backup strategy defined for science data shall also be used for the Engineering Database storage.
+2021_tmt_oad_WEB,The Engineering Database shall provide an access user interface that allows time-based range queries on a subset of stored telemetry items. The list of query items shall be user selectable at query time. It shall be possible to download results in common formats for analysis in familiar desktop tools.
+2021_tmt_oad_WEB,The Engineering Database shall include the ability to generate daily reports of telemetry trends for the purpose of monitoring technical performance.
+2021_tmt_oad_WEB,The Catalog Service shall provide access to a defined set of astronomical catalogs stored at the telescope site and support facility using the Data Management shared storage system. The service includes a catalog of guide stars for the use of all other TMT software subsystems.
+2021_tmt_oad_WEB,"Each SOSS subsystem shall support one aspect of the TMT observing workflow (e.g. proposal management, observation preparation, scheduling, data processing, and data access and distribution)."
+2021_tmt_oad_WEB,"The SOSS shall provide an Observation Manager with the functionality needed to browse the valid OB collection in the Observatory Databases, select one or more OBs for execution, and send the selected OB(s) to the ESW for execution."
+2021_tmt_oad_WEB,"SOSS shall include a Proposal Submission and Handling Subsystem (PSHS, also known as Phase 1) that provides the functionality required to enable users and collaborations to create and submit proposals to TMT."
+2021_tmt_oad_WEB,"The PSHS shall include a Proposer User Interface/Tracking Tool, Partner Proposal Interchange Document Specification, Proposal Ingest Tool, Support Staff Tracking, and Proposal Database."
+2021_tmt_oad_WEB,SOSS shall provide a Semester Scheduling subsystem that uses the information provided by the Proposal Submission and Handling Subsystem and the policies of TMT Observatory to provide an observing semester’s time allocation and long-term schedule products.
+2021_tmt_oad_WEB,"The integrated Scheduling System shall produce a long-term schedule that includes time allocations for visitor observing programs, service observing programs, engineering time and scheduled down-time."
+2021_tmt_oad_WEB,"The Semester Scheduling Subsystem shall include a Proposal Database Ingest or Access, Long-term Scheduling Algorithms/Engine, Scheduler User Interface, Generation of Time Allocation Notifications, Generation of Nightly Schedules for Support Staff, and Schedule Database or other long-term schedule storage."
+2021_tmt_oad_WEB,The Semester Scheduling Subsystem shall provide scheduling support for synoptic or cadence observations during Service Observing periods.
+2021_tmt_oad_WEB,"The SOSS shall provide an integrated Observation Preparation Subsystem (P2S, also known as Phase 2) that provides functionality required to allow users to create, plan, modify and submit information needed to enable the service and Visitor observing modes."
+2021_tmt_oad_WEB,P2S shall provide an integrated software tool/user interface (P2S Tool) that allows individual observers and multi-partner collaborations to enter Phase 2 observation information and track the progress of their observations. The tool shall act as an Observing Block Generator (see 'Figure 5-7: The ESW sequencing system accepts Observation Blocks (OBs) created by Observation Block Generators' below [REQ-1-OAD-9806] and store information in an observatory database.
+2021_tmt_oad_WEB,P2S Tool and the P2S subsystem shall support the concept of backup programs.
+2021_tmt_oad_WEB,"The Observation Preparation Subsystem shall include a Schedule and Proposal Database Ingest, P2S Tool, Science Program Access and definition of the Science Program Database or other long-term science program storage."
+2021_tmt_oad_WEB,"The integrated Data Processing System (DPS) subsystem contains all the functionality necessary to orchestrate automatic data processing for the purposes of quick-look analysis, system performance evaluation, science data quality evaluation and other data-related system performance measurements."
+2021_tmt_oad_WEB,"The DPS acts as a wrapper around instrument-specific data processing modules. The DPS shall deliver a pipeline infrastructure and hardware compute engine (e.g., multi- processor cluster) that can execute software delivered by instrument groups."
+2021_tmt_oad_WEB,The observatory shall provide disk space and computing capability for data reduction by users at remote facilities.
+2021_tmt_oad_WEB,The software system design shall include a strategy for integrating data processing and visualization that meets the basic goals of the Data Processing System subsystem.
+2021_tmt_oad_WEB,All TMT OSA sub-systems (including instruments) shall produce status and diagnostic telemetry published as events through the CSW Event Service for the purposes of performance monitoring and failure analysis.
+2021_tmt_oad_WEB,"The TMT Observatory shall extract information about the systems' current condition from the science and calibration data streams, and log this information along with other relevant system and environmental status information such that it is possible to monitor, save, and analyze the technical performance of the observatory systems."
+2021_tmt_oad_WEB,"The DMS engineering database and CSW configuration service design architecture shall support the maintenance of technical data necessary for operations, for the lifetime of the observatory, provided that periodic updates are made to storage, processing hardware, database and file archive software."
+2021_tmt_oad_WEB,"OSA subsystems shall provide regular operations and diagnostic modes that provide event rates, thresholds, set-points and dead-bands that support standard observing use- cases for monitoring performance, and diagnostic test and verification use cases."
+2021_tmt_oad_WEB,The DMS shall be capable of capturing and storing at least five year's worth of events or technical data that are needed for establishing current and past technical performance and system configuration information.
+2021_tmt_oad_WEB,The acquisition of technical data shall be able to be sequenced with an ESW sequencer and synchronized with science data acquisition or other absolute time.
+2021_tmt_oad_WEB,"The commands for acquisition and retrieval of technical data shall be savable as a script or data structure, that can be reviewed, saved, and re-run."
+2021_tmt_oad_WEB,"It shall be possible, through submission of a single script or data object to ESW, to trigger the storage of multiple events and multiple technical data products from multiple subsystems."
+2021_tmt_oad_WEB,"The system shall support methods to notify users of the status of the execution of scripts, including starting and completion."
+2021_tmt_oad_WEB,It shall be possible through submission of a single script or data object to DMS to trigger the retrieval of multiple events and multiple technical data products from multiple subsystems for a specified period of time.
+2021_tmt_oad_WEB,It shall be possible through submission of a single script or data object to DMS to trigger the retrieval of a complete subsystem state at a specified point in time.
+2021_tmt_oad_WEB,It shall be possible through submission of a single script or data object to DMS to trigger the retrieval of system logs for a specified period of time.
+2021_tmt_oad_WEB,"It shall be possible, through submission of a single data object to an ESW sequencer, to modify across multiple subsystems, the publishing behavior of events over a specified period of time."
+2021_tmt_oad_WEB,Specific event publishing characteristics that are modifiable from ESW calls to observatory subsystems shall be as agreed in applicable ICDs.
+2021_tmt_oad_WEB,"The event publisher shall record the time of occurrence of published events using the CSW Time Service, as described in [REQ-1-OAD-9250]."
+2021_tmt_oad_WEB,"The CSW Event Service shall provide the time of creation of each event using the CSW Time Service, as described in [REQ-1-OAD-9250]."
+2021_tmt_oad_WEB,"The CIS, CSW, and DMS systems shall have the capacity to handle and store, over and above the peak loading during regular observing operations, up to 20 technical data event data streams, synchronized in time at 1 kHz each, of events containing 64 bytes of data each."
+2021_tmt_oad_WEB,"It shall be possible, through submission of a single query to DMS, to retrieve data of multiple specified events over a specified period of time."
+2021_tmt_oad_WEB,It shall be possible to write the retrieved data to a file and to export it to an external computer.
+2021_tmt_oad_WEB,"It shall be possible to extract scalar or vector event data from DMS either in as-logged time events, or as a regularly time-spaced series at a specified rate that may be different from the logged rate."
+2021_tmt_oad_WEB,"Event data extracted in the form of a time series at a regular rate different than the publish rate shall be interpolated as defined by the requester, as either linearly interpolated between data points, nearest matched time to a past or future event, nearest past time, or binned. This characteristic shall be individually selectable for each event in a requested dataset."
+2021_tmt_oad_WEB,Results of requested event data queries shall be able to be delivered in standard machine parse-able ASCII format.
+2021_tmt_oad_WEB,Requested data products consisting of a query of a single event of less than 1 MB of data shall be delivered by DMS within 5 seconds of the request being submitted.
+2021_tmt_oad_WEB,Requested data products consisting of a query of a single event of less than 1 GB of data shall be delivered by DMS within 1 minute of the request being submitted.
+2021_tmt_oad_WEB,"The DMS system shall provide a mechanism to create charts of event data, either real time, or for previous time periods, supporting the display of all event data formats that can be extracted from the system as data files."
+2021_tmt_oad_WEB,"The charts described in [REQ-1-OAD-9936] shall have “multi-trace oscilloscope” plotting with a common time axis, of up to 10 events consisting of a mixture of “analog” traces and logic signals (e.g. telemetry status states)."
+2021_tmt_oad_WEB,"DMS shall provide a means, including a standard interface, to send real-time event data to third party systems for more complex processing."
+2021_tmt_oad_WEB,The CSW configuration service shall be able to provide both historical and current system configuration information.
+2021_tmt_oad_WEB,"It shall be possible through the use of the CSW configuration service to re- establish a previous component, subsystem or entire system configuration as the current configuration."
+2021_tmt_oad_WEB,"Alarms, including alarm flags, and out of range numeric monitors, shall be assessed by each host subsystem and communicated to ESW as alarm events."
+2021_tmt_oad_WEB,ESW shall provide a GUI screen in the observatory control room with a visualization of the health and alarm status of the observatory subsystems and system.
+2021_tmt_oad_WEB,"Simple statistical information (mean, median, standard deviation) for numeric monitor status values from the health and alarm status screen shall be available from ESW."
+2021_tmt_oad_WEB,ESW shall provide the means to easily generate simple charts of alarm values for a specified period of time from the health and alarm status GUI.
+2021_tmt_oad_WEB,Data suitable for evaluating system performance shall be stored by observatory subsystems on either local storage within the subsystem and/or on the DMS system.
+2021_tmt_oad_WEB,"It shall be possible, through submission of a single command to ESW, to trigger the storage of technical data products on a subsystem at a specified rate for a specified period of time."

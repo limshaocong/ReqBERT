@@ -1,0 +1,46 @@
+source,reqs
+2019_jpss_WEB,The JPSS-1 satellite shall be designed for a mission life of 7 years. [Priority 1]
+2019_jpss_WEB,"Excluding on-orbit failures, JPSS-1 shall maintain an Operational Availability of greater than or equal to 98% over any 30 day period for the mission lifetime. [Priority 1]"
+2019_jpss_WEB,"JPSS-1 shall be operated in a polar sun-synchronous orbit with the following characteristics: altitude of 824 +/- 17 kilometers, ground track repeat accuracy of 20 km at the Equator with a repeat cycle less than 20 days, and ascending equator crossing time of 1330 +/- 10 minutes. [Priority 1]"
+2019_jpss_WEB,JPSS-1 shall be Category 1 per NASA Procedural Requirements (NPR) 7120.5 and the risk classification shall be B per NPR 8705.4. [Priority 1]
+2019_jpss_WEB,"The JPSS-1 satellite shall be launched on an expendable launch vehicle of risk category 2 or higher, per NASA Policy Directive (NPD) 8610.7. [Priority 1]"
+2019_jpss_WEB,"JPSS-1 shall provide command, real-time and stored mission and telemetry data transmission to TDRSS. [Priority 1]"
+2019_jpss_WEB,"JPSS-1 shall provide a real-time X-band direct broadcast of instrument data to the direct readout community (i.e., High Rate Data (HRD)). [Priority 3]"
+2019_jpss_WEB,"On a 30-day basis, at least 99% of the data collected by operational sensors on the JPSS-1 satellite shall be delivered to the data processing system. [Priority 1]"
+2019_jpss_WEB,The JPSS-2 satellite shall be designed for a mission life of 7 years. [Priority 1]
+2019_jpss_WEB,"JPSS-2 shall be operated in a polar sun-synchronous orbit with the following characteristics: altitude of 824 +/- 17 kilometers, ground track repeat accuracy of 20 km at the Equator with a repeat cycle of 16 days, and ascending equator crossing time of 1330 +/- 10 minutes. [Priority 1]"
+2019_jpss_WEB,JPSS-2 shall be Category 1 per NASA Procedural Requirements (NPR) 7120.5 and the risk classification shall be B per NPR 8705.4. [Priority 1]
+2019_jpss_WEB,"The JPSS-2 satellite shall be launched on an expendable launch vehicle of risk category 2 or higher, per NASA Policy Directive (NPD) 8610.7. [Priority 1]"
+2019_jpss_WEB,JPSS-2 shall provide Ka-band stored mission and telemetry data transmission from the satellite to the ground acquisition sites. [Priority 1]
+2019_jpss_WEB,"JPSS-2 shall provide a real-time X-band direct broadcast of instrument data to the direct readout community (i.e., High Rate Data (HRD)). [Priority 3]"
+2019_jpss_WEB,"On a 30-day basis, at least 99% of the data collected by operational sensors on the JPSS-2 satellite shall be delivered to the data processing system. [Priority 1]"
+2019_jpss_WEB,The JPSS-3 satellite shall be designed for a mission life of 7 years. [Priority 1]
+2019_jpss_WEB,"Excluding on-orbit failures, JPSS-3 shall maintain an Operational Availability of greater than or equal to 98% over any 30 day period for the mission lifetime. [Priority 1]"
+2019_jpss_WEB,"JPSS-3 shall be operated in a polar sun-synchronous orbit with the following characteristics: altitude of 824 +/- 17 kilometers, ground track repeat accuracy of 20 km at the Equator with a repeat cycle of 16 days, and ascending equator crossing time of 1330 +/- 10 minutes. [Priority 1]"
+2019_jpss_WEB,"The JPSS-3 satellite shall be launched on an expendable launch vehicle of risk category 2 or higher, per NASA Policy Directive (NPD) 8610.7. [Priority 1]"
+2019_jpss_WEB,JPSS-3 shall provide Ka-band stored mission and telemetry data transmission from the satellite to the ground acquisition sites. [Priority 1]
+2019_jpss_WEB,"JPSS-3 shall provide command, real-time and stored mission and telemetry data transmission to TDRSS. [Priority 1]"
+2019_jpss_WEB,"JPSS-3 shall provide a real-time X-band direct broadcast of instrument data to the direct readout community (i.e., High Rate Data (HRD)). [Priority 3]"
+2019_jpss_WEB,"On a 30-day basis, at least 99% of the data collected by operational sensors on the JPSS-3 satellite shall be delivered to the data processing system. [Priority 1]"
+2019_jpss_WEB,The JPSS-4 satellite shall be designed for a mission life of 7 years. [Priority 1]
+2019_jpss_WEB,"Excluding on-orbit failures, JPSS-4 shall maintain an Operational Availability of greater than or equal to 98% over any 30 day period for the mission lifetime. [Priority 1]"
+2019_jpss_WEB,"JPSS-4 shall be operated in a polar sun-synchronous orbit with the following characteristics: altitude of 824 +/- 17 kilometers, ground track repeat accuracy of 20 km at the Equator with a repeat cycle of 16 days, and ascending equator crossing time of 1330 +/- 10 minutes. [Priority 1]"
+2019_jpss_WEB,JPSS-4 shall be Category 1 per NASA Procedural Requirements (NPR) 7120.5 and the risk classification shall be B per NPR 8705.4. [Priority 1]
+2019_jpss_WEB,"The JPSS-4 satellite shall be launched on an expendable launch vehicle of risk category 2 or higher, per NASA Policy Directive (NPD) 8610.7. [Priority 1]"
+2019_jpss_WEB,JPSS-4 shall provide Ka-band stored mission and telemetry data transmission from the satellite to the ground acquisition sites. [Priority 1]
+2019_jpss_WEB,"JPSS-4 shall provide command, real-time and stored mission and telemetry data transmission to TDRSS. [Priority 1]"
+2019_jpss_WEB,The JPSS ground segment shall have an operational life through at least FY 2038. [Priority 1]
+2019_jpss_WEB,The JPSS shall comply with the NOAA/NESDIS Policy for Continuity of Operational Polar Orbiting Environmental Satellite Observations. [Priority 1]
+2019_jpss_WEB,The JPSS shall produce and make available one complete set of data products identified in Appendix A from the primary mission sensors to ESPC Registered Users. [Priority 1]
+2019_jpss_WEB,The JPSS shall produce and make available one complete set of mission unique data products identified in Appendix A from the secondary mission sensors to ESPC Registered Users. [Priority 1]
+2019_jpss_WEB,The JPSS shall support EUMETSAT missions per the International Joint Polar System Agreement (JPS). [Priority 1]
+2019_jpss_WEB,"The JPSS primary command and control and data processing site shall be located at the NOAA Satellite Operations Facility (NSOF) in Suitland, MD. [Priority 1]"
+2019_jpss_WEB,"The JPSS alternate command and control and data processing site shall be located at the Consolidated Backup (CBU) Facility in the Vertex Center in Fairmont, WV. [Priority 1]"
+2019_jpss_WEB,"The JPSS Alternate Processing Center shall make available the specific data products identified in Appendix A, from all sensor science data acquired from the primary mission sensors to the CLASS and to ESPC Authorized APC Users that require access for supporting minimum mission essential functions. [Priority 1]"
+2019_jpss_WEB,"On a 30-day basis, data latency requirements, as specified in Appendix A, Table 1 and Table 1.1, shall be met at least 95% of the time for data collected by the primary operational sensors on the JPSS [Priority 1] and GCOM [Priority 3] satellites."
+2019_jpss_WEB,The JPSS shall comply with NOAA information technology security policies and procedures. [Priority 1]
+2019_jpss_WEB,"The JPSS shall acquire at least 99%, on a 30-day basis, of sensor science data from GCOM-W satellites and relay it to JAXA. [Priority 2]"
+2019_jpss_WEB,The JPSS shall have the capability to make data available for long-term archive and storage in accordance with NOAA policy for the Management of Environmental Data and Information. [Priority 2]
+2019_jpss_WEB,The JPSS shall support the capability for management of mission constellation operations. [Priority 2]
+2019_jpss_WEB,The JPSS shall make available all sensor science data acquired to the NASA Science Data Segment (SDS) service delivery point at the NSOF. [Priority 3]
+2019_jpss_WEB,"The JPSS shall provide the Direct Readout community with software, documentation, and periodic updates to enable civilian and military agencies to produce data products from JPSS, using their own hardware to receive the JPSS High Rate Data (HRD) broadcast. [Priority 3]"

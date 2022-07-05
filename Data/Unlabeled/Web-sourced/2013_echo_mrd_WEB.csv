@@ -1,0 +1,108 @@
+source,reqs
+2013_echo_mrd_WEB,"The EChO S/C shall be compatible with a Soyuz Fregat-MT launch from Kourou, French Guiana."
+2013_echo_mrd_WEB,"The EChO mission shall be compatible with a launch date in 2022 (study baseline), with a launch in 2024 as study back-up."
+2013_echo_mrd_WEB,The baseline injection strategy shall be to place the EChO S/C in an eclipse-free (Earth and Moon) direct transfer trajectory to the Sun-Earth L2 point.
+2013_echo_mrd_WEB,"The science operations orbit shall be an eclipse-free (Earth and Moon) orbit around the Sun-Earth L2 point, with an amplitude no larger than 1.5 million km in all directions, restricting the Sun-S/C-Earth angle to ?45 degrees."
+2013_echo_mrd_WEB,"The launch window shall ensure that between fairing jettisoning and S/C– LV separation, the Sun does not remain above the PLM (i.e. in the +ZEChO hemisphere) for more than 10 minutes"
+2013_echo_mrd_WEB,"The launch window shall ensure that between fairing jettisoning and S/C– LV separation, the Sun does not remain in the exclusion angles defined in R-PERF-030 for more than 25 minutes"
+2013_echo_mrd_WEB,"The LEOP phase shall be from launch to the end of the 1st manoeuvre for launcher dispersion correction, occurring no later than 2 days after the LV – S/C separation."
+2013_echo_mrd_WEB,"From LV separation until Sun acquisition, the S/C shall be in a power mode using on-board batteries with all instruments switched off."
+2013_echo_mrd_WEB,The S/C shall autonomously detect separation from the LV.
+2013_echo_mrd_WEB,"After separation from the LV, the S/C shall autonomously activate one of its transmitting channels and its 2 receiving channels to allow the ESA ground station network to establish the first contact."
+2013_echo_mrd_WEB,The transfer phase shall be from the end of LEOP to the insertion into the science operations orbit as defined in MR-MIS-040.
+2013_echo_mrd_WEB,"The commissioning phase can be started during the transfer phase, and shall be completed within 3 months of the LV – S/C separation."
+2013_echo_mrd_WEB,The instrument performance verification and science demonstration phase shall be completed within 6 months of the LV – S/C separation.
+2013_echo_mrd_WEB,The LEOP and transfer phases shall be completed within 3 months of the LV – S/C separation.
+2013_echo_mrd_WEB,"During the commissioning phase, check-out of the spacecraft functions and verification of all subsystems’ performances shall be performed."
+2013_echo_mrd_WEB,"During the instrument performance verification and science demonstration phase, check-out and verification of the science instrument’s performance shall be performed."
+2013_echo_mrd_WEB,The nominal science operations phase shall start from the end of the instrument performance verification and science demonstration phase.
+2013_echo_mrd_WEB,The extended science operations phase shall start from the end of the nominal science operation phase.
+2013_echo_mrd_WEB,"The post operations phase shall start from the end of the extended science operations phase and last for 2 years (TBC). In the case that there is no extended science operations phase, the post operations phase shall start at the end of the nominal science operations phases."
+2013_echo_mrd_WEB,The decommissioning phase shall ensure compliance with the Space Debris Mitigation for Agency Projects [AD10].
+2013_echo_mrd_WEB,"The nominal mission lifetime, from LV (upper-stage) separation to the end of the nominal science operations phase, shall have a duration of 4 years."
+2013_echo_mrd_WEB,"The extended mission lifetime (the extended science operations phase), shall have a duration of at least 2 year."
+2013_echo_mrd_WEB,"During the nominal mission lifetime, all science performance requirements shall be fully met and include all specified margins."
+2013_echo_mrd_WEB,"During the extended mission lifetime, all science performance requirements should be fully met, without margins."
+2013_echo_mrd_WEB,All S/C consumables and radiation-sensitive units shall be sized to last from launch till the end of the extended mission lifetime.
+2013_echo_mrd_WEB,The ground lifetime of units which degrade with usage or storage shall include a 50% margin (TBC).
+2013_echo_mrd_WEB,All S/C units shall be designed to include a ground lifetime margin of 1 year (TBC) in addition to MR-MIS-240.
+2013_echo_mrd_WEB,"The S/C shall be compatible with the operational space environment, as described in [AD9]."
+2013_echo_mrd_WEB,"After a major on-board failure or a violation of the attitude constraints defined in MR-PERF-020, 030 and 040, the S/C shall enter and maintain a safe mode that keeps only the minimum number of units that are necessary to the S/C survival switched on and allows a continuous and sufficient supply of power for S/C survival."
+2013_echo_mrd_WEB,The pointing stability between the instrument LoS and the science target with the FGS in the control loop shall be controlled to ensure compliance with the noise and photometric stability requirement MR-PERF-350.
+2013_echo_mrd_WEB,A coarse pointing mode shall allow observing secondary science targets without the FGS in the control loop. The maximum angular motion of these targets is 10 arcsec/min.
+2013_echo_mrd_WEB,A de-contamination mode shall ensure out-gassing and moisture release does not degrade the mission performance at any point during the mission.
+2013_echo_mrd_WEB,"During phases 4 and 5, the EChO S/C shall have the ability to make a full 360 degrees rotation around ZECHO and observe a target from any of those attitudes."
+2013_echo_mrd_WEB,"During phases 4 and 5, the EChO S/C shall have the ability to make a rotation of 72 degrees around YECHO and observe a target from any of those attitudes."
+2013_echo_mrd_WEB,"During phases 4 and 5, the EChO S/C shall have the ability to make a rotation of 2 degrees around XECHO and observe a target from any of those attitudes."
+2013_echo_mrd_WEB,The overall observing efficiency of the EChO S/C during science operation phases 4 and 5 shall be ? 85%.
+2013_echo_mrd_WEB,Corruption or loss of science data during a science observation shall be deducted from the observation efficiency budget with a degradation factor of 2.
+2013_echo_mrd_WEB,"An average observation shall be defined as the observation of a single science target for 3.7 hours, separated by 90 degrees from the previous and the next science targets (TBC)."
+2013_echo_mrd_WEB,Periodic calibration of the science instrument shall not be deducted from the observation efficiency budget (TBC).
+2013_echo_mrd_WEB,The payload shall cover the 0.55 to 11 microns wavelength range without any gaps.
+2013_echo_mrd_WEB,The payload should cover the 0.4 to 16 microns wavelength range without any gaps.
+2013_echo_mrd_WEB,No-cut wavelength: R-SCI-030 in [AD1] is applicable.
+2013_echo_mrd_WEB,No-cut wavelength: G-SCI-031 and 031a in [AD1] are applicable.
+2013_echo_mrd_WEB,"For a point source at infinity, the science instrument shall have a resolving power ? 300 under 5 microns"
+2013_echo_mrd_WEB,"For a point source at infinity, the science instrument shall have a resolving power ? 30 above 5 microns"
+2013_echo_mrd_WEB,"For a point source at infinity, the science instrument should have a resolving power ? 300 in the complete wave range as defined in MG-PERF-160."
+2013_echo_mrd_WEB,The science instrument post-processing shall allow binning of adjacent resolution elements together.
+2013_echo_mrd_WEB,The figure of merit defined as Aeff x ? x QE shall be (average value in each channel) ? 1.131 x 0.23 x 0.50 = 0.130 [m2.e-/photons] above 5 microns
+2013_echo_mrd_WEB,The figure of merit defined as Aeff x ? x QE shall be (average value in each channel) ? 1.131 x 0.23 x 0.70 = 0.182 [m2.e-/photons] between 1 and 5 microns
+2013_echo_mrd_WEB,The figure of merit defined as Aeff x ? x QE shall be (average value in each channel) ? 1.131 x 0.10 x 0.60 = 0.068 [m2.e-/photons] for channels below 1 micron (TBC)
+2013_echo_mrd_WEB,The minimum in-channel (i.e. not in the cut-off / overlap regions) figure of merit in any resolution element (as defined in MR-PERF-190) shall be no less than 80% of the figure of merit defined in MR-PERF-240.
+2013_echo_mrd_WEB,The minimum out-of-channel (i.e. in the overlap regions between 2 adjacent channels) figure of merit in any resolution element (as defined in MR-PERF-190) shall be no less than 50% of the figure of merit defined in MR-PERF-240.
+2013_echo_mrd_WEB,can be achieved by the individual channels or by summing the response from 2 overlapping channels.
+2013_echo_mrd_WEB,An extended FoV of ? 20’’ (half angle) in the spatial direction of each science channel shall enable the monitoring of the background (e.g. zodiacal and thermal background but also detector dark current) using off-source pixels (TBC).
+2013_echo_mrd_WEB,"Spectral sampling shall be commensurate with the Nyquist-Shannon criterion, i.e. at least two samples between adjacent resolution elements separated by ?? as defined in MR-PER-190."
+2013_echo_mrd_WEB,Stellar variability (post-processing) shall make a negligible contribution to the noise budget defined in MR-PERF-350 (<10% in RSS). Observation of stars with higher residual variability is TBD.
+2013_echo_mrd_WEB,A 20% margin (in RSS) shall be kept in the noise budget until the end of the definition phase.
+2013_echo_mrd_WEB,"An absolute photometric calibration accuracy of 5% (TBC), post- processing, shall be achieved for all targets across the full waveband defined in MR-PERF-150."
+2013_echo_mrd_WEB,"An absolute wavelength calibration accuracy better than 1/3rd (TBC) of the spectral resolution defined in MR-PERF-190, post-processing, shall be achieved for all targets across the full waveband defined in MR-PERF- 150."
+2013_echo_mrd_WEB,"and 340 can be achieved by observations of reference celestial objects, which are the same observations as those defined in MR-PERF-080."
+2013_echo_mrd_WEB,The interval between consecutive measurements of the host star/exoplanet system taken during a single transit/occultation shall be ?90 s.
+2013_echo_mrd_WEB,The interval between consecutive measurements of the host star/exoplanet system taken during a single transit/occultation should be ?30 s.
+2013_echo_mrd_WEB,"The SI international system of units shall be used. Radians, degrees and arcseconds are acceptable as angular units. All (sub)multiples by factors of 10 of any of the aforementioned units are also acceptable."
+2013_echo_mrd_WEB,The margin policy described in [AD3] shall be applied to the assessment study (Phase 0/A).
+2013_echo_mrd_WEB,"The list of ESA approved standards, including approved ECSS standards, shall apply throughout the ECHO study, and is detailed in [AD4]. Tailoring of specific standards is possible and shall be subject to formal approval by ESA on a case-by-case basis with a detailed rationale."
+2013_echo_mrd_WEB,All reference coordinate frames shall be right-handed orthonormal triads.
+2013_echo_mrd_WEB,"The EChO S/C reference frame shall be defined by three orthonormal axes (XECHO, YECHO, ZECHO), with an origin at the geometrical centre of the separation plane between the LV adapter and the S/C."
+2013_echo_mrd_WEB,"The longitudinal axis +ZECHO (roll axis) shall be coincident with the LV symmetry axis, and pointing in the positive direction from the LV – S/C separation plane up to the tip of the S/C."
+2013_echo_mrd_WEB,"+XECHO shall be defined, in the separation plane between the LV adapter and the S/C, as pointing in the positive direction along the telescope pointing axis ZE-TEL projected in the separation plane."
+2013_echo_mrd_WEB,+YECHO shall be defined to complete the right-handed orthonormal triad with +XECHO and +ZECHO.
+2013_echo_mrd_WEB,"The EChO telescope pointing reference frame shall be defined by three orthonormal axes (XE-TEL, YE-TEL, ZE-TEL), with an origin in the vertex of the telescope’s primary mirror."
+2013_echo_mrd_WEB,"The telescope’s pointing axis +ZE-TEL shall be defined from the reference frame’s origin, in the positive direction going towards the centre of the targeted FoV."
+2013_echo_mrd_WEB,"+XE-TEL shall be defined from the reference frame’s origin towards the centre of the Sun shield (average Sun direction), projected onto the plane orthogonal to +ZE-TEL."
+2013_echo_mrd_WEB,+YE-TEL shall be defined to complete the right-handed orthonormal triad with +XE-TEL and +ZE-TEL.
+2013_echo_mrd_WEB,"During the periods defined in MR-MIS-041, the S/C design shall be tolerant to the Sun in any possible direction in the XEChO-YEChO plane."
+2013_echo_mrd_WEB,The total wet mass of the EChO S/C (including all margins specified in [AD3] and the LV and S/C adaptors) shall be smaller than the LV baseline performance of 2160 kg.
+2013_echo_mrd_WEB,"The overall reliability of the mission, from after LV separation till the end of the nominal lifetime, shall be > 85 % including all science channels up to 1 micron (±0.1 micron)"
+2013_echo_mrd_WEB,"The overall reliability of the mission, from after LV separation till the end of the nominal lifetime, shall be > 82 % including all science channels up to 5 micron (±0.3 micron)"
+2013_echo_mrd_WEB,"The overall reliability of the mission, from after LV separation till the end of the nominal lifetime, shall be > 80% including all science channels up to 11 micron (±0.3 micron)"
+2013_echo_mrd_WEB,"Single-point failures with a severity of catastrophic or critical (as defined in [AD4], ECSS-Q-ST-30C) shall be eliminated or prevented by design."
+2013_echo_mrd_WEB,Retention in the design of single-point failures of any severity rating is subject to formal approval by ESA on a case-by-case basis with a detailed retention rationale.
+2013_echo_mrd_WEB,"A failure of one component (unit level) shall not cause failure of, or damage to, another component or subsystem."
+2013_echo_mrd_WEB,The failure of an individual instrument channel shall not lead to a safe mode of the S/C.
+2013_echo_mrd_WEB,"Any hazardous situation, which will not cause immediate loss of but may develop into the loss of the S/C or instrument, shall be prevented by design or protected against."
+2013_echo_mrd_WEB,"The design shall allow the identification of on-board failures and their recovery by autonomously switching to a redundant functional path. Where this can be accomplished without risk to spacecraft and instrument safety, such switching shall enable the continuity of the mission timeline and performance."
+2013_echo_mrd_WEB,"Where redundancy is employed, the design shall allow operation and verification of the redundant item/function, independent of nominal use."
+2013_echo_mrd_WEB,"In case of anomalies or failures from which an autonomous recovery is not possible, the S/C shall enter a Safe Mode to ensure S/C and instrument survival."
+2013_echo_mrd_WEB,"For design and analysis purposes, an average of 2 safe mode events of 2 days (plus recovery time) each per year shall be considered."
+2013_echo_mrd_WEB,The use of mechanisms shall be avoided as far as practicable. Proposed use of mechanisms is subject to formal approval by ESA on a case-by- case basis with a detailed rationale.
+2013_echo_mrd_WEB,"The use of units inducing mechanical vibrations during science observations shall be avoided as far as practicable. Proposed use of such units is subject to a formal approval by ESA on a case-by-case basis, after provision of a detailed rationale. If approved, the supplier of such units shall characterise the generated vibration disturbances, and provide means of reducing these disturbances when necessary to ensure compliance with MR-MECH-030 and MR-PERF-350."
+2013_echo_mrd_WEB,"The supplier of any unit whose performance is degraded by mechanical vibrations (e.g. star trackers, antennas, gyroscopes, the FGS etc.) shall provide a spectrum of maximum allowed micro-vibrations, at the unit’s interface with the S/C’s structure, under which the unit will still perform as required."
+2013_echo_mrd_WEB,"A Fine Guidance Sensor (FGS) shall be implemented within the PLM, using the light focussed by the telescope, to meet the pointing stability requirement defined in MR-MIS-300."
+2013_echo_mrd_WEB,"The light shall be split between the first science instrument channel and the FGS, while ensuring the figures of merit defined in R-PERF-240 are not compromised."
+2013_echo_mrd_WEB,The S/C design shall enable operational control by the ground segment during all mission phases and modes in both nominal and contingency situations.
+2013_echo_mrd_WEB,"The EChO mission shall have a single MOC. For the purpose of the assessment study, ESOC shall be assumed as the MOC."
+2013_echo_mrd_WEB,"The MOC shall be responsible for the spacecraft operations after launch, including mission planning, spacecraft monitoring and control, and orbit and attitude determination and control."
+2013_echo_mrd_WEB,The MOC shall perform all communications with the S/C through the ground stations.
+2013_echo_mrd_WEB,Orbit determination shall be conducted with the required accuracy to perform all manoeuvres required to inject the S/C into L2
+2013_echo_mrd_WEB,The MOC shall provide all telemetry (science and housekeeping) to the SOC.
+2013_echo_mrd_WEB,"The EChO mission shall have a single EChO SOC. For the purpose of the assessment study, ESAC shall be assumed as the SOC."
+2013_echo_mrd_WEB,All aspects of the EChO mission shall be compatible with the network of ESA ground stations and the NASA DSN.
+2013_echo_mrd_WEB,The S/C shall support autonomous (without ground contact) operations according to a mission timeline uploaded from ground.
+2013_echo_mrd_WEB,The S/C shall support re-scheduling of planned events in the mission timeline by ground command.
+2013_echo_mrd_WEB,The S/C shall support interruption of the mission timeline execution by ground command.
+2013_echo_mrd_WEB,"During LEOP, the S/C shall be able to operate nominally without ground contact for at least 12 hours."
+2013_echo_mrd_WEB,"In all mission phases after LEOP, the S/C shall be able to operate nominally without ground contact for at least 7 days, without any loss of science or housekeeping data."
+2013_echo_mrd_WEB,"In all mission phases after LEOP, the S/C shall be able to survive without ground contact for at least 11 days."

@@ -1,0 +1,93 @@
+source,reqs
+2016_teser_web,The PMD module shall be attached to a S/C on ground via a standardized interface IF-SC.
+2016_teser_web,The PMD module shall be compatible with different S/C via a standard interface IF-SC.
+2016_teser_web,The design of the PMD module shall be scalable in size and mass so that it can be used to remove different S/C.
+2016_teser_web,The PMD module shall have at least one standard interface IF-RS which allows the attachment of different removal subsystems.
+2016_teser_web,The PMD module shall be able to remove a S/C at any time with a success rate of 90% (TBC)
+2016_teser_web,It shall be possible to remotely activate the PMD module.
+2016_teser_web,The PMD module shall perform the PMD only after a command from ground.
+2016_teser_web,The PMD module shall not increase the operational risk of the host spacecraft.
+2016_teser_web,The PMD Platform shall not release any objects larger than TBD mm
+2016_teser_web,The PMD module shall be able to generate and store electrical power according to power budget TBD
+2016_teser_web,The PMD module shall be able to distribute electrical power to its subsystems according to their power needs as defined in (TBD).
+2016_teser_web,The PMD module shall provide a thermally controlled environment to its subsystems compatible with their survival temperature limits.
+2016_teser_web,The PMD module shall provide a thermally controlled environment to its subsystems compatible with their operational temperature limits.
+2016_teser_web,The PMD module shall enable communication with Ground as required to operate the PMD module.
+2016_teser_web,The PMD module shall enable the performance of orbit changes and change of attitude depending on the host S/C and RS used.
+2016_teser_web,The PMD module shall be able to host its subsystems and the RS with a mass of up to TBD kg.
+2016_teser_web,The PMD module shall provide data processing and storage capabilities to its subsystems.
+2016_teser_web,"In case the PMD module is sharing the resources of the host S/C, the PMD module shall use no more resources than the host-SC can spare at any given time"
+2016_teser_web,The PMD module shall not increase the probability of a catastrophic collision with other space objects over the disposal lifetime.
+2016_teser_web,The TTC subsystem shall be able to establish a link to Earth independent of the host S/C attitude
+2016_teser_web,The TTC subsystem shall be compatible to [TBD Protocols] Ground Stations.
+2016_teser_web,TTC system shall be able to receive data at a data rate of 1 kbps (TBC).
+2016_teser_web,The TTC system shall be able to transmit data at a data rate 1 kbps (TBC).
+2016_teser_web,The TTC subsystem shall be scalable to accommodate different RS.
+2016_teser_web,The TTC subsystem shall be scalable to account for removing different S/C.
+2016_teser_web,The TTC subsystem shall not interfere with host S/C communications
+2016_teser_web,"The CDH subsystem shall be able to gather, store, and forward PMD module State of Health (SOH) data."
+2016_teser_web,"The CDH subsystem shall be able to gather, store, and forward RS module State of Health (SOH) data."
+2016_teser_web,The CDH subsystem shall be able to receive RS module State of Health (SOH) data via IF-RS as described in [AD2].
+2016_teser_web,"The CDH subsystem shall be able to decrypt, verify, execute, and store a PMD module turning on command."
+2016_teser_web,"The CDH subsystem shall be able to decrypt, verify, execute and store a removal initiation/RS activation command."
+2016_teser_web,The CDH subsystem shall be able to forward a removal initiation/RS activation command via IF-RS.
+2016_teser_web,The CDH subsystem shall be scalable to accommodate different RS.
+2016_teser_web,The CDH subsystem shall be scalable to account for removing different SCs.
+2016_teser_web,The EPS subsystem shall provide power to the RS during all mission phases as defined in [AD2].
+2016_teser_web,The EPS subsystem shall power the PMD module platform during all mission phases according the the power budget
+2016_teser_web,The EPS subsystem shall be scalable to accommodate different RS.
+2016_teser_web,The EPS subsystem shall provide power to the RS via IF-RS as defined in [AD2]
+2016_teser_web,The EPS subsystem shall be scalable to account for removing different SC.
+2016_teser_web,The EPS subsystem shall be scalable to account for both de-orbiting and re- orbiting SC
+2016_teser_web,The TCS subsystem shall manage the PMD module thermally during all mission phases as defined in TBD document
+2016_teser_web,The TCS subsystem shall manage the RS thermally during all mission phases as defined in [AD2]
+2016_teser_web,The TCS subsystem shall be scalable to accommodate different RS
+2016_teser_web,The TCS subsystem shall be scalable to account for removing different S/C.
+2016_teser_web,The TCS subsystem shall have a thermal connection to the RS via IF-RS as defined in [AD2]
+2016_teser_web,The ADCS Sensor subsystem shall sense attitude and rotation rates with an accuracy as described in [AD2]
+2016_teser_web,The ADCS Sensor subsystem shall generate attitude control commands with an accuracy as defined in [AD2]
+2016_teser_web,The ADCS Sensor subsystem shall send attitude and rotation rate data to the C&DH subsystem.
+2016_teser_web,The ADCS Sensor subsystem shall send attitude control commands to the ADCS Actuator subsystem.
+2016_teser_web,The ADCS Sensor subsystem shall be scalable to account for removing different SC.
+2016_teser_web,The ADCS Sensor subsystem shall be scalable to accommodate for different RS types
+2016_teser_web,The PMD module structures shall withstand loads in all mission phases as defined in [AD2]
+2016_teser_web,The PMD module structures shall be scalable to accommodate different RS.
+2016_teser_web,The PMD module structures shall be scalable to account for the removal of different S/C.
+2016_teser_web,There shall be no detachable parts in the PMD module larger than TBD mm
+2016_teser_web,The PMD module structures shall be physically connected to IF-SC
+2016_teser_web,The PMD module structures shall be physically connected to IF-RS
+2016_teser_web,The ADCS Actuator subsystem shall receive attitude control commands by the ADCS Sensor subsystem
+2016_teser_web,The ADCS Actuator subsystem shall implement attitude control commands by the ADCS Sensor subsystem
+2016_teser_web,The ADCS Actuator subsystem shall be scalable to accommodate different RS.
+2016_teser_web,The ADCS Actuator subsystem shall be scalable to account for the removal of different S/C.
+2016_teser_web,"The ADCS Actuator subsystem shall be able to de-tumble the S/C to RS operational attitude and rotation rates before RS activation, as defined in [AD2]"
+2016_teser_web,The ADCS s Actuator ubsystem shall be able to control the required attitude and rotation rates during RS operation as defined in [AD2]
+2016_teser_web,Residuals of a possible propellant used in ADCS Actuator subsystem shall be less than TBD mm
+2016_teser_web,The RS shall generate forces necessary for PMD
+2016_teser_web,The RS shall transfer removal forces to IF-RS
+2016_teser_web,The RS shall be able to send RS module State of Health (SOH) data via IF-RS as defined in [AD2]
+2016_teser_web,The RS shall be able to send telemetry data to the PMD module via IF-RS as defined in [AD2]
+2016_teser_web,The RS shall be scalable to account for the removal of different S/C.
+2016_teser_web,Residuals of a possible propellant used in the RS shall be less than TBD mm
+2016_teser_web,The RS shall have a probability of activating without being commanded < TBD %
+2016_teser_web,IF-SC shall withstand mechanical loads in all mission phases as defined in [AD2]
+2016_teser_web,IF-SC shall be physically connected to the PMD module structure
+2016_teser_web,IF-SC shall transfer removal forces from the PMD module to the S/C
+2016_teser_web,IF-SC shall be physically connected to the S/C structure
+2016_teser_web,IF-RS shall withstand mechanical loads in all mission phases as defined in [AD2]
+2016_teser_web,IF-RS shall transfer removal forces from the RS to the PMD module
+2016_teser_web,IF-RS shall be able to forward a removal initiation/RS activation command from the PMD module to the RS
+2016_teser_web,IF-RS shall transfer power from the PMD module to the RS as defined in [AD2]
+2016_teser_web,IF-RS shall provide a thermal connection between the PMD module and the RS
+2016_teser_web,IF-RS shall physically connect the RS to the PMD module structure
+2016_teser_web,It shall be possible for the operators to be made aware of the status of the PMD module within 2 S/C orbits (TBC)
+2016_teser_web,It shall be possible for the operators to be made aware of the status of the RS within 2 S/C orbits (TBC) as described in [AD2]
+2016_teser_web,It shall be possible for the operators to be made aware of the status of the PMD module at periodic intervals (TBC) as described in [AD2]
+2016_teser_web,The operators shall be able to send an activation command to the PMD module within a period of two orbits (TBC) from any given time.
+2016_teser_web,The operators shall be able to send a activation/go back to stand-by command to the PMD module within a period of two orbits (TBC) after the PMD module has been activated
+2016_teser_web,The operators shall be able to send a PMD initiation command to the PMD module within a period of two orbits (TBC) after the PMD module has been activated.
+2016_teser_web,The operators shall be able to send a PMD initiation command to the PMD module within a period of two orbits (TBC) after the PMD preparation phase has been completed
+2016_teser_web,The operators shall be able to send commands necessary for PMD to the PMD module during PMD operations (TBC)
+2016_teser_web,The PMD module shall have a probability of initiating PMD without being commanded < TBD %
+2016_teser_web,The host S/C shall passivate its ADCS before the initiation of the PMD phase
+2016_teser_web,The host S/C shall fully passivate itself before the initiation of the PMD phase in case the PMD phase takes longer than 1 year.

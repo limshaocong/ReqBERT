@@ -1,0 +1,42 @@
+source,reqs
+2015_due_web,The GBPS shall generate and publish global above ground biomass maps
+2015_due_web,The GBPS shall be a standalone system
+2015_due_web,The GBPS shall generate the outputs required in URD
+2015_due_web,GBPS shall implement the processing workflows and the scenarios developed within DUE GlobBiomass
+2015_due_web,The GBPS shall support stability of the processing chain for re- processing and its continuous extension in order to support consistency of the output dataset.
+2015_due_web,Operationally produced outputs shall be re-producible.
+2015_due_web,The GBPS shall support the implementation of improved algorithms. Frequent re-processing shall be possible in a TBD period.
+2015_due_web,There shall be an operational procedure to perform the necessary validation and other steps to perform the transfer to operations.
+2015_due_web,The GBPS shall control production according to the processing workflow detailed in the SRD
+2015_due_web,The GBPS shall integrate the GB processors.
+2015_due_web,The GBPS shall integrate the GB processors for pre-processing.
+2015_due_web,The GBPS shall integrate the GB processors for retrieval.
+2015_due_web,The GBPS shall integrate the GB processors for product generation.
+2015_due_web,The GBPS shall integrate the GB processors for product verification.
+2015_due_web,The GBPS shall provide means to ensure the quality of its outputs.
+2015_due_web,The GBPS shall provide means to do quality checks and manual inspection of intermediate results during processing.
+2015_due_web,"The GBPS preprocessor shall read Envisat and Palsar Mosaic data and prepare the data for injection into the Retrieval module.
+Note: not part of the system since the processing was done in various systems (GAMMA, GPOD, by JAXA etc.)"
+2015_due_web,The GBPS retrieval module shall produce growing stock volume maps from multitemporal SAR data.
+2015_due_web,The GBPS retrieval shall include a C-band module capable to derive growing stock volume from C-band SAR data
+2015_due_web,The GBPS retrieval shall include a L-band module capable to derive growing stock volume from L-band SAR data
+2015_due_web,The product generation module shall include a converter to derive AGB from GSV.
+2015_due_web,"The product generation module shall produce standardized products in lat/long at multiple spatial resolutions between 25 m and 1,000 m in Geotiff format."
+2015_due_web,The GBPS shall support the validation of output products by experts and the reintegration of the validation results into the system as product metadata.
+2015_due_web,"The GBPS shall validate land cover products automatically, using validation datasets. The validation process shall generate statistics and validation reports."
+2015_due_web,The GBPS shall support to plug in different validation datasets for comparison into its automated process. The validation datasets used shall be listed in the validation report.
+2015_due_web,The structure shall allow to keep several versions of outputs at the same time.
+2015_due_web,The GBPS shall provide subsets of the global product and products in different resolutions and projections according to the PSD. The function should be provided as a service without the necessity to transfer the complete dataset.
+2015_due_web,The GBPS shall be optimised for repeated re-generation of parts or the complete dataset and the extension of the dataset into the future.
+2015_due_web,The production of a global dataset should be performed within TBD days.
+2015_due_web,The GBPS shall prepare for massive parallel processing.
+2015_due_web,The GBPS shall be scalable by additional hardware to cope with increasing data volume (more years of inputs) and additional streams in an almost linear way.
+2015_due_web,The GBPS shall allow for a collaborative but distributed operation.
+2015_due_web,The GBPS shall ingest and preprocessed Envisat ASAR data and Jaxa ALOS Mosaic
+2015_due_web,The GBPS supports the detection and handling of failures.
+2015_due_web,The GBPS supports the transfer of a processor version to operations
+2015_due_web,The used version of the processor shall be transparent
+2015_due_web,The GBPS shall support re-processing of parts or all of the dataset
+2015_due_web,The GBPS shall maintain its software components and in particular its processors and configurations under configuration control.
+2015_due_web,The GBPS shall follow a modular approach in its design
+2015_due_web,The GBPS shall provide shall support continuous improvement of methods and inputs over a period of TBD years.

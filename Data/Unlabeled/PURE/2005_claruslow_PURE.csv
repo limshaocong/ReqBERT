@@ -1,0 +1,418 @@
+source,reqs
+2005_claruslow_PURE,The Clarus system shall implement quality checking processes as soon as data become available.
+2005_claruslow_PURE,The CAS shall be able to configure schedules for executing QChS.
+2005_claruslow_PURE,The Clarus system shall record the methods applied when deriving quality checking information.
+2005_claruslow_PURE,The CAS shall record the quality checking methods used.
+2005_claruslow_PURE,The Clarus system shall be able to implement quality checking rules for each environmental parameter.
+2005_claruslow_PURE,The CAS shall be able to configure the quality checking rules for each environmental parameter.
+2005_claruslow_PURE,The CAS shall enable administrators to manage quality checking rules.
+2005_claruslow_PURE,The Clarus system shall be able to implement quality checking rules for specific environmental situations.
+2005_claruslow_PURE,The CAS shall be able to configure quality checking rules for specific environmental situations.
+2005_claruslow_PURE,The Clarus system shall be able to implement quality checking rules specific to observation locations.
+2005_claruslow_PURE,The CAS shall be able to configure quality checking rules specific to observation locations.
+2005_claruslow_PURE,The Clarus system shall be able to base its quality checking process on historical environmental data.
+2005_claruslow_PURE,The CAS shall be able to configure historical environmental data to be used by quality checking processes.
+2005_claruslow_PURE,The Clarus system shall be able to use multiple algorithms for its quality checking process.
+2005_claruslow_PURE,The CAS shall be able to configure multiple algorithms to be used in the quality checking process.
+2005_claruslow_PURE,The Clarus system shall allow access to new surface transportation-related environmental data.
+2005_claruslow_PURE,The CAS shall be configurable to allow new observation types to be implemented as they become available.
+2005_claruslow_PURE,The Clarus system shall enable administrators to manage security groups.
+2005_claruslow_PURE,The CAS system shall enable administrators to manage security group members.
+2005_claruslow_PURE,The CAS shall have an administrator security group.
+2005_claruslow_PURE,The CAS shall have a quality manager security group.
+2005_claruslow_PURE,The Clarus system shall be able to restrict environmental data publication based on source.
+2005_claruslow_PURE,The CAS shall be able to record data sharing restrictions.
+2005_claruslow_PURE,The Clarus system shall record statistics about its operation.
+2005_claruslow_PURE,The CAS shall record statistics about the system operation.
+2005_claruslow_PURE,The Clarus system shall log data transactions.
+2005_claruslow_PURE,The CAS shall log data transactions.
+2005_claruslow_PURE,"The Clarus system shall acquire, process, and disseminate environmental metadata."
+2005_claruslow_PURE,The CAS shall manage contributor metadata.
+2005_claruslow_PURE,The CAS shall manage collector metadata.
+2005_claruslow_PURE,The CAS shall manage quality checking schedules.
+2005_claruslow_PURE,The CAS shall manage environmental data collection schedules.
+2005_claruslow_PURE,The CAS shall manage ESS metadata.
+2005_claruslow_PURE,The Clarus system shall manage environmental data and metadata according to the Clarus data sharing agreements.
+2005_claruslow_PURE,The CAS shall manage data sharing rules based on contributor data sharing agreements.
+2005_claruslow_PURE,"The Clarus system shall collect, quality check, and disseminate environmental data."
+2005_claruslow_PURE,The CAUI shall be able to initiate CS on demand.
+2005_claruslow_PURE,The Clarus system shall provide environmental data quality flags.
+2005_claruslow_PURE,The CAUI shall enable a quality manager to apply manual flags to a set of observations from an individual ESS.
+2005_claruslow_PURE,The CAUI shall enable a quality manager to apply manual flags to a set of observations.
+2005_claruslow_PURE,The CAUI shall enable a quality manager to apply manual flags to a set of observations over a fixed time range.
+2005_claruslow_PURE,The CAUI shall enable a quality manager to apply manual flags to a set of observations over a time range with an open ended future time.
+2005_claruslow_PURE,The Clarus system shall allow human quality checks of environmental data.
+2005_claruslow_PURE,The CAUI shall allow a quality manager to apply a manual quality flag to environmental data.
+2005_claruslow_PURE,The CAUI shall allow manual quality flags to be entered.
+2005_claruslow_PURE,The Clarus system shall be able to implement quality checking rules specific to each environmental parameter.
+2005_claruslow_PURE,The CAUI shall enable quality checking rules to be configured specific to each environmental parameter.
+2005_claruslow_PURE,The Clarus system shall enable administrators to manage security groups.
+2005_claruslow_PURE,The CAUI shall enable administrators to manage security group members.
+2005_claruslow_PURE,"The Clarus system shall acquire, process, and disseminate environmental metadata."
+2005_claruslow_PURE,The CAUI shall enable administrators to acquire environmental metadata.
+2005_claruslow_PURE,The CAUI shall enable administrators to manage environmental metadata.
+2005_claruslow_PURE,The Clarus system shall provide a user interface for administration.
+2005_claruslow_PURE,The CAUI shall enable administrators to manage contributor metadata.
+2005_claruslow_PURE,The CAUI shall enable administrators to manage collector metadata.
+2005_claruslow_PURE,The CAUI shall enable administrators to manage quality checking schedules.
+2005_claruslow_PURE,The CAUI shall enable administrators to manage environmental data collection schedules.
+2005_claruslow_PURE,The Clarus system shall manage environmental data and metadata according to the Clarus data sharing agreements.
+2005_claruslow_PURE,The CAUI shall enable administrators to manage contributor data sharing agreements.
+2005_claruslow_PURE,The CAUI shall enable administrators to assign system privileges.
+2005_claruslow_PURE,"The Clarus system shall collect, quality check, and disseminate environmental data."
+2005_claruslow_PURE,CS shall collect environmental data based on its configured schedule.
+2005_claruslow_PURE,CS shall be able to transform extracted environmental data into the internal storage format.
+2005_claruslow_PURE,CS shall be able to store transformed environmental data in the QEDC.
+2005_claruslow_PURE,CS shall be able to convert observation units into the Clarus standard unit specification.
+2005_claruslow_PURE,CS shall be able to be initiated on a schedule.
+2005_claruslow_PURE,CS shall be able to be initiated on demand.
+2005_claruslow_PURE,The Clarus system shall be able to detect data submission errors.
+2005_claruslow_PURE,CS shall log when a data submission error occurs.
+2005_claruslow_PURE,The Clarus system shall be able to access in-situ environmental observations from data collectors.
+2005_claruslow_PURE,CS shall be able to collect in-situ environmental observations from data collectors.
+2005_claruslow_PURE,The Clarus system shall be able to access remotely sensed environmental observations from data collectors.
+2005_claruslow_PURE,CS shall be able to retrieve remotely sensed environmental observations from data collectors.
+2005_claruslow_PURE,The Clarus system shall be able to receive roadway weather measurements derived from VII data.
+2005_claruslow_PURE,CS shall be able to retrieve roadway weather measurements derived from VII data.
+2005_claruslow_PURE,The Clarus system shall allow access to new surface transportation-related observed environmental data.
+2005_claruslow_PURE,CS shall be able to be implemented to collect new observation types as they become available.
+2005_claruslow_PURE,The Clarus system shall accept environmental data derived from images.
+2005_claruslow_PURE,CS shall accept surface condition data derived from surface images.
+2005_claruslow_PURE,CS shall accept atmospheric condition data derived from atmospheric images.
+2005_claruslow_PURE,The Clarus system shall be able to retrieve environmental data directly from environmental sensor station collectors.
+2005_claruslow_PURE,CS shall be able to retrieve environmental data directly from environmental sensor station collectors.
+2005_claruslow_PURE,The Clarus system shall minimize the time for data acquisition.
+2005_claruslow_PURE,CS shall be able to dynamically adjust its retrieval schedules when environmental data is expected to be ready but is temporarily delayed.
+2005_claruslow_PURE,The Clarus system shall process data as they are received.
+2005_claruslow_PURE,CS shall process environmental data as they are received.
+2005_claruslow_PURE,The Clarus system shall collect pavement-related observations.
+2005_claruslow_PURE,CS shall be able to collect pavement-related observations.
+2005_claruslow_PURE,The Clarus system shall accept environmental data from railway systems or in-situ ESS along tracks.
+2005_claruslow_PURE,CS shall be able to collect environmental data from railway systems from railway collectors.
+2005_claruslow_PURE,CS shall be able to collect environmental data from in-situ ESS along tracks from railway collectors.
+2005_claruslow_PURE,The Clarus system shall accept environmental data from railroad vehicles.
+2005_claruslow_PURE,CS shall accept environmental data derived from railroad vehicle data.
+2005_claruslow_PURE,The Clarus system shall accept environmental data from (roadway) vehicles.
+2005_claruslow_PURE,CS shall accept environmental data collected from (roadway) vehicles.
+2005_claruslow_PURE,The Clarus system shall accept environmental data from maintenance and construction vehicles.
+2005_claruslow_PURE,CS shall accept environmental data collected from maintenance and construction vehicles.
+2005_claruslow_PURE,The Clarus system shall accept environmental data from service patrol vehicles.
+2005_claruslow_PURE,CS shall accept environmental data collected from service patrol vehicles.
+2005_claruslow_PURE,The Clarus system shall accept environmental data from transit vehicles.
+2005_claruslow_PURE,CS shall accept environmental data collected from transit vehicles.
+2005_claruslow_PURE,The Clarus system shall accept environmental data from emergency vehicles.
+2005_claruslow_PURE,CS shall accept environmental data collected from emergency vehicles.
+2005_claruslow_PURE,The Clarus system shall be able to receive weather data from weather service providers.
+2005_claruslow_PURE,CS shall be able to receive weather data from weather service providers.
+2005_claruslow_PURE,The Clarus system shall log data transactions.
+2005_claruslow_PURE,CS shall create a log entry when a data set is invalid.
+2005_claruslow_PURE,The Clarus system baseline data types shall be defined by the NTCIP ESS 1204 standard.
+2005_claruslow_PURE,CS shall accept data types defined by NTCIP 1204.
+2005_claruslow_PURE,"The Clarus system data definitions shall be consistent with the ITE TM 1.03 standard, Functional Level Traffic Management Data Dictionary (TMDD)."
+2005_claruslow_PURE,CS shall accept environmental data described by definitions defined by the TMDD.
+2005_claruslow_PURE,CS shall accept environmental data described by definitions defined by CMML version 2.
+2005_claruslow_PURE,"The Clarus system shall acquire, process, and disseminate environmental data."
+2005_claruslow_PURE,"The Clarus system shall accept only observations that include location, timestamp, and source metadata."
+2005_claruslow_PURE,"CS shall accept only observations that include location, timestamp, and source metadata."
+2005_claruslow_PURE,The Clarus system shall accept only observations of identified measurement types and units.
+2005_claruslow_PURE,CS shall accept only observation of identified measurement types and units.
+2005_claruslow_PURE,"The Clarus system shall be able to acquire, process, and disseminate environmental data from across North America."
+2005_claruslow_PURE,CS shall be able to acquire environmental data from across North America.
+2005_claruslow_PURE,The Clarus system shall accept data through a Clarus standard interface.
+2005_claruslow_PURE,CS shall implement the Clarus standard interface.
+2005_claruslow_PURE,The Clarus system shall be able to communicate with environmental sensor stations through its collector using the NTCIP ESS 1204.
+2005_claruslow_PURE,CS shall be able to process NTCIP ESS 1204 data.
+2005_claruslow_PURE,The Clarus system shall be able to communicate with RWIS databases through their native interfaces.
+2005_claruslow_PURE,CS shall be able to accept data from an RWIS database in its native output format.
+2005_claruslow_PURE,The Clarus system shall be able to communicate with an individual ESS through its native interface.
+2005_claruslow_PURE,The Clarus system shall transfer data as efficiently as possible.
+2005_claruslow_PURE,CS shall transfer data concurrently.
+2005_claruslow_PURE,CS shall be able to request collector environmental data on demand.
+2005_claruslow_PURE,CS shall be able to accept environmental data pushed from collectors.
+2005_claruslow_PURE,The Clarus system shall employ industry standards to minimize implementation impact to users and providers.
+2005_claruslow_PURE,CS shall be able to extract environmental data from an XML message that conforms to the Clarus standard XML message specification.
+2005_claruslow_PURE,CS shall be able to extract environmental data from comma separated value messages.
+2005_claruslow_PURE,CS that process comma separated value ASCII text shall be able to dynamically parse environmental data that includes a descriptive header row conforming to the Clarus collector standard message specification.
+2005_claruslow_PURE,CS that process comma separated value ASCII text shall be able to dynamically parse environmental data described by a stored collector configuration.
+2005_claruslow_PURE,CS shall be able to extract environmental data from CMML version 2 messages.
+2005_claruslow_PURE,CS shall be able to extract environmental data from netCDF version 3.6 messages.
+2005_claruslow_PURE,The Clarus system shall allow access to new surface transportation related observed environmental data.
+2005_claruslow_PURE,The DOG shall be able to monitor new environmental data services as they are added.
+2005_claruslow_PURE,The Clarus system shall log data transactions.
+2005_claruslow_PURE,The DOG shall be able to record its activities.
+2005_claruslow_PURE,The Clarus system shall be able to automatically recover from an unexpected shutdown.
+2005_claruslow_PURE,The watchdog service shall monitor the overall Clarus system state.
+2005_claruslow_PURE,The watchdog service shall be able to restart unresponsive Clarus system services.
+2005_claruslow_PURE,The Clarus system shall allow access to new surface transportation related observed environmental data.
+2005_claruslow_PURE,The EMC shall be configurable to allow new observation types to be implemented as they become available.
+2005_claruslow_PURE,"The Clarus system shall acquire, process, and disseminate environmental metadata."
+2005_claruslow_PURE,The EMC shall be able to process environmental metadata.
+2005_claruslow_PURE,"The EMC shall be able to uniquely identify each contributor, collector, and station sensor."
+2005_claruslow_PURE,"The EMC shall be able to maintain contact info for each contributor, collector, and station sensor."
+2005_claruslow_PURE,"The EMC shall be able to maintain backup contact info for each contributor, collector, and station sensor."
+2005_claruslow_PURE,"The EMC shall be able to maintain owner names for each contributor, collector, and station sensor."
+2005_claruslow_PURE,The EMC shall be able to maintain an equipment list for each station.
+2005_claruslow_PURE,The EMC shall be able to maintain pavement types for stations with corresponding instrumentation.
+2005_claruslow_PURE,"The EMC shall be able to maintain latitude, longitude, and elevation for stations."
+2005_claruslow_PURE,The EMC shall be able to maintain a reference to additional metadata.
+2005_claruslow_PURE,The Clarus system shall employ industry standards to minimize implementation impact to users and providers.
+2005_claruslow_PURE,The EMC shall store collector metadata that consists of information based on TMDD & MS/ETMCC.
+2005_claruslow_PURE,The Clarus system shall disseminate environmental metadata in response to polling.
+2005_claruslow_PURE,EMS shall disseminate metadata in response to polling.
+2005_claruslow_PURE,The Clarus system shall disseminate data using standard Internet protocols.
+2005_claruslow_PURE,EMS shall disseminate metadata using standard Internet protocols.
+2005_claruslow_PURE,The Clarus system shall allow access to new surface transportation related observed environmental data.
+2005_claruslow_PURE,The Clarus system shall allow new EMS to be implemented that disseminate new observation types to be implemented as they become available.
+2005_claruslow_PURE,The Clarus system shall be able to provide sensor equipment metadata in response to a request.
+2005_claruslow_PURE,EMS shall be able to provide sensor equipment metadata in response to a request.
+2005_claruslow_PURE,The Clarus system shall minimize the time for data dissemination.
+2005_claruslow_PURE,EMS shall respond to queries for metadata within five minutes.
+2005_claruslow_PURE,The Clarus system shall log data transactions.
+2005_claruslow_PURE,EMS shall log metadata transactions.
+2005_claruslow_PURE,"The Clarus system shall acquire, process, and disseminate environmental metadata."
+2005_claruslow_PURE,The EMS shall accept source queries that consist of a list of Clarus contributors.
+2005_claruslow_PURE,The EMS shall accept source queries that consist of a list of Clarus contributors including station identifier.
+2005_claruslow_PURE,The EMS shall accept location queries based on a bounding latitude/longitude coordinate pair.
+2005_claruslow_PURE,The EMS shall accept location queries based on latitude/longitude location and radius.
+2005_claruslow_PURE,The Clarus system shall transfer data as efficiently as possible.
+2005_claruslow_PURE,EMS shall transfer data concurrently.
+2005_claruslow_PURE,The Clarus system shall employ industry standards to minimize implementation impact to users and providers.
+2005_claruslow_PURE,EMS shall be able to distribute metadata in a comma separated value ASCII format.
+2005_claruslow_PURE,The Clarus system shall respond to queries for environmental metadata from the available metadata.
+2005_claruslow_PURE,EMS responses shall include metadata that meets the requested metadata query filtering specifications.
+2005_claruslow_PURE,EMS shall respond to queries returning no results with a message stating that no results matching that query are available.
+2005_claruslow_PURE,The Clarus system shall respond to a request for information within five minutes.
+2005_claruslow_PURE,The EMS shall respond to a request for metadata within five minutes.
+2005_claruslow_PURE,The Clarus system shall provide environmental data quality flags.
+2005_claruslow_PURE,The QEDC shall keep the results of each quality test for each observation for the life of the observation.
+2005_claruslow_PURE,The Clarus system shall allow access to new surface transportation related observed environmental data.
+2005_claruslow_PURE,The QEDC shall be configurable to allow new observation types to be implemented as they become available.
+2005_claruslow_PURE,The Clarus system shall maintain a dynamic library of data for at least seven days.
+2005_claruslow_PURE,The QEDC shall maintain observations and their associated quality flags for seven days.
+2005_claruslow_PURE,The Clarus system baseline data types shall be defined by the NTCIP ESS 1204 standard.
+2005_claruslow_PURE,The QEDC observation types shall be defined by NTCIP ESS 1204.
+2005_claruslow_PURE,The Clarus system shall allow service providers to select specific desired data sets.
+2005_claruslow_PURE,The QEDC shall support queries for its observations.
+2005_claruslow_PURE,The Clarus system shall respond to queries for environmental data from the available data.
+2005_claruslow_PURE,The QEDC shall support queries against all of its available observation datasets.
+2005_claruslow_PURE,The Clarus system shall support 470 million current observations.
+2005_claruslow_PURE,The QEDC combined from all available Clarus hosts shall support 470 million current observations.
+2005_claruslow_PURE,The Clarus system shall disseminate data in response to a scheduled request.
+2005_claruslow_PURE,QEDS shall disseminate data in response to a scheduled environmental data request.
+2005_claruslow_PURE,The Clarus system shall disseminate environmental data in response to polling.
+2005_claruslow_PURE,QEDS shall disseminate data in response to an immediate environmental data request.
+2005_claruslow_PURE,The Clarus system shall disseminate data in response to a change notification request.
+2005_claruslow_PURE,QEDS shall disseminate data in response to a change notification request.
+2005_claruslow_PURE,The Clarus system shall be able to notify subscribers when data sets become available.
+2005_claruslow_PURE,QEDS shall disseminate environmental data to subscribers when datasets fulfilling a subscription query become available.
+2005_claruslow_PURE,QEDS shall be able to disseminate environmental data to contributor subscribers when datasets fulfilling a subscription query applying threshold filters become available.
+2005_claruslow_PURE,The Clarus system shall disseminate data using standard Internet protocols.
+2005_claruslow_PURE,QEDS system shall disseminate environmental data using standard Internet protocols.
+2005_claruslow_PURE,"The Clarus system shall collect, quality check, and disseminate environmental data."
+2005_claruslow_PURE,QEDS shall disseminate environmental data.
+2005_claruslow_PURE,QEDS shall be able to disseminate environmental data in English units.
+2005_claruslow_PURE,The Clarus system shall provide notification of data quality conditions to data contributors.
+2005_claruslow_PURE,The observation quality flags shall be used to determine data quality condition notifications.
+2005_claruslow_PURE,QEDS shall provide quality checking statistics to data contributors.
+2005_claruslow_PURE,The Clarus system shall enable quality managers to review which quality checks passed or failed.
+2005_claruslow_PURE,QEDS shall enable quality managers to review which quality checks passed or failed.
+2005_claruslow_PURE,The Clarus system shall allow access to new surface transportation related observed environmental data.
+2005_claruslow_PURE,QEDS shall be able to disseminate new observation types as they become available.
+2005_claruslow_PURE,"The Clarus system shall disseminate NWS watches, warnings, and advisories."
+2005_claruslow_PURE,"QEDS shall be able to disseminate NWS watches, warnings, and advisories."
+2005_claruslow_PURE,The Clarus system shall minimize the time for data dissemination.
+2005_claruslow_PURE,QEDS shall respond to environmental data queries within one minute.
+2005_claruslow_PURE,The Clarus system shall be able to disseminate data based on spatial queries.
+2005_claruslow_PURE,QEDS shall be able to disseminate data based on spatial queries.
+2005_claruslow_PURE,The Clarus system shall be able to restrict environmental data publication based on source.
+2005_claruslow_PURE,QEDS shall be able to determine if an observation can be disseminated.
+2005_claruslow_PURE,The Clarus system shall log data transactions.
+2005_claruslow_PURE,QEDS shall log their activities.
+2005_claruslow_PURE,The Clarus system baseline data types shall be defined by the NTCIP ESS 1204 standard.
+2005_claruslow_PURE,QEDS shall disseminate environmental data types defined by NTCIP 1204.
+2005_claruslow_PURE,"The Clarus system data definitions shall be consistent with the ITE TM 1.03 standard, Functional Level Traffic Management Data Dictionary (TMDD)."
+2005_claruslow_PURE,QEDS shall disseminate data with descriptions that conform to the TMDD.
+2005_claruslow_PURE,"The Clarus system shall acquire, process, and disseminate environmental data."
+2005_claruslow_PURE,"The Clarus system shall be able to acquire, process, and disseminate environmental data from across North America."
+2005_claruslow_PURE,QEDS shall be able to disseminate environmental data collected from across North America.
+2005_claruslow_PURE,The Clarus system shall transfer data as efficiently as possible.
+2005_claruslow_PURE,QEDS shall transfer data concurrently.
+2005_claruslow_PURE,The Clarus system shall employ industry standards to minimize implementation impact to users and providers.
+2005_claruslow_PURE,QEDS shall be able to disseminate environmental data in netCDF version 3.6 format.
+2005_claruslow_PURE,QEDS shall be able to disseminate environmental data in HDF version 5 format.
+2005_claruslow_PURE,QEDS shall be able to disseminate environmental data in CMML version 2 format.
+2005_claruslow_PURE,QEDS shall be able to disseminate environmental data in comma separated value ASCII format.
+2005_claruslow_PURE,The Clarus system shall allow service providers to select specific desired datasets.
+2005_claruslow_PURE,QEDS shall respond to environmental data queries selecting specific desired datasets.
+2005_claruslow_PURE,The Clarus system shall respond to queries for environmental data from the available data.
+2005_claruslow_PURE,QEDS shall enable users to request environmental data from among the available output formats.
+2005_claruslow_PURE,QEDS shall respond to queries returning no results with a message stating that no results matching that query are available.
+2005_claruslow_PURE,The Clarus system shall enable environmental data queries by timestamp.
+2005_claruslow_PURE,QEDS shall accept timestamp queries based on a single timestamp range.
+2005_claruslow_PURE,The Clarus system shall enable environmental data queries by location reference.
+2005_claruslow_PURE,QEDS shall accept location queries based on a bounding latitude/longitude coordinate pair.
+2005_claruslow_PURE,QEDS shall accept location queries based on a latitude/longitude location and radius.
+2005_claruslow_PURE,The Clarus system shall enable environmental data queries by quality.
+2005_claruslow_PURE,QEDS shall accept quality flag queries based on a range of quality flag values.
+2005_claruslow_PURE,The Clarus system shall enable environmental data queries by source.
+2005_claruslow_PURE,QEDS shall accept source queries that consist of a list of Clarus contributors.
+2005_claruslow_PURE,QEDS shall accept source queries that are a list of Clarus contributors combined with a station identifier.
+2005_claruslow_PURE,The Clarus system shall allow users to create a data subscription request.
+2005_claruslow_PURE,QEDS shall be able to accept a subscription request.
+2005_claruslow_PURE,QEDS shall accept data subscriptions that include an environmental data request and the publishing trigger.
+2005_claruslow_PURE,QEDS shall be able to accept subscription requests with triggers based on a schedule.
+2005_claruslow_PURE,QEDS shall be able to accept subscription requests with triggers based on quality flag state changes.
+2005_claruslow_PURE,QEDS shall disseminate subscription responses to the originating request address by default.
+2005_claruslow_PURE,QEDS shall disseminate subscription responses to a specified return address.
+2005_claruslow_PURE,QEDS shall uniquely identify environmental data subscriptions.
+2005_claruslow_PURE,QEDS shall automatically delete a subscription when the triggering event will not occur again and no more responses are possible.
+2005_claruslow_PURE,The Clarus system shall be able to publish new data within twenty minutes of data receipt.
+2005_claruslow_PURE,QEDS shall disseminate subscription responses within twenty minutes of new data becoming available.
+2005_claruslow_PURE,The Clarus system shall respond to a request for information within one minute.
+2005_claruslow_PURE,QEDS shall respond to an environmental data request within one minute.
+2005_claruslow_PURE,The Clarus system shall be able to handle three hundred simultaneous requests for environmental data.
+2005_claruslow_PURE,QEDS shall be able to respond to three hundred simultaneous queries.
+2005_claruslow_PURE,"The Clarus system shall collect, quality check, and disseminate environmental data."
+2005_claruslow_PURE,The QChS shall quality check environmental data.
+2005_claruslow_PURE,The Clarus system shall implement quality checking processes as soon as data become available.
+2005_claruslow_PURE,QChS shall be able to be configured individually.
+2005_claruslow_PURE,QChS processing order shall be able to be configured.
+2005_claruslow_PURE,QChS processing shall commence when new data arrives but no less frequently than the scheduled interval.
+2005_claruslow_PURE,The Clarus system shall provide environmental data quality flags.
+2005_claruslow_PURE,Each QChS shall produce a unique quality flag value.
+2005_claruslow_PURE,The QChS shall be able to indicate a numeric confidence value.
+2005_claruslow_PURE,The Clarus system shall provide notification of data quality conditions to data contributors.
+2005_claruslow_PURE,A QChS shall evaluate data quality conditions.
+2005_claruslow_PURE,The Clarus system shall detect out of range values.
+2005_claruslow_PURE,QChS algorithms shall use sensor range metadata for range checking bounds.
+2005_claruslow_PURE,QChS algorithms shall use climate records for range checking bounds.
+2005_claruslow_PURE,QChS algorithms shall be able to use monthly climate extremes for range checking bounds.
+2005_claruslow_PURE,The Clarus system shall not modify original observations.
+2005_claruslow_PURE,"QChS shall apply separate, independent quality flags that do not modify the observation."
+2005_claruslow_PURE,The Clarus system shall allow human quality checks of observations.
+2005_claruslow_PURE,QChS shall implement a manual override to set quality flags.
+2005_claruslow_PURE,The Clarus system shall record the methods applied when deriving quality checking information.
+2005_claruslow_PURE,QChS shall indicate when a quality check has been performed.
+2005_claruslow_PURE,The Clarus system shall be able to implement quality checking rules for each environmental parameter.
+2005_claruslow_PURE,QChS shall be able to implement quality checking rules for a specific environmental parameter.
+2005_claruslow_PURE,The Clarus system shall be able to implement quality checking rules for specific environmental situations.
+2005_claruslow_PURE,QChS shall be able to implement quality checking rules for specific environmental situations.
+2005_claruslow_PURE,The Clarus system shall be able to implement quality checking spatial tests using available data.
+2005_claruslow_PURE,QChS shall be able to implement quality checking spatial tests using available data.
+2005_claruslow_PURE,The Clarus system shall be able to implement quality checking rules specific to observation locations.
+2005_claruslow_PURE,QChS shall be able to implement different quality checking rules specific to regional weather.
+2005_claruslow_PURE,The Clarus system shall be able to base its quality checking process on values from multiple observations.
+2005_claruslow_PURE,QChS shall be able to flag observations based on more than one observation type.
+2005_claruslow_PURE,The Clarus system shall be able to base its quality checking process on values distributed in time.
+2005_claruslow_PURE,QChS shall be able to base its quality checking process on values distributed in time.
+2005_claruslow_PURE,The Clarus system shall be able to base its quality checking process on historical environmental data.
+2005_claruslow_PURE,QChS shall be able to use historical environmental data in their quality checking algorithms.
+2005_claruslow_PURE,The Clarus system shall be able to use multiple algorithms for its quality checking process.
+2005_claruslow_PURE,QChS shall be implemented for each defined standard quality checking algorithm.
+2005_claruslow_PURE,The Clarus system shall allow access to new surface transportation related observed environmental data.
+2005_claruslow_PURE,QChS shall be implemented to quality check new observation types as they become available.
+2005_claruslow_PURE,The Clarus system shall process data as they are received.
+2005_claruslow_PURE,QChS shall apply quality flags to data as they are received.
+2005_claruslow_PURE,The Clarus system shall log data transactions.
+2005_claruslow_PURE,QChS shall log quality checking activity.
+2005_claruslow_PURE,"The Clarus system shall acquire, process, and disseminate environmental data."
+2005_claruslow_PURE,"The Clarus system shall be able to acquire, process, and disseminate environmental data from across North America."
+2005_claruslow_PURE,QChS shall process environmental data from across North America.
+2005_claruslow_PURE,The Clarus system shall be able to complete an automated quality checking check of environmental data within ten seconds of data receipt.
+2005_claruslow_PURE,A QChS shall be able to complete an automated quality check within ten seconds of when data is available for checking.
+2005_claruslow_PURE,The Clarus system shall be able to publish new data within twenty minutes of data receipt.
+2005_claruslow_PURE,All QChS shall be completed within twenty minutes of data being available for checking.
+2005_claruslow_PURE,The Clarus system shall disseminate data in response to a scheduled request.
+2005_claruslow_PURE,The SS shall be able to initiate a QEDS response.
+2005_claruslow_PURE,The Clarus system shall implement quality checking processes as soon as data become available.
+2005_claruslow_PURE,The SS shall be able to initiate QChS.
+2005_claruslow_PURE,The Clarus system shall log data transactions.
+2005_claruslow_PURE,The SS shall record when it initiates actions.
+2005_claruslow_PURE,The Clarus system shall transfer data as efficiently as possible.
+2005_claruslow_PURE,The SS shall be able to store event schedules.
+2005_claruslow_PURE,The SS shall be able to initiate CS.
+2005_claruslow_PURE,The Clarus system shall be able to be hosted at one or more physical locations.
+2005_claruslow_PURE,The Clarus system shall track its constituent hosts.
+2005_claruslow_PURE,The Clarus system shall allocate each collector to a specific host.
+2005_claruslow_PURE,The Clarus system shall allocate each contributor to a specific host.
+2005_claruslow_PURE,Clarus hosts shall be able to aggregate environmental data from other Clarus hosts.
+2005_claruslow_PURE,Clarus hosts shall be able to distribute queries to other Clarus hosts.
+2005_claruslow_PURE,The Clarus system shall use hardware that implements industry accepted standard interfaces.
+2005_claruslow_PURE,The Clarus system shall use software that implements industry accepted standard interfaces.
+2005_claruslow_PURE,The Clarus system shall be able to operate on redundant hardware.
+2005_claruslow_PURE,All HTML coding shall meet FHWA requirements for web sites.
+2005_claruslow_PURE,The Clarus system shall support modular components.
+2005_claruslow_PURE,"The Clarus system shall be able to use latitude, longitude, and elevation coordinates to specify location to the nearest three feet."
+2005_claruslow_PURE,The Clarus system shall use Coordinated Universal Time (UTC) for all timestamps.
+2005_claruslow_PURE,The Clarus program shall alert users to system modifications.
+2005_claruslow_PURE,The Clarus system shall be able to publish environmental data at three times the volume rate that it collects it.
+2005_claruslow_PURE,The Clarus system shall be able to support six hundred concurrent users.
+2005_claruslow_PURE,The Clarus system shall be able to support six thousand registered users.
+2005_claruslow_PURE,The Clarus system shall be able to mitigate communication denial-of- service attacks.
+2005_claruslow_PURE,The Clarus system shall be able to respond to 95% of all requests for environmental data 95% of the time.
+2005_claruslow_PURE,The Clarus program shall establish data sharing agreements with all participating sources of environmental data.
+2005_claruslow_PURE,The Clarus program shall identify categories of recipients for dissemination of data.
+2005_claruslow_PURE,"The Clarus program shall determine the need for bilateral Clarus Data Sharing Agreements with countries, agencies, states, and regions."
+2005_claruslow_PURE,The authorized representative(s) of the contributors shall be identified.
+2005_claruslow_PURE,The contributors shall identify and define the types of data and information that will be included in the Clarus Data Sharing Agreement.
+2005_claruslow_PURE,The contributors shall identify the intended use of their shared data and information.
+2005_claruslow_PURE,The contributors shall identify the categories of recipients of their shared data and information.
+2005_claruslow_PURE,The contributors shall define the units of measurements of their shared data and information.
+2005_claruslow_PURE,The Clarus program shall determine how it will provide data and information to contributors.
+2005_claruslow_PURE,The Clarus program shall provide data and information statistics on its operation to contributors.
+2005_claruslow_PURE,The contributors shall inform the Clarus program of changes in authorized personnel/offices.
+2005_claruslow_PURE,"The Clarus program shall inform contributors of the ""acceptance and use"" of their data and information."
+2005_claruslow_PURE,The Clarus Initiative Management Team shall undertake joint communications activities and products that will enhance public understanding and dissemination of contributions of the Clarus program.
+2005_claruslow_PURE,The Clarus Initiative Management Team shall agree upon the activities and products that will enhance public understanding/ communication of the contribution of the Clarus program.
+2005_claruslow_PURE,The contributors shall inform the Clarus program of known error(s) and modifications in its data and information.
+2005_claruslow_PURE,The Clarus program shall determine its redistribution of shared data from contributors based upon Clarus Data Sharing Agreements.
+2005_claruslow_PURE,The Clarus program shall report successes and failures in data and information transmission to its contributors.
+2005_claruslow_PURE,The contributors shall report periods of data and information outages to the Clarus program.
+2005_claruslow_PURE,The Clarus program shall maintain information about requestors and their access to data and information.
+2005_claruslow_PURE,The Clarus Initiative Management Team shall review and amend data and information sharing and use policies.
+2005_claruslow_PURE,The Clarus Initiative Management Team shall specify the general frequency of policy meetings.
+2005_claruslow_PURE,The Clarus Initiative Coordinating Committee shall nominate technical expert(s) to participate on technical working groups.
+2005_claruslow_PURE,The requestors shall adhere to the intellectual property requirements of the Clarus User Agreement.
+2005_claruslow_PURE,The contributors shall adhere to the intellectual property requirements of the Clarus Data Sharing Agreement.
+2005_claruslow_PURE,The contributors shall have the right to use the Clarus system data and information for purposes delineated within the Clarus Data Sharing Agreement.
+2005_claruslow_PURE,The requestors shall have the right to use the Clarus system data and information for purposes delineated within the Clarus User Agreement.
+2005_claruslow_PURE,The Clarus program shall have the right to reject the use of data and information provided by the contributors when deemed appropriate.
+2005_claruslow_PURE,"The Clarus program shall inform contributors of the policies, processes and procedures employed to reject data and information provided by the contributors."
+2005_claruslow_PURE,"The contributors shall provide the Clarus program with a timely notice of their intent to change, alter, replace, or eliminate any shared data and information as specified within this Clarus Data Sharing Agreement."
+2005_claruslow_PURE,"Any reference in the Clarus Data Sharing Agreement to statutes, regulations and rules shall be a reference to the amended, substituted, replaced or re-enacted statute, regulations and rules."
+2005_claruslow_PURE,The Clarus program shall provide to contributors the limitation of liability for contributing environmental data and metadata.
+2005_claruslow_PURE,The Clarus program shall provide to requesters the limitation of liability for using environmental data and metadata.
+2005_claruslow_PURE,The Clarus program shall maintain continuous 24x7 operations.
+2005_claruslow_PURE,The Clarus program shall provide an environment that has uninterruptible power for the Clarus system.
+2005_claruslow_PURE,The Clarus program shall provide an environment that has redundant communication for the Clarus system.
+2005_claruslow_PURE,The Clarus program shall provide network management tools.
+2005_claruslow_PURE,The Clarus program shall provide setup support.
+2005_claruslow_PURE,The Clarus program shall provide for customer service.
+2005_claruslow_PURE,The Clarus program shall provide a trained support staff.
+2005_claruslow_PURE,The Clarus program shall define quality checking rules for environmental observations.
+2005_claruslow_PURE,The Clarus program shall define data retention standards.
+2005_claruslow_PURE,The Clarus program shall provide documentation of Clarus standards.
+2005_claruslow_PURE,The Clarus program standards shall accommodate contributions of new sensor technologies to the Clarus system.
+2005_claruslow_PURE,The Clarus program standards shall support multiple methods of data delivery to users.
+2005_claruslow_PURE,The Clarus program shall maintain a comprehensive Clarus system test environment.
+2005_claruslow_PURE,The Clarus program shall test all software changes in the designated test environment before deployment to production.
+2005_claruslow_PURE,The Clarus program shall test all hardware changes in the designated test environment before deployment to production.
+2005_claruslow_PURE,The Clarus program shall operate the Clarus system according to its published IT Security Plan.
+2005_claruslow_PURE,"The Clarus program shall operate according to Government IT security requirements as outlined in OMB Circular A-130, Management of Federal Information Resources, Appendix III, Security of Federal Automated Information Resources."
+2005_claruslow_PURE,"The Clarus program shall operate according to Government IT security requirements as outlined in the National Institute of Standards and Technology (NIST) Guidelines, Departmental Information Resource Management Manual, and associated guidelines."
+2005_claruslow_PURE,"The Clarus program shall operate according to Government IT security requirements as outlined in U.S. DOT Order 1630.2B, Personnel Security Management."
+2005_claruslow_PURE,Weather service providers shall be able to use Clarus data to provide localized special weather products.
+2005_claruslow_PURE,Public agency maintenance and construction personnel shall be able to use the Clarus system to obtain environmental conditions.
+2005_claruslow_PURE,Rail system personnel shall be able to use the Clarus system to obtain environmental conditions.
+2005_claruslow_PURE,Traffic management personnel shall be able to use the Clarus system to obtain environmental conditions.
+2005_claruslow_PURE,Transit personnel shall be able to use the Clarus system to obtain environmental conditions.
+2005_claruslow_PURE,The freight community shall be able to use the Clarus system to obtain environmental conditions.
+2005_claruslow_PURE,Emergency management and public safety personnel shall be able to use the Clarus system to obtain environmental conditions.
+2005_claruslow_PURE,The Clarus program shall maintain information about data providers.
+2005_claruslow_PURE,The Clarus program shall maintain metadata about each data provider's network.
+2005_claruslow_PURE,The Clarus program shall maintain information about data provider redistribution restrictions.
+2005_claruslow_PURE,The Clarus program shall maintain information about service providers.
+2005_claruslow_PURE,The Clarus program shall maintain information about service provider communications.
+2005_claruslow_PURE,The Clarus program shall maintain information about service provider access to data.
+2005_claruslow_PURE,The Clarus program shall allow potential weather element data providers to request permission to submit weather information.
+2005_claruslow_PURE,The Clarus system shall accept data only from sources which data sharing agreements have been established.

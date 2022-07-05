@@ -1,0 +1,70 @@
+source,reqs
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to generate The format of the product will follow the guidelines of the CCI Data Standards v2.0 (and the upcoming v2.1 when finalised). The delivery formats are the two data format encodings commonly used in the Climate Change modelling community (NetCDF) and Land Cover community (GeoTIFF). The standard includes both indication on the data content specifically for NetCDF encoding and indications on naming and on metadata.
+2020_hrlcs_srd_WEB,The PLATFORM shall allow to hosts metadata information as INSPIRE compliant metadata records to be provided to the Data Portal team to be included in the portal services.
+2020_hrlcs_srd_WEB,"The PLATFORM shall at least support the projection of the products according to Unit: degree (supplier to define representation), Geodetic CRS: WGS 84, Datum: World Geodetic System 1984, Ellipsoid: WGS 84, Prime meridian: Greenwich, Data source: OGP, Information source: EPSG. See 3D CRS for original information source., Revision date: 2007-08-27, Scope: Horizontal component of 3D system. Used by the GPS satellite navigation system and for NATO military geodetic surveying., Area of use: World., Coordinate system: Ellipsoidal 2D CS. Axes: latitude, longitude. Orientations: north, east. UoM: degree."
+2020_hrlcs_srd_WEB,The PLATFORM shall support transformation and conversion tools to allow the above mentioned specification and in general shall support future changes with flexibility in the transformation and conversion of geodata.
+2020_hrlcs_srd_WEB,The PLATFORM shall support the Encoding formats specified in 3.1.3 and 3.2.3 and follow the CCI Data Standards v2.0 in which the structure of the data is specified in terms of variables (bulk data) and attributes (ancillary data).
+2020_hrlcs_srd_WEB,"The PLATFORM shall provide access to multi-source free and open satellite/aerial EO data including, as a minimum, the following multispectral datasets from the suggested sources/endpoints. It is recommended that access to the same resource form multiple endpoints is implemented in order to increase the overall system redundancy."
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to ingest data from WorldView-1/-2/-3.
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to ingest data from Pleiades.
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to ingest data from GeoEye-1.
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to ingest data from IKONOS.
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to ingest data from SPOT (1 to 4).
+2020_hrlcs_srd_WEB,The PLATFORM shall be able publish validation data in the distribution system.
+2020_hrlcs_srd_WEB,The PLATFORM shall make available on-request the Sentinel 1 orbits files for any scene/product The PLATFORM shall make available on-request the SRTM DEM 4.1
+2020_hrlcs_srd_WEB,The PLATFORM shall make available on-request the Open Street Map data
+2020_hrlcs_srd_WEB,"The PLATFORM shall make available in the repository additional ancillary data sources, as they are required. The addition of a new ancillary data shall require the execution of a procedure or an automated script by the PLATFORM administrator."
+2020_hrlcs_srd_WEB,"The PLATFORM shall provide access to the metadata of the whole datasets described in paragraph 4.1 (HRLC output products), paragraph 4.2 (input satellite data and validation data) and paragraph 4.3 (ancillary data)."
+2020_hrlcs_srd_WEB,The PLATFORM shall provide capabilities to handle and store metadata on the datasets.
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to provide metadata for processing chains and processors.
+2020_hrlcs_srd_WEB,The PLATFORM shall allow Users to create processing nodes as task. REQ-18 - The PLATFORM shall allow Users to execute the created task.
+2020_hrlcs_srd_WEB,The PLATFORM shall allow to configure new pre-processing chains as Dockerfiles
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to create Docker images. This allows the integration of algorithms (also already existing) and tools without the need to re-develop them in a common programming languages.
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to instantiate Docker container with optimized resource
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to optimize the IaaS resource consumption for the different processors. This will be done by selecting the best instance for the specific processors (or by configuring the Docker) able to use the resources at the higher level (high percentage of consumption of CPU and Memory during the processing). The information will be provided the Science Team and registered in the processors metadata.
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to tune the IaaS resource configuration for each processor.
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to launch predefined commands with parameters specified with an API interface in the Docker container
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to collect outputs and logs from the Docker container instance REQ-26 - The PLATFORM shall be able to manage failures in the processing and notify the user
+2020_hrlcs_srd_WEB,The PLATFORM shall provide a full automated DevOps process to manage the update of the processors and management of the versions of the processors (together with an integrated GIT repository).
+2020_hrlcs_srd_WEB,"The PLATFORM shall allow Users to exploit SAR data pre-processing pipelines based pre-processing chains developed by the Scientific Team and Engineering Team. The SAR Data pre-processing pipeline shall be composed at least by the following steps (after data ingestion): Classes morphological erosion, Training set extraction, Despeckling filter (Lee), Multi-temporal despeckling filter."
+2020_hrlcs_srd_WEB,"The PLATFORM SAR data pre-processing shall exploit tools such as: Open SW (e.g. Sentinel toolbox), Other solutions developed/integrated by the Scientific Team and Engineering Team."
+2020_hrlcs_srd_WEB,The PLATFORM SAR data-pre-processing shall be available either as an end-to-end workflow (with configurable options to select the preferred engine or the steps to be performed or to pass expert parameters to the pipeline) or as single building blocks for further chaining in custom models.
+2020_hrlcs_srd_WEB,"In either cases, the PLATFORM SAR pre-processing options will be configurable and will be implemented taking into account the level of parametrization of the used tools (e.g. Sentinel toolbox, other tools)."
+2020_hrlcs_srd_WEB,The PLATFORM SAR data pre-processing shall be able to access and use any auxiliary data needed for the pre-processing step execution.
+2020_hrlcs_srd_WEB,The PLATFORM SAR data pre-processing shall be able to process data described in this document (paragraph 4.2.2).
+2020_hrlcs_srd_WEB,The PLATFORM SAR data pre-processing pipeline shall allow to generate ARD ready for being ingested by the processing pipelines (HR Land Cover classification pipelines).
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to ingest Sentinel 2 L2A data as input to the processing chain as ESA already provides BOA data for outside Europe for 2019.
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to ingest Landsat 5/7/8 L2SP Surface Reflectance products that include also Cloud Mask calculated with USGS provided FMask algorithm.
+2020_hrlcs_srd_WEB,The PLATFORM shall provide capability to further chain above products in custom models. These building blocks shall also be usable in batch configurations to process large amounts of data in advance of the classification process.
+2020_hrlcs_srd_WEB,The PLATFORM shall allow Users to handle multi-mission EO data and ancillary data from the PLATFORM data & metadata through a single search interface based on geographic and non-geographic filters.
+2020_hrlcs_srd_WEB,"The PLATFORM User shall be able to refine the search results, group them by mission and to sort them based on available metadata (e.g. data, cloud coverage)."
+2020_hrlcs_srd_WEB,"The PLATFORM shall take as input (mainly from the data repository): Most common raster and vector formants (see GDAL/OGR supported formats for reference, including OGC web services), Data from satellite EO missions mentioned in this document."
+2020_hrlcs_srd_WEB,"The PLATFORM shall be able to read/import: Data from local file systems or from storage areas which are connected through the internet (e.g. FTP, SFTP), and Cloud storage (e.g. AWS s3 storage or Google Cloud equivalent)."
+2020_hrlcs_srd_WEB,"The PLATFORM shall be able to write output as: Data from local file systems or from storage areas which are connected through the internet (e.g. FTP, SFTP), and Cloud storage (e.g. AWS s3 storage or Google Cloud equivalent)."
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to manage long term archiving by the use of different layer of S3 storage (commonly referred as Cold storage which is less expensive to Hot storage which is more expensive).
+2020_hrlcs_srd_WEB,The PLATFORM will provide a local storage backup repository for the output products.
+2020_hrlcs_srd_WEB,The PLATFORM shall allow the Users to download the product from a SFTP service at minimum.
+2020_hrlcs_srd_WEB,"The PLATFORM shall allow the Users to search on the catalogue. In general, the metadata defined in paragraph 4.4 will be hosted in the catalogue."
+2020_hrlcs_srd_WEB,The PLATFORM shall allow Users to quickly display data products in a GIS like environment through OGC WMS services.
+2020_hrlcs_srd_WEB,The PLATFORM shall provide access through a Web interface to visualise data products through OGC WMS services.
+2020_hrlcs_srd_WEB,"The PLATFORM shall provide the following capabilities through the Web interface: Possibility to configure and save custom maps and mashups, Possibility to add small shapefiles through upload, Possibility to add external WMS to the map, Possibility to exploit the temporal dimension of data through a time bar."
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to interact with the CCI Climate Open Data portal.
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to manage up to hundreds of processing nodes for the pre-processing phase.
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to generate the required CCI HRLC products in a reasonable time with maximum elapsed of 1 month for each AOI.
+2020_hrlcs_srd_WEB,The PLATFORM shall be able to sustain the delivery of the products through the Web interface to up to 20 users.
+2020_hrlcs_srd_WEB,"The PLATFORM used to run the CCI HRLC product generation shall be able to monitor the IaaS resources consumed, with the possibility of setting alerts in case certain thresholds are overpassed."
+2020_hrlcs_srd_WEB,The PLATFORM used to run the CCI HRLC product generation shall be able to provide detailed reports about the resources consumed by each run in order to provide all the necessary elements for the analysis and forecast of money expenditure.
+2020_hrlcs_srd_WEB,"The PLATFORM used to run the CCI HRLC product generation shall be monitored in order to ensure that all the necessary services are properly running. In case of incidents or malfunctioning of internal pipeline or of the external services (Catalogue, Download services), an alert shall be raised to e-GEOS Administrators."
+2020_hrlcs_srd_WEB,"The development of the PLATFORM shall take into account the following standard: OGC 05-007r7, Web Processing Service, OGC Implementation standard, 2007-06-08"
+2020_hrlcs_srd_WEB,"The development of the PLATFORM shall take into account the following standard: OGC 07-063r1, Web Map Services – Profile for EO Products, Best practice, Version 0.3.3, 05/11/2009."
+2020_hrlcs_srd_WEB,"The development of the PLATFORM shall take into account the following standard: OGC 10-032r8, OGC OpenSearch Geo and Time Extensions, http://www.opengeospatial.org/standards/opensearchgeo"
+2020_hrlcs_srd_WEB,"The development of the PLATFORM shall take into account the following standard: OGC 10-140, OGC WCS 2.0 IS - Earth Observation Application Profile, version 1.0.0, 14/02/2014."
+2020_hrlcs_srd_WEB,"The development of the PLATFORM shall take into account the following standard: OGC 10-157r4, Earth Observation Metadata profile of Observations & Measurements, Version 1.1, 09/06/2016, http://docs.opengeospatial.org/is/10-157r4/10-157r4.html."
+2020_hrlcs_srd_WEB,"The development of the PLATFORM shall take into account the following standard: OGC 12-084r2, OGC OWS Context Atom Encoding Standard, https://portal.opengeospatial.org/files/?artifact_id=55183"
+2020_hrlcs_srd_WEB,"The development of the PLATFORM shall take into account the following standard: OGC 13-026r8, OGC OpenSearch Extension for Earth Observation Products, http://docs.opengeospatial.org/is/13-026r8/13-026r8.html."
+2020_hrlcs_srd_WEB,"The development of the PLATFORM shall take into account the following standard: OGC 13-043, Download Service for Earth Observation Products, Version 1.0, 31/01/2014."
+2020_hrlcs_srd_WEB,"The development of the PLATFORM shall take into account the following standard: OGC 14-055r2, OGC OWS Context GeoJSON Encoding, 30/05/2016, http://docs.opengeospatial.org/is/14-055r2/14-055r2.html"
+2020_hrlcs_srd_WEB,"The development of the PLATFORM shall take into account the following standard: OGC 14-065, Web Processing Service, Version 2.0.1, 25/03/2016."
+2020_hrlcs_srd_WEB,"The development of the PLATFORM shall take into account the following standard: OGC 17-003, OGC EO Dataset Metadata GeoJSON(-LD) Encoding Standard, Version 0.0.8, 06/09/2017."
+2020_hrlcs_srd_WEB,"The development of the PLATFORM shall take into account the following standard: OGC 17-047, OGC EO OpenSearch Response GeoJSON(-LD) Encoding Standard."
+2020_hrlcs_srd_WEB,The development of the PLATFORM shall take into account the following standard: OGC Network Common Data Form (NetCDF) Core Encoding Standard version 1.0

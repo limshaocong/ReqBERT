@@ -1,0 +1,52 @@
+source,reqs
+2021_wv_srd_WEB,"The WV_cci system shall control production according to the processing workflows for pre-processing, TCWV and VRWV retrieval."
+2021_wv_srd_WEB,The WV_cci system shall integrate the processors required for TCWV retrieval.
+2021_wv_srd_WEB,The WV_cci system shall integrate the processors required for VRWV retrieval.
+2021_wv_srd_WEB,The WV_cci system shall provide means to ensure the stability and quality of its outputs.
+2021_wv_srd_WEB,The WV_cci system shall provide means to do quality checks and manual inspection of intermediate results during processing.
+2021_wv_srd_WEB,The WV_cci system shall provide means to distribute the generated WV products to the user community and to the Open Data Portal.
+2021_wv_srd_WEB,The WV_cci system shall be designed in a way that allows its continuous evolution and improvement.
+2021_wv_srd_WEB,The WV_cci TCWV processing system shall provide a processor for conversion of MERIS and OLCI TOA radiance to TOA reflectance.
+2021_wv_srd_WEB,"The WV_cci TCWV processing system shall integrate the IdePIx processor for pixel classification of MERIS, MODIS and OLCI L1b products."
+2021_wv_srd_WEB,The WV_cci VRWV processing system shall provide a processor which combines VRWV profiles from all input data with the DMPs from reanalyses (CDR-4 only).
+2021_wv_srd_WEB,The WV_cci TCWV processing system shall provide a processor which generates a TCWV L2 product from the final pre- processed colocation product.
+2021_wv_srd_WEB,The WV_cci TCWV processing system shall provide a processor which generates a TCWV L3 daily aggregation product from the
+2021_wv_srd_WEB,The WV_cci TCWV processing system shall provide a processor to merge TCWV L3 products obtained from the different sensors.
+2021_wv_srd_WEB,The WV_cci VRWV processing system shall provide a processor which generates bias-corrected VRWV L3 products from the input VRWV L3 data (CDR-3) using a chemistry–climate model as transfer function. The WV_cci VRWV processing system shall provide a processor which generates a VRWV L3 monthly aggregation product from the VRWV L2 products (CDR-4).
+2021_wv_srd_WEB,The WV_cci VRWV processing system shall provide a processor which generates a VRWV L3 monthly aggregation product from the VRWV L2 products (CDR-4).
+2021_wv_srd_WEB,The WV_cci VRWV processing system shall provide a processor to merge VRWV L3 products obtained from the different sensors.
+2021_wv_srd_WEB,The WV_cci system shall support the validation of output products by the validation team and the re-integration of the validation results into the system (i.e. processor updates).
+2021_wv_srd_WEB,The WV_cci validation system shall assess to what extent the products meet all GCOS requirements for the WV ECV.
+2021_wv_srd_WEB,The WV_cci system shall provide means to do quality checks for all types of intermediate and final results during processing.
+2021_wv_srd_WEB,The WV_cci system shall provide an inventory of its data products. The inventory shall support product versioning.
+2021_wv_srd_WEB,"The WV_cci shall maintain its data in a structured way. The structure shall be organised along product types, versions, and temporal coverage. The structure shall allow to keep several versions of outputs at the same time."
+2021_wv_srd_WEB,The WV_cci system shall provide subsets of specific WV data products on demand.
+2021_wv_srd_WEB,"The WV_cci systems, i.e. their developers/operators, shall establish a continuous interaction with users and relevant groups of scientific experts."
+2021_wv_srd_WEB,The WV_cci systems shall provide means to inform users (including the CCI Open Data Portal) about new versions of products.
+2021_wv_srd_WEB,The WV_cci system shall provide means for operators to detect and handle failures.
+2021_wv_srd_WEB,The WV_cci system shall provide an operational procedure to transfer a processor version from development to operations after validation with minimal effort.
+2021_wv_srd_WEB,The WV_cci system shall support re-processing of parts or all of the dataset in defined production cycles.
+2021_wv_srd_WEB,The WV_cci system shall be designed in a way that allows to install and run different versions of processors in the same environment.
+2021_wv_srd_WEB,The WV_cci system shall be designed in a way that operators handle requests for larger datasets of 1 year or one month of inputs. Handling single products should still be possible for recovery from failure.
+2021_wv_srd_WEB,The pre-processing chains of the WV_cci system shall be automated such that operators are required to submit requests and monitor the system for the processing steps.
+2021_wv_srd_WEB,The WV processing chains of the WV_cci system shall be automated such that operators are required to submit requests and monitor the system for the processing steps.
+2021_wv_srd_WEB,The WV_cci system shall be able to generate the WV datasets as specified in the PSD within the foreseen production cycles.
+2021_wv_srd_WEB,The WV_cci system shall provide means for massive parallel processing.
+2021_wv_srd_WEB,The WV_cci system shall be able to reprocess dedicated WV datasets within their foreseen production cycles.
+2021_wv_srd_WEB,The WV_cci system shall be able to process WV datasets in suitable blocks of sub-periods in which intermediate data are automatically deleted to meet the storage capacity limits.
+2021_wv_srd_WEB,"The WV_cci system should support distributed processing of level 3 products by an infrastructure that supports sorting of large parallel data streams, e.g. by the map-reduce approach."
+2021_wv_srd_WEB,The WV_cci system shall provide storage capacity in its production archive for the generation of the WV datasets as specified in the PSD.
+2021_wv_srd_WEB,The WV_cci system shall ingest all input data sets required for TCWV retrieval. The WV_cci system shall ingest all input data sets required for VRWV retrieval.
+2021_wv_srd_WEB,The WV_cci system shall ingest all input data sets required for VRWV retrieval.
+2021_wv_srd_WEB,"The WV_cci system for TCWV retrieval shall ingest and process level 1 products from MERIS, MODIS Terra and OLCI."
+2021_wv_srd_WEB,The WV_cci system for TCWV retrieval shall ingest MOD35_L2 cloud products from MODIS.
+2021_wv_srd_WEB,The WV_cci system for TCWV retrieval shall ingest anxiliary datasets required for preprocessing.
+2021_wv_srd_WEB,"The WV_cci system for VRWV CDR-3 shall ingest VRWV profiles from SAGE II, UARS-MLS, HALOE, MIPAS, Aura-MLS, POAM III, SMR, SCIAMACHY, ACE-MAESTRO, and ACE-FTS. The WV_cci system for VRWV CDR-4 shall ingest VRWV profiles from MLS, ACE-FTS, ACE-MAESTRO, MIPAS, and IMS."
+2021_wv_srd_WEB,"The WV_cci system for VRWV CDR-4 shall ingest VRWV profiles from MLS, ACE-FTS, ACE-MAESTRO, MIPAS, and IMS."
+2021_wv_srd_WEB,The WV_cci system for VRWV retrieval shall ingest anxiliary datasets required for preprocessing. This includes chemistry– climate model data for CDR-3 and DMP data for CDR-4.
+2021_wv_srd_WEB,The WV_cci system for TCWV retrieval shall ingest CM SAF HOAPS TCWV L3 products generated from SSM/I and SSMIS over ice-free ocean.
+2021_wv_srd_WEB,The WV_cci system shall have a function to ingest new or updated input data from media.
+2021_wv_srd_WEB,The WV_cci system shall provide access to its output products by FTP-pull.
+2021_wv_srd_WEB,The WV_cci system shall provide outputs in a format that conforms to the CCI Data Standards.
+2021_wv_srd_WEB,The WV_cci system shall maintain its software components and in particular its processors and configurations under configuration control
+2021_wv_srd_WEB,"The WV_cci system shall follow a modular approach in its design, in particular for the processors that shall be interchangable by other versions and different implementations without changing other parts of the system."

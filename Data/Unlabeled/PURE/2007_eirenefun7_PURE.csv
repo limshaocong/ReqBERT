@@ -1,0 +1,86 @@
+source,reqs
+2007_eirenefun7_PURE,"It shall only be possible for the user who initiated the call to talk, other users can only listen. (M)"
+2007_eirenefun7_PURE,The system shall support group voice calls. (M)
+2007_eirenefun7_PURE,The network should support the receipt of mobile-originated text messages by the ground. (O)
+2007_eirenefun7_PURE,"If the text message facility is implemented, it shall not interfere with the ability of users to make or receive high priority voice or data calls. (M)"
+2007_eirenefun7_PURE,The priority scheme for calls described in section 10.2 is also valid for train control applications. (I)
+2007_eirenefun7_PURE,The required call set-up times shall be achieved in 95% of cases. (M)
+2007_eirenefun7_PURE,Call set-up times for 99% of cases shall not be more than 1.5 times the required call set- up time. (M)
+2007_eirenefun7_PURE,"Where fixed network users are involved in a group or broadcast call, fixed network users will be pre-defined and will not change during the course of the call. (I)"
+2007_eirenefun7_PURE,"The group or broadcast call area used will have the effect of determining which mobiles can participate in the call (ie those currently within the area defined). It shall be possible to determine the area over which the call takes place by one, or a combination, of the following: (M)"
+2007_eirenefun7_PURE,The definition of each broadcast or group call area should take into account factors such as the speed of trains on the line (stopping distance) and the operational control areas. (O)
+2007_eirenefun7_PURE,It is acceptable that mobiles which move out of the call area during the call be dropped from the call. (I)
+2007_eirenefun7_PURE,"All EIRENE mobiles are specified with a common level of basic services, facilities and features. This section of the specification gives details of these core requirements, while sections 5, 6 and 7 detail requirements specific to each of the radio types. (I)"
+2007_eirenefun7_PURE,"All design, testing and installation of EIRENE mobile radio equipment shall comply with the quality procedures defined in ISO 90014. (M)"
+2007_eirenefun7_PURE,"Any pressure pulses caused by vehicles passing, entering or leaving tunnels shall not affect the normal operation of EIRENE mobile equipment. (M)"
+2007_eirenefun7_PURE,"Once an appropriate destination has been obtained, the radio shall attempt to establish a call to this destination. The functional identity shall be displayed to the controller. (M)"
+2007_eirenefun7_PURE,The call shall be connected to the loudspeaker until the driver picks up the handset. (M)
+2007_eirenefun7_PURE,"The call shall continue until terminated by the calling driver, an authorised controller or the network. (M)"
+2007_eirenefun7_PURE,"If the train moves out of the group call area whilst the call is in progress, an audible and visual indication of the loss of call shall be provided to the driver. (M)"
+2007_eirenefun7_PURE,The call will be established from the active cab of the lead traction vehicle. (I)
+2007_eirenefun7_PURE,"Whilst on-going, a ‘multi-drivers’ indication shall be displayed permanently at all Cab radios. (M)"
+2007_eirenefun7_PURE,The driver shall then be prompted to select the train staff with which he wishes to communicate. (M)
+2007_eirenefun7_PURE,"On many trains, staff may be connected by intercom or internal telephone rather than by radio. It is required that, in these cases, the Cab radio shall be integrated with internal communication systems such that the appropriate means of connection (wire or radio) will be determined automatically. (M)"
+2007_eirenefun7_PURE,It is not possible for the driver to speak as part of the call when receiving a broadcast call. (I)
+2007_eirenefun7_PURE,"If the call is a group call, the driver shall be required to request permission before being able to speak as part of the call by lifting the handset and pushing the Push-To- Talk (PTT) button. (M)"
+2007_eirenefun7_PURE,The Cab radio system shall be able to receive incoming text messages (see section 12 for details). (M)
+2007_eirenefun7_PURE,The Cab radio shall support a ‘shunting mode’ of operation that provides a link assurance tone to reassure users of the integrity of the communication link (see section 14). (M)
+2007_eirenefun7_PURE,"Where the Cab radio is required by a national railway to support a handheld portable, the Cab radio shall: (M)"
+2007_eirenefun7_PURE,Powering down the Cab radio shall cause the disconnection of the Cab radio from the mobile network. (M)
+2007_eirenefun7_PURE,"When switched off, the radio shall retain any numbers which are stored at the time the radio is switched off. (M)"
+2007_eirenefun7_PURE,It shall be possible to present radio related prompts and information in a number of different languages. (M)
+2007_eirenefun7_PURE,"By default, prompts and information shall be displayed in the language selected by the train owner (as stored within the system). (M)"
+2007_eirenefun7_PURE,The Cab radio should be capable of selecting the mobile radio network as directed by input from an external device (eg a balise). (O)
+2007_eirenefun7_PURE,"If directed network selection is implemented and voice calls are ongoing at the time when the external device attempts to trigger a network change, an audible and visual indication shall be given to the driver and network change shall be deferred until the call is terminated or until coverage of the current network is lost. (M)"
+2007_eirenefun7_PURE,"If an automated request is initiated (option 2), the driver shall be able to accept or reject the train number returned by the network. (M)"
+2007_eirenefun7_PURE,"Where ERTMS/ETCS and radio systems are available and the driver is required to enter the train number as part of the initialisation procedure, this task shall be carried out only once on the ERTMS/ETCS system and the entered number transmitted to the radio system. (M)"
+2007_eirenefun7_PURE,It shall be possible to register and deregister a stock number in one or both of the following ways: (M)
+2007_eirenefun7_PURE,"The Cab radio system may be required to be able to handle incoming and outgoing calls not only to and from the driver, but also to and from other on-train users and devices (conductor, public address system, data systems, etc) via appropriate interfaces and ports. (I)"
+2007_eirenefun7_PURE,"For data applications, calls shall be possible even if the driver MMI is switched off. (M)"
+2007_eirenefun7_PURE,"Train-mounted equipment including the Cab radio terminal equipment, MMI and antenna shall comply with all specifications in section 4.3 and all of those defined in this section. (M)"
+2007_eirenefun7_PURE,The radio equipment that will be mounted in rolling stock can be split into two classes: in-cab equipment and external equipment. Each type of equipment has slightly different requirements placed upon it in terms of EMC and climate. (UIC fiche 6515 is a useful reference concerning the layout of cab equipment.) (I)
+2007_eirenefun7_PURE,Radio equipment installed in a driver’s Cab shall not obstruct the driver’s vision or otherwise hinder the safe driving of the train. (M)
+2007_eirenefun7_PURE,The design of the equipment shall make it possible to install it within a cab complying with the requirements of UIC fiche 651 concerning the layout of cab equipment5. (M)
+2007_eirenefun7_PURE,"If contact with the mobile radio network is lost, then the Cab radio shall give an audible and visual indication. (M)"
+2007_eirenefun7_PURE,A special MMI action shall be required for a General purpose radio user to send a Railway emergency call. (M)
+2007_eirenefun7_PURE,It shall not be possible for any General purpose radio user to send a Railway emergency call by dialling a short code or telephone number. (M)
+2007_eirenefun7_PURE,"Where more than one mobile radio network is available for use by a mobile, the selection of the network to use shall be automatic (see section 10.5). (M)"
+2007_eirenefun7_PURE,"When the mobile changes network automatically, a visual and audible indication shall be given. (M)"
+2007_eirenefun7_PURE,General purpose radios should be equipped with rechargeable batteries capable of providing a minimum of eight hours operation from a single charge based on the following cycle (see section 4.3.9): (O)
+2007_eirenefun7_PURE,"If the ability to initiate Railway emergency calls is implemented in the radio, accidental initiation of a Railway emergency call shall be prevented. (M)"
+2007_eirenefun7_PURE,A visual and audible indication shall be given when the remaining capacity of the battery is such as to enable only 10 minutes of full duplex call time. (M)
+2007_eirenefun7_PURE,"If shunting mode is implemented, a means to enter and leave shunting mode shall be provided. (M)"
+2007_eirenefun7_PURE,"If shunting mode is implemented, the functionality to enter or leave shunting mode shall not be available whilst there are on-going calls involving the Operational radio. (M)"
+2007_eirenefun7_PURE,"If shunting mode is implemented, the link assurance tone shall be provided via the loudspeaker. (M)"
+2007_eirenefun7_PURE,"When switched off, the radio shall retain any settings and numbers which are stored at the time the radio is switched off. (M)"
+2007_eirenefun7_PURE,An audible indication should be provided to the user if the network service is no longer available. (O)
+2007_eirenefun7_PURE,"For post incident analysis, the controller equipment should provide the possibility to record all operational speech and data calls. (O)"
+2007_eirenefun7_PURE,It should be possible for calls to be answered automatically according to incoming call priority as defined in section 10.2. (O)
+2007_eirenefun7_PURE,"In order to provide a consistent level of service in each railway network and, in particular, to ensure interoperability for train drivers and other users roaming between networks, it is important to harmonise subscription details and other information stored in the network. (I)"
+2007_eirenefun7_PURE,The lowest priority ongoing call shall be pre-empted before that of a higher priority. (M)
+2007_eirenefun7_PURE,"In the case where an EIRENE mobile attempts to make a Railway emergency call over a public network, the ability to pre-empt lower priority calls (particularly public emergency calls) may be inhibited, unless a special agreement is in place. (I)"
+2007_eirenefun7_PURE,Various types of call restriction may be employed by the railways as an additional security measure. Such facilities may be particularly important if public network access to the radio system is provided (eg to prevent members of the public calling drivers and drivers calling members of the public). (O)
+2007_eirenefun7_PURE,Any implementation of such call restrictions shall not affect international interoperability. (M)
+2007_eirenefun7_PURE,A mobile may be a member of a number of groups. It shall be possible to ‘activate’ or ‘deactivate’ the mobile’s subscription to these groups. (M)
+2007_eirenefun7_PURE,"If required, a railway may make additional restrictions to the access matrix. (O)"
+2007_eirenefun7_PURE,There is a requirement to be able to address communications to a ‘functional number’ rather than a telephone number. Such numbers are generally only associated with a user for a limited period of time. (I)
+2007_eirenefun7_PURE,"The functional addressing scheme shall be independent of specific configurations of mobile and terminal equipment. For example, the functional number of a conductor on board a particular train shall be the same irrespective of whether the conductor accesses the network through the Cab radio or has a separate dedicated EIRENE mobile. (M)"
+2007_eirenefun7_PURE,"It shall be possible to call EIRENE users by functional numbers from a wide range of terminals (EIRENE and non-EIRENE). Examples include EIRENE mobiles, controller terminals, railway fixed network telephones and public telephones. (All such calls will be subject to any access restrictions – see section 10.3.) (M)"
+2007_eirenefun7_PURE,The functional addressing scheme should permit calls to be routed from a controller to an international train within the control area without reference to any EIRENE system other than that providing service to the international train. (O)
+2007_eirenefun7_PURE,The functional identity shall be presented to the user in a form which can be readily understood (eg ‘driver of train abcd’ rather than ‘abcd01’ or ‘xyz shunting team 3’ rather than ‘xyz03’). (M)
+2007_eirenefun7_PURE,The functional number deregistration facility shall be supported by all EIRENE user equipment. (M)
+2007_eirenefun7_PURE,It shall be possible to deregister up to ten functional numbers to items of equipment physically connected to the Cab radio within 30 seconds. (M)
+2007_eirenefun7_PURE,"In addition, a given set of users shall also be allowed to: (M)"
+2007_eirenefun7_PURE,"The correspondence between the locations and the destination of the call shall be easily re-configurable to support dynamic changes in controller area boundaries (eg controller area boundaries will change from peak to off-peak periods during the working day or over longer periods, areas may change to match changes in railway organisation or traffic demand). (M)"
+2007_eirenefun7_PURE,"When operating with location dependent addressing, no manual action shall be required to update the system when a mobile moves between locations. (M)"
+2007_eirenefun7_PURE,There is a requirement that the EIRENE system can be used as a bearer to support an application connected to the radio for exchange of text messages between ground and mobile(s) or mobile and ground. (I)
+2007_eirenefun7_PURE,The aim of this section is to define the features and level of performance required for this service in order to ensure interoperability. (I)
+2007_eirenefun7_PURE,This section covers the use of the EIRENE radio system for Railway emergency calls. This section also describes the facility for confirmation of such emergency calls and storage of confirmation for post-incident analysis. (I)
+2007_eirenefun7_PURE,This section describes the handling of high priority voice calls for railway operational emergencies and does not cover public emergency calls (ie handling of ‘112’ calls). (I)
+2007_eirenefun7_PURE,A Railway emergency call shall be able to be initiated by using a simple MMI action (eg a single MMI action for the Cab and Operational radios). (M)
+2007_eirenefun7_PURE,A Railway emergency call may only be terminated by: (M)
+2007_eirenefun7_PURE,Shunting mode is the term used to describe the application that will regulate and control user access to facilities and features in the mobile while it is being used for shunting communications. (I)
+2007_eirenefun7_PURE,There is a requirement to regulate the membership of shunting groups to prevent uncontrolled membership. (I)
+2007_eirenefun7_PURE,"The link assurance signal shall be used to provide an audible indication to all group members. For the driver, this indicates that the radio link is operational. (M)"
+2007_eirenefun7_PURE,The link assurance signal shall be deactivated upon receipt of a shunting emergency call. (M)
+2007_eirenefun7_PURE,"All members of the shunting group, other than the initiator of the link assurance signal, shall be unable to speak during the transmission of the link assurance signal. However, they shall be able to initiate a shunting emergency call at any time. (M)"

@@ -1,0 +1,118 @@
+source,reqs
+2021_gmt_ord_web,"The GMT Observatory shall be located on the summit of Las Campanas (Chile) at WGS84 (UTM) coordinates 6785453 N, 336216 E, Zone 19 at an altitude of 2514 meters."
+2021_gmt_ord_web,The GMT summit layout shall not preclude the deployment of a second 25-m class telescope on the Cerro Las Campanas summit.
+2021_gmt_ord_web,The GMT shall provide and support a Base Facility in La Serena on the Las Campanas Observatory's El Pino campus.
+2021_gmt_ord_web,The GMT Observatory shall be insensitive to ground motion up to and including the level defined by an RLE event.
+2021_gmt_ord_web,The GMT Observatory shall be capable of resuming all normal operations using available resources following ground motions up to and including the level defined for an OLE.
+2021_gmt_ord_web,The GMT Observatory shall protect personnel and onerous-to-replace equipment from ground motions up to and including the level defined for an SLE event.
+2021_gmt_ord_web,Subsystems or components sensitive to condensation shall either be protected from condensing conditions (e.g. in a building or enclosure that is environmentally controlled) or placed into a safe state (e.g. powered off) during condensing conditions.
+2021_gmt_ord_web,"No part of the Observatory shall be exposed to any precipitation (rain, snow, or hail), except the components providing environmental protection for the rest of the Observatory (e.g. building or enclosure)."
+2021_gmt_ord_web,"The GMT Observatory shall meet all functional and performance requirements, with the exception of image quality,"
+2021_gmt_ord_web,"The GMT Observatory shall meet all functional and performance requirements, with the exception of image quality, under external air temperature range of -3 °C to +19.5 °C."
+2021_gmt_ord_web,"The GMT Observatory shall meet all functional and performance requirements, with the exception of image quality, under external air temperature change over 30 minutes of –1.45 °C to +1.62 °C [1% and 99% points in the CDF as per data in GMT Environmental Conditions document (GMT-SE-REF-00144)]."
+2021_gmt_ord_web,"The GMT Observatory shall meet all functional and performance requirements, with the exception of image quality, under external air pressure of 743 mbar to 758 mbar."
+2021_gmt_ord_web,"The GMT Observatory shall meet all functional and performance requirements, with the exception of image quality, under external maximum wind speed (1 minute average @ M1 height) of up to 17.0 m/s."
+2021_gmt_ord_web,The GMT Observatory shall meet all functional requirements under external air temperature range of –4 °C to +20.5 °C.
+2021_gmt_ord_web,The GMT Observatory shall meet all functional requirements under external air temperature change over 30 minutes of –2.20 °C to +2.37 °C.
+2021_gmt_ord_web,The GMT Observatory shall meet all functional requirements under external air pressure of 743 mbar to 758 mbar.
+2021_gmt_ord_web,The GMT Observatory shall survive repeated exposure to external air temperature range of –8 °C to +27.7 °C.
+2021_gmt_ord_web,The GMT Observatory shall survive repeated exposure to external air temperature change over 30 minutes of –4.8 °C to +4.3 °C.
+2021_gmt_ord_web,The GMT Observatory shall survive repeated exposure to external air pressure of 740 mbar to 758 mbar.
+2021_gmt_ord_web,The GMT Observatory shall survive repeated exposure to external maximum wind speed (3s gust @ M1 elevation) of up to 55 m/s.
+2021_gmt_ord_web,The GMT Observatory shall survive repeated exposure to external rainfall rate of 0.2 m/hour (maximum measured).
+2021_gmt_ord_web,The GMT Observatory shall survive repeated exposure to external snowfall of Column density up to 200 kg m–2.
+2021_gmt_ord_web,The GMT Observatory shall enable all maintenance operations under external air temperature range of -8 °C to +27.7 °C.
+2021_gmt_ord_web,The GMT Observatory shall enable all maintenance operations under external air pressure of 740 mbar to 758 mbar.
+2021_gmt_ord_web,The GMT Observatory shall meet all functional requirements under particulate count of up to 3.5 x 106 particles larger than 1 micron per m3.
+2021_gmt_ord_web,The GMT shall provide protection from lightning.
+2021_gmt_ord_web,"After exposure to conditions beyond the Survival Conditions, regular operations staff shall be able to determine, after a maximum 6-hour inspection, whether the observatory is in a safe condition to return to science and technical operations."
+2021_gmt_ord_web,The GMT shall be designed for a 50-year lifetime assuming routine maintenance of the telescope and facilities and periodic upgrades of field replaceable components and subsystems.
+2021_gmt_ord_web,Optical performance specifications for GMT shall only apply from the end of astronomical twilight in the evening to the beginning of astronomical twilight in the morning.
+2021_gmt_ord_web,The GMT shall point in elevation from 30° to 90°.
+2021_gmt_ord_web,The GMT shall meet all performance requirements from 30° elevation to 89.5° elevation.
+2021_gmt_ord_web,The GMT shall meet all performance requirements over the full 360° range in azimuth.
+2021_gmt_ord_web,The GMT shall offset between two or more positions on the sky separated by up to 60 arcsec with a pointing accuracy at each position of no greater than 0.1 × PSF FWHM arcsec RMS.
+2021_gmt_ord_web,"The GMT shall offset between two or more positions on the sky separated by up to 180 arcsec, with a pointing accuracy at each position by less than 0.5 arcsec RMS."
+2021_gmt_ord_web,"The GMT Observatory shall guide on targets moving at any non-sidereal rates up to 6 arcsec/min while meeting all image quality requirements, with no more than an additional 0.1 × PSF image elongation."
+2021_gmt_ord_web,"The GMT Observatory shall move the telescope at any non-sidereal rate up to 1 arcsec/sec with a pointing accuracy of better than the PSF FWHM in seeing-limited conditions, over a range of up to 90 arcsec."
+2021_gmt_ord_web,The GMT Observatory shall meet all performance requirements while tracking targets moving at sidereal rates.
+2021_gmt_ord_web,The GMT Observatory shall be able to record the times at which an observation starts and ends with an accuracy of 10 milliseconds.
+2021_gmt_ord_web,The GMT shall provide instrument mounting locations at which the apparent rotation of the science field of view is controlled and compensated.
+2021_gmt_ord_web,The GMT Observatory shall be able to start a science exposure on a new target with any deployed instrument in less than 600 seconds from the initiation of slew.
+2021_gmt_ord_web,"The GMT shall provide an archive to curate all science data, including science calibration data, and associated metadata, for the lifetime of the Observatory."
+2021_gmt_ord_web,"The GMT shall provide an archive to curate all engineering data, including subsystem telemetry data and associated metadata, for the lifetime of the Observatory."
+2021_gmt_ord_web,The GMT shall transition from its Daytime Operations state to a state ready for on-sky Observing Startup in no more than 20 minutes.
+2021_gmt_ord_web,The GMT shall perform necessary on-sky initialization in no more than 45 minutes.
+2021_gmt_ord_web,The GMT shall transition from Science Operations to an Environmental Standby state in no more than 3 minutes.
+2021_gmt_ord_web,The GMT shall transition from an Environmental Standby state to Science Operations in no more than 10 minutes (TBC).
+2021_gmt_ord_web,The GMT shall transition from Science Operations to a prepared daytime maintenance state in no more than 10 minutes.
+2021_gmt_ord_web,The GMT shall support the PI mode of science operations.
+2021_gmt_ord_web,The exact nature of the PI Science Mode of Operations is defined in the Operations Concept Document (OpsCon).
+2021_gmt_ord_web,The GMT shall support the Service mode of science operations.
+2021_gmt_ord_web,The GMT shall support the Queue mode of science operations.
+2021_gmt_ord_web,The GMT shall support the Monitored Queue mode of science operations.
+2021_gmt_ord_web,The GMT shall support the Target of Opportunity mode of science operations.
+2021_gmt_ord_web,"The GMT Observatory in OPM 1, 2, 3, or 4 shall have a minimum on-axis throughput of 83% at 0.36 µm."
+2021_gmt_ord_web,"The GMT Observatory in OPM 1, 2, 3, or 4 shall have a minimum on-axis throughput of 82% at 0.44 µm."
+2021_gmt_ord_web,"The GMT Observatory in OPM 1, 2, 3, or 4 shall have a minimum on-axis throughput of 81% at 0.55 µm."
+2021_gmt_ord_web,"The GMT Observatory in OPM 1, 2, 3, or 4 shall have a minimum on-axis throughput of 78% at 0.67 µm."
+2021_gmt_ord_web,"The GMT Observatory in OPM 1, 2, 3, or 4 shall have a minimum on-axis throughput of 75% at 0.86 µm."
+2021_gmt_ord_web,"The GMT Observatory in OPM 1, 2, 3, or 4 shall have a minimum on-axis throughput of 78% at 0.89 µm."
+2021_gmt_ord_web,"The GMT Observatory in OPM 1, 2, 3, or 4 shall have a minimum on-axis throughput of 90% at 1.25 µm."
+2021_gmt_ord_web,"The GMT Observatory in OPM 1, 2, 3, or 4 shall have a minimum on-axis throughput of 91% at 1.63 µm."
+2021_gmt_ord_web,"The GMT Observatory in OPM 1, 2, 3, or 4 shall have a minimum on-axis throughput of 92% at 2.2 µm."
+2021_gmt_ord_web,"The GMT Observatory in OPM 1, 2, 3, or 4 shall have a minimum on-axis throughput of 92% at 3.45 µm."
+2021_gmt_ord_web,"The GMT Observatory in OPM 1, 2, 3, or 4 shall have a minimum on-axis throughput of 93% at 4.89 µm."
+2021_gmt_ord_web,"The GMT Observatory in OPM 1, 2, 3, or 4 shall have a minimum on-axis throughput of 94% at 9.54 µm."
+2021_gmt_ord_web,"The GMT Observatory in OPM 1, 2, 3, or 4 shall have a minimum on-axis throughput of 94% at 19.55 µm."
+2021_gmt_ord_web,The GMT Observatory in OPM 10 or 11 shall have a minimum on-axis throughput of 83% at 0.36 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 10 or 11 shall have a minimum on-axis throughput of 82% at 0.44 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 10 or 11 shall have a minimum on-axis throughput of 81% at 0.55 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 10 or 11 shall have a minimum on-axis throughput of 78% at 0.67 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 10 or 11 shall have a minimum on-axis throughput of 75% at 0.86 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 10 or 11 shall have a minimum on-axis throughput of 78% at 0.89 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 12 or 13 shall have a minimum on-axis throughput of 92% at 1.25 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 12 or 13 shall have a minimum on-axis throughput of 93% at 1.63 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 12 or 13 shall have a minimum on-axis throughput of 93% at 2.2 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 12 or 13 shall have a minimum on-axis throughput of 93% at 3.45 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 12 or 13 shall have a minimum on-axis throughput of 94% at 4.89 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 12 or 13 shall have a minimum on-axis throughput of 95% at 9.54 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 12 or 13 shall have a minimum on-axis throughput of 95% at 19.55 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 14 or 15 shall have a minimum on-axis throughput of 35% at 0.36 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 14 or 15 shall have a minimum on-axis throughput of 67% at 0.44 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 14 or 15 shall have a minimum on-axis throughput of 69% at 0.55 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 14 or 15 shall have a minimum on-axis throughput of 65% at 0.67 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 14 or 15 shall have a minimum on-axis throughput of 59% at 0.86 µm.
+2021_gmt_ord_web,The GMT Observatory in OPM 14 or 15 shall have a minimum on-axis throughput of 61% at 0.89 µm.
+2021_gmt_ord_web,The GMT Observatory shall enable detector sensitivity calibration with an uncertainty in relative pixel-to- pixel sensitivity of no greater than 0.1% on spatial scales up to 10 times the PSF FWHM.
+2021_gmt_ord_web,The GMT Observatory shall enable the calibration of spectroscopic observations with a maximum wavelength calibration uncertainty of 6.7 × 10–7 times the wavelength.
+2021_gmt_ord_web,"The GMT shall have an effective collecting are of no less than 356 square meters, including the impact of any obscurations."
+2021_gmt_ord_web,The GMT shall provide remote access to all science and technical user interfaces.
+2021_gmt_ord_web,"The GMT shall provide software tools to create, submit, read and track observing proposals."
+2021_gmt_ord_web,The GMT shall provide software tools to facilitate the work of the Time Allocation Committees.
+2021_gmt_ord_web,The GMT shall provide software tools to monitor and control observing in science operations.
+2021_gmt_ord_web,The GMT shall provide software tools to access the science archive.
+2021_gmt_ord_web,The GMT shall provide software tools to monitor current and predicted environmental conditions.
+2021_gmt_ord_web,The GMT shall provide software tools to monitor and control all subsystems.
+2021_gmt_ord_web,The GMT shall provide software tools to access the engineering archive.
+2021_gmt_ord_web,The GMT shall provide processes and software tools to monitor and control laser light interfaces with external systems.
+2021_gmt_ord_web,The GMT shall provide an electrical interface between the Chilean power grid with sufficient capacity to operate the summit observatory
+2021_gmt_ord_web,The GMT shall provide a water system interface to external water facilities for potable water and fire water.
+2021_gmt_ord_web,The GMT shall provide diesel fuel interface to external commercial providers.
+2021_gmt_ord_web,The GMT shall provide a connection to a commercial communications network.
+2021_gmt_ord_web,The GMT shall provide an internal communications system.
+2021_gmt_ord_web,The GMT shall be available to science operations 96% of the time under Extended Operating Conditions
+2021_gmt_ord_web,The Observatory shall provide adequate access to its components to carry out maintenance.
+2021_gmt_ord_web,"The GMT shall require no more than 37,500 staff hours to perform maintenance on Observatory systems."
+2021_gmt_ord_web,The GMT shall provide documentation necessary to operate and maintain the Observatory.
+2021_gmt_ord_web,The GMT shall provide a Computerized Maintenance Management System (CMMS) to manage maintenance and asset information.
+2021_gmt_ord_web,The GMT shall provide a fault tracking system and user interface to log and track faults and responses to faults.
+2021_gmt_ord_web,"The Observatory shall comply with the Health, Safety, Security, and Environmental Strategy document (GMT-DOC-01061)."
+2021_gmt_ord_web,"The Observatory shall comply with the Health, Safety and Environmental Policy (GMT-PM-DOC- 00243)."
+2021_gmt_ord_web,The Observatory shall comply with the Emergency Response Plan (GMT-DOC-01925).
+2021_gmt_ord_web,"The Observatory shall comply with all applicable local and national environmental, and occupational health regulations and standards specified in GMT-DOC-01400, GMT Design EHS Requirements."
+2021_gmt_ord_web,The Observatory shall provide a secure environment for personnel expected at the Observatory
+2021_gmt_ord_web,The Observatory shall provide a secure environment for its equipment.
+2021_gmt_ord_web,The Observatory shall provide controls to prevent unsafe interactions between Observatory subsystems.
+2021_gmt_ord_web,"The GMT shall comply with all applicable codes and standards as described in GMT Reference for Regulations, Codes and Standards (GMT-REF-00229)."
+2021_gmt_ord_web,"The GMT shall comply with handling, transportation, and storage conditions specified in MIL-STD-810E and MIL-STD-810G."

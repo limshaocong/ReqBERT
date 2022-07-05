@@ -1,0 +1,157 @@
+source,reqs
+2012_stequest_mrd_web,The spacecraft shall be compatible with a launch on Soyuz Fregat from Kourou. Note: No backup launcher/launch site is foreseen within the M3 missions.
+2012_stequest_mrd_web,"The mission shall be compatible with a launch date in 2022 (study baseline), with a launch in 2024 as study backup . Note: The M3 mission is intended as a backup candidate for the 2022 launch slot, depending on JUICE schedule. Although in the science programme the baseline launch slot for M3 is 2024, all current study planning should remain compatible with a 2022 launch. The final decision on the nominal launch date will be made following JUICE mission adoption."
+2012_stequest_mrd_web,The operational orbit shall be reached with direct insertion. Note: insertion correction manoeuvres are allowed.
+2012_stequest_mrd_web,The gravity-gradient at perigee shall not be larger than 2.5 x 10-6 s-2 after LEOP.
+2012_stequest_mrd_web,The mission phases shall be defined as follows:
+2012_stequest_mrd_web,Pre-launch s/c state shall support vacuum maintenance for instruments.
+2012_stequest_mrd_web,"The spacecraft systems shall be compatible with a shelf lifetime of 2 years. Note: In case of launch delays, the dry spacecraft will be stored in an appropriate clean-room."
+2012_stequest_mrd_web,"During launch and until a safe attitude is acquired, all payload systems shall be switched off with the exception of vacuum systems and the spacecraft in a minimal power stage using s/c batteries."
+2012_stequest_mrd_web,LEOP shall last no longer than 3 days.
+2012_stequest_mrd_web,"Spacecraft Science commissioning phase (2.2) shall last no longer than 6 (TBC) months. Note: during science commissioning phase, the spacecraft shall be fully operational following the operational commissioning running in parallel for the first month max."
+2012_stequest_mrd_web,Consumables shall be calculated for 6 years.
+2012_stequest_mrd_web,Spacecraft operational commissioning phase (2.1) shall last no longer than 1 month.
+2012_stequest_mrd_web,"Nominal operations phase shall last at least 4.5 years. Note: for the purpose of SR-OP-01, nominal performance levels shall already be reached in science commissioning phase"
+2012_stequest_mrd_web,"During nominal operations phase, the s/c shall fulfil all science performance requirements in section 5. Note,: does not apply during AOCS/mode transitioning operations."
+2012_stequest_mrd_web,Extended operations shall start at 5 years from launch.
+2012_stequest_mrd_web,"Design and operations of the space segment shall comply with the rules and procedures put forth in [AD 10] with the exact measures towards compliance to be traded and subsequently agreed upon. Note: Currently, only active, controlled de-orbit is believed to fulfil the requirements"
+2012_stequest_mrd_web,Consumables for de-orbiting shall be calculated for the worst case required delta-V within Phase 4 with margins according to R-MISD-070.
+2012_stequest_mrd_web,The mission shall be designed for a lifetime of 5 years.
+2012_stequest_mrd_web,The mission shall be designed for an extended lifetime of 6 years total lifetime.
+2012_stequest_mrd_web,"The spacecraft shall distinguish between nominal modes for science operations and manoeuvring/transitional modes. Note: Definitions for nominal modes shall be defined by the contractor. E.g., two main nominal modes can be foreseen: perigee mode (below 3000km); apogee mode (remainder of orbit, except transitional modes)."
+2012_stequest_mrd_web,"During nominal modes, no spacecraft re-orientations and/or orbit maintenance manoeuvres shall be performed."
+2012_stequest_mrd_web,Manoeuvring/transitional modes shall not last longer than 60 min (TBC) per orbit.
+2012_stequest_mrd_web,The STE-QUEST orbit shall be compatible with a reference value in the difference of the gravitational potential between Earth surface and apogee of ?Uapogee-ground?c2 ~6.2 ? 10?10. Note: reference value for the orbit – 
+2012_stequest_mrd_web,The STE-QUEST orbit shall be compatible with a reference value in the difference of the gravitational potential between Earth surface and perigee of ?Uperigee-ground?c2 ~6.9 ? 10?11. Note: reference value for the orbit – 
+2012_stequest_mrd_web,"The total measurement duration around apogee and perigee, at distances from the Earth corresponding to a gravitational red-shift ?U > 0.9 ??Uapogee-ground and ?U < ?Uperigee-ground + 0.1 ? ?Uapogee-ground respectively, within 10% of the gravitational red-shift experienced between apogee and ground shall be longer than ?tclock > 3 ? 106s and ?tclock > 1 ? 105s in a four (4) year time period."
+2012_stequest_mrd_web,"The total measurement duration for the atom interferometer at a distance from the Earth corresponding to a gravity acceleration higher than 4.5 m/s2 (altitudes below 3000 km), shall be longer than ???AI > 3.5 ? 106s, in a four (4) year time period"
+2012_stequest_mrd_web,Any pair of two ground clocks shall be compared for at least 500 times (common view) with a duration of at least 25000s for each comparison over a four (4) year time period
+2012_stequest_mrd_web,"Atom interferometer measurements for the WEP shall be taken at least continuously around perigee, at altitudes below 3000km."
+2012_stequest_mrd_web,It shall be possible to perform atom interferometer measurements in parallel with the clock measurements.
+2012_stequest_mrd_web,It shall be possible to operate the atom interferometer during all nominal modes (defined in R-MIS-240) along the full orbit in addition to performing the measurements at perigee passage.
+2012_stequest_mrd_web,It shall be possible to operate the atomic clock during all nominal modes (defined in R-MIS-240) along the full orbit.
+2012_stequest_mrd_web,"The precise orbit determination of the spacecraft shall be better than: 2 m in position radial to the centre of gravity of the Earth, 2 m along and across track, and 0.2 mm/s in velocity after post-processing with no more than 15 days delay. Note: Currently it is foreseen to fulfil this requirement using a GNSS receiver locked to the on-board frequency reference and laser ranging."
+2012_stequest_mrd_web,"The error in the determination of the gravitational potential at the space clock location shall lead to a fractional frequency uncertainty due to the red-shift effect of less than 3E-17, after post-processing. "
+2012_stequest_mrd_web,The position of ground clocks shall allow comparisons with the STE-defined in R-SPM-030.
+2012_stequest_mrd_web,The position of ground clocks shall allow comparisons with the STE- QUEST clock for a minimum total duration of 2.5E7 seconds for each clock in a four (4) year time period.
+2012_stequest_mrd_web,"The ground clocks distribution shall allow establishing at least two common-view contacts (preferably three) of pairs of ground clocks with the STE-QUEST spacecraft clock per orbit, the two contacts involving at least three different ground clocks."
+2012_stequest_mrd_web,It shall be possible to compare the same ground clock (out of the available ground clocks) with the on-board clock of the spacecraft in the vicinity of apogee and perigee of the same orbit in any order (i.e. first perigee then apogee or vice versa). Note: Vicinity to be understood in the terms of R- SPM-030.
+2012_stequest_mrd_web,The same ground clock (out of the available ground clocks) shall be compared with the STE-QUEST on-board clock for most of the time (70%) spent by the spacecraft between apogee and perigee (or vice versa). Note: apogee and perigee boundaries as defined in R-SPM-030.
+2012_stequest_mrd_web,The spacecraft shall be inertial pointing during perigee pass (below 3000 km).
+2012_stequest_mrd_web,"In all three s/c axes, the angular velocity of the STE-QUEST spacecraft with respect to a non-rotating freely falling reference frame averaged over the atom interferometer sequence duration (<15 seconds) shall be within the interval [-10-6, +10-6] rad/s during main atom interferometer operations (i.e. at least during periods below 3000 km altitude)."
+2012_stequest_mrd_web,"The RMS value of quasi-sinusoidal accelerations at the atomic clock and MOLO volumes shall be smaller than 1 x 10?4m/s2 ? (?? x ???? + 0.1 x ??2  x ??2) for frequencies f, expressed in Hz, between 0.5 Hz and 10 KHz, Tc being the clock cycle duration (Tc = 1 second, TBC)."
+2012_stequest_mrd_web,The RMS value of quasi-sinusoidal accelerations at the atom interferometer volume during atom interferometer measurements (i.e. below 3000 km altitude) shall be smaller than
+2012_stequest_mrd_web,"DC non-gravitational accelerations on the spacecraft shall be less than 1E-6 m/s2 , within the instrument volume, when measuring."
+2012_stequest_mrd_web,"DC non gravitational accelerations on the spacecraft along the sensitive axis of the atom interferometer shall be less than 4 x 10-7 m/s2 , during atom interferometer operations."
+2012_stequest_mrd_web,"At any time, the gravity gradient induced by the self-gravity of the spacecraft measured at the atom interferometer reference point (centre of mass of the atomic cloud during the measurements) shall be smaller than the gravity gradient induced by the Earth at perigee passage. Note: Until detailed definition of the instrument, it is reasonable to assume the reference point on the central axis of the mu-metal cylinder around the AI volume at a height of around 1/3 the cylinder length."
+2012_stequest_mrd_web,The STE-QUEST time and frequency transfer links shall be able to compare the space clock and clocks on ground to a fractional frequency inaccuracy smaller than 3E-17 as well as to compare ground clocks to a fractional frequency inaccuracy smaller than 5E-19.
+2012_stequest_mrd_web,The STE-QUEST time and frequency transfer links shall be able to provide at least one phase comparison measurement per second between the space clock and the ground clock with 1Hz measurement bandwidth.
+2012_stequest_mrd_web,"The space and ground terminals of the STE-QUEST time and frequency transfer links shall be able to carry out space-to-ground and ground-to- ground time transfer with the link-induced differential time error between any two observations separated by a dead-time Td being less than TDEV(Td), where TDEV represents the time deviation1 resulting from R- SPL-10, R-SPL-11, for the microwave link. This requirement shall be maintained over a minimum measurement interval of 20 days."
+2012_stequest_mrd_web,"The space and ground terminals of the STE-QUEST time and frequency transfer links shall be able to carry out space-to-ground and ground-to- ground time transfer with the link-induced differential time error between any two observations separated by a dead-time Td being less than TDEV(Td), where TDEV represents the time deviation resulting from G- SPL-20, and G-SPL-21 for the optical link. This requirement shall be maintained over a minimum measurement interval of 20 days."
+2012_stequest_mrd_web,The STE-QUEST microwave link shall be able to simultaneously compare the space clock with at least four clocks on ground. Note: whenever the G/T associated with the clock has visibility.
+2012_stequest_mrd_web,The STE-QUEST optical link shall be able to simultaneously compare the space clock with two clocks on ground.
+2012_stequest_mrd_web,The differential delays of the Science Links shall be calibrated to a time uncertainty smaller than 50 ps for all applications. Note: This includes calibration of the differential delays between uplink (transmission from ground to reception in space) and downlink (transmission from space to reception on ground) and of the differential propagation delays in the atmosphere due to the non-reciprocal paths of uplink versus downlink.
+2012_stequest_mrd_web,The differential delays of the STE-QUEST links (both optical and microwave) used for the synchronization of two clocks on ground shall be calibrated to a time uncertainty better than 50 ps. Note: This includes the calibration of the differential delays (uplink-downlink) for each space-to-ground link.
+2012_stequest_mrd_web,"In general, the SI system of units shall be applicable."
+2012_stequest_mrd_web,"The kg, m, s system shall be used for all documentation."
+2012_stequest_mrd_web,"For radiation, the use of “rad” with or without standard SI-prefixes shall be permitted."
+2012_stequest_mrd_web,"For angular measurements, the use of “degree”, “arcmin”, and “arcsec” shall be permitted as accepted by the SI."
+2012_stequest_mrd_web,"The coordinate system along the orbit shall be right-handed orthogonal with the origin as defined in R-MISD-060, the +z-axis towards nadir, and the +y-axis in the direction of the negative orbit normal, and the +x-axis completing the system."
+2012_stequest_mrd_web,The margin policy described in [AD 2] shall be applied to the assessment study (Ph.0/A). The margin philosophy and margin depletion scheme will be defined fully at a later stage.
+2012_stequest_mrd_web,The spacecraft shall be dimensioned for the mission duration.
+2012_stequest_mrd_web,The spacecraft shall be dimensioned for the extended mission duration.
+2012_stequest_mrd_web,The spacecraft wet total mass including all applicable margins and launcher adapter shall not exceed the launcher performance for the chosen orbit.
+2012_stequest_mrd_web,The spacecraft design shall eliminate or prevent single-point failures with a severity of catastrophic or critical as per [AD 9].
+2012_stequest_mrd_web,Non-compliance to R-SYS-040 above shall be subjected to formal approval by ESA and an issued waiver.
+2012_stequest_mrd_web,No failure of any single component at unit level shall lead to failure of or damage to another component or subsystem.
+2012_stequest_mrd_web,No failure of any instrument shall lead to failure of or damage to other instruments or subsystems.
+2012_stequest_mrd_web,Individual or multiple failures of instruments and/or instrument subsystems shall not lead to a transition into safe-mode on spacecraft level.
+2012_stequest_mrd_web,Degradation or delayed loss of the spacecraft caused by failures of either instruments or spacecraft subsystems on any level shall be prevented or protected against by design.
+2012_stequest_mrd_web,The spacecraft shall have a safe-mode which assures spacecraft and payload survival.
+2012_stequest_mrd_web,The spacecraft shall enter safe-mode in case of anomalies or failures from which it cannot recover autonomously.
+2012_stequest_mrd_web,"The spacecraft shall be designed in a modular way in order to obtain simple interfaces to the payload, but with the core science instruments contained and protected within the structure of the spacecraft."
+2012_stequest_mrd_web,"No interface shall require the presence of more than one instrument, i.e. no routing of interfaces and no common use."
+2012_stequest_mrd_web,The accommodation of the payload shall be designed such that any instrument can be tested individually and removed or added to the spacecraft for these tests.
+2012_stequest_mrd_web,The spacecraft shall ensure an environment compatible with instrument specifications.
+2012_stequest_mrd_web,The spacecraft shall provide structural interfaces to the instruments and launch vehicle.
+2012_stequest_mrd_web,The spacecraft shall be compatible with the launch payload allocated volume of the launcher as specified in [AD 5].
+2012_stequest_mrd_web,The spacecraft shall be compatible with the launcher environment as specified in [AD 5] at any stage before and during LEOP.
+2012_stequest_mrd_web,The use of mechanisms shall be avoided as far as possible. Use of mechanisms shall be subject to ESA approval.
+2012_stequest_mrd_web,"Thermal Control shall control the interface to the instruments to a relative stability of +- 3 K (TBC) over 1 orbit. Note: thermal interface to POD, MWL, OL, is assumed to be handled by the industrial contractor according to their design."
+2012_stequest_mrd_web,The operating temperature of the payload shall be kept between 283 K and 303 K.
+2012_stequest_mrd_web,The non-operating temperature of the payload shall be kept between 233 K and 333 K.
+2012_stequest_mrd_web,The spacecraft shall be 3-axis controlled to assure proper orientation of science payload instruments w.r.t. the gravitational field.
+2012_stequest_mrd_web,Pointing strategy along orbit shall comply with the requirements in section 5.
+2012_stequest_mrd_web,The propulsion subsystem shall be sized to correct injection errors according to [AD 5] and perform orbital maintenance/attitude control during the full mission duration.
+2012_stequest_mrd_web,The propulsion subsystem shall support end-of-life measures according to [AD 10].
+2012_stequest_mrd_web,The propulsion system shall be sized to support the compensation of non- gravitational accelerations exerted on the spacecraft by its environment to the levels specified in Section 5 during all nominal operation modes in Phases 2 and 3 and 4.
+2012_stequest_mrd_web,"The propulsion system shall be sized to according to R-PROP-030, but taking as a baseline the optional orbit with perigee altitudes below 600 km (as defined in the MAG [AD 11])."
+2012_stequest_mrd_web,The power for the spacecraft and all its subsystems and payload shall not rely on radio-isotopic generators or other radioactive materials and processes.
+2012_stequest_mrd_web,The Power subsystem shall provide sufficient power for the spacecraft systems and payload instruments during all modes and mission phases.
+2012_stequest_mrd_web,A detailed power usage scenario shall be derived per operational and mission phase which demonstrates the power consumption and necessary storage requirements.
+2012_stequest_mrd_web,The spacecraft TTC subsystem shall comply with the ESA telecom standards within [AD 8].
+2012_stequest_mrd_web,"The spacecraft shall be able to simultaneously perform the following actions throughout all the mission phases and spacecraft modes following launch and regardless of spacecraft attitude: receive and demodulate the uplink signal from the ground segment and transmit the telecommands to the data handling system, receive a telemetry data stream from the data handling system and transmit these data to the ground segment, and transpose the ranging signal."
+2012_stequest_mrd_web,"The TTC subsystem shall interface with the ESA network of ground stations, as defined in the Estrack facilities manual (DOPS-ESTR-OPS- MAN-1001-OPS-ONN 1.1. [AD 4] Note: As a baseline for the current baseline orbit, New Norcia and Malargüe may be assumed."
+2012_stequest_mrd_web,The TTC-link shall support range and range-rate measurements.
+2012_stequest_mrd_web,"The receive function of the TTC subsystem shall be hot-redundant, the transmission function shall be cold redundant."
+2012_stequest_mrd_web,The TTC subsystem shall enable spacecraft mode-changes through ground commands.
+2012_stequest_mrd_web,The uplink and downlink data rates shall be compatible with the data transmission requirements during all mission phases.
+2012_stequest_mrd_web,Link budget calculations for uplink shall be based on a maximum BER of 1E-5 at decoder input.
+2012_stequest_mrd_web,Link budget calculation for downlink shall be based on a maximum FER of 1E-7 at decoder output.
+2012_stequest_mrd_web,Link budgets shall have a nominal margin of 3dB
+2012_stequest_mrd_web,"Timelines shall be supported, i.e. the execution of several commands according to a timeline and according to specified conditions."
+2012_stequest_mrd_web,Handling of nested timelines shall be possible.
+2012_stequest_mrd_web,"Housekeeping data from all spacecraft subsystems shall be acquired, processed, stored, and transmitted to ground independently."
+2012_stequest_mrd_web,"For all mission phases, the OBDH shall provide sufficient memory to store all data (science and platform housekeeping) in between downlinks and with a margin of 4 orbits."
+2012_stequest_mrd_web,The OBDH system shall provide for payload science and housekeeping data processing and storage.
+2012_stequest_mrd_web,The spacecraft time reference shall be UTC.
+2012_stequest_mrd_web,The OBDH shall support file-based operations. TBC R-CDH-090 On-board software updates shall be possible.
+2012_stequest_mrd_web,Mode changes through telecommand shall be possible.
+2012_stequest_mrd_web,The payload shall perform according to specifications in the on-board environment of the spacecraft during all nominal modes (defined in R- MIS-240).
+2012_stequest_mrd_web,The antennas for the microwave links shall be placed on a dedicated s/c face or panel compatible with their task with no obstructions within the main beamwidth of their radiation pattern.
+2012_stequest_mrd_web,"The optical link terminals shall be placed such that their beam can reach any point on the currently visible (i.e. reachable) face of the Earth from the current orbital position at any time during the orbit. Exception is during the execution of specific, time-limited, manoeuvres of the spacecraft."
+2012_stequest_mrd_web,The precise orbit determination equipment shall ensure the performance specified in section 5.
+2012_stequest_mrd_web,A GNSS receiver capable of receiving signals from least two independent GNSS constellations shall be used.
+2012_stequest_mrd_web,The GNSS receiver shall have an interface to receive an external clock reference providing signals in one single frequency. Note: this might include a pulse-per-second signal.
+2012_stequest_mrd_web,The spacecraft shall be equipped with corner cube reflectors compatible for use with the International Laser Ranging Service stations. Note: in case GNSS performance is not high enough to ensure POD.
+2012_stequest_mrd_web,The POD equipment shall be compatible with the standard spacecraft reliability requirements in Section 6.2.3.
+2012_stequest_mrd_web,The spacecraft shall be compatible with launcher requirements.
+2012_stequest_mrd_web,The spacecraft shall provide all necessary interfaces to the payload.
+2012_stequest_mrd_web,The spacecraft shall be compatible with standard practices for ground operations. No special requirements have been identified.
+2012_stequest_mrd_web,The spacecraft shall be compatible with the environment specified in [AD 5].
+2012_stequest_mrd_web,The spacecraft shall be compatible with standard ground handling environments (TBC)
+2012_stequest_mrd_web,The spacecraft shall be compatible with the thermal-vacuum environment expected during all mission phases described in [AD 13]
+2012_stequest_mrd_web,Standard cleanliness and contamination requirements for missions to Earth orbit shall apply.
+2012_stequest_mrd_web,"The spacecraft shall be compatible with the predicted energetic particle environment for all mission phases, described in [AD 13]"
+2012_stequest_mrd_web,"The spacecraft shall be compatible with the micrometeoroid environment predicted for all mission phases, as described in[AD 13]"
+2012_stequest_mrd_web,The spacecraft shall be compatible with the standard EMC requirements.
+2012_stequest_mrd_web,The AIV programme shall include a clear path of timely (at least 24 months before launch TBC) payload delivery and a clear AIT process of all instruments to be implemented on the S/C.
+2012_stequest_mrd_web,There shall be a dedicated single mission operations centre run by ESA and a dedicated science operation centre for centralized science data processing and storage.
+2012_stequest_mrd_web,The mission shall support file-based operations (TBC).
+2012_stequest_mrd_web,The ground segment shall be split into the ground segment for mission and spacecraft control as well as telemetry reception (mission operations) and the science ground terminals for the clock comparison links (science operations)
+2012_stequest_mrd_web,"The mission operations segment shall forward science telemetry as well as applicable housekeeping data (such as range, range-rate, status data) to the science operations centre."
+2012_stequest_mrd_web,"Mission Operations Centre shall be responsible for spacecraft operations after launch, including mission planning, spacecraft monitoring and control, and orbit and attitude determination and control."
+2012_stequest_mrd_web,"MOC shall be responsible for STE-QUEST science operations, including instrument control, collection of science data and transmission to the SOC, and intervention in case of anomalies."
+2012_stequest_mrd_web,MOC shall provide all science telemetry to SOC following reception via internet.
+2012_stequest_mrd_web,MOC shall provide quick-look orbitography data to the SOC to an accuracy of 10 m TBC as soon as the data becomes available.
+2012_stequest_mrd_web,SOC shall be responsible for instrument characterization and calibration.
+2012_stequest_mrd_web,SOC shall be responsible for operating the ground terminals for the clock comparison links.
+2012_stequest_mrd_web,SOC shall be responsible for analysing the science data received from the spacecraft via the MOC as well as data reduction and coordination of the production of the final scientific products.
+2012_stequest_mrd_web,The SOC shall be supported by DPCs (Data Processing Centres) for generation of higher level science data products.
+2012_stequest_mrd_web,"The SOC shall be supported by Instrument Operation Centres (IOCs) for the operation and monitoring of instruments, as well as data processing."
+2012_stequest_mrd_web,SOC shall prepare the science operations plan and provide operational requests to the MOC
+2012_stequest_mrd_web,SOC shall be responsible for the science data archive.
+2012_stequest_mrd_web,The complete set of STE-QUEST raw data and higher data products shall be archived at the SOC
+2012_stequest_mrd_web,"The mission shall rely on a maximum of two MOC ground stations for TT&C during nominal operations. Note: Propositions for a suitable ground station, that is part of the available stations in the ESTRACK network, are encouraged. Two G/S might be required to cover gaps in single station coverage, however, one G/S is preferred. As a baseline for the current baseline orbit, New Norcia and Malargüe can be assumed as ground stations."
+2012_stequest_mrd_web,The clock measurements shall be done with ground terminals linked to high precision clocks meeting the science requirements.
+2012_stequest_mrd_web,"There shall be at least 3 ground terminal locations. Note: as an example, ground terminals shall be located sufficiently near (as required by the link performance) to the high-performance ground clocks in Boulder (US), Turin (IT), and Tokyo (JP)."
+2012_stequest_mrd_web,At least one microwave and one optical ground terminal shall be transportable. (Note: For calibration purposes at least one optical and microwave terminal shall be available)
+2012_stequest_mrd_web,"The ground terminals shall be located such that the projection of the difference vector (G/T’s – centre of Earth) on the equatorial plane between any pairs of different ground terminals has a length of at least 4500 km. Note: If there are more than 3 ground terminals, only three of them have to fulfil this requirement."
+2012_stequest_mrd_web,The ground terminals design shall be equipped with high-precision position and velocity determination equipment down to at least 1 m (TBC) in all directions.
+2012_stequest_mrd_web,Operation of the spacecraft shall be possible during all mission phases using either direct communication with ground or on-board intelligence using on-board storage followed by periodic communication.
+2012_stequest_mrd_web,It shall be possible to upload timelines with commands for on-board time- tagged deferred execution for at least 10 days.
+2012_stequest_mrd_web,The spacecraft shall perform autonomously a nominal operation scenario when ground intervention is not possible.
+2012_stequest_mrd_web,"The spacecraft shall respond to on-board failures by switching, independently from ground control, to a redundant functional path for operations critical to mission survival."
+2012_stequest_mrd_web,All spacecraft components and payload items shall be predicted to reach TRL 5 or higher by the end of 2014.
+2012_stequest_mrd_web,The schedule for Phases A/B/C/D shall be compatible with a 2022 launch date.
+2012_stequest_mrd_web,"The overall mission cost to ESA shall be less than 470 M€ Cost at Completion, e.c. 2011, excluding the parts of the payload that are nationally provided."
